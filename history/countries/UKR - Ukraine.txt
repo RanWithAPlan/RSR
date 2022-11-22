@@ -82,40 +82,26 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = insurrectionary_anarchism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	insurrectionary_anarchism =  49
+	authoritarian_socialism = 18
+	council_communism = 21
+	social_democracy = 12
 }
 
 create_country_leader = {
-	name = "Kost Levytsky"
+	name = "Nestor Mahkno"
 	desc = ""
-	picture = GFX_portrait_Kost_Levytsky
+	picture = 
 	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchyov"
-	desc = ""
-	picture = GFX_portrait_Nikita_Sergeyevich_Khrushchyov
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = GFX_portrait_Stepan_Bandera
-	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = insurrectionary_anarchism_subtype
 	traits = {
 		
 	}
