@@ -90,10 +90,10 @@ set_politics = {
 }
 
 set_popularities = {
-	insurrectionary_anarchism =  49
-	authoritarian_socialism = 18
-	council_communism = 21
-	social_democracy = 12
+	anarchism =  70
+	radical_socialism = 10
+	council_communism = 10
+	social_democracy = 10
 }
 
 create_country_leader = {
