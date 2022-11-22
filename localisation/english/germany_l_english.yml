@@ -6,8 +6,8 @@
  GER_council_communism:0 "People's Republic of Germany"
  GER_council_communism_DEF:0 "The People's Republic of Germany"
  
- GER_insurrectionary_anarchism_party:0 "--"
- GER_authoritarian_socialism_party:0 "KPD"
+ GER_anarchism_party:0 "--"
+ GER_radical_socialism_party:0 "KPD"
  GER_council_communism_party:0 "SL"
  GER_council_communism_party_long:0 "Spartacist League"
  GER_social_democracy_party:0 "SDP"
@@ -15,7 +15,7 @@
  GER_progressive_liberalism_party:0 "--"
  GER_freemarket_liberalism_party:0 "--"
  GER_conservative_democracy_party:0 "--"
- GER_authoritarian_democracy_party:0 "--"
+ GER_Radical_democracy_party:0 "--"
  GER_paternal_autocrats_party:0 "--"
  GER_fascism_party:0 "--"
  

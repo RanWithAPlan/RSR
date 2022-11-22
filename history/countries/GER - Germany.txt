@@ -169,16 +169,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	insurrectionary_anarchism = 9
-	council_communism = 51
-	authoritarian_socialism = 12
-	social_democracy = 8
-	progressive_liberalism = 2
-	freemarket_liberalism = 3
-	conservative_democracy = 2
-	authoritarian_democracy = 3
-	paternal_autocrats = 4
-	fascism = 6
+	anarchism = 30
+	council_communism = 45
+	radical_socialism = 22
+	social_democracy = 2
+	progressive_liberalism = 1
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	paternal_autocrats = 0
+	fascism = 0
 }
 
 create_faction = Internationale

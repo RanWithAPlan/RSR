@@ -1,45 +1,56 @@
 ﻿l_english:
  
  ### THING TO COPY FROM ###
- XXX_insurrectionary_anarchism_party:0 "--"
- XXX_authoritarian_socialism_party:0 "--"
+ XXX_anarchism_party:0 "--"
+ XXX_radical_socialism_party:0 "--"
  XXX_council_communism_party:0 "--"
  XXX_social_democracy_party:0 "--"
  XXX_progressive_liberalism_party:0 "--"
  XXX_freemarket_liberalism_party:0 "--"
  XXX_conservative_democracy_party:0 "--"
- XXX_authoritarian_democracy_party:0 "--"
+ XXX_Radical_democracy_party:0 "--"
  XXX_paternal_autocrats_party:0 "--"
  XXX_fascism_party:0 "--"
  
- insurrectionary_anarchism:0 "Insurrectionary Anarchism"
- insurrectionary_anarchism_desc:0 "Statless Society"
+ anarchism:0 "Anarchism"
+ anarchism_desc:0 "Statless"
  
- authoritarian_socialism:0 "Authoritarian Socialism"
- authoritarian_socialism_desc:0 "Authoritarian Regime"
+ radical_socialism:0 "Radical Socialism"
+ radical_socialism_desc:0 "Socialist"
 
  council_communism:0 "Council Communism"
- council_communism_desc:0 "Communist Regime"
+ council_communism_desc:0 "Socialist"
  
  social_democracy:0 "Social Democracy"
- social_democracy_desc:0 "Social Democratic Regime"
+ social_democracy_desc:0 "Democratic Capitalist"
  
  progressive_liberalism:0 "Progressive Liberalism"
- progressive_liberalism_desc:0 "Liberal Regime"
+ progressive_liberalism_desc:0 "Democratic Capitalist"
  
  freemarket_liberalism:0 "Freemarket Liberalism"
- freemarket_liberalism_desc:0 "Libertarian Regime"
+ freemarket_liberalism_desc:0 "Democratic Capitalist"
  
  conservative_democracy:0 "Conservative Democracy"
- conservative_democracy_desc:0 "Conservative Regime"
+ conservative_democracy_desc:0 "Democratic Capitalist"
  
- authoritarian_democracy:0 "Authoritarian Democracy"
- authoritarian_democracy_desc:0 "Authoritarian Regime"
+ Authoritarian_democracy:0 "Radical Democracy"
+ Authoritarian_democracy_desc:0 "Authoritarian"
  
  paternal_autocrats:0 "Paternal Autocrats"
- paternal_autocrats_desc:0 "Autocratic Regime"
+ paternal_autocrats_desc:0 "Authoritarian"
  
  fascism:0 "Fascism"
- fascism_desc:0 "Fascist Regime"
+ fascism_desc:0 "Authoritarian"
+
+ GER_anarchism_party:0 "Anarchisten"
+ GER_radical_socialism_party:0 "Zentralisten"
+ GER_council_communism_party:0 "Dezentralisten"
+ GER_social_democracy_party:0 "__"
+ GER_progressive_liberalism_party:0 "--"
+ GER_freemarket_liberalism_party:0 "--"
+ GER_conservative_democracy_party:0 "--"
+ GER_Radical_democracy_party:0 "--"
+ GER_paternal_autocrats_party:0 "--"
+ GER_fascism_party:0 "--"
  
  
