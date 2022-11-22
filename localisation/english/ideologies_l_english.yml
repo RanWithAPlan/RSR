@@ -1,0 +1,45 @@
+﻿l_english:
+ 
+ ### THING TO COPY FROM ###
+ XXX_insurrectionary_anarchism_party:0 "--"
+ XXX_authoritarian_socialism_party:0 "--"
+ XXX_council_communism_party:0 "--"
+ XXX_social_democracy_party:0 "--"
+ XXX_progressive_liberalism_party:0 "--"
+ XXX_freemarket_liberalism_party:0 "--"
+ XXX_conservative_democracy_party:0 "--"
+ XXX_authoritarian_democracy_party:0 "--"
+ XXX_paternal_autocrats_party:0 "--"
+ XXX_fascism_party:0 "--"
+ 
+ insurrectionary_anarchism:0 "Insurrectionary Anarchism"
+ insurrectionary_anarchism_desc:0 "Statless Society"
+ 
+ authoritarian_socialism:0 "Authoritarian Socialism"
+ authoritarian_socialism_desc:0 "Authoritarian Regime"
+
+ council_communism:0 "Council Communism"
+ council_communism_desc:0 "Communist Regime"
+ 
+ social_democracy:0 "Social Democracy"
+ social_democracy_desc:0 "Social Democratic Regime"
+ 
+ progressive_liberalism:0 "Progressive Liberalism"
+ progressive_liberalism_desc:0 "Liberal Regime"
+ 
+ freemarket_liberalism:0 "Freemarket Liberalism"
+ freemarket_liberalism_desc:0 "Libertarian Regime"
+ 
+ conservative_democracy:0 "Conservative Democracy"
+ conservative_democracy_desc:0 "Conservative Regime"
+ 
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Authoritarian Regime"
+ 
+ paternal_autocrats:0 "Paternal Autocrats"
+ paternal_autocrats_desc:0 "Autocratic Regime"
+ 
+ fascism:0 "Fascism"
+ fascism_desc:0 "Fascist Regime"
+ 
+ 
