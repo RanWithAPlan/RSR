@@ -12,7 +12,7 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	early_mobilisation
+	low_economic_mobilisation
 }
 
 recruit_character = MON_genepil_khan
