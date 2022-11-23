@@ -5,14 +5,19 @@ state={
 		783 944 973 3944 6806 9766 9897 11906 12482 13259 13260 13261 
 	}
 	history = {
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		owner = KPA
+		add_core_of = KPA
+		add_claim_by = MAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3
 			arms_factories = 2
+		}
+		victory_points = {
+			13260 5
+		}
+		victory_points = {
+			973 3
 		}
 	}
 	manpower=2010561
