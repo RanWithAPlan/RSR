@@ -137,39 +137,6 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	progressive_liberalism = {
-	
-		types = { 
-			progressive_liberalism_subtype = {}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_LIBERAL_1"
-		}
-		
-		color = { 248 136 70 }
-		
-		rules = {
-			can_create_collaboration_government = no
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = no
-			can_create_factions = no 
-			can_join_factions = no
-		}
-		
-		can_host_government_in_exile = yes
-		
-		modifiers = {
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5.0
-		}
-		
-		ai_neutral = yes
-	}
-	
 	freemarket_liberalism = {
 	
 		types = {
@@ -274,7 +241,7 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	despotism= {
+	despotism = {
 	
 		types = { 
 			despotism_subtype = {
