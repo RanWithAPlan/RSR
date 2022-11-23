@@ -1239,11 +1239,6 @@ set_popularities = {
 	communism = 88
 }
 
-create_faction = Comintern
-add_to_faction = SOV
-add_to_faction = MON
-add_to_faction = TAN
-
 if = {
 	limit = {
 		has_dlc = "La Resistance"
