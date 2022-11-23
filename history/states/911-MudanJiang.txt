@@ -1,0 +1,22 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		783 944 973 3944 6806 9766 9897 11906 12482 13259 13260 13261 
+	}
+	history = {
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factories = 2
+		}
+	}
+	manpower=2010561
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}
