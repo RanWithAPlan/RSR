@@ -5,11 +5,17 @@ oob = "MON_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_support = 1
 }
 
 add_ideas = {
 	limited_conscription
+	low_economic_mobilisation
 }
+
+recruit_character = MON_genepil_khan
 
 recruit_character = MON_anandyn_amar
 recruit_character = MON_mingzhu_zhanshan
@@ -34,8 +40,8 @@ recruit_character = MON_pai_yun_ti
 
 1939.1.1 = {
 
-	add_political_power = 1198
-	add_command_power = 100
+	add_political_power = 1500
+	add_command_power = 150
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -53,6 +59,9 @@ recruit_character = MON_pai_yun_ti
 	set_technology = {
 		support_weapons = 1
 		gw_artillery = 1
+		tech_engineers = 1
+		tech_mountaineers = 1
+		tech_support = 1
 		
 		#doctrines
 		air_superiority = 1
@@ -79,21 +88,27 @@ recruit_character = MON_pai_yun_ti
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	communism = 100
+anarchism = 3
+council_communism = 0
+radical_socialism = 37
+social_democracy = 0
+freemarket_liberalism = 0
+conservative_democracy = 10
+despotism = 5
+autocracy = 40
+national_extremism = 5
 }
 
 1939.1.1 = {
 	add_ideas = {
-		limited_conscription
+		extensive_conscription
+		war_economy
 	}
-
-	recruit_character = MON_khorloogiin_choibalsan
-	promote_character = MON_khorloogiin_choibalsan
-	retire_character = MON_anandyn_amar
 }
