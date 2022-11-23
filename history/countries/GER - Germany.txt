@@ -176,9 +176,9 @@ set_popularities = {
 	progressive_liberalism = 1
 	freemarket_liberalism = 0
 	conservative_democracy = 0
-	authoritarian_democracy = 0
-	paternal_autocrats = 0
-	fascism = 0
+	autocracy = 0
+	despotism = 0
+	national_extremism = 0
 }
 
 create_faction = Internationale

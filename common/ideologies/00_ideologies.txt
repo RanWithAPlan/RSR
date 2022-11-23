@@ -241,10 +241,10 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	authoritarian_democracy = {
+	autocracy = {
 	
 		types = { 
-			authoritarian_democracy_subtype = {
+			autocracy_subtype = {
 			
 			}
 		}
@@ -274,10 +274,10 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	paternal_autocrats= {
+	despotism= {
 	
 		types = { 
-			paternal_autocrats_subtype = {
+			despotism_subtype = {
 			
 			}
 		}
@@ -307,16 +307,16 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	fascism = {
+	national_extremism = {
 	
 		types = { 
-			fascism_subtype = {
+			national_extremism_subtype = {
 			
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_FASCISM_1"
+			"FACTION_NAME_NATIONAL_EXTREMISM_1"
 		}
 		
 		color = { 130 76 26 }

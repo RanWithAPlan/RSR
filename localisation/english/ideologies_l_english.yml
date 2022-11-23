@@ -9,8 +9,8 @@
  XXX_freemarket_liberalism_party:0 "--"
  XXX_conservative_democracy_party:0 "--"
  XXX_Radical_democracy_party:0 "--"
- XXX_paternal_autocrats_party:0 "--"
- XXX_fascism_party:0 "--"
+ XXX_despotism_party:0 "--"
+ XXX_national_extremism_party:0 "--"
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Stateless"
@@ -47,19 +47,19 @@
  
  conservative_democracy_subtype:0 "Conservative Democracy"
  
- authoritarian_democracy:0 "Radical Democracy"
- authoritarian_democracy_desc:0 "Authoritarian"
+ autocracy:0 "Autocracy"
+ autocracy_desc:0 "Reactionary"
  
- authoritarian_democracy_subtype:0 "Authoritarian Democracy"
+ autocracy_subtype:0 "Autocracy"
  
- paternal_autocrats:0 "Paternal Autocrats"
- paternal_autocrats_desc:0 "Authoritarian"
+ despotism:0 "Despotism"
+ despotism_desc:0 "Reactionary"
  
- paternal_autocrats_subtype:0 "Paternal Autocrats"
+ despotism_subtype:0 "Despotism"
  
- fascism:0 "Fascism"
- fascism_desc:0 "Authoritarian"
+ national_extremism:0 "National Extremism"
+ national_extremism_desc:0 "Reactionary"
  
- fascism_subtype:0 "Fascism"
+ national_extremism_subtype:0 "National Extremism"
  
  

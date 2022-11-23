@@ -3,12 +3,12 @@
  GER:0 "Germany"
  GER_DEF:0 "Germany"
  GER_ADJ:0 "German"
- GER_council_communism:0 "Socialist Federation of Germany"
- GER_council_communism_DEF:0 "The Socialist Federation of Germany"
- GER_radical_socialism:0 "Socialist Federation of Germany"
- GER_radical_socialism_DEF:0 "The Socialist Federation of Germany"
- GER_anarchism:0 "Socialist Federation of Germany"
- GER_anarchism_DEF:0 "The Socialist Federation of Germany"
+ GER_council_communism:0 "German Socialist Republic"
+ GER_council_communism_DEF:0 "the German Socialsit Republic"
+ GER_radical_socialism:0 "German Socialist Republic"
+ GER_radical_socialism_DEF:0 "the German Socialist Republic"
+ GER_anarchism:0 "German Socialist Republic"
+ GER_anarchism_DEF:0 "the German Socialist Republic"
  
  GER_anarchism_party:0 "Anarchisten"
  GER_radical_socialism_party:0 "Zentralisten"
@@ -19,8 +19,8 @@
  GER_freemarket_liberalism_party:0 "--"
  GER_conservative_democracy_party:0 "--"
  GER_Radical_democracy_party:0 "--"
- GER_paternal_autocrats_party:0 "--"
- GER_fascism_party:0 "--"
+ GER_despotism_party:0 "--"
+ GER_national_extremism_party:0 "--"
  
  
  

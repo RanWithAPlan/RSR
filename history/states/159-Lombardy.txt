@@ -8,7 +8,7 @@ state = {
 	history = {
 		owner = ITA
 		victory_points = { #Milano
-			3780 15 
+			3780 20
 		}
 		victory_points = { #Brescia
 			773 3
