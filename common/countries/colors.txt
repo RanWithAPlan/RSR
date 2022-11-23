@@ -1,4 +1,8 @@
 #reload countrycolors
+KPA = {
+	color = rgb { 255  240  195 }
+	color_ui = rgb { 255 248 229 }	
+}
 RHE = {
 	color = rgb { 0 97 66 }
 	color_ui = rgb { 25 51 42 }

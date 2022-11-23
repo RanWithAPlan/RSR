@@ -1,3 +1,4 @@
+KPA = "countries/Korean_PA.txt"
 RHE = "countries/Rhineland.txt"
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
