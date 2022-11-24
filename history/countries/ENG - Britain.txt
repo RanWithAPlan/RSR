@@ -436,15 +436,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative_democracy
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
+	council_communism = 1
+	anarchism = 0
+	radical_socialism = 1
+	social_democracy = 39
+	progressive_liberalism = 7
+	freemarket_liberalism = 4
+	conservative_democracy = 48
+	national_extremism = 0
+	despotism = 0
+	
 }
 
 
