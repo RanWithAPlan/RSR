@@ -80,6 +80,21 @@
  natpoland.1.desc:0 "The power in Poland is split between two groups, Roman Dmowski, and the National Congress, and every year the congress convenes with Dmowski for a general meeting of the nation. This division however runs deep, even in the congress, as Dmowski and his supporters try every trick they know to win over supporters of the members of the congress. This trickery however isn't unique to Dmowski, and his opposition in the congress know it just as well, and the opposition deemed the 1936 congress to be the time to strike against Dmowski. This plot took the face of bombing the congress when Dmowski and his supporters are all in one room together, but it's success is risky, and Dmowski could discover it at any time."
  natpoland.1.a:0 "The Plot Continues Unseen"
  natpoland.1.b:0 "The Plot is Thwarted"
+ natpoland.2.title:0 "The Plot Continues"
+ natpoland.2.desc:0 ""
+ natpoland.2.a:0 "With a Boom Dmowski and His Supporters Are Sent to Hell"
+ natpoland.2.b:0 "Dmowski is Tipped Off and The Plans Fails"
+ natpoland.3.title:0 "The National Congress Seizes Power"
+ natpoland.3.desc:0 ""
+ natpoland.3.a:0 "The Tyrant Is Dead!"
+ natpoland.4.title:0 "The National Congress Suspended"
+ natpoland.4.desc:0 ""
+ natpoland.4.a:0 "This Crime Will Not Go Unpunished"
  
+ POL_dmowski_dead:0 "Dmowski Has Been Killed"
+ POL_congress_complete:0 "The 1936 National Congress Has Concluded"
+ POL_plot_thwarted:0 "Plot on Dmowski's Life Has Been Thwarted"
+ 
+ POL_national_collectivism:0 "National Collectivism"
  
  

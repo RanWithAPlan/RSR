@@ -15,8 +15,8 @@ country_event = { # The National Congress of 1936
 		ai_chance = { factor = 50 }
 		hidden_effect = {
 			country_event = {
-				id = natpoland.
-				days = 
+				id = natpoland.2
+				days = 3
 			}
 		}
 	}
@@ -27,9 +27,94 @@ country_event = { # The National Congress of 1936
 		ai_chance = { factor = 50 }
 		hidden_effect = {
 			country_event = {
-				id = natpoland.
-				days = 
+				id = natpoland.4
+				days = 3
 			}
+			set_country_flag = POL_congress_complete
+			set_country_flag = POL_plot_thwarted
+		}
+	}
+}
+
+country_event = { # The Plot Continues
+	id = natpoland.2 
+	title = natpoland.2.title
+	desc = natpoland.2.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # With a Boom Dmowski and His Supporters Are Sent to Hell
+		name = natpoland.2.a
+		ai_chance = { factor = 75 }
+		hidden_effect = {
+			country_event = {
+				id = natpoland.3
+				days = 1
+			}
+			set_country_flag = POL_dmowski_dead
+			set_country_flag = POL_congress_complete	
+			kill_country_leader = yes
+			create_country_leader = {
+			name = "National Congress"
+			desc = ""
+			picture = "gfx/leaders/"
+			expire = "1965.1.1"
+			ideology = subtype_national_federalism
+			}
+		}
+	}
+	
+	
+	option = { # Dmowski is Tipped Off and The Plans Fails
+		name = natpoland.2.b
+		ai_chance = { factor = 25 }
+		hidden_effect = {
+			country_event = {
+				id = natpoland.4
+				days = 3
+			}
+			set_country_flag = POL_congress_complete
+			set_country_flag = POL_plot_thwarted
+		}
+	}
+}
+
+country_event = { # The National Congress Seizes Power
+	id = natpoland.3 
+	title = natpoland.3.title
+	desc = natpoland.3.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # The Tyrant Is Dead!
+		name = natpoland.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		add_stability = -0.05
+		}
+	}
+}
+
+country_event = { # The National Congress Suspended
+	id = natpoland.4 
+	title = natpoland.4.title
+	desc = natpoland.4.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # This Crime Will Not Go Unpunished
+		name = natpoland.4.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
 		}
 	}
 }

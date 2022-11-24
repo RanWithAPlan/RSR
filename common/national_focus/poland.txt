@@ -28,10 +28,11 @@ focus_tree = {
 		}
 
 		available = {
+			has_country_flag = POL_congress_complete
 		}
 		
 		bypass = {
-
+			has_country_flag = POL_congress_complete
 		}
 
 		cancel_if_invalid = yes
@@ -45,10 +46,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			country_event = {
-				id = natpoland.1
-				days = 0
-			}
 		}
 	}
 	
@@ -69,6 +66,7 @@ focus_tree = {
 		}
 
 		available = {
+		has_country_flag = POL_plot_thwarted
 		}
 		
 		bypass = {
@@ -86,7 +84,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			add_political_power = 100
 		}
 	}
 	
@@ -414,6 +412,7 @@ focus_tree = {
 		}
 
 		available = {
+		has_country_flag = POL_dmowski_dead
 		}
 		
 		bypass = {
@@ -431,7 +430,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			add_political_power = 100
 		}
 	}
 	
@@ -469,7 +468,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			add_ideas = POL_national_collectivism
 		}
 	}
 	
