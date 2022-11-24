@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  FRA:0 "France"
  FRA_DEF:0 "France"
  FRA_ADJ:0 "French"
@@ -43,7 +43,7 @@
  FRA_social_democracy_party_long:2 "Section Française de l'Internationale Ouvrière"
  FRA_progressive_liberalism_party:0 "Parti Radical"
  FRA_freemarket_liberalism_party:0 "Fédération républicaine"
- FRA_conservative_democracy_party:0 "Democratic Republican Alliance"
+ FRA_conservative_democracy_party:0 "Alliance démocratique"
  FRA_autocracy_party:0 "Military Government"
  FRA_despotism:0 "Action Française"
  FRA_national_extremism_party:0 "Mouvement Franciste"
