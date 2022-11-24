@@ -22,6 +22,17 @@ recruit_character = MEN_nalan_kang_an
 recruit_character = MEN_songgotu_zhanshan
 recruit_character = MEN_megata_toshiro
 
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = MON
+		type = annex_everything
+	}
+}
+
 1939.1.1 = {
 
 	add_to_war = {
