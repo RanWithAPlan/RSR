@@ -384,10 +384,6 @@ if = {
 		not = { has_dlc = "Waking the Tiger" }
 	}
 	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
 		target = MAN
 		autonomous_state = autonomy_integrated_puppet
 	}
