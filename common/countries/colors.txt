@@ -265,16 +265,17 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	color = rgb { 197  139  222 }
-	color_ui = rgb { 197  139  222 }
+	#color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 108 140 42 }
+	color_ui = rgb { 209 247 133 }
 }
 MEN = {
-	color = rgb { 153  158  3 }
-	color_ui = rgb { 153  158  3 }
+	color = rgb { 185  255  152 }
+	color_ui = rgb { 165  230  132 }
 }
 TAN = {
-	color = rgb { 171  48  48 }
-	color_ui = rgb { 171  48  48 }
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
 }
 PAR = {
 	color = rgb { 57 113 228 }
