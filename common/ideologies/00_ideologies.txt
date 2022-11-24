@@ -280,6 +280,14 @@ ideologies = {
 			national_extremism_subtype = {
 			
 			}
+			
+			subtype_national_federalism = {
+			
+			}
+			
+			subtype_ultranationalism= {
+			
+			}
 		}
 		
 		dynamic_faction_names = {
