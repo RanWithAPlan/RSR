@@ -1,4 +1,5 @@
-1_english:
+﻿l_english:
+ 
  POL_national_extremism:0 "Polish National Republic"
  POL_national_extremism_DEF:0 "The Polish National Republic"
  POL_social_democracy:0 "Polish Republic"
@@ -50,3 +51,6 @@
  POL_SOV_anarchism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  SOV_council_communism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  SOV_radical_socialism_subject_DEF:0 "the Polish Soviet Socialist Republic"
+ 
+ 
+ 
