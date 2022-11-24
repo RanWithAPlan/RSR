@@ -1,9 +1,9 @@
-add_namespace = poland
+add_namespace = natpoland
 
 country_event = { # The National Congress of 1936
-	id = poland.1 
-	title = poland.1.title
-	desc = poland.1.desc
+	id = natpoland.1 
+	title = natpoland.1.title
+	desc = natpoland.1.desc
 	picture = GFX_
 	
 	is_triggered_only = yes
@@ -11,11 +11,11 @@ country_event = { # The National Congress of 1936
 	fire_only_once = yes
 	
 	option = { # The Plot Continues Unseen
-		name = poland.1.a
+		name = natpoland.1.a
 		ai_chance = { factor = 50 }
 		hidden_effect = {
 			country_event = {
-				id = poland.
+				id = natpoland.
 				days = 
 			}
 		}
@@ -23,11 +23,11 @@ country_event = { # The National Congress of 1936
 	
 	
 	option = { # The Plot is Thwarted
-		name = poland.1.b
+		name = natpoland.1.b
 		ai_chance = { factor = 50 }
 		hidden_effect = {
 			country_event = {
-				id = poland.
+				id = natpoland.
 				days = 
 			}
 		}

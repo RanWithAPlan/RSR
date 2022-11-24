@@ -16,7 +16,7 @@ focus_tree = {
 		icon = GFX_focus_POL_plan_west
 		prerequisite = { focus =  }
 		mutually_exclusive = { focus =  }
-		cost = 5
+		cost = 10
 		x = 15
 		y = 0
 		relative_position_id = 
@@ -45,7 +45,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			country_event = {
+				id = natpoland.1
+				days = 0
+			}
 		}
 	}
 	
