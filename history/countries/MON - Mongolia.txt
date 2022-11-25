@@ -95,9 +95,9 @@ set_politics = {
 }
 
 set_popularities = {
-anarchism = 3
+anarchism = 13
 council_communism = 1
-radical_socialism = 33
+radical_socialism = 23
 social_democracy = 1
 freemarket_liberalism = 1
 progressive_liberalism = 1
