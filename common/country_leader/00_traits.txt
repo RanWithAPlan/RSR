@@ -24,7 +24,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
+	
+	battlemistress = {
+		random = no
+		war_support_factor = 0.10
+		army_speed_factor = 0.02
+		army_morale_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	dictator = {
 		random = no
 		political_power_factor = 0.25
