@@ -52,19 +52,23 @@ recruit_character = AUS_eugen_beyer
 recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 
-
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1930.11.9"
-	election_frequency = 48
+	ruling_party = autocracy
+	last_election = "1934.3.26"
+	election_frequency = 60
 	elections_allowed = no
 }
-
-set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	set_popularities = {
+	council_communism = 0
+	anarchism = 0
+	radical_socialism = 10
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	autocracy = 40
+	despotism = 25
+	national_extremism = 25
 }
 
 set_stability = 0.50
