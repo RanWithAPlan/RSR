@@ -1,4 +1,5 @@
-l_english:
+﻿l_english:
+ 
  POL_national_extremism_party:0 "ONR-Falanga"
  POL_national_extremism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
  POL_natdem_party:0 "ND"
@@ -2282,6 +2283,9 @@ l_english:
  TTS_national_extremism_party:1 "Partito Partenopea Fascista"
  TTS_despotism_party:0 "Kings Party"
  TTS_autocracy_party:0 "Kings Party"
+
+ 
+ 
 
  
  
