@@ -116,7 +116,7 @@ create_country_leader = {
 	
 country_event = {
 	id = natpoland.1
-	days = 5
+	days = 160
 }
 
 

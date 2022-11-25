@@ -91,10 +91,33 @@
  natpoland.4.desc:0 ""
  natpoland.4.a:0 "This Crime Will Not Go Unpunished"
  
+ 
+ 
  POL_dmowski_dead:0 "Dmowski Has Been Killed"
  POL_congress_complete:0 "The 1936 National Congress Has Concluded"
  POL_plot_thwarted:0 "Plot on Dmowski's Life Has Been Thwarted"
+ POL_party_weakness_99:0 "Non-Loyal Party Members Discredited"
+ POL_party_weakness_98:0 "National Congress Unable to Pass Laws"
+ POL_party_weakness_97:0 "Non-Loyal Party Members Caught in Scandal"
+ POL_party_weakness_96:0 "National Congress Unable to Sentance Criminals"
+ POL_party_weakness_95:0 "Military Removed From The National Congress"
+ 
+ 
  
  POL_national_collectivism:0 "National Collectivism"
+ 
+ 
+ 
+ POL_weaken_the_party_tooltip:0 "§YUnlocks Decisions to Weaken The Opposition in The Party§!"
+ POL_weakens_party_influence:0 "Weakens The Party Opposition"
+ 
+ 
+ 
+ POL_weaken_party_decisions:0 "Weaken The Party"
+ POL_discredit_non_loyal_party_officals:0 "Discredit Non-Loyal Party Officals"
+ POL_suspend_law_making_abilities_from_national_congress:0 "Suspend Law-Making Abilities From The National Congress"
+ POL_frame_a_scandal:0 "Frame a Scandal"
+ POL_remove_congress_power_to_sentancing:0 "Remove The National Congresses Power to Sentancing"
+ POL_remove_the_generals_from_the_national_congress:0 "Remove The Generals From The National Congress"
  
  
