@@ -14,9 +14,9 @@
 
 leader_traits = {
 
-	empress_of_the_nation = {
+	beloved_queen_of_mongolia = {
 		random = no
-		political_power_factor = 0.25
+		political_power_factor = 0.05
 		stability_factor = 0.10
 		cavalry_attack_factor = 0.05
 
