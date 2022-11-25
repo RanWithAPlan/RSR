@@ -1,7 +1,7 @@
 characters={
 
 MON_genepil_khan={
-		name="Genepil Khan"
+		name="Genepil"
 		portraits={
 			civilian={
 				large="gfx/leaders/MON/genepil_khan.dds"
@@ -9,7 +9,7 @@ MON_genepil_khan={
 		}
 		country_leader={
 			ideology=autocracy_subtype
-			traits={ empress_of_the_nation }
+			traits={}
 			expire="1965.1.1.1"
 		}
 	}
