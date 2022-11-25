@@ -731,16 +731,24 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_extremism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 20
-	fascism = 73
-	communism = 2
-	neutrality = 5
+	set_popularities = {
+	council_communism = 8
+	anarchism = 2
+	radical_socialism = 6
+	social_democracy = 5
+	progressive_liberalism = 2
+	freemarket_liberalism = 3
+	conservative_democracy = 17
+	autocracy = 5
+	despotism = 0
+	national_extremism = 52
+	}
+
 }
 
 recruit_character = ITA_benito_mussolini
