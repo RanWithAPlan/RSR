@@ -39,6 +39,6 @@ country_event = {
 			name = "Genepil Khan"
 		}
 		custom_effect_tooltip = genepil_tt
-		add_stability = 0.3
+		add_stability = 0.2
 	}
 }
