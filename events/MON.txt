@@ -4,7 +4,7 @@ country_event = {
     id = mon.endofwar
     title = mon.endofwar.t
     desc = mon.endofwar.d
-	picture = GFX_MON_endofawar
+	picture = GFX_MON_endofwar
     
     trigger = {
 	original_tag = MON
