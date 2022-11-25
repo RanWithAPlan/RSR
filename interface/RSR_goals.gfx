@@ -1,0 +1,22 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_GER_council_elections"
+		texturefile = "gfx/interface/goals/GER_council_elections.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_anarchisten_victory"
+		texturefile = "gfx/interface/goals/GER_anarchisten_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_dezentralisten_victory"
+		texturefile = "gfx/interface/goals/GER_dezentralisten_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_zentralisten_victory"
+		texturefile = "gfx/interface/goals/GER_zentralisten_victory.png"
+	}
+	SpriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/goals/.png"
+	}
+}
