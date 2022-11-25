@@ -1,7 +1,7 @@
  l_English:
- ITA:0 "ITAly"
- ITA_DEF:0 "ITAly"
- ITA_ADJ:0 "ITAlian"
+ ITA:0 "Italy"
+ ITA_DEF:0 "Italy"
+ ITA_ADJ:0 "Italian"
  ITA_subject:0 "$OVERLORDADJ$ $ITA$"
  ITA_subject_DEF:0 "$OVERLORDADJ$ $ITA$"
  
