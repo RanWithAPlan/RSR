@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  POL_national_extremism_party:0 "ONR-Falanga"
  POL_national_extremism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
  POL_natdem_party:0 "ND"
@@ -357,10 +357,10 @@
  CAN_anarchism_party_long:0 "Anarchist Federation of Workers"
  CAN_council_communism_party_long:0 "Communist Party of Canada"
  CAN_radical_socialism_party_long:0 "Socialist Party of Canada"
- CAN_despotism_party:0 "Canadian Junta"
- CAN_autocracy_party:0 "Royal Party"
- CAN_despotism_party_long:0 "Canadian Junta"
- CAN_autocracy_party_long:0 "Canadian Royal Party"
+ CAN_despotism_party:0 "Royal Party"
+ CAN_autocracy_party:0 "Reconstruction Party of Canada"
+ CAN_despotism_party_long:0 "Canadian Royal Party"
+ CAN_autocracy_party_long:0 "Reconstruction Party of Canada"
  AST_despotism_party:0 "ACP"
  AST_autocracy_party:0 "ACP"
  AST_despotism_party_long:0 "Australian Country Party"
