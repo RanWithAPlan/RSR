@@ -1,0 +1,41 @@
+characters={
+	GER_executive_council_anarchism = {
+		name = "Executive Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = anarchism_subtype
+		}
+	}
+	GER_executive_council_council_communism = {
+		name = "Executive Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = council_communism_subtype
+		}
+	}
+	GER_executive_council_radical_socialism = {
+		name = "Executive Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = radical_socialism_subtype
+		}
+	}
+}
