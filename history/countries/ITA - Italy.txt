@@ -1,5 +1,7 @@
 ﻿capital = 2
 
+puppet = ALB
+
 if = {
 	limit = {
 		NOT = {
