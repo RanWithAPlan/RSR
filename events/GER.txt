@@ -60,7 +60,11 @@ country_event = {
 	        ideology = anarchism
 	        popularity = 0.20
         }
-        set_country_flag = GER_anarchisten_election 
+        set_country_flag = GER_anarchisten_election
+        complete_national_focus = GER_anarchisten_victory 
+        country_event = {
+            id = socgermany_council.1
+        }
     }
     option = {
         name = socgermany.5.b
@@ -72,10 +76,14 @@ country_event = {
 	        ideology = council_communism
 	        popularity = 0.10
         }
-        set_country_flag = GER_zentralisten_election 
+        set_country_flag = GER_dezentralisten_election 
+        complete_national_focus = GER_dezentralisten_victory
+        country_event = {
+            id = socgermany_council.1
+        }
     }
     option = {
-        name = socgermany.5.b
+        name = socgermany.5.c
         ai_chance = {
             base = 15
         }
@@ -84,6 +92,64 @@ country_event = {
 	        ideology = radical_socialism
 	        popularity = 0.20
         }
-        set_country_flag = GER_dezentralisten_election 
+        set_country_flag = GER_zentralisten_election 
+        complete_national_focus = GER_zentralisten_victory
+        country_event = {
+            id = socgermany_council.1
+        }
+    }
+}
+
+add_namespace = socgermany_council
+country_event = {
+    id = socgermany_council.1
+    hidden = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = socgermany_council.1.a
+        set_variable = { var = GER_anarchisten_seats value = party_popularity@anarchism }
+        set_variable = { var = GER_dezentralisten_seats value = party_popularity@council_communism }
+        set_variable = { var = GER_zentralisten_seats value = party_popularity@radical_socialism }
+        multiply_variable = { var = GER_anarchisten_seats value = 100 }
+        multiply_variable = { var = GER_dezentralisten_seats value = 100 }
+        multiply_variable = { var = GER_zentralisten_seats value = 100 }
+        round_variable = GER_anarchisten_seats
+        round_variable = GER_dezentralisten_seats
+        round_variable = GER_zentralisten_seats
+        set_variable = { var = GER_total_seats_100 value = 100 }
+        set_variable = { var = GER_total_seats value = GER_anarchisten_seats }
+        add_to_variable = { var = GER_total_seats value = GER_dezentralisten_seats }
+        add_to_variable = { var = GER_total_seats value = GER_zentralisten_seats }
+        subtract_from_variable = { var = GER_total_seats_100 value = GER_total_seats }
+        if = {
+            limit = {
+                has_country_flag = GER_anarchisten_election
+            }   
+            add_to_variable = {
+                var = GER_anarchisten_seats value = GER_total_seats_100
+            }
+        }
+        else_if = {
+            limit = {
+                has_country_flag = GER_dezentralisten_election
+            }   
+            add_to_variable = {
+                var = GER_dezentralisten_seats value = GER_total_seats_100
+            }
+        }
+        else_if = {
+            limit = {
+                has_country_flag = GER_zentralisten_election
+            }   
+            add_to_variable = {
+                var = GER_zentralisten_seats value = GER_total_seats_100
+            }
+        }
+        clear_variable = GER_total_seats_100
+        clear_variable = GER_total_seats
+        set_country_flag = GER_executive_council_on
+        set_variable = { var = GER_seats_change value = -6 }
     }
 }

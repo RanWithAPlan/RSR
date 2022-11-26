@@ -33,23 +33,23 @@ focus_tree = {
 		select_effect = {
 			country_event = {
 				id = socgermany.1
-				days = 2
+				days = 1
 			}
 			country_event = {
 				id = socgermany.2
-				days = 5
+				days = 4
 			}
 			country_event = {
 				id = socgermany.3
-				days = 8
+				days = 7
 			}
 			country_event = {
 				id = socgermany.4
-				days = 11
+				days = 10
 			}
 			country_event = {
 				id = socgermany.5
-				days = 14
+				days = 13
 			}
 		}
 		completion_reward = {

@@ -1,0 +1,194 @@
+GER_executive_council_category = {
+    GER_seats_change_mission = {
+        activation = { has_country_flag = GER_executive_council_on }
+        available = {
+            always = no
+        }
+        priority = 30
+        custom_effect_tooltip = GER_seat_change_localisation
+        is_good = yes
+        days_mission_timeout = 90
+        timeout_effect = {
+            set_variable = { var = GER_seats_change_alternate value = GER_seats_change }
+            divide_variable = { var = GER_seats_change_alternate value = 2}
+            if = {
+                limit = {
+                    has_country_flag = GER_anarchisten_election
+                }   
+                add_to_variable = {
+                    var = GER_anarchisten_seats value = GER_seats_change
+                }
+                subtract_from_variable = {
+                    var = GER_dezentralisten_seats value = GER_seats_change_alternate
+                }
+                subtract_from_variable = {
+                    var = GER_zentralisten_seats value = GER_seats_change_alternate
+                }
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = GER_dezentralisten_election
+                }   
+                add_to_variable = {
+                    var = GER_dezentralisten_seats value = GER_seats_change
+                }
+                subtract_from_variable = {
+                    var = GER_zentralisten_seats value = GER_seats_change_alternate
+                }
+                subtract_from_variable = {
+                    var = GER_anarchisten_seats value = GER_seats_change_alternate
+                }
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = GER_zentralisten_election
+                }   
+                add_to_variable = {
+                    var = GER_zentralisten_seats value = GER_seats_change
+                }
+                subtract_from_variable = {
+                    var = GER_dezentralisten_seats value = GER_seats_change_alternate
+                }
+                subtract_from_variable = {
+                    var = GER_anarchisten_seats value = GER_seats_change_alternate
+                }
+            }
+            clear_variable = { GER_seats_change_alternate }
+            activate_mission = GER_seats_change_mission
+        }
+    }
+    #ideology exclusive
+    GER_rally_syndicate_support = {
+        icon = GFX_decision_generic_speech
+        allowed = { original_tag = GER }
+        visible = { has_country_flag = GER_anarchisten_election }
+        priority = 20
+        fire_only_once = no
+        days_remove = 30
+        days_re_enable = 90
+        modifier = {
+            consumer_goods_factor  = 0.05
+        }
+        cost = 20
+        remove_effect = {
+            add_to_variable = {
+                var = GER_seats_change value = 2
+                tooltip = GER_rally_syndicate_support_tt
+            }
+        }
+    }
+    GER_rally_local_support = {
+        icon = GFX_decision_generic_political_rally
+        allowed = { original_tag = GER }
+        visible = { has_country_flag = GER_dezentralisten_election }
+        priority = 20
+        fire_only_once = no
+        days_remove = 30
+        days_re_enable = 90
+        modifier = {
+            political_power_gain = -0.2
+        }
+        cost = 20
+        remove_effect = {
+            add_to_variable = {
+                var = GER_seats_change value = 2
+                tooltip = GER_rally_local_support_tt
+            }
+        }
+    }
+    GER_rally_military_support = {
+        icon = GFX_decision_generic_army_support
+        allowed = { original_tag = GER }
+        visible = { has_country_flag = GER_zentralisten_election }
+        priority = 20
+        fire_only_once = no
+        days_remove = 30
+        days_re_enable = 90
+        modifier = {
+            training_time_factor  = 0.1 
+        }
+        cost = 20
+        remove_effect = {
+            add_to_variable = {
+                var = GER_seats_change value = 2
+                tooltip = GER_rally_military_support_tt
+            }
+        }
+    }
+    #not ideology exclusive
+    GER_push_recall = {
+        icon = GFX_decision_generic_political_discourse
+        allowed = { original_tag = GER }
+        priority = 15
+        fire_only_once = no
+        days_remove = 10
+        days_re_enable = 120
+        cost = 20
+        remove_effect = {
+            if = {
+                limit = {
+                    has_country_flag = GER_anarchisten_election
+                }   
+                add_to_variable = {
+                    var = GER_anarchisten_seats value = 4
+                }
+                subtract_from_variable = {
+                    var = GER_dezentralisten_seats value = -2
+                }
+                subtract_from_variable = {
+                    var = GER_zentralisten_seats value = -2
+                }
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = GER_dezentralisten_election
+                }   
+                add_to_variable = {
+                    var = GER_dezentralisten_seats value = 4
+                }
+                subtract_from_variable = {
+                    var = GER_zentralisten_seats value = -2
+                }
+                subtract_from_variable = {
+                    var = GER_anarchisten_seats value = -2
+                }
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = GER_zentralisten_election
+                }   
+                add_to_variable = {
+                    var = GER_zentralisten_seats value = 4
+                }
+                subtract_from_variable = {
+                    var = GER_dezentralisten_seats value = -2
+                }
+                subtract_from_variable = {
+                    var = GER_anarchisten_seats value = -2
+                }
+            }
+            add_to_variable = {
+                var = GER_seats_change value = -8
+                tooltip = GER_push_recall_tt
+            }
+        }
+    }
+    GER_gather_support = {
+        icon = GFX_decision_generic_civil_support
+        allowed = { original_tag = GER }
+        priority = 10
+        fire_only_once = no
+        days_remove = 20
+        days_re_enable = 30
+        modifier = {
+            political_power_gain = -0.1
+        }
+        cost = 20
+        remove_effect = {
+            add_to_variable = {
+                var = GER_seats_change value = 2
+                tooltip = GER_gather_support_tt
+            }
+        }
+    }
+}
