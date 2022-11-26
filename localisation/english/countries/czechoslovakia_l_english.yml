@@ -1,6 +1,6 @@
- l_english:
- CZE:0 "CZEly"
- CZE_DEF:0 "CZEly"
+﻿ l_english:
+ CZE:0 "Czechoslovakia"
+ CZE_DEF:0 "Czechoslovakia"
  CZE_ADJ:0 "Czechoslovak"
  CZE_subject:0 "$OVERLORDADJ$ $CZE$"
  CZE_subject_DEF:0 "$OVERLORDADJ$ $CZE$"
@@ -21,7 +21,7 @@
  CZE_despotism_DEF:0 "the Czechoslovak State"
  CZE_anarchism:0 "Union of Czechoslovakia"
  CZE_council_communism:0 "Czechoslovak Communist State"
- CZE_radical_socialism:0 "Czechoslovak Social Republic
+ CZE_radical_socialism:0 "Czechoslovak Social Republic"
  CZE_anarchism_DEF:0 "the Union of Czechoslovakia"
  CZE_council_communism_DEF:0 "the Czechoslovak Communist State"
  CZE_radical_socialism_DEF:0 "the Czechoslovak Social Republic"

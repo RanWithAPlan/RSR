@@ -307,22 +307,31 @@ set_convoys = 500
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = progressive_liberalism
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	anarchism = 0
+	council_communism = 2
+	radical_socialism = 3
+	social_democracy = 10
+	progressive_liberalism = 30
+	freemarket_liberalism = 16
+	conservative_democracy = 14
+	autocracy = 23
+	despotism = 0
+	national_extremism = 2
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+	USA_great_depression
+	USA_global_presence_lacking
+	USA_inefficient_army
+	USA_nationwide_factionalism
+	USA_civil_rights_high_segregation
+	USA_civil_rights_high_discrimination
 }
 
 
@@ -341,6 +350,7 @@ set_autonomy = {
 	}
 }
 
+recruit_character = USA_john_garner
 recruit_character = USA_earl_browder
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt
