@@ -358,15 +358,23 @@ if = { #########   By Blood Alone Stuff
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	council_communism = 1
+	anarchism = 0
+	radical_socialism = 0
+	social_democracy = 29
+	progressive_liberalism = 5
+	freemarket_liberalism = 27
+	conservative_democracy = 21
+	autocracy = 15
+	despotism = 0
+	national_extremism = 2
+	}
 }
 
 #1939.1.1 = {
