@@ -109,11 +109,16 @@
  
  
  POL_weaken_the_party_tooltip:0 "§YUnlocks Decisions to Weaken The Opposition in The Party§!"
- POL_weakens_party_influence:0 "Weakens The Party Opposition"
+ POL_discredit_non_loyal_party_officals_tt:0 "Creates propaganda to discredit several key members of the ploy against Dmowski's life, so that the Polish people too will turn on the traitors."
+ POL_suspend_law_making_abilities_from_national_congress_tt:0 "Offically removes the suspended National Congress' ability to create new laws, so that Poland will become one step closer to abolishing the backstabing Congress."
+ POL_frame_a_scandal_tt:0 "Creates a scandal involving the National Congress, and many figures of the ONR-Falange, so that the Polish people will grow weary of the need for the National Congress."
+ POL_remove_congress_power_to_sentancing_tt:0 "Removes the National Congress ability to punish criminals, further taking power away from the betrayers of Poland in the National Congress."
+ POL_remove_the_generals_from_the_national_congress_tt:0 "The military is very important ally, to both Poland, and the Naitonal Congress, if we can seperate that power from the Congress then any future plans against the Congress will grow much easier."
  
  
  
  POL_weaken_party_decisions:0 "Weaken The Party"
+ POL_weaken_party_decisions_desc:0 "Dmowski's very own party and National Congress have betrayed not only him, but all of Poland, and this crime will not go unpunished. Step by step we must weaken the power of Poland's enemies in the ONR-Falange, and the National Congress, so that soon we can completely do away with the enemies within our ranks that take the name of the National Congress."
  POL_discredit_non_loyal_party_officals:0 "Discredit Non-Loyal Party Officals"
  POL_suspend_law_making_abilities_from_national_congress:0 "Suspend Law-Making Abilities From The National Congress"
  POL_frame_a_scandal:0 "Frame a Scandal"

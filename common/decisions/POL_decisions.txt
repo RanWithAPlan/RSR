@@ -16,8 +16,14 @@ POL_weaken_party_decisions = {
 		cost = 50
 		
 		complete_effect = {
-			custom_effect_tooltip = POL_weakens_party_influence
-			hidden_effect = { set_country_flag = POL_party_weakness_99 }
+			custom_effect_tooltip = POL_discredit_non_loyal_party_officals_tt
+			hidden_effect = { 
+			set_country_flag = POL_party_weakness_99 
+			add_popularity = {
+			ideology = national_extremism
+			popularity = 0.02
+				}
+			}
 		}
 	}
 	
@@ -38,8 +44,11 @@ POL_weaken_party_decisions = {
 		cost = 50
 		
 		complete_effect = {
-			custom_effect_tooltip = POL_weakens_party_influence
-			hidden_effect = { set_country_flag = POL_party_weakness_98 }
+			custom_effect_tooltip = POL_suspend_law_making_abilities_from_national_congress_tt
+			hidden_effect = { 
+			set_country_flag = POL_party_weakness_98 
+			add_stability = 0.01
+			}
 		}
 	}
 	
@@ -60,8 +69,14 @@ POL_weaken_party_decisions = {
 		cost = 50
 		
 		complete_effect = {
-			custom_effect_tooltip = POL_weakens_party_influence
-			hidden_effect = { set_country_flag = POL_party_weakness_97 }
+			custom_effect_tooltip = POL_frame_a_scandal_tt
+			hidden_effect = { 
+			set_country_flag = POL_party_weakness_97
+			add_popularity = {
+			ideology = national_extremism
+			popularity = 0.02
+				}
+			}
 		}
 	}
 	
@@ -82,8 +97,11 @@ POL_weaken_party_decisions = {
 		cost = 50
 		
 		complete_effect = {
-			custom_effect_tooltip = POL_weakens_party_influence
-			hidden_effect = { set_country_flag = POL_party_weakness_96 }
+			custom_effect_tooltip = POL_remove_congress_power_to_sentancing_tt
+			hidden_effect = {
+			set_country_flag = POL_party_weakness_96
+			add_stability = 0.02
+			}
 		}
 	}
 	
@@ -104,8 +122,13 @@ POL_weaken_party_decisions = {
 		cost = 50
 		
 		complete_effect = {
-			custom_effect_tooltip = POL_weakens_party_influence
-			hidden_effect = { set_country_flag = POL_party_weakness_95 }
+			custom_effect_tooltip = POL_remove_the_generals_from_the_national_congress_tt
+			hidden_effect = { 
+			set_country_flag = POL_party_weakness_95 
+			add_stability = -0.01
+			add_war_support = 0.02
+			add_command_power = 30
+			}
 		}
 	}
 }

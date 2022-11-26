@@ -4,7 +4,9 @@
 
 POL_weaken_party_decisions = {
 	
-	icon = GFX_decision_cat_picture_soviet_comecon
+	icon = GFX_decision_category_SWI_federal_council
+	
+	picture = GFX_decision_cat_picture_soviet_comecon
 
 	allowed = {
 		original_tag = POL
