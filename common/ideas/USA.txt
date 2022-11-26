@@ -1,0 +1,100 @@
+ideas = {
+	country = { 
+		
+		USA_great_depression = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+
+		USA_global_presence_lacking = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+
+		USA_inefficient_army = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+
+		USA_nationwide_factionalism = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+
+		USA_civil_rights_high_segregation = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+
+		USA_civil_rights_high_discrimination = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+	}
+}

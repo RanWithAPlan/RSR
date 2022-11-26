@@ -1,0 +1,15 @@
+characters={
+	USA_john_garner = {
+		name = "John Garner"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_John_Garner.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = progressive_liberalism_subtype
+		}
+	}
+}
