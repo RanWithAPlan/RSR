@@ -1,6 +1,6 @@
 ﻿ l_english:
- CZE:0 "CZEly"
- CZE_DEF:0 "CZEly"
+ CZE:0 "Czechoslovakia"
+ CZE_DEF:0 "Czechoslovakia"
  CZE_ADJ:0 "Czechoslovak"
  CZE_subject:0 "$OVERLORDADJ$ $CZE$"
  CZE_subject_DEF:0 "$OVERLORDADJ$ $CZE$"
