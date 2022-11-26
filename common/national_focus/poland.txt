@@ -123,7 +123,13 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = POL_weaken_the_party_tooltip
-			hidden_effect = { set_county_flag = POL_party_weakness_100 }
+			hidden_effect = {
+			set_variable = {
+				var = POL_party_weakness
+				value = 1
+				tooltip = POL_party_weakness_var_tt
+				}
+			}
 		}
 	}
 	
@@ -145,11 +151,11 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = POL_party_weakness_95
-			has_country_flag = POL_party_weakness_96
-			has_country_flag = POL_party_weakness_97
-			has_country_flag = POL_party_weakness_98
-			has_country_flag = POL_party_weakness_99
+			check_variable = {
+				var = POL_party_weakness
+				value = 5
+				compare = greater_than_or_equals
+			}
 		}
 		
 		bypass = {

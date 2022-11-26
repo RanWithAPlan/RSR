@@ -24,6 +24,11 @@ POL_weaken_party_decisions = {
 			popularity = 0.02
 				}
 			}
+			add_to_variable = {
+				var = POL_party_weakness
+				value = 1
+				tooltip = POL_party_weakness_1_tt
+			}
 		}
 	}
 	
@@ -48,6 +53,11 @@ POL_weaken_party_decisions = {
 			hidden_effect = { 
 			set_country_flag = POL_party_weakness_98 
 			add_stability = 0.01
+			}
+			add_to_variable = {
+				var = POL_party_weakness
+				value = 1
+				tooltip = POL_party_weakness_2_tt
 			}
 		}
 	}
@@ -77,6 +87,11 @@ POL_weaken_party_decisions = {
 			popularity = 0.02
 				}
 			}
+			add_to_variable = {
+				var = POL_party_weakness
+				value = 1
+				tooltip = POL_party_weakness_1_tt
+			}
 		}
 	}
 	
@@ -101,6 +116,11 @@ POL_weaken_party_decisions = {
 			hidden_effect = {
 			set_country_flag = POL_party_weakness_96
 			add_stability = 0.02
+			}
+			add_to_variable = {
+				var = POL_party_weakness
+				value = 1
+				tooltip = POL_party_weakness_2_tt
 			}
 		}
 	}
@@ -128,6 +148,11 @@ POL_weaken_party_decisions = {
 			add_stability = -0.01
 			add_war_support = 0.02
 			add_command_power = 30
+			}
+			add_to_variable = {
+				var = POL_party_weakness
+				value = 1
+				tooltip = POL_party_weakness_2_tt
 			}
 		}
 	}
