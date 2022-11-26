@@ -270,15 +270,23 @@ recruit_character = HOL_wilhelmina
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative_democracy
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 4
-	communism = 3
+	council_communism = 3
+	anarchism = 1
+	radical_socialism = 2
+	social_democracy = 22
+	progressive_liberalism = 7
+	freemarket_liberalism = 5
+	conservative_democracy = 53
+	autocracy = 3
+	despotism = 0
+	national_extremism = 4
+	}
 }
 
 set_convoys = 150
