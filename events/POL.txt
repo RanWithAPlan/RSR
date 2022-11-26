@@ -32,6 +32,7 @@ country_event = { # The National Congress of 1936
 			}
 			set_country_flag = POL_congress_complete
 			set_country_flag = POL_plot_thwarted
+			add_stability = -0.35
 		}
 	}
 }
@@ -64,6 +65,7 @@ country_event = { # The Plot Continues
 			expire = "1965.1.1"
 			ideology = subtype_national_federalism
 			}
+			add_stability = -0.15
 		}
 	}
 	
@@ -78,6 +80,7 @@ country_event = { # The Plot Continues
 			}
 			set_country_flag = POL_congress_complete
 			set_country_flag = POL_plot_thwarted
+			add_stability = -0.35
 		}
 	}
 }
@@ -92,12 +95,11 @@ country_event = { # The National Congress Seizes Power
 	
 	fire_only_once = yes
 	
+	immediate = { add_stability = -0.45 }
+	
 	option = { # The Tyrant Is Dead!
 		name = natpoland.3.a
 		ai_chance = { factor = 100 }
-		hidden_effect = {
-		add_stability = -0.05
-		}
 	}
 }
 
@@ -110,6 +112,8 @@ country_event = { # The National Congress Suspended
 	is_triggered_only = yes
 	
 	fire_only_once = yes
+	
+	immediate = { add_stability = -0.15 }
 	
 	option = { # This Crime Will Not Go Unpunished
 		name = natpoland.4.a
