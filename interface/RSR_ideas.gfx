@@ -1,0 +1,17 @@
+spriteTypes = {
+	#Germany
+	spriteType = {
+		name = "GFX_idea_GER_tension_on_the_rhine_3"
+		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_tension_on_the_rhine_2"
+		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_tension_on_the_rhine_1"
+		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_1.dds"
+	}
+}
