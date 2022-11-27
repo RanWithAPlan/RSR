@@ -119,6 +119,11 @@
  POL_party_weakness_1_tt:0 "§GWeakens The ONR-Falange Opposition§!"
  POL_party_weakness_2_tt:0 "§GWeakens The National Congress§!"
  POL_mandate_church_service_tt:0 "Mandating church service will allow us to reach a greater number of those untoached by the light of the Catholic Church by making them see the preaching of the lord. It will also allow us to find those who refuse service, and refuse to join the ranks of their fellow Polish Catholics."
+ POL_catholic_purity_1_tt:0 "§GWeaken All Non-Catholic Religions§!"
+ POL_turn_secular_schools_catholic_tt:0 "By abolishing the secular schools in Poland and turning them into Catholic schools we can begin the proccess of converting the non loyal youth. If we start early with a proper Catholic eduaction then we can strike at the heart of the next generations of non-Catholics and turn them into what god intended the Polish people to be, Catholics."
+ POL_catholic_purity_2_tt:0 "§GWeakens Paganist Influence§!"
+ POL_declare_paganism_illegal_tt:0 "Paganism is a disgracful stain on Poland, perhaps even more than Juedism, and Protestantism. These polytheist scoundrels although small in number are still a stain on the pure Polish nation that we are building, and so action must be taken. The most important of these actions is the criminalize this traitorous religion and lock up all those who practice it."
+ 
  
  
  #Decisions
@@ -132,6 +137,8 @@
  POL_jewish_conversion:0 "Crack Down on Non-Catholics"
  POL_jewish_conversion_desc:0 "In order to secure a safe, stable, and Catholic Polish nation we must first crack down on the traitors to Poland which go by the name of non-Catholics. Juedism, Islam, Pagenism, and Protestantism all stand as enemies to the mighty and pure Catholic nation that Poland is destined to become, and so we must strike them down and convert them back into pure Catholics.\n\nOnce we have weakened the non-Catholic power in Poland to §GVery Low§! then we can go about the next stage of our plan to bring about the Falangist nation, Poland was meant to be."
  POL_mandate_church_service:0 "Mandate Church Service"
+ POL_turn_secular_schools_catholic:0 "Turn Secular Schools Into Catholic Schools"
+ POL_declare_paganism_illegal:0 "Declare Paganism Illegal"
  
  
  
