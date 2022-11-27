@@ -14,4 +14,24 @@ spriteTypes = {
 		name = "GFX_idea_GER_tension_on_the_rhine_1"
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_1.dds"
 	}
+	#Poland
+	spriteType = {
+		name = "GFX_idea_POL_divided_government"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_divided_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POL_nationalism"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_nationalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POL_enemies_on_all_sides"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_enemies_on_all_sides.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POL_resisting_reds"
+		texturefile = "gfx/interface/ideas/POL/idea_POL_resisting_reds.dds"
+	}
 }
