@@ -118,6 +118,7 @@
  POL_party_weakness_var_tt:0 "Party Weakness"
  POL_party_weakness_1_tt:0 "§GWeakens The ONR-Falange Opposition§!"
  POL_party_weakness_2_tt:0 "§GWeakens The National Congress§!"
+ POL_mandate_church_service_tt:0 "Mandating church service will allow us to reach a greater number of those untoached by the light of the Catholic Church by making them see the preaching of the lord. It will also allow us to find those who refuse service, and refuse to join the ranks of their fellow Polish Catholics."
  
  
  #Decisions
@@ -128,6 +129,10 @@
  POL_frame_a_scandal:0 "Frame a Scandal"
  POL_remove_congress_power_to_sentancing:0 "Remove The National Congresses Power to Sentancing"
  POL_remove_the_generals_from_the_national_congress:0 "Remove The Generals From The National Congress"
+ POL_jewish_conversion:0 "Crack Down on Non-Catholics"
+ POL_jewish_conversion_desc:0 "In order to secure a safe, stable, and Catholic Polish nation we must first crack down on the traitors to Poland which go by the name of non-Catholics. Juedism, Islam, Pagenism, and Protestantism all stand as enemies to the mighty and pure Catholic nation that Poland is destined to become, and so we must strike them down and convert them back into pure Catholics.\n\nOnce we have weakened the non-Catholic power in Poland to §GVery Low§! then we can go about the next stage of our plan to bring about the Falangist nation, Poland was meant to be."
+ POL_mandate_church_service:0 "Mandate Church Service"
+ 
  
  
  #Dynamic Modifiers

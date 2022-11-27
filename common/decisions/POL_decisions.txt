@@ -152,3 +152,40 @@ POL_weaken_party_decisions = {
 		}
 	}
 }
+
+POL_jewish_conversion = {
+
+	POL_mandate_church_service = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			always = yes
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		complete_effect = {
+			custom_effect_tooltip = POL_mandate_church_service_tt
+			hidden_effect = { 
+			add_stability = 0.01
+			add_popularity = {
+			ideology = national_extremism
+			popularity = 0.03
+					}
+				}
+			add_to_variable = {
+				var = POL_catholic_purity
+				value = 1
+				tooltip = POL_catholic_purity_1_tt
+			}
+		}
+	}
+
+}

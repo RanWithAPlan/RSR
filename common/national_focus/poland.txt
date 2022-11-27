@@ -325,7 +325,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			hidden_effect = { 
+				set_variable = {
+					var = POL_catholic_purity
+					value = 1
+					tooltip = POL_catholic_purity_var_tt
+				}
+			}
 		}
 	}
 	
