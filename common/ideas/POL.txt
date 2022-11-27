@@ -3,6 +3,8 @@ ideas = {
 	
 		POL_divided_government = {
 		
+			picture = GFX_idea_POL_divided_government
+		
 			removal_cost = -1
 			
 			allowed = {
@@ -21,6 +23,8 @@ ideas = {
 		}
 		
 		POL_resisting_the_red_tide = {
+		
+			picture = GFX_idea_POL_resisting_reds
 		
 			removal_cost = -1
 			
@@ -41,6 +45,8 @@ ideas = {
 		
 		POL_surrounded_by_enemies = {
 		
+			picture = GFX_idea_POL_enemies_on_all_sides
+		
 			removal_cost = -1
 			
 			allowed = {
@@ -58,6 +64,8 @@ ideas = {
 		}
 		
 		POL_fierce_nationalism = {
+		
+			picture = GFX_idea_POL_nationalism
 		
 			removal_cost = -1
 			
