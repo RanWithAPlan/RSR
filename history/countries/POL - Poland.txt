@@ -119,6 +119,13 @@ country_event = {
 	days = 160
 }
 
+add_ideas = {
+POL_divided_government
+POL_resisting_the_red_tide
+POL_surrounded_by_enemies
+POL_fierce_nationalism
+}
+
 
 if = {
 	limit = {

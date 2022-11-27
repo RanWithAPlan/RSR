@@ -1,5 +1,79 @@
 ideas = {
 	country = { 
+	
+		POL_divided_government = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.25
+				national_extremism_drift = -0.03
+			}
+		}
+		
+		POL_resisting_the_red_tide = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				national_extremism_drift = 0.02
+				opinion_gain_monthly_same_ideology = 5
+				war_support_factor = 0.15
+			}
+		}
+		
+		POL_surrounded_by_enemies = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				war_support_factor = 0.05
+				army_core_defence_factor = 0.15
+			}
+		}
+		
+		POL_fierce_nationalism = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
 		
 		POL_national_collectivism = {
 		

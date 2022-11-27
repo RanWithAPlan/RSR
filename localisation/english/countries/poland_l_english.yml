@@ -98,6 +98,10 @@
  
  #Ideas
  POL_national_collectivism:0 "National Collectivism"
+ POL_divided_government:0 "Divided Government"
+ POL_resisting_the_red_tide:0 "Resisting The Red Tide"
+ POL_fierce_nationalism:0 "Fierce Nationalism"
+ POL_surrounded_by_enemies:0 "Surrounded By Enemies"
  
  
  #Tooltips
