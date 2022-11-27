@@ -73,6 +73,7 @@
  POL_ultranationalist_supremacy:0 "Ultranationalist Supremacy"
  POL_release_the_firing_squads:0 "Release The Firing Squads"
  
+ #Events
  natpoland.1.title:0 "The National Congress of 1936"
  natpoland.1.desc:0 "The power in Poland is split between two groups, Roman Dmowski, and the National Congress, and every year the congress convenes with Dmowski for a general meeting of the nation. This division however runs deep, even in the congress, as Dmowski and his supporters try every trick they know to win over supporters of the members of the congress. This trickery however isn't unique to Dmowski, and his opposition in the congress know it just as well, and the opposition deemed the 1936 congress to be the time to strike against Dmowski. This plot took the face of bombing the congress when Dmowski and his supporters are all in one room together, but it's success is risky, and Dmowski could discover it at any time."
  natpoland.1.a:0 "The Plot Continues Unseen"
@@ -88,22 +89,18 @@
  natpoland.4.desc:0 ""
  natpoland.4.a:0 "This Crime Will Not Go Unpunished"
  
- 
+ #Flags
  POL_dmowski_dead:0 "Dmowski Has Been Killed"
  POL_congress_complete:0 "The 1936 National Congress Has Concluded"
  POL_plot_thwarted:0 "Plot on Dmowski's Life Has Been Thwarted"
- POL_party_weakness_99:0 "Non-Loyal Party Members Discredited"
- POL_party_weakness_98:0 "National Congress Unable to Pass Laws"
- POL_party_weakness_97:0 "Non-Loyal Party Members Caught in Scandal"
- POL_party_weakness_96:0 "National Congress Unable to Sentance Criminals"
- POL_party_weakness_95:0 "Military Removed From The National Congress"
+
  
  
- 
+ #Ideas
  POL_national_collectivism:0 "National Collectivism"
  
  
- 
+ #Tooltips
  POL_weaken_the_party_tooltip:0 "§YUnlocks Decisions to Weaken The Opposition in The Party§!"
  POL_discredit_non_loyal_party_officals_tt:0 "Creates propaganda to discredit several key members of the ploy against Dmowski's life, so that the Polish people too will turn on the traitors."
  POL_suspend_law_making_abilities_from_national_congress_tt:0 "Offically removes the suspended National Congress' ability to create new laws, so that Poland will become one step closer to abolishing the backstabing Congress."
@@ -115,7 +112,7 @@
  POL_party_weakness_2_tt:0 "§GWeakens The National Congress§!"
  
  
- 
+ #Decisions
  POL_weaken_party_decisions:0 "Weaken The Party"
  POL_weaken_party_decisions_desc:0 "Dmowski's very own party and National Congress have betrayed not only him, but all of Poland, and this crime will not go unpunished. Step by step we must weaken the power of Poland's enemies in the ONR-Falange, and the National Congress, so that soon we can completely do away with the enemies within our ranks that take the name of the National Congress.\n\nOnce our enemies in the ONR-Falange and National Congress are §GVery Weak§! then we can move to disolve the congress completely."
  POL_discredit_non_loyal_party_officals:0 "Discredit Non-Loyal Party Officals"
@@ -125,5 +122,5 @@
  POL_remove_the_generals_from_the_national_congress:0 "Remove The Generals From The National Congress"
  
  
- 
+ #Dynamic Modifiers
  POL_party_weakness:0 "ONR-Falange and National Congress Weakness"
