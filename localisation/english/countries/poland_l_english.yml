@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+  
  POL_national_extremism:0 "Polish National Republic"
  POL_national_extremism_DEF:0 "The Polish National Republic"
  POL_social_democracy:0 "Polish Republic"
@@ -52,8 +52,7 @@
  SOV_council_communism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  SOV_radical_socialism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  
- 
- 
+ #Focuses
  POL_the_national_congress:0 "The National Congress"
  POL_all_power_to_dmowski:0 "All Power to Dmowski"
  POL_all_power_to_the_congress:0 "All Power to The Congress" 
@@ -74,8 +73,6 @@
  POL_ultranationalist_supremacy:0 "Ultranationalist Supremacy"
  POL_release_the_firing_squads:0 "Release The Firing Squads"
  
- 
- 
  natpoland.1.title:0 "The National Congress of 1936"
  natpoland.1.desc:0 "The power in Poland is split between two groups, Roman Dmowski, and the National Congress, and every year the congress convenes with Dmowski for a general meeting of the nation. This division however runs deep, even in the congress, as Dmowski and his supporters try every trick they know to win over supporters of the members of the congress. This trickery however isn't unique to Dmowski, and his opposition in the congress know it just as well, and the opposition deemed the 1936 congress to be the time to strike against Dmowski. This plot took the face of bombing the congress when Dmowski and his supporters are all in one room together, but it's success is risky, and Dmowski could discover it at any time."
  natpoland.1.a:0 "The Plot Continues Unseen"
@@ -90,7 +87,6 @@
  natpoland.4.title:0 "The National Congress Suspended"
  natpoland.4.desc:0 ""
  natpoland.4.a:0 "This Crime Will Not Go Unpunished"
- 
  
  
  POL_dmowski_dead:0 "Dmowski Has Been Killed"
