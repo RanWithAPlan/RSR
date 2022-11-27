@@ -14,6 +14,7 @@ spriteTypes = {
 		name = "GFX_idea_GER_tension_on_the_rhine_1"
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_1.dds"
 	}
+	
 	#Poland
 	spriteType = {
 		name = "GFX_idea_POL_divided_government"
