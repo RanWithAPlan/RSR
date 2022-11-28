@@ -1,0 +1,11 @@
+spriteTypes = {
+	#Germany
+	frameAnimatedSpriteType = {
+		name = "GFX_reichstag_portrait_animated_large"
+		texturefile = "gfx/leaders/GER/portrait_GER_reichstag_spritesheet.dds"
+		noOfFrames = 59
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+	}
+}
