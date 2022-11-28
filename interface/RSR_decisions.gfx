@@ -1,4 +1,5 @@
 spriteTypes = {
+	#Germany
 	spriteType = { 
 		name = "GFX_decision_cat_picture_GER_executive_council"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_GER_executive_council.dds"

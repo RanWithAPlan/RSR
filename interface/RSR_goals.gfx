@@ -1,4 +1,5 @@
 spriteTypes = {
+	#Germany
 	SpriteType = {
 		name = "GFX_GER_council_elections"
 		texturefile = "gfx/interface/goals/GER_council_elections.png"

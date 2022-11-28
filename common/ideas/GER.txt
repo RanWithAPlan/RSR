@@ -3,7 +3,7 @@ ideas = {
 		
 		GER_tension_on_the_rhine_3 = { #Most Severe
 			
-			picture = GFX_idea_GER_tension_on_the_rhine_3
+			picture = GER_tension_on_the_rhine_3
 			
 			removal_cost = -1
 			
@@ -29,7 +29,7 @@ ideas = {
 
 		GER_tension_on_the_rhine_2 = {
 			
-			picture = GFX_idea_GER_tension_on_the_rhine_2
+			picture = GER_tension_on_the_rhine_2
 			
 			removal_cost = -1
 			
@@ -54,7 +54,7 @@ ideas = {
 
 		GER_tension_on_the_rhine_1 = { #Least Severe
 			
-			picture = GFX_idea_GER_tension_on_the_rhine_1
+			picture = GER_tension_on_the_rhine_1
 			
 			removal_cost = -1
 			

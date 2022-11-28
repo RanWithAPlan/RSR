@@ -1,4 +1,5 @@
 spriteTypes = {
+	#Germany
 	SpriteType = {
 		name = "GFX_GER_council_elections_shine"
 		texturefile = "gfx/interface/goals/GER_council_elections.png"
@@ -97,7 +98,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_dezentralisten_victory.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER_dezentralistenn_victory.png"
+			animationmaskfile = "gfx/interface/goals/GER_dezentralisten_victory.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.png" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
