@@ -3,7 +3,7 @@ characters={
 		name = "Executive Council"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno.png"
+				large = "GFX_reichstag_portrait_animated_large"
 			}
 		}
 		country_leader = {
@@ -16,7 +16,7 @@ characters={
 		name = "Executive Council"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno.png"
+				large = "GFX_reichstag_portrait_animated_large"
 			}
 		}
 		country_leader = {
@@ -29,7 +29,7 @@ characters={
 		name = "Executive Council"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno.png"
+				large = "GFX_reichstag_portrait_animated_large"
 			}
 		}
 		country_leader = {

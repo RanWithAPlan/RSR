@@ -182,22 +182,15 @@ set_popularities = {
 }
 
 create_faction = Internationale
-add_to_faction = GER
-
-create_country_leader = {
-			name = "People's Council"
-			desc = ""
-			picture = "gfx"
-			expire = "1965.1.1"
-			ideology = council_communism_subtype
-			}	
+add_to_faction = GER	
 
 add_ideas = {
 	GER_tension_on_the_rhine_3
 }
 
-
-
+recruit_character = GER_executive_council_anarchism
+recruit_character = GER_executive_council_council_communism
+recruit_character = GER_executive_council_radical_socialism
 
 if = {
 	limit = {
