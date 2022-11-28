@@ -194,6 +194,11 @@ focus_tree = {
 		}
 
 		available = {
+		check_variable = {
+				var = POL_party_weakness
+				value = 3
+				compare = greater_than_or_equals
+			}
 		}
 		
 		bypass = {
@@ -315,6 +320,11 @@ focus_tree = {
 		}
 
 		available = {
+			check_variable = {
+				var = POL_catholic_purity
+				value = 6
+				compare = greater_than_or_equals
+			}
 		}
 		
 		bypass = {
