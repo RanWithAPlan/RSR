@@ -287,7 +287,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+		custom_effect_tooltip = POL_non_catholic_crackdown_focus_tt
+			hidden_effect = { 
+				set_variable = {
+					var = POL_catholic_purity
+					value = 1
+					tooltip = POL_catholic_purity_var_tt
+				}
+			}
 		}
 	}
 	
@@ -326,11 +333,6 @@ focus_tree = {
 
 		completion_reward = {
 			hidden_effect = { 
-				set_variable = {
-					var = POL_catholic_purity
-					value = 1
-					tooltip = POL_catholic_purity_var_tt
-				}
 			}
 		}
 	}
