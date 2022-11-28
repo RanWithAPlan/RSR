@@ -1,5 +1,6 @@
 ﻿l_english:
  
+ #Names
  GER:0 "Germany"
  GER_DEF:0 "Germany"
  GER_ADJ:0 "German"
@@ -10,6 +11,7 @@
  GER_anarchism:0 "German Socialist Republic"
  GER_anarchism_DEF:0 "the German Socialist Republic"
  
+ #Parties
  GER_anarchism_party:0 "Anarchisten"
  GER_radical_socialism_party:0 "Zentralisten"
  GER_council_communism_party:0 "Dezentralisten"
@@ -23,7 +25,7 @@
  GER_despotism_party:0 "--"
  GER_national_extremism_party:0 "--"
  
-#events#
+#events
  socgermany.1.t:0 "The January Elections"
  socgermany.1.d:0 "This month, people all across the country will be voting for delegates and council members. The Anarchisten, Dezentralisten, and Zentralisten, will all be competing for power, all with different ideas on how the nation should be run. Will the Dezentralisten maintain control, with their moderate policies, or will the Anarchisten, or Zentralisten snatch power from them?"
  socgermany.1.a:0 "Let the elections begin!"
@@ -51,11 +53,11 @@
  GER_rally_military_support:0 "Rally Military Support"
  GER_push_recall:0 "Push For Recalls"
  GER_gather_support:0 "Gather Supporters"
+
 #focus#
  GER_council_elections:0 "January Executive Elections"
  GER_council_elections_desc:0 "The political system in Germany is made of federated councils, and there are three major parties, Anarchisten, Dezentralisten, and Zentralisten. Elections take place every 3 months, and all the parties are hoping they'll win this January"
  
-
  GER_anarchisten_victory:0 "Victory For Anarchisten"
  GER_anarchisten_victory_desc:0 "The Anarchisten want to remove the power of the government, and also focuse on social change. They strong ties with the syndicates but are disliked by many in the army."
 
@@ -75,4 +77,7 @@
  GER_push_recall_tt: "We will gain §Y4%§! of the §Yseats§! but it will decrease our predicted seats by §Y8%§!"
  GER_gather_support_tt: "Increases our predicted §Yseats§! by §Y2%§!"
  
- 
+#Characters
+ GER_executive_council_anarchism:0 "Executive Council"
+ GER_executive_council_council_communism:0 "Executive Council"
+ GER_executive_council_radical_socialism:0 "Executive Council"

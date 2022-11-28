@@ -1,6 +1,6 @@
 characters={
 	GER_executive_council_anarchism = {
-		name = "Executive Council"
+		name = GER_executive_council_anarchism
 		portraits = {
 			civilian = {
 				large = "GFX_reichstag_portrait_animated_large"
@@ -8,12 +8,12 @@ characters={
 		}
 		country_leader = {
 			expire = "1965.1.1"
-			traits={ }
+			traits={ council_of_peers anarchisten_majority }
 			ideology = anarchism_subtype
 		}
 	}
 	GER_executive_council_council_communism = {
-		name = "Executive Council"
+		name = GER_executive_council_council_communism
 		portraits = {
 			civilian = {
 				large = "GFX_reichstag_portrait_animated_large"
@@ -21,12 +21,12 @@ characters={
 		}
 		country_leader = {
 			expire = "1965.1.1"
-			traits={ }
+			traits={ council_of_peers dezentralisten_majority }
 			ideology = council_communism_subtype
 		}
 	}
 	GER_executive_council_radical_socialism = {
-		name = "Executive Council"
+		name = GER_executive_council_radical_socialism
 		portraits = {
 			civilian = {
 				large = "GFX_reichstag_portrait_animated_large"
@@ -34,7 +34,7 @@ characters={
 		}
 		country_leader = {
 			expire = "1965.1.1"
-			traits={ }
+			traits={ council_of_peers zentralisten_majority }
 			ideology = radical_socialism_subtype
 		}
 	}

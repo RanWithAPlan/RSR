@@ -1,4 +1,14 @@
 ﻿l_english:
+ #Germany
+ council_of_peers:0 "Council of Peers"
+ anarchisten_majority:0 "Anarchisten Majority"
+ dezentralisten_majority:0 "Dezentralisten Majority"
+ zentralisten_majority:0 "Zentralisten Majority"
+ #Mongolia
+ beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
+ battlequeen:0 "Battlemistress"
+
+ #Vanilla 
  cc_leader:0 "General"
  fm_leader:0 "Field Marshal"
  navy_leader:0 "Admiral"
@@ -12,10 +22,7 @@
  fascist_demagogue_desc:0 "§LDriven by a will to unite the people under a strong state, this politician emphasizes nationalist and militarist rhetoric.§!"
  staunch_monarchist:0 "Staunch Monarchist"
  staunch_monarchist_desc:0 "§LThis politician believes that a hereditary ruler serves as a powerful icon to unite the country.§!"
- 
- beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
- battlequeen:0 "Battlemistress"
- 
+
  ideological_crusader:0 "Ideological Crusader"
  shadow_of_calles:0 "Shadow of Calles"
  social_reformer:0 "Social Reformer"

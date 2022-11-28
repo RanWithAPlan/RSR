@@ -51,3 +51,6 @@
 
  #Tooltips
  genepil_tt:0 "Genepil receives the title of 'Khan'"
+
+ #Characters
+ MON_genepil_khan:0 "Genepil"

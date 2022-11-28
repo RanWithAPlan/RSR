@@ -13,7 +13,29 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	#Germany
+	council_of_peers = {
+		random = no
+		stability_factor = -0.1
+		political_power_factor = 0.05
+		anarchism_acceptance = 50
+		council_communism_acceptance = 50
+		radical_socialism_acceptance = 50
+	}
 
+	anarchisten_majority = {
+		stability_factor = -0.2
+		industrial_capacity_factory = 0.1
+		political_power_factor = 0.15
+	}
+
+	dezentralisten_majority = {
+	}
+
+	zentralisten_majority = {
+	}
+
+	#Mongolia
 	beloved_queen_of_mongolia = {
 		random = no
 		political_power_factor = 0.05
