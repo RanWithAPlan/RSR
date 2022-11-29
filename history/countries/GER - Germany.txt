@@ -376,7 +376,7 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = council_communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -394,7 +394,7 @@ set_popularities = {
     national_extremism = 0
 }
 
-create_faction = Axis
+create_faction = International
 add_to_faction = GER
 
 
