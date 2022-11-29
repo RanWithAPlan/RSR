@@ -1,6 +1,6 @@
-﻿capital = 279
+﻿capital = 206
 
-oob = "CHL_1936"
+oob = "BLR_1936"
 
 # Starting tech
 set_technology = {
@@ -25,7 +25,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "CHL_1939"
+	oob = "BLR_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 			set_naval_oob = "CHL_1939_naval_mtg"

@@ -45,6 +45,11 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 
+BLR = {
+	color = rgb { 180 220 190 }
+	color_ui = rgb { 180 220 190 }
+}
+
 BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
 	color_ui = rgb { 255 234 177 }

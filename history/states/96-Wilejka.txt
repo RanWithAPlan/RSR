@@ -9,11 +9,11 @@ state={
 		victory_points = {
 			406 1
 		}
-		owner = EAU
+		owner = BLR
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = EAU
+		add_core_of = BLR
 	}
 
 	provinces={
