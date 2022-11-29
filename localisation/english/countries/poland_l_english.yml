@@ -126,6 +126,8 @@
  POL_remove_protestants_right_to_a_trial_tt:0 "Protestantism stands a mark of the false Christains that plague Poland, and every messaure must be done to eliminate this blight. By removing this false Christains right to a trial then we will quickly get them to convert to Catholicism by way of fear alone. This war for purity can only be won a sinlge way, through terror, and this is just the beginning."
  POL_catholic_purity_3_tt:0 "§GWeakens Protestant Influence§!"
  POL_non_catholic_crackdown_focus_tt:0 "§YUnlocks Decisions to Crack-Down on Non Catholics§!"
+ POL_catholic_purity_4_tt:0 "§GWeakens Jewish Influence§!"
+ POL_repurpose_the_synagogues_tt:0 "So long as Juedism has a place to gather and worship then it shall always be a stain on Poland. Because of that fact we must remove the ability for Juedism to gather, and this will be done by repurposing every synagogue in Poland. Whether they be turned into Catholic churchs, or apartments it need not matter, for all that matter is that Juedism no longer has the ability to gather on their false holy ground."
  
  
  
@@ -143,8 +145,10 @@
  POL_turn_secular_schools_catholic:0 "Turn Secular Schools Into Catholic Schools"
  POL_declare_paganism_illegal:0 "Declare Paganism Illegal"
  POL_remove_protestants_right_to_a_trial:0 "Remove Protestant's Right to a Trial"
+ POL_repurpose_the_synagogues:0 "Repurpose The Syndagogues"
  
  
  
  #Dynamic Modifiers
  POL_party_weakness:0 "ONR-Falange and National Congress Weakness"
+ POL_catholic_purity:0 "Catholic Purity in Poland"
