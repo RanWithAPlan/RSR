@@ -6,5 +6,6 @@ tags={
 	"Map"
 	"National Focuses"
 }
-name="RSR"
+name="Red Star Rising"
 supported_version="1.12.5"
+picture="thumbnail.png"
