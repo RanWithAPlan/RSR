@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = MEN
+		owner = ANH
 		buildings = {
 			infrastructure = 1
 		}
@@ -14,7 +14,7 @@ state={
 			12557 1 #Choibalsan
 		}
 		add_core_of = MON
-		add_core_of = MEN
+		add_core_of = ANH
 	}
 	manpower=88250
 	buildings_max_level_factor=1.000
