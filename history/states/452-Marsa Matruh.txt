@@ -19,8 +19,6 @@ state={
 		victory_points = {
 			9989 1 #Sidi Barrani
 		}
-
-		add_core_of = EGY
 	}
 
 	provinces={

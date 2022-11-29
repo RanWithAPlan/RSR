@@ -7,7 +7,6 @@ state={
 	history = {
 		owner = KPA
 		add_core_of = KPA
-		add_claim_by = MAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3
