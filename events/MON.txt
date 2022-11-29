@@ -38,6 +38,7 @@ country_event = {
 			ideology = autocracy
 			name = "Genepil Khan"
 		}
+		set_cosmetic_tag = MON_FREE
 		custom_effect_tooltip = genepil_tt
 		add_stability = 0.2
 	}
