@@ -1,0 +1,47 @@
+﻿focus_tree = {
+	id = MON
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MON
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = "Make Mongolia Great Again"
+			
+		cost = 10
+		
+		icon = ""
+		
+		x = 7
+		y = 0
+		
+		bypass = { }
+
+		completion_reward = {
+			}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		ai_will_do = {factor = 10}
+		modifier = {
+			original_tag = MON
+			}
+		}
+
+
+
+
+
+
+
+
+}
