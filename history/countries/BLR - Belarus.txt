@@ -84,12 +84,20 @@ set_technology = {
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.10.30"
+	ruling_party = conservative_democracy
+	last_election = "1932.6.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+    anarchism = 12
+    council_communism = 8
+    radical_socialism = 14
+    social_democracy = 13
+    progressive_liberalism = 6
+    freemarket_liberalism = 12
+    conservative_democracy = 21
+    autocracy = 3
+    despotism = 0
+    national_extremism = 11
 }
