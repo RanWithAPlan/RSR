@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = FEN
-		add_core_of = FEN
+		owner = JAP
+		add_core_of = JAP
 		victory_points = {
 			10000 5 
 		}
