@@ -140,6 +140,11 @@ ETH = {
 	color_ui = rgb { 198 169 248 }
 }
 
+FEN = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+
 FRA = {
 	color = rgb { 72 98 186 }
 	color_ui = rgb { 24 100 175 }
@@ -150,9 +155,19 @@ FIN = {
 	color_ui = rgb { 255 255 255 }
 }
 
+FWC = {
+	color = rgb { 205 212 228 }
+	color_ui = rgb { 255 255 255 }
+}
+
 GER = {
 	color = rgb { 132 16 24 }
 	color_ui = rgb { 132 16 24 }
+}
+
+GND = {
+	color = rgb { 124 69 66 }
+	color_ui = rgb { 124 69 66 }
 }
 
 GRE = {
@@ -165,9 +180,14 @@ GUA = {
 	color_ui = rgb { 72 49 112 }
 }
 
+GUI = {
+	color = rgb { 127 100 118 }
+	color_ui = rgb { 127 63 118 }
+}
+
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 72 49 112 }
+	color_ui = rgb { 72 49 112 }
 }
 
 HAI = {
@@ -178,6 +198,11 @@ HAI = {
 HOL = {	
 	color = rgb { 203 138 74 }
 	color_ui = rgb { 255 179 96 }
+}
+
+HNC = {
+	color = rgb { 128 145 65 }
+	color_ui = rgb { 128 145 65 }
 }
 
 HON = {
@@ -215,9 +240,19 @@ JAP = {
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 
+KMT = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+
 KPA = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
+}
+
+KWA = {
+	color = rgb { 75 77 186 }
+	color_ui = rgb { 124 125 184 }
 }
 
 LAT = {
@@ -355,8 +390,8 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 
-SIK = {
-	color = rgb { 71 190 152 }
+SIC = {
+	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
 
@@ -390,19 +425,29 @@ UKR = {
 	color_ui = rgb { 63  54  54 }	
 }
 
-USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
-}
-
 URG = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
 
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
 VEN = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
+}
+
+XIK = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 105 90 132 }
+}
+
+XIN = {
+	color = rgb { 255 127 81 }
+	color_ui = rgb { 255 127 81 }
 }
 
 XSM = {
@@ -423,4 +468,9 @@ YUG = {
 YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
+}
+
+ZHI = {
+	color = rgb { 255 84 166 }
+	color_ui = rgb { 255 84 166 }
 }

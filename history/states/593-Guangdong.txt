@@ -10,8 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = GXC
-		add_core_of = GXC
+		owner = GND
+		add_core_of = GND
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -23,7 +23,7 @@ state= {
 		}
 
 		1938.10.25 = {		
-			remove_core_of = GXC
+			remove_core_of = GND
 			owner = CHI
 			JAP = {
 				set_province_controller = 1202
