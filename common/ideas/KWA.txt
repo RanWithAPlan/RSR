@@ -1,0 +1,24 @@
+ideas = {
+	country = { 
+		
+		KWA_japans_finest = { #They were the most prestigous army in Japan
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				experience_gain_army = 0.03
+				special_forces_no_supply_grace = 120
+				special_forces_cap = 0.5
+				special_forces_min = 50
+			}
+		}
+	}
+}

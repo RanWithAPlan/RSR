@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  YUN_anarchism:0 "Yunnan Clique"
  YUN_anarchism_DEF:0 "the Yunnan Clique"
  YUN_council_communism:0 ""
@@ -19,6 +19,7 @@
  YUN_national_extremism:0 ""
  YUN_national_extremism_DEF:0 ""
  
+ #Parties
  YUN_anarchism_party:0 ""
  YUN_anarchism_party_long:0 ""
  YUN_radical_socialism_party:0 ""
@@ -37,3 +38,6 @@
  YUN_despotism_party_long:0 ""
  YUN_national_extremism_party:0 ""
  YUN_national_extremism_party_long:0 ""
+
+ YUN_french_arms:0 "French Arms"
+ YUN_french_arms_desc:0 ""

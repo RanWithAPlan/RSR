@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  SHX_anarchism:0 "Shanxi Clique"
  SHX_anarchism_DEF:0 "the Shanxi Clique"
  SHX_council_communism:0 ""
@@ -19,6 +19,7 @@
  SHX_national_extremism:0 ""
  SHX_national_extremism_DEF:0 ""
  
+ #Parties
  SHX_anarchism_party:0 ""
  SHX_anarchism_party_long:0 ""
  SHX_radical_socialism_party:0 ""
@@ -37,3 +38,7 @@
  SHX_despotism_party_long:0 ""
  SHX_national_extremism_party:0 ""
  SHX_national_extremism_party_long:0 ""
+
+ #Ideas
+ SHX_the_neutral_clique:0 "The Neutral Clique"
+ SHX_the_neutral_clique_desc:0 ""

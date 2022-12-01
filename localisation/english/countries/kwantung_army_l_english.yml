@@ -1,7 +1,7 @@
 ﻿l_english:
- 
- KWA_anarchism:0 "Kwatung Army"
- KWA_anarchism_DEF:0 "the Kwatung Army"
+ #Names
+ KWA_anarchism:0 "Kwantung Army"
+ KWA_anarchism_DEF:0 "the Kwantung Army"
  KWA_council_communism:0 ""
  KWA_council_communism_DEF:0 ""
  KWA_radical_socialism:0 ""
@@ -19,6 +19,7 @@
  KWA_national_extremism:0 ""
  KWA_national_extremism_DEF:0 ""
  
+ #Parties
  KWA_anarchism_party:0 ""
  KWA_anarchism_party_long:0 ""
  KWA_radical_socialism_party:0 ""
@@ -37,3 +38,6 @@
  KWA_despotism_party_long:0 ""
  KWA_national_extremism_party:0 ""
  KWA_national_extremism_party_long:0 ""
+ #Ideas
+ KWA_japans_finest:0 "Japan's Finest"
+ KWA_japans_finest_desc:0 ""

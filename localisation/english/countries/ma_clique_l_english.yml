@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  XSM_anarchism:0 "Ma Clique"
  XSM_anarchism_DEF:0 "the Ma Clique"
  XSM_council_communism:0 ""
@@ -19,6 +19,7 @@
  XSM_national_extremism:0 ""
  XSM_national_extremism_DEF:0 ""
  
+ #Parties
  XSM_anarchism_party:0 ""
  XSM_anarchism_party_long:0 ""
  XSM_radical_socialism_party:0 ""
@@ -37,3 +38,7 @@
  XSM_despotism_party_long:0 ""
  XSM_national_extremism_party:0 ""
  XSM_national_extremism_party_long:0 ""
+
+ #Ideas
+ XSM_the_three_horses:0 "The Three Horses"
+ XSM_the_three_horses_desc:0 ""

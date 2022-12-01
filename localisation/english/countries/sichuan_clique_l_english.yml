@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  SIC_anarchism:0 "Sichuan Clique"
  SIC_anarchism_DEF:0 "the Sichuan Clique"
  SIC_council_communism:0 ""
@@ -19,6 +19,7 @@
  SIC_national_extremism:0 ""
  SIC_national_extremism_DEF:0 ""
  
+ #Parties
  SIC_anarchism_party:0 ""
  SIC_anarchism_party_long:0 ""
  SIC_radical_socialism_party:0 ""
@@ -37,3 +38,7 @@
  SIC_despotism_party_long:0 ""
  SIC_national_extremism_party:0 ""
  SIC_national_extremism_party_long:0 ""
+
+ #Ideas
+ SIC_yangtze_trade:0 "Yangtze Trade"
+ SIC_yangtze_trade_desc:0 ""

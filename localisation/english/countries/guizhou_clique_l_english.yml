@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  GUI_anarchism:0 "Guizhou Clique"
  GUI_anarchism_DEF:0 "the Guizhou Clique"
  GUI_council_communism:0 ""
@@ -19,6 +19,7 @@
  GUI_national_extremism:0 ""
  GUI_national_extremism_DEF:0 ""
  
+ #Parties
  GUI_anarchism_party:0 ""
  GUI_anarchism_party_long:0 ""
  GUI_radical_socialism_party:0 ""
@@ -37,3 +38,11 @@
  GUI_despotism_party_long:0 ""
  GUI_national_extremism_party:0 ""
  GUI_national_extremism_party_long:0 ""
+
+ #Ideas
+ GUI_weak_economy:0 "Weak Economy"
+ GUI_weak_economy_desc:0 ""
+ GUI_hunan_aid:0 "Hunan Aid"
+ GUI_hunan_aid_desc:0 ""
+ GUI_yunnan_aid:0 "Yunnan Aid"
+ GUI_yunnan_aid_desc:0 ""

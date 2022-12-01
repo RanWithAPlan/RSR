@@ -1,0 +1,22 @@
+ideas = {
+	country = { 
+		
+		YUN_french_arms = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				license_purchase_cost_factor = -0.5
+				license_infantry_eq_production_speed_factor = 0.1
+			}
+		}
+	}
+}

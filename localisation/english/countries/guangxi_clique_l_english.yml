@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  GXC_anarchism:0 "Guangxi Clique"
  GXC_anarchism_DEF:0 "the Guangxi Clique"
  GXC_council_communism:0 ""
@@ -19,6 +19,7 @@
  GXC_national_extremism:0 ""
  GXC_national_extremism_DEF:0 ""
  
+ #Parties
  GXC_anarchism_party:0 ""
  GXC_anarchism_party_long:0 ""
  GXC_radical_socialism_party:0 ""
@@ -37,3 +38,9 @@
  GXC_despotism_party_long:0 ""
  GXC_national_extremism_party:0 ""
  GXC_national_extremism_party_long:0 ""
+
+ #Ideas
+ GXC_the_new_clique:0 "The New Clique"
+ GXC_the_new_clique_desc:0 ""
+ GXC_war_for_guangxi:0 "War for Guangxi"
+ GXC_war_for_guangxi_desc:0 ""

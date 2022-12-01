@@ -1,0 +1,22 @@
+ideas = {
+	country = { 
+		
+		SHX_the_neutral_clique = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.15
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  HNC_anarchism:0 "Hunnan Clique"
  HNC_anarchism_DEF:0 "the Hunnan Clique"
  HNC_council_communism:0 ""
@@ -19,6 +19,7 @@
  HNC_national_extremism:0 ""
  HNC_national_extremism_DEF:0 ""
  
+ #Parties
  HNC_anarchism_party:0 ""
  HNC_anarchism_party_long:0 ""
  HNC_radical_socialism_party:0 ""
@@ -37,3 +38,7 @@
  HNC_despotism_party_long:0 ""
  HNC_national_extremism_party:0 ""
  HNC_national_extremism_party_long:0 ""
+
+ #Ideas
+ HNC_tumultuous_politics:0 "Tumultuous Politics"
+ HNC_tumultuous_politics_desc:0 ""

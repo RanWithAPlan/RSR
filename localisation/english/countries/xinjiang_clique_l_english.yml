@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+ #Names
  XIN_anarchism:0 "Xinjiang Clique"
  XIN_anarchism_DEF:0 "the Xinjiang Clique"
  XIN_council_communism:0 ""
@@ -19,6 +19,7 @@
  XIN_national_extremism:0 ""
  XIN_national_extremism_DEF:0 ""
  
+ #Parties
  XIN_anarchism_party:0 ""
  XIN_anarchism_party_long:0 ""
  XIN_radical_socialism_party:0 ""
@@ -37,3 +38,7 @@
  XIN_despotism_party_long:0 ""
  XIN_national_extremism_party:0 ""
  XIN_national_extremism_party_long:0 ""
+
+ #Ideas
+ XIN_foreign_leaders:0 "Foreign Leaders"
+ XIN_foreign_leaders_desc:0 ""

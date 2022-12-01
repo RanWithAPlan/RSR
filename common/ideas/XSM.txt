@@ -1,0 +1,22 @@
+ideas = {
+	country = { 
+		
+		XSM_the_three_horses = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_advisor_cost_factor = -0.25
+				conscription = 0.01
+			}
+		}
+	}
+}

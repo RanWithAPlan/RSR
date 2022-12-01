@@ -1,19 +1,15 @@
 ﻿capital = 715
-oob = "ZHI_1936"
+oob = "FEN_1936"
 
 set_technology = {
 	infantry_weapons = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
+add_ideas = FEN_south_manchurian_railway_dominance
+add_ideas = FEN_the_league_of_three_marshals
+
+give_guarantee = ANH
+give_guarantee = ZHI
 
 set_politics = {
 	ruling_party = neutrality
