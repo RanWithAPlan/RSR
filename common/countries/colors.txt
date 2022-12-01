@@ -70,11 +70,6 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 
-CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
-}
-
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -343,11 +338,6 @@ PHI = {
 POL = {
 	color = rgb { 214 102 139 }
 	color_ui = rgb { 255 120 138 }
-}
-
-PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
 }
 
 PRU = {
