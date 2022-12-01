@@ -9,23 +9,12 @@ state={
 	
 	history=
 	{
-		owner = ANH
-		add_core_of = ANH
+		owner = SHX
+		add_core_of = SHX
 		add_core_of = MON
 		
 		buildings = {
 			infrastructure = 1
-		}
-
-		1938.10.25 = {
-			controller = JAP
-		}
-		
-		1939.1.1 = {
-			
-			owner = PRC
-			controller = MEN
-
 		}
 	}
 	manpower=500000
