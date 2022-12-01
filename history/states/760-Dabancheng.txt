@@ -10,6 +10,7 @@ state={
 	history={
 		owner = XIN
 		add_core_of = XIN
+		add_core_of = MON
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
