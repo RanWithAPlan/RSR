@@ -1,4 +1,4 @@
-﻿capital = 608
+﻿capital = 593
 oob = "ZHI_1936"
 
 set_technology = {
