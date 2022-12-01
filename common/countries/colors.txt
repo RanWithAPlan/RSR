@@ -340,6 +340,11 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 
+POR = {
+	color = rgb { 39 116 70 }
+	color_ui = rgb { 51 151 91 }
+}
+
 PRU = {
 	color = rgb { 196 189 204 }
 	color_ui = rgb { 255 246 255 }
