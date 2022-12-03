@@ -122,3 +122,39 @@ country_event = { # The National Congress Suspended
 		}
 	}
 }
+
+country_event = { # Catholic Purity Achieved
+	id = natpoland.5 
+	title = natpoland.5.title
+	desc = natpoland.5.desc
+	picture = GFX_report_event_gre_parade
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # One Step Closer to Perfection
+		name = natpoland.5.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # National Congress Abolished
+	id = natpoland.6
+	title = natpoland.6.title
+	desc = natpoland.6.desc
+	picture = GFX_report_event_ITA_democratic_parlament
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # The Dictatorship Realized
+		name = natpoland.6.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		}
+	}
+}

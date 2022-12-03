@@ -101,5 +101,24 @@ ideas = {
 				national_extremism_drift = 0.03
 			}
 		}
+		
+		POL_catholic_purity_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.3
+				national_extremism_drift = 0.02
+			}
+		}
 	}
 }

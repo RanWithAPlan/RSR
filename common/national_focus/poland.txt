@@ -173,7 +173,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			add_stability = -0.05
+			add_popularity = {
+			ideology = national_extremism
+			popularity = 0.05
+					}
+			country_event = {
+			id = natpoland.6
+			days = 0
+			}
 		}
 	}
 	
@@ -342,7 +350,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			hidden_effect = { 
+			set_country_flag = POL_catholic_purity_flag
+			add_ideas = POL_catholic_purity_idea
+			country_event = {
+			id = natpoland.5
+			days = 0
 			}
 		}
 	}

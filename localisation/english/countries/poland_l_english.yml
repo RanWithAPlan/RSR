@@ -88,6 +88,13 @@
  natpoland.4.title:0 "The National Congress Suspended"
  natpoland.4.desc:0 ""
  natpoland.4.a:0 "This Crime Will Not Go Unpunished"
+ natpoland.5.title:0 "Catholic Purity Achieved"
+ natpoland.5.desc:0 "What started as a dream by Dmowski has now been realized, the dream of a truly Catholic Poland. Step by step Dmowski has been taking rights away from non-Catholics, and by doing so forcing them to convert, and with the church working hand in hand with Dmowski's government it led to an uptake in support for Dmowski. This however is only one step towards the complete purification of Poland, as while the people may be Catholic, not all Catholics are Falangists, and not all Falangists are true soldiers in the struggle for complete supremacy for Polish Nationalism."
+ natpoland.5.a:0 "One Step Closer to Perfection"
+ natpoland.6.title:0 "National Congress Abolished"
+ natpoland.6.desc:0 "Ever since the National Republic was established there has been only one thing stopping Dmowski from creating a full dictatorship, that being the National Congress. Created by the ONR-Falanga, the congress acted as a counter weight to Dmowski, but when the traitors in the congress atempted to take Dmowski's life a state of emergency was declared and the congress was suspeneded. However being suspended didn't mean that the congress was abolished, and after the slow decrease in congress abilities, and popularity by the hands of Dmowski, it has finally come the time to do away with the traitors. In a speech given by Dmowski he declared that now with the traitors dealt with, through Dmowski Polish Nationalism can truly flourish, and he shall once more bring purity to Poland, and make it into the true Natioanlist, Catholic and Individualist nation it was meant to be. Although it seems that Dmowski's dictatorship has been fully realized, there could still be those unloyal in our ranks, and they must be dealt with."
+ natpoland.6.a:0 "The Dictatorship Realized"
+ 
  
  #Flags
  POL_dmowski_dead:0 "Dmowski Has Been Killed"
@@ -106,6 +113,7 @@
  POL_fierce_nationalism_desc:0 "For centuries the great power of both West and East have torn Poland apart. Partion after partion, invasion after invasion, but as the era of nationalism rose, so to did Poland. As the Great War ended the white and red flags of the mighty Polish nation rose high above the Polish land, and when the dust had cleared from the socialist attack the flag stood waving tall. The spirit of nationalism has held Poland together, and it will unite all Polish people living under the oppresion of Anarchy and Council Communism!"
  POL_surrounded_by_enemies:0 "Enemies on All Sides"
  POL_surrounded_by_enemies_desc:0 "In every direction enemies to Poland lay. From the socialists in Germany, to the Anarchist in Ukraine, Poland is surrounded by enemies to the nation, and to nationalism. It is only a matter of time before they come marching on rightful Polish land once more, and when they come Poland will stand up in arms against the socialist scum, united as one against the enemies that stand just across the border."
+ POL_catholic_purity_idea:0 "Catholic Purity: §GAchieved§!"
  
  
  #Tooltips
@@ -128,6 +136,7 @@
  POL_non_catholic_crackdown_focus_tt:0 "§YUnlocks Decisions to Crack-Down on Non Catholics§!"
  POL_catholic_purity_4_tt:0 "§GWeakens Jewish Influence§!"
  POL_repurpose_the_synagogues_tt:0 "So long as Juedism has a place to gather and worship then it shall always be a stain on Poland. Because of that fact we must remove the ability for Juedism to gather, and this will be done by repurposing every synagogue in Poland. Whether they be turned into Catholic churchs, or apartments it need not matter, for all that matter is that Juedism no longer has the ability to gather on their false holy ground."
+ POL_the_catholic_solution_tt:0 "Gain Base Stability: §G15%§! \nAdd Idea §GCatholic Purity§!"
  
  
  
