@@ -1,11 +1,9 @@
-﻿capital = 602
-oob = "HNC_1936"
+﻿capital = 608
+oob = "CCE_1936"
 
 set_technology = {
 	infantry_weapons = 1
 }
-
-add_ideas = HNC_tumultuous_politics
 
 set_politics = {
 	ruling_party = neutrality

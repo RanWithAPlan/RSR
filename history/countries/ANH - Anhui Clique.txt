@@ -33,10 +33,6 @@ if = {
 }
 
 add_ideas = ANH_anfu_club
-add_ideas = ANH_the_league_of_three_marshals
-
-give_guarantee = FEN
-give_guarantee = ZHI
 
 set_politics = {
 	ruling_party = despotism
