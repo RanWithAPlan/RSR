@@ -1,20 +1,17 @@
-﻿capital = 601
-
-oob = "XIK_1936"
+﻿capital = 608
+oob = "SHA_1936"
 
 set_technology = {
 	infantry_weapons = 1
-	
 }
 
-add_ideas = XIK_legacy_of_the_sino_tibetan_war
-
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	fascism = 20
+	neutrality = 80
 }

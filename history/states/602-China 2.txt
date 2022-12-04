@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = HNC
-		add_core_of = HNC
+		owner = PUF
+		add_core_of = PUF
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
