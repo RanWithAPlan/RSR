@@ -52,6 +52,12 @@ recruit_character = AUS_eugen_beyer
 recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 
+#Rome Pact
+add_ideas = rome_pact_member
+give_guarantee = HUN
+give_guarantee = ITA
+add_to_tech_sharing_group = rome_research_group
+
 set_politics = {
 	ruling_party = autocracy
 	last_election = "1934.3.26"

@@ -24,11 +24,17 @@ set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
 	vittorio_emanuele
-	vittoria_mutilata
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	
 }
+
+#Rome Pact
+add_ideas = rome_pact_member
+give_guarantee = HUN
+give_guarantee = AUS
+add_to_tech_sharing_group = rome_research_group
 
 # RESISTANCE / COMPLIANCE
 
