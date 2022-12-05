@@ -1,5 +1,10 @@
 #reload countrycolors
 #Please maintain alphabetical order when adding new countries -Meta
+ACD = {
+	color = rgb { 153 0 51 }
+	color_ui = rgb { 77 0 25 }
+}
+
 AFA = {
 	color = rgb { 153 0 51 }
 	color_ui = rgb { 77 0 25 }
@@ -13,11 +18,6 @@ AFG = {
 ALB = {
 	color = rgb { 80 138 76 }
 	color_ui = rgb { 194 59 133 }
-}
-
-ANH = {
-	color = rgb { 153  158  3 }
-	color_ui = rgb { 153  158  3 }
 }
 
 ARG = {

@@ -1,0 +1,39 @@
+﻿capital = 611
+
+oob = "ACD_1936"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = ACD_roman_von_ungern_sternberg
+
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = MON
+		type = annex_everything
+	}
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anarchism = 0
+    council_communism = 0
+    radical_socialism = 0
+    social_democracy = 0
+    progressive_liberalism = 0
+    freemarket_liberalism = 0
+    conservative_democracy = 0
+    autocracy = 0
+    despotism = 100
+    national_extremism = 0
+}

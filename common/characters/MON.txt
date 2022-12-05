@@ -1,6 +1,6 @@
 characters={
 
-MON_genepil_khan={
+	MON_genepil_khan={
 		name = MON_genepil_khan
 		portraits={
 			civilian={

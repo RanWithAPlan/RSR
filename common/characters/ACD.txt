@@ -1,0 +1,16 @@
+characters={
+
+	ACD_roman_von_ungern_sternberg={
+		name = ACD_roman_von_ungern_sternberg
+		portraits={
+			civilian={
+				large="GFX_roman_von_ungern_sternberg"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			traits={ }
+			expire="1965.1.1.1"
+		}
+	}
+}
