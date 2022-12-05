@@ -395,7 +395,6 @@ ideologies = {
 	
 		types = { 
 			national_extremism_subtype = {}
-			
 			populistic_nationalism = {}
 			general_fascism  = {}
 			falangism = {}
