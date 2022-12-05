@@ -61,7 +61,7 @@ country_event = { # The Plot Continues
 			create_country_leader = {
 			name = "National Congress"
 			desc = ""
-			picture = "gfx/leaders/"
+			picture = "gfx/leaders/POL/Portrait_POL_Congress_of_Poland"
 			expire = "1965.1.1"
 			ideology = subtype_national_federalism
 			}
