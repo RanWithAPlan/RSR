@@ -6,7 +6,6 @@ set_technology = {
 } 
 
 add_ideas = GUI_weak_economy
-add_ideas = GUI_hunan_aid
 add_ideas = GUI_yunnan_aid
 
 set_politics = {

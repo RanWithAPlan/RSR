@@ -40,6 +40,11 @@ BEL = {
 	color_ui = rgb { 251 222 10 }
 }
 
+BEY = { 
+	color = rgb { 186 153 37  }
+	color_ui = rgb { 251 222 10 }
+}
+
 BHU = {
 	color = rgb { 172 122 88 }
 	color_ui = rgb { 172 122 88 }
@@ -66,6 +71,11 @@ BUL = {
 }
 
 CAN = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
+
+CCE = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
@@ -135,11 +145,6 @@ ETH = {
 	color_ui = rgb { 198 169 248 }
 }
 
-FEN = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
-}
-
 FRA = {
 	color = rgb { 72 98 186 }
 	color_ui = rgb { 24 100 175 }
@@ -150,19 +155,9 @@ FIN = {
 	color_ui = rgb { 255 255 255 }
 }
 
-FWC = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
-}
-
 GER = {
 	color = rgb { 132 16 24 }
 	color_ui = rgb { 132 16 24 }
-}
-
-GND = {
-	color = rgb { 124 69 66 }
-	color_ui = rgb { 124 69 66 }
 }
 
 GRE = {
@@ -193,11 +188,6 @@ HAI = {
 HOL = {	
 	color = rgb { 203 138 74 }
 	color_ui = rgb { 255 179 96 }
-}
-
-HNC = {
-	color = rgb { 128 145 65 }
-	color_ui = rgb { 128 145 65 }
 }
 
 HON = {
@@ -235,19 +225,9 @@ JAP = {
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 
-KMT = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
-}
-
 KPA = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
-}
-
-KWA = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 124 125 184 }
 }
 
 LAT = {
@@ -273,11 +253,6 @@ LUX = {
 MAL = {
 	color = rgb { 197  96  100 }
 	color_ui = rgb { 213  169  121 }
-}
-
-MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
 }
 
 MEX = {
@@ -350,6 +325,11 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 
+PUF = {
+	color = rgb { 196 189 204 }
+	color_ui = rgb { 255 246 255 }
+}
+
 RAJ = {
 	color = rgb { 226  135  40 }
 	color_ui = rgb { 226  135  40 }
@@ -375,17 +355,17 @@ SAU = {
 	color_ui = rgb { 222 247 198 }
 }
 
+SHA = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+
 SHX = {
 	color = rgb { 82  2  15 }
 	color_ui = rgb { 101  30  41 }
 }
 
 SIA = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
-}
-
-SIC = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
@@ -440,11 +420,6 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 
-XIK = {
-	color = rgb { 105 90 132 }
-	color_ui = rgb { 105 90 132 }
-}
-
 XIN = {
 	color = rgb { 255 127 81 }
 	color_ui = rgb { 255 127 81 }
@@ -468,9 +443,4 @@ YUG = {
 YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
-}
-
-ZHI = {
-	color = rgb { 255 84 166 }
-	color_ui = rgb { 255 84 166 }
 }
