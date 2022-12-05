@@ -35,3 +35,20 @@ POL_jewish_conversion = {
 
 	priority = 99
 }
+
+POL_purge_preperation_caregory = {
+	
+	icon = GFX_decision_generic_assassination
+	
+	picture = GFX_decision_cat_picture_spr_civil_war_offensives
+
+	allowed = {
+		original_tag = POL
+	}
+
+	visible = {
+		has_completed_focus = POL_prepare_the_lists
+	}
+
+	priority = 98
+}

@@ -204,7 +204,7 @@ focus_tree = {
 		available = {
 		check_variable = {
 				var = POL_party_weakness
-				value = 3
+				value = 4
 				compare = greater_than_or_equals
 			}
 		}
@@ -224,7 +224,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			custom_effect_tooltip = POL_prepare_the_lists_tt
+			hidden_effect = {
+			set_variable = {
+				var = POL_preparing_for_purge_var
+				value = 1
+				tooltip = POL_preparing_for_purge_var_tt
+				}
+			}
 		}
 	}
 	
