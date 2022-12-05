@@ -2,15 +2,15 @@
 
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
 
+ACD = "countries/Asiatic Cavalry Division.txt"
 AFA = "countries/Afar.txt"
 AFG = "countries/Afghanistan.txt"
 ALB = "countries/Albania.txt"
-ANH = "countries/Anhui Clique.txt"
 ARG = "countries/Argentina.txt"
 AST = "countries/Australia.txt"
 AUS	= "countries/Austria.txt"
 BEL	= "countries/Belgium.txt"
-BEY = "countries/Beyang Government.txt"
+BEY = "countries/Beiyang Government.txt"
 BHU = "countries/Bhutan.txt"
 BLR = "countries/Belarus.txt"
 BOL = "countries/Bolivia.txt"
