@@ -14,19 +14,7 @@ characters={
 		}
 	}
 	
-	#will add via decision MON_demchugdongrub={
-		name= MON_demchugdongrub
-		portraits={
-			civilian={
-				large="GFX_demchugdongrub"
-			}
-		}
-		country_leader={
-			ideology=paternalism
-			traits={}
-			expire="1965.1.1.1"
-		}
-	}
+	#MON_demchugdongrub paternalism
 	
 		MON_anandyn_amar={
 		name = MON_anandyn_amar
