@@ -7,7 +7,6 @@ division_template = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -21,7 +20,6 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 	}
 }
 division_template = {
@@ -33,8 +31,6 @@ division_template = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
 		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 0 y = 3 }
-		mountaineers = { x = 0 y = 4 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -58,7 +54,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 4655
+		location = 12539
 		division_template = "Khaany Morit Diviziin"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -69,7 +65,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 7749
+		location = 4655
 		division_template = "Khaany Morit Diviziin"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -80,7 +76,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 4862
+		location = 7749
 		division_template = "Khaany Morit Diviziin"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -90,6 +86,17 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
+		}
+		location = 4862
+		division_template = "Khaany Morit Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
 		}
 		location = 1689
 		division_template = "Khaany Morit Diviziin"
@@ -102,7 +109,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 1855
+		location = 10558
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -113,7 +120,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 10575
+		location = 1853
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -124,7 +131,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 7752
+		location = 1723
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -135,7 +142,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 12649
+		location = 10575
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -146,7 +153,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 12579
+		location = 7752
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -157,7 +164,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 4882
+		location = 12649
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -168,7 +175,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 7799
+		location = 12579
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -179,7 +186,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 12544
+		location = 4882
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -190,7 +197,29 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 10695	
+		location = 7773
+		division_template = "Partizany Deglem"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 12695
+		division_template = "Partizany Deglem"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7843	
 		division_template = "Partizany Deglem"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
