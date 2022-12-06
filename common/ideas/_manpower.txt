@@ -1,0 +1,486 @@
+ideas = {
+
+	mobilization_laws = { 
+		law = yes
+		use_list_view = yes
+
+		GMA_colonial_army = {
+			level = 8
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			
+			picture = por_colonial_army
+
+			modifier = {
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.05
+				max_command_power = -10
+				conscription = 0.003
+				mobilization_speed = 0.003
+				experience_gain_army_factor = -0.03
+			}
+
+			allowed_to_remove = {
+				has_completed_focus = GMA_modernize_the_colonial_army
+				NOT = { has_idea = GMA_modernize_the_colonial_army_idea }
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		disarmed_nation = {
+			level = 7
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				mobilization_speed = 0.01
+				conscription = 0.01
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		volunteer_only = {		
+			level = 6
+			cost = 100
+
+			cancel_if_invalid = no
+			available = {
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
+			}
+
+			allowed_to_remove = {
+				if = {
+					limit = { original_tag = SER }
+					NOT = {
+						has_idea = SER_army_restrictions_idea
+					}
+				}
+				if = {
+					limit = { original_tag = ITA }
+					NOT = {
+						has_idea = ITA_force_papal_pacification
+					}
+				}
+				if = {
+					limit = {
+						is_han_chinese_tag = yes
+					}
+					NOT = {
+						has_idea = china_manpower_reduction
+					}
+				}
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						has_idea = limited_conscription
+						has_idea = extensive_conscription
+						has_idea = service_by_requirement
+						has_idea = all_adults_serve
+						has_idea = scraping_the_barrel
+					}
+				}
+				modifier = {
+					factor = 60
+					has_idea = disarmed_nation
+				}
+			}
+
+			modifier = {
+				mobilization_speed = 0.015
+				conscription = 0.015
+			}
+			
+			default = yes
+		}
+		
+		limited_conscription = {
+			level = 5
+			cost = 100
+			removal_cost = -1
+
+			cancel_if_invalid = no
+			available = {
+				OR = {
+					has_war_support > 0.1
+					has_manpower < 1000
+				}
+				NOT = {
+					has_idea = undisturbed_isolation
+					has_idea = isolation
+				}
+			}
+
+			allowed_to_remove = {
+				if = {
+					limit = { original_tag = ROM }
+					NOT = { 
+						has_idea = ROM_treaty_of_craiova
+					}
+				}
+			}
+
+			modifier = {
+				mobilization_speed = 0.025
+				conscription = 0.025
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						has_idea = extensive_conscription
+						has_idea = service_by_requirement
+						has_idea = all_adults_serve
+						has_idea = scraping_the_barrel
+					}
+				}
+				modifier = {
+					factor = 200
+					has_manpower < 25000
+				}
+				modifier = {
+					factor = 20
+					manpower_per_military_factory < 1000
+				}
+				modifier = {
+					factor = 0.2
+					manpower_per_military_factory >  3000
+				}
+				modifier = {
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+				modifier = {
+					factor = 0.2
+					enemies_strength_ratio < 1.25
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					factor = 0
+					enemies_strength_ratio < 0.50
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					add = 100
+					has_manpower < 2500
+				}
+			}
+		}
+		
+		extensive_conscription = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+
+			cancel_if_invalid = no
+			available = {
+				OR = {
+					has_war_support > 0.5
+					AND = {
+						has_war = yes
+						OR = {
+							enemies_strength_ratio > 0.5
+							has_manpower < 1000
+							surrender_progress > 0.15
+						}
+					}
+				}
+				NOT = {
+					has_idea = undisturbed_isolation
+					has_idea = isolation
+				}
+				if = {
+					limit = {
+						has_idea = FRA_treaty_of_vienna
+					}
+					NOT = { has_idea = FRA_treaty_of_vienna }
+				}
+			}
+
+			modifier = {
+				conscription = 0.05
+				mobilization_speed = 0.05
+				training_time_factor = 0.1
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						has_idea = service_by_requirement
+						has_idea = all_adults_serve
+						has_idea = scraping_the_barrel
+					}
+				}
+				modifier = {
+					factor = 200
+					has_manpower < 25000
+				}
+				modifier = {
+					factor = 20
+					manpower_per_military_factory <  800
+				}
+				modifier = {
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					factor = 0.2
+					manpower_per_military_factory >  3000
+				}
+				modifier = {
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+				modifier = {
+					factor = 0.2
+					enemies_strength_ratio < 1.25
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					factor = 0
+					enemies_strength_ratio < 0.50
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					add = 200
+					has_war = yes
+					has_manpower < 2500
+				}
+			}
+		}
+		
+		service_by_requirement = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+
+			cancel_if_invalid = no
+			available = {
+				has_war = yes
+				OR = {
+					has_war_support > 0.6
+					enemies_strength_ratio > 0.6
+					surrender_progress > 0
+					has_manpower < 1000
+				}
+				NOT = {
+					has_idea = undisturbed_isolation
+					has_idea = isolation
+				}
+				if = {
+					limit = {
+						has_idea = FRA_treaty_of_vienna
+					}
+					NOT = { has_idea = FRA_treaty_of_vienna }
+				}
+			}
+
+			modifier = {
+				conscription = 0.1
+				mobilization_speed = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.2
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						has_idea = all_adults_serve
+						has_idea = scraping_the_barrel
+					}
+				}
+				modifier = {
+					#Prio if low on manpower
+					factor = 200
+					has_manpower < 25000
+				}
+				modifier = {
+					factor = 20
+					manpower_per_military_factory <  600
+				}
+				modifier = {
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					factor = 0.2
+					manpower_per_military_factory >  3000
+				}
+				modifier = {
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+				modifier = {
+					factor = 0.2
+					enemies_strength_ratio < 1.25
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					factor = 0
+					enemies_strength_ratio < 0.50
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					add = 200
+					has_war = yes
+					has_manpower < 2500
+				}
+			}
+		}
+		
+		all_adults_serve = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+
+			cancel_if_invalid = no
+			available = {
+				has_war = yes
+				OR = {
+					has_war_support > 0.7
+					enemies_strength_ratio > 0.75
+					surrender_progress > 0.15
+					has_manpower < 1000
+				}
+				NOT = {
+					has_idea = undisturbed_isolation
+					has_idea = isolation
+				}
+				if = {
+					limit = {
+						has_idea = FRA_treaty_of_vienna
+					}
+					NOT = { has_idea = FRA_treaty_of_vienna }
+				}
+			}
+
+			modifier = {
+				conscription = 0.2
+				mobilization_speed = 0.2
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					has_idea = scraping_the_barrel
+				}
+				modifier = {
+					factor = 200
+					has_manpower < 25000
+				}
+				modifier = {
+					factor = 20
+					manpower_per_military_factory <  600
+				}
+				modifier = {
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+				modifier = {
+					factor = 0
+					enemies_strength_ratio < 0.5
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					add = 200
+					has_war = yes
+					has_manpower < 2500
+				}
+			}
+		}
+		
+		scraping_the_barrel = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+
+			cancel_if_invalid = no
+			available = {
+				has_war = yes
+				OR = {
+					has_war_support > 0.85
+					surrender_progress > 0.25
+					has_manpower < 1000
+				}
+				NOT = {
+					has_idea = undisturbed_isolation
+					has_idea = isolation
+				}
+				if = {
+					limit = {
+						has_idea = FRA_treaty_of_vienna
+					}
+					NOT = { has_idea = FRA_treaty_of_vienna }
+				}
+			}
+
+			modifier = {
+				conscription = 0.25
+				mobilization_speed = 0.25
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = 0.5
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 200
+					has_manpower < 25000
+				}
+				modifier = {
+					factor = 20
+					manpower_per_military_factory <  500
+				}
+				modifier = {
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+				modifier = {
+					factor = 0
+					enemies_strength_ratio < 0.5
+					NOT = { surrender_progress > 0 }
+				}
+				modifier = {
+					add = 200
+					has_war = yes
+					has_manpower < 2500
+				}
+			}
+		}
+	}
+}
