@@ -13,6 +13,7 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	#New Traits
 	#Germany
 	council_of_peers = {
 		random = no
@@ -24,7 +25,7 @@ leader_traits = {
 	}
 
 	anarchisten_majority = {
-		stability_factor = -0.2
+		stability_factor = -0.1
 		industrial_capacity_factory = 0.1
 		political_power_factor = 0.15
 	}
@@ -39,7 +40,7 @@ leader_traits = {
 	beloved_queen_of_mongolia = {
 		random = no
 		political_power_factor = 0.05
-		stability_factor = 0.10
+		stability_factor = 0.1
 		cavalry_attack_factor = 0.05
 
 		ai_will_do = {
@@ -49,14 +50,71 @@ leader_traits = {
 	
 	battlemistress = {
 		random = no
-		war_support_factor = 0.10
+		war_support_factor = 0.1
 		army_speed_factor = 0.02
 		army_morale_factor = 0.05
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
+	#Asiatic Cavalry Division
+	#Sternberg
+	spirit_of_kangchenjunga = {
+		war_support_factor = 0.10
+		army_speed_factor = 0.05
+		cavalry_attack_factor = 0.05
+	}
+
+	#Semyonov
+	ACD_friendly_rivalry = {
+		sprite = 5
+		army_morale_factor = 0.06
+		army_speed_factor = 0.05
+
+		command_cap = @tier2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Buhogol
+	prince_of_buyratia = {
+		stability_factor = 0.1
+		out_of_supply_factor = -0.06
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Tsogto
+	prince_of_yakutia = {
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		political_power_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Nechaev
+	mercenary_leader = {
+		political_power_cost = 0.05
+		war_support_factor = 0.05
+		high_commmand_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+	}
+
+	#Diterikhs
+	holy_warrior = {
+		war_support_factor = 0.15
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+	}
+
 	#Vanilla Traits
 	dictator = {
 		random = no
@@ -7790,6 +7848,4 @@ leader_traits = {
 			}
 		}
 	}
-
-
 }
