@@ -1,0 +1,61 @@
+﻿capital = 611
+
+oob = "ACD_1936"
+
+set_technology = {
+	infantry_weapons = 1
+}
+#Roman's Army
+recruit_character = ACD_roman_von_ungern_sternberg
+recruit_character = ACD_alexander_kaigorondov
+recruit_character = ACD_boris_rezukhin
+recruit_character = ACD_ferdinand_ossendowski
+recruit_character = ACD_grigori_semyonov
+recruit_character = ACD_konstantin_nechaev
+recruit_character = ACD_nikolay_kazagrandi
+recruit_character = ACD_prince_buhogol
+recruit_character = ACD_prince_tsogto
+recruit_character = ACD_urzhin_garmaev
+recruit_character = ACD_vladimir_kislitsin
+recruit_character = ACD_grigory_dmitriy_semyenov
+recruit_character = ACD_mikhail_tornovsky
+#Diterikhs' Army
+recruit_character = ACD_mikhail_diterikhs
+recruit_character = ACD_alexey_grishin_almazov
+recruit_character = ACD_anatoly_pepelyayev
+recruit_character = ACD_gerorgy_stark
+recruit_character = ACD_innokentiy_smolin
+recruit_character = ACD_ivan_gamov
+recruit_character = ACD_mikhail_khanzhin
+recruit_character = ACD_nikolai_kolomeitsev
+recruit_character = ACD_nikolai_skoblin
+
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = MON
+		type = annex_everything
+	}
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anarchism = 0
+    council_communism = 0
+    radical_socialism = 0
+    social_democracy = 0
+    progressive_liberalism = 0
+    freemarket_liberalism = 0
+    conservative_democracy = 0
+    autocracy = 0
+    despotism = 100
+    national_extremism = 0
+}

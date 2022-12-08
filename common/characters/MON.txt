@@ -1,6 +1,6 @@
 characters={
 
-MON_genepil_khan={
+	MON_genepil_khan={
 		name = MON_genepil_khan
 		portraits={
 			civilian={
@@ -8,25 +8,139 @@ MON_genepil_khan={
 			}
 		}
 		country_leader={
-			ideology=autocracy_subtype
-<<<<<<< Updated upstream
+			ideology=absolute_monarchy
 			traits={ battlemistress }
-=======
-			traits={ battlequeen }
->>>>>>> Stashed changes
 			expire="1965.1.1.1"
 		}
 	}
+	
+	#MON_demchugdongrub paternalism
+	
+		MON_anandyn_amar={
+		name = MON_anandyn_amar
+		portraits={
+			civilian={
+				large=GFX_portrait_mon_anandyn_amar
+			}
+		}
+		country_leader={
+			ideology=orthodox_marxism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	MON_anarchist_council={
+		name = MON_anarchist_council
+		portraits={
+			civilian={
+				large=GFX_anarchist_council
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	MON_khorloogiin_choibalsan={
+		name = MON_khorloogiin_choibalsan
+		portraits={
+			civilian={
+				large=GFX_portrait_Khorloogiin_Choibalsan
+			}
+		}
+		country_leader={
+			ideology=authoritatian_socialism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	MON_socialdemocracyguy={
+		name = MON_socialdemocracyguy
+		portraits={
+			civilian={
+				large="GFX_socialdemocracyguy"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={}
+			expire="1940.1.1.1"
+		}
+	}
+	
+	MON_mingzhu_zhanshan={
+		name = MON_mingzhu_zhanshan
+		portraits={
+			civilian={
+				large=GFX_portrait_Mingzhu_Zhanshan
+			}
+		}
+		country_leader={
+			ideology=progressive_liberalism_subtype
+			traits={}
+			expire="1940.1.1.1"
+		}
+	}
 
-		#name="Anandyn Amar" ideology=radical_socialism_subtype
-
-		#name="Mingzhu Zhanshan" ideology=liberalism
-
-		#name="Fu Shangzhi" ideology=fascism_ideology
-
-		#name="Songgotu Kang'an" ideology=oligarchism
-
-		#name="Khorloogiin Choibalsan" ideology=stalinism
+	MON_freemarketliberalismguy={
+		name = MON_freemarketliberalismguy
+		portraits={
+			civilian={
+				large="GFX_freemarket_liberalismguy"
+			}
+		}
+		country_leader={
+			ideology=freemarket_liberalism_subtype
+			traits={}
+			expire="1940.1.1.1"
+		}
+	}
+	
+	MON_conservativedemocracyguy={
+		name = MON_conservativedemocracyguy
+		portraits={
+			civilian={
+				large="GFX_conservativedemocracyguy"
+			}
+		}
+		country_leader={
+			ideology=traditionalism
+			traits={}
+			expire="1940.1.1.1"
+		}
+	}
+	
+	MON_songgotu_kangan={
+		name = MON_songgotu_kangan
+		portraits={
+			civilian={
+				large=GFX_portrait_Songgotu_Kangan
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	MON_fu_shangzhi={
+		name = "Songgotu Kang'an"
+		portraits={
+			civilian={
+				large=GFX_portrait_Fu_Shangzhi
+			}
+		}
+		country_leader={
+			ideology=general_fascism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
 
 	MON_haidav={
 		advisor={

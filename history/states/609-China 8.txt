@@ -7,12 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = JAP
-<<<<<<< Updated upstream
-=======
-		add_core_of = CHI
-		add_core_of = PRC
->>>>>>> Stashed changes
+		owner = CCE
+		add_core_of = CCE
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

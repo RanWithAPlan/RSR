@@ -2,17 +2,17 @@ spriteTypes = {
 
 	#Germany
 	spriteType = {
-		name = "GER_tension_on_the_rhine_3"
+		name = "GFX_idea_GER_tension_on_the_rhine_3"
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_3.dds"
 	}
 
 	spriteType = {
-		name = "GER_tension_on_the_rhine_2"
+		name = "GFX_idea_GER_tension_on_the_rhine_2"
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_2.dds"
 	}
 
 	spriteType = {
-		name = "GER_tension_on_the_rhine_1"
+		name = "GFX_idea_GER_tension_on_the_rhine_1"
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_1.dds"
 	}
 
@@ -48,24 +48,24 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_POL_resisting_reds"
+		name = "GFX_idea_POL_resisting_reds"
 		texturefile = "gfx/interface/ideas/POL/POL_resisting_reds.dds"
 	}
 
 	spriteType = {
-		name = "GFX_POL_enemies_on_all_sides"
+		name = "GFX_idea_POL_enemies_on_all_sides"
 		texturefile = "gfx/interface/ideas/POL/POL_enemies_on_all_sides.dds"
 	}
 
 	spriteType = {
-		name = "GFX_POL_nationalism"
+		name = "GFX_idea_POL_nationalism"
 		texturefile = "gfx/interface/ideas/POL/POL_nationalism.dds"
 	}
 	
 	#Vanilla content#
 
 	SpriteType = {
-		name = "GFX_idea_traits_strip"
+		name = "GFX_idea_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 18
 	}

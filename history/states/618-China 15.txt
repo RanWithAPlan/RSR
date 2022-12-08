@@ -7,13 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SIK
-		add_core_of = SIK
-<<<<<<< Updated upstream
-=======
-		add_core_of = CHI
-		add_core_of = PRC
->>>>>>> Stashed changes
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

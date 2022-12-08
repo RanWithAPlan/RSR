@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  #Germany
  council_of_peers:0 "Council of Peers"
  anarchisten_majority:0 "Anarchisten Majority"
@@ -11,6 +11,10 @@ l_english:
 =======
  battlequeen:0 "Battlemistress"
 >>>>>>> Stashed changes
+
+
+
+
 
  #Vanilla 
  cc_leader:0 "General"

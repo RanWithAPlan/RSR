@@ -24,9 +24,9 @@ ideas = {
 
 		POL_resisting_the_red_tide = {
 			
-			removal_cost = -1
+			picture = POL_resisting_reds
 			
-			picture = GFX_POL_resisting_reds
+			removal_cost = -1
 			
 			allowed = {
 				always = no
@@ -45,7 +45,7 @@ ideas = {
 
 		POL_surrounded_by_enemies = {
 			
-			picture = GFX_POL_enemies_on_all_sides
+			picture = POL_enemies_on_all_sides
 			
 			removal_cost = -1
 			
@@ -65,7 +65,7 @@ ideas = {
 
 		POL_fierce_nationalism = {
 			
-			picture = GFX_POL_nationalism
+			picture = POL_nationalism
 			
 			removal_cost = -1
 			
@@ -99,6 +99,25 @@ ideas = {
 				stability_factor = 0.07
 				political_power_gain = 0.25
 				national_extremism_drift = 0.03
+			}
+		}
+		
+		POL_catholic_purity_idea = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.3
+				national_extremism_drift = 0.02
 			}
 		}
 	}

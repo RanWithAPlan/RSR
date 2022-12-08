@@ -321,7 +321,7 @@ MON_MTN_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d-r Mongol Gornostrelkovaya Div." }
+		1 = { "Elit Uulchdyn Korpus" }
 		2 = { "%d-p Mongol Gornostrelkovaya Div." }
 		3 = { "%d-p Mongol Gornostrelkovaya Div." }
 		4 = { "%d-p Mongol Gornostrelkovaya Div." }

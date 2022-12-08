@@ -6,12 +6,8 @@ state={
 	}
 
 	history={
-		owner = CHI
-<<<<<<< Updated upstream
-=======
-		add_core_of = PRC
->>>>>>> Stashed changes
-		add_core_of = CHI
+		owner = PUF
+		add_core_of = PUF
 		victory_points = {
 			7418 1 
 		}

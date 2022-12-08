@@ -1,0 +1,197 @@
+spriteTypes = {
+	#Large
+	spriteType = {
+		name = "GFX_roman_von_ungern_sternberg_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_roman_von_ungern-sternberg.png"
+	}
+
+	spriteType = {
+		name = "GFX_alexander_kaigorondov_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_alexander_kaigorodov.png"
+	}
+	spriteType = {
+		name = "GFX_boris_rezukhin_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_alexander_kaigorodov.png"
+	}
+
+	spriteType = {
+		name = "GFX_ferdinand_ossendowski_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_ferdinand_ossendowski.png"
+	}
+
+	spriteType = {
+		name = "GFX_grigori_semyonov_army_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_grigori_semyonov_gen.png"
+	}
+
+	spriteType = {
+		name = "GFX_grigori_semyonov_civilian_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_grigori_Semyonov.png"
+	}
+	
+	spriteType = {
+		name = "GFX_konstantin_nechaev_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_konstantin_nechaev.png"
+	}
+
+	spriteType = {
+		name = "GFX_nikolay_kazagrandi_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_Nikolai_Kolomeitsev.png"
+	}
+
+	spriteType = {
+		name = "GFX_prince_buhogol_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_prince_buhogol.png"
+	}
+
+	spriteType = {
+		name = "GFX_prince_tsogto_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_prince_tsogto.png"
+	}
+
+	spriteType = {
+		name = "GFX_urzhin_garmaev_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_urzhin_garmaev.png"
+	}
+
+	spriteType = {
+		name = "GFX_vladimir_kislitsin_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_vladimir_kislitsin.png"
+	}
+
+	spriteType = {
+		name = "GFX_dmitriy_semyenov_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_grigory_dmitriy_semyenov.png"
+	}
+
+	spriteType = {
+		name = "GFX_mikhail_tornovsky_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_mikhail_tornovsky.png"
+	}
+
+	spriteType = {
+		name = "GFX_mikhail_diterikhs_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_Mikhail_Diterikhs.png"
+	}
+
+	spriteType = {
+		name = "GFX_anatoly_pepelyayev_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_alexey_grishin-almazov.png"
+	}
+
+	spriteType = {
+		name = "GFX_alexey_grishin_almazov_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_Anatoly_Pepelyayev.png"
+	}
+
+	spriteType = {
+		name = "GFX_anatoly_pepelyayev_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_anatoly_pepelyayev.png"
+	}
+
+	spriteType = {
+		name = "GFX_gerorgy_stark_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_gerorgy_stark.png"
+	}
+
+	spriteType = {
+		name = "GFX_innokentiy_smolin_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_innokentiy_smolin.png"
+	}
+
+	spriteType = {
+		name = "GFX_ivan_gamov_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_ivan_gamov.png"
+	}
+
+	spriteType = {
+		name = "GFX_mikhail_khanzhin_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_mikhail_khanzhin.png"
+	}
+
+	spriteType = {
+		name = "GFX_nikolai_kolomeitsev_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_nikolai_kolomeitsev.png"
+	}
+
+	spriteType = {
+		name = "GFX_nikolai_skoblin_large"
+		texturefile = "gfx/leaders/ACD/portrait_ACD_nikolai_skoblin.png"
+	}
+
+	#Small
+	spriteType = {
+		name = "GFX_alexander_kaigorondov_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_alexander_kaigorondov.png"
+	}
+
+	spriteType = {
+		name = "GFX_boris_rezukhin_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_boris_rezukhin.png"
+	}
+
+	spriteType = {
+		name = "GFX_konstantin_nechaev_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_konstantin_nechaev.png"
+	}
+
+	spriteType = {
+		name = "GFX_nikolay_kazagrandi_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_nikolay_kazagrandi.png"
+	}
+
+	spriteType = {
+		name = "GFX_ferdinand_ossendowski_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_boris_rezukhin.png"
+	}
+
+	spriteType = {
+		name = "GFX_prince_buhogol_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_prince_buhogol.png"
+	}
+
+	spriteType = {
+		name = "GFX_prince_tsogto_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_prince_tsogto.png"
+	}
+
+	spriteType = {
+		name = "GFX_urzhin_garmaev_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_urzhin_garmaev.png"
+	}
+
+	spriteType = {
+		name = "GFX_vladimir_kislitsin_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_vladimir_kislitsin.png"
+	}
+
+	spriteType = {
+		name = "GFX_dmitriy_semyenov_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_dmitriy_semyenov.png"
+	}
+
+	spriteType = {
+		name = "GFX_mikhail_tornovsky_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_mikhail_tornovsky.png"
+	}
+
+	spriteType = {
+		name = "GFX_gerorgy_stark_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_gerorgy_stark.png"
+	}
+
+	spriteType = {
+		name = "GFX_innokentiy_smolin_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_innokentiy_smolin.png"
+	}
+
+	spriteType = {
+		name = "GFX_ivan_gamov_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_ivan_gamov.png"
+	}
+
+	spriteType = {
+		name = "GFX_nikolai_skoblin_small"
+		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_nikolai_skoblin.png"
+	}
+}

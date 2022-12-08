@@ -11,25 +11,10 @@ state={
 	{
 		owner = SHX
 		add_core_of = SHX
-<<<<<<< Updated upstream
-=======
-		add_core_of = CHI
-		add_core_of = PRC
->>>>>>> Stashed changes
+		add_core_of = MON
 		
 		buildings = {
 			infrastructure = 1
-		}
-
-		1938.10.25 = {
-			controller = JAP
-		}
-		
-		1939.1.1 = {
-			
-			owner = PRC
-			controller = MEN
-
 		}
 	}
 	manpower=500000

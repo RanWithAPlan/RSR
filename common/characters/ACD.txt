@@ -1,0 +1,561 @@
+characters = {
+	#Romans Army
+	ACD_roman_von_ungern_sternberg = {
+		name = ACD_roman_von_ungern_sternberg
+		portraits = {
+			army = {
+				large = "GFX_roman_von_ungern_sternberg_large"
+			}
+		}
+		country_leader = {
+			ideology=despotism_subtype
+			traits = {
+				spirit_of_kangchenjunga
+			}
+			expire="1965.1.1.1"
+		}
+
+		field_marshal = {
+    		traits = { }
+    		skill = 3
+    		attack_skill = 3
+    		defense_skill = 2
+    		planning_skill = 2
+    		logistics_skill = 3
+		}
+	}
+
+	ACD_alexander_kaigorondov = {
+		name = ACD_alexander_kaigorondov
+		portraits = {
+			army = {
+				large = "GFX_alexander_kaigorondov_large"
+				small = "GFX_alexander_kaigorondov_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 3
+    		attack_skill = 3
+    		defense_skill = 2
+    		planning_skill = 2
+    		logistics_skill = 3
+		}
+
+  		advisor = {
+			slot = high_command
+			idea_token = ACD_alexander_kaigorondov
+			traits = {
+				army_cavalry_3
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_boris_rezukhin = {
+		name = ACD_boris_rezukhin
+		portraits = {
+			army = {
+				large="GFX_boris_rezukhin_large"
+			}
+
+			civilian = {
+				small = "GFX_boris_rezukhin_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 3
+    		attack_skill = 3
+    		defense_skill = 1
+    		planning_skill = 3
+    		logistics_skill = 3
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = ACD_boris_rezukhin
+			traits = {
+				silent_workhorse
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_ferdinand_ossendowski = {
+		name = ACD_ferdinand_ossendowski
+		portraits = {
+			civilian = {
+				large = "GFX_ferdinand_ossendowski_large"
+				small = "GFX_ferdinand_ossendowski_small"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = ACD_ferdinand_ossendowski
+			traits = {
+				genial_anti_revolutionary
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_grigori_semyonov = {
+		name = ACD_grigori_semyonov
+		portraits = {
+			army = {
+				large = "GFX_grigori_semyonov_army_large"
+				small = "GFX_grigori_semyonov_small"
+			}
+			civilian = {
+				large = "GFX_grigori_semyonov_civilian_large"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 3
+    		attack_skill = 2
+    		defense_skill = 3
+    		planning_skill = 2
+    		logistics_skill = 3
+		}
+
+  		advisor = {
+			slot = army_chief
+			idea_token = ACD_grigori_semyonov
+			 available = {
+                has_country_leader = {
+					character = ACD_roman_von_ungern_sternberg
+					ruling_only = yes
+				}
+            }
+			traits = {
+				ACD_friendly_rivalry
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+			cost = 100
+		}
+	}
+
+	ACD_konstantin_nechaev = {
+		name = ACD_konstantin_nechaev
+		portraits = {
+			army = {
+				large = "GFX_konstantin_nechaev_large"
+			}
+
+			civilian = {
+				small = "GFX_konstantin_nechaev_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 2
+    		attack_skill = 2
+    		defense_skill = 3
+    		planning_skill = 3
+    		logistics_skill = 2
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_konstantin_nechaev
+			traits = {
+				mercenary_leader
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_nikolay_kazagrandi = {
+		name = ACD_nikolay_kazagrandi
+		portraits = {
+			army = {
+				large = "GFX_nikolay_kazagrandi_large"
+				small = "GFX_nikolay_kazagrandi_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 2
+    		attack_skill = 3
+    		defense_skill = 2
+    		planning_skill = 3
+    		logistics_skill = 2
+		}
+
+  		advisor = {
+			slot = high_command
+			idea_token = ACD_nikolay_kazagrandi
+			traits = {
+				army_infantry_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_prince_buhogol = {
+		name = ACD_prince_buhogol
+		portraits = {
+			civilian = {
+				large = "GFX_prince_buhogol_large"
+				small = "GFX_prince_buhogol_small"
+			}
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_prince_buhogol
+			traits = {
+				prince_of_buyratia
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_prince_tsogto = {
+		name = ACD_prince_tsogto
+		portraits = {
+			civilian = {
+				large = "GFX_prince_tsogto_large"
+				small = "GFX_prince_tsogto_small"
+			}
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_prince_tsogto
+			traits = {
+				prince_of_yakutia
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_urzhin_garmaev = {
+		name = ACD_urzhin_garmaev
+		portraits = {
+			army = {
+				large = "GFX_urzhin_garmaev_large"
+				small = "GFX_urzhin_garmaev_small"
+			}
+		}
+
+  		advisor = {
+			slot = theorist
+			idea_token = ACD_urzhin_garmaev
+			ledger = army
+			traits = {
+				military_theorist
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_vladimir_kislitsin = {
+		name = ACD_vladimir_kislitsin
+		portraits = {
+			army = {
+				large = "GFX_vladimir_kislitsin_large"
+				small = "GFX_vladimir_kislitsin_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 4
+    		attack_skill = 3
+    		defense_skill = 3
+    		planning_skill = 3
+    		logistics_skill = 3
+		}
+
+  		advisor = {
+			slot = army_chief
+			idea_token = ACD_vladimir_kislitsin
+			ledger = army
+			traits = {
+				army_chief_offensive_2
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_dmitriy_semyenov = {
+		name = ACD_dmitriy_semyenov
+		portraits = {
+			army = {
+				large = "GFX_dmitriy_semyenov_large"
+				small = "GFX_dmitriy_semyenov_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 2
+    		attack_skill = 2
+    		defense_skill = 3
+    		planning_skill = 2
+    		logistics_skill = 3
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_dmitriy_semyenov
+			traits = {
+				prince_of_terror
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_mikhail_tornovsky = {
+		name = ACD_mikhail_tornovsky
+		portraits = {
+			army = {
+				large = "GFX_mikhail_tornovsky_large"
+			}
+
+			civilian = {
+				small = "GFX_mikhail_tornovsky_small"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 4
+    		attack_skill = 3
+    		defense_skill = 2
+    		planning_skill = 4
+    		logistics_skill = 4
+		}
+
+  		advisor = {
+			slot = high_command
+			idea_token = ACD_mikhail_tornovsky
+			traits = {
+				army_commando_2
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	#Dieterikhs' Army
+	ACD_mikhail_diterikhs = {
+		name = ACD_mikhail_diterikhs
+		portraits = {
+			army = {
+				large = "GFX_mikhail_diterikhs_large"
+			}
+		}
+		country_leader = {
+			ideology = autoctarcy_subtype
+			traits = {
+				holy_warrior
+			}
+			expire="1965.1.1.1"
+		}
+
+		field_marshal = {
+    		traits = { }
+    		skill = 3
+    		attack_skill = 2
+    		defense_skill = 3
+    		planning_skill = 3
+    		logistics_skill = 2
+		}
+	}
+
+	ACD_alexey_grishin_almazov = {
+		name = ACD_alexey_grishin_almazov
+		portraits = {
+			army = {
+				large = "GFX_alexey_grishin_almazov_large"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 4
+    		attack_skill = 3
+    		defense_skill = 3
+    		planning_skill = 3
+    		logistics_skill = 4
+		}
+	}
+
+	ACD_anatoly_pepelyayev = {
+		name = ACD_anatoly_pepelyayev
+		portraits = {
+			army = {
+				large = "GFX_anatoly_pepelyayev_large"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 3
+    		attack_skill = 2
+    		defense_skill = 2
+    		planning_skill = 3
+    		logistics_skill = 3
+		}
+	}
+
+	ACD_gerorgy_stark = {
+		name = ACD_gerorgy_stark
+		portraits = {
+			navy = {
+				large = "GFX_gerorgy_stark_large"
+				small = "GFX_gerorgy_stark_small"
+			}
+		}
+
+		navy_leader = {
+    		skill = 3
+    		attack_skill = 2
+		    defense_skill = 3
+		    maneuvering_skill = 3
+		    coordination_skill = 2
+		}
+
+		advisor = {
+			slot = navy_chief
+			idea_token = ACD_gerorgy_stark
+			traits = {
+				navy_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_innokentiy_smolin = {
+		name = ACD_innokentiy_smolin
+		portraits = {
+			civilian = {
+				large = "GFX_innokentiy_smolin_large"
+				small = "GFX_innokentiy_smolin_small"
+			}
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_innokentiy_smolin
+			traits = {
+				war_inustrialist
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_ivan_gamov = {
+		name = ACD_ivan_gamov
+		portraits = {
+			civilian = {
+				large = "GFX_ivan_gamov_large"
+				small = "GFX_ivan_gamov_small"
+			}
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_ivan_gamov
+			traits = {
+				captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ACD_mikhail_khanzhin = {
+		name = ACD_mikhail_khanzhin
+		portraits = {
+			army = {
+				large = "GFX_mikhail_khanzhin_large"
+			}
+		}
+
+		corps_commander = {
+    		traits = { }
+    		skill = 2
+    		attack_skill = 3
+    		defense_skill = 2
+    		planning_skill = 1
+    		logistics_skill = 2
+		}
+	}
+
+	ACD_nikolai_kolomeitsev = {
+		name = ACD_nikolai_kolomeitsev
+		portraits = {
+			navy = {
+				large = "GFX_nikolai_kolomeitsev_large"
+			}
+		}
+
+		navy_leader = {
+    		skill = 3
+    		attack_skill = 3
+		    defense_skill = 2
+		    maneuvering_skill = 2
+		    coordination_skill = 3
+		}
+	}
+
+	ACD_nikolai_skoblin = {
+		name = ACD_nikolai_skoblin
+		portraits = {
+			civilian = {
+				large = "GFX_nikolai_skoblin_large"
+				small = "GFX_nikolai_skoblin_small"
+			}
+		}
+
+  		advisor = {
+			slot = political_advisor
+			idea_token = ACD_nikolai_skoblin
+			traits = {
+				head_of_intelligence
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

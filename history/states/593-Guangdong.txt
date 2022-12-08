@@ -10,13 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = GXC
-		add_core_of = GXC
-<<<<<<< Updated upstream
-=======
-		add_core_of = CHI
-		add_core_of = PRC
->>>>>>> Stashed changes
+		owner = PUF
+		add_core_of = PUF
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -28,7 +23,7 @@ state= {
 		}
 
 		1938.10.25 = {		
-			remove_core_of = GXC
+			remove_core_of = GND
 			owner = CHI
 			JAP = {
 				set_province_controller = 1202

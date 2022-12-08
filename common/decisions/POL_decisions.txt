@@ -13,9 +13,11 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_discredit_non_loyal_party_officals_tt
 			hidden_effect = { 
 			add_popularity = {
@@ -45,9 +47,11 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_suspend_law_making_abilities_from_national_congress_tt
 			hidden_effect = { 
 			add_stability = 0.01
@@ -74,9 +78,11 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_frame_a_scandal_tt
 			hidden_effect = { 
 			add_popularity = {
@@ -106,9 +112,11 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_remove_congress_power_to_sentancing_tt
 			hidden_effect = {
 			add_stability = 0.02
@@ -135,9 +143,11 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_remove_the_generals_from_the_national_congress_tt
 			hidden_effect = { 
 			add_stability = -0.01
@@ -169,9 +179,11 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_mandate_church_service_tt
 			hidden_effect = { 
 			add_stability = 0.01
@@ -202,9 +214,11 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_turn_secular_schools_catholic_tt
 			hidden_effect = { 
 			add_stability = 0.02
@@ -235,9 +249,11 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_declare_paganism_illegal_tt
 			hidden_effect = { 
 			add_stability = 0.03
@@ -268,9 +284,11 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_remove_protestants_right_to_a_trial_tt
 			hidden_effect = { 
 			add_stability = 0.01
@@ -302,9 +320,11 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
+		days_remove = 30
+		
 		cost = 50
 		
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = POL_repurpose_the_synagogues_tt
 			hidden_effect = { 
 			add_stability = 0.01
@@ -322,4 +342,105 @@ POL_jewish_conversion = {
 	}
 =======
 >>>>>>> Stashed changes
+}
+
+POL_purge_preperation_caregory = {
+
+	POL_establish_a_secret_police_force = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			always = yes
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 90
+		
+		cost = 100
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_establish_a_secret_police_force_tt
+			hidden_effect = { 
+			add_stability = 0.02
+			set_county_flag = POL_secret_police_establish_flag
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 10
+				tooltip = POL_preparing_for_purge_var_1_tt
+			}
+		}
+	}
+	
+	POL_give_unlimited_juristiction_to_the_secret_police = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			always = yes
+		}
+		
+		available = {
+			has_country_flag = POL_secret_police_establish_flag
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 30
+		
+		cost = 25
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_give_unlimited_juristiction_to_the_secret_police_tt
+			hidden_effect = { 
+			add_war_support = 0.03
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 4
+				tooltip = POL_preparing_for_purge_var_2_tt
+			}
+		}
+	}
+	
+	POL_send_infiltrators_into_labor_unions = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			always = yes
+		}
+		
+		available = {
+
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		cost = 15
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_send_infiltrators_into_labor_unions_tt
+			hidden_effect = { 
+			add_popularity = {
+				ideology = council_communism
+				popularity = -0.05
+					}
+			set_county_flag = POL_union_infiltration_started_flag
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 3
+				tooltip = POL_preparing_for_purge_var_3_tt
+			}
+		}
+	}
 }

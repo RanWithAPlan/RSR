@@ -53,7 +53,7 @@
  SOV_radical_socialism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  
  #Focuses
- POL_the_national_congress:0 "The National Congress"
+ POL_the_national_congress:0 "Aftermath of The 1936 National Congress"
  POL_all_power_to_dmowski:0 "All Power to Dmowski"
  POL_all_power_to_the_congress:0 "All Power to The Congress" 
  POL_nationalism_belongs_to_no_man:0 "Nationalism Belongs to No Man"
@@ -68,8 +68,8 @@
  POL_disolve_the_national_congress:0 "Disolve The National Congress"
  POL_prepare_the_lists:0 "Prepare The Lists"
  POL_names_and_addresses:0 "Names and Addresses"
- POL_the_jewish_problem:0 "The Jewish Problem"
- POL_the_catholic_solution:0 "The Catholic Solution"
+ POL_the_jewish_problem:0 "The Non-Catholic Problem"
+ POL_the_catholic_solution:0 "The Falangist Solution"
  POL_ultranationalist_supremacy:0 "Ultranationalist Supremacy"
  POL_release_the_firing_squads:0 "Release The Firing Squads"
  
@@ -88,11 +88,20 @@
  natpoland.4.title:0 "The National Congress Suspended"
  natpoland.4.desc:0 ""
  natpoland.4.a:0 "This Crime Will Not Go Unpunished"
+ natpoland.5.title:0 "Catholic Purity Achieved"
+ natpoland.5.desc:0 "What started as a dream by Dmowski has now been realized, the dream of a truly Catholic Poland. Step by step Dmowski has been taking rights away from non-Catholics, and by doing so forcing them to convert, and with the church working hand in hand with Dmowski's government it led to an uptake in support for Dmowski. This however is only one step towards the complete purification of Poland, as while the people may be Catholic, not all Catholics are Falangists, and not all Falangists are true soldiers in the struggle for complete supremacy for Polish Nationalism."
+ natpoland.5.a:0 "One Step Closer to Perfection"
+ natpoland.6.title:0 "National Congress Abolished"
+ natpoland.6.desc:0 "Ever since the National Republic was established there has been only one thing stopping Dmowski from creating a full dictatorship, that being the National Congress. Created by the ONR-Falanga, the congress acted as a counter weight to Dmowski, but when the traitors in the congress atempted to take Dmowski's life a state of emergency was declared and the congress was suspeneded. However being suspended didn't mean that the congress was abolished, and after the slow decrease in congress abilities, and popularity by the hands of Dmowski, it has finally come the time to do away with the traitors. In a speech given by Dmowski he declared that now with the traitors dealt with, through Dmowski Polish Nationalism can truly flourish, and he shall once more bring purity to Poland, and make it into the true Natioanlist, Catholic and Individualist nation it was meant to be. Although it seems that Dmowski's dictatorship has been fully realized, there could still be those unloyal in our ranks, and they must be dealt with."
+ natpoland.6.a:0 "The Dictatorship Realized"
+ 
  
  #Flags
  POL_dmowski_dead:0 "Dmowski Has Been Killed"
  POL_congress_complete:0 "The 1936 National Congress Has Concluded"
  POL_plot_thwarted:0 "Plot on Dmowski's Life Has Been Thwarted"
+ POL_secret_police_establish_flag:0 "A Secret Police Force Has Been Established"
+ POL_union_infiltration_started_flag:0 "Labor Unions Infiltrated"
 
  
  
@@ -106,6 +115,7 @@
  POL_fierce_nationalism_desc:0 "For centuries the great power of both West and East have torn Poland apart. Partion after partion, invasion after invasion, but as the era of nationalism rose, so to did Poland. As the Great War ended the white and red flags of the mighty Polish nation rose high above the Polish land, and when the dust had cleared from the socialist attack the flag stood waving tall. The spirit of nationalism has held Poland together, and it will unite all Polish people living under the oppresion of Anarchy and Council Communism!"
  POL_surrounded_by_enemies:0 "Enemies on All Sides"
  POL_surrounded_by_enemies_desc:0 "In every direction enemies to Poland lay. From the socialists in Germany, to the Anarchist in Ukraine, Poland is surrounded by enemies to the nation, and to nationalism. It is only a matter of time before they come marching on rightful Polish land once more, and when they come Poland will stand up in arms against the socialist scum, united as one against the enemies that stand just across the border."
+ POL_catholic_purity_idea:0 "Catholic Purity: §GAchieved§!"
  
  
  #Tooltips
@@ -126,11 +136,15 @@
  POL_remove_protestants_right_to_a_trial_tt:0 "Protestantism stands a mark of the false Christains that plague Poland, and every messaure must be done to eliminate this blight. By removing this false Christains right to a trial then we will quickly get them to convert to Catholicism by way of fear alone. This war for purity can only be won a sinlge way, through terror, and this is just the beginning."
  POL_catholic_purity_3_tt:0 "§GWeakens Protestant Influence§!"
  POL_non_catholic_crackdown_focus_tt:0 "§YUnlocks Decisions to Crack-Down on Non Catholics§!"
-<<<<<<< Updated upstream
  POL_catholic_purity_4_tt:0 "§GWeakens Jewish Influence§!"
  POL_repurpose_the_synagogues_tt:0 "So long as Juedism has a place to gather and worship then it shall always be a stain on Poland. Because of that fact we must remove the ability for Juedism to gather, and this will be done by repurposing every synagogue in Poland. Whether they be turned into Catholic churchs, or apartments it need not matter, for all that matter is that Juedism no longer has the ability to gather on their false holy ground."
-=======
->>>>>>> Stashed changes
+ POL_prepare_the_lists_tt:0 "§YUnlocks Decisions To Prepare For a Purge§!"
+ POL_establish_a_secret_police_force_tt:0 "In order to fully carry out a successful purge of all those unloyal to Dmowski and his regime, we must establish a secret police force that will carry out Dmowski and only Dmowski's orders. And then once we have successfully prepared our purge this secret police force will carry it out, and once and for all putify Poland of its enemies that living within its borders."
+ POL_preparing_for_purge_var_1_tt:0 "§GIncreases Purge Readiness by 10%§!"
+ POL_preparing_for_purge_var_2_tt:0 "§GIncreases Purge Readiness by 4%§!"
+ POL_give_unlimited_juristiction_to_the_secret_police_tt:0 "A secret police force is only as useful as we make it, and the first step to making them more useful is to give them unlimited jurisdiction. In their current state the secret police can enforce Dmowski's will, but only to a certain level, by allowing them complete and uninterupted control inside Poland then they can better be able to hunt down and kill the enemies of Dmowski and the state."
+ POL_preparing_for_purge_var_3_tt:0 "§GIncreases Purge Readiness by 3%§!"
+ POL_send_infiltrators_into_labor_unions_tt:0 "The labor unions in Poland have been under scrutiny ever since the National Republic was declared, but that doesn't mean that they have been eliminated. These unions represent a large population of the leftist working population, and so long as they are allowed to exist Council Communism and Anarchism will be a threat to the regime. The first step in the offensive against the unions is to infiltrate them. Once this is completed then we can carry on towards the next step on the attack against the labor unions."
  
  
  
@@ -148,17 +162,17 @@
  POL_turn_secular_schools_catholic:0 "Turn Secular Schools Into Catholic Schools"
  POL_declare_paganism_illegal:0 "Declare Paganism Illegal"
  POL_remove_protestants_right_to_a_trial:0 "Remove Protestant's Right to a Trial"
-<<<<<<< Updated upstream
  POL_repurpose_the_synagogues:0 "Repurpose The Syndagogues"
-=======
->>>>>>> Stashed changes
+ POL_purge_preperation_caregory:0 "Preparation For The Purge"
+ POL_purge_preperation_caregory_desc:0 "Although the traitors in the ONR-Falanga and National Congress haev been weakend, Poland is not without enemies that line the insides of our borders. In order to purify Poland of these threats, we must strike at them with the power of terror, every enemy of Dmowksi, and every enemy of Poland must see the error in their ways, or face the firing squad. However, a purge through way of Nationalistic Terror can only be achieved once we've thoroughly prepared for the offensive on the enemies of the state.\n\nAt the moment we are §Y[?POL_preparing_for_purge_var]%§! close to unleashing our purge on the traitors within our ranks, once that number reaches §G100%§! then we can continue on to the next stage of out plan."
+ POL_establish_a_secret_police_force:0 "Establish a Secret Police Force"
+ POL_give_unlimited_juristiction_to_the_secret_police:0 "Grant Unlimited Jurisdiction to The Secret Police"
+ POL_send_infiltrators_into_labor_unions:0 "Send Infiltrators Into Labor Unions"
+ 
  
  
  
  #Dynamic Modifiers
-<<<<<<< Updated upstream
  POL_party_weakness:0 "ONR-Falange and National Congress Weakness"
  POL_catholic_purity:0 "Catholic Purity in Poland"
-=======
- POL_party_weakness:0 "ONR-Falange and National Congress Weakness"
->>>>>>> Stashed changes
+ POL_preparing_for_purge_var:0 "Preparation For The Purge"

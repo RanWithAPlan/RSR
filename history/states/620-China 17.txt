@@ -3,12 +3,8 @@ state={
 	name="STATE_620"
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-<<<<<<< Updated upstream
-=======
-		add_core_of = PRC
->>>>>>> Stashed changes
+		owner = PUF
+		add_core_of = PUF
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3

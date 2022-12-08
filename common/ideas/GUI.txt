@@ -1,0 +1,39 @@
+ideas = {
+	country = { 
+		
+		GUI_weak_economy = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				political_power_gain = -0.1
+			}
+		}
+
+		GUI_yunnan_aid = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+	}
+}

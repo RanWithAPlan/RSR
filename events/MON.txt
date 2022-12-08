@@ -12,6 +12,8 @@ country_event = {
 	owns_state = 819
 	owns_state = 612
 	owns_state = 611
+	owns_state = 621
+	owns_state = 746
 	}
 	
 	mean_time_to_happen = { days = 1 }

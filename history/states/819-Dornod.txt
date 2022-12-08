@@ -6,23 +6,15 @@ state={
 	}
 
 	history={
-<<<<<<< Updated upstream
-		owner = ANH
-=======
-		owner = MEN
->>>>>>> Stashed changes
+		owner = ACD
+		add_core_of = ACD
+		add_core_of = MON
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			12557 1 #Choibalsan
 		}
-		add_core_of = MON
-<<<<<<< Updated upstream
-		add_core_of = ANH
-=======
-		add_core_of = MEN
->>>>>>> Stashed changes
 	}
 	manpower=88250
 	buildings_max_level_factor=1.000

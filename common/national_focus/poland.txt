@@ -173,7 +173,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			add_stability = -0.05
+			add_popularity = {
+			ideology = national_extremism
+			popularity = 0.05
+					}
+			country_event = {
+			id = natpoland.6
+			days = 0
+			}
 		}
 	}
 	
@@ -196,7 +204,7 @@ focus_tree = {
 		available = {
 		check_variable = {
 				var = POL_party_weakness
-				value = 3
+				value = 4
 				compare = greater_than_or_equals
 			}
 		}
@@ -216,7 +224,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+			custom_effect_tooltip = POL_prepare_the_lists_tt
+			hidden_effect = {
+			set_variable = {
+				var = POL_preparing_for_purge_var
+				value = 1
+				tooltip = POL_preparing_for_purge_var_tt
+				}
+			}
 		}
 	}
 	
@@ -342,7 +357,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			hidden_effect = { 
+			set_country_flag = POL_catholic_purity_flag
+			add_ideas = POL_catholic_purity_idea
+			country_event = {
+			id = natpoland.5
+			days = 0
 			}
 		}
 	}
