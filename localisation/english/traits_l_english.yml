@@ -1,4 +1,15 @@
 ﻿l_english:
+ #advisors
+ voice_of_anarchy:0 "Voice of Anarchy"
+ party_newspaper_editor:0 "Party Newspaper Editor"
+ devoted_communist:0 "Devoted Communist"
+ prominent_reformer:0 "Prominent Reformer"
+ gospeler_of_progress:0 "Gospeler of Progress"
+ competitive_capitalist:0 "Competitive Capitalist"
+ stedfast_traditionalist:0 "Stedfast Traditionalist"
+ direct_power_supporter:0 "Direct-Power Supporter"
+ propaganda_master:0 "Propaganda Master"
+ fanatic_extremist:0 "Fanatic Extremist"
  #Germany
  council_of_peers:0 "Council of Peers"
  anarchisten_majority:0 "Anarchisten Majority"
@@ -9,7 +20,6 @@
 <<<<<<< Updated upstream
  battlemistress:0 "Battlemistress"
 =======
- battlequeen:0 "Battlemistress"
 >>>>>>> Stashed changes
 
 

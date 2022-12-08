@@ -14,6 +14,82 @@
 
 leader_traits = {
 	#New Traits
+	
+	#General
+	
+	#Demagogues
+	
+	voice_of_anarchy = {
+		#Boosts anarchism
+		random = no
+		anarchism_drift = 0.1
+		anarchism_acceptance = 10
+	}
+	
+	party_newspaper_editor = {
+		#Boosts council_communism
+		random = no
+		council_communism_drift = 0.1
+		council_communism_acceptance = 10
+	}
+	
+	devoted_communist = {
+		#Boosts radical_socialism
+		random = no
+		radical_socialism_drift = 0.1
+		radical_socialism_acceptance = 10
+	}
+	
+	prominent_reformer = {
+		#Boosts social_democracy
+		random = no
+		social_democracy_drift = 0.1
+		social_democracy_acceptance = 10
+	}
+	
+	gospeler_of_progress = {
+		#Boosts social_democracy
+		random = no
+		progressive_liberalism_drift = 0.1
+		progressive_liberalism_acceptance = 10
+	}
+	
+	competitive_capitalist = {
+		#Boosts freemarket_liberalism
+		random = no
+		freemarket_liberalism_drift = 0.1
+		freemarket_liberalism_acceptance = 10
+	}
+	
+	stedfast_traditionalist = {
+		#Boosts conservative_democracy
+		random = no
+		conservative_democracy_drift = 0.1
+		conservative_democracy_acceptance = 10
+	}
+	
+	direct_power_supporter = {
+		#Boosts autocracy
+		random = no
+		autocracy_drift = 0.1
+		autocracy_acceptance = 10
+	}
+	
+	propaganda_master = {
+		#Boosts despotism
+		random = no
+		despotism_drift = 0.1
+		despotism_acceptance = 10
+	}
+	
+	fanatic_extremist = {
+		#Boosts national_extremism
+		random = no
+		national_extremism_drift = 0.1
+		national_extremism_acceptance = 10
+	}
+	
+	
 	#Germany
 	council_of_peers = {
 		random = no
@@ -42,10 +118,6 @@ leader_traits = {
 		political_power_factor = 0.05
 		stability_factor = 0.1
 		cavalry_attack_factor = 0.05
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	
 	battlemistress = {
@@ -53,9 +125,6 @@ leader_traits = {
 		war_support_factor = 0.1
 		army_speed_factor = 0.02
 		army_morale_factor = 0.05
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	#Asiatic Cavalry Division
