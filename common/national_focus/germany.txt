@@ -56,44 +56,316 @@ focus_tree = {
 			add_political_power = 20
 		} 
 	}
-	#anarchisten path
 	focus = {
-		id = GER_anarchisten_victory
-		icon = GFX_GER_anarchisten_victory
-		cost = 0
-		prerequisite = { focus = GER_council_elections}
+		id = GER_industrial_retooling
+		icon = GFX_GER_industrial_retooling
+		cost = 2
+		prerequisite = { focus = GER_council_elections }
 		relative_position_id = GER_council_elections
-		x = -5
+		x = -3
 		y = 1
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		available = {
-			has_country_flag= GER_anarchisten_election
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
+			}
 		}
 	}
 	focus = {
-		id = GER_dezentralisten_victory
-		icon = GFX_GER_dezantralisten_victory
-		cost = 0
-		prerequisite = { focus = GER_council_elections}
-		relative_position_id = GER_council_elections
+		id = GER_regional_planning
+		icon = GFX_GER_regional_planning
+		cost = 8
+		prerequisite = { focus = GER_industrial_retooling }
+		relative_position_id = GER_industrial_retooling
+		x = -2
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			unlock_decision_category_tooltip = GER_regional_planning_category
+		}
+	}
+	focus = {
+		id = GER_industrial_heart
+		icon = GFX_GER_industrial_heart
+		cost = 5
+		prerequisite = { focus = GER_regional_planning }
+		mutually_exclusive = { focus = GER_connecting_the_countryside }
+		relative_position_id = GER_regional_planning
+		x = -1
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			57 = {
+                add_dynamic_modifier = {
+                    modifier = GER_ruhr_industrial_heart
+                }
+				add_resource = {
+					type = oil
+					amount = 10
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_proletarian_productivity
+		icon = GFX_GER_proletarian_productivity
+		cost = 5
+		prerequisite = { focus = GER_industrial_heart }
+		relative_position_id = GER_industrial_heart
 		x = 0
 		y = 1
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		available = {
-			has_country_flag= GER_dezentralisten_election
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = { GER_industrial_drive }	
 		}
 	}
 	focus = {
-		id = GER_zentralisten_victory
-		icon = GFX_GER_zantralisten_victory
-		cost = 0
-		prerequisite = { focus = GER_council_elections}
-		relative_position_id = GER_council_elections
-		x = 5
+		id = GER_connecting_the_countryside
+		icon = GFX_GER_connecting_the_countryside
+		cost = 5
+		prerequisite = { focus = GER_regional_planning }
+		mutually_exclusive = { focus = GER_industrial_heart }
+		relative_position_id = GER_regional_planning
+		x = 1
 		y = 1
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		available = {
-			has_country_flag= GER_zentralisten_election
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_owned_state = {
+				limit = {  
+					OR = {
+						has_state_category = town 
+						has_state_category = rural
+					}
+				}
+				set_state_category = large_town
+			}
+			every_owned_state = {
+				limit = { infrastructure < 5 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
+	}
+	focus = {
+		id = GER_feeding_the_revolution
+		icon = GFX_GER_feeding_the_revolution
+		cost = 5
+		prerequisite = { focus = GER_connecting_the_countryside }
+		relative_position_id = GER_connecting_the_countryside
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = { GER_feeding_revolution }
+		}
+	}
+	focus = {
+		id = GER_syndicate_vote
+		icon = GFX_GER_syndicate_vote
+		cost = 5
+		prerequisite = { focus = GER_industrial_retooling }
+		relative_position_id = GER_industrial_retooling
+		x = 3
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			country_event = {
+				id = socgermany.6
+			}
+		}
+	}
+	focus = {
+		id = GER_repurposing_military_industry
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_syndicate_vote }
+		mutually_exclusive = { focus = GER_empower_local_producers }
+		mutually_exclusive = { focus = GER_concentrate_industry }
+		relative_position_id = GER_syndicate_vote
+		x = -2
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_anarchisten_industry
+				add_idea = GER_anarchisten_industry1
+			}
+			64 = {
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			50 = {
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_denationalise_railway
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_repurposing_military_industry }
+		relative_position_id = GER_repurposing_military_industry
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_anarchisten_industry1
+				add_idea = GER_anarchisten_industry2
+			}
+		}
+	}
+	focus = {
+		id = GER_siphon_military_resources
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_denationalise_railway }
+		relative_position_id = GER_denationalise_railway
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			remove_idea = GER_bloated_military
+		}
+	}
+	focus = {
+		id = GER_empower_local_producers
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_syndicate_vote }
+		mutually_exclusive = { focus = GER_repurposing_military_industry }
+		mutually_exclusive = { focus = GER_concentrate_industry }
+		relative_position_id = GER_syndicate_vote
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_dezentralisten_industry
+				add_idea = GER_dezentralisten_industry1
+			}
+		}
+	}
+	focus = {
+		id = GER_mechanise_agriculture
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_empower_local_producers }
+		relative_position_id = GER_empower_local_producers
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_dezentralisten_industry1
+				add_idea = GER_dezentralisten_industry2
+			}
+		}
+	}
+	focus = {
+		id = GER_recalibrate_the_economy
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_mechanise_agriculture }
+		relative_position_id = GER_mechanise_agriculture
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_bloated_military
+				add_idea = GER_bloated_military1
+			}
+		}
+	}
+	focus = {
+		id = GER_concentrate_industry
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_syndicate_vote }
+		mutually_exclusive = { focus = GER_repurposing_military_industry }
+		mutually_exclusive = { focus = GER_empower_local_producers }
+		relative_position_id = GER_syndicate_vote
+		x = 2
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_zentralisten_industry
+				add_idea = GER_zentralisten_industry1
+			}
+		}
+	}
+	focus = {
+		id = GER_concentrate_industry_brandenburg
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_concentrate_industry }
+		relative_position_id = GER_concentrate_industry
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			64 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_concentrate_industry_ruhr
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_concentrate_industry_brandenburg }
+		relative_position_id = GER_concentrate_industry_brandenburg
+		x = 0
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			57 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_road_to_war
+		icon = g
+		cost = 5
+		prerequisite = { focus = GER_proletarian_productivity focus = GER_feeding_the_revolution}
+		prerequisite = { focus = GER_siphon_military_resources focus = GER_recalibrate_the_economy focus = GER_concentrate_industry_ruhr }
+		relative_position_id = GER_industrial_retooling
+		x = 0
+		y = 5
 	}
 }

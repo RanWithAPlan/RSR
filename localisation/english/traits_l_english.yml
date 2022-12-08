@@ -6,7 +6,11 @@ l_english:
  zentralisten_majority:0 "Zentralisten Majority"
  #Mongolia
  beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
+<<<<<<< Updated upstream
  battlemistress:0 "Battlemistress"
+=======
+ battlequeen:0 "Battlemistress"
+>>>>>>> Stashed changes
 
  #Vanilla 
  cc_leader:0 "General"

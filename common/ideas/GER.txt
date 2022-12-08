@@ -71,5 +71,97 @@ ideas = {
 				opinion_gain_monthly_factor = -0.1
 			}
 		}
+		GER_bloated_military = {
+			picture = GER_bloated_military
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		GER_bloated_military1 = {
+			picture = GER_bloated_military
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		GER_industrial_drive = {
+			picture = GER_proletarian_productivity
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor =0.05
+			}
+		}
+		GER_feeding_revolution = {
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.1
+				industry_air_damage_factor = -0.2
+			}
+		}
+		GER_anarchisten_industry = {
+			picture = GER_anarchisten_industry
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor =0.05
+			}
+		}
+		GER_anarchisten_industry1 = {
+			picture = GER_anarchisten_industry
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor =0.05
+				conversion_cost_mil_to_civ_factor = -0.20
+			}
+		}
+		GER_anarchisten_industry2 = {
+			picture = GER_anarchisten_industry
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor =0.05
+				conversion_cost_mil_to_civ_factor = -0.20
+				production_speed_supply_node_factor = 0.10
+				supply_node_range = 0.05
+			}
+		}
+		GER_dezentralisten_industry = {
+			picture = GER_dezentralisten_industry
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		GER_dezentralisten_industry1 = {
+			picture = GER_dezentralisten_industry
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				line_change_production_efficiency_factor = 0.10
+			}
+		}
+		GER_dezentralisten_industry2 = {
+			picture = GER_dezentralisten_industry
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				line_change_production_efficiency_factor = 0.10
+				conscription= 0.01
+			}
+		}
+		GER_zentralisten_industry = {
+			picture = GER_zentralisten_industry
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_arms_factory_factor =0.05
+			}
+		}
+		GER_zentralisten_industry1 = {
+			picture = GER_zentralisten_industry
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				production_speed_arms_factory_factor =0.05
+			}
+		}
 	}
 }

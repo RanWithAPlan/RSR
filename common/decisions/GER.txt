@@ -8,52 +8,70 @@ GER_executive_council_category = {
         custom_effect_tooltip = GER_seat_change_localisation
         is_good = yes
         days_mission_timeout = 90
-        timeout_effect = {
-            set_variable = { var = GER_seats_change_alternate value = GER_seats_change }
-            divide_variable = { var = GER_seats_change_alternate value = 2}
+        timeout_effect = {  
+            add_to_variable = {
+                var = GER_anarchisten_seats value = GER_anarchisten_seats_change
+            }
+            add_to_variable = {
+                var = GER_dezentralisten_seats value = GER_dezentralisten_seats_change
+            }
+            add_to_variable = {
+                var = GER_zentralisten_seats value = GER_zentralisten_seats_change
+            }
             if = {
                 limit = {
-                    has_country_flag = GER_anarchisten_election
-                }   
-                add_to_variable = {
-                    var = GER_anarchisten_seats value = GER_seats_change
+                    check_variable = {
+                        var = GER_dezentralisten_seats
+                        value = GER_anarchisten_seats
+                        compare = greater_than_or_equals
+                    }
+                    check_variable = {
+                        var = GER_dezentralisten_seats
+                        value = GER_zentralisten_seats
+                        compare = greater_than_or_equals
+                    }
                 }
-                subtract_from_variable = {
-                    var = GER_dezentralisten_seats value = GER_seats_change_alternate
-                }
-                subtract_from_variable = {
-                    var = GER_zentralisten_seats value = GER_seats_change_alternate
-                }
+                set_politics = { ruling_party = council_communism }
+                set_country_flag = GER_dezentralisten_election
+                clr_country_flag = GER_zentralisten_election
+                clr_country_flag = GER_anarchisten_election
             }
-            else_if = {
+            if_else = {
                 limit = {
-                    has_country_flag = GER_dezentralisten_election
-                }   
-                add_to_variable = {
-                    var = GER_dezentralisten_seats value = GER_seats_change
+                    check_variable = {
+                        var = GER_anarchisten_seats
+                        value = GER_dezentralisten_seats
+                        compare = greater_than_or_equals
+                    }
+                    check_variable = {
+                        var = GER_anarchisten_seats
+                        value = GER_zentralisten_seats
+                        compare = greater_than_or_equals
+                    }
                 }
-                subtract_from_variable = {
-                    var = GER_zentralisten_seats value = GER_seats_change_alternate
-                }
-                subtract_from_variable = {
-                    var = GER_anarchisten_seats value = GER_seats_change_alternate
-                }
+                set_politics = { ruling_party = anarchism }
+                set_country_flag = GER_anarchisten_election
+                clr_country_flag = GER_zentralisten_election
+                clr_country_flag = GER_dezentralisten_election
             }
-            else_if = {
+            if_else = {
                 limit = {
-                    has_country_flag = GER_zentralisten_election
-                }   
-                add_to_variable = {
-                    var = GER_zentralisten_seats value = GER_seats_change
+                    check_variable = {
+                        var = GER_zentralisten_seats
+                        value = GER_dezentralisten_seats
+                        compare = greater_than_or_equals
+                    }
+                    check_variable = {
+                        var = GER_zentralisten_seats
+                        value = GER_anarchisten_seats
+                        compare = greater_than_or_equals
+                    }
                 }
-                subtract_from_variable = {
-                    var = GER_dezentralisten_seats value = GER_seats_change_alternate
-                }
-                subtract_from_variable = {
-                    var = GER_anarchisten_seats value = GER_seats_change_alternate
-                }
+                set_politics = { ruling_party = radical_socialism }
+                set_country_flag = GER_zentralisten_election
+                clr_country_flag = GER_anarchisten_election
+                clr_country_flag = GER_dezentralisten_election
             }
-            clear_variable = { GER_seats_change_alternate }
             activate_mission = GER_seats_change_mission
         }
     }
@@ -61,7 +79,6 @@ GER_executive_council_category = {
     GER_rally_syndicate_support = {
         icon = GFX_decision_generic_speech
         allowed = { original_tag = GER }
-        visible = { has_country_flag = GER_anarchisten_election }
         priority = 20
         fire_only_once = no
         days_remove = 30
@@ -80,7 +97,6 @@ GER_executive_council_category = {
     GER_rally_local_support = {
         icon = GFX_decision_generic_political_rally
         allowed = { original_tag = GER }
-        visible = { has_country_flag = GER_dezentralisten_election }
         priority = 20
         fire_only_once = no
         days_remove = 30
@@ -99,7 +115,6 @@ GER_executive_council_category = {
     GER_rally_military_support = {
         icon = GFX_decision_generic_army_support
         allowed = { original_tag = GER }
-        visible = { has_country_flag = GER_zentralisten_election }
         priority = 20
         fire_only_once = no
         days_remove = 30
@@ -116,78 +131,180 @@ GER_executive_council_category = {
         }
     }
     #not ideology exclusive
-    GER_push_recall = {
-        icon = GFX_decision_generic_political_discourse
+}
+GER_regional_planning_category = {
+    GER_ruhr_regional_plans = {
+        icon = GFX_decision_generic_factory
         allowed = { original_tag = GER }
-        priority = 15
-        fire_only_once = no
-        days_remove = 10
-        days_re_enable = 120
+        priority = 10
+        fire_only_once = yes
+        days_remove = 90
         cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+        		state = 57
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
         remove_effect = {
-            if = {
-                limit = {
-                    has_country_flag = GER_anarchisten_election
-                }   
-                add_to_variable = {
-                    var = GER_anarchisten_seats value = 4
+            57 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
                 }
-                subtract_from_variable = {
-                    var = GER_dezentralisten_seats value = -2
-                }
-                subtract_from_variable = {
-                    var = GER_zentralisten_seats value = -2
-                }
-            }
-            else_if = {
-                limit = {
-                    has_country_flag = GER_dezentralisten_election
-                }   
-                add_to_variable = {
-                    var = GER_dezentralisten_seats value = 4
-                }
-                subtract_from_variable = {
-                    var = GER_zentralisten_seats value = -2
-                }
-                subtract_from_variable = {
-                    var = GER_anarchisten_seats value = -2
-                }
-            }
-            else_if = {
-                limit = {
-                    has_country_flag = GER_zentralisten_election
-                }   
-                add_to_variable = {
-                    var = GER_zentralisten_seats value = 4
-                }
-                subtract_from_variable = {
-                    var = GER_dezentralisten_seats value = -2
-                }
-                subtract_from_variable = {
-                    var = GER_anarchisten_seats value = -2
-                }
-            }
-            add_to_variable = {
-                var = GER_seats_change value = -8
-                tooltip = GER_push_recall_tt
             }
         }
     }
-    GER_gather_support = {
-        icon = GFX_decision_generic_civil_support
+    GER_northwest_regional_plans = {
+        icon = GFX_decision_generic_factory
         allowed = { original_tag = GER }
         priority = 10
-        fire_only_once = no
-        days_remove = 20
-        days_re_enable = 30
-        modifier = {
-            political_power_gain = -0.1
-        }
+        fire_only_once = yes
+        days_remove = 90
         cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 59
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
         remove_effect = {
-            add_to_variable = {
-                var = GER_seats_change value = 2
-                tooltip = GER_gather_support_tt
+            59 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    GER_wurttemberg_regional_plans = {
+        icon = GFX_decision_generic_factory
+        allowed = { original_tag = GER }
+        priority = 10
+        fire_only_once = yes
+        days_remove = 90
+        cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+        		state = 50
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        remove_effect = {
+            50 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    GER_bavarian_regional_plans = {
+        icon = GFX_decision_generic_factory
+        allowed = { original_tag = GER }
+        priority = 10
+        fire_only_once = yes
+        days_remove = 90
+        cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+        		state = 52
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        remove_effect = {
+            52 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    GER_central_regional_plans = {
+        icon = GFX_decision_generic_factory
+        allowed = { original_tag = GER }
+        priority = 10
+        fire_only_once = yes
+        days_remove = 90
+        cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 64
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        remove_effect = {
+            64 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    GER_silesia_regional_plans = {
+        icon = GFX_decision_generic_factory
+        allowed = { original_tag = GER }
+        priority = 10
+        fire_only_once = yes
+        days_remove = 90
+        cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+        		state = 66
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        remove_effect = {
+            66 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    GER_ostprussia_regional_plans = {
+        icon = GFX_decision_generic_factory
+        allowed = { original_tag = GER }
+        priority = 10
+        fire_only_once = yes
+        days_remove = 90
+        cost = 20
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 763
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        remove_effect = {
+            763 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
             }
         }
     }

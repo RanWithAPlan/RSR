@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			105 1 
 		}
-		owner = EAU
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -19,7 +19,8 @@ state={
 			}
 
 		}
-		add_core_of = EAU
+		add_core_of = SOV
+		add_core_of = NEN
 
 	}
 

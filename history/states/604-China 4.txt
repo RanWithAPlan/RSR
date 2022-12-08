@@ -5,6 +5,11 @@ state={
 	history={
 		owner = XSM
 		add_core_of = XSM
+<<<<<<< Updated upstream
+=======
+		add_core_of = CHI
+		add_core_of = PRC
+>>>>>>> Stashed changes
 		victory_points = {
 			7940 10 
 		}

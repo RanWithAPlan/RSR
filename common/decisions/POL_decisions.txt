@@ -286,6 +286,7 @@ POL_jewish_conversion = {
 			}
 		}
 	}
+<<<<<<< Updated upstream
 	
 	POL_repurpose_the_synagogues= {
 	
@@ -319,4 +320,6 @@ POL_jewish_conversion = {
 			}
 		}
 	}
+=======
+>>>>>>> Stashed changes
 }

@@ -7,7 +7,13 @@ state={
 
 	history={
 		owner = MAN
+<<<<<<< Updated upstream
 		add_core_of = MAN
+=======
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+>>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

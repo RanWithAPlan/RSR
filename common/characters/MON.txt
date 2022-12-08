@@ -9,7 +9,11 @@ MON_genepil_khan={
 		}
 		country_leader={
 			ideology=autocracy_subtype
+<<<<<<< Updated upstream
 			traits={ battlemistress }
+=======
+			traits={ battlequeen }
+>>>>>>> Stashed changes
 			expire="1965.1.1.1"
 		}
 	}

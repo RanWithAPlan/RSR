@@ -5,6 +5,11 @@ state={
 	history={
 		owner = SIK
 		add_core_of = SIK
+<<<<<<< Updated upstream
+=======
+		add_core_of = CHI
+		add_core_of = PRC
+>>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

@@ -17,6 +17,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_zentralisten_victory.png"
 	}
 	SpriteType = {
+		name = "GFX_GER_empower_the_syndicates"
+		texturefile = "gfx/interface/goals/GER_empower_the_syndicates.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_cooperate_with_the_syndicates"
+		texturefile = "gfx/interface/goals/GER_cooperate_with_the_syndicates.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_disempower_the_syndicates"
+		texturefile = "gfx/interface/goals/GER_disempower_the_syndicates.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_syndicate_vote"
+		texturefile = "gfx/interface/goals/GER_syndicate_vote.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_industrial_heart"
+		texturefile = "gfx/interface/goals/GER_industrial_heart.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_regional_planning"
+		texturefile = "gfx/interface/goals/GER_regional_planning.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_connecting_the_countryside"
+		texturefile = "gfx/interface/goals/GER_connecting_the_countryside.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_proletarian_productivity"
+		texturefile = "gfx/interface/goals/GER_proletarian_productivity.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_feeding_the_revolution"
+		texturefile = "gfx/interface/goals/GER_feeding_the_revolution.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_industrial_retooling"
+		texturefile = "gfx/interface/goals/GER_industrial_retooling.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_nationwide_coordination"
+		texturefile = "gfx/interface/goals/GER_nationwide_coordination.png"
+	}
+	SpriteType = {
 		name = "GFX_"
 		texturefile = "gfx/interface/goals/.png"
 	}

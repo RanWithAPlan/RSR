@@ -16,9 +16,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_1.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_GER_feeding_the_revolution"
+		texturefile = "gfx/interface/ideas/GER/GER_feeding_the_revolution.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_proletarian_productivity"
+		texturefile = "gfx/interface/ideas/GER/GER_proletarian_productivity.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_anarchisten_industry"
+		texturefile = "gfx/interface/ideas/GER/GER_anarchisten_industry.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_dezentralisten_industry"
+		texturefile = "gfx/interface/ideas/GER/GER_dezentralisten_industry.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_zentralisten_industry"
+		texturefile = "gfx/interface/ideas/GER/GER_zentralisten_industry.png"
+	}
+
 	#Poland
 	spriteType = {
-		name = "GFX_idea_POL_divided_government"
+		name = "GFX_idea_idea_POL_divided_government"
 		texturefile = "gfx/interface/ideas/POL/POL_divided_government.dds"
 	}
 
@@ -48,7 +73,7 @@ spriteTypes = {
 	### new tfv nat spirit icons
 
 	spriteType = {
-		name = "GFX_idea_generic_degauss_ship_hulls"
+		name = "GFX_idea_idea_generic_degauss_ship_hulls"
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
 	}		
 	

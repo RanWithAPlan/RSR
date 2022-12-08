@@ -1,6 +1,4 @@
 ﻿capital = 16
- 
-puppet = RHE
 
 if = {
 	limit = {
