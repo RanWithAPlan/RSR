@@ -153,7 +153,7 @@ focus_tree = {
 		available = {
 			check_variable = {
 				var = POL_party_weakness
-				value = 5
+				value = 6
 				compare = greater_than_or_equals
 			}
 		}
@@ -204,6 +204,11 @@ focus_tree = {
 		available = {
 		check_variable = {
 				var = POL_party_weakness
+				value = 5
+				compare = greater_than_or_equals
+			}
+		check_variable = {
+				var = POL_catholic_purity
 				value = 4
 				compare = greater_than_or_equals
 			}
