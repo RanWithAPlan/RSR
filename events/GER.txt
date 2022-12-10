@@ -1,5 +1,4 @@
 add_namespace = socgermany
-
 country_event = {
     id = socgermany.1
     title = socgermany.1.t
@@ -47,7 +46,7 @@ country_event = {
 country_event = {
     id = socgermany.5
     title = socgermany.5.t
-    
+    desc = socgermany.5.d
     is_triggered_only = yes
     
     option = {
@@ -60,8 +59,7 @@ country_event = {
 	        ideology = anarchism
 	        popularity = 0.20
         }
-        set_country_flag = GER_anarchisten_election
-        complete_national_focus = GER_anarchisten_victory 
+        set_country_flag = GER_anarchisten_election 
         country_event = {
             id = socgermany_council.1
         }
@@ -72,12 +70,7 @@ country_event = {
             base = 25
         }
         set_politics = { ruling_party = council_communism }
-        add_popularity = {
-	        ideology = council_communism
-	        popularity = 0.10
-        }
         set_country_flag = GER_dezentralisten_election 
-        complete_national_focus = GER_dezentralisten_victory
         country_event = {
             id = socgermany_council.1
         }
@@ -93,9 +86,45 @@ country_event = {
 	        popularity = 0.20
         }
         set_country_flag = GER_zentralisten_election 
-        complete_national_focus = GER_zentralisten_victory
         country_event = {
             id = socgermany_council.1
+        }
+    }
+}
+country_event = {
+    id = socgermany.6
+    title = socgermany.6.t
+    desc = socgermany.6.d
+    is_triggered_only = yes
+    
+    option = {
+        name = socgermany.6.a
+        ai_chance = {
+            base = 20
+        }
+        set_country_flag = GER_anarchisten_plan
+        add_ideas = {
+            GER_anarchisten_industry
+        }
+    }
+    option = {
+        name = socgermany.6.b
+        ai_chance = {
+            base = 20
+        }
+        set_country_flag = GER_dezentralisten_plan
+        add_ideas = {
+            GER_dezentralisten_industry
+        }
+    }
+    option = {
+        name = socgermany.6.c
+        ai_chance = {
+            base = 20
+        }
+        set_country_flag = GER_zentralisten_plan
+        add_ideas = {
+            GER_zentralisten_industry
         }
     }
 }
@@ -130,6 +159,9 @@ country_event = {
             add_to_variable = {
                 var = GER_anarchisten_seats value = GER_total_seats_100
             }
+            set_variable = { var = GER_anarchisten_seats_change value = -6 }
+            set_variable = { var = GER_dezentralisten_seats_change value = 3 }
+            set_variable = { var = GER_zentralisten_seats_change value = 3 }
         }
         else_if = {
             limit = {
@@ -138,6 +170,9 @@ country_event = {
             add_to_variable = {
                 var = GER_dezentralisten_seats value = GER_total_seats_100
             }
+            set_variable = { var = GER_dezentralisten_seats_change value = -6 }
+            set_variable = { var = GER_anarchisten_seats_change value = 3 }
+            set_variable = { var = GER_zentralisten_seats_change value = 3 }
         }
         else_if = {
             limit = {
@@ -146,10 +181,12 @@ country_event = {
             add_to_variable = {
                 var = GER_zentralisten_seats value = GER_total_seats_100
             }
+            set_variable = { var = GER_zentralisten_seats_change value = -6 }
+            set_variable = { var = GER_anarchisten_seats_change value = 3 }
+            set_variable = { var = GER_dezentralisten_seats_change value = 3 }
         }
         clear_variable = GER_total_seats_100
         clear_variable = GER_total_seats
         set_country_flag = GER_executive_council_on
-        set_variable = { var = GER_seats_change value = -6 }
     }
 }

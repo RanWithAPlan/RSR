@@ -11,11 +11,11 @@ state={
 	}
 
 	history={
-		owner = EAU
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = EAU
+		add_core_of = SOV
 		victory_points = {
 			11351 1
 		}

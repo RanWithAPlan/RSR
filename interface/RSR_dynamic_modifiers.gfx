@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = { 
+		name = "GFX_industrial_heart_modifier"
+		texturefile = "gfx/interface/ideas/GER/industrial_heart_modifier.png"
+	}
+}
