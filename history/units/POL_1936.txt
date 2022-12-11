@@ -52,14 +52,13 @@ division_template = {
 
 
 units = {
-	######## Sztab Generalny Wojska Polskiego ########
 	### Armia Pomorze ###	
 	division= {	# "4 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 362
+		location = 3230
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -70,7 +69,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 389
+		location = 3254
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -81,20 +80,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 9263
+		location = 402
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
 
-	### Armia Poznan ###	
 	division= {	# "14 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 6558
+		location = 584
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -105,7 +103,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 11232
+		location = 9546
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -116,7 +114,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 25
 		}
-		location = 3381
+		location = 9439
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -127,7 +125,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 106
 		}
-		location = 9532
+		location = 11515
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
@@ -139,7 +137,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 109
 		}
-		location = 6558
+		location = 9439
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
@@ -147,7 +145,6 @@ units = {
 
 	}
 
-	### Armia Lódz ###	
 	division= {	# "2 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
@@ -205,8 +202,7 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-
-	### Armia Kraków ###	
+	
 	division= {	# "6 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
@@ -223,7 +219,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 506
+		location = 13205
 		division_template = "Dywizja Piechoty Górskiej"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -234,7 +230,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 23
 		}
-		location = 6464
+		location = 11430
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -253,7 +249,6 @@ units = {
 
 	}
 
-	### Armia Modlin ###	
 	division= {	# "8 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
@@ -312,13 +307,12 @@ units = {
 
 	}
 
-	### Armia Wilno ###	
 	division= {	# "1 DP Legionów im. Pilsudskiego"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3320
+		location = 11466
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -329,7 +323,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 277
+		location = 347
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -340,7 +334,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 406
+		location = 11399
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -351,7 +345,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 110
 		}
-		location = 9341
+		location = 3483
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2
@@ -359,13 +353,12 @@ units = {
 
 	}
 
-	### Armia Wolyn ###	
 	division= {	# "3 Dywizja Piechoty Legionów"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 11543
+		location = 3562
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -376,7 +369,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 6557
+		location = 9454
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -398,14 +391,13 @@ units = {
 			is_name_ordered = yes
 			name_order = 24
 		}
-		location = 6520
+		location = 9558
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 
-	## GO Lublin ##	
 	division= {	# "9 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
@@ -429,7 +421,6 @@ units = {
 
 	}
 
-	## SGO Narew ##	
 	division= {	# "18 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
@@ -476,14 +467,13 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-
-	## SGO Polesie ##	
+	
 	division= {	# "13 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 11285
+		location = 6321
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -494,14 +484,13 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 6579
+		location = 9316
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 
-	## SGO Lwów ##	
 	division= {	# "5 Dywizja Piechoty"
 		division_name = {
 			is_name_ordered = yes
