@@ -55,7 +55,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 6296
+		location = 11312
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
@@ -109,7 +109,7 @@ units = {
 	
 	division = { # "District Telsiu"
 		name = "District Telsiu"
-		location = 9404
+		location = 3320
 		division_template = "Valstybės Sienos Apsaugos Skyrius"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
@@ -119,7 +119,7 @@ units = {
 	
 	division = { # "District Taurage"
 		name = "District Taurage"
-		location = 11498
+		location = 11342
 		division_template = "Valstybės Sienos Apsaugos Skyrius"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
@@ -129,7 +129,7 @@ units = {
 	
 	division = { # "District Klaipėda"
 		name = "District Klaipėda"
-		location = 3288
+		location = 9499
 		division_template = "Valstybės Sienos Apsaugos Skyrius"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
