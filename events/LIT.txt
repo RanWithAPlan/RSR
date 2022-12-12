@@ -1,0 +1,36 @@
+add_namespace = lithuania
+
+news_event = { # Socialist Revolution in Lithuania
+	id = lithuania.1 
+	title = lithuania.1.title
+	desc = lithuania.1.desc
+	picture = GFX_
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {  
+	LIC = {
+	add_state_core = 784
+	add_state_core = 11
+	add_state_core = 814
+	add_state_core = 815
+	add_state_core = 189
+	transfer_state = 784
+	transfer_state = 814
+	transfer_state = 189
+	784 = { set_demilitarized_zone = yes }
+	814 = { set_demilitarized_zone = yes }
+	189 = { set_demilitarized_zone = yes }
+		}
+	}
+	
+	option = { # The Red Tide Spreads
+		name = lithuania.1.a
+		ai_chance = { factor = 100 }
+		}
+	}
+}

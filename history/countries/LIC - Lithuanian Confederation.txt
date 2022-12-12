@@ -1,0 +1,33 @@
+﻿capital = 784
+
+oob = "LIC_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = council_communism
+	last_election = "1932.5.8"
+	election_frequency = 4
+	elections_allowed = yes
+}
+set_popularities = {
+	despotism = 7
+	national_extremism = 3
+	autocracy = 2
+	conservative_democracy = 8
+	freemarket_liberalism = 6
+	progressive_liberalism = 13
+	social_democracy = 14
+	council_communism = 27
+	radical_socialism = 15
+	anarchism = 5
+}
