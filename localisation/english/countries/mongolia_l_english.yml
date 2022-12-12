@@ -48,13 +48,9 @@
  mon.endofwar.t:0 "End of the Independence War!"
  mon.endofwar.d:0 "The years of never-ending conflict were devouring entrails of Mongolia with infernal fire. Until just now, when our brave soldiers and warriors seized the last fortress of the enemy, definitely highlighting the existence of free and autonomous Mongolian nation.\nThousands of soldiers, men and women, walk to the capital, celebrating the definitive victory with Queen Genepil going along with them, side by side. For her undeniable bravery and sacrifice, the nation wants no other leader to guide them towards the brigther and better future.\nToday is the day all Mongolians will remembers for ages. The time has come to rebuild our homeland and restore its greatness in the name of our ancestors and the Great Genghis Khan!"
  mon.endofwar.1:0 "All hail Mongolia! All hail Genepil Khan!"
-<<<<<<< Updated upstream
- 
  mon.startofwar.t:0 "Second Mongolian Independence War!"
  mon.startofwar.d:0 "The fight on Mongolian soil rages on."
  mon.startofwar.1:0 "Bothers and sisters, forward for our country!"
- #Tooltips
- genepil_tt:0 "Genepil receives the title of 'Khan'"
 
  #Characters
  MON_genepil_khan:0 "Genepil"
@@ -76,11 +72,9 @@
 
  #Bookmarks
  MON_GATHERING_STORM_DESC:0 "The Great Mongolian State existed under the rule of Bogd Khan until 1919 when China decided to send their troops to yet again deprive Mongolian nation of their freedom. In 1920, Khan and wife Tsendiin Dondogdulam were assassinated by a group of Tuvan-Mongol collaborators. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continued until 1936 when Mongols ultimately managed to push hostile forces away from their land. Torn apart after years of devastating conflict, Mongolia and its people have to not only rebuild their nation, but also again find their place in the world."
-=======
 
  #Tooltips
  genepil_tt:0 "Genepil receives the title of 'Khan'"
 
  #Characters
  MON_genepil_khan:0 "Genepil"
->>>>>>> Stashed changes
