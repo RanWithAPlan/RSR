@@ -1,0 +1,48 @@
+﻿capital = 546
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+recruit_character = IAO_acd2
+recruit_character = IAO_fascist_guy
+recruit_character = IAO_ncs
+recruit_character = IAO_nccr
+recruit_character = IAO_aco2
+recruit_character = IAO_communist_guy
+recruit_character = IAO_ai2
+recruit_character = IAO_ar
+recruit_character = IAO_coi
+recruit_character = IAO_acas
+recruit_character = IAO_acgs
+recruit_character = IAO_aa2
+recruit_character = IAO_democratic_guy
+recruit_character = IAO_acr
+recruit_character = IAO_stc
+recruit_character = IAO_awt
+recruit_character = IAO_pot
+recruit_character = IAO_mt
+recruit_character = IAO_ncm
+recruit_character = IAO_nt
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anarchism = 13
+	council_communism = 1
+	radical_socialism = 23
+	social_democracy = 1
+	freemarket_liberalism = 1
+	progressive_liberalism = 1
+	conservative_democracy = 10
+	despotism = 5
+	autocracy = 40
+	national_extremism = 5
+}
