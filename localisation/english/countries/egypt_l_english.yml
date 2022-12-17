@@ -11,9 +11,9 @@
  EGY_freemarket_liberalisn_DEF:0 "Egypt"
  EGY_conservative_democracy_DEF:0 "Egypt"
  EGY_autocracy:0 "Kingdom of Egypt"
- EGY_despotism:0 "Kingdom of Egypt"
+ EGY_despotism:0 "British Egypt" #temporary
  EGY_autocracy_DEF:0 "the Kingdom of Egypt"
- EGY_despotism_DEF:0 "the Kingdom of Egypt"
+ EGY_despotism_DEF:0 "the British Egypt"
  EGY_anarchism:0 "Soviet Republic of the Nile"
  EGY_council_communism:0 "Soviet Republic of the Nile"
  EGY_radical_socialism:0 "Soviet Republic of the Nile"

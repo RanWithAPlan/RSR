@@ -39,20 +39,20 @@ recruit_character = EGY_ncm
 recruit_character = EGY_nt
 
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 13
-	council_communism = 1
-	radical_socialism = 23
-	social_democracy = 1
+	anarchism = 15
+	council_communism = 5
+	radical_socialism = 10
+	social_democracy = 3
 	freemarket_liberalism = 1
 	progressive_liberalism = 1
-	conservative_democracy = 10
-	despotism = 5
-	autocracy = 40
-	national_extremism = 5
+	conservative_democracy = 5
+	despotism = 20
+	autocracy = 30
+	national_extremism = 10
 }
