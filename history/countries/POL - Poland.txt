@@ -106,13 +106,7 @@ set_popularities = {
 	anarchism = 2
 }
 
-create_country_leader = {
-		name = "Roman Dmowski"
-		desc = ""
-		picture = "gfx/leaders/POL/roman_dmowski_edited.dds"
-		expire = "1965.1.1"
-		ideology = national_extremism_subtype
-	}
+recruit_character = POL_roman_dmowski
 	
 country_event = {
 	id = natpoland.1
