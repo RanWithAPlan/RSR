@@ -7,7 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = TIB_jamphel_yeshe_gyaltsen
+recruit_character = TIB_jamphel_gyaltsen
 recruit_character = TIB_namgang_rinpoche
 recruit_character = TIB_penor_tashi
 recruit_character = TIB_tsepon_shatra
@@ -76,6 +76,5 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	autocracy = 73
-	conservative_democracy = 27
+	autocracy = 100
 }
