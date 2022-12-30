@@ -125,6 +125,11 @@ ECU = {
 	color_ui = rgb { 255 190 127 }
 }
 
+EGY = {
+	color = rgb { 255  255  0 }
+	color_ui = rgb { 255  255  0 }
+}
+
 ELS = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
@@ -200,6 +205,11 @@ HUN = {
 	color_ui = rgb { 255 164 127 }
 }
 
+IAO = {
+	color = rgb { 25  43  25 }
+	color_ui = rgb { 25  43  25 }
+}
+
 INS = {
 	color = rgb { 40  50  120 }
 	color_ui = rgb { 40  50  120 }
@@ -243,6 +253,11 @@ LIB = {
 LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }
+}
+
+LIC = {
+	color = rgb { 163 20 32 }
+	color_ui = rgb { 163 20 32 }
 }
 
 LUX = {

@@ -1,0 +1,15 @@
+characters={
+	TIB_jamphel_gyaltsen = {
+		name = "Jamphel Yeshe Gyaltsen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/China/Portrait_TIB_Jamphel_Yeshe_Gyaltsen.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = autocracy_subtype
+		}
+	}
+}

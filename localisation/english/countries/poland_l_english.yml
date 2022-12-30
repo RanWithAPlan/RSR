@@ -114,7 +114,7 @@
  POL_fierce_nationalism:0 "Fierce Nationalism"
  POL_fierce_nationalism_desc:0 "For centuries the great power of both West and East have torn Poland apart. Partion after partion, invasion after invasion, but as the era of nationalism rose, so to did Poland. As the Great War ended the white and red flags of the mighty Polish nation rose high above the Polish land, and when the dust had cleared from the socialist attack the flag stood waving tall. The spirit of nationalism has held Poland together, and it will unite all Polish people living under the oppresion of Anarchy and Council Communism!"
  POL_surrounded_by_enemies:0 "Enemies on All Sides"
- POL_surrounded_by_enemies_desc:0 "In every direction enemies to Poland lay. From the socialists in Germany, to the Anarchist in Ukraine, Poland is surrounded by enemies to the nation, and to nationalism. It is only a matter of time before they come marching on rightful Polish land once more, and when they come Poland will stand up in arms against the socialist scum, united as one against the enemies that stand just across the border."
+ POL_surrounded_by_enemies_desc:0 "In every direction enemies to Poland lay. From the socialists in Germany, to the anarchists in Ukraine, Poland is surrounded by enemies to the nation, and to nationalism. It is only a matter of time before they come marching on rightful Polish land once more, and when they come Poland will stand up in arms against the socialist scum, united as one against the enemies that stand just across the border."
  POL_catholic_purity_idea:0 "Catholic Purity: §GAchieved§!"
  
  
@@ -145,6 +145,8 @@
  POL_give_unlimited_juristiction_to_the_secret_police_tt:0 "A secret police force is only as useful as we make it, and the first step to making them more useful is to give them unlimited jurisdiction. In their current state the secret police can enforce Dmowski's will, but only to a certain level, by allowing them complete and uninterupted control inside Poland then they can better be able to hunt down and kill the enemies of Dmowski and the state."
  POL_preparing_for_purge_var_3_tt:0 "§GIncreases Purge Readiness by 3%§!"
  POL_send_infiltrators_into_labor_unions_tt:0 "The labor unions in Poland have been under scrutiny ever since the National Republic was declared, but that doesn't mean that they have been eliminated. These unions represent a large population of the leftist working population, and so long as they are allowed to exist Council Communism and Anarchism will be a threat to the regime. The first step in the offensive against the unions is to infiltrate them. Once this is completed then we can carry on towards the next step on the attack against the labor unions."
+ POL_POL_gather_names_of_organizers_tt:0 "We have begun the infiltration of the trade unions, but they will still hold power so long as their ideas can spread. To combat this we must begin gathering names of organizers, agitators, and other weapons of the unions, so that once the purge comes they too can be wiped out."
+ 
  
  
  
@@ -164,10 +166,12 @@
  POL_remove_protestants_right_to_a_trial:0 "Remove Protestant's Right to a Trial"
  POL_repurpose_the_synagogues:0 "Repurpose The Syndagogues"
  POL_purge_preperation_caregory:0 "Preparation For The Purge"
- POL_purge_preperation_caregory_desc:0 "Although the traitors in the ONR-Falanga and National Congress haev been weakend, Poland is not without enemies that line the insides of our borders. In order to purify Poland of these threats, we must strike at them with the power of terror, every enemy of Dmowksi, and every enemy of Poland must see the error in their ways, or face the firing squad. However, a purge through way of Nationalistic Terror can only be achieved once we've thoroughly prepared for the offensive on the enemies of the state.\n\nAt the moment we are §Y[?POL_preparing_for_purge_var]%§! close to unleashing our purge on the traitors within our ranks, once that number reaches §G100%§! then we can continue on to the next stage of out plan."
+ POL_purge_preperation_caregory_desc:0 "Although the traitors in the ONR-Falanga and National Congress haev been weakend, Poland is not without enemies that line the insides of our borders. In order to purify Poland of these threats, we must strike at them with the power of terror, every enemy of Dmowksi, and every enemy of Poland must see the error in their ways, or face the firing squad. However, a purge through way of Nationalistic Terror can only be achieved once we've thoroughly prepared for the offensive on the enemies of the state.\n\nAt the moment we are §Y[?POL_preparing_for_purge_var]%§! close to unleashing our purge on the traitors within our ranks, once that number reaches §G100%§! then we can continue on to the next stage of our plan."
  POL_establish_a_secret_police_force:0 "Establish a Secret Police Force"
  POL_give_unlimited_juristiction_to_the_secret_police:0 "Grant Unlimited Jurisdiction to The Secret Police"
  POL_send_infiltrators_into_labor_unions:0 "Send Infiltrators Into Labor Unions"
+ POL_gather_names_of_organizers:0 "Gather Names of Union Organizers"
+ 
  
  
  

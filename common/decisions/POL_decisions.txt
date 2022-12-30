@@ -304,7 +304,6 @@ POL_jewish_conversion = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
 	
 	POL_repurpose_the_synagogues= {
 	
@@ -340,8 +339,6 @@ POL_jewish_conversion = {
 			}
 		}
 	}
-=======
->>>>>>> Stashed changes
 }
 
 POL_purge_preperation_caregory = {
@@ -366,9 +363,9 @@ POL_purge_preperation_caregory = {
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_establish_a_secret_police_force_tt
+			set_country_flag = POL_secret_police_establish_flag
 			hidden_effect = { 
 			add_stability = 0.02
-			set_county_flag = POL_secret_police_establish_flag
 				}
 			add_to_variable = {
 				var = POL_preparing_for_purge_var
@@ -383,7 +380,7 @@ POL_purge_preperation_caregory = {
 		icon = ger_mefo_bills
 		
 		visible = {
-			always = yes
+			has_country_flag = POL_secret_police_establish_flag
 		}
 		
 		available = {
@@ -434,12 +431,46 @@ POL_purge_preperation_caregory = {
 				ideology = council_communism
 				popularity = -0.05
 					}
-			set_county_flag = POL_union_infiltration_started_flag
+			set_country_flag = POL_union_infiltration_started_flag
 				}
 			add_to_variable = {
 				var = POL_preparing_for_purge_var
 				value = 3
 				tooltip = POL_preparing_for_purge_var_3_tt
+			}
+		}
+	}
+	
+	POL_gather_names_of_organizers = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			has_country_flag = POL_union_infiltration_started_flag
+		}
+		
+		available = {
+			has_country_flag = POL_union_infiltration_started_flag
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		cost = 10
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_POL_gather_names_of_organizers_tt
+			hidden_effect = { 
+			add_popularity = {
+				ideology = radical_socialism
+				popularity = -0.05
+					}
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 4
+				tooltip = POL_preparing_for_purge_var_2_tt
 			}
 		}
 	}
