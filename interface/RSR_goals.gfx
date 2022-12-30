@@ -9,12 +9,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_anarchisten_victory.png"
 	}
 	SpriteType = {
-		name = "GFX_GER_dezentralisten_victory"
-		texturefile = "gfx/interface/goals/GER_dezentralisten_victory.png"
+		name = "GFX_GER_KPD_victory"
+		texturefile = "gfx/interface/goals/GER_KPD_victory.png"
 	}
 	SpriteType = {
-		name = "GFX_GER_zentralisten_victory"
-		texturefile = "gfx/interface/goals/GER_zentralisten_victory.png"
+		name = "GFX_GER_USPD_victory"
+		texturefile = "gfx/interface/goals/GER_USPD_victory.png"
 	}
 	SpriteType = {
 		name = "GFX_GER_empower_the_syndicates"
@@ -59,6 +59,66 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_nationwide_coordination"
 		texturefile = "gfx/interface/goals/GER_nationwide_coordination.png"
+	}
+	SpriteType = {
+		name = "GFX_factory_conversion"
+		texturefile = "gfx/interface/goals/factory_conversion.png"
+	}
+	SpriteType = {
+		name = "GFX_generic_trains"
+		texturefile = "gfx/interface/goals/generic_trains.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_sieze_military"
+		texturefile = "gfx/interface/goals/GER_sieze_military.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_empower_producers"
+		texturefile = "gfx/interface/goals/GER_empower_producers.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_mechanise_agriculture"
+		texturefile = "gfx/interface/goals/GER_mechanise_agriculture.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_recalibrate_economy"
+		texturefile = "gfx/interface/goals/GER_recalibrate_economy.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_concentrating_industry"
+		texturefile = "gfx/interface/goals/GER_concentrating_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_concentrate_industry_ruhr"
+		texturefile = "gfx/interface/goals/GER_concentrate_industry_ruhr.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_concentrate_industry_brandenburg"
+		texturefile = "gfx/interface/goals/GER_concentrate_industry_brandenburg.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_renewed_economic_drive"
+		texturefile = "gfx/interface/goals/GER_renewed_economic_drive.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_road_to_war"
+		texturefile = "gfx/interface/goals/GER_road_to_war.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_conscription_question"
+		texturefile = "gfx/interface/goals/GER_conscription_question.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_empower_the_rifleman"
+		texturefile = "gfx/interface/goals/GER_empower_the_rifleman.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_centralise_authority_to_general"
+		texturefile = "gfx/interface/goals/GER_centralise_authority_to_general.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_empower_sergeant"
+		texturefile = "gfx/interface/goals/GER_empower_sergeant.png"
 	}
 	SpriteType = {
 		name = "GFX_"

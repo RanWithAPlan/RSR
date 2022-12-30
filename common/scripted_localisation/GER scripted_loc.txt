@@ -1,0 +1,24 @@
+defined_text = {
+	name = GetGermanyMajority
+	text = {
+		trigger = {
+			check_variable = { GER_KPD_seats > GER_anarchisten_seats }
+			check_variable = { GER_KPD_seats > GER_USPD_seats }
+		}
+		localization_key = GER_KPD_majority
+	}
+	text = {
+		trigger = {
+			check_variable = { GER_anarchisten_seats > GER_KPD_seats }
+			check_variable = { GER_anarchisten_seats > GER_USPD_seats }
+		}
+		localization_key = GER_anarchisten_majority
+	}
+	text = {
+		trigger = {
+			check_variable = { GER_USPD_seats > GER_KPD_seats }
+			check_variable = { GER_USPD_seats > GER_anarchisten_seats }
+		}
+		localization_key = GER_USPD_majority
+	}
+}
