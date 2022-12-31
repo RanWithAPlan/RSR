@@ -16,11 +16,7 @@ AFG = {
 }
 
 ALB = {
-<<<<<<< Updated upstream
-	color = rgb { 135 42 42 }
-=======
 	color = rgb { 149 45 102 }
->>>>>>> Stashed changes
 	color_ui = rgb { 194 59 133 }
 }
 
