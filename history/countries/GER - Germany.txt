@@ -169,9 +169,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 30
-	council_communism = 45
-	radical_socialism = 22
+	anarchism = 28
+	council_communism = 31
+	authoritarian_socialism = 7
+	national_syndicalism = 3
+	radical_socialism = 28
 	social_democracy = 2
 	progressive_liberalism = 1
 	freemarket_liberalism = 0

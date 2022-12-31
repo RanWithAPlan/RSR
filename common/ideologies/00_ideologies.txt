@@ -14,7 +14,7 @@ ideologies = {
 			"FACTION_NAME_ANARCHIST_1"
 		}
 		
-		color = { 125 0 5 }
+		color = { 105 0 5 }
 		
 		war_impact_on_world_tension = 1.0		
 		faction_impact_on_world_tension = 1.0
@@ -46,7 +46,7 @@ ideologies = {
 	
 		types = {
 			council_communism_subtype = {}
-			marxism_luxemburgism = {}
+			marxism_SOVemburgism = {}
 			orthodox_marxism = {}
 		}
 		
@@ -55,7 +55,7 @@ ideologies = {
 		}
 		
 		
-		color = { 230 5 25 }
+		color = { 170 0 14 }
 		
 		war_impact_on_world_tension = 1.0		
 		faction_impact_on_world_tension = 1.0
@@ -82,15 +82,48 @@ ideologies = {
 		
 		ai_communist = yes
 	}
+
+	authoritarian_socialism = {
 	
+		types = {
+			authoritarian_socialism_subtype = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHSOC_1"
+		}
+		
+		color = { 215 25 28 }
+		
+		war_impact_on_world_tension = 1.0		
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_create_collaboration_government = yes
+            can_send_volunteers = yes
+            can_create_factions = no
+            can_join_factions = no
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			embargo_threshold_factor = 0.5
+		}
+		
+		ai_communist = yes
+	}
+
 	radical_socialism = {
 	
 		types = {
 			radical_socialism_subtype = {}
-			authoritatian_socialism = {}
-			leninism = {}
-			revisionism = {}
-			social_nationalism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -324,7 +357,7 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIAN_1"
 		}
 		
-		color = { 135 135 135 }
+		color = { 125 125 125 }
 		
 		war_impact_on_world_tension = 0.5
 		faction_impact_on_world_tension =  0.5
@@ -364,7 +397,7 @@ ideologies = {
 			"FACTION_NAME_AUTOCRAT_1"
 		}
 		
-		color = { 40 40 40 }
+		color = { 70 70 70 }
 		
 		war_impact_on_world_tension = 0.5
 		faction_impact_on_world_tension =  0.5
@@ -389,6 +422,40 @@ ideologies = {
 		}
 		
 		ai_neutral = yes
+	}
+
+	national_syndicalism = {
+	
+		types = { 
+			national_syndicalism_subtype = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_SYNDICALISM_1"
+		}
+		
+		color = { 45 45 45 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+            can_send_volunteers = yes
+            can_create_factions = no
+            can_join_factions = no
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.90
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			embargo_cost_factor = 1
+		}
+		
+		ai_fascist = yes
 	}
 	
 	national_extremism = {

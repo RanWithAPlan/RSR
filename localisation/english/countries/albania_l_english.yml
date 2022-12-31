@@ -29,7 +29,7 @@
  ALB_social_democracy_ADJ:0 "Albanian"
  ALB_progressive_liberalism_ADJ:0 "Albanian"
  ALB_freemarket_liberalisn_ADJ:0 "Albanian"
-#controller = ALB_conservative_democracy_ADJ:0 "Albanian"
+ ALB_conservative_democracy_ADJ:0 "Albanian"
  ALB_autocracy_ADJ:0 "Albanian"
  ALB_despotism_ADJ:0 "Albanian"
  ALB_anarchism_ADJ:0 "Albanian"
@@ -43,7 +43,7 @@
  ALB_progressive_liberalism_party:0 "Partia Popullore"
  ALB_freemarket_liberalism_party:0 "Partia e Lirë Shqiptare"
  ALB_conservative_democracy_party:0 "Partia Progresive"
- ALB_despotism_party:0 "House of Zogu"
- ALB_autocracy_party:0 "House of Zogu"
+ ALB_despotism_party:0 "Zogu Dictatorship"
+ ALB_autocracy_party:0 "Zogu Dictatorship"
  ALB_national_extremism_party:0 "Partia Fashiste Shqiptare"
  

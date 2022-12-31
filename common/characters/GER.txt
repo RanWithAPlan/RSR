@@ -38,4 +38,298 @@ characters={
 			ideology = radical_socialism_subtype
 		}
 	}
+	#political advisors#
+	GER_rudolf_rocker = {
+		name = "Rudolf Rocker"
+		portraits = {
+			civilian = {
+				small = GFX_my_advisor_portrait
+			}
+		}
+        advisor = {
+            slot = political_advisor
+            idea_token = rudolf_rocker
+            traits = { committed_anarcho_syndicalist }
+        }
+	}
+	GER_erich_muhsam = {
+		name = "Erich Mühsam"
+		portraits = {
+			civilian = {
+				small = GFX_my_advisor_portrait
+			}
+		}
+        advisor = {
+            slot = political_advisor
+            idea_token = erich_muhsam
+            traits = { socialist_poet }
+        }
+	}
+	GER_hienrich_brandler = {
+		name = "Heinrich Brandler"
+		portraits = {
+			civilian = {
+				small = GFX_my_advisor_portrait
+			}
+		}
+        advisor = {
+            slot = political_advisor
+            idea_token = hienrich_brandler
+            traits = { ambitious_union_leader }
+        }
+	}
+	GER_ernst_meyer = {
+		name = "Ernst Meyer"
+		portraits = {
+			civilian = {
+				small = GFX_my_advisor_portrait
+			}
+		}
+        advisor = {
+            slot = political_advisor
+            idea_token = ernst_meyer
+            traits = { silent_workhorse }
+        }
+	}
+	#generals#
+    GER_ernst_thalmann = {
+        name = "Ernst Thälmann"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/portrait_GER_Ernst_Thalmann.png"
+			}
+        }
+    	field_marshal = {
+            traits = { organizer politically_connected infantry_leader }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+    GER_hans_beimler = {
+        name = "Hans Beimler"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Hans_Beimler.png"
+            }
+        }
+    	field_marshal = {
+            traits = { armor_officer politically_connected commando }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 4
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    } 
+    GER_karl_artelt = {
+        name = "Karl Artelt"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Karl_Artelt.png"
+            }
+        }
+    	field_marshal = {
+            traits = { naval_invader organizer inspirational_leader }
+	        skill = 3
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+    GER_karl_radek = {
+        name = "Karl Radek"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Portrait_GER_Karl_Radek_gen.png"
+            }
+        }
+    	field_marshal = {
+            traits = { war_hero bearer_of_artillery inspirational_leader }
+	        skill = 3
+	        attack_skill = 4
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+    }
+    GER_ludwig_renn = {
+        name = "Ludwig Renn"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Ludwig_Renn.png"
+            }
+        }
+    	corps_commander = {
+            traits = {organizer armor_officer }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+    }
+    GER_margit_zinke = {
+        name = "Margit Zinke"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Margit_Zinke.png"
+            }
+        }
+    	corps_commander = {
+            traits = { commando }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 1
+	        logistics_skill = 1
+        }
+    }  
+    GER_helmuth_waldmar = {
+        name = "Helmuth Waldmar"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Helmuth_Waldmar.png"
+            }
+        }
+    	corps_commander = {
+            traits = { commando }
+	        skill = 1
+	        attack_skill = 1
+	        defense_skill = 2
+	        planning_skill = 1
+	        logistics_skill = 2
+        }
+    } 
+	GER_max_hoelz = {
+        name = "Max Hoelz"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Max_Holz.png"
+            }
+        }
+    	corps_commander = {
+            traits = { commando infantry_leader trait_reckless}
+	        skill = 2
+	        attack_skill = 3
+	        defense_skill = 1
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_heinz_guderian = {
+        name = "Heinz Guderian"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Portrait_GER_Heinz_Guderian.png"
+            }
+        }
+    	corps_commander = {
+            traits = { brilliant_strategist armor_officer panzer_leader }
+	        skill = 4
+	        attack_skill = 2
+	        defense_skill = 4
+	        planning_skill = 4
+	        logistics_skill = 3
+        }
+    }
+	GER_ewald_kliest = {
+        name = "Ewald von Kliest"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Portrait_GER_Ewald_Kleist.png"
+            }
+        }
+    	corps_commander = {
+            traits = { armor_officer }
+	        skill = 2
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_gotthard_heinrici = {
+        name = "Gotthard Heinrici"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Portrait_GER_Gotthard_Heinrici.png"
+            }
+        }
+    	corps_commander = {
+            traits = { infantry_leader }
+	        skill = 2
+	        attack_skill = 3
+	        defense_skill = 1
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    } 
+	GER_walther_seydlitz = {
+        name = "Walther von Seydlitz-Kurzbach"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Walther_Seydlitz.png"
+            }
+        }
+    	corps_commander = {
+            traits = { bearer_of_artillery }
+	        skill = 3
+	        attack_skill = 1
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 3
+        }
+    }
+	GER_claus_stauffenberg = {
+        name = "Claus von Seydlitz-Kurzbach"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Claus_von_Stauffenberg.png"
+            }
+        }
+    	corps_commander = {
+            traits = { cavalry_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 1
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_georg_boeselager = {
+        name = "Georg von Boeselager"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Georg_Freiherr_Von_Boeselager.png"
+            }
+        }
+    	corps_commander = {
+            traits = { engineer_officer }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+    }
+	GER_vincenz_muller = {
+        name = "Vincenz Müller"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/portrait_GER_Vincenz_Muller.png"
+            }
+        }
+    	corps_commander = {
+            traits = { infantry_officer  }
+	        skill = 3
+	        attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 4
+	        logistics_skill = 3
+        }
+    }
 }

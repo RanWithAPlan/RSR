@@ -16,6 +16,12 @@
  anarchism_desc:0 "Stateless"
  
  anarchism_subtype:0 "Anarchism"
+ anarchism_subtype_desc:0 "United under a desire destroy coercive hierarchy, Anarchism is an extremely broad ideology. Often called terrorists due to acts of propaganda by the deed, Anarchists have found their home in many different places."
+
+ authoritarian_socialism:0 "Authoritarian Socialism"
+ authoritarian_socialism_desc:0 "Socialist"
+
+ authoritarian_socialism_subtype:0 "Authoritarian Socialism"
  
  radical_socialism:0 "Radical Socialism"
  radical_socialism_desc:0 "Socialist"
@@ -47,24 +53,29 @@
  
  conservative_democracy_subtype:0 "Conservative Democracy"
  
- autocracy:0 "Autocracy"
+ autocracy:0 "Authoritarian Democracy"
  autocracy_desc:0 "Reactionary"
  
- autocracy_subtype:0 "Autocracy"
+ autocracy_subtype:0 "Authoritarian Democracy"
  
  despotism:0 "Despotism"
  despotism_desc:0 "Reactionary"
  
  despotism_subtype:0 "Despotism"
+
+ national_syndicalism:0 "National Syndicalism"
+ national_syndicalism_desc:0 "Reactionairy"
+
+ national_syndicalism_subtype:0 "National Syndicalism"
  
- national_extremism:0 "National Extremism"
+ national_extremism:0 "Reactionairy"
  national_extremism_desc:0 "Reactionary"
- national_extremism_noun:0 "National Extremism"
+ national_extremism_noun:0 "Reactionairy
  
- national_extremism_subtype:0 "National Extremism"
+ national_extremism_subtype:0 "Reactionairy"
  subtype_national_federalism:0 "National Federalism"
  subtype_ultranationalism:0 "Ultranationalism"
  
- national_extremism_drift:0 "National Extremism Drift"
+ national_extremism_drift:0 "Reactionairy Drift"
  
  

@@ -121,22 +121,20 @@ set_stability = 0.60
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	anarchism = 10
-	council_communism = 10
-	radical_socialism = 5
-	social_democracy = 18
-	progressive_liberalism = 12
-	freemarket_liberalism = 10
-	conservative_democracy = 20
-	autocracy = 0
-	despotism = 8
-	national_extremism = 7
+	anarchism = 22
+	council_communism = 8
+	social_democracy = 8
+	freemarket_liberalism = 5
+	conservative_democracy = 10
+	autocracy = 14
+	national_extremism = 20
+	national_syndicalism = 13
 }
 
 add_ideas = {

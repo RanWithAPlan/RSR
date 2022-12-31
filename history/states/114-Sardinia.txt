@@ -6,12 +6,12 @@ state = {
 	state_category = town
 	
 	history = {
-		owner = ITA
+		owner = SAR
 		victory_points = {
-			11773 3 
+			11773 10 
 		}
 		victory_points = {
-			9772 2 
+			9772 3 
 		}
 		buildings = {
 			infrastructure = 3
@@ -26,7 +26,7 @@ state = {
 			}
 		}
 		add_core_of = ITA
-		add_core_of = SPM
+		add_core_of = SAR
 	}
 	provinces = {
 		902 6891 9772 9863 11755 11773 11824 11874 	

@@ -93,15 +93,20 @@ give_guarantee = ITA
 add_to_tech_sharing_group = rome_research_group
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = autocracy
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+	conservative_democracy = 10
+	freemarket_liberalism = 5
+	progressive_liberalism = 5
+	social_democracy = 5
+	national_extremism = 21
+	authoritarian_socialism = 10
+	council_communism = 10
+	autocracy = 34
 }
 
 #Start Horty as neutral if DOD

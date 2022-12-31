@@ -13,64 +13,64 @@ GER_executive_council_category = {
                 var = GER_anarchisten_seats value = GER_anarchisten_seats_change
             }
             add_to_variable = {
-                var = GER_dezentralisten_seats value = GER_dezentralisten_seats_change
+                var = GER_KPD_seats value = GER_KPD_seats_change
             }
             add_to_variable = {
-                var = GER_zentralisten_seats value = GER_zentralisten_seats_change
+                var = GER_USPD_seats value = GER_USPD_seats_change
             }
             if = {
                 limit = {
                     check_variable = {
-                        var = GER_dezentralisten_seats
+                        var = GER_KPD_seats
                         value = GER_anarchisten_seats
                         compare = greater_than_or_equals
                     }
                     check_variable = {
-                        var = GER_dezentralisten_seats
-                        value = GER_zentralisten_seats
+                        var = GER_KPD_seats
+                        value = GER_USPD_seats
                         compare = greater_than_or_equals
                     }
                 }
                 set_politics = { ruling_party = council_communism }
-                set_country_flag = GER_dezentralisten_election
-                clr_country_flag = GER_zentralisten_election
+                set_country_flag = GER_KPD_election
+                clr_country_flag = GER_USPD_election
                 clr_country_flag = GER_anarchisten_election
             }
             if_else = {
                 limit = {
                     check_variable = {
                         var = GER_anarchisten_seats
-                        value = GER_dezentralisten_seats
+                        value = GER_KPD_seats
                         compare = greater_than_or_equals
                     }
                     check_variable = {
                         var = GER_anarchisten_seats
-                        value = GER_zentralisten_seats
+                        value = GER_USPD_seats
                         compare = greater_than_or_equals
                     }
                 }
                 set_politics = { ruling_party = anarchism }
                 set_country_flag = GER_anarchisten_election
-                clr_country_flag = GER_zentralisten_election
-                clr_country_flag = GER_dezentralisten_election
+                clr_country_flag = GER_USPD_election
+                clr_country_flag = GER_KPD_election
             }
             if_else = {
                 limit = {
                     check_variable = {
-                        var = GER_zentralisten_seats
-                        value = GER_dezentralisten_seats
+                        var = GER_USPD_seats
+                        value = GER_KPD_seats
                         compare = greater_than_or_equals
                     }
                     check_variable = {
-                        var = GER_zentralisten_seats
+                        var = GER_USPD_seats
                         value = GER_anarchisten_seats
                         compare = greater_than_or_equals
                     }
                 }
                 set_politics = { ruling_party = radical_socialism }
-                set_country_flag = GER_zentralisten_election
+                set_country_flag = GER_USPD_election
                 clr_country_flag = GER_anarchisten_election
-                clr_country_flag = GER_dezentralisten_election
+                clr_country_flag = GER_KPD_election
             }
             activate_mission = GER_seats_change_mission
         }

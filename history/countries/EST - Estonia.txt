@@ -198,25 +198,19 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = progressive_liberalism
 	last_election = "1932.5.21"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 15
-	communism = 5
-	neutrality = 60
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1938.2.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
+	progressive_liberalism = 25
+	conservative_democracy = 15
+	freemarket_liberalism = 10
+	social_democracy = 20
+	national_extremism = 15
+	authoritarian_socialism = 10
+	council_communism = 5
 }
 
 

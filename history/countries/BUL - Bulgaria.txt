@@ -1,5 +1,17 @@
 ﻿capital = 48
-
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	freemarket_liberalism = 10
+	conservative_democracy = 5
+	national_extremism = 30
+	despotism = 50
+	authoritarian_socialism = 5
+}
 #TROOPS
 oob = "BUL_1936" #VANILLA & DLC
 if = {
@@ -175,14 +187,6 @@ if = { #DLC
 		modifier = BFTB_incongruous_neighbors
 	}
 
-	#DLC POLIICS
-	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
-	}
-
 	recruit_character = BUL_boris_iii
 	recruit_character = BUL_georgi_dimitrov
 	recruit_character = BUL_nikola_mushanov
@@ -273,18 +277,6 @@ if = { #DLC
 			limited_conscription
 		}
 
-		#POLITICS
-		set_popularities = { #VANILLA
-			democratic = 5
-			fascism = 35
-			neutrality = 60
-		}
-		set_politics = { #VANILLA
-			ruling_party = neutrality
-			last_election = "1931.6.21"
-			election_frequency = 48
-			elections_allowed = no
-		}
 
 		recruit_character = BUL_boris_iii
 		recruit_character = BUL_georgi_dimitrov

@@ -307,32 +307,23 @@ if = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
-	fascism = 10
-	communism = 15
-	neutrality = 60
+	despotism = 30
+	autocracy = 10
+	national_extremism = 10
+	conservative_democracy = 10
+	freemarket_liberalism = 10
+	progressive_liberalism = 10
+	radical_socialism = 5
+	authoritarian_socialism = 10
+	council_communism = 5
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1938.12.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-	set_popularities = { # Will get +7 from Italian focus: Potential Allies in the Balkans
-		democratic = 10
-		fascism = 20
-		communism = 10
-		neutrality = 60
-	}
-}
 set_stability = 0.6
 
 ### VARIANTS ###

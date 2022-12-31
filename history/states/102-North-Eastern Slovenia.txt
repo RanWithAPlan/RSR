@@ -8,7 +8,7 @@ state=
 	
 	history =
 	{
-		owner = YUG
+		owner = AUS
 		buildings = {
 			infrastructure = 3
 		}
@@ -19,7 +19,7 @@ state=
 		add_core_of = SLV
 	}
 	provinces={
-		596 665 3631 3654 6672 9596
+		596 665 3631 3654 9596
 	}
 	
 	local_supplies=0.0 
