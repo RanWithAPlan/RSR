@@ -31,7 +31,7 @@ AST = {
 }
 
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb { 156 159 173 }
 	color_ui = rgb { 255 255 255 }
 }
 
