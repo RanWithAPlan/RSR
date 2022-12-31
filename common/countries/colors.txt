@@ -101,7 +101,7 @@ CUB = {
 }
 
 CZE = {	
-	color = rgb { 54 167 156 }
+	color = rgb { 91 147 171 }
 	color_ui = rgb { 70 217 203 }
 }
 
