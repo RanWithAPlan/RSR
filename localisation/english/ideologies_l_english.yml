@@ -3,14 +3,16 @@
  ### THING TO COPY FROM ###
  XXX_anarchism_party:0 "--"
  XXX_radical_socialism_party:0 "--"
+ XXX_authoritarian_socialism_party:0 "--"
  XXX_council_communism_party:0 "--"
  XXX_social_democracy_party:0 "--"
  XXX_progressive_liberalism_party:0 "--"
  XXX_freemarket_liberalism_party:0 "--"
  XXX_conservative_democracy_party:0 "--"
- XXX_Radical_democracy_party:0 "--"
- XXX_despotism_party:0 "--"
- XXX_national_extremism_party:0 "--"
+ XXX_authoritarian_democracy_party:0 "--"
+ XXX_autocracy_party:0 "--"
+ XXX_national_syndicalism_party:0 "--"
+ XXX_ultra_reactionary_party:0 "--"
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Stateless"
@@ -34,12 +36,12 @@
  council_communism_subtype:0 "Council Communism"
  
  social_democracy:0 "Social Democracy"
- social_democracy_desc:0 "Democratic Capitalist"
+ social_democracy_desc:0 "Social Democracy"
  
  social_democracy_subtype:0 "Social Democracy"
  
  progressive_liberalism:0 "Progressive Liberalism"
- progressive_liberalism_desc:0 "Democratic Capitalist"
+ progressive_liberalism_desc:0 "Progressive Democracy"
  
  progressive_liberalism_subtype:0 "Progressive Liberalism"
  
@@ -49,33 +51,33 @@
  freemarket_liberalism_subtype:0 "Freemarket Liberalism"
  
  conservative_democracy:0 "Conservative Democracy"
- conservative_democracy_desc:0 "Democratic Capitalist"
+ conservative_democracy_desc:0 "Conservative Democracy"
  
  conservative_democracy_subtype:0 "Conservative Democracy"
  
- autocracy:0 "Authoritarian Democracy"
- autocracy_desc:0 "Reactionary"
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Democratic"
  
- autocracy_subtype:0 "Authoritarian Democracy"
+ authoritarian_democracy_subtype:0 "Authoritarian Democracy"
  
- despotism:0 "Despotism"
- despotism_desc:0 "Reactionary"
+ autocracy:0 "Autocracy"
+ autocracy:0 "Authoritarian"
  
- despotism_subtype:0 "Despotism"
+ autocracy_subtype:0 "Autocracy"
 
  national_syndicalism:0 "National Syndicalism"
  national_syndicalism_desc:0 "Reactionairy"
 
  national_syndicalism_subtype:0 "National Syndicalism"
  
- national_extremism:0 "Reactionairy"
- national_extremism_desc:0 "Reactionary"
- national_extremism_noun:0 "Reactionairy
+ ultra_reactionary:0 "Ultra-Reactionary"
+ ultra_reactionary_desc:0 "Ultra-Reactionary"
+ ultra_reactionary_noun:0 "Reactionary"
  
- national_extremism_subtype:0 "Reactionairy"
+ ultra_reactionary_subtype:0 ""Ultra-Reactionary""
  subtype_national_federalism:0 "National Federalism"
  subtype_ultranationalism:0 "Ultranationalism"
  
- national_extremism_drift:0 "Reactionairy Drift"
+ ultra_reactionary_drift:0 "Reactionary Drift"
  
  
