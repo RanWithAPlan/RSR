@@ -1,25 +1,24 @@
 state={
-	id=820
-	name="STATE_820"
+	id=918
+	name="STATE_918"
 	
 	history={
 		owner = MON
+		victory_points = {
+			1728 1 
+		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2
-		}
-		victory_points = {
-			12649 1 
+			industrial_complex = 1
 		}
 		add_core_of = MON
 	}
-
+	
 	provinces={
-		1689 4882 12579 12649 
+		1725 1728 1798 7881 
 	}
-	manpower=73280
+	manpower=65380
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }

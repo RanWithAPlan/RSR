@@ -1,24 +1,25 @@
 state={
-	id=817
-	name="STATE_817"
+	id=924
+	name="STATE_924"
 	
 	history={
-		owner = MON
+		owner = ACD
 		buildings = {
 			infrastructure = 1
 
 		}
 		victory_points = {
-			12669 1
+			10647 1 
 		}
 		add_core_of = MON
+		add_core_of = ACD
 	}
-
+	
 	provinces={
-		1853 4786 7806 7864 10558 10632 10689 12539 12541 12669 
+		4873 10578 10647 12629 
 	}
-	manpower=4100
+	manpower=20840
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 	local_supplies=0.000
 }
