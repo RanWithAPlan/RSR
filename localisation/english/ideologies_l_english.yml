@@ -1,18 +1,5 @@
 ﻿l_english:
- 
- ### THING TO COPY FROM ###
- XXX_anarchism_party:0 "--"
- XXX_radical_socialism_party:0 "--"
- XXX_authoritarian_socialism_party:0 "--"
- XXX_council_communism_party:0 "--"
- XXX_social_democracy_party:0 "--"
- XXX_progressive_liberalism_party:0 "--"
- XXX_freemarket_liberalism_party:0 "--"
- XXX_conservative_democracy_party:0 "--"
- XXX_authoritarian_democracy_party:0 "--"
- XXX_autocracy_party:0 "--"
- XXX_national_syndicalism_party:0 "--"
- XXX_ultra_reactionary_party:0 "--"
+
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Stateless"
@@ -61,7 +48,7 @@
  authoritarian_democracy_subtype:0 "Authoritarian Democracy"
  
  autocracy:0 "Autocracy"
- autocracy:0 "Authoritarian"
+ autocracy_desc:0 "Authoritarian"
  
  autocracy_subtype:0 "Autocracy"
 
