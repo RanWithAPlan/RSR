@@ -8,18 +8,15 @@ set_technology = {
 set_convoys = 20
 
 recruit_character = IAO_acd2
-recruit_character = IAO_fascist_guy
 recruit_character = IAO_ncs
 recruit_character = IAO_nccr
 recruit_character = IAO_aco2
-recruit_character = IAO_communist_guy
 recruit_character = IAO_ai2
 recruit_character = IAO_ar
 recruit_character = IAO_coi
 recruit_character = IAO_acas
 recruit_character = IAO_acgs
 recruit_character = IAO_aa2
-recruit_character = IAO_democratic_guy
 recruit_character = IAO_acr
 recruit_character = IAO_stc
 recruit_character = IAO_awt
@@ -34,15 +31,18 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	anarchism = 2
+	anarchism = 5
 	council_communism = 0
-	radical_socialism = 3
+	authoritarian_socialism = 0
+	radical_socialism = 4
 	social_democracy = 0
-	freemarket_liberalism = 0
 	progressive_liberalism = 0
+	freemarket_liberalism = 1
 	conservative_democracy = 0
-	despotism = 5
-	autocracy = 80
-	national_extremism = 10
+	authoritarian_democracy = 0
+	autocracy = 65
+	ultra_reactionary = 20
+	national_syndicalism = 5
 }
