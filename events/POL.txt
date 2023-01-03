@@ -63,7 +63,7 @@ country_event = { # The Plot Continues
 			desc = ""
 			picture = "gfx/leaders/POL/Portrait_POL_Congress_of_Poland.png"
 			expire = "1965.1.1"
-			ideology = subtype_national_federalism
+			ideology = national_federalism
 			}
 			add_stability = -0.15
 		}

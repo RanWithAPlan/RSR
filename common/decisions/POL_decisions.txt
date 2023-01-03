@@ -15,13 +15,13 @@ POL_weaken_party_decisions = {
 		
 		days_remove = 30
 		
-		cost = 50
+		cost = 25
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_discredit_non_loyal_party_officals_tt
 			hidden_effect = { 
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.02
 				}
 			}
@@ -47,9 +47,9 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
-		days_remove = 30
+		days_remove = 60
 		
-		cost = 50
+		cost = 60
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_suspend_law_making_abilities_from_national_congress_tt
@@ -80,13 +80,13 @@ POL_weaken_party_decisions = {
 		
 		days_remove = 30
 		
-		cost = 50
+		cost = 25
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_frame_a_scandal_tt
 			hidden_effect = { 
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.02
 				}
 			}
@@ -112,9 +112,9 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
-		days_remove = 30
+		days_remove = 45
 		
-		cost = 50
+		cost = 75
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_remove_congress_power_to_sentancing_tt
@@ -143,7 +143,7 @@ POL_weaken_party_decisions = {
 		
 		fire_only_once = yes
 		
-		days_remove = 30
+		days_remove = 50
 		
 		cost = 50
 		
@@ -181,14 +181,14 @@ POL_jewish_conversion = {
 		
 		days_remove = 30
 		
-		cost = 50
+		cost = 70
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_mandate_church_service_tt
 			hidden_effect = { 
 			add_stability = 0.01
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.03
 					}
 				}
@@ -214,7 +214,7 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
-		days_remove = 30
+		days_remove = 40
 		
 		cost = 50
 		
@@ -223,7 +223,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.02
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.02
 					}
 				}
@@ -249,7 +249,7 @@ POL_jewish_conversion = {
 		
 		fire_only_once = yes
 		
-		days_remove = 30
+		days_remove = 50
 		
 		cost = 50
 		
@@ -258,7 +258,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.03
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.02
 					}
 				}
@@ -286,14 +286,14 @@ POL_jewish_conversion = {
 		
 		days_remove = 30
 		
-		cost = 50
+		cost = 65
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_remove_protestants_right_to_a_trial_tt
 			hidden_effect = { 
 			add_stability = 0.01
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.04
 					}
 				}
@@ -321,14 +321,14 @@ POL_jewish_conversion = {
 		
 		days_remove = 30
 		
-		cost = 50
+		cost = 40
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_repurpose_the_synagogues_tt
 			hidden_effect = { 
 			add_stability = 0.01
 			add_popularity = {
-			ideology = national_extremism
+			ideology = ultra_reactionary
 			popularity = 0.02
 					}
 				}
@@ -471,6 +471,40 @@ POL_purge_preperation_caregory = {
 				var = POL_preparing_for_purge_var
 				value = 4
 				tooltip = POL_preparing_for_purge_var_2_tt
+			}
+		}
+	}
+	
+	POL_ban_workers_strikes = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			has_country_flag = POL_union_infiltration_started_flag
+		}
+		
+		available = {
+			has_country_flag = POL_union_infiltration_started_flag
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 25
+		
+		cost = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_ban_workers_strikes_tt
+			hidden_effect = { 
+			add_popularity = {
+				ideology = social_democracy
+				popularity = -0.05
+					}
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 6
+				tooltip = POL_preparing_for_purge_var_4_tt
 			}
 		}
 	}

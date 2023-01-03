@@ -89,7 +89,7 @@ if = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = national_extremism
+	ruling_party = ultra_reactionary
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -97,13 +97,15 @@ set_politics = {
 set_popularities = {
 	conservative_democracy = 4
 	autocracy = 6
-	despotism = 14
-	national_extremism = 32
+	authoritarian_democracy = 14
+	ultra_reactionary = 18
+	national_syndicalism = 14
 	freemarket_liberalism = 6
 	social_democracy = 18
-	council_communism = 12
+	council_communism = 11
 	radical_socialism = 6
 	anarchism = 2
+	authoritarian_socialism = 1
 }
 
 recruit_character = POL_roman_dmowski
@@ -120,28 +122,6 @@ POL_surrounded_by_enemies
 POL_fierce_nationalism
 }
 
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "No Step Back"
-			has_dlc = "Poland: United and Ready"
-		}
-	}
-	recruit_character = POL_walery_slawek
-	recruit_character = POL_jan_mosdorf
-	recruit_character = POL_tadeusz_bielecki
-	recruit_character = POL_joachim_stefan_bartoszewicz
-	recruit_character = POL_stanislaw_wojciechowski
-}
-
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = POL_henryk_floyar_rajchman
-	recruit_character = POL_sejmik_regency
-}
 
 if = {
 	limit = {

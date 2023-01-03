@@ -481,6 +481,7 @@ ideologies = {
 			national_socialism = {}
 			national_federalism = {}
 			ultranationalism = {}
+			onr_falanga_party = {}
 		}
 		
 		dynamic_faction_names = {
