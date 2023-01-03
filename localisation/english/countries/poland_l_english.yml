@@ -1,7 +1,7 @@
 ﻿l_english:
   
- POL_national_extremism:0 "Polish National Republic"
- POL_national_extremism_DEF:0 "The Polish National Republic"
+ POL_ultra_reactionary:0 "Polish National Republic"
+ POL_ultra_reactionary_DEF:0 "The Polish National Republic"
  POL_social_democracy:0 "Polish Republic"
  POL_progressive_liberalism:0 "Polish Republic"
  POL_freemarket_liberalisn:0 "Polish Republic"
@@ -20,7 +20,7 @@
  POL_anarchism_DEF:0 "the Free Territory of Poland"
  POL_council_communism_DEF:0 "the Polish Socialist Republic"
  POL_radical_socialism_DEF:0 "the Polish People's Republic"
- POL_national_extremism_ADJ:0 "Polish"
+ POL_ultra_reactionary_ADJ:0 "Polish"
  POL_social_democracy_ADJ:0 "Polish"
  POL_progressive_liberalism_ADJ:0 "Polish"
  POL_freemarket_liberalisn_ADJ:0 "Polish"
@@ -51,6 +51,33 @@
  POL_SOV_anarchism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  SOV_council_communism_subject_DEF:0 "the Polish Soviet Socialist Republic"
  SOV_radical_socialism_subject_DEF:0 "the Polish Soviet Socialist Republic"
+ 
+ #### Parties ####
+ 
+ POL_anarchism_party:0 "KM-A"
+ POL_anarchism_party_long:0 "Szeroka Koalicja - Anarchista"
+ POL_radical_socialism_party:0 "KM-S"
+ POL_radical_socialism_party_long:0 "Szeroka Koalicja - Socjalistyczna"
+ POL_council_communism_party:0 "KM-K"
+ POL_council_communism_party_long:0 "Szeroka Koalicja - Komunistyczna"
+ POL_authoritarian_socialism_party:0 "KM-B"
+ POL_authoritarian_socialism_party_long:0 "Koalicja Majowa - Bolszewicka"
+ POL_social_democracy_party:0 "KM-U"
+ POL_social_democracy_party_long:0 "Koalicja Majowa - Umiarkowana"
+ POL_freemarket_liberalism_party:0 "PLE"
+ POL_freemarket_liberalism_party_long:0 "Porozumienie lojalistów Ententy"
+ POL_progressive_liberalism_party:0 "KM-L"
+ POL_progressive_liberalism_party_long:0 "Koalicja Majowa - Liberalna"
+ POL_conservative_democracy_party:0 "CD"
+ POL_conservative_democracy_party_long:0 "Chrześcijańska Demokracja"
+ POL_authoritarian_democracy_party:0 "Sanacja"
+ POL_authoritarian_democracy_party_long:0 "Sanacja"
+ POL_autocracy_party:0 "Sanacja"
+ POL_autocracy_party_long:0 "Sanacja"
+ POL_ultra_reactionary_party:0 "ONR-Falanga"
+ POL_ultra_reactionary_party_long:0 "Ruch Narodowo Radykalny-Falanga"
+ POL_national_syndicalism_party:0 "ONR"
+ POL_national_syndicalism_party_long:0 "Ruch Narodowo Radykalny"
  
  #Focuses
  POL_the_national_congress:0 "Aftermath of The 1936 National Congress"
@@ -92,7 +119,7 @@
  natpoland.5.desc:0 "What started as a dream by Dmowski has now been realized, the dream of a truly Catholic Poland. Step by step Dmowski has been taking rights away from non-Catholics, and by doing so forcing them to convert, and with the church working hand in hand with Dmowski's government it led to an uptake in support for Dmowski. This however is only one step towards the complete purification of Poland, as while the people may be Catholic, not all Catholics are Falangists, and not all Falangists are true soldiers in the struggle for complete supremacy for Polish Nationalism."
  natpoland.5.a:0 "One Step Closer to Perfection"
  natpoland.6.title:0 "National Congress Abolished"
- natpoland.6.desc:0 "Ever since the National Republic was established there has been only one thing stopping Dmowski from creating a full dictatorship, that being the National Congress. Created by the ONR-Falanga, the congress acted as a counter weight to Dmowski, but when the traitors in the congress atempted to take Dmowski's life a state of emergency was declared and the congress was suspeneded. However being suspended didn't mean that the congress was abolished, and after the slow decrease in congress abilities, and popularity by the hands of Dmowski, it has finally come the time to do away with the traitors. In a speech given by Dmowski he declared that now with the traitors dealt with, through Dmowski Polish Nationalism can truly flourish, and he shall once more bring purity to Poland, and make it into the true Natioanlist, Catholic and Individualist nation it was meant to be. Although it seems that Dmowski's dictatorship has been fully realized, there could still be those unloyal in our ranks, and they must be dealt with."
+ natpoland.6.desc:0 "Ever since the National Republic was established there has been only one thing stopping Dmowski from creating a full dictatorship, that being the National Congress. Created as a counter weight to Dmowski to bring legitimacy to his regime, and to empower the nationalist factions in Poland, but when the traitors in the congress atempted to take Dmowski's life a state of emergency was declared and the congress was suspeneded. However being suspended didn't mean that the congress was abolished, and after the slow decrease in congress abilities, and popularity by the hands of Dmowski, it has finally come the time to do away with the traitors. In a speech given by Dmowski he declared that now with the traitors dealt with, through Dmowski Polish Nationalism can truly flourish, and he shall once more bring purity to Poland, and make it into the true Natioanlist, Catholic and Individualist nation it was meant to be. Although it seems that Dmowski's dictatorship has been fully realized, there could still be those unloyal in our ranks, and they must be dealt with."
  natpoland.6.a:0 "The Dictatorship Realized"
  
  
@@ -126,7 +153,7 @@
  POL_remove_congress_power_to_sentancing_tt:0 "Removes the National Congress ability to punish criminals, further taking power away from the betrayers of Poland in the National Congress."
  POL_remove_the_generals_from_the_national_congress_tt:0 "The military is very important ally, to both Poland, and the Naitonal Congress, if we can seperate that power from the Congress then any future plans against the Congress will grow much easier."
  POL_party_weakness_var_tt:0 "Party Weakness"
- POL_party_weakness_1_tt:0 "§GWeakens The ONR-Falange Opposition§!"
+ POL_party_weakness_1_tt:0 "§GWeakens The ONR Opposition§!"
  POL_party_weakness_2_tt:0 "§GWeakens The National Congress§!"
  POL_mandate_church_service_tt:0 "Mandating church service will allow us to reach a greater number of those untoached by the light of the Catholic Church by making them see the preaching of the lord. It will also allow us to find those who refuse service, and refuse to join the ranks of their fellow Polish Catholics."
  POL_catholic_purity_1_tt:0 "§GWeaken All Non-Catholic Religions§!"
@@ -146,13 +173,15 @@
  POL_preparing_for_purge_var_3_tt:0 "§GIncreases Purge Readiness by 3%§!"
  POL_send_infiltrators_into_labor_unions_tt:0 "The labor unions in Poland have been under scrutiny ever since the National Republic was declared, but that doesn't mean that they have been eliminated. These unions represent a large population of the leftist working population, and so long as they are allowed to exist Council Communism and Anarchism will be a threat to the regime. The first step in the offensive against the unions is to infiltrate them. Once this is completed then we can carry on towards the next step on the attack against the labor unions."
  POL_POL_gather_names_of_organizers_tt:0 "We have begun the infiltration of the trade unions, but they will still hold power so long as their ideas can spread. To combat this we must begin gathering names of organizers, agitators, and other weapons of the unions, so that once the purge comes they too can be wiped out."
+ POL_preparing_for_purge_var_4_tt:0 "§GIncreases Purge Readiness by 6%§!"
+ POL_ban_workers_strikes_tt:0 "They unions in Poland are far from the only threat to Dmowkski's regime, but so long as the unions can legally strike they pose a threat to our security. By banning the unions ability to strike we can both weaken the influnce of the unions and deploy the military and strikes further diminishing their power."
  
  
  
  
  #Decisions
  POL_weaken_party_decisions:0 "Weaken The Party"
- POL_weaken_party_decisions_desc:0 "Dmowski's very own party and National Congress have betrayed not only him, but all of Poland, and this crime will not go unpunished. Step by step we must weaken the power of Poland's enemies in the ONR-Falange, and the National Congress, so that soon we can completely do away with the enemies within our ranks that take the name of the National Congress.\n\nOnce our enemies in the ONR-Falange and National Congress are §GVery Weak§! then we can move to disolve the congress completely."
+ POL_weaken_party_decisions_desc:0 "The ONR and National Congress have betrayed not only Dmowkski, but all of Poland, and this crime will not go unpunished. Step by step we must weaken the power of Poland's enemies in the ONR, and the National Congress, so that soon we can completely do away with the enemies within our ranks that take the name of the National Congress.\n\nOnce our enemies in the ONR and National Congress are §GVery Weak§! then we can move to disolve the congress completely."
  POL_discredit_non_loyal_party_officals:0 "Discredit Non-Loyal Party Officals"
  POL_suspend_law_making_abilities_from_national_congress:0 "Suspend Law-Making Abilities From The National Congress"
  POL_frame_a_scandal:0 "Frame a Scandal"
@@ -171,6 +200,7 @@
  POL_give_unlimited_juristiction_to_the_secret_police:0 "Grant Unlimited Jurisdiction to The Secret Police"
  POL_send_infiltrators_into_labor_unions:0 "Send Infiltrators Into Labor Unions"
  POL_gather_names_of_organizers:0 "Gather Names of Union Organizers"
+ POL_ban_workers_strikes:0 "Ban Worker's Strikes"
  
  
  
