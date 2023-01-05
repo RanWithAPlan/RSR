@@ -148,7 +148,7 @@
  GER_bloated_military:0 "Bloated Military Industry"
  GER_bloated_military_desc:0 "Throughout the 20's and early 30's, the government placed a significant emphasis on building up Germany's military capabilities, while this has led to a strong potential war economy, the current civilian economy is suffering."
  GER_bloated_military1:0 "Oversized Military Industry"
- GER_bloated_military_desc:0 "The military industry isn't as large as it used to be, but it is still quite oversized."
+ GER_bloated_military1_desc:0 "The military industry isn't as large as it used to be, but it is still quite oversized."
  GER_industrial_drive:0 "Proletarian Productivity"
  GER_feeding_revolution:0 "Feeding The Revolution"
  GER_anarchisten_industry:0 "Anarchisten Industrial Plan"

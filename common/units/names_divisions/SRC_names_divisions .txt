@@ -1,0 +1,54 @@
+﻿SRC_INF_01 = {
+	name = "Rudá Garda"
+
+	for_countries = { SRC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Rudá Garda"
+	ordered = {
+		1 = { "%d Rudá Garda" }
+		2 = { "%d Rudá Garda" }
+		3 = { "%d Rudá Garda" }
+		4 = { "%d Rudá Garda" }
+		5 = { "%d Rudá Garda" }
+		6 = { "%d Rudá Garda" }
+		7 = { "%d Rudá Garda" }
+		8 = { "%d Rudá Garda" }
+		9 = { "%d Rudá Garda" }
+		10 = { "%d Rudá Garda" }
+		11 = { "%d Rudá Garda" }
+		12 = { "%d Rudá Garda" }
+		13 = { "%d Rudá Garda" }
+		14 = { "%d Rudá Garda" }
+		15 = { "%d Rudá Garda" }
+	}
+}
+
+SRC_MIL_01 = {
+	name = "Lidové Milice"
+
+	for_countries = { SCR }
+
+	can_use = { always = yes }
+
+	division_types = { "militia" }
+
+	fallback_name = "%d. Lidové Milice"
+	ordered = {
+		1 = { "%d Lidové Milice" }
+		2 = { "%d Lidové Milice" }
+		3 = { "%d Lidové Milice" }
+		4 = { "%d Lidové Milice" }
+		5 = { "%d Lidové Milice" }
+		6 = { "%d Lidové Milice" }
+		7 = { "%d Lidové Milice" }
+		8 = { "%d Lidové Milice" }
+		9 = { "%d Lidové Milice" }
+		10 = { "%d Lidové Milice" }
+		11 = { "%d Lidové Milice" }
+		12 = { "%d Lidové Milice" }
+	}
+}

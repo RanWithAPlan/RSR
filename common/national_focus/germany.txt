@@ -499,6 +499,14 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_road_to_war
 		prerequisite = { focus = GER_road_to_war }
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_in_faction_with = GER
+				}
+				add_ideas = idea_fourth_international1
+			}
+		}
 	}
 	focus = {
 		id = GER_economic_intergration
@@ -508,6 +516,33 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_the_international
 		prerequisite = { focus = GER_the_international }
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = idea_fourth_international3
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					swap_ideas = {
+						add_idea = idea_fourth_international4
+						remove_idea = idea_fourth_international3
+					}
+				}
+			}
+			else = {
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					swap_ideas = {
+						add_idea = idea_fourth_international2
+						remove_idea = idea_fourth_international1
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_joint_military_excercises
@@ -517,6 +552,33 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_the_international
 		prerequisite = { focus = GER_the_international }
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = idea_fourth_international2
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					swap_ideas = {
+						add_idea = idea_fourth_international4
+						remove_idea = idea_fourth_international2
+					}
+				}
+			}
+			else = {
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					swap_ideas = {
+						add_idea = idea_fourth_international3
+						remove_idea = idea_fourth_international1
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_anti_colonial_resistance
@@ -669,106 +731,161 @@ focus_tree = {
 	focus = {
 		id = GER_war_planning
 		icon = g
-		cost = 5
-		x = 7
+		cost = 1
+		x = 5
 		y = 1
 		relative_position_id = GER_road_to_war
 		prerequisite = { focus = GER_road_to_war }
 	}
 	focus = {
-		id = GER_infiltrating_the_rhenish_republic
-		icon = g
-		cost = 5
-		x = -2
-		y = 1
-		relative_position_id = GER_war_planning
-		prerequisite = { focus = GER_war_planning }
-	}
-	focus = {
-		id = GER_the_enemies_of_progress
-		icon = g
-		cost = 5
-		x = 2
-		y = 1
-		relative_position_id = GER_war_planning
-		prerequisite = { focus = GER_war_planning }
-	}
-	focus = {
 		id = GER_liberals_to_the_west
+		icon = g
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = GER_war_planning
+		mutually_exclusive = { focus = GER_reactionairies_to_the_east }
+		prerequisite = { focus = GER_war_planning }
+	}
+	focus = {
+		id = GER_fortify_the_alps
+		icon = g
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = GER_reactionairies_to_the_east
+		prerequisite = { focus = GER_reactionairies_to_the_east }
+	}
+	focus = {
+		id = GER_reactionairies_to_the_east
 		icon = g
 		cost = 5
 		x = 1
 		y = 1
-		relative_position_id = GER_the_enemies_of_progress
-		prerequisite = { focus = GER_the_enemies_of_progress }
-		mutually_exclusive = { focus = }
+		relative_position_id = GER_war_planning
+		mutually_exclusive = { focus = GER_liberals_to_the_west }
+		prerequisite = { focus = GER_war_planning }
 	}
 	focus = {
-		id = GER_fall_blau
+		id = GER_fortify_the_rhine
 		icon = g
 		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = GER_liberals_to_the_west
 		prerequisite = { focus = GER_liberals_to_the_west }
-	}
-	focus = {
-		id = GER_fascists_to_the_south
-		icon = g
-		cost = 5
-		x = -1
-		y = 1
-		relative_position_id = GER_the_enemies_of_progress
-		prerequisite = { focus = GER_the_enemies_of_progress }
-	}
-	focus = {
-		id = GER_fall_rot
-		icon = g
-		cost = 5
-		x = 0
-		y = 1
-		relative_position_id = GER_fascists_to_the_south
-		prerequisite = { focus = GER_fascists_to_the_south }
-	}
-	focus = {
-		id = GER_strengthen_the_faud
-		icon = g
-		cost = 5
-		x = -1
-		y = 1
-		relative_position_id = GER_infiltrating_the_rhenish_republic
-		prerequisite = { focus = GER_infiltrating_the_rhenish_republic }
-		mutually_exclusive = { focus = GER_strengthen_the_kpd }
-	}
-	focus = {
-		id = GER_strengthen_the_kpd
-		icon = g
-		cost = 5
-		x = 1
-		y = 1
-		relative_position_id = GER_infiltrating_the_rhenish_republic
-		prerequisite = { focus = GER_infiltrating_the_rhenish_republic }
-		mutually_exclusive = { focus = GER_strengthen_the_faud }
-	}
-	focus = {
-		id = GER_rhenish_militias
-		icon = g
-		cost = 5
-		x = 0
-		y = 1
-		relative_position_id = GER_strengthen_the_faud
-		prerequisite = { focus = GER_strengthen_the_faud focus = GER_strengthen_the_kpd }
-		mutually_exclusive = { focus = GER_well_trained_partisans }
-	}
-	focus = {
-		id = GER_well_trained_partisans
-		icon = g
-		cost = 5
-		x = 0
-		y = 1
-		relative_position_id = GER_strengthen_the_kpd
-		prerequisite = { focus = GER_strengthen_the_faud focus = GER_strengthen_the_kpd }
-		mutually_exclusive = { focus = GER_rhenish_militias }
+		completion_reward = {
+			custom_effect_tooltip = GER_fortify_the_rhine_tt
+			hidden_effect = {
+				if = {
+					limit = { owns_state = 42 }
+					42 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
+						}
+					}
+					913 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
+						}
+					}
+					50 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 11640
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 6712
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 6542
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 3530
+						}
+					}
+				}
+				else = {
+					51 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
+						}
+					}
+					55 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+							}
+						}
+					}
+					50 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 11640
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 6712
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 6542
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 3530
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							instant_build = yes
+							province = 6568
+						}
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_crossing_the_rhine

@@ -1,0 +1,17 @@
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		13266
+	}
+	history = {
+		add_core_of = BEL
+		owner = BEL
+		add_core_of = RHE 
+		add_core_of = GER
+	}
+	manpower=65600
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}
