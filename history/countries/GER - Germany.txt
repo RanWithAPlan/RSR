@@ -183,8 +183,9 @@ set_popularities = {
 	national_extremism = 0
 }
 
-create_faction = Internationale
+create_faction = fourth_international
 add_to_faction = GER	
+add_to_faction = ITA
 
 add_ideas = {
 	GER_tension_on_the_rhine_3

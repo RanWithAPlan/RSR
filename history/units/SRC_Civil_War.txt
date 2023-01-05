@@ -1,0 +1,134 @@
+﻿division_template = {
+	name = "Rudá Garda"					# Infantry Division
+
+	division_names_group = SRC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Lidové Milice"					# Militia Division
+
+	division_names_group = SRC_MIL_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division = { "1. Rudá Garda"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11542
+		division_template = "Rudá Garda"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "2. Rudá Garda"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6592
+		division_template = "Rudá Garda"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "3. Rudá Garda"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11556
+		division_template = "Rudá Garda"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "4. Rudá Garda"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9414
+		division_template = "Rudá Garda"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		"1. Lidové Milice"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6418
+		division_template = "Lidové Milice"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		"2. Lidové Milice"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6440
+		division_template = "Lidové Milice"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		"3. Lidové Milice"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9414
+		division_template = "Lidové Milice"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		"4. Lidové Milice"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3462
+		division_template = "Lidové Milice"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		"4. Lidové Milice"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 494
+		division_template = "Lidové Milice"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

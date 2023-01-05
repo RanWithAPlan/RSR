@@ -1,0 +1,174 @@
+add_namespace = czechoslovakia
+country_event = {
+    id = czechoslovakia.1
+    title = czechoslovakia.1.t
+    desc = czechoslovakia.1.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = czechoslovakia.1.a
+        hidden_effect = {
+            SDE = {
+                transfer_state  = 69
+                transfer_state  = 74
+                add_state_core = 69
+                add_state_core = 74
+                delete_unit_template_and_units = {
+                    division_template = "Pěší divize"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "Horská divize"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Jezdecká brigáda"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Rychlá divize"
+                    disband = no
+                } 
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1000
+                    producer = CZE
+                }
+                load_oob = "SDE_Civil_War"
+            }
+            SLO = {
+                transfer_state  = 70
+                transfer_state  = 71
+                add_state_core = 70
+                add_state_core = 71
+                load_oob = "SLO_Civil_War"
+                delete_unit_template_and_units = {
+                    division_template = "Pěší divize"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "Horská divize"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Jezdecká brigáda"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Rychlá divize"
+                    disband = no
+                }
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1000
+                    producer = CZE
+                } 
+            }
+            SRC = {
+                transfer_state  = 9
+                add_state_core = 9
+                add_state_core = 75
+                declare_war_on = {
+                    target = CZE
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = SDE
+                    type = annex_everything
+                }
+                delete_unit_template_and_units = {
+                    division_template = "Pěší divize"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "Horská divize"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Jezdecká brigáda"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Rychlá divize"
+                    disband = no
+                } 
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1000
+                    producer = CZE
+                }
+                load_oob = "SRC_Civil_War"
+            }
+            CZE = {
+                add_popularity = {
+                    ideology = autocracy
+                    popularity = 0.3
+                }
+                declare_war_on = {
+                    target = SLO
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = SDE
+                    type = annex_everything
+                }
+                delete_unit_template_and_units = {
+                    division_template = "Pěší divize"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "Horská divize"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Jezdecká brigáda"
+                    disband = no
+                } 
+                delete_unit_template_and_units = {
+                    division_template = "Rychlá divize"
+                    disband = no
+                } 
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1000
+                    producer = CZE
+                }
+                load_oob = "CZE_Civil_War"
+            }
+            HUN = {
+                declare_war_on = {
+                    target = SLO
+                    type = annex_everything
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = czechoslovakia.2
+    title = czechoslovakia.2.t
+    desc = czechoslovakia.2.d
+    
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SDE
+        owns_state = 9
+        owns_state = 75
+    }
+    
+    option = {
+        name = czechoslovakia.2.a
+        AUS = {
+            annex_country = {
+                target = SDE
+                transfer_troops = yes
+            }
+            delete_unit_template_and_units = {
+                division_template = "Freikorp-Brigade"
+                disband = yes
+            } 
+        }
+    }
+}

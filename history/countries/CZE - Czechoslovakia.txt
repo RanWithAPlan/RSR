@@ -98,23 +98,27 @@ if = {
 
 set_research_slots = 3
 
+country_event = {
+	id = czechoslovakia.1
+	days = 1
+}
+
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = autocracy
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	council_communism = 21
+	council_communism = 24
 	anarchism = 1
-	radical_socialism = 12
-	social_democracy = 13
-	progressive_liberalism = 11
-	freemarket_liberalism = 1
-	conservative_democracy = 25
-	autocracy = 8
+	social_democracy = 10
+	progressive_liberalism = 8
+	freemarket_liberalism = 7
+	conservative_democracy = 5
+	autocracy = 23
 	despotism = 0
-	national_extremism = 8
+	national_extremism = 22
 	}
 	
 }

@@ -2,7 +2,7 @@ state=
 {
 	id=69
 	name="STATE_69"
-	manpower = 22780000 
+	manpower = 2780000 
 	
 	state_category = town
 	
@@ -25,31 +25,6 @@ state=
 			infrastructure = 4
 			industrial_complex = 2
 			anti_air_building = 1
-			424 =
-			{
-				bunker = 1
-			}
-			469 =
-			{
-				bunker = 1
-			}
-			3585 =
-			{
-				bunker = 1
-			}
-			6470 =
-			{
-				bunker = 1
-			}
-			9555 =
-			{
-				bunker = 1
-			}
-			11432 =
-			{
-				bunker = 1
-			}
-
 		}
 		add_core_of = CZE
 

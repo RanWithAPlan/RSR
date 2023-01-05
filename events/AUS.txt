@@ -1,0 +1,28 @@
+add_namespace = austria
+country_event = {
+    id = austria.2
+    title = austria.2.t
+    desc = austria.2.d
+    
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SDE
+        owns_state = 9
+        owns_state = 75
+    }
+    
+    option = {
+        name = austria.2.a
+        AUS = {
+            annex_country = {
+                target = SDE
+                transfer_troops = yes
+            }
+            delete_unit_template_and_units = {
+                division_template = "Freikorp-Brigade"
+                disband = yes
+            } 
+        }
+    }
+}
