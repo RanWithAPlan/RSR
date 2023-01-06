@@ -389,10 +389,22 @@ SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
-
+SRC = {
+	color = rgb { 44 137 156 }
+	color_ui = rgb { 55 157 203 }
+}
+SLO = {
+	color = rgb { 158  161  188 }
+	color_ui = rgb { 255 255 255 }
+}
 SOV = {
 	color = rgb { 183 13 0 }
 	color_ui = rgb { 233 73 60 }
+}
+
+SDE = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
 }
 
 SPR = {

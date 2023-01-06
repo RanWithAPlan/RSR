@@ -298,5 +298,43 @@ ideas = {
 				war_support_factor = 0.10
 			}
 		}
+		idea_fourth_international1 = {
+			modifier = {
+				political_power_gain = 0.10
+			}
+		}
+		idea_fourth_international2 = { #economic integration only
+			modifier = {
+				political_power_gain = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		idea_fourth_international3 = { #military integration only
+			modifier = {
+				political_power_gain = 0.10
+				experience_gain_army = 0.01
+			}
+		}
+		idea_fourth_international4 = { #military and economic integration
+			modifier = {
+				political_power_gain = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				experience_gain_army = 0.01
+			}
+		}
+		GER_attack_france = {
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		GER_attack_poland = {
+			targeted_modifier = {
+				tag = POL
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
 	}
 }

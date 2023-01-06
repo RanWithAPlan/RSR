@@ -1,0 +1,169 @@
+﻿division_template = {
+	name = "Freikorp-Division"					# Infantry Division
+
+	division_names_group = SDE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Freikorp-Brigade"					# Militia Division
+
+	division_names_group = SDE_MIL_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"					# Cavalry Division
+
+	division_names_group = SDE_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+units = {
+
+	division = { "1 Freikorp-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3585
+		division_template = "Freikorp-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "2 Freikorp-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11401
+		division_template = "Freikorp-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "3 Freikorp-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3583
+		division_template = "Freikorp-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "1 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7857
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "2 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3414
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "3 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9555
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "4 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 424
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "5 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3418
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "6 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 469
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "7 Freikorp-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 11432
+		division_template = "Freikorp-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "1 Kavallerie-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 469
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { "2 Kavallerie-Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11414
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

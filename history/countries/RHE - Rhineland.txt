@@ -121,10 +121,10 @@ set_stability = 0.60
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1933.3.5"
+	ruling_party = autocracy
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	anarchism = 22

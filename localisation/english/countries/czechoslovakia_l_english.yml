@@ -46,4 +46,25 @@
  CZE_despotism_party:0 "Československá armáda"
  CZE_autocracy_party:0 "Národní sjednocení"
  CZE_national_extremism_party:0 "Národní obec fašistická"
+
+ SDE:0 "Sudeten National Army"
+ SDE_DEF:0 "the Sudeten National Army"
+ SDE_ADJ:0 "Sudeten"
+ SDE_subject:0 "$OVERLORDADJ$ $SDE$"
+ SDE_subject_DEF:0 "$OVERLORDADJ$ $SDE$"
+
+ SDE_national_extremism_party:0 "Sudeten German Party"
+
+ SRC:0 "Socialist Republic of Czechia"
+ SRC_DEF:0 "the Socialist Republic of Czechia"
+ SRC_ADJ:0 "Czech"
+ SRC_subject:0 "$OVERLORDADJ$ $SRC$"
+ SRC_subject_DEF:0 "$OVERLORDADJ$ $SRC$"
+
+
+ SLO:0 "Slovak Liberation Front"
+ SLO_DEF:0 "the Slovak Liberation Front"
+ SLO_ADJ:0 "Slovak"
+ SLO_subject:0 "$OVERLORDADJ$ $SLOC$"
+ SLO_subject_DEF:0 "$OVERLORDADJ$ $SLO$"
  
