@@ -495,10 +495,129 @@ POL_purge_preperation_caregory = {
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_ban_workers_strikes_tt
+			set_country_flag = POL_strikes_banned
 			hidden_effect = { 
 			add_popularity = {
 				ideology = social_democracy
 				popularity = -0.05
+					}
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 6
+				tooltip = POL_preparing_for_purge_var_4_tt
+			}
+		}
+	}
+	
+	POL_ban_trade_unions = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			has_country_flag = POL_strikes_banned
+		}
+		
+		available = {
+			has_country_flag = POL_strikes_banned
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 25
+		
+		cost = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_ban_trade_unions_tt
+			hidden_effect = { 
+			add_politcal_power = 100
+			add_popularity = {
+				ideology = national_syndicalism
+				popularity = 0.06
+					}
+			add_popularity = {
+				ideology = ultra_reactionary
+				popularity = 0.06
+					}
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 6
+				tooltip = POL_preparing_for_purge_var_4_tt
+			}
+		}
+	}
+	
+	POL_ban_the_may_coalition = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			has_country_flag = POL_union_infiltration_started_flag
+			has_country_flag = POL_secret_police_establish_flag
+		}
+		
+		available = {
+			has_country_flag = POL_union_infiltration_started_flag
+			has_country_flag = POL_secret_police_establish_flag
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 40
+		
+		cost = 75
+		
+		remove_effect = {
+			set_country_flag = POL_may_coalition_banned
+			custom_effect_tooltip = POL_ban_the_may_coalition_tt
+			hidden_effect = { 
+			add_popularity = {
+				ideology = social_democracy
+				popularity = -0.05
+					}
+			add_popularity = {
+				ideology = council_communism
+				popularity = -0.05
+					}
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 10
+				tooltip = POL_preparing_for_purge_var_1_tt
+			}
+		}
+	}
+	
+	POL_gather_names_and_addresses_of_may_coalition_leaders = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			has_country_flag = POL_may_coalition_banned
+		}
+		
+		available = {
+			has_country_flag = POL_may_coalition_banned
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 25
+		
+		cost = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_gather_names_and_addresses_of_may_coalition_leaders_tt
+			hidden_effect = { 
+			add_popularity = {
+				ideology = national_syndicalism
+				popularity = 0.05
+					}
+			add_popularity = {
+				ideology = ultra_reactionary
+				popularity = 0.05
 					}
 				}
 			add_to_variable = {

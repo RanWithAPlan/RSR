@@ -175,6 +175,9 @@
  POL_POL_gather_names_of_organizers_tt:0 "We have begun the infiltration of the trade unions, but they will still hold power so long as their ideas can spread. To combat this we must begin gathering names of organizers, agitators, and other weapons of the unions, so that once the purge comes they too can be wiped out."
  POL_preparing_for_purge_var_4_tt:0 "§GIncreases Purge Readiness by 6%§!"
  POL_ban_workers_strikes_tt:0 "They unions in Poland are far from the only threat to Dmowkski's regime, but so long as the unions can legally strike they pose a threat to our security. By banning the unions ability to strike we can both weaken the influnce of the unions and deploy the military and strikes further diminishing their power."
+ POL_ban_the_may_coalition_tt:0 "Inside our nation stands a coalition of enemies to the state, this coalition goes by the name of 'The May Coalition' and it stands as the greatest non-nationalist threat to Poland. Formed in the wake of the failed May Coup the coalition which started as just radical council communists and anarchists quickly spread to encompass the entirety of the leftist and liberal opposition inside Poland. Going by a mantra of ending the National Congress and Dmowksist government in Poland and replacing it with a workers government this coalition stands as a great threat to Poland. Although their power base has begun to shrink it isn't gone, so we must take drastic measures of completely abolishing this coalition of traitors."
+ POL_gather_names_and_addresses_of_may_coalition_leaders_tt:0 "The May Coalition may be banned, but its leaders, a group of traitors are still out there. To make sure that this threat is truly dead and buried we must add the names of the May Coalition leaders to our lists so that when the day comes just like all other threats this one will be ended."
+ POL_ban_trade_unions_tt:0 "Strikes are banned, organizer names are put into lists, the unions are filled with men loyal to our regime, there is only one step left to destory the threat of organized labor. That step is the complete abolition of trade unions. Once the unions are banned then we can mark one more threat done with, and move on towards the final preparations for our purge."
  
  
  
@@ -201,7 +204,9 @@
  POL_send_infiltrators_into_labor_unions:0 "Send Infiltrators Into Labor Unions"
  POL_gather_names_of_organizers:0 "Gather Names of Union Organizers"
  POL_ban_workers_strikes:0 "Ban Worker's Strikes"
- 
+ POL_ban_the_may_coalition:0 "Ban The May Coalition"
+ POL_gather_names_and_addresses_of_may_coalition_leaders:0 "Gather Names and Addresses Of May Coalition Leaders"
+ POL_ban_trade_unions:0 "Ban Trade Unions"
  
  
  
