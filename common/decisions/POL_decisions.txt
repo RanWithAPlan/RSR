@@ -461,6 +461,7 @@ POL_purge_preperation_caregory = {
 		
 		remove_effect = {
 			custom_effect_tooltip = POL_POL_gather_names_of_organizers_tt
+			set_country_flag = POL_organizer_names_gathered
 			hidden_effect = { 
 			add_popularity = {
 				ideology = radical_socialism
@@ -556,11 +557,13 @@ POL_purge_preperation_caregory = {
 		visible = {
 			has_country_flag = POL_union_infiltration_started_flag
 			has_country_flag = POL_secret_police_establish_flag
+			has_country_flag = POL_organizer_names_gathered
 		}
 		
 		available = {
 			has_country_flag = POL_union_infiltration_started_flag
 			has_country_flag = POL_secret_police_establish_flag
+			has_country_flag = POL_organizer_names_gathered
 		}
 		
 		fire_only_once = yes

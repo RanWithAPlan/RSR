@@ -158,3 +158,21 @@ country_event = { # National Congress Abolished
 		}
 	}
 }
+
+country_event = { # A Knock on The Door
+	id = natpoland.7
+	title = natpoland.7.title
+	desc = natpoland.7.desc
+	picture = GFX_report_event_knock_on_the_door
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # How It All Begins, With a Knock on The Door
+		name = natpoland.7.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+		}
+	}
+}
