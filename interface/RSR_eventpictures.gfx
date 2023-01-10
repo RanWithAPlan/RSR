@@ -4,4 +4,9 @@ spriteTypes = {
 		name = "GFX_MON_endofwar"
 		texturefile = "gfx/events/MON/MON_endofwar.dds"
 	}
+	#Poland
+	spriteType = {
+		name = "GFX_report_event_knock_on_the_door"
+		texturefile = "GFX/event_gfx/report_event_knock_on_the_door.dds"
+	}
 }
