@@ -33,3 +33,14 @@ GER_ruhr_industrial_heart = {
 	local_resources  = 0.2
 	state_production_speed_industrial_complex_factor = 0.1 
 }
+GER_road_to_war_idea = {
+	army_attack_factor = GER_road_to_war_attack_factor
+	army_defence_factor = GER_road_to_war_defence_factor
+	planning_speed = GER_road_to_war_planning_speed_factor
+	pocket_penalty = GER_road_to_war_pocket_penalty_factor
+	max_planning_factor = GER_road_to_war_max_planning_factor
+	army_org_factor = GER_road_to_war_army_org_factor
+ 	production_factory_efficiency_gain_factor = GER_road_to_war_production_factory_efficiency_gain_factor
+	production_factory_max_efficiency_factor = GER_road_to_war_production_factory_max_efficiency_factor
+	production_factory_start_efficiency_factor = GER_production_factory_start_efficiency_factor
+}

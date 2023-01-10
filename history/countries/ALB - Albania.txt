@@ -34,14 +34,14 @@ recruit_character = ALB_jocelyn_percy
 
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = authoritarian_democracy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	autocracy = 30
-	national_extremism = 20
+	authoritarian_democracy = 30
+	ultra_reactionary = 20
 	progressive_liberalism = 10
 	freemarket_liberalism = 10
 	conservative_democracy = 10
