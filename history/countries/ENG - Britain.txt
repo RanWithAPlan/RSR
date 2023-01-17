@@ -216,6 +216,10 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
@@ -462,6 +466,7 @@ add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
+add_to_faction = EGY
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet

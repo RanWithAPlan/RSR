@@ -1,23 +1,26 @@
 state={
 	id=819
 	name="STATE_819"
-	provinces={
-		1743 1868 4792 4873 7823 7885 10578 10647 10708 12533 12557 12629 12665 
-	}
-
+	
 	history={
 		owner = ACD
-		add_core_of = ACD
-		add_core_of = MON
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		victory_points = {
-			12557 1 #Choibalsan
+			12557 1 
 		}
+		add_core_of = MON
+		add_core_of = ACD
 	}
-	manpower=88250
+
+	provinces={
+		1743 4792 10708 12557 12665 
+	}
+	manpower=22020
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	local_supplies=0.000
 }

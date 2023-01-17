@@ -15,11 +15,7 @@
  RHE_progressive_liberalism_DEF:0 "the Rhenish Republic"
  RHE_freemarket_liberalisn_DEF:0 "the Rhenish Republic"
  RHE_conservative_democracy_DEF:0 "the Rhenish Republic"
-<<<<<<< Updated upstream
- RHE_autocracy:0 "the Rhenish Republic"
-=======
  RHE_autocracy:0 "Rhenish Republic"
->>>>>>> Stashed changes
  RHE_despotism:0 "National State of the Rhine"
  RHE_autocracy_DEF:0 "the Rhenish Republic"
  RHE_despotism_DEF:0 "the National State of the Rhine"

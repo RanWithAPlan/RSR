@@ -208,7 +208,7 @@ set_popularities = {
 	conservative_democracy = 15
 	freemarket_liberalism = 10
 	social_democracy = 20
-	national_extremism = 15
+	ultra_reactionary = 15
 	authoritarian_socialism = 10
 	council_communism = 5
 }

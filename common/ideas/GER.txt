@@ -240,8 +240,8 @@ ideas = {
 		}
 		GER_empowering_the_rifleman_idea = {
 			modifier = {
-				army_attack_factor =0.1
-				army_defence_factor = 0.1
+				army_attack_factor =0.05
+				army_defence_factor = 0.05
 			}
 		}
 		GER_devolve_power_to_sergeant_idea = {
@@ -271,7 +271,7 @@ ideas = {
 		}
 		GER_nationalise_munich_tank_plant_idea = {
 			equipment_bonus = {
-				light_tank_equipment = {
+				medium_tank_equipment = {
 					build_cost_ic = -0.15
 					instant = yes
 				}

@@ -291,7 +291,7 @@ set_convoys = 10
 			desc = "POLITICS_CAROL_II_DESC"
 			picture = GFX_Portrait_romania_Carol_II			
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = autocracy
 			traits = {
 				hedonist
 				camarilla_leader
@@ -344,7 +344,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = national_extremism
+	ruling_party = ultra_reactionary
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = no
@@ -357,9 +357,9 @@ set_popularities = {
 	progressive_liberalism = 0
 	freemarket_liberalism = 13
 	conservative_democracy = 1
-	autocracy = 11
-	despotism = 9
-	national_extremism = 62
+	authoritarian_democracy = 11
+	autocracy = 9
+	ultra_reactionary = 62
 }
 
 1939.1.1 = {

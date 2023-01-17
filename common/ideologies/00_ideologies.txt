@@ -344,13 +344,10 @@ ideologies = {
 		ai_democratic = yes
 	}
 	
-	autocracy = {
+	authoritarian_democracy {
 	
-		types = {
-			autocracy_subtype = {}
-			absolute_monarchy = {}
-			paternalism = {}
-			authoritarianism = {}
+		types = { 
+			authoritarian_democracy_subtype = {}
 		}
 		
 		dynamic_faction_names = {
@@ -359,42 +356,51 @@ ideologies = {
 		
 		color = { 125 125 125 }
 		
-		war_impact_on_world_tension = 0.5
-		faction_impact_on_world_tension =  0.5
+		war_impact_on_world_tension = 0.3
+		faction_impact_on_world_tension = 0.3
 		
 		rules = {
 			can_create_collaboration_government = yes
-			can_create_factions = no
+            can_create_factions = no
 			can_join_factions = no
             can_force_government = yes
             can_puppet = yes
-		}
-
+			can_host_government_in_exile = yes
+        }
+		
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.70
-            join_faction_tension = 0.30
-            lend_lease_tension = 0.15
-            send_volunteers_tension = 0.15
+			justify_war_goal_when_in_major_war_time = -0.60
+			lend_lease_tension = 0.30
+			send_volunteers_tension = 0.30
+			annex_cost_factor = 0.4
 			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
+			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
 		}
 		
-		ai_neutral = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		
+		ai_democratic = yes
 	}
 	
-	despotism = {
+	autocracy = {
 	
-		types = { 
-			despotism_subtype = {}
+		types = {
+			autocracy_subtype = {}
+			absolute_monarchy = {}
+			paternalism = {}
 			tyrannical_monarchy = {}
 			stratocracy = {}
 			military_junta = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTOCRAT_1"
+			"FACTION_NAME_AUTOCRACY_1"
 		}
 		
 		color = { 70 70 70 }
@@ -436,6 +442,9 @@ ideologies = {
 		
 		color = { 45 45 45 }
 		
+		war_impact_on_world_tension = 1.5	
+		faction_impact_on_world_tension = 1.5
+		
 		rules = {
 			can_create_collaboration_government = yes
             can_send_volunteers = yes
@@ -458,10 +467,10 @@ ideologies = {
 		ai_fascist = yes
 	}
 	
-	national_extremism = {
+	ultra_reactionary = {
 	
 		types = { 
-			national_extremism_subtype = {}
+			ultra_reactionary_subtype = {}
 			populistic_nationalism = {}
 			general_fascism = {}
 			falangism = {}
@@ -470,13 +479,19 @@ ideologies = {
 			legionarism = {}
 			fascismo_italiano = {}
 			national_socialism = {}
+			national_federalism = {}
+			ultranationalism = {}
+			onr_falanga_party = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_EXTREMISM_1"
+			"FACTION_NAME_ULTRA_REACTIONARY_1"
 		}
 		
 		color = { 130 76 26 }
+		
+		war_impact_on_world_tension = 1.5	
+		faction_impact_on_world_tension = 1.5
 		
 		rules = {
 			can_create_collaboration_government = yes

@@ -1,3 +1,8 @@
+EGY_UK = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+
 MON_FREE = {
 	color = rgb { 197  139  222 }
 	color_ui = rgb { 197  139  222 }

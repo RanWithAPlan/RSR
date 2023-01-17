@@ -200,14 +200,14 @@ if = {
 
 set_convoys = 50
 set_politics = {
-	ruling_party = national_extremism
+	ruling_party = ultra_reactionary
 	last_election = "1938.10.30"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_extremism = 35
-	despotism = 25
+	ultra_reactionary = 35
+	autocracy= 25
 	conservative_democracy = 10
 	freemarket_liberalism = 5
 	social_democracy = 5
@@ -218,14 +218,14 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = national_extremism
+		ruling_party = ultra_reactionary
 		last_election = "1938.10.30"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		national_extremism = 35
-		despotism = 25
+		ultra_reactionary = 35
+		autocracy = 25
 		conservative_democracy = 10
 		freemarket_liberalism = 5
 		social_democracy = 5

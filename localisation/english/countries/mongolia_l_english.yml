@@ -1,4 +1,6 @@
 ﻿l_english:
+
+
  #Country Names
  MON_anarchism:0 "Anarchist Hunnic State"
  MON_anarchism_DEF:0 "the Anarchist Hunnic State"
@@ -6,18 +8,24 @@
  MON_council_communism_DEF:0 "the Socialist Mongolian Federation"
  MON_radical_socialism:0 "Marxist State of Mongolia"
  MON_radical_socialism_DEF:0 "the Marxist State of Mongolia"
+ MON_authoritarian_socialism:0 "Mongolian People's Republic"
+ MON_authoritarian_socialism_DEF:0 "the Mongolian People's Republic"
  MON_social_democracy:0 "Republic of Mongolia"
  MON_social_democracy_DEF:0 "the Republic of Mongolia"
  MON_freemarket_liberalism:0 "Republic of Mongolia"
  MON_freemarket_liberalism_DEF:0 "the Republic of Mongolia"
+ MON_progressive_liberalism:0 "Republic of Mongolia"
+ MON_progressive_liberalism_DEF:0 "the Republic of Mongolia"
  MON_conservative_democracy:0 "Republic of Mongolia"
  MON_conservative_democracy_DEF:0 "the Republic of Mongolia"
+ MON_authoritarian_democracy:0 "Republic of Mongolia"
+ MON_authoritarian_democracy_DEF:0 "the Republic of Mongolia"
  MON_autocracy:0 "Royal Government of Mongolia"
  MON_autocracy_DEF:0 "the Royal Government of Mongolia"
- MON_despotism:0 "Mongol Empire"
- MON_despotism_DEF:0 "the Mongol Empire"
- MON_national_extremism:0 "Supreme Empire of Mongolia"
- MON_national_extremism_DEF:0 "the Supreme Empire of Mongolia"
+ MON_ultra_reactionary:0 "Supreme Empire of Mongolia"
+ MON_ultra_reactionary_DEF:0 "the Supreme Empire of Mongolia"
+ MON_national_syndicalism:0 "Mongolia"
+ MON_national_syndicalism_DEF:0 "Mongolia"
  MON:0 "Mongolia"
  MON_DEF:0 "Mongolia"
  MON_ADJ:0 "Mongolian"
@@ -29,6 +37,8 @@
  MON_radical_socialism_party_long:0 "Marksist Komissariat"
  MON_council_communism_party:0 "MSN"
  MON_council_communism_party_long:0 "Mongolyn Sotsialist Nam"
+ MON_authoritarian_socialism_party:0 ""
+ MON_authoritarian_socialism_party_long:0 ""
  MON_social_democracy_party:0 "S-DK"
  MON_social_democracy_party_long:0 "Sotsial-Dyemokratyn Kholboo"
  MON_freemarket_liberalism_party:0 "BMI"
@@ -37,12 +47,14 @@
  MON_progressive_liberalism_party_long:0 "Progryessivchuud"
  MON_conservative_democracy_party:0 "UDZN"
  MON_conservative_democracy_party_long:0 "Ulamjlalt Dund Zergiin Nam"
+ MON_authoritarian_democracy_party:0 ""
+ MON_authoritarian_democracy_party_long:0 ""
  MON_autocracy_party:0 "BKZ"
  MON_autocracy_party_long:0 "Bogd Khaany Zalgamjlagchid"
- MON_despotism_party:0 "Ünemlekhüi Khanlig"
- MON_despotism_party_long:0 "Ünemlekhüi Khanlig"
- MON_national_extremism_party:0 "ÜÜS"
- MON_national_extremism_party_long:0 "Ündesnii Üzeltnüüdiin Sindikat"
+ MON_ultra_reactionary_party:0 "ÜÜS"
+ MON_ultra_reactionary_party_long:0 "Ündesnii Üzeltnüüdiin Sindikat"
+ MON_national_syndicalism_party:0 ""
+ MON_national_syndicalism_party_long:0 ""
 
  #Events
  mon.endofwar.t:0 "End of the Independence War!"
@@ -55,7 +67,7 @@
  #Characters
  MON_genepil_khan:0 "Genepil"
  MON_anandyn_amar:0 "Anandyn Amar"
- MON_demchugdongrub:0 "Demchugdongrub Khan"
+ MON_demchugdongrub:0 "Demchugdongrub"
  MON_anarchist_council:0 "Anarchist Council"
  MON_khorloogiin_choibalsan:0 "Khorloogiin Choibalsan"
  MON_mingzhu_zhanshan:0 "Mingzhu Zhanshan"
@@ -71,10 +83,10 @@
  MON_WAR_autocracy_DEF:0 "the Royal Government of Mongolia"
 
  #Bookmarks
- MON_GATHERING_STORM_DESC:0 "The Great Mongolian State existed under the rule of Bogd Khan until 1919 when China decided to send their troops to yet again deprive Mongolian nation of their freedom. In 1920, Khan and wife Tsendiin Dondogdulam were assassinated by a group of Tuvan-Mongol collaborators. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continued until 1936 when Mongols ultimately managed to push hostile forces away from their land. Torn apart after years of devastating conflict, Mongolia and its people have to not only rebuild their nation, but also again find their place in the world."
+ MON_GATHERING_STORM_DESC:0 "The Mongolian State existed under the rule of Bogd Khan until 1919 when Anhui Clique decided to send their troops to yet again deprive Mongolian nation of their freedom. In 1920, Khan and his wife Tsendiin Dondogdulam were assassinated by a group of Tuvan-Mongol collaborators. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continued until 1936 when Mongols ultimately managed to push hostile forces away from their land. Torn apart after years of devastating conflict, Mongolia and its people have to not only rebuild their nation, but also again find their place in the world."
 
  #Tooltips
- genepil_tt:0 "Genepil receives the title of 'Khan'"
+ genepil_tt:0 "§2Genepil§! receives the title of §YKhan§!"
 
  #Characters
  MON_genepil_khan:0 "Genepil"

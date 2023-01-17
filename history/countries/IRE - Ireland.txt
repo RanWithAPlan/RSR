@@ -97,9 +97,9 @@ set_popularities = {
 	progressive_liberalism = 0
 	freemarket_liberalism = 37
 	conservative_democracy = 51
+	authoritarian_democracy = 0
 	autocracy = 0
-	despotism = 0
-	national_extremism = 1
+	ultra_reactionary = 1
 }
 
 1939.1.1 = {

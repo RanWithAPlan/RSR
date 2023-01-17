@@ -1,0 +1,24 @@
+state={
+	id=922
+	name="STATE_922"
+	
+	history={
+		owner = TAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			7843 1 
+		}
+		add_core_of = MON
+	}
+	
+	provinces={
+		7843 12695 
+	}
+	manpower=15170
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

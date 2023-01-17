@@ -1,0 +1,25 @@
+state={
+	id=924
+	name="STATE_924"
+	
+	history={
+		owner = ACD
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			10647 1 
+		}
+		add_core_of = MON
+		add_core_of = ACD
+	}
+	
+	provinces={
+		4873 10578 10647 12629 
+	}
+	manpower=20840
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

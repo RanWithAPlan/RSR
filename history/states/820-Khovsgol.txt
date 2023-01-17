@@ -1,25 +1,25 @@
 state={
 	id=820
 	name="STATE_820"
-	provinces={
-		1689 1791 1834 4882 7676 7717 12579 12649 
-	}
-
+	
 	history={
 		owner = MON
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		victory_points = {
-			1791 1 #Darkhan
-		}
-		victory_points = {
-			1834 1 #Erdenet
+			12649 1 
 		}
 		add_core_of = MON
 	}
-	manpower=88200
+
+	provinces={
+		1689 4882 12579 12649 
+	}
+	manpower=73280
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 	local_supplies=0.000
 }

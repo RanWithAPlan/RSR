@@ -329,21 +329,23 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = authoritarian_democracy
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	council_communism = 10
-	anarchism = 8
-	radical_socialism = 2
-	social_democracy = 25
-	progressive_liberalism = 15
-	freemarket_liberalism = 13
-	conservative_democracy = 22
-	national_extremism = 2
-	despotism = 3
+	council_communism = 6
+	authoritarian_socialism = 3
+	anarchism = 6
+	radical_socialism = 5
+	social_democracy = 10
+	progressive_liberalism = 9
+	freemarket_liberalism = 9
+	conservative_democracy = 9
+	authoritarian_democracy = 33
+	ultra_reactionary = 5
+	national_syndicalism = 5
 
 }
 

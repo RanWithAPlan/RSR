@@ -15,21 +15,20 @@ if = {
 	}
 }
 
+set_cosmetic_tag = EGY_UK
+
 set_convoys = 20
 
 recruit_character = EGY_acd2
-recruit_character = EGY_fascist_guy
 recruit_character = EGY_ncs
 recruit_character = EGY_nccr
 recruit_character = EGY_aco2
-recruit_character = EGY_communist_guy
 recruit_character = EGY_ai2
 recruit_character = EGY_ar
 recruit_character = EGY_coi
 recruit_character = EGY_acas
 recruit_character = EGY_acgs
 recruit_character = EGY_aa2
-recruit_character = EGY_democratic_guy
 recruit_character = EGY_acr
 recruit_character = EGY_stc
 recruit_character = EGY_awt
@@ -39,20 +38,17 @@ recruit_character = EGY_ncm
 recruit_character = EGY_nt
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = authoritarian_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 15
-	council_communism = 5
-	radical_socialism = 10
-	social_democracy = 3
-	freemarket_liberalism = 1
-	progressive_liberalism = 1
-	conservative_democracy = 5
-	despotism = 20
-	autocracy = 30
-	national_extremism = 10
+	anarchism = 20
+	authoritarian_socialism = 3
+	radical_socialism = 10 
+	conservative_democracy = 2
+	authoritarian_democracy = 5
+	autocracy = 40
+	ultra_reactionary = 20
 }

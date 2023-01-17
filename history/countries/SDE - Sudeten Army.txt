@@ -72,7 +72,7 @@ if = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = national_extremism
+	ruling_party = ultra_reactionary
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
@@ -81,8 +81,8 @@ set_popularities = {
 	council_communism = 10
 	progressive_liberalism = 10
 	conservative_democracy = 10
-	despotism = 20
-	national_extremism = 50
+	autocracy = 20
+	ultra_reactionary = 50
 	}
 	
 }

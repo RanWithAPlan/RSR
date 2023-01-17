@@ -1,16 +1,5 @@
 ﻿l_english:
- 
- ### THING TO COPY FROM ###
- XXX_anarchism_party:0 "--"
- XXX_radical_socialism_party:0 "--"
- XXX_council_communism_party:0 "--"
- XXX_social_democracy_party:0 "--"
- XXX_progressive_liberalism_party:0 "--"
- XXX_freemarket_liberalism_party:0 "--"
- XXX_conservative_democracy_party:0 "--"
- XXX_Radical_democracy_party:0 "--"
- XXX_despotism_party:0 "--"
- XXX_national_extremism_party:0 "--"
+
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Stateless"
@@ -34,12 +23,12 @@
  council_communism_subtype:0 "Council Communism"
  
  social_democracy:0 "Social Democracy"
- social_democracy_desc:0 "Democratic Capitalist"
+ social_democracy_desc:0 "Social Democracy"
  
  social_democracy_subtype:0 "Social Democracy"
  
  progressive_liberalism:0 "Progressive Liberalism"
- progressive_liberalism_desc:0 "Democratic Capitalist"
+ progressive_liberalism_desc:0 "Progressive Democracy"
  
  progressive_liberalism_subtype:0 "Progressive Liberalism"
  
@@ -49,33 +38,35 @@
  freemarket_liberalism_subtype:0 "Freemarket Liberalism"
  
  conservative_democracy:0 "Conservative Democracy"
- conservative_democracy_desc:0 "Democratic Capitalist"
+ conservative_democracy_desc:0 "Conservative Democracy"
  
  conservative_democracy_subtype:0 "Conservative Democracy"
  
- autocracy:0 "Authoritarian Democracy"
- autocracy_desc:0 "Reactionary"
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Democratic"
  
- autocracy_subtype:0 "Authoritarian Democracy"
+ authoritarian_democracy_subtype:0 "Authoritarian Democracy"
  
- despotism:0 "Despotism"
- despotism_desc:0 "Reactionary"
+ autocracy:0 "Autocracy"
+ autocracy_desc:0 "Authoritarian"
  
- despotism_subtype:0 "Despotism"
+ autocracy_subtype:0 "Autocracy"
 
  national_syndicalism:0 "National Syndicalism"
  national_syndicalism_desc:0 "Reactionairy"
 
  national_syndicalism_subtype:0 "National Syndicalism"
  
- national_extremism:0 "Reactionairy"
- national_extremism_desc:0 "Reactionary"
- national_extremism_noun:0 "Reactionairy
+ ultra_reactionary:0 "Ultra-Reactionary"
+ ultra_reactionary_desc:0 "Ultra-Reactionary"
+ ultra_reactionary_noun:0 "Reactionary"
  
- national_extremism_subtype:0 "Reactionairy"
+ ultra_reactionary_subtype:0 ""Ultra-Reactionary""
  subtype_national_federalism:0 "National Federalism"
  subtype_ultranationalism:0 "Ultranationalism"
+ onr_falanga_party:0 "Ultra-Reactionary"
+ onr_falanga_party_desc:0 "§8The Ruch Narodowo Radykalny§!\nFormed in the wake of the failed May Coup the ONR or National Radical Camp quickly accended to power after Piłsudski failed coup. With promises of acting as a nationalist vanguard to both protect Poland from its socialist enemies, but also from its internal enemies public support for the ONR soared, and quickly became a part of the mainstream Polish nationalist movement. This quickly caught the eye of Polish leader and nationalist Roman Dmowkski who seeing the ONR's potential invited them to the first National Congress of Poland. At this congress which established the National Congress as a counter weight to Dmowkski the ONR joined the congress' so called 'National Coalition' which acted as a union of all nationalist parties in Poland. Although starting as simply another member of the coalition and sending delagates to the congress, their power quickly spread until in 1934 when the ONR member Bolesław Piasecki won the position of 'Speaker of The National Congress'. From there the ONR's power skyrocketed and by 1936 it has become the defacto politcal party of Poland.\n\n§8The Ruch Narodowo Radykalny-Falanga§!\nThe ONR-Falanaga is the Falangist branch of the ONR which although being led by Bolesław Piasecki acts as more of a bridge between the ever increasingly Falangist ideas of Dmowkski, and the ONR. The Falanaga is the largest subsection of the ONR, but just because of its size and connections with Dmowksi it still isn't immune to plotters and backstabers, some of whom might hold the highest positions of power."
  
- national_extremism_drift:0 "Reactionairy Drift"
+ ultra_reactionary_drift:0 "Reactionary Drift"
  
  

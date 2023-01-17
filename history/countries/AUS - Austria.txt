@@ -59,7 +59,7 @@ give_guarantee = ITA
 add_to_tech_sharing_group = rome_research_group
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = authoritarian_democracy
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -72,9 +72,9 @@ set_politics = {
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
 	conservative_democracy = 0
-	autocracy = 40
-	despotism = 25
-	national_extremism = 25
+	authoritarian_democracy = 40
+	autocracy = 25
+	ultra_reactionary = 25
 }
 
 set_stability = 0.50

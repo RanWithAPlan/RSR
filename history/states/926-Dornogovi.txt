@@ -1,0 +1,24 @@
+state={
+	id=926
+	name="STATE_926"
+	
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12612 1
+		}
+		add_core_of = MON
+	}
+	
+	provinces={
+		1723 1787 4655 4856 10575 12612 
+	}
+	manpower=2220
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

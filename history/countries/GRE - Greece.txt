@@ -313,7 +313,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = authoritarian_democracy
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
@@ -326,9 +326,9 @@ set_popularities = {
 	progressive_liberalism = 1
 	freemarket_liberalism = 38
 	conservative_democracy = 23
-	autocracy = 21
-	despotism = 4
-	national_extremism = 0
+	authoritarian_democracy = 21
+	autocracy = 4
+	ultra_reactionary = 0
 }
 
 set_stability = 0.72
