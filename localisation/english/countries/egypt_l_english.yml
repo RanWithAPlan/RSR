@@ -29,6 +29,8 @@
  EGY:0 "Egypt"
  EGY_DEF:0 "Egypt"
  EGY_ADJ:0 "Egyptian"
+ EGY_subject:0 "$OVERLORDADJ$ $EGY$"
+ EGY_subject_DEF:0 "$OVERLORDADJ$ $EGY$"
  
  #Parties
  EGY_anarchism_party:0 "Egypt"
