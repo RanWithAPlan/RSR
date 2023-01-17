@@ -1,0 +1,16 @@
+characters = {
+
+	EGY_MTNP = {
+	name = "Mohamed Tawfik Naseem Pasha"
+	portraits = {
+			civilian = {
+				large = GFX_portrait_Muhammad_Naguib
+			}
+		}
+	country_leader = {
+			ideology = british_colonial_government
+			expire = "1950.1.1.1"
+			traits = { cabinet_crisis }
+		}
+	}
+}

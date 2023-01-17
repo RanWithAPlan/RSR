@@ -1,41 +1,20 @@
 ﻿capital = 907
 
+set_oob = "EGY_1936"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	camelry = 1
+	tech_recon = 1
+	tech_support = 1
 }
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
+
+recruit_character = EGY_MTNP
 
 set_cosmetic_tag = EGY_UK
 
 set_convoys = 20
-
-recruit_character = EGY_acd2
-recruit_character = EGY_ncs
-recruit_character = EGY_nccr
-recruit_character = EGY_aco2
-recruit_character = EGY_ai2
-recruit_character = EGY_ar
-recruit_character = EGY_coi
-recruit_character = EGY_acas
-recruit_character = EGY_acgs
-recruit_character = EGY_aa2
-recruit_character = EGY_acr
-recruit_character = EGY_stc
-recruit_character = EGY_awt
-recruit_character = EGY_pot
-recruit_character = EGY_mt
-recruit_character = EGY_ncm
-recruit_character = EGY_nt
 
 set_politics = {
 	ruling_party = authoritarian_democracy

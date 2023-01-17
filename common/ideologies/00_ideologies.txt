@@ -348,6 +348,7 @@ ideologies = {
 	
 		types = { 
 			authoritarian_democracy_subtype = {}
+			british_colonial_government = {}
 		}
 		
 		dynamic_faction_names = {
