@@ -1,7 +1,10 @@
 ideas = {
 	country = { 
-		rome_pact_member = { #Italy, Austria, and Hungary at game start
+		
+		ROM_all_for_the_captain = { 
 			
+			picture = rom_preserve_greater_romania
+
 			removal_cost = -1
 			
 			allowed = {
@@ -13,7 +16,8 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_factor = 0.05
+				war_support_factor = 0.2
+				industrial_capacity_factory = 0.1
 			}
 		}
 	}

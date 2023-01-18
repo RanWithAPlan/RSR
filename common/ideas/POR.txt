@@ -1,8 +1,10 @@
 ideas = {
 	country = { 
 		
-		ANH_anfu_club = { #Political wing of the clique
+		POR_a_pillar_of_salt = { 
 			
+			picture = por_estado_novo
+
 			removal_cost = -1
 			
 			allowed = {
@@ -14,7 +16,8 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_factor = 0.1
+				stability_factor = -0.15
+				political_power_gain = 0.1
 			}
 		}
 	}
