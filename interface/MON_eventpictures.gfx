@@ -1,7 +1,0 @@
-spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_MON_endofwar"
-		texturefile = "gfx/events/MON/MON_endofwar.dds"
-	}
-}
