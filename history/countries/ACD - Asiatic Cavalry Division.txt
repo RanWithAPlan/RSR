@@ -48,6 +48,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-
-    autocracy = 100
+	anarchism = 0
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+    autocracy = 60
+    national_syndicalism = 0
+    ultra_reactionary = 40
 }
