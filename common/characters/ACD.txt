@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=despotism_subtype
+			ideology= ultra_reactionary_subtype
 			traits = {
 				spirit_of_kangchenjunga
 			}

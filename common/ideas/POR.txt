@@ -1,0 +1,24 @@
+ideas = {
+	country = { 
+		
+		POR_a_pillar_of_salt = { 
+			
+			picture = por_estado_novo
+
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = 0.1
+			}
+		}
+	}
+}

@@ -33,12 +33,6 @@ recruit_character = GXC_lei_zhong
 set_convoys = 5
 
 add_ideas = GXC_the_new_clique
-add_ideas = GXC_war_for_guangxi
-
-declare_war_on = {
-	target = GND
-	type = annex_everything
-}
 
 set_politics = {
 	ruling_party = neutrality

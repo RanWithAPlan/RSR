@@ -371,9 +371,8 @@ set_popularities = {
 	progressive_liberalism = 5
 	freemarket_liberalism = 27
 	conservative_democracy = 21
-	autocracy = 15
-	despotism = 0
-	national_extremism = 2
+	authoritarian_democracy = 15
+	ultra_reactionary = 2
 	}
 }
 

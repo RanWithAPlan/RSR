@@ -31,15 +31,15 @@ news_event = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = autocracy
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 14
-	national_extremism = 16
-	autocracy = 12
+	autocracy = 14
+	ultra_reactionary = 16
+	authoritarian_democracy = 12
 	conservative_democracy = 6
 	freemarket_liberalism = 3
 	progressive_liberalism = 12

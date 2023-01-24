@@ -431,8 +431,6 @@ set_politics = {
 	authoritarian_socialism = 10
 	social_democracy = 3
 	conservative_democracy = 2
-	autocracy = 0
-	despotism = 0
 	national_syndicalism = 20
 	}
 

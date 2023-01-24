@@ -57,43 +57,7 @@ if = {
 	}
 }
 
-if = {
-	limit = { has_dlc = "La Resistance" }	
-	add_ideas = POR_unreliable_army
-	add_ideas = POR_unstable_republic
-	set_stability = 0.60
-	set_war_support = 0.15	
-	set_research_slots = 2
-
-	ENG = {
-		add_opinion_modifier = {
-			target = POR 
-			modifier  = POR_anglo_portuguese_alliance
-		}
-	}
-
-	POR = {
-		add_opinion_modifier = {
-			target = ENG 
-			modifier  = POR_anglo_portuguese_alliance
-		}
-	}
-
-	GER = {
-		add_opinion_modifier = {
-			target = POR
-			modifier = fascism_leanings_good
-		}
-	}
-
-	ITA = {
-		add_opinion_modifier = {
-			target = POR
-			modifier = fascism_leanings_good
-		}
-	}
-	
-}
+add_ideas = POR_a_pillar_of_salt
 
 
 1939.1.1 = {
@@ -200,14 +164,14 @@ if = {
 
 set_convoys = 50
 set_politics = {
-	ruling_party = national_extremism
+	ruling_party = ultra_reactionary
 	last_election = "1938.10.30"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_extremism = 35
-	despotism = 25
+	ultra_reactionary = 35
+	autocracy= 25
 	conservative_democracy = 10
 	freemarket_liberalism = 5
 	social_democracy = 5
@@ -218,14 +182,14 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = national_extremism
+		ruling_party = ultra_reactionary
 		last_election = "1938.10.30"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		national_extremism = 35
-		despotism = 25
+		ultra_reactionary = 35
+		autocracy = 25
 		conservative_democracy = 10
 		freemarket_liberalism = 5
 		social_democracy = 5

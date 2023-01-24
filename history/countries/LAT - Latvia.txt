@@ -176,7 +176,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = autocracy
 	last_election = "1931.10.3"
 	election_frequency = 10
 	elections_allowed = no
@@ -185,10 +185,10 @@ set_popularities = {
 	conservative_democracy = 10
 	freemarket_liberalism = 10
 	social_democracy = 10
-	national_extremism = 15
+	ultra_reactionary = 15
 	council_communism = 15
 	authoritarian_socialism = 10
-	despotism = 30
+	autocracy = 30
 }
 
 # probably needs some adjustment before nazi occupation in 1940

@@ -66,9 +66,8 @@ if = {
 	progressive_liberalism = 3
 	freemarket_liberalism = 3
 	conservative_democracy = 36
-	autocracy = 1
-	despotism = 0
-	national_extremism = 10
+	authoritarian_democracy = 1
+	ultra_reactionary = 10
 	}
 }
 
@@ -106,8 +105,8 @@ if = {
 	freemarket_liberalism = 3
 	conservative_democracy = 36
 	autocracy = 1
-	despotism = 0
-	national_extremism = 10
+	autocracy = 0
+	ultra_reactionary = 10
 	}
 	create_dynamic_country = {
 	    original_tag = SPR
@@ -363,8 +362,8 @@ set_stability = 0.5
 	freemarket_liberalism = 3
 	conservative_democracy = 36
 	autocracy = 1
-	despotism = 0
-	national_extremism = 10
+	autocracy = 0
+	ultra_reactionary = 10
 		}
 	}
 
@@ -430,8 +429,8 @@ set_stability = 0.5
 	freemarket_liberalism = 3
 	conservative_democracy = 36
 	autocracy = 1
-	despotism = 0
-	national_extremism = 10
+	autocracy = 0
+	ultra_reactionary = 10
 		}
 	}
 	
