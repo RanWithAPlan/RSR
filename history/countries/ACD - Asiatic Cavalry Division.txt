@@ -1,10 +1,15 @@
-﻿capital = 611
+﻿capital = 819
 
+#Order of Battle
+#Army
 oob = "ACD_1936"
 
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 }
+
+#Characters
 #Roman's Army
 recruit_character = ACD_roman_von_ungern_sternberg
 recruit_character = ACD_alexander_kaigorondov
@@ -30,6 +35,16 @@ recruit_character = ACD_mikhail_khanzhin
 recruit_character = ACD_nikolai_kolomeitsev
 recruit_character = ACD_nikolai_skoblin
 
+#Ideas
+add_ideas = {
+
+}
+
+#Miscellaneous 
+set_stability = 0.35
+set_war_support = 0.70
+set_research_slots = 2
+
 if = {
 	limit = {
 		has_start_date < 1936.01.02
@@ -41,6 +56,7 @@ if = {
 	}
 }
 
+#Politics
 set_politics = {
 	ruling_party = autocracy
 	last_election = "1936.1.1"
@@ -57,7 +73,7 @@ set_popularities = {
 	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
-    autocracy = 60
+    autocracy = 40
     national_syndicalism = 0
-    ultra_reactionary = 40
+    ultra_reactionary = 60
 }
