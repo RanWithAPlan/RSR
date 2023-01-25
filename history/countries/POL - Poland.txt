@@ -1,13 +1,45 @@
 ﻿capital = 10
 
+#Order of Battle
+#Army
 oob = "POL_1936"
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+	else = {
+		set_technology = {
+			gwtank = 1
+		}
+	}
+}
+
+#Navy
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "POL_1936_naval_mtg"
+		set_technology = {
+			basic_naval_mines = 1
+			submarine_mine_laying = 1
+			early_ship_hull_light = 1
+			early_ship_hull_submarine = 1
+			basic_ship_hull_submarine = 1
+			basic_battery = 1
+			basic_torpedo = 1
+			basic_depth_charges = 1
+		}
+		
 	else = {
 		set_naval_oob = "POL_1936_naval_legacy"
+		set_technology = {
+			early_destroyer = 1
+			early_submarine = 1	
+		}
 	}
 }
+
+#Air
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "POL_1936_air_bba"
@@ -31,7 +63,7 @@ if = {
 
 set_research_slots = 3
 
-# Starting tech
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -47,159 +79,54 @@ set_technology = {
 	basic_train = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-	}
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_destroyer = 1
-		early_submarine = 1	
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-	}
+#Characters
+recruit_character = POL_roman_dmowski
+
+#Ideas
+add_ideas = {
+	POL_divided_government
+	POL_resisting_the_red_tide
+	POL_surrounded_by_enemies
+	POL_fierce_nationalism
 }
 
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 15
+set_research_slots = 3
+country_event = {
+	id = natpoland.1
+	days = 160
+}
 
-
-set_convoys = 0
-
+#Politics
 set_politics = {
 	ruling_party = ultra_reactionary
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
+
+#Popularities
 set_popularities = {
-	conservative_democracy = 4
-	autocracy = 6
-	authoritarian_democracy = 14
-	ultra_reactionary = 18
-	national_syndicalism = 14
-	freemarket_liberalism = 6
-	social_democracy = 18
-	council_communism = 11
-	radical_socialism = 6
 	anarchism = 2
+	council_communism = 11
 	authoritarian_socialism = 1
+	radical_socialism = 6
+	social_democracy = 18
+	progressive_liberalism = 0
+	freemarket_liberalism = 6
+	conservative_democracy = 4
+	authoritarian_democracy = 14
+	autocracy = 0
+  	national_syndicalism = 0
+  	ultra_reactionary = 18
 }
 
-recruit_character = POL_roman_dmowski
-	
-country_event = {
-	id = natpoland.1
-	days = 160
-}
-
-add_ideas = {
-POL_divided_government
-POL_resisting_the_red_tide
-POL_surrounded_by_enemies
-POL_fierce_nationalism
-}
-
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_operative_leader = {
-		name = "Roman Czerniawski"
-		GFX = GFX_portrait_roman_czerniawski
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { POL }
-	}
-
-	create_operative_leader = {
-		name = "Krystyna Skarbek"
-		GFX = GFX_portrait_krystyna_skarbek
-		traits = { operative_commando operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { POL }
-	}
-}
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "By Blood Alone"
-		}
-	}
-	create_equipment_variant = {
-		name = "PZL P.24"
-		type = fighter_equipment_0
-		upgrades = {
-			plane_gun_upgrade = 3
-			plane_range_upgrade = 0  
-			plane_engine_upgrade = 1
-			plane_reliability_upgrade = 3
-		}
-	}
-}
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	create_equipment_variant = {
-		name = "PZL P.11"
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "PZL P.24"
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = aircraft_cannon_1_2x
-			fixed_auxiliary_weapon_slot_1 = light_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "PZL P.23"
-		type = small_plane_cas_airframe_1
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = lmg_defense_turret
-		}
-	}
-}
-
-### VARIANTS ###
-# 1936 Start #
+#Variants
+#Army
+#NSB
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -258,16 +185,10 @@ if = {
 		}
 		icon = "GFX_POL_imp_light_tank"
 	}
-#	add_equipment_to_stockpile = {
-#		type = light_tank_chassis_0
-#		amount = 550
-#		variant_name = "TKS"
-#	}
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-}
+
+#Navy
+#MTG
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
@@ -301,5 +222,58 @@ if = {
 	}
 }
 
+#Air
+#No BBA
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	create_equipment_variant = {
+		name = "PZL P.24"
+		type = fighter_equipment_0
+		upgrades = {
+			plane_gun_upgrade = 3
+			plane_range_upgrade = 0  
+			plane_engine_upgrade = 1
+			plane_reliability_upgrade = 3
+		}
+	}
+}
 
-
+#BBA
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "PZL P.11"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "PZL P.24"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_1_2x
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "PZL P.23"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+}

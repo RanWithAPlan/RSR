@@ -1,30 +1,27 @@
 ﻿capital = 546
 
-# Starting tech
+#Order of Battle
+#Army
+oob = "IAO_1936"
+
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 }
 
+#Characters
+
+#Ideas
+add_ideas = {
+}
+
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
 set_convoys = 20
+set_research_slots = 2
 
-recruit_character = IAO_acd2
-recruit_character = IAO_ncs
-recruit_character = IAO_nccr
-recruit_character = IAO_aco2
-recruit_character = IAO_ai2
-recruit_character = IAO_ar
-recruit_character = IAO_coi
-recruit_character = IAO_acas
-recruit_character = IAO_acgs
-recruit_character = IAO_aa2
-recruit_character = IAO_acr
-recruit_character = IAO_stc
-recruit_character = IAO_awt
-recruit_character = IAO_pot
-recruit_character = IAO_mt
-recruit_character = IAO_ncm
-recruit_character = IAO_nt
-
+#Politics
 set_politics = {
 	ruling_party = autocracy
 	last_election = "1936.1.1"
@@ -32,6 +29,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+#Popularities
 set_popularities = {
 	anarchism = 5
 	council_communism = 0
@@ -43,6 +41,6 @@ set_popularities = {
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 65
-	ultra_reactionary = 20
 	national_syndicalism = 5
+	ultra_reactionary = 20
 }

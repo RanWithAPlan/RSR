@@ -1,9 +1,8 @@
 ﻿capital = 784
+#Order of Battle
+#Because they don't start on the map, they do not need an oob
 
-oob = "LIC_1936"
-
-set_research_slots = 3
-
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -11,23 +10,38 @@ set_technology = {
 	tech_support = 1
 }
 
-set_convoys = 10
+#Characters
 
+#Ideas
+add_ideas = {
+}
+
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 10
+set_research_slots = 3
+
+#Politics
 set_politics = {
 	ruling_party = council_communism
 	last_election = "1932.5.8"
 	election_frequency = 4
 	elections_allowed = yes
 }
+
+#Popularities
 set_popularities = {
-	despotism = 7
-	national_extremism = 3
-	autocracy = 2
-	conservative_democracy = 8
-	freemarket_liberalism = 6
-	progressive_liberalism = 13
-	social_democracy = 14
-	council_communism = 27
-	radical_socialism = 15
 	anarchism = 5
+	council_communism = 27
+	authoritarian_socialism = 5
+	radical_socialism = 15
+	social_democracy = 14
+	progressive_liberalism = 13
+	freemarket_liberalism = 6
+	conservative_democracy = 8
+	authoritarian_democracy = 0
+	autocracy = 2
+  	national_syndicalism = 7
+  	ultra_reactionary = 0
 }

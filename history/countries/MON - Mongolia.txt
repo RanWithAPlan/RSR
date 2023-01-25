@@ -1,6 +1,7 @@
 ﻿capital = 330
 
 #Order of Battle
+
 oob = "MON_1936"
 
 #Army
@@ -34,6 +35,7 @@ add_ideas = {
 	war_economy
 }
 
+
 #Miscellaneous, put country_flags, upcoming events, and such here
 set_stability = 0.2
 set_war_support = 0.7
@@ -62,8 +64,8 @@ set_popularities = {
 	conservative_democracy = 4
 	authoritarian_democracy = 1
 	autocracy = 50
-	ultra_reactionary = 3
 	national_syndicalism = 0
+	ultra_reactionary = 3
 }
 
 #Variants

@@ -1,0 +1,7 @@
+spriteTypes = {
+	#Large
+	spriteType = {
+		name = "GFX_nestor_makhno_large"
+		texturefile = "gfx/leaders/UKR/portrait_UKR_Nestor_Makhno.png"
+	}
+}
