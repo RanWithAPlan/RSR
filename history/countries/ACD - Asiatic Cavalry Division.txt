@@ -1,9 +1,10 @@
-﻿capital = 611
+﻿capital = 563
 
 oob = "ACD_1936"
 
 set_technology = {
 	infantry_weapons = 1
+	tech_recon = 1
 }
 #Roman's Army
 recruit_character = ACD_roman_von_ungern_sternberg
