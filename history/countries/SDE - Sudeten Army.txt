@@ -1,40 +1,27 @@
 ﻿capital = 9
 
+#Order of Battle
+#Because they don't start on the map, they do not need an oob
+
+
 if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
 	}
-	set_oob = "CZE_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "CZE_1936_nsb"
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "CZE_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			engines_2 = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			early_bombs = 1
-		}
 	else = {
-		set_air_oob = "CZE_1936_air_legacy"
 		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			CAS1 = 1
+			gwtank = 1
+			basic_light_tank = 1
+			improved_light_tank = 1
 		}
 	}
 }
 
+
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -47,30 +34,19 @@ set_technology = {
 	basic_train = 1
 }
 
+#Characters
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
-	}
+#Ideas
+add_ideas = {
 }
 
+#Miscellaneous
+set_stability = 0.4
+set_war_support = 0.7
+set_convoys = 0
 set_research_slots = 3
 
+#Politics
 set_politics = {
 	ruling_party = ultra_reactionary
 	last_election = "1935.5.19"
@@ -78,27 +54,24 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
+	anarchism = 0
 	council_communism = 10
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
 	progressive_liberalism = 10
+	freemarket_liberalism = 0
 	conservative_democracy = 10
+	authoritarian_democracy = 0
 	autocracy = 20
-	ultra_reactionary = 50
+  	national_syndicalism = 0
+  	ultra_reactionary = 50
 	}
-	
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
-
+#Variants
+#Army
+#NSB
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -156,6 +129,8 @@ if = {
 	}
 }
 
+#Air
+#BBA
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
@@ -190,13 +165,3 @@ if = {
 	}
 
 }
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-

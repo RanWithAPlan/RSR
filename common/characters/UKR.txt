@@ -1,0 +1,15 @@
+characters={
+	UKR_nestor_mahkno = {
+		name = "Nestor Makhno"
+		portraits = {
+			civilian = {
+				large = "GFX_nestor_makhno_large"
+			}
+		}
+		country_leader = {
+			expire = "1935.3.1"
+			traits={ }
+			ideology = anarchism_subtype
+		}
+	}
+}
