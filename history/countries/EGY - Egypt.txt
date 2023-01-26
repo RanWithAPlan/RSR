@@ -17,9 +17,12 @@ set_technology = {
 
 #Characters
 #leaders
-#advisors
-#Ideas
 
+recruit_character = EGY_MTNP
+
+#advisors
+
+#Ideas
 add_ideas = {
 }
 
@@ -29,6 +32,7 @@ set_war_support = 0.5
 set_convoys = 20
 set_research_slots = 2
 set_cosmetic_tag = EGY_UK
+
 
 #Diplomacy, put puppets, wars, factions, and other such things here
 

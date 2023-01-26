@@ -162,8 +162,8 @@ set_popularities = {
 	autocracy = 0
   	national_syndicalism = 20
   	ultra_reactionary = 0
-}
-
+	}
+	
 #Variants
 #Army
 if = {

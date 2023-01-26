@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Shuebat Rikun Aljamal"
+
+	division_names_group = EGY_ARM_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 0 y = 1 }
+		camelry = { x = 0 y = 2 }
+		camelry = { x = 1 y = 0 }
+		camelry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Liwa' Mushaa"
+
+	division_names_group = EGY_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7011
+		division_template = "Liwa' Mushaa"
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 4076
+		division_template = "Liwa' Mushaa"
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 12049
+		division_template = "Liwa' Mushaa"
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4161
+		division_template = "Shuebat Rikun Aljamal"
+		start_experience_factor = 0.1
+	}
+
+division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9989
+		division_template = "Shuebat Rikun Aljamal"
+		start_experience_factor = 0.1
+	}
+
+
+
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "EGY"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "EGY" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+}

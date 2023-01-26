@@ -4,6 +4,21 @@
 #Army
 oob = "BUL_1936"
 #Air
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	freemarket_liberalism = 10
+	conservative_democracy = 5
+	ultra_reactionary = 30
+	autocracy = 50
+	authoritarian_socialism = 5
+}
+#TROOPS
+oob = "BUL_1936" #VANILLA & DLC
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BUL_1936_air_bba"

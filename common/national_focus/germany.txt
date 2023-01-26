@@ -489,6 +489,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = low_economic_mobilisation
+			set_temp_variable = {
+				GER_road_to_war_army_org_factor = 0.1
+			}
+			GER = {
+				add_dynamic_modifier = { 
+					modifier = GER_road_to_war_idea 
+				}
+			}
 		}
 	}
 	focus = {

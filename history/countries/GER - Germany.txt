@@ -202,6 +202,19 @@ recruit_character = GER_walther_seydlitz
 recruit_character = GER_gotthard_heinrici
 recruit_character = GER_albrecht_quirnheim
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Otto Skorzeny"
+		GFX = GFX_portrait_otto_skorenzy
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+	}
+
 #Variants
 #Army
 if = {

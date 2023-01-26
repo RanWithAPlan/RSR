@@ -91,6 +91,22 @@ set_popularities = {
 	autocracy = 0
   	national_syndicalism = 0
   	ultra_reactionary = 22
+	ultra_reactionary = 22
+	}
+	
+}
+
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	add_ideas = {
+		CZE_skoda_works
+		CZE_divided_nation
+}
+	give_guarantee = YUG
+	give_guarantee = ROM
+}
 
 #Variants
 #Army
