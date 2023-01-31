@@ -307,15 +307,15 @@ if = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = despotism
+	ruling_party = autocracy
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	despotism = 30
-	autocracy = 10
-	national_extremism = 10
+	autocracy = 30
+	authoritarian_democracy = 10
+	ultra_reactionary = 10
 	conservative_democracy = 10
 	freemarket_liberalism = 10
 	progressive_liberalism = 10

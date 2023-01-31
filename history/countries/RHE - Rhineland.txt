@@ -121,7 +121,7 @@ set_stability = 0.60
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = authoritarian_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -132,8 +132,8 @@ set_popularities = {
 	social_democracy = 8
 	freemarket_liberalism = 5
 	conservative_democracy = 10
-	autocracy = 14
-	national_extremism = 20
+	authoritarian_democracy = 14
+	ultra_reactionary = 20
 	national_syndicalism = 13
 }
 

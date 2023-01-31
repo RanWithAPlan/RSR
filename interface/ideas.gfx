@@ -32,13 +32,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_GER_dezentralisten_industry"
-		texturefile = "gfx/interface/ideas/GER/GER_dezentralisten_industry.png"
+		name = "GFX_idea_GER_KPD_industry"
+		texturefile = "gfx/interface/ideas/GER/GER_KPD_industry.png"
 	}
 
 	spriteType = {
-		name = "GFX_idea_GER_zentralisten_industry"
-		texturefile = "gfx/interface/ideas/GER/GER_zentralisten_industry.png"
+		name = "GFX_idea_GER_USPD_industry"
+		texturefile = "gfx/interface/ideas/GER/GER_USPD_industry.png"
 	}
 
 	#Poland

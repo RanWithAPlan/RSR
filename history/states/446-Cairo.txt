@@ -3,12 +3,14 @@ state={
 	id=446
 	name="STATE_446" # Suez
 	manpower = 131732
-	state_category = wasteland
+	state_category = town
 
 	history={
 		owner = EGY
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 3
 			
 			12049 = {
 				naval_base = 2

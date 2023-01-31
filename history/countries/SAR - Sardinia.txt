@@ -98,19 +98,19 @@ if = {
 set_convoys = 60
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = authoritarian_democracy
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	national_extremism = 10
+	ultra_reactionary = 10
 	national_syndicalism = 5
-	despotism = 5
+	autocracy= 5
 	council_communism = 10
 	anarchism = 7
 	radical_socialism = 3
-	autocracy = 40
+	authoritarian_democracy = 40
 	conservative_democracy = 10
 	progressive_liberalism = 10
 }
