@@ -99,6 +99,15 @@
  POL_the_catholic_solution:0 "The Falangist Solution"
  POL_ultranationalist_supremacy:0 "Ultranationalist Supremacy"
  POL_release_the_firing_squads:0 "Release The Firing Squads"
+ POL_the_father_is_dead:0 "The Father Is Dead"
+ POL_the_banker_takes_power:0 "The Banker Takes Power"
+ POL_begin_the_reforms:0 "Begin The Reforms"
+ POL_establish_the_purge_committee:0 "Establish The Purge Committee"
+ POL_the_tolerant_terror_state:0 "The Tolerant Terror State"
+ POL_catholic_totalitarianism:0 "Catholic Totalitarianism"
+ POL_the_banker_state:0 "The Banker State"
+ POL_a_home_for_the_conspiracy:0 "A Home For The Conspiracy"
+ polish_koc_focus:0 "The Next Stage of The Regime's Story"
  
  #Events
  natpoland.1.title:0 "The National Congress of 1936"
@@ -132,6 +141,7 @@
  POL_plot_thwarted:0 "Plot on Dmowski's Life Has Been Thwarted"
  POL_secret_police_establish_flag:0 "A Secret Police Force Has Been Established"
  POL_union_infiltration_started_flag:0 "Labor Unions Infiltrated"
+ POL_purge_completed:0 "Dmowski's Purge Has Been Carried Out"
 
  
  

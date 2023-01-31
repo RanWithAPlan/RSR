@@ -1,0 +1,322 @@
+focus_tree = {
+	id = polish_koc_focus
+	
+	default = no
+
+	
+	####Dmowski Dead of Natural Causes Path####
+	
+	focus = {
+		id = POL_the_father_is_dead
+		icon = GFX_
+		prerequisite = { focus =  }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 5
+		y = 0
+		relative_position_id = POL_release_the_firing_squads
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_the_banker_takes_power
+		icon = GFX_
+		prerequisite = { focus = POL_the_father_is_dead }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = POL_the_father_is_dead
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_begin_the_reforms
+		icon = GFX_
+		prerequisite = { focus = POL_the_banker_takes_power }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_the_banker_takes_power
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_establish_the_purge_committee
+		icon = GFX_
+		prerequisite = { focus = POL_the_banker_takes_power }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = POL_the_banker_takes_power
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_the_tolerant_terror_state
+		icon = GFX_
+		prerequisite = { focus = POL_begin_the_reforms }
+		prerequisite = { focus = POL_establish_the_purge_committee }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_establish_the_purge_committee
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_catholic_totalitarianism
+		icon = GFX_
+		prerequisite = { focus = POL_the_tolerant_terror_state }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_the_tolerant_terror_state
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_the_banker_state
+		icon = GFX_
+		prerequisite = { focus = POL_the_tolerant_terror_state }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = POL_the_tolerant_terror_state
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_a_home_for_the_conspiracy
+		icon = GFX_
+		prerequisite = { focus = POL_the_banker_state }
+		prerequisite = { focus = POL_catholic_totalitarianism }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_the_banker_state
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}
