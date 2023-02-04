@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "Pestininku Divizija"			# Infantry Division
-	division_names_group = LIT_INF_01
+	name = "Darbininkų Brigada"			# Worker Brigade
+	division_names_group = LIC_INF_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -10,22 +10,17 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 }
 
 division_template = {
 	name = "Artilerija Divizija"			# Artillery Division
-	division_names_group = LIT_INF_01
+	division_names_group = LIC_INF_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 		artillery_brigade = { x = 1 y = 0 }
-		artillery_brigade = { x = 1 y = 1 }
-		artillery_brigade = { x = 1 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
@@ -33,8 +28,8 @@ division_template = {
 }
 
 division_template = {
-	name = "Valstybės Sienos Apsaugos Skyrius"			# Border guard
-	division_names_group = LIT_INF_01
+	name = "Kavalerijos Brigada"			# Calvery Brigade
+	division_names_group = LIC_INF_01
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -56,8 +51,8 @@ units = {
 				name_order = 1
 		}
 		location = 11312
-		division_template = "Pestininku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -67,9 +62,9 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 6296
-		division_template = "Pestininku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		location = 9295
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -79,19 +74,29 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 6296
-		division_template = "Pestininku Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		location = 9274
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
 	}
 	
-	division = { # "District Kaunas"
-		name = "District Kaunas"
-		location = 327
-		division_template = "Valstybės Sienos Apsaugos Skyrius"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+	division = { # "Vilinus Defense Unit"
+		name = "Vilinus Defense Unit"
+		location = 3320
+		division_template = "Kavalerijos Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+
+	}
+	
+	division = { # "Vilinus Defense Unit"
+		name = "Vilinus Defense Unit"
+		location = 3320
+		division_template = "Kavalerijos Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -99,41 +104,50 @@ units = {
 	
 	division = { # "District Utenos"
 		name = "District Utenos"
-		location = 6281
-		division_template = "Valstybės Sienos Apsaugos Skyrius"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+		location = 9483
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
 	}
 	
-	division = { # "District Telsiu"
-		name = "District Telsiu"
-		location = 3320
-		division_template = "Valstybės Sienos Apsaugos Skyrius"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+	division = { # "IV. Divizija"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 6407
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.2
 
 	}
 	
-	division = { # "District Taurage"
-		name = "District Taurage"
-		location = 11342
-		division_template = "Valstybės Sienos Apsaugos Skyrius"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+	division = { # "V. Divizija"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 9274
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.2
 
 	}
 	
-	division = { # "District Klaipėda"
-		name = "District Klaipėda"
-		location = 9499
-		division_template = "Valstybės Sienos Apsaugos Skyrius"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
+	division = { # "VI. Divizija"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 3337
+		division_template = "Darbininkų Brigada"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "LIC" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
+		start_equipment_factor = 0.2
 
 	}
 

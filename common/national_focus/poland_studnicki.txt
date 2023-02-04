@@ -1,0 +1,401 @@
+focus_tree = {
+	id = polish_studnicki_focus
+	
+	default = no
+
+	
+	####Studnicki Assumes Power####
+	
+	focus = {
+		id = POL_the_second_father_in_power
+		icon = GFX_
+		prerequisite = { focus =  }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 5
+		y = 0
+		relative_position_id = POL_release_the_firing_squads
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_fix_the_mistakes
+		icon = GFX_
+		prerequisite = { focus = POL_the_second_father_in_power }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 2
+		y = 1
+		relative_position_id = POL_the_second_father_in_power
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_the_anti_socialist_crusade
+		icon = GFX_
+		prerequisite = { focus = POL_fix_the_mistakes }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_fix_the_mistakes
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_the_anti_judaic_crusade
+		icon = GFX_
+		prerequisite = { focus = POL_fix_the_mistakes }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = POL_fix_the_mistakes
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_nationalist_realism
+		icon = GFX_
+		prerequisite = { focus = POL_the_anti_judaic_crusade }
+		prerequisite = { focus = POL_the_anti_socialist_crusade }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_the_anti_judaic_crusade
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_a_new_kind_of_nationalism
+		icon = GFX_
+		prerequisite = { focus = POL_the_second_father_in_power }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -2
+		y = 1
+		relative_position_id = POL_the_second_father_in_power
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_remove_the_last_enemies_within
+		icon = GFX_
+		prerequisite = { focus = POL_a_new_kind_of_nationalism }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_a_new_kind_of_nationalism
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_lay_forth_the_plans
+		icon = GFX_
+		prerequisite = { focus = POL_a_new_kind_of_nationalism }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = POL_a_new_kind_of_nationalism
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_foreign_realpolitik_domestic_terror
+		icon = GFX_
+		prerequisite = { focus = POL_lay_forth_the_plans }
+		prerequisite = { focus = POL_remove_the_last_enemies_within }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = POL_lay_forth_the_plans
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_the_start_of_the_great_plan
+		icon = GFX_
+		prerequisite = { focus = POL_foreign_realpolitik_domestic_terror }
+		prerequisite = { focus = POL_nationalist_realism }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 2
+		y = 1
+		relative_position_id = POL_foreign_realpolitik_domestic_terror
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}

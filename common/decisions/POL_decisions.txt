@@ -630,4 +630,37 @@ POL_purge_preperation_caregory = {
 			}
 		}
 	}
+	
+	POL_begin_surveillance_on_anti_dmowskist_nationalists = {
+	
+		icon = ger_mefo_bills
+		
+		visible = {
+			has_country_flag = POL_secret_police_establish_flag
+			has_completed_focus = POL_names_and_addresses
+		}
+		
+		available = {
+			has_country_flag = POL_secret_police_establish_flag
+			has_completed_focus = POL_names_and_addresses
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 15
+		
+		cost = 15
+		
+		remove_effect = {
+			custom_effect_tooltip = POL_begin_surveillance_on_anti_dmowskist_nationalists_tt
+			hidden_effect = { 
+				add_stability = 0.02
+				}
+			add_to_variable = {
+				var = POL_preparing_for_purge_var
+				value = 3
+				tooltip = POL_preparing_for_purge_var_3_tt
+			}
+		}
+	}
 }

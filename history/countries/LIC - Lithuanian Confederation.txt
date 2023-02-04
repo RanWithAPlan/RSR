@@ -13,6 +13,8 @@ set_technology = {
 
 set_convoys = 10
 
+recruit_character = LIC_revolutionary_council
+
 set_politics = {
 	ruling_party = council_communism
 	last_election = "1932.5.8"
@@ -20,14 +22,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	despotism = 7
-	national_extremism = 3
-	autocracy = 2
+	autocracy = 7
+	ultra_reactionary = 3
+	national_syndicalism = 2
 	conservative_democracy = 8
 	freemarket_liberalism = 6
-	progressive_liberalism = 13
+	authoritarian_socialism = 13
 	social_democracy = 14
 	council_communism = 27
 	radical_socialism = 15
 	anarchism = 5
 }
+

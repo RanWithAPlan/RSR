@@ -461,6 +461,7 @@ focus_tree = {
 			}
 			set_country_flag = POL_purge_completed
 			load_focus_tree = polish_koc_focus
+			remove_ideas = POL_divided_government 
 		}
 	}
 	
