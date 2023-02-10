@@ -1,0 +1,16 @@
+characters = {
+	IAO_paul_von_lettow_vorbeck = {
+		name = IAO_paul_von_lettow_vorbeck
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IAO_paul_von_lettow_vorbeck_large
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { lion_of_africa }
+			ideology = military_junta
+		}
+	}
+}

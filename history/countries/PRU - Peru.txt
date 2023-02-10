@@ -1,6 +1,34 @@
 ﻿capital = 303
 
+#Order of Battle
+#Army
 oob = "PRU_1936"
+
+#Navy
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "PRU_1936_naval_mtg"
+		set_technology = {
+			basic_naval_mines = 1
+			early_ship_hull_light = 1
+			early_ship_hull_submarine = 1
+			early_ship_hull_cruiser = 1
+			basic_battery = 1
+			basic_torpedo = 1
+			basic_depth_charges = 1
+			coastal_defense_ships = 1
+		}
+	else = {
+		set_naval_oob = "PRU_1936_naval_legacy"
+		set_technology = {
+			early_submarine = 1
+			early_destroyer = 1
+			early_light_cruiser = 1
+		}
+	}
+}
+
+#Air
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PRU_1936_air_bba"
@@ -14,165 +42,53 @@ if = {
 		}
 	}
 }
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "PRU_1936_naval_mtg"
-	else = {
-		set_naval_oob = "PRU_1936_naval_legacy"
-	}
-}
 
-# Starting tech
+
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		coastal_defense_ships = 1
-	}
+
+#Characters
+
+#Ideas
+add_ideas = {
 }
 
-recruit_character = PRU_Óscar_benavides
-recruit_character = PRU_sebastián_lynch
-recruit_character = PRU_hilarión_lynch
-recruit_character = PRU_santiago_ruíztagle
-recruit_character = PRU_rafael_escardo
-recruit_character = PRU_alberto_lopez_flores
-recruit_character = PRU_oscar_gilardi
-recruit_character = PRU_felipe_tudela
-recruit_character = PRU_eduardo_cantabria_gomez
-recruit_character = PRU_ernesto_scroth
-recruit_character = PRU_luis_ramirez_ortiz
-recruit_character = PRU_oscar_benavides_larrea
-recruit_character = PRU_manuel_odria_amoretti
-recruit_character = PRU_luis_navarrete
-recruit_character = PRU_paul_de_beaudiez
-recruit_character = PRU_alberto_roque_saldias
-recruit_character = PRU_vladimiro_lopez_trigoso
-recruit_character = PRU_eloy_g_ureta
-recruit_character = PRU_fernando_m_quesada_blanco
-recruit_character = PRU_eduardo_montero_rojas
-recruit_character = PRU_romulo_frias
-recruit_character = PRU_oscar_miro_quesada
-recruit_character = PRU_jose_bustamante_y_rivero
-recruit_character = PRU_armando_reveredo_iglesias
-recruit_character = PRU_reynaldo_vinatea
-
-
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 5
+set_research_slots = 2
 set_country_flag = monroe_doctrine
 
-set_convoys = 5
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "PRU_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "PRU_1939_naval_mtg"
-		else = {
-			set_naval_oob = "PRU_1939_naval_legacy"
-		}
-	}
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "PRU_1939_air_bba"
-		else = {
-			set_air_oob = "PRU_1939_air_legacy"
-			set_technology = {
-				tactical_bomber1 = 1
-			}
-		}
-	}
-
-	set_technology = {
-		interwar_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
+#Politics
 set_politics = {
-	ruling_party = fascism
+	ruling_party = anarchism
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 49
-	fascism = 51
+	anarchism = 100
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+  	national_syndicalism = 0
+  	ultra_reactionary = 0
 }
 
-1939.1.1 = {
-	recruit_character = PRU_manuel_prado_ugarteche
-	promote_character = PRU_manuel_prado_ugarteche
-	retire_character = PRU_Óscar_benavides
-}
-
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-}
+#Variants
+#MTG
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #

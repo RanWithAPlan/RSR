@@ -1,10 +1,40 @@
 ﻿capital = 202 #Kiev
+#Order of Battle
+#Because they don't start on the map, they do not need an oob
 
-oob = "UKR_1936"
+#Army
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+	else = {
+		set_technology = {
+			gwtank = 1
+			basic_light_tank = 1
+		}
+	}
+}
 
-set_research_slots = 3
+#Air
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			BBA Air Techs
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			naval_bomber1 = 1
+		}
+	}
+}
 
-# Starting tech
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -20,68 +50,21 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-		fighter1 = 1
-		early_bomber = 1
-		strategic_bomber1 = 1
-		naval_bomber1 = 1
-	}
+
+#Characters
+recruit_character = UKR_nestor_mahkno
+
+#Ideas
+add_ideas = {
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-}
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		mtg_transport = 1
-		basic_battery = 1
-		basic_torpedo = 1
-	}
-}
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+set_research_slots = 3
 
+#Politics
 set_politics = {
 	ruling_party = anarchism
 	last_election = "1933.3.5"
@@ -89,34 +72,18 @@ set_politics = {
 	elections_allowed = no
 }
 
+#Popularities
 set_popularities = {
-	anarchism =  70
-	radical_socialism = 10
+	anarchism = 70
 	council_communism = 10
+	authoritarian_socialism = 0
+	radical_socialism = 10
 	social_democracy = 10
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+  	national_syndicalism = 0
+  	ultra_reactionary = 0
 }
-
-create_country_leader = {
-	name = "Nestor Mahkno"
-	desc = ""
-	picture = 
-	expire = "1953.3.1"
-	ideology = anarchism_subtype
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
-
-
-

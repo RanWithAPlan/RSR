@@ -1,41 +1,45 @@
 ﻿capital = 604
 
+#Order of Battle
+#Army
 oob = "XSM_1936"
 
-# Starting tech
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
 }
 
-recruit_character = XSM_ma_bufang
-recruit_character = XSM_ma_hongbin
-recruit_character = XSM_mao_sun
-recruit_character = XSM_hsia_sun
-recruit_character = XSM_hsia_jin
-recruit_character = XSM_au_yongrui
-recruit_character = XSM_ho_tengfei
-recruit_character = XSM_lian_zenguang
-recruit_character = XSM_chun_minsheng
-recruit_character = XSM_ma_donghai
-recruit_character = XSM_ma_hongkui
-recruit_character = XSM_wu_qi
-recruit_character = XSM_keng_gui
-recruit_character = XSM_may_chongan
-recruit_character = XSM_keng_shoushan
-recruit_character = XSM_ma_buqing
-recruit_character = XSM_li_shiqun
-recruit_character = XSM_fang_jing
-recruit_character = XSM_zi_shen
+#Characters
 
-add_ideas = XSM_the_three_horses
+#Ideas
+add_ideas = {
+	XSM_the_three_horses
+}
+
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+set_research_slots = 2
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	anarchism = 100
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+  	national_syndicalism = 0
+  	ultra_reactionary = 0
 }

@@ -157,9 +157,9 @@ set_war_support = 0.3
 
 #Trade
 create_import = {
-		resource = tungsten
+		resource = oil
 		factories = 1
-		exporter = SWE
+		exporter = SOV
 }
 
 set_politics = {
@@ -187,10 +187,15 @@ create_faction = fourth_international
 add_to_faction = GER	
 add_to_faction = ITA
 
+set_variable = { 
+	var = unity_number value = 40
+}
+	
 add_ideas = {
 	GER_tension_on_the_rhine_3
 	GER_bloated_military
 	GER_female_soldiers
+	GER_military_factionalism_idea
 }
 
 recruit_character = GER_executive_council_anarchism
@@ -199,17 +204,38 @@ recruit_character = GER_executive_council_radical_socialism
 recruit_character = GER_rudolf_rocker
 recruit_character = GER_erich_muhsam
 recruit_character = GER_hienrich_brandler
+#GENERALS#
+
+#rfb
+
 recruit_character = GER_albert_schreiner
+recruit_character = GER_hans_kahle
+recruit_character = GER_ernst_thalmann
+
+#kpd
+
 recruit_character = GER_hans_beimler
-recruit_character = GER_karl_artelt
 recruit_character = GER_ludwig_renn
 recruit_character = GER_max_hoelz
 recruit_character = GER_otto_braun
 recruit_character = GER_wilhelm_zaisser
+
+#faud
+
 recruit_character = GER_helmut_kirschey
 recruit_character = GER_ernst_schneider
-recruit_character = GER_margit_zinke
+recruit_character = GER_carl_einstein
 recruit_character = GER_adolf_anschutz
+
+#nva
+
+recruit_character = GER_vincenz_muller
+recruit_character = GER_walther_seydlitz
+recruit_character = GER_gotthard_heinrici
+recruit_character = GER_albrecht_quirnheim
+
+#NAVY#
+recruit_character = GER_karl_artelt
 
 if = {
 	limit = {

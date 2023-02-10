@@ -19,51 +19,12 @@ focus_tree = {
 	}
 	
 	default = no
-
-	focus = {
-		id = GER_council_elections
-		icon = GFX_GER_council_elections
-		cost = 2
-		x = 7
-		y = 0
-		ai_will_do = {
-			factor = 100
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		select_effect = {
-			country_event = {
-				id = socgermany.1
-				days = 1
-			}
-			country_event = {
-				id = socgermany.2
-				days = 4
-			}
-			country_event = {
-				id = socgermany.3
-				days = 7
-			}
-			country_event = {
-				id = socgermany.4
-				days = 10
-			}
-			country_event = {
-				id = socgermany.5
-				days = 13
-			}
-		}
-		completion_reward = {
-			add_political_power = 20
-		} 
-	}
 	focus = {
 		id = GER_industrial_retooling
 		icon = GFX_GER_industrial_retooling
 		cost = 2
-		prerequisite = { focus = GER_council_elections }
-		relative_position_id = GER_council_elections
-		x = -3
-		y = 1
+		x = 4
+		y = 0
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			country_event = {
@@ -95,7 +56,7 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			57 = {
+			51 = {
                 add_dynamic_modifier = {
                     modifier = GER_ruhr_industrial_heart
                 }
@@ -621,7 +582,50 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_devolve_power_to_sergeant }
 		mutually_exclusive = { focus = GER_centralise_authority_to_general }
 		completion_reward = {
-			add_ideas = GER_empowering_the_rifleman_idea
+			hidden_effect = {
+				set_variable = {
+					var = GER_road_to_war_attack_factor
+					value = 0.05
+				}
+				set_variable = {
+					var = GER_road_to_war_defence_factor 
+					value = 0.05
+				}
+				set_variable = {
+					var = GER_road_to_war_planning_speed_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_max_planning_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_army_org_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_efficiency_gain_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_max_efficiency_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_start_efficiency_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_war_support_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_stability_factor
+					value = 0.0
+				}
+				add_dynamic_modifier = { modifier = GER_road_to_war_idea }
+			}
+			custom_effect_tooltip = GER_road_to_war_idea_soldiers_tt
 		}
 	}
 	focus = {
@@ -635,7 +639,50 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_empowering_the_rifleman }
 		mutually_exclusive = { focus = GER_centralise_authority_to_general }
 		completion_reward = {
-			add_ideas = GER_devolve_power_to_sergeant_idea
+			hidden_effect = {
+				set_variable = {
+					var = GER_road_to_war_attack_factor
+					value = 0.00
+				}
+				set_variable = {
+					var = GER_road_to_war_defence_factor 
+					value = 0.00
+				}
+				set_variable = {
+					var = GER_road_to_war_planning_speed_factor
+					value = 0.15
+				}
+				set_variable = {
+					var = GER_road_to_war_max_planning_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_army_org_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_efficiency_gain_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_max_efficiency_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_start_efficiency_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_war_support_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_stability_factor
+					value = 0.0
+				}
+				add_dynamic_modifier = { modifier = GER_road_to_war_idea }
+			}
+			custom_effect_tooltip = GER_road_to_war_idea_sergeant_tt
 		}
 	}
 	focus = {
@@ -649,7 +696,50 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_empowering_the_rifleman }
 		mutually_exclusive = { focus = GER_devolve_power_to_sergeant }
 		completion_reward = {
-			add_ideas = GER_centralise_authority_to_general_idea
+			hidden_effect = {
+				set_variable = {
+					var = GER_road_to_war_attack_factor
+					value = 0.0	
+				}
+				set_variable = {
+					var = GER_road_to_war_defence_factor 
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_planning_speed_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_max_planning_factor
+					value = 0.15
+				}
+				set_variable = {
+					var = GER_road_to_war_army_org_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_efficiency_gain_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_max_efficiency_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_production_factory_start_efficiency_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_war_support_factor
+					value = 0.0
+				}
+				set_variable = {
+					var = GER_road_to_war_stability_factor
+					value = 0.0
+				}
+				add_dynamic_modifier = { modifier = GER_road_to_war_idea }
+			}
+			custom_effect_tooltip = GER_road_to_war_idea_generals_tt
 		}
 	}
 	focus = {
@@ -663,7 +753,11 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_local_production }
 		mutually_exclusive = { focus = GER_nationalise_munich_tank_plant }
 		completion_reward = {
-			add_ideas = GER_denationalise_military_industry_idea
+			add_to_variable = {
+				var = GER_road_to_war_production_factory_efficiency_gain_factor
+				value = 0.05
+			}
+			custom_effect_tooltip = GER_road_to_war_denationalise_tt
 		}
 	}
 	focus = {
@@ -677,7 +771,11 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_denationalise_military_industry }
 		mutually_exclusive = { focus = GER_nationalise_munich_tank_plant }
 		completion_reward = {
-			add_ideas = GER_local_production_idea
+			add_to_variable = {
+				var = GER_road_to_war_production_factory_start_efficiency_factor
+				value = 0.05
+			}
+			custom_effect_tooltip = GER_road_to_war_local_production_tt
 		}
 	}
 	focus = {
@@ -691,7 +789,11 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_local_production }
 		mutually_exclusive = { focus = GER_denationalise_military_industry }
 		completion_reward = {
-			add_ideas = GER_nationalise_munich_tank_plant_idea
+			add_to_variable = {
+				var = GER_road_to_war_production_factory_max_efficiency_factor
+				value = 0.05
+			}
+			custom_effect_tooltip = GER_road_to_war_nationalise_tt
 		}
 	}
 	focus = {
@@ -705,7 +807,11 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_focus_on_the_socialist_struggle }
 		mutually_exclusive = { focus = GER_espouse_libertarian_ideals }
 		completion_reward = {
-			add_ideas = GER_incorporate_nationalist_rhetoric_idea
+			add_to_variable = {
+				var = GER_road_to_war_war_support_factor
+				value = 0.1
+			}
+			custom_effect_tooltip = GER_road_to_war_nationalist_rhetoric_tt
 		}
 	}
 	focus = {
@@ -719,7 +825,15 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_incorporate_nationalist_rhetoric }
 		mutually_exclusive = { focus = GER_espouse_libertarian_ideals }
 		completion_reward = {
-			add_ideas = GER_focus_on_the_socialist_struggle_idea
+			add_to_variable = {
+				var = GER_road_to_war_war_support_factor
+				value = 0.05
+			}
+			add_to_variable = {
+				var = GER_road_to_war_stability_factor
+				value = 0.05
+			}
+			custom_effect_tooltip = GER_road_to_war_socialist_struggle_tt
 		}
 	}
 	focus = {
@@ -733,7 +847,11 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_incorporate_nationalist_rhetoric }
 		mutually_exclusive = { focus = GER_focus_on_the_socialist_struggle }
 		completion_reward = {
-			add_ideas = GER_espouse_libertarian_ideals_idea
+			add_to_variable = {
+				var = GER_road_to_war_stability_factor
+				value = 0.1
+			}
+			custom_effect_tooltip = GER_road_to_war_libertarian_ideals_tt
 		}
 	}
 	focus = {
@@ -1074,82 +1192,111 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_crossing_the_rhine
+		id = GER_military_factionalism
 		icon = g
 		cost = 5
-		x = 13
-		y = 5
+		x = 16
+		y = 6
 	}
 	focus = {
-		id = GER_around_maginot
+		id = GER_faud_military
 		icon = g
 		cost = 5
-		x = 0
+		relative_position_id = GER_military_factionalism
+		prerequisite = { focus = GER_military_factionalism }
+		x = -4
 		y = 1
-		relative_position_id = GER_crossing_the_rhine
-		prerequisite = { focus = GER_crossing_the_rhine }
+		mutually_exclusive = { focus = GER_kpd_military }
+		mutually_exclusive = { focus = GER_uspd_military }
+		mutually_exclusive = { focus = GER_rfb_military }
+		mutually_exclusive = { focus = GER_nva_military }
 	}
 	focus = {
-		id = GER_invade_the_benelux
+		id = GER_kpd_military
 		icon = g
 		cost = 5
+		relative_position_id = GER_military_factionalism
+		prerequisite = { focus = GER_military_factionalism }
+		mutually_exclusive = { focus = GER_faud_military }
+		mutually_exclusive = { focus = GER_uspd_military }
+		mutually_exclusive = { focus = GER_rfb_military }
+		mutually_exclusive = { focus = GER_nva_military }
 		x = -2
 		y = 1
-		relative_position_id = GER_around_maginot
-		prerequisite = { focus = GER_around_maginot }
 	}
 	focus = {
-		id = GER_integrate_luxemburg
+		id = GER_uspd_military
 		icon = g
 		cost = 5
-		x = 1
-		y = 1
-		relative_position_id = GER_invade_the_benelux
-		prerequisite = { focus = GER_invade_the_benelux }
-	}
-	focus = {
-		id = GER_integrate_eupen
-		icon = g
-		cost = 5
-		x = -1
-		y = 1
-		relative_position_id = GER_invade_the_benelux
-		prerequisite = { focus = GER_invade_the_benelux }
-	}
-	focus = {
-		id = GER_intregrate_alsace
-		icon = g
-		cost = 5
+		relative_position_id = GER_military_factionalism
+		prerequisite = { focus = GER_military_factionalism }
 		x = 0
 		y = 1
-		relative_position_id = GER_around_maginot
-		prerequisite = { focus = GER_around_maginot }
+		mutually_exclusive = { focus = GER_kpd_military }
+		mutually_exclusive = { focus = GER_faud_military }
+		mutually_exclusive = { focus = GER_rfb_military }
+		mutually_exclusive = { focus = GER_nva_military }
 	}
 	focus = {
-		id = GER_demand_schleswig
+		id = GER_rfb_military
 		icon = g
 		cost = 5
+		relative_position_id = GER_military_factionalism
+		prerequisite = { focus = GER_military_factionalism }
 		x = 2
 		y = 1
-		relative_position_id = GER_around_maginot
-		prerequisite = { focus = GER_around_maginot }
+		mutually_exclusive = { focus = GER_kpd_military }
+		mutually_exclusive = { focus = GER_uspd_military }
+		mutually_exclusive = { focus = GER_faud_military }
+		mutually_exclusive = { focus = GER_nva_military }
 	}
 	focus = {
-		id = GER_integrate_schleswig
+		id = GER_nva_military
 		icon = g
 		cost = 5
-		x = -1
+		relative_position_id = GER_military_factionalism
+		prerequisite = { focus = GER_military_factionalism }
+		x = 4
 		y = 1
-		relative_position_id = GER_demand_schleswig
-		prerequisite = { focus = GER_demand_schleswig }
+		mutually_exclusive = { focus = GER_kpd_military }
+		mutually_exclusive = { focus = GER_uspd_military }
+		mutually_exclusive = { focus = GER_rfb_military }
+		mutually_exclusive = { focus = GER_faud_military }
 	}
 	focus = {
-		id = GER_invade_scandanavia
+		id = GER_sway_manipulable_generals
 		icon = g
 		cost = 5
-		x = 1
+		x = 1.5
 		y = 1
-		relative_position_id = GER_demand_schleswig
-		prerequisite = { focus = GER_demand_schleswig }
+		relative_position_id = GER_faud_military
+		prerequisite = { focus = GER_faud_military focus = GER_kpd_military focus = GER_uspd_military focus = GER_nva_military focus = GER_rfb_military}
+	}
+	focus = {
+		id = GER_recruit_new_generals
+		icon = g
+		cost = 5
+		x = 1.5
+		y = 1
+		relative_position_id = GER_kpd_military
+		prerequisite = { focus = GER_faud_military focus = GER_kpd_military focus = GER_uspd_military focus = GER_nva_military focus = GER_rfb_military}
+	}
+	focus = {
+		id = GER_allocate_training
+		icon = g
+		cost = 5
+		x = 1.5
+		y = 1
+		relative_position_id = GER_uspd_military
+		prerequisite = { focus = GER_faud_military focus = GER_kpd_military focus = GER_uspd_military focus = GER_nva_military focus = GER_rfb_military}
+	}
+	focus = {
+		id = GER_retire_untrustworthy_generals
+		icon = g
+		cost = 5
+		x = 1.5
+		y = 1
+		relative_position_id = GER_rfb_military
+		prerequisite = { focus = GER_faud_military focus = GER_kpd_military focus = GER_uspd_military focus = GER_nva_military focus = GER_rfb_military}
 	}
 }

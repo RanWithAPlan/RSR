@@ -19,4 +19,8 @@ spriteTypes = {
    		name = GFX_trait_rfb_officer
     	texturefile = gfx/interface/RSR_traits/GER_RKB.png
 	}
+	spriteType = {
+   		name = GFX_trait_nva_officer
+    	texturefile = gfx/interface/RSR_traits/GER_NVA.png
+	}
 }

@@ -1,40 +1,26 @@
 ﻿capital = 9
 
+#Order of Battle
+#Because they don't start on the map, they do not need an oob
+
 if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
 	}
-	set_oob = "CZE_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "CZE_1936_nsb"
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "CZE_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			engines_2 = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			early_bombs = 1
-		}
 	else = {
-		set_air_oob = "CZE_1936_air_legacy"
 		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			CAS1 = 1
+			gwtank = 1
+			basic_light_tank = 1
+			improved_light_tank = 1
 		}
 	}
 }
 
+
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -46,65 +32,42 @@ set_technology = {
 	fuel_silos = 1
 	basic_train = 1
 }
-recruit_character = CZE_karl_albrecht
-recruit_character = CZE_edvard_benesh
-recruit_character = CZE_jaroslav_krejchi
-recruit_character = CZE_klement_gottwald
-recruit_character = CZE_vojtyech_luzha
-recruit_character = CZE_josef_shnejdarek
-recruit_character = CZE_richard_tesarzhik
-recruit_character = CZE_sergej_vojcechovsky
-recruit_character = CZE_frantishek_havlik
-recruit_character = CZE_rudolf_viest
-recruit_character = CZE_alois_vicherek
-recruit_character = CZE_antonin_hasal
-recruit_character = CZE_jaroslav_fajfr
-recruit_character = CZE_jan_golian
-recruit_character = CZE_karel_janousek
-recruit_character = CZE_josef_frantisek
-recruit_character = CZE_ludvik_krejci
-recruit_character = CZE_karel_vaclav_petrik
-recruit_character = CZE_karel_kuttelwascher
-recruit_character = CZE_ludvik_svoboda
-recruit_character = CZE_frantisek_havel
-recruit_character = CZE_stefan_osusky
-recruit_character = CZE_ferdinand_catlos
-recruit_character = CZE_jozef_tiso
-recruit_character = CZE_vojtech_tuka
-recruit_character = CZE_konrad_henlein
-recruit_character = CZE_gustav_husak
 
+#Characters
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
-	}
+#Ideas
+add_ideas = {
 }
 
+#Miscellaneous
+set_stability = 0.4
+set_war_support = 0.7
+set_convoys = 0
 set_research_slots = 3
 
+#Politics
 set_politics = {
 	ruling_party = council_communism
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
+
+#Popularities
 set_popularities = {
+	anarchism = 10
+	council_communism = 30
+	authoritarian_socialism = 10
+	radical_socialism = 0
+	social_democracy = 10
+	progressive_liberalism = 10
+	freemarket_liberalism = 10
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+  	national_syndicalism = 10 
+  	ultra_reactionary = 0
+
 	council_communism = 30
 	anarchism = 10
 	authoritarian_socialism = 10
@@ -116,19 +79,9 @@ set_popularities = {
 	}
 	
 }
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
-
+#Variants
+#Army
+#NSB
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -186,6 +139,8 @@ if = {
 	}
 }
 
+#Air
+#BBA
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
@@ -220,13 +175,3 @@ if = {
 	}
 
 }
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-

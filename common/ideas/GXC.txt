@@ -1,7 +1,7 @@
 ideas = {
 	country = { 
 		
-		GXC_the_new_clique = { #As opposed to the old GX Clique (GND)
+		GXC_the_new_clique = { #As opposed to the old GX Clique
 			
 			removal_cost = -1
 			
@@ -16,24 +16,6 @@ ideas = {
 			modifier = {
 				production_speed_infrastructure_factor = 0.15
 				war_support_factor = 0.05
-			}
-		}
-
-		GXC_war_for_guangxi = {
-			
-			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}
-			
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				war_support_factor = 0.1
-				army_defence_factor = 0.05
 			}
 		}
 	}

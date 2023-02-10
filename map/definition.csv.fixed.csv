@@ -13256,8 +13256,14 @@
 13255;243;229;190;land;true;plains;1
 13256;226;59;117;land;true;plains;1
 13257;54;44;186;land;true;plains;1
-13258;29;64;223;land;false;mountains;6
+13258;65;179;223;land;false;mountains;6
 13259;29;64;42;land;false;mountains;6
 13260;226;184;161;land;false;mountains;6
 13261;61;32;200;land;false;mountains;6
-13262;65;179;223;land;false;unknown;0
+13262;237;138;116;land;false;plains;1
+13263;53;44;230;land;false;marsh;1
+13264;121;235;218;land;false;plains;1
+13265;242;215;138;land;false;plains;1
+13266;1;242;180;land;false;forest;1
+13267;39;129;156;land;false;plains;1
+13268;243;74;166;unknown;false;unknown;0
