@@ -257,11 +257,6 @@ focus_tree = {
 		}
 
 		available = {
-			check_variable = {
-				var = POL_preparing_for_purge_var
-				value = 50
-				compare = greater_than_or_equals
-			}
 		}
 		
 		bypass = {
@@ -279,7 +274,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = POL_names_and_addresses_tt
+		
 		}
 	}
 	
@@ -433,11 +428,6 @@ focus_tree = {
 		}
 
 		available = {
-			check_variable = {
-				var = POL_preparing_for_purge_var
-				value = 50
-				compare = greater_than_or_equals
-			}
 		}
 		
 		bypass = {
@@ -455,10 +445,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			country_event = {
-			id = natpoland.7
-			days = 0
-			}
+		
 		}
 	}
 	

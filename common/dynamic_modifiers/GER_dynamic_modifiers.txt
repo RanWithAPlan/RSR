@@ -45,4 +45,5 @@ GER_road_to_war_idea = {
 	production_factory_max_efficiency_factor = GER_road_to_war_production_factory_max_efficiency_factor
 	production_factory_start_efficiency_factor = GER_road_to_war_production_factory_start_efficiency_factor
 	war_support_factor = GER_road_to_war_war_support_factor
+	stability_factor = GER_road_to_war_stability_factor
 }

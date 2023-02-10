@@ -1,5 +1,48 @@
 debug_decisions = {
+	recruit_neutral_generals_ger_debug = {
+		icon = generic_research
 
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+			tag = GER
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			recruit_character = GER_willy_riedel
+			recruit_character = GER_hermann_rentzsch
+			recruit_character = GER_heinz_hoffmann
+			recruit_character = GER_margit_zinke
+			recruit_character = GER_georg_boeselager
+		}
+	}
+	activate_council_mechanic_ger_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+			tag = GER
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = GER_executive_council_on
+		}
+	}
 	add_efficiency_growth_debug = {
 		icon = generic_research
 

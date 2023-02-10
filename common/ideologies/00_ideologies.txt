@@ -354,7 +354,7 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIAN_1"
 		}
 		
-		color = { 5 20 105 }
+		color = { 125 125 125 }
 		
 		war_impact_on_world_tension = 0.3
 		faction_impact_on_world_tension = 0.3
@@ -403,7 +403,7 @@ ideologies = {
 			"FACTION_NAME_AUTOCRACY_1"
 		}
 		
-		color = { 125 125 125 }
+		color = { 70 70 70 }
 		
 		war_impact_on_world_tension = 0.5
 		faction_impact_on_world_tension =  0.5
