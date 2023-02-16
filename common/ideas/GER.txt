@@ -3,7 +3,7 @@ ideas = {
 	
 		GER_thule_societies = {
 		
-		picture = GER_thule_society
+			picture = GER_thule_society
 			
 			removal_cost = -1
 			
