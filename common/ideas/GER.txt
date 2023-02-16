@@ -1,5 +1,25 @@
 ideas = {
-	country = { 
+	country = {
+	
+		GER_thule_societies = {
+		
+		picture = GER_thule_society
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.02
+				foreign_subversive_activites = 0.02
+			}
+		}
 		
 		GER_tension_on_the_rhine_3 = { #Most Severe
 			

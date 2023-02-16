@@ -1,0 +1,22 @@
+ l_english:
+ new_generic_focus:0 "National Focus"
+ 
+#####################################################################################IDEAS
+
+		economical_boost:0 "Economical Boost"
+		economical_boom:0 "Economical Boom"
+		empowered_party:0 "Empowered Party"
+		the_will_to_fight:0 "The Will to Fight"
+		political_superiority:0 "Political Superiority"
+		money_for_research:0 "Money for research"
+		highways_to_hell:0 "Highways to Hell"
+ 
+#####################################################################################START
+ 
+ generic_our_place_in_the_world:0 "Our Place in the World"
+ generic_our_place_in_the_world_desc:0 ""
+ 
+ #####################################################################################INDUSTRIAL EFFORT
+ 
+ generic_begin_industrial_buildup:0 "Begin Industrial Build-Up"
+ generic_begin_industrial_buildup_desc:0 "Focus all our political efforts on building up the civilian industry in a great leap forward."
