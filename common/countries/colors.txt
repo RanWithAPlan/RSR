@@ -166,7 +166,7 @@ GER = {
 }
 
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 60 100 140 }
 	color_ui = rgb { 121 235 255 }
 }
 
