@@ -1,9 +1,9 @@
 characters={
 	TIB_jamphel_gyaltsen = {
-		name = "Jamphel Yeshe Gyaltsen"
+		name = TIB_jamphel_gyaltsen
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/China/Portrait_TIB_Jamphel_Yeshe_Gyaltsen.dds"
+				large = GFX_jamphel_gyaltsen_large
 			}
 		}
 		country_leader = {

@@ -9,13 +9,21 @@ state={
 	history={
 		owner = GER
 		victory_points = {
-			6469 10 
+			6469 25
 		}
-		
+		victory_points = {
+			6570 20 
+		}
+		victory_points = {
+			495 20
+		}
+		victory_points = {
+			3398 10
+		}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 4
+			industrial_complex = 7
 			air_base = 3
 
 		}
@@ -36,10 +44,10 @@ state={
 	}
 
 	provinces={
-		529 3512 6469 6570 9482 
+		495 529 3512 3398 6469 6570 6622 9443 9482 13267
 	}
-	manpower=6144743
+	manpower=6019333
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category = megalopolis
 	local_supplies=0.000
 }

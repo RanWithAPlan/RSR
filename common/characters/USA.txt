@@ -1,9 +1,9 @@
 characters={
 	USA_john_garner = {
-		name = "John Garner"
+		name = USA_john_garner
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/USA/Portrait_USA_John_Garner.png"
+				large = GFX_portrait_USA_john_garner_large
 			}
 		}
 		country_leader = {

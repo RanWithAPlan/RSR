@@ -1,0 +1,15 @@
+characters={
+	DEN_christian_x = {
+		name = DEN_christian_x
+		portraits = {
+			civilian = {
+				large = GFX_portrait_DEN_christian_x
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = centrism
+		}
+	}
+}
