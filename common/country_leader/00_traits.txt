@@ -48,7 +48,7 @@ leader_traits = {
 	}
 	
 	gospeler_of_progress = {
-		#Boosts social_democracy
+		#Boosts progressive_liberalism
 		random = no
 		progressive_liberalism_drift = 0.1
 		progressive_liberalism_acceptance = 10
@@ -68,6 +68,13 @@ leader_traits = {
 		conservative_democracy_acceptance = 10
 	}
 	
+	tough_minded_politician = {
+		#Boosts authoritarian_democracy
+		random = no
+		authoritarian_democracy_drift = 0.1
+		authoritarian_democracy_acceptance = 10
+	}
+	
 	direct_power_supporter = {
 		#Boosts autocracy
 		random = no
@@ -76,17 +83,17 @@ leader_traits = {
 	}
 	
 	propaganda_master = {
-		#Boosts despotism
+		#Boosts national_syndicalism
 		random = no
-		despotism_drift = 0.1
-		despotism_acceptance = 10
+		national_syndicalism_drift = 0.1
+		national_syndicalism_acceptance = 10
 	}
 	
 	fanatic_extremist = {
-		#Boosts national_extremism
+		#Boosts ultra_reactionary
 		random = no
-		national_extremism_drift = 0.1
-		national_extremism_acceptance = 10
+		ultra_reactionary_drift = 0.1
+		ultra_reactionary_acceptance = 10
 	}
 	
 	

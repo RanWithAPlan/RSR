@@ -165,6 +165,8 @@
  GER_devolve_power_to_sergeant:0 "Empower The Sergeants"
  GER_centralise_authority_to_generals:0 "Centralise Military Authority"
 #ideas#
+ GER_thule_societies:0 "Thule Societies"
+ GER_thule_societies_desc:0 "The secret organisations and sects of Thule Gesellschaft are still present in the country. While they don't possess a direct threat to us, we are afraid they might be contacting their allies hidding in Africa, which could lead to dangerous collaboration."
  GER_bloated_military:0 "Bloated Military Industry"
  GER_bloated_military_desc:0 "Throughout the 20's and early 30's, the government placed a significant emphasis on building up Germany's military capabilities, while this has led to a strong potential war economy, the current civilian economy is suffering."
  GER_bloated_military1:0 "Oversized Military Industry"

@@ -1,0 +1,46 @@
+characters={
+
+###################################################################################################Leaders
+
+	IAO_paul_von_lettow_vorbeck={
+		name = IAO_paul_von_lettow_vorbeck
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_von_lettow_vorbeck"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={ great_war_hero	}
+			expire="1965.1.1.1"
+		}
+		portraits={
+			army={
+				large="GFX_portrait_ger_von_lettow_vorbeck"
+			}
+		}
+		corps_commander={
+			traits = { trickster war_hero media_personality jungle_rat }
+				skill = 4
+				id = 499
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 5
+		}
+	}
+
+
+###################################################################################################Advisors
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,21 @@
+ideas = {
+	country = { 
+		
+		ANH_anfu_club = { #Political wing of the clique
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
+	}
+}

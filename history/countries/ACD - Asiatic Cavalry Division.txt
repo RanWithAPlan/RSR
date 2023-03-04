@@ -41,6 +41,16 @@ if = {
 		type = annex_everything
 	}
 }
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = TAN
+		type = annex_everything
+	}
+}
 
 set_politics = {
 	ruling_party = autocracy
