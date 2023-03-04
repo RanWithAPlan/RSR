@@ -178,6 +178,7 @@ add_ideas = {
 	GER_tension_on_the_rhine_3
 	GER_bloated_military
 	GER_female_soldiers
+	GER_thule_societies
 }
 
 recruit_character = GER_executive_council_anarchism

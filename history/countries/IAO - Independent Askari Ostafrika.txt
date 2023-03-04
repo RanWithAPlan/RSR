@@ -7,9 +7,14 @@ oob = "IAO_1936"
 #Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_recon = 1
 }
 
 #Characters
+
+recruit_character = IAO_paul_von_lettow_vorbeck
 
 #Ideas
 add_ideas = {
@@ -20,6 +25,7 @@ set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 20
 set_research_slots = 2
+give_military_access = ENG
 
 #Politics
 set_politics = {
@@ -31,16 +37,16 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 5
+	anarchism = 0
 	council_communism = 0
 	authoritarian_socialism = 0
-	radical_socialism = 4
+	radical_socialism = 0
 	social_democracy = 0
 	progressive_liberalism = 0
-	freemarket_liberalism = 1
-	conservative_democracy = 0
-	authoritarian_democracy = 0
-	autocracy = 65
-	national_syndicalism = 5
+	freemarket_liberalism = 0
+	conservative_democracy = 5
+	authoritarian_democracy = 5
+	autocracy = 70
+	national_syndicalism = 0
 	ultra_reactionary = 20
 }

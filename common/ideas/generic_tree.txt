@@ -1,0 +1,204 @@
+ideas = {
+	country = {
+		
+		economical_boost = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		economical_boom = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		empowered_party = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = { 
+				party_popularity_stability_factor = 0.3
+				foreign_subversive_activites = -0.3
+			}
+		}
+		the_will_to_fight = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				recruitable_population_factor = 0.03
+			}
+		}
+		political_superiority = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_gain = 0.3
+				command_power_gain = 0.2
+				line_change_production_efficiency_factor = 0.1
+				land_doctrine_cost_factor = -0.05
+			}
+		}
+		money_for_research = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		highways_to_hell = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_supply_node_factor = 0.5
+				production_speed_rail_way_factor = 0.25
+			}
+		}
+
+		improved_production_rates = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1 
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+
+		defensive_preparations = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.15
+				production_speed_anti_air_building_factor = 0.15
+			}
+		}
+
+		army_in_being = {
+		
+		removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				recruitable_population_factor = 0.05
+				mobilization_speed = 0.1
+			}
+		
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
