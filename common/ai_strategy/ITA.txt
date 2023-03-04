@@ -302,6 +302,30 @@ yugoslavia_war_goal = { #TODO_Manu: Check this with new focus
 	}
 }
 
+germany_ally = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		has_completed_focus = ITA_pact_of_steel
+		country_exists = GER
+	}
+	abort = {
+		NOT = { country_exists = GER }
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 100
+	}
+}
+
 romania_ally = {
 	allowed = {
 		original_tag = ITA
@@ -452,6 +476,12 @@ portugal_ally = {
 #		tag = ITA
 #		date < 1940.5.1
 #	}
+#
+#	ai_strategy = {
+ #       type = dont_join_wars_with
+  #      id = GER
+  #      value = 1000000
+  #  }
  #   ai_strategy = {
 #        type = dont_join_wars_with
 #        id = SLO

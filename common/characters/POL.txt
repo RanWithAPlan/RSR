@@ -3,7 +3,7 @@ characters={
 		name = "Roman Dmowski"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_POL_roman_dmowski_large
+				large = "gfx/leaders/POL/Portrait_POL_Roman_Dmowski.dds"
 			}
 		}
 		country_leader = {

@@ -4,7 +4,7 @@ characters = {
 		name = ACD_roman_von_ungern_sternberg
 		portraits = {
 			army = {
-				large = GFX_portrait_roman_von_ungern_sternberg_large
+				large = "GFX_roman_von_ungern_sternberg_large"
 			}
 		}
 		country_leader = {
@@ -29,8 +29,8 @@ characters = {
 		name = ACD_alexander_kaigorondov
 		portraits = {
 			army = {
-				large = GFX_portrait_alexander_kaigorondov_large
-				small = GFX_portrait_alexander_kaigorondov_small
+				large = "GFX_alexander_kaigorondov_large"
+				small = "GFX_alexander_kaigorondov_small"
 			}
 		}
 
@@ -59,11 +59,11 @@ characters = {
 		name = ACD_boris_rezukhin
 		portraits = {
 			army = {
-				large= GFX_portrait_boris_rezukhin_large
+				large="GFX_boris_rezukhin_large"
 			}
 
 			civilian = {
-				small = GFX_portrait_boris_rezukhin_small
+				small = "GFX_boris_rezukhin_small"
 			}
 		}
 
@@ -92,8 +92,8 @@ characters = {
 		name = ACD_ferdinand_ossendowski
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ferdiand_ossendowski_large
-				small = GFX_portrait_ferdiand_ossendowski_small
+				large = "GFX_ferdinand_ossendowski_large"
+				small = "GFX_ferdinand_ossendowski_small"
 			}
 		}
 
@@ -113,11 +113,11 @@ characters = {
 		name = ACD_grigori_semyonov
 		portraits = {
 			army = {
-				large = GFX_portrait_grigori_semyonov_army_large
-				small = GFX_portrait_grigori_semyonov_army_small
+				large = "GFX_grigori_semyonov_army_large"
+				small = "GFX_grigori_semyonov_small"
 			}
 			civilian = {
-				large = GFX_portrait_grigori_semyonov_large
+				large = "GFX_grigori_semyonov_civilian_large"
 			}
 		}
 
@@ -153,11 +153,11 @@ characters = {
 		name = ACD_konstantin_nechaev
 		portraits = {
 			army = {
-				large = GFX_portrait_konstantin_nechaev_army_large
+				large = "GFX_konstantin_nechaev_large"
 			}
 
 			civilian = {
-				small = "GFX_portrait_konstantin_nechaev_small"
+				small = "GFX_konstantin_nechaev_small"
 			}
 		}
 
@@ -186,8 +186,8 @@ characters = {
 		name = ACD_nikolay_kazagrandi
 		portraits = {
 			army = {
-				large = GFX_portrait_nikolay_kazagrandi_army_large
-				small =  GFX_portrait_nikolay_kazagrandi_army_small
+				large = "GFX_nikolay_kazagrandi_large"
+				small = "GFX_nikolay_kazagrandi_small"
 			}
 		}
 
@@ -216,8 +216,8 @@ characters = {
 		name = ACD_prince_buhogol
 		portraits = {
 			civilian = {
-				large = GFX_portrait_prince_buhogol_large
-				small = GFX_portrait_prince_buhogol_small
+				large = "GFX_prince_buhogol_large"
+				small = "GFX_prince_buhogol_small"
 			}
 		}
 
@@ -237,8 +237,8 @@ characters = {
 		name = ACD_prince_tsogto
 		portraits = {
 			civilian = {
-				large = GFX_portrait_prince_tsogto_large
-				small = GFX_portrait_prince_tsogto_small
+				large = "GFX_prince_tsogto_large"
+				small = "GFX_prince_tsogto_small"
 			}
 		}
 
@@ -258,8 +258,8 @@ characters = {
 		name = ACD_urzhin_garmaev
 		portraits = {
 			army = {
-				large = GFX_portrait_urzhin_garmaev_large
-				small = GFX_portrait_urzhin_garmaev_small
+				large = "GFX_urzhin_garmaev_large"
+				small = "GFX_urzhin_garmaev_small"
 			}
 		}
 
@@ -280,8 +280,8 @@ characters = {
 		name = ACD_vladimir_kislitsin
 		portraits = {
 			army = {
-				large = "GFX_portrait_vladimir_kislitsin_army_large"
-				small = "GFX_portrait_vladimir_kislitsin_army_small"
+				large = "GFX_vladimir_kislitsin_large"
+				small = "GFX_vladimir_kislitsin_small"
 			}
 		}
 
@@ -311,8 +311,8 @@ characters = {
 		name = ACD_dmitriy_semyenov
 		portraits = {
 			army = {
-				large = GFX_portrait_dmitriy_semyenov_large
-				small = GFX_portrait_dmitriy_semyenov_small
+				large = "GFX_dmitriy_semyenov_large"
+				small = "GFX_dmitriy_semyenov_small"
 			}
 		}
 
@@ -341,11 +341,11 @@ characters = {
 		name = ACD_mikhail_tornovsky
 		portraits = {
 			army = {
-				large = GFX_portrait_mikhail_tornovsky_army_large
+				large = "GFX_mikhail_tornovsky_large"
 			}
 
 			civilian = {
-				small = GFX_mikhail_tornovsky_small
+				small = "GFX_mikhail_tornovsky_small"
 			}
 		}
 
@@ -375,7 +375,7 @@ characters = {
 		name = ACD_mikhail_diterikhs
 		portraits = {
 			army = {
-				large = "GFX_portrait_mikhail_diterikhs_army_large"
+				large = "GFX_mikhail_diterikhs_large"
 			}
 		}
 		country_leader = {
@@ -400,7 +400,7 @@ characters = {
 		name = ACD_alexey_grishin_almazov
 		portraits = {
 			army = {
-				large = GFX_portrait_alexey_grishin_almazov_army_large
+				large = "GFX_alexey_grishin_almazov_large"
 			}
 		}
 
@@ -418,7 +418,7 @@ characters = {
 		name = ACD_anatoly_pepelyayev
 		portraits = {
 			army = {
-				large = GFX_portrait_anatoly_pepelyayev_army_large
+				large = "GFX_anatoly_pepelyayev_large"
 			}
 		}
 
@@ -436,8 +436,8 @@ characters = {
 		name = ACD_gerorgy_stark
 		portraits = {
 			navy = {
-				large = GFX_portrait_gerorgy_stark_navy_large
-				small = GFX_portrait_gerorgy_stark_navy_small
+				large = "GFX_gerorgy_stark_large"
+				small = "GFX_gerorgy_stark_small"
 			}
 		}
 
@@ -465,8 +465,8 @@ characters = {
 		name = ACD_innokentiy_smolin
 		portraits = {
 			civilian = {
-				large = GFX_portrait_innokentiy_smolin_large
-				small = GFX_portrait_innokentiy_smolin_small
+				large = "GFX_innokentiy_smolin_large"
+				small = "GFX_innokentiy_smolin_small"
 			}
 		}
 
@@ -486,8 +486,8 @@ characters = {
 		name = ACD_ivan_gamov
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ivan_gamov_large
-				small = GFX_portrait_ivan_gamov_small
+				large = "GFX_ivan_gamov_large"
+				small = "GFX_ivan_gamov_small"
 			}
 		}
 
@@ -507,7 +507,7 @@ characters = {
 		name = ACD_mikhail_khanzhin
 		portraits = {
 			army = {
-				large = GFX_portrait_mikhail_khanzhin_army_large
+				large = "GFX_mikhail_khanzhin_large"
 			}
 		}
 
@@ -525,7 +525,7 @@ characters = {
 		name = ACD_nikolai_kolomeitsev
 		portraits = {
 			navy = {
-				large = GFX_portrait_nikolai_kolomeitsev_navy_large
+				large = "GFX_nikolai_kolomeitsev_large"
 			}
 		}
 
@@ -542,8 +542,8 @@ characters = {
 		name = ACD_nikolai_skoblin
 		portraits = {
 			civilian = {
-				large = GFX_portrait_nikolai_skoblin_large
-				small = GFX_portrait_nikolai_skoblin_small
+				large = "GFX_nikolai_skoblin_large"
+				small = "GFX_nikolai_skoblin_small"
 			}
 		}
 

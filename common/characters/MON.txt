@@ -7,7 +7,7 @@ characters={
 		gender = female 
 		portraits={
 			civilian={
-				large = GFX_portrait_MON_genepil_khan
+				large="GFX_genepil_khan"
 			}
 		}
 		country_leader={
@@ -20,8 +20,8 @@ characters={
 	MON_demchugdongrub={
 		name = MON_demchugdongru
 		portraits={
-			civilian = {
-				large = GFX_portrait_MON_demchugdongrub"
+			civilian={
+				large="GFX_demchugdongrub"
 			}
 		}
 		country_leader={
@@ -35,7 +35,7 @@ characters={
 		name = MON_anandyn_amar
 		portraits={
 			civilian={
-				large=GFX_portrait_MON__anandyn_amar
+				large=GFX_portrait_mon_anandyn_amar
 			}
 		}
 		country_leader={
@@ -63,7 +63,7 @@ characters={
 		name = MON_khorloogiin_choibalsan
 		portraits={
 			civilian={
-				large=GFX_portrait_MON_Khorloogiin_Choibalsan
+				large=GFX_portrait_Khorloogiin_Choibalsan
 			}
 		}
 		country_leader={

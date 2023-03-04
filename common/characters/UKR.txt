@@ -1,9 +1,9 @@
 characters={
 	UKR_nestor_mahkno = {
-		name = UKR_nestor_mahkno
+		name = "Nestor Makhno"
 		portraits = {
 			civilian = {
-				large = GFX_UKR_nestor_makhno_large
+				large = "GFX_nestor_makhno_large"
 			}
 		}
 		country_leader = {

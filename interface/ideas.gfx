@@ -27,8 +27,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_GER_FAUD_industry"
-		texturefile = "gfx/interface/ideas/GER/GER_FAUD_industry.png"
+		name = "GFX_idea_GER_anarchisten_industry"
+		texturefile = "gfx/interface/ideas/GER/GER_anarchisten_industry.png"
 	}
 
 	spriteType = {
