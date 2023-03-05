@@ -1,17 +1,185 @@
 division_template = {
 	name = "Lokale Askari"		
-	division_names_group = IAO_INF_01
+	division_names_group = IAO_IR_INF_01
 	regiments = {
 		irregular_infantry = { x = 0 y = 0 }
 		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
 		irregular_infantry = { x = 1 y = 0 }
 		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
 		irregular_infantry = { x = 2 y = 0 }
 		irregular_infantry = { x = 2 y = 1 }
+		irregular_infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infanterie-Division"		
+	division_names_group = IAO_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Schutztruppe-Division"
+	division_names_group = IAO_INF_ST_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1}
+		logistics_company = { x = 0 y = 2}
 	}
 }
 
 units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8144
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12944
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10845
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10988
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11017
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 2206
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2196
+		division_template = "Schutztruppe-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5196
+		division_template = "Lokale Askari"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6020
+		division_template = "Lokale Askari"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5210
+		division_template = "Lokale Askari"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4171
+		division_template = "Lokale Askari"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 8201
+		division_template = "Lokale Askari"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
 }
 
 ### No air forces (small handful of various aircraft in 1935) ###
@@ -27,7 +195,7 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "IAO"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
 	}
