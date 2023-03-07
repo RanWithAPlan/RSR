@@ -17,7 +17,7 @@ leader_traits = {
 	
 	#General
 	
-	#Demagogues
+###########################################################################Demagogues
 	
 	voice_of_anarchy = {
 		#Boosts anarchism
@@ -40,6 +40,13 @@ leader_traits = {
 		radical_socialism_acceptance = 10
 	}
 	
+	soul_of_red = {
+		#Boosts vanguard_socialism
+		random = no
+		authoritarian_socialism_drift = 0.1
+		authoritarian_socialism_acceptance = 10
+	}
+	
 	prominent_reformer = {
 		#Boosts social_democracy
 		random = no
@@ -48,7 +55,7 @@ leader_traits = {
 	}
 	
 	gospeler_of_progress = {
-		#Boosts social_democracy
+		#Boosts progressive_liberalism
 		random = no
 		progressive_liberalism_drift = 0.1
 		progressive_liberalism_acceptance = 10
@@ -68,6 +75,13 @@ leader_traits = {
 		conservative_democracy_acceptance = 10
 	}
 	
+	will_of_iron = {
+		#Boosts authoritarian_democracy
+		random = no
+		authoritarian_democracy_drift = 0.1
+		authoritarian_democracy_acceptance = 10
+	}
+	
 	direct_power_supporter = {
 		#Boosts autocracy
 		random = no
@@ -76,21 +90,24 @@ leader_traits = {
 	}
 	
 	propaganda_master = {
-		#Boosts despotism
+		#Boosts national_syndicalism
 		random = no
-		despotism_drift = 0.1
-		despotism_acceptance = 10
+		national_syndicalism_drift = 0.1
+		national_syndicalism_acceptance = 10
 	}
 	
 	fanatic_extremist = {
-		#Boosts national_extremism
+		#Boosts national_hegemonism
 		random = no
-		national_extremism_drift = 0.1
-		national_extremism_acceptance = 10
+		ultra_reactionary_drift = 0.1
+		ultra_reactionary_acceptance = 10
 	}
 	
+###########################################################################Askari Ostafrika
+
+
 	
-	#Germany
+###########################################################################Germany
 	council_of_peers = {
 		random = no
 		stability_factor = -0.1
@@ -112,7 +129,7 @@ leader_traits = {
 	zentralisten_majority = {
 	}
 
-	#Mongolia
+###########################################################################Mongolia
 	beloved_queen_of_mongolia = {
 		random = no
 		political_power_factor = 0.05
@@ -127,7 +144,7 @@ leader_traits = {
 		army_morale_factor = 0.05
 	}
 
-	#Asiatic Cavalry Division
+###########################################################################Asiatic Cavalry Division
 	#Sternberg
 	spirit_of_kangchenjunga = {
 		war_support_factor = 0.10
@@ -184,7 +201,7 @@ leader_traits = {
 		army_defence_factor = 0.05
 	}
 
-	#Vanilla Traits
+###########################################################################Vanilla Traits
 	dictator = {
 		random = no
 		political_power_factor = 0.25
