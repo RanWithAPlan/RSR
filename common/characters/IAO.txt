@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={ great_war_hero	}
+			traits={ great_war_hero	unbeatable_leader }
 			expire="1965.1.1.1"
 		}
 		portraits={
@@ -19,21 +19,79 @@ characters={
 				large="GFX_portrait_ger_von_lettow_vorbeck"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits = { trickster war_hero media_personality jungle_rat }
 				skill = 4
-				id = 499
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 2
 				logistics_skill = 5
 		}
 	}
+	
+	IAO_victoria_louise={
+		name = IAO_victoria_louise
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_victoria_louise"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={ princess_of_prussia patron_of_tanzania }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	IAO_heinrich_himmler={
+		name = IAO_heinrich_himmler
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_heinrich_himmler"
+			}
+		}
+		country_leader={
+			ideology=ultra_reactionary
+			traits={ reichsfuhrer_SS }
+			expire="1965.1.1.1"
+		}
+	}
+	IAO_joseph_goebbels={
+		name = IAO_joseph_goebbels
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_joseph_goebbels"
+			}
+		}
+		country_leader={
+			ideology=ultra_reactionary
+			traits={ father_of_modern_propaganda careerist_master }
+			expire="1965.1.1.1"
+		}
+	}
 
 
 ###################################################################################################Advisors
 
+###################################################################################################Officers
 
+IAO_imani_shahkulu={
+		name = IAO_imani_shahkulu
+		portraits={
+			army={
+				large="GFX_portrait_IAO_imani_shahkulu"
+				small="GFX_advisor_IAO_imani_shahkulu"
+			}
+		}
+		corps_commander={
+			traits = { harsh_leader organizer career_officer }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 4
+				planning_skill = 1
+				logistics_skill = 4
+		}
+	}
 
 
 
