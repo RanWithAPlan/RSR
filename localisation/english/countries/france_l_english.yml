@@ -21,8 +21,8 @@
  FRA_conservative_democracy:0 ""
  FRA_autocracy:0 ""
  FRA_autocracy_long:0 ""
- FRA_authoritarian_democracy:0 ""
- FRA_authoritarian_democracy_DEF:0 ""
+ FRA_authoritarian_democracy:0 "France"
+ FRA_authoritarian_democracy_DEF:0 "French"
  FRA_ultra_reactionary:0 ""
  FRA_ultra_reactionary_DEF:0 ""
  
