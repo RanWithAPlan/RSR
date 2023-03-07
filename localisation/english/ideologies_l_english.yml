@@ -1,6 +1,6 @@
 ﻿l_english:
 
- 
+ #Anarchism
  anarchism:0 "§AAnarchism§!"
  anarchism_desc:0 "United under a desire destroy coercive hierarchy, Anarchism is an extremely broad ideology. Often called terrorists due to acts of propaganda by the deed, Anarchists have found their home in many different places."
  anarchism_drift:0 "§AAnarchism§! drift"
@@ -9,6 +9,7 @@
  anarchism_subtype:0 "§Anarchism§!"
  anarchism_subtype_desc:0 "United under a desire destroy coercive hierarchy, Anarchism is an extremely broad ideology. Often called terrorists due to acts of propaganda by the deed, Anarchists have found their home in many different places."
 
+#Vanguard Socialism
  authoritarian_socialism:0 "§VVanguard Socialism§!"
  authoritarian_socialism_desc:0 "Socialist"
  authoritarian_socialism_drift:0 "§VVanguard Socialism§! drift"
@@ -16,6 +17,7 @@
 
  authoritarian_socialism_subtype:0 "§VVanguard Socialism§!"
  
+ #Radical Socialism
  radical_socialism:0 "§rRadical Socialism§!"
  radical_socialism_desc:0 "Marxism-Leninism"
  radical_socialism_drift:0 "§rRadical Socialism§! drift"
@@ -23,6 +25,7 @@
  
  radical_socialism_subtype:0 "§rRadical Socialism§!"
 
+#Council Communism
  council_communism:0 "§cCouncil Communism§!"
  council_communism_desc:0 "Communist"
  council_communism_drift:0 "§cCouncil Communism§! drift"
@@ -30,6 +33,7 @@
  
  council_communism_subtype:0 "§cCouncil Communism§!"
  
+ #Social Democracy
  social_democracy:0 "§SSocial Democracy§!"
  social_democracy_desc:0 "Democratic"
  social_democracy_drift:0 "§SSocial Democracy§! drift"
@@ -37,6 +41,7 @@
  
  social_democracy_subtype:0 "§SSocial Democracy§!"
  
+ #Progressive Liberalism
  progressive_liberalism:0 "§PProgressive Liberalism§!"
  progressive_liberalism_desc:0 "Progressive"
  progressive_liberalism_drift:0 "§PProgressive Liberalism§! drift"
@@ -44,6 +49,7 @@
  
  progressive_liberalism_subtype:0 "§PProgressive Liberalism§!"
  
+ #Freemarket Liberalism
  freemarket_liberalism:0 "§FFreemarket Liberalism§!"
  freemarket_liberalism_desc:0 "Capitalistic"
  freemarket_liberalism_drift:0 "§FFreemarket Liberalism§! drift"
@@ -51,6 +57,7 @@
  
  freemarket_liberalism_subtype:0 "§FFreemarket Liberalism§!"
  
+ #Conservative Democracy
  conservative_democracy:0 "§DConservative Democracy§!"
  conservative_democracy_desc:0 "Traditionalist"
  conservative_democracy_drift:0 "§DConservative Democracy§! drift"
@@ -58,6 +65,7 @@
  
  conservative_democracy_subtype:0 "§DConservative Democracy§!"
  
+ #Authoritarian Democracy
  authoritarian_democracy:0 "§aAuthoritarian Democracy§!"
  authoritarian_democracy_desc:0 "Authoritarian"
  authoritarian_democracy_drift:0 "§aAuthoritarian Democracy§! drift"
@@ -65,6 +73,7 @@
  
  authoritarian_democracy_subtype:0 "§aAuthoritarian Democracy§!"
  
+ #Autocracy
  autocracy:0 "§MAutocracy§!"
  autocracy_desc:0 "Monarchic"
  autocracy_drift:0 "§MAutocracy§! drift"
@@ -72,12 +81,18 @@
  
  autocracy_subtype:0 "§MAutocracy§!"
  
+ #National Hegemonism
  ultra_reactionary:0 "§hNational Hegemonism§!"
  ultra_reactionary_desc:0 "Fascism"
  ultra_reactionary_noun:0 "Hegemonic"
  ultra_reactionary_drift:0 "§hNational Hegemonism§! drift"
  ultra_reactionary_acceptance:0 "§hNational Hegemonism§! acceptance"
+ 
+ ultra_reactionary_subtype = "§hNational Hegemonism§!"
+ national_mysticism:0 "§hNational Mysticism§!"
+ national_socialism = "§hNational Socialism§!"
 
+#National Syndicalism
  national_syndicalism:0 "§sNational Syndicalism§!"
  national_syndicalism_desc:0 "Syndicalist"
  national_syndicalism_drift:0 "§sNational Syndicalism§! drift"

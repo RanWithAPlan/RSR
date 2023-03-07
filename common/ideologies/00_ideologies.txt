@@ -458,6 +458,7 @@ ideologies = {
 			legionarism = {}
 			fascismo_italiano = {}
 			national_socialism = {}
+			national_mysticism = {}
 			national_federalism = {}
 			ultranationalism = {}
 			onr_falanga_party = {}

@@ -6,7 +6,8 @@ characters={
 		name = IAO_paul_von_lettow_vorbeck
 		portraits={
 			civilian={
-				large="GFX_portrait_ger_von_lettow_vorbeck"
+				large="GFX_portrait_IAO_paul_von_lettow_vorbeck"
+				small="GFX_advisor_IAO_paul_von_lettow_vorbeck"
 			}
 		}
 		country_leader={
@@ -16,12 +17,13 @@ characters={
 		}
 		portraits={
 			army={
-				large="GFX_portrait_ger_von_lettow_vorbeck"
+				large="GFX_portrait_IAO_paul_von_lettow_vorbeck"
+				small="GFX_advisor_IAO_paul_von_lettow_vorbeck"
 			}
 		}
 		field_marshal={
 			traits = { trickster war_hero media_personality jungle_rat }
-				skill = 4
+				skill = 5
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 2
@@ -51,11 +53,12 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=ultra_reactionary
+			ideology=national_mysticism
 			traits={ reichsfuhrer_SS }
 			expire="1965.1.1.1"
 		}
 	}
+	
 	IAO_joseph_goebbels={
 		name = IAO_joseph_goebbels
 		portraits={
@@ -64,7 +67,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=ultra_reactionary
+			ideology=national_socialism
 			traits={ father_of_modern_propaganda careerist_master }
 			expire="1965.1.1.1"
 		}
@@ -75,7 +78,7 @@ characters={
 
 ###################################################################################################Officers
 
-IAO_imani_shahkulu={
+	IAO_imani_shahkulu={
 		name = IAO_imani_shahkulu
 		portraits={
 			army={
@@ -86,10 +89,10 @@ IAO_imani_shahkulu={
 		corps_commander={
 			traits = { harsh_leader organizer career_officer }
 				skill = 3
-				attack_skill = 3
-				defense_skill = 4
+				attack_skill = 2
+				defense_skill = 3
 				planning_skill = 1
-				logistics_skill = 4
+				logistics_skill = 3
 		}
 	}
 

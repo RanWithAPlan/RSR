@@ -22,10 +22,10 @@
  IAO_authoritarian_democracy_DEF:0 "Tanzania"
  IAO_autocracy:0 "Independent Askari Ostafrika"
  IAO_autocracy_DEF:0 "the Independent Askari Ostafrika"
- IAO_ultra_reactionary:0 "Tanzania"
- IAO_ultra_reactionary_DEF:0 "Tanzania"
- IAO_national_syndicalism:0 "German-African Reich"
- IAO_national_syndicalism_DEF:0 "the German-African Reich"
+ IAO_ultra_reactionary:0 "German-African Reich"
+ IAO_ultra_reactionary_DEF:0 "the German-African Reich"
+ IAO_national_syndicalism:0 "Tanzania"
+ IAO_national_syndicalism_DEF:0 "Tanzania"
  IAO:0 "Tanzania"
  IAO_DEF:0 "Tanzania"
  IAO_ADJ:0 "German"
@@ -57,7 +57,12 @@
  IAO_national_syndicalism_party_long:0 "National Syndicalism"
  
  #Characters
+ #leaders
  IAO_paul_von_lettow_vorbeck:0 "Paul von Lettow-Vorbeck"
+ IAO_heinrich_himmler:0 "Heinrich Himmler"
+ #advisors
+ #army
+ IAO_imani_shahkulu:0 "Imani Shahkulu"
  
  #Traits
  unbeatable_leader:0 "Unbeatable Leader by will of the almighty Kaiser"
