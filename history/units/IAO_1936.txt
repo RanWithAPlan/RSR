@@ -15,7 +15,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Infanterie-Division"		
+	name = "Deutsch-Askari-Kollaborativedivision"		
 	division_names_group = IAO_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -62,7 +62,7 @@ units = {
 			name_order = 1
 		}
 		location = 8144
-		division_template = "Infanterie-Division"
+		division_template = "Deutsch-Askari-Kollaborativedivision"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -73,7 +73,7 @@ units = {
 			name_order = 2
 		}
 		location = 12944
-		division_template = "Infanterie-Division"
+		division_template = "Deutsch-Askari-Kollaborativedivision"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -84,7 +84,7 @@ units = {
 			name_order = 3
 		}
 		location = 10845
-		division_template = "Infanterie-Division"
+		division_template = "Deutsch-Askari-Kollaborativedivision"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -95,7 +95,7 @@ units = {
 			name_order = 4
 		}
 		location = 10988
-		division_template = "Infanterie-Division"
+		division_template = "Deutsch-Askari-Kollaborativedivision"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -105,7 +105,7 @@ units = {
 			name_order = 5
 		}
 		location = 11017
-		division_template = "Infanterie-Division"
+		division_template = "Deutsch-Askari-Kollaborativedivision"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -115,7 +115,7 @@ units = {
 			name_order = 6
 		}
 		location = 2206
-		division_template = "Infanterie-Division"
+		division_template = "Deutsch-Askari-Kollaborativedivision"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}

@@ -10,11 +10,18 @@ set_technology = {
 	tech_engineers = 1
 	tech_support = 1
 	tech_recon = 1
+	gw_artillery = 1
+	motorised_infantry = 1
+	tech_logistics_company = 1
 }
 
 #Characters
-
+#leaders
 recruit_character = IAO_paul_von_lettow_vorbeck
+recruit_character = IAO_heinrich_himmler
+#advisors
+#army
+recruit_character = IAO_imani_shahkulu
 
 #Ideas
 add_ideas = {
@@ -26,6 +33,17 @@ set_war_support = 0.5
 set_convoys = 20
 set_research_slots = 2
 give_military_access = ENG
+diplomatic_relation = {
+    country = ENG
+    relation = docking_rights
+    active = yes
+}
+diplomatic_relation = {
+    country = ENG
+    relation = non_aggression_pact
+    active = yes
+}
+add_manpower = 160000
 
 #Politics
 set_politics = {
