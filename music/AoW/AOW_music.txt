@@ -1,0 +1,41 @@
+music_station = "AOW_station"
+music = {
+	song = "World Crisis"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "War Skills"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "Military Strength"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "Edge of Battle"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+}

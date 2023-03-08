@@ -1,0 +1,104 @@
+music_station = "POL_station"
+music = {
+	song = "Bij bolszewika"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+		modifier = {
+				has_war_with = SOV
+				factor = 2
+		}
+	}
+}
+music = {
+	song = "Czerwone maki na Monte Cassino"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+	}
+}
+music = {
+	song = "Marsz Pierwszej Dywizji Pancernej"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+	}
+}
+music = {
+	song = "My Pierwsza Brygada"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+	}
+}
+music = {
+	song = "Przybyli ułani pod okienko"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+	}
+}
+music = {
+	song = "Rota"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+		modifier = {
+			factor = 2
+			tag = POL
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "Szara Piechota"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+	}
+}
+music = {
+	song = "Żurawiejki"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+		modifier = {
+				has_war_with = SOV
+				factor = 2
+		}
+	}
+}
+music = {
+	song = "Ławeczka"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = POL
+		}
+	}
+}

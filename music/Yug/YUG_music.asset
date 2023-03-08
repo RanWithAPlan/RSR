@@ -1,0 +1,52 @@
+music = {
+	name = "Igra rokenrol cela Jugoslavija"
+	file = "Igra rokenrol cela Jugoslavija.ogg"
+}
+music = {
+	name = "Panteri Mauzer"
+	file = "Panteri Mauzer.ogg"
+}
+music = {
+	name = "Crni Bombarder"
+	file = "Crni Bombarder.ogg"
+}
+music = {
+	name = "Teslićka Brigada"
+	file = "Teslićka Brigada.ogg"
+}
+music = {
+	name = "Marshi | UÇK"
+	file = "Marshi i UÇK.ogg"
+}
+music = {
+	name = "Karadžiću, vodi Srbe svoje"
+	file = "Karadžiću, vodi Srbe svoje.ogg"
+}
+music = {
+	name = "Bosanska Artiljerija"
+	file = "Bosanska Artiljerija.ogg"
+}
+music = {
+	name = "Bojna Čavoglave"
+	file = "Bojna Čavoglave.ogg"
+}
+music = {
+	name = "Garda e Kosovës"
+	file = "Garda e Kosovës.ogg"
+}
+music = {
+	name = "Uz Maršala Tita"
+	file = "Uz Maršala Tita.ogg"
+}
+music = {
+	name = "My Dad is a War Criminal"
+	file = "My Dad is a War Criminal.ogg"
+}
+music = {
+	name = "Albulena"
+	file = "Albulena.ogg"
+}
+music = {
+	name = "Marshi UÇK"
+	file = "Marshi UÇK.ogg"
+}

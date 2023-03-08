@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_YUG_cover"
+		textureFile = "gfx/radio/YUG_cover.dds"
+		noOfFrames = 2
+	}
+}
