@@ -46,7 +46,7 @@ units = {
 			name_order = 26
 		}
 		location = 10737
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -57,7 +57,7 @@ units = {
 			name_order = 2
 		}
 		location = 4893
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -68,7 +68,7 @@ units = {
 			name_order = 1
 		}
 		location = 4893
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -80,7 +80,7 @@ units = {
 			name_order = 3
 		}
 		location = 4893
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -91,7 +91,7 @@ units = {
 			name_order = 7
 		}
 		location = 10852
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -102,7 +102,7 @@ units = {
 			name_order = 6
 		}
 		location = 1948
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -114,7 +114,7 @@ units = {
 			name_order = 5
 		}
 		location = 1948
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}
@@ -125,7 +125,7 @@ units = {
 			name_order = 4
 		}
 		location = 10852
-		division_template = "Militia"
+		division_template = "Local Militia"
 		start_equipment_factor = 0.3
 
 	}	

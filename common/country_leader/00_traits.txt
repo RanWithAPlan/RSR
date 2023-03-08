@@ -17,7 +17,7 @@ leader_traits = {
 	
 	#General
 	
-	#Demagogues
+###########################################################################Demagogues
 	
 	voice_of_anarchy = {
 		#Boosts anarchism
@@ -40,6 +40,13 @@ leader_traits = {
 		radical_socialism_acceptance = 10
 	}
 	
+	soul_of_red = {
+		#Boosts vanguard_socialism
+		random = no
+		authoritarian_socialism_drift = 0.1
+		authoritarian_socialism_acceptance = 10
+	}
+	
 	prominent_reformer = {
 		#Boosts social_democracy
 		random = no
@@ -48,7 +55,7 @@ leader_traits = {
 	}
 	
 	gospeler_of_progress = {
-		#Boosts social_democracy
+		#Boosts progressive_liberalism
 		random = no
 		progressive_liberalism_drift = 0.1
 		progressive_liberalism_acceptance = 10
@@ -68,6 +75,13 @@ leader_traits = {
 		conservative_democracy_acceptance = 10
 	}
 	
+	will_of_iron = {
+		#Boosts authoritarian_democracy
+		random = no
+		authoritarian_democracy_drift = 0.1
+		authoritarian_democracy_acceptance = 10
+	}
+	
 	direct_power_supporter = {
 		#Boosts autocracy
 		random = no
@@ -76,21 +90,73 @@ leader_traits = {
 	}
 	
 	propaganda_master = {
-		#Boosts despotism
+		#Boosts national_syndicalism
 		random = no
-		despotism_drift = 0.1
-		despotism_acceptance = 10
+		national_syndicalism_drift = 0.1
+		national_syndicalism_acceptance = 10
 	}
 	
 	fanatic_extremist = {
-		#Boosts national_extremism
+		#Boosts national_hegemonism
 		random = no
-		national_extremism_drift = 0.1
-		national_extremism_acceptance = 10
+		ultra_reactionary_drift = 0.1
+		ultra_reactionary_acceptance = 10
 	}
 	
+###########################################################################Askari Ostafrika
+
+	unbeatable_leader = {
+		modifier_army_sub_unit_irregular_infantry_attack_factor = 0.3
+		modifier_army_sub_unit_irregular_infantry_defence_factor = 0.3
+		modifier_army_sub_unit_irregular_infantry_speed_factor = 0.1
+		army_morale_factor = 0.1
+		max_dig_in_factor = 0.1
+		dig_in_speed_factor = 0.2
+	}
 	
-	#Germany
+	princess_of_prussia = {
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+	}
+	
+	patron_of_tanzania = {
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		recruitable_population_factor = 0.05
+		drift_defence_factor = 0.1
+	}
+	
+	reichsfuhrer_SS = {
+		war_support_factor = 0.1
+		drift_defence_factor = 0.0666
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		army_org = 10
+		training_time_factor = 0.1
+		resistance_damage_to_garrison = -0.2
+	}
+	
+	father_of_modern_propaganda = {
+		war_support_factor = 0.15
+		war_support_weekly = 0.01
+		political_power_factor = 0.1
+		drift_defence_factor = 0.4
+	}
+	
+	careerist_master = {
+		trade_opinion_factor = 0.2
+		stability_factor = 0.1
+		weekly_casualties_war_support = 0.008
+		party_popularity_stability_factor = 0.2
+		starting_compliance = 0.1
+	}
+
+###########################################################################Germany
 	council_of_peers = {
 		random = no
 		stability_factor = -0.1
@@ -112,7 +178,7 @@ leader_traits = {
 	zentralisten_majority = {
 	}
 
-	#Mongolia
+###########################################################################Mongolia
 	beloved_queen_of_mongolia = {
 		random = no
 		political_power_factor = 0.05
@@ -127,7 +193,7 @@ leader_traits = {
 		army_morale_factor = 0.05
 	}
 
-	#Asiatic Cavalry Division
+###########################################################################Asiatic Cavalry Division
 	#Sternberg
 	spirit_of_kangchenjunga = {
 		war_support_factor = 0.10
@@ -184,7 +250,7 @@ leader_traits = {
 		army_defence_factor = 0.05
 	}
 
-	#Vanilla Traits
+###########################################################################Vanilla Traits
 	dictator = {
 		random = no
 		political_power_factor = 0.25

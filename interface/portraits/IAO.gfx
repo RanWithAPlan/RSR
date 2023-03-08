@@ -1,0 +1,25 @@
+spriteTypes = {
+#Vorbeck
+	spriteType = {
+		name = "GFX_portrait_IAO_paul_von_lettow_vorbeck"
+		texturefile = "gfx/leaders/IAO/portrait_IAO_Paul_von_Lettow_Vorbeck.dds"
+	}
+	spriteType = {
+		name = "GFX_advisor_IAO_paul_von_lettow_vorbeck"
+		texturefile = "gfx/leaders/IAO/advisor_IAO_Paul_von_Lettow_Vorbeck.dds"
+	}
+#Himmler
+	spriteType = {
+		name = "GFX_portrait_IAO_heinrich_himmler"
+		texturefile = "gfx/leaders/IAO/portrait_IAO_heinrich_himmler.dds"
+	}
+#Imani
+	spriteType = {
+		name = "GFX_portrait_IAO_imani_shahkulu"
+		texturefile = "gfx/leaders/IAO/portrait_IAO_imani_shahkulu.dds"
+	}
+	spriteType = {
+		name = "GFX_advisor_IAO_imani_shahkulu"
+		texturefile = "gfx/leaders/IAO/advisor_IAO_imani_shahkuluk.dds"
+	}
+}
