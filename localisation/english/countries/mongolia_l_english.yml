@@ -18,8 +18,8 @@
  MON_conservative_democracy_DEF:0 "the Republic of Mongolia"
  MON_authoritarian_democracy:0 "Republic of Mongolia"
  MON_authoritarian_democracy_DEF:0 "the Republic of Mongolia"
- MON_autocracy:0 "Royal Government of Mongolia"
- MON_autocracy_DEF:0 "the Royal Government of Mongolia"
+ MON_autocracy:0 "Mongolian Khanate"
+ MON_autocracy_DEF:0 "the Mongolian Khanate"
  MON_ultra_reactionary:0 "Supreme Empire of Mongolia"
  MON_ultra_reactionary_DEF:0 "the Supreme Empire of Mongolia"
  MON_national_syndicalism:0 "Pan-Mongolian Asiatic Consortium"
@@ -82,8 +82,11 @@
  MON_WAR_autocracy:0 "Royal Government of Mongolia"
  MON_WAR_autocracy_DEF:0 "the Royal Government of Mongolia"
 
+ #Bookmarks
+ MON_GATHERING_STORM_DESC:0 "The Mongolian State existed under the rule of Bogd Khan until 1919 when Anhui Clique decided to yet again deprive Mongolian nation of their freedom. In 1920, Khan was assassinated by a group of Tuvan-Mongol collaborators, same day as Anhui fell under the assault of the Mad Baron. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continues until today. Even if Mongols achieve victory, torn apart after years of devastating conflict, Mongolia and its people will have to not only rebuild their nation, but also again find their place in the world."
+
  #Tooltips
  genepil_tt:0 "§1Genepil§! receives the title of §2Khan§!"
 
  #Descriptions
- MON_genepil_khan_civil_war_desc:0 "This is a test"
+ MON_genepil_khan_civil_war_desc:0 ""§YTseyenpil§! - as this was her born name - is a widow after brutally murdered Mongolian leader §YBogd Khan§!. She appeared in Mongolian politics after the death of Khan's beloved wife §YTsendiin Dondogdulam§!. By the decision of Khan's counsellors, already engaged Tseyenpil was taken from her home and once again married as the wife of Khan. Proclaimed as reincarnation of Queen Dondogdulam, she was given the name "§1Genepil§!". When the Independece War raged on, resulting in assassination of Bogd Khan and battles on two fronts against Uriankhai Tuva and - soon-to-be defeated by alike hostile Asiatic Cavalry Division - Anhui Clique, Genepil stepped forward and led the Mongolian nation against all these odds. The ascended queen, called §tBattlemistress§! by many due to her undeniable bravery, commands her subjects side-by-side, never hiding behind. Despite many assassination attempts on her life, Genepil is still seen around ordinary people and soldiers, building up morale and appreciation towards herself. Rumors say that the spirit of §OChingis Khaan§! himself advices the Queen to help achieve the ultimate victory of Mongol Nation.""
