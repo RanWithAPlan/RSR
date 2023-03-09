@@ -1,7 +1,6 @@
 characters={
 
-###################################################################################################Leaders
-
+### Leaders ###
 	MON_genepil_khan={
 		name = MON_genepil_khan
 		gender = female 
@@ -13,6 +12,7 @@ characters={
 		country_leader={
 			ideology=absolute_monarchy
 			traits={ battlemistress }
+			desc = MON_genepil_khan_civil_war_desc
 			expire="1965.1.1.1"
 		}
 	}
@@ -158,7 +158,7 @@ characters={
 	}
 
 
-###################################################################################################Advisors
+#Advisors
 
 	MON_yekiegurin={
 		name=MON_yekiegurin
