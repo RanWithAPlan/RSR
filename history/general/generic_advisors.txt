@@ -490,7 +490,7 @@ every_possible_country = {
 	}
 #################################################################################################generic air chiefs
 	generate_character = {
-		token_base = generic_air_air_chief_ground_support_2
+		token_base = generic_air_air_chief_ground_support
 		advisor = {
 			slot = air_chief
 			traits = { air_chief_ground_support_2 }
@@ -501,7 +501,7 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_air_air_chief_reform_3
+		token_base = generic_air_air_chief_reform
 		advisor = {
 			slot = air_chief
 			traits = { air_chief_reform_3 }
@@ -549,7 +549,7 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_air_air_superiority_2
+		token_base = generic_air_air_superiority
 		advisor = {
 			slot = high_command
 			traits = { air_air_superiority_2 }
