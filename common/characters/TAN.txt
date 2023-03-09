@@ -1,6 +1,6 @@
 characters={
 
-### Leaders ###
+#Leaders
 
 	TAN_donduk_kuular={
 		name = TAN_donduk_kuular
@@ -16,9 +16,8 @@ characters={
 			expire="1965.1.1.1"
 		}
 	}
-
-
-### Advisors ###
+	
+#Advisors
 
 
 
