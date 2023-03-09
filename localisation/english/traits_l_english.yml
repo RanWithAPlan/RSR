@@ -1,5 +1,5 @@
 ﻿l_english:
- #advisors
+ #generic advisors
  voice_of_anarchy:0 "Voice of Anarchy"
  voice_of_anarchy_desc:0 "A politician who will work increase the support for §AAnarchism§!."
  party_newspaper_editor:0 "Party Newspaper Editor"
@@ -43,6 +43,31 @@
  rfb_officer_desc:0 "This general supports the RFB, and will remain loyal to them in the event of a conflict."
  nva_officer:0 "NVA Officer"
  nva_officer_desc:0 "This general supports the NVA, and will remain loyal to them in the event of a conflict."
+
+ ### Uriankhai Marxist Union ###
+ anti_monarchist:0 "Anti-Monarchist"
+ anti_monarchist_desc:0 ""
+
+ ### Royal Gov. of Mongolia ###
+ battlemistress:0 "Battlemistress"
+ battlemistress_desc:0 ""
+ beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
+ beloved_queen_of_mongolia_desc:0 ""
+
+ ### Asiatic Cavalry Division ###
+ spirit_of_kangchenjunga:0 "Spirit of Kangchenjunga"
+ spirit_of_kangchenjunga_desc:0 ""
+ ACD_friendly_rivalry:0 "Friendly Rivalry"
+ ACD_friendly_rivalry_desc:0 ""
+ prince_of_yakutia:0 "Prince of Yakutia"
+ prince_of_yakutia_desc:0 ""
+ prince_of_buyratia:0 "Prince of Buyratia"
+ prince_of_buyratia_desc:0 ""
+ mercenary_leader:0 "Mercenary Leader"
+ mercenary_leader_desc:0 ""
+ holy_warrior:0 "Holy Warrior"
+ holy_warrior_desc:0 ""
+
 
  #Vanilla 
  cc_leader:0 "General"

@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+### Leaders ###
 
 	TAN_donduk_kuular={
 		name = TAN_donduk_kuular
@@ -10,14 +10,15 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism_engelism
+			ideology=radical_socialism_subtype
 			traits={ anti_monarchist }
+			desc = TAN_donduk_kuular_civil_war_desc
 			expire="1965.1.1.1"
 		}
 	}
 
 
-###################################################################################################Advisors
+### Advisors ###
 
 
 
