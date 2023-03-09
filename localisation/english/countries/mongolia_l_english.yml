@@ -84,9 +84,6 @@
  MON_WAR_autocracy:0 "Royal Government of Mongolia"
  MON_WAR_autocracy_DEF:0 "the Royal Government of Mongolia"
 
- #Bookmarks
- MON_GATHERING_STORM_DESC:0 "The Mongolian State existed under the rule of Bogd Khan until 1919 when Anhui Clique decided to yet again deprive Mongolian nation of their freedom. In 1920, Khan was assassinated by a group of Tuvan-Mongol collaborators, same day as Anhui fell under the assault of the Mad Baron. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continues until today. Even if Mongols achieve victory, torn apart after years of devastating conflict, Mongolia and its people will have to not only rebuild their nation, but also again find their place in the world."
-
  #Tooltips
  genepil_tt:0 "§1Genepil§! receives the title of §2Khan§!"
 
