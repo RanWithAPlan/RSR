@@ -29,6 +29,8 @@
  MON:0 "Mongolia"
  MON_DEF:0 "Mongolia"
  MON_ADJ:0 "Mongolian"
+ MON_TAN_radical_socialism_subject:0 "Uriankhai State of Mongolia"
+ MON_TAN_radical_socialism_DEF:0 "the Uriankhai State of Mongolia"
  
  #Parties
  MON_anarchism_party:0 "KÖZ"
@@ -65,7 +67,7 @@
  mon.startofwar.1:0 "Bothers and sisters, forward for our country!"
 
  #Characters
- MON_genepil_khan:0 "Genepil"
+ MON_genepil_khan:0 "§1Genepil§!"
  MON_anandyn_amar:0 "Anandyn Amar"
  MON_demchugdongrub:0 "Demchugdongrub"
  MON_anarchist_council:0 "Anarchist Council"

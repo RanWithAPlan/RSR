@@ -33,6 +33,7 @@ characters={
 	
 	IAO_victoria_louise={
 		name = IAO_victoria_louise
+		gender = female
 		portraits={
 			civilian={
 				large="GFX_portrait_IAO_victoria_louise"
@@ -80,6 +81,7 @@ characters={
 
 	IAO_imani_shahkulu={
 		name = IAO_imani_shahkulu
+		gender = female
 		portraits={
 			army={
 				large="GFX_portrait_IAO_imani_shahkulu"

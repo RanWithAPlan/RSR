@@ -31,7 +31,10 @@ add_ideas = {
 set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 20
-set_research_slots = 2
+set_research_slots = 3
+add_manpower = 160000
+
+#Diplomacy, put puppets, wars, factions, and other such things here
 give_military_access = ENG
 diplomatic_relation = {
     country = ENG
@@ -43,7 +46,6 @@ diplomatic_relation = {
     relation = non_aggression_pact
     active = yes
 }
-add_manpower = 160000
 
 #Politics
 set_politics = {

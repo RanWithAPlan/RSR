@@ -1,0 +1,33 @@
+characters={
+
+###################################################################################################Leaders
+
+	TAN_donduk_kuular={
+		name = TAN_donduk_kuular
+		portraits={
+			civilian={
+				large="GFX_portrait_TAN_donduk_kuular"
+			}
+		}
+		country_leader={
+			ideology=marxism_engelism
+			traits={ anti_monarchist }
+			expire="1965.1.1.1"
+		}
+	}
+
+
+###################################################################################################Advisors
+
+
+
+
+
+
+
+
+
+
+
+
+}
