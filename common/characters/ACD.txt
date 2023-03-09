@@ -12,6 +12,7 @@ characters = {
 			traits = {
 				spirit_of_kangchenjunga
 			}
+			desc = ACD_roman_von_ungern_sternberg_civil_war_desc
 			expire="1965.1.1.1"
 		}
 
@@ -379,7 +380,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = autoctarcy_subtype
+			ideology = autoctracy_subtype
 			traits = {
 				holy_warrior
 			}

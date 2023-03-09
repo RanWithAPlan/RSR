@@ -1,11 +1,14 @@
 ﻿capital = 563
-
+### Order of Battle ###
+#Army
 oob = "ACD_1936"
 
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	tech_recon = 1
 }
+### Characters ###
 #Roman's Army
 recruit_character = ACD_roman_von_ungern_sternberg
 recruit_character = ACD_alexander_kaigorondov
@@ -31,6 +34,8 @@ recruit_character = ACD_mikhail_khanzhin
 recruit_character = ACD_nikolai_kolomeitsev
 recruit_character = ACD_nikolai_skoblin
 
+### Diplomacy ###
+#Mongolian Civil War
 if = {
 	limit = {
 		has_start_date < 1936.01.02
@@ -42,13 +47,25 @@ if = {
 	}
 }
 
+### Politics ###
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = ultra_reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
 
-    autocracy = 100
+set_popularities = {
+	anarchism = 0
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 10 
+	autocracy = 40
+  	national_syndicalism = 10
+  	ultra_reactionary = 40
 }
