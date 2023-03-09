@@ -1,8 +1,12 @@
 ﻿capital = 329
 
-### Order of Battle ###
-#Army
+#Order of Battle
+
 oob = "TAN_1936"
+
+#Army
+#Air
+#Navy
 
 #Non-Designer Starting Technology
 set_technology = {
@@ -11,9 +15,9 @@ set_technology = {
 	tech_support = 1
 }
 
-### Characters ###
+#Characters
 #leaders
-recruit_character = TAN_donduk_kuular
+ recruit_character = TAN_donduk_kuular
 #advisors
 #generals
 
@@ -44,6 +48,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+#Popularities
 set_popularities = {
 	anarchism = 5
 	council_communism = 5

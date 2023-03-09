@@ -1,4 +1,6 @@
 ﻿l_english:
+
+
  #Country Names
  MON_anarchism:0 "Anarchist Hunnic State"
  MON_anarchism_DEF:0 "the Anarchist Hunnic State"
@@ -88,5 +90,9 @@
  #Tooltips
  genepil_tt:0 "§1Genepil§! receives the title of §2Khan§!"
 
- #Descriptions
- MON_genepil_khan_civil_war_desc:0 "This is a test"
+ #Traits
+ beloved_queen_of_mongolia:0 "§0Beloved Queen of Mongolia§!"
+ battlemistress:0 "§tBattlemistress§!"
+
+
+

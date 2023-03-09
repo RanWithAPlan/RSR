@@ -13,7 +13,6 @@ characters = {
 				the_mad_baron
 				spirit_of_kangchenjunga
 			}
-			desc = ACD_roman_von_ungern_sternberg_civil_war_desc
 			expire="1965.1.1.1"
 		}
 		portraits = {
@@ -386,7 +385,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = autoctracy_subtype
+			ideology = autoctarcy_subtype
 			traits = {
 				holy_warrior
 			}
