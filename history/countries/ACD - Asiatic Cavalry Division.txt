@@ -1,11 +1,21 @@
 ﻿capital = 563
 
+#Order of Battle
+
 oob = "ACD_1936"
 
+#Army
+#Air
+#Navy
+
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
+	tech_support
 	tech_recon = 1
 }
+
+#Characters
 #Roman's Army
 recruit_character = ACD_roman_von_ungern_sternberg
 recruit_character = ACD_alexander_kaigorondov
@@ -31,24 +41,50 @@ recruit_character = ACD_mikhail_khanzhin
 recruit_character = ACD_nikolai_kolomeitsev
 recruit_character = ACD_nikolai_skoblin
 
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
+#Ideas
+add_ideas = {
+	all_adults_serve
+	war_economy
+}
 
-	declare_war_on = {
+#Miscellaneous, put country_flags, upcoming events, and such here
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+set_research_slots = 2
+
+#Diplomacy, put puppets, wars, factions, and other such things here
+declare_war_on = {
 		target = MON
 		type = annex_everything
 	}
-}
+declare_war_on = {
+		target = TAN
+		type = annex_everything
+	}
 
+#Politics
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = ultra_reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
 
-    autocracy = 100
+#Popularities
+set_popularities = {
+	anarchism = 0
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 30
+	national_syndicalism = 0
+	ultra_reactionary = 70
 }
+
+#Variants

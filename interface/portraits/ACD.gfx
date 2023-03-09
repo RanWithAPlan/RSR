@@ -120,6 +120,12 @@ spriteTypes = {
 	}
 
 	#Small
+	
+	spriteType = {
+		name = "GFX_roman_von_ungern_sternberg_small"
+		texturefile = "gfx/leaders/ACD/advisor_ACD_roman_von_ungern-sternberg.png"
+	}
+	
 	spriteType = {
 		name = "GFX_alexander_kaigorondov_small"
 		texturefile = "gfx/interface/advisors/ACD/portrait_ACD_alexander_kaigorondov.png"

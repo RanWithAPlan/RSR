@@ -204,6 +204,9 @@ leader_traits = {
 
 ###########################################################################Asiatic Cavalry Division
 	#Sternberg
+	the_mad_baron = { 
+		ai_focus_aggressive_factor = 0.5
+	}
 	spirit_of_kangchenjunga = {
 		war_support_factor = 0.10
 		army_speed_factor = 0.05
