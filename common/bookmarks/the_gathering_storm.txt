@@ -6,9 +6,7 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-	
-		### Majors ###
-		#France	
+		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -143,21 +141,15 @@ bookmarks = {
 				ITA_a_colonial_empire
 			}		
 		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+		"MON"={
+			history = "MON_GATHERING_STORM_DESC"
+			ideology = autocracy
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
-			}	
+			}
 			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}			
+			}
 		}
-		"EAU"={
+		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
@@ -172,7 +164,7 @@ bookmarks = {
 				SOV_reconvene_the_zemsky_sobor
 			}	
 		}
-		"EAU"={
+		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
@@ -193,41 +185,185 @@ bookmarks = {
 		}
 
 
-		### Minors ###
-		#Mongolia
-		"MON"={
+		# minors from DLC ####
+		"CAN"={
 			minor = yes
-			history = "MON_GATHERING_STORM_DESC"
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
+			}
+		}
+
+		"CZE"={
+			minor = yes
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				CZE_skoda_works
+				CZE_divided_nation
+			}
+			focuses = {
+				CZE_sudeten_1
+				CZE_industrial_legacy
+				CZE_military_research_institute
+			}
+		}
+
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon
+			}
+			focuses = {
+				HUN_proclaim_the_restoration_of_austria_hungary
+				HUN_secret_rearmament
+				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ROM_king_carol_ii_hedonist
+				neutrality_idea
+			}
+			focuses = {
+				ROM_balkans_dominance
+				ROM_institute_royal_dictatorship
+				ROM_preserve_greater_romania
+			}
+		}
+		
+		"YUG"={
+			minor = yes
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				anti_german_military
+				YUG_idea_croatian_opposition
+				YUG_idea_serbian_general_staff
+			}
+			focuses = {
+				YUG_end_the_regency
+				YUG_abolish_the_monarchy
+				YUG_dissolve_serbia
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_1
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
+
+		"BUL"={
+			minor = yes
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				BUL_second_national_catastrophe
+				BUL_army_restrictions
+				BUL_imro_01
+			}
+			focuses = {
+				BUL_the_fatherland_front
+				BUL_restore_the_bulgarian_patriarchate
+				BUL_prussia_of_the_balkans
+			}
+		}
+
+		"GRE"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				GRE_debt_to_the_ifc
+				GRE_schachtplan
+				GRE_political_instability_dummy
+			}
+			focuses = {
+				GRE_metaxism_focus
+				GRE_resurrecting_the_megali_idea
+				GRE_stage_an_incident_in_the_bosporus
+			}
+		}
+
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				TUR_sectarian_woes
+				TUR_disorganised_armed_forces
+				TUR_debt_council
+			}
+			focuses = {
+				TUR_ratify_the_six_arrows
+				TUR_reaffirm_the_balkan_pact
+				TUR_pivot_to_the_past
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				uncontrolled_exports
+				POL_april_constitution_1
+				POL_looming_peasants_strike
+			}
+			focuses = {
+				POL_complete_april_constitution
+				POL_clamp_down_on_danzig
+				POL_the_between_the_seas_concept
+			}
+		}
+		
+		"JAP"={
+		minor = yes
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
+			}	
+			focuses = {
+				JAP_the_zero
+				JAP_warrior_spirit
+				JAP_strike_on_the_southern_resource_area
+			}			
+		}
+		
+		"IAO"={
+			minor = yes
+			history = "IAO_GATHERING_STORM_DESC"
 			ideology = autocracy
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-
-		#Asiatic Cavalry Division
-		"ACD"={
-			minor = yes
-			history = "ACD_GATHERING_STORM_DESC"
-			ideology = ultra_reactionary
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		#Uriankhai Marxist Union
-		"TAN"={
-			minor = yes
-			history = "TAN_GATHERING_STORM_DESC"
-			ideology = radical_socialism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

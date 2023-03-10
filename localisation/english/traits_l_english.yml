@@ -25,7 +25,7 @@
  fanatic_extremist:0 "Fanatic Extremist"
  fanatic_extremist_desc:0 "A politician who will work to increase the support for National Hegemonism."
  
- #Germany
+ ###Germany
  council_of_peers:0 "Council of Peers"
  anarchisten_majority:0 "Anarchisten Majority"
  dezentralisten_majority:0 "Dezentralisten Majority"
@@ -43,6 +43,9 @@
  rfb_officer_desc:0 "This general supports the RFB, and will remain loyal to them in the event of a conflict."
  nva_officer:0 "NVA Officer"
  nva_officer_desc:0 "This general supports the NVA, and will remain loyal to them in the event of a conflict."
+ 
+ ###Soviet Union
+ father_of_revolution:0 "§rFather of Revolution§!"
 
  ### Uriankhai Marxist Union ###
  anti_monarchist:0 "Anti-Monarchist"
