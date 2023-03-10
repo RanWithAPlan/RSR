@@ -18,6 +18,7 @@
  authoritarian_socialism_acceptance:0 "§VVanguard Socialism§! acceptance"
 
  authoritarian_socialism_subtype:0 "§VVanguard Socialism§!"
+ leninism:0 "§VLeninism§!"
  
  #Radical Socialism
  radical_socialism:0 "§rRadical Socialism§!"
@@ -28,7 +29,6 @@
  
  radical_socialism_subtype:0 "§rRadical Socialism§!"
  marxism_engelism:0 "§rMarxism-Engelism§!"
- leninism:0 "§rLeninism§!"
 
  #Council Communism
  council_communism:0 "§cCouncil Communism§!"

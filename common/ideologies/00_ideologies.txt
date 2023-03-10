@@ -89,6 +89,7 @@ ideologies = {
 	
 		types = {
 			authoritarian_socialism_subtype = {}
+			leninism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -128,7 +129,6 @@ ideologies = {
 		types = {
 			radical_socialism_subtype = {}
 			marxism_engelism = {}
-			leninism = {}
 		}
 		
 		dynamic_faction_names = {

@@ -197,7 +197,7 @@ add_to_faction = SOV
 
 #Politics
 set_politics = {
-	ruling_party = radical_socialism
+	ruling_party = authoritarian_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -207,8 +207,8 @@ set_politics = {
 set_popularities = {
 	anarchism = 5
 	council_communism = 5
-	authoritarian_socialism = 5
-	radical_socialism = 80
+	authoritarian_socialism = 80
+	radical_socialism = 5
 	social_democracy = 0
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
