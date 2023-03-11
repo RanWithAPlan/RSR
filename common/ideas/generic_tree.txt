@@ -688,5 +688,45 @@ ideas = {
 			naval_enemy_fleet_size_ratio_penalty_factor = -0.1
 			}
 		}
+		
+	land_air_cooperation = {
+		
+		removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			ground_attack_factor = 0.1
+			breakthrough_factor = 0.1
+			}
+		}
+		
+	reorganized_army = {
+		
+		removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			army_attack_factor = 0.1
+			army_defece_factor = 0.1
+			army_org = 10
+			air_superiority_bonus_in_combat = 0.1
+			air_superiority_efficiency = 0.1
+			}
+		}
+		
 	}
 }

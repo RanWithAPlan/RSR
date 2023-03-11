@@ -167,6 +167,15 @@
  generic_need_bigger_guns:0 "Bigger Guns, More Firepower!"
  
  generic_fleet_in_being:0 "Fleet in Being"
+ 
+ generic_field_training_exercises:0 "Field Training Exercises"
+ 
+ generic_aerial_maneuvers:0 "Aerial Maneuvers"
+
+ generic_land_air_synchronization:0 "Land-Air Synchronization"
+
+ generic_army_reorganization:0 "Army Reorganization"
+
 
 ######################################################################################################Vanilla
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"

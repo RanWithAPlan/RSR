@@ -74,7 +74,124 @@
 			factor = 1
 		}
 	}
+	
+#####################################################################################DOCTRINE
 
+	focus = {
+		id = generic_field_training_exercises
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = generic_planning_our_economy }
+		relative_position_id = generic_planning_our_economy
+		x = 0
+		y = 1
+		cost = 7
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			army_experience = 50
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.25
+				uses = 4
+				category = land_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = generic_aerial_maneuvers
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = generic_field_training_exercises }
+		relative_position_id = generic_field_training_exercises
+		x = 0
+		y = 1
+		cost = 7
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			air_experience = 50
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.25
+				uses = 4
+				category = air_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = generic_land_air_synchronization
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = generic_aerial_maneuvers }
+		relative_position_id = generic_aerial_maneuvers
+		x = 0
+		y = 1
+		cost = 12
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			army_experience = 50
+			air_experience = 50
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = air_doctrine
+			}
+			add_ideas = land_air_cooperation
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = generic_army_reorganization
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = generic_land_air_synchronization }
+		relative_position_id = generic_land_air_synchronization
+		x = 0
+		y = 1
+		cost = 14
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			army_experience = 50
+			air_experience = 50
+			add_ideas = reorganized_army
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 #####################################################################################INDUSTRIAL BOOST
 
@@ -839,6 +956,7 @@
 		prerequisite = { focus = generic_war_wisdom }
 		prerequisite = { focus = generic_mass_military_trainings }
 		prerequisite = { focus = generic_means_to_fight }
+		prerequisite = { focus = generic_army_reorganization }
 		relative_position_id = generic_national_airlines
 		x = 5
 		y = 2
@@ -2235,6 +2353,12 @@ focus = {
 				}
 			}
 			navy_experience = 50
+			add_doctrine_cost_reduction = {
+				name = navy_doc_bonus
+				cost_reduction = 0.25
+				uses = 4
+				category = naval_doctrine
+			}
 		}
 
 		ai_will_do = {
@@ -2629,6 +2753,12 @@ focus = {
 				}
 			}
 			add_ideas = { fleet_in_being }
+			add_doctrine_cost_reduction = {
+				name = navy_doc_bonus
+				cost_reduction = 0.5
+				uses = 4
+				category = naval_doctrine
+			}
 		}
 
 		ai_will_do = {
