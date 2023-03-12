@@ -29,12 +29,14 @@
  MON_ADJ:0 "Mongolian"
  MON_TAN_radical_socialism_subject:0 "Uriankhai State of Mongolia"
  MON_TAN_radical_socialism_DEF:0 "the Uriankhai State of Mongolia"
+ MON_ACD_ultra_reactionary_subject:0 "White State of Mongolia"
+ MON_ACD_ultra_reactionary_DEF:0 "the White State of Mongolia"
  
  #Parties
  MON_anarchism_party:0 "KÖZ"
  MON_anarchism_party_long:0 "Khünnügiin öv Zalgamjlagchid"
- MON_radical_socialism_party:0 "Marksist Komissariat"
- MON_radical_socialism_party_long:0 "Marksist Komissariat"
+ MON_radical_socialism_party:0 "UMN"
+ MON_radical_socialism_party_long:0 "Uriankhai Marksist Nam"
  MON_council_communism_party:0 "MSN"
  MON_council_communism_party_long:0 "Mongolyn Sotsialist Nam"
  MON_authoritarian_socialism_party:0 "MAN"
