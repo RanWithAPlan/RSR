@@ -1,0 +1,16 @@
+characters = {
+	ZHI_cao_kun = {
+		name = ZHI_cao_kun_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ZHI_Cao_Kun"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { }
+			ideology = autocracy_subtype
+		}
+	}
+}

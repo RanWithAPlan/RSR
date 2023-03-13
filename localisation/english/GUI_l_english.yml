@@ -1,0 +1,3 @@
+﻿l_english:
+ GER_unity_text_box:0 "§YCurrent Unity:§! [?unity_number]%"
+ GER_unity_gui_tooltip:0 "Unity represents how well the various parties and councils in Germany work together.\n\n§YEffects From Current Unity:§!\nDaily Political Power Gain: [?GER_unity_pp_gain|+]\nStability: [?GER_unity_stability_factor|+%]"

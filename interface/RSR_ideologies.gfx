@@ -8,6 +8,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/council_communism_group.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_authoritarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.png"
+	}
+	sp
+	spriteType = {
 		name = "GFX_ideology_radical_socialism_group"
 		texturefile = "gfx/interface/ideologies/radical_socialism_group.png"
 	}
@@ -28,15 +33,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservative_democracy_group.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_group.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_autocracy_group"
 		texturefile = "gfx/interface/ideologies/autocracy_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_despotism_group"
-		texturefile = "gfx/interface/ideologies/despotism_group.png"
+		name = "GFX_ideology_ultra_reactionary_group"
+		texturefile = "gfx/interface/ideologies/ultra_reactionary_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_national_extremism_group"
-		texturefile = "gfx/interface/ideologies/national_extremism_group.png"
+		name = "GFX_ideology_national_syndicalism_group"
+		texturefile = "gfx/interface/ideologies/national_syndicalism_group.png"
 	}
 }

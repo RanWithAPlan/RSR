@@ -1,0 +1,2 @@
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 5
+NDefines.NNavy.FUEL_COST_MULT = 0.05

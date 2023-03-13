@@ -459,8 +459,13 @@ focus_tree = {
 			id = natpoland.7
 			days = 0
 			}
+			set_country_flag = POL_purge_completed
+			load_focus_tree = polish_koc_focus
+			remove_ideas = POL_divided_government 
 		}
 	}
+	
+	####Congress Path####
 	
 	focus = {
 		id = POL_all_power_to_the_congress
@@ -807,5 +812,4 @@ focus_tree = {
 		
 		}
 	}
-
 }

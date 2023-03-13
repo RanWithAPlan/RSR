@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader = {
-			expire = "1965.1.1"
+			expire = "1939.1.2"
 			traits={ }
 			ideology = onr_falanga_party
 		}

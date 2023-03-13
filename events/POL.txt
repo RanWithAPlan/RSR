@@ -176,3 +176,30 @@ country_event = { # A Knock on The Door
 		}
 	}
 }
+
+country_event = { # load_focus
+	id = natpoland.8
+	title = natpoland.8.title
+	desc = natpoland.8.desc
+	picture = 
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # Koc focus tree
+		name = natpoland.8.a
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+		load_focus_tree = polish_koc_focus
+		}
+	}
+	
+	option = { # Studnicki focus tree
+		name = natpoland.8.b
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+		load_focus_tree = polish_studnicki_focus
+		}
+	}
+}

@@ -136,19 +136,6 @@ units = {
 		start_equipment_factor = 0.4
 
 	}
-	
-	division = { # "Artillery Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 9483
-		division_template = "Artilerija Divizija"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
-	}
 
 	##### No Naval OOB #####
 }

@@ -1,0 +1,44 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GER_unity_decision_ui_window"
+		#position = {x=0 y=0}
+		position = {x=0 y=0}
+		#size = { width=320 height=238 }
+		size = { width=100% height=52 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable=no
+		fade_type = linear
+		clipping = no
+		click_to_front = no
+		
+		#background = {
+		#	name = "Background"
+		#	spriteType = "GFX_tiled_window"
+		#}
+		
+		iconType = {
+			name ="unity_level_bar"
+			spriteType = "GFX_unity_strength_bar"
+			position = { x= -120 y = 5 }
+			Orientation = "CENTER"
+		}
+
+		instantTextBoxType = {
+			name ="unity_text_box"
+			position = { x = 160 y = 5 }
+			font = "hoi_18mbs"
+			text = "GER_unity_text_box"
+			format = center
+		}
+
+		instantTextBoxType = {
+			name ="paranoia_tooltip"
+			position = { x = 160 y = 5 }
+			maxwidth = 230
+			maxHeight = 185
+			pdx_tooltip = GER_unity_gui_tooltip
+		}
+	}
+}

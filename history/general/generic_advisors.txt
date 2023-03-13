@@ -2,17 +2,13 @@
 # Generate them from a generic template
 
 # Political advisors
-
-#Socialism
-
-#Anarchism
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON} }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
-			has_allowed_idea_with_traits = { idea = voice_of_anarchy characters = yes }
+			has_allowed_idea_with_traits = { idea = communist_revolutionary characters = yes }
 		}
 		if = {
 			limit = { has_dlc = "Battle for the Bosporus" }
@@ -24,10 +20,10 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_voice_of_anarchy # token will be TAG_token_base
+		token_base = generic_communist_revolutionary # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { voice_of_anarchy }
+			traits = { communist_revolutionary }
 			available = {
 				if = {
 					limit = { 
@@ -51,14 +47,12 @@ every_possible_country = {
 	}
 }
 
-#Council Communism
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		# avoid generic advisors in temporary countries
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL } }
 		is_dynamic_country = no
 		NOT = {
-			has_allowed_idea_with_traits = { idea = party_newspaper_editor characters = yes }
+			has_allowed_idea_with_traits = { idea = democratic_reformer characters = yes }
 		}
 		if = {
 			limit = { has_dlc = "Battle for the Bosporus" }
@@ -70,103 +64,10 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_party_newspaper_editor # token will be TAG_token_base
+		token_base = generic_democratic_reformer # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { party_newspaper_editor }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_communist_revolutionary }
-		}
-	}
-}
-
-#Radical Socialism
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		# avoid generic advisors in temporary countries
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = devoted_communist characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_devoted_communist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { devoted_communist }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_communist_revolutionary }
-		}
-	}
-}
-
-#Democracy
-
-#Social Democracy
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = prominent_reformer characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_prominent_reformer # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { prominent_reformer }
+			traits = { democratic_reformer }
 			available = {
 				if = {
 					limit = { 
@@ -193,13 +94,12 @@ every_possible_country = {
 	}
 }
 
-#Progressive Liberalism
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POR original_tag = POL original_tag=LAT } }
 		is_dynamic_country = no
 		NOT = {
-			has_allowed_idea_with_traits = { idea = gospeler_of_progress characters = yes }
+			has_allowed_idea_with_traits = { idea = fascist_demagogue characters = yes }
 		}
 		if = {
 			limit = { has_dlc = "Battle for the Bosporus" }
@@ -211,299 +111,10 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_gospeler_of_progress # token will be TAG_token_base
+		token_base = generic_fascist_demagogue # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { gospeler_of_progress }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_democratic_reformer }
-		}
-	}
-}
-
-#Freemarket Liberalism
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = competitive_capitalist characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_competitive_capitalist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { competitive_capitalist }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_democratic_reformer }
-		}
-	}
-}
-
-#Conservative_Democracy
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = stedfast_traditionalist characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_stedfast_traditionalist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { stedfast_traditionalist }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_democratic_reformer }
-		}
-	}
-}
-
-#Conservative_Democracy
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = tough_minded_politician characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_tough_minded_politician # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { tough_minded_politician }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_democratic_reformer }
-		}
-	}
-}
-
-#Authoritarianism
-
-#Autocracy
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POL original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = direct_power_supporter characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_direct_power_supporter # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { direct_power_supporter }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_democratic_reformer }
-		}
-	}
-}
-
-#Extremism
-
-#Ultra-Reactionary
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POR original_tag = POL original_tag=LAT original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = fanatic_extremist characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_fanatic_extremist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { fanatic_extremist }
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_in_the_darkness
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}				
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_fascist_demagogue }
-		}
-	}
-}
-
-#National Syndicalism
-every_possible_country = {
-	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POR original_tag = POL original_tag=LAT original_tag = MON } }
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = propaganda_master characters = yes }
-		}
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus" }
-			NOT = { tag = TUR tag = GRE }
-		}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			NOT = { OR = { tag = ETH tag = SWI } }
-		}
-	}
-	generate_character = {
-		token_base = generic_propaganda_master # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { propaganda_master }
+			traits = { fascist_demagogue }
 			available = {
 				if = {
 					limit = { 
@@ -531,7 +142,7 @@ every_possible_country = {
 	limit = {
 		has_dlc = "La Resistance"
 		# china gets a special one via focus
-		NOT = { original_tag = CHI original_tag = MON }
+		NOT = { original_tag = CHI }
 		NOT = { is_chinese_warlord = yes }
 		if = {
 			limit = {
@@ -609,32 +220,12 @@ every_possible_country = {
 			army = { small = GFX_idea_generic_war_industrialist }
 		}
 	}
-	generate_character = {
-		token_base = generic_silent_workhorse # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { silent_workhorse }
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_captain_of_industry }
-		}
-	}
-	generate_character = {
-		token_base = generic_prince_of_terror # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { prince_of_terror }
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_war_industrialist }
-		}
-	}
 	# generic army chiefs
 	generate_character = {
 		token_base = generic_army_chief_off # token will be TAG_token_base
 		advisor = {
 			slot = army_chief
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_offensive_1 }
 			cost = 50
 		}
 		portraits = { 
@@ -645,7 +236,7 @@ every_possible_country = {
 		token_base = generic_army_chief_def # token will be TAG_token_base
 		advisor = {
 			slot = army_chief
-			traits = { army_chief_defensive_2 }
+			traits = { army_chief_defensive_1 }
 			cost = 50
 		}
 		portraits = { 
@@ -665,10 +256,10 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_navy_chief_commerce_raiding # token will be TAG_token_base
+		token_base = generic_navy_anti_submarine # token will be TAG_token_base
 		advisor = {
 			slot = navy_chief
-			traits = { navy_chief_maneuver_2 }
+			traits = { navy_anti_submarine_2 }
 			cost = 50
 		}
 		portraits = { 
@@ -688,10 +279,10 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_air_bomber_interception # token will be TAG_token_base
+		token_base = generic_air_chief_all_weather # token will be TAG_token_base
 		advisor = {
 			slot = air_chief
-			traits = { air_air_bomber_interception_2 }
+			traits = { air_chief_all_weather_2 }
 			cost = 50
 		}
 		portraits = { 
@@ -703,7 +294,7 @@ every_possible_country = {
 		token_base = generic_army_art # token will be TAG_token_base
 		advisor = {
 			slot = high_command
-			traits = { army_infantry_2 }
+			traits = { army_artillery_1 }
 			ledger = army
 			cost = 50
 		}
@@ -727,7 +318,7 @@ every_possible_country = {
 		token_base = generic_navy_fleet_log # token will be TAG_token_base
 		advisor = {
 			slot = high_command
-			traits = { navy_fleet_logistics_2 }
+			traits = { navy_fleet_logistics_1 }
 			ledger = navy
 			cost = 50
 		}
@@ -736,34 +327,10 @@ every_possible_country = {
 		}
 	}
 	generate_character = {
-		token_base = generic_air_naval_strike # token will be TAG_token_base
+		token_base = generic_air_air_combat_trainer # token will be TAG_token_base
 		advisor = {
 			slot = high_command
-			traits = { air_naval_strike_2 }
-			ledger = navy
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_navy_fleet_log }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_tactical_bombing # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { air_tactical_bombing_2 }
-			ledger = air
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_air_combat_trainer }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_air_superiority # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { air_air_superiority_2 }
+			traits = { air_air_combat_training_2 }
 			ledger = air
 			cost = 50
 		}

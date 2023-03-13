@@ -79,6 +79,8 @@
  POL_national_syndicalism_party:0 "ONR"
  POL_national_syndicalism_party_long:0 "Ruch Narodowo Radykalny"
  
+ 
+ 
  #Focuses
  POL_the_national_congress:0 "Aftermath of The 1936 National Congress"
  POL_all_power_to_dmowski:0 "All Power to Dmowski"
@@ -99,6 +101,27 @@
  POL_the_catholic_solution:0 "The Falangist Solution"
  POL_ultranationalist_supremacy:0 "Ultranationalist Supremacy"
  POL_release_the_firing_squads:0 "Release The Firing Squads"
+ POL_the_father_is_dead:0 "The Father Is Dead"
+ POL_the_banker_takes_power:0 "The Banker Takes Power"
+ POL_begin_the_reforms:0 "Begin The Reforms"
+ POL_establish_the_purge_committee:0 "Establish The Purge Committee"
+ POL_the_tolerant_terror_state:0 "The Tolerant Terror State"
+ POL_catholic_totalitarianism:0 "Catholic Totalitarianism"
+ POL_the_banker_state:0 "The Banker State"
+ POL_a_home_for_the_conspiracy:0 "A Home For The Conspiracy"
+ polish_koc_focus:0 "The Next Stage of The Regime's Story"
+ POL_the_second_father_in_power:0 "The Second Father Takes Power"
+ POL_fix_the_mistakes:0 "Fix The Mistakes"
+ POL_the_anti_socialist_crusade:0 "The Anti Socialist Crusade"
+ POL_the_anti_judaic_crusade:0 "The Anti Judaic Crusade"
+ POL_nationalist_realism:0 "Nationalist Realism"
+ POL_a_new_kind_of_nationalism:0 "A New Kind of Nationalism"
+ POL_remove_the_last_enemies_within:0 "Remove The Enemies Within"
+ POL_lay_forth_the_plans:0 "Lay Forth The Plans"
+ POL_foreign_realpolitik_domestic_terror:0 "Foreign Realpolitik, Domestic Terror"
+ POL_the_start_of_the_great_plan:0 "The Start of The Great Plan"
+ 
+ 
  
  #Events
  natpoland.1.title:0 "The National Congress of 1936"
@@ -124,6 +147,9 @@
  natpoland.7.title:0 "A Knock on The Door"
  natpoland.7.desc:0 "[GetDateText]. A small apartment complex in the outskirts of Warsaw, three stories tall and visibly run down. The walls have cracks in them, and mold can be seen growing from the street, inside fares not much better with the halls looking not much better than the slew abandonded building on the border. Stepping over the rats and garbage a man in a black suit, with a well maintained hat and a small black brief-case walked up to apartment '2-6'. Once at the door the man ajusted his tie and opened his brief-case, inside the case was a small gun and 4 bullets. The man loaded the gun and closed the brief-case before setting it down and readying his arm. Three knocks were put upon the door, and seconds later a middle-aged man with an unshaven beard and bloodshot eyes opened the door. Once he saw who was waiting outside the door the man rushed to slam it shut, but he wasn't quick enough and a bullet pierced his head, then another to his chest, then two more into his body. The man in a suit grabbed his brief case, shut the door and walked away while pulling out a notebook and crossing out a name.\n\nAcross the city in the city in the heart of Warsaw in much less dilapidated building a phone rang, once the phone was answered morse code came through that spelled out 'Objetive Achieved, Target 87 Has Been Neutralized'. Once the phone was put down 'target 87 is down' was yelled across the room, and on a massive chalkboard a man on a ladder crossed out the name next to the number 87.\n\nElsewhere in the city a stack of papers was set on the desk of [POL.GetLeader]'s after the stack of papers were quickly looked over a green stamp was placed on top of the papers and they were taken out of the room. From there the papers were handed to a man in a suit with a small note clipped to the top of the paper stack saying 'New Lists, New Targets'."
  natpoland.7.a:0 "How It All Begins, With a Knock on The Door"
+ natpoland.8.a:0 "Load Koc Focus Tree"
+ natpoland.8.b:0 "Load Studnicki Focus Tree"
+ 
  
  
  #Flags
@@ -132,6 +158,7 @@
  POL_plot_thwarted:0 "Plot on Dmowski's Life Has Been Thwarted"
  POL_secret_police_establish_flag:0 "A Secret Police Force Has Been Established"
  POL_union_infiltration_started_flag:0 "Labor Unions Infiltrated"
+ POL_purge_completed:0 "Dmowski's Purge Has Been Carried Out"
 
  
  
@@ -182,6 +209,7 @@
  POL_gather_names_and_addresses_of_may_coalition_leaders_tt:0 "The May Coalition may be banned, but its leaders, a group of traitors are still out there. To make sure that this threat is truly dead and buried we must add the names of the May Coalition leaders to our lists so that when the day comes just like all other threats this one will be ended."
  POL_ban_trade_unions_tt:0 "Strikes are banned, organizer names are put into lists, the unions are filled with men loyal to our regime, there is only one step left to destory the threat of organized labor. That step is the complete abolition of trade unions. Once the unions are banned then we can mark one more threat done with, and move on towards the final preparations for our purge."
  POL_names_and_addresses_tt:0 "§YUnlocks More Decisions To Prepare For The Purge§!"
+ POL_begin_surveillance_on_anti_dmowskist_nationalists_tt:0 "Although much of the nationalist opposition has been destoryed, there are still enemies within the state. To combat this it is imparative that we begin now and prepare for the swift and simultaneous extermination of the opposition. The first step of this is to begin patrols by the secret police on the activites of the opposition. Once we have sufficently begun survaillence then we can move onto the next step of destorying the nationalist opposition."
  
  
  
@@ -211,6 +239,7 @@
  POL_ban_the_may_coalition:0 "Ban The May Coalition"
  POL_gather_names_and_addresses_of_may_coalition_leaders:0 "Gather Names and Addresses Of May Coalition Leaders"
  POL_ban_trade_unions:0 "Ban Trade Unions"
+ POL_begin_surveillance_on_anti_dmowskist_nationalists:0 "Begin Surveillance on Anti-Dmowskist Nationalists"
  
  
  

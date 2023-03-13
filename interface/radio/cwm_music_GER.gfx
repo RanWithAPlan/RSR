@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_cover"
+		textureFile = "gfx/radio/GER_cover.dds"
+		noOfFrames = 2
+	}
+}

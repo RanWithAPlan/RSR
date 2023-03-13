@@ -1,26 +1,154 @@
 ﻿division_template = {
-	name = "Strelkovaya Polk"		# Army was a single infantry regiment of militia	
+	name = "Khuvisgalt Kheltes"
 
 	division_names_group = TAN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 	}
 }
 
+division_template = {
+	name = "Mongolyn Morin Tsereg"
+
+	division_names_group = TAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Strelkovaya Polk"
+
+	division_names_group = TAN_MNT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
 
 units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Tuvy #####
 	division = {
-		name = "1ya Revolyutsionnaya Polk"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+			}
 		location = 10627
-		division_template = "Strelkovaya Polk"		
+		division_template = "Strelkovaya Polk"
+		start_equipment_factor = 1
+		start_experience_factor = 0.1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+			}
+		location = 10563
+		division_template = "Mongolyn Morin Tsereg"
 		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+			}
+		location = 4777
+		division_template = "Mongolyn Morin Tsereg"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+			}
+		location = 1855
+		division_template = "Mongolyn Morin Tsereg"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+			}
+		location = 7703
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+			}
+		location = 12610
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+			}
+		location = 10597
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+			}
+		location = 1877
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+			}
+		location = 7773
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+			}
+		location = 10669
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+			}
+		location = 10695
+		division_template = "Khuvisgalt Kheltes"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
 	}
 }
 
-##### No air force #####
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

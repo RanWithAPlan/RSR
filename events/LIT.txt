@@ -4,7 +4,7 @@ news_event = { # Socialist Revolution in Lithuania
 	id = lithuania.1 
 	title = lithuania.1.title
 	desc = lithuania.1.desc
-	picture = GFX_
+	picture = GFX_news_event_005
 	
 	major = yes
 	
@@ -12,25 +12,95 @@ news_event = { # Socialist Revolution in Lithuania
 	
 	fire_only_once = yes
 	
-	immediate = {  
-	LIC = {
-	add_state_core = 784
-	add_state_core = 11
-	add_state_core = 814
-	add_state_core = 815
-	add_state_core = 189
-	transfer_state = 784
-	transfer_state = 814
-	transfer_state = 189
-	784 = { set_demilitarized_zone = yes }
-	814 = { set_demilitarized_zone = yes }
-	189 = { set_demilitarized_zone = yes }
+	immediate = { 
+		hidden_effect = {
+			LIC = {
+				add_state_core = 784
+				add_state_core = 11
+				add_state_core = 814
+				add_state_core = 815
+				add_state_core = 189
+				transfer_state = 784
+				transfer_state = 814
+				transfer_state = 189
+					}
+				LIT = {
+					country_event = {
+						id = lithuania.2
+						days = 10
+					}
+				}
+			}
 		}
-	}
 	
 	option = { # The Red Tide Spreads
 		name = lithuania.1.a
 		ai_chance = { factor = 100 }
-		}
 	}
 }
+
+country_event = { # Civil War!
+	id = lithuania.2
+	title = lithuania.2.title
+	desc = lithuania.2.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {  
+		hidden_effect = {
+		LIC = {
+			declare_war_on = {
+			target = LIT
+			type = annex_everything
+				}
+		load_oob = "LIC_1936"
+			}
+		}
+	}
+	option = { # May God Save Us
+		name = lithuania.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = { # Socialist Victory in Lithuanian Civil War
+	id = lithuania.3
+	title = lithuania.3.title
+	desc = lithuania.3.desc
+	picture = GFX_news_event_worker_protests
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	is_triggered_only = no
+	
+	trigger = { 
+		814 = { is_fully_controlled_by = LIC }
+		784 = { is_fully_controlled_by = LIC }
+		11 = { is_fully_controlled_by = LIC }
+		815 = { is_fully_controlled_by = LIC }  
+		189 = { is_fully_controlled_by = LIC }
+		LIT = { exists = no }
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {  
+		hidden_effect = {
+			814 = { remove_core_of = LIT }
+			784 = { remove_core_of = LIT }
+			11 = { remove_core_of = LIT }
+			815 = { remove_core_of = LIT }
+			189 = { remove_core_of = LIT }
+		}
+	}
+	option = { # Another Red Flag Waving 
+		name = lithuania.3.a
+		ai_chance = { factor = 100 }
+	}
+}
+

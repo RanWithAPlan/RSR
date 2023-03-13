@@ -89,6 +89,7 @@ ideologies = {
 	
 		types = {
 			authoritarian_socialism_subtype = {}
+			leninism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -127,6 +128,7 @@ ideologies = {
 	
 		types = {
 			radical_socialism_subtype = {}
+			marxism_engelism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -168,6 +170,7 @@ ideologies = {
 			social_democracy_subtype = {}
 			centrism = {}
 			sociocracy = {}
+			socialist_democracy = {}
 		}
 		
 		dynamic_faction_names = {
@@ -199,7 +202,7 @@ ideologies = {
 			airforce_intel_to_others = 5
 			embargo_cost_factor = -0.5
 			embargo_threshold_factor = -0.5
-			compliance_gain = 0.001
+			compliance_gain = 0.01
 		}
 		
 		faction_modifiers = {
@@ -319,7 +322,7 @@ ideologies = {
 			"FACTION_NAME_CONSERVATIVE_1"
 		}
 		
-		color = { 5 20 105 }
+		color = { 61 104 223 }
 		
 		war_impact_on_world_tension = 0.2
 		faction_impact_on_world_tension = 0.2
@@ -410,6 +413,7 @@ ideologies = {
 			tyrannical_monarchy = {}
 			stratocracy = {}
 			military_junta = {}
+			constitutional_monarchy = {}
 		}
 		
 		dynamic_faction_names = {
@@ -438,13 +442,13 @@ ideologies = {
 			army_intel_to_others = 10.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 10.0
-			training_time_factor = -0.05
+			resistance_damage_to_garrison = -0.05
 			experience_gain_army_factor = 0.05
 		}
 		
 		ai_neutral = yes
 	}
-
+	
 	national_syndicalism = {
 	
 		types = { 
@@ -455,7 +459,7 @@ ideologies = {
 			"FACTION_NAME_NATIONAL_SYNDICALISM_1"
 		}
 		
-		color = { 45 45 45 }
+		color = { 130 76 26 }
 		
 		war_impact_on_world_tension = 1.5	
 		faction_impact_on_world_tension = 1.5
@@ -483,7 +487,7 @@ ideologies = {
 		
 		ai_fascist = yes
 	}
-	
+
 	ultra_reactionary = {
 	
 		types = { 
@@ -496,6 +500,7 @@ ideologies = {
 			legionarism = {}
 			fascismo_italiano = {}
 			national_socialism = {}
+			national_mysticism = {}
 			national_federalism = {}
 			ultranationalism = {}
 			onr_falanga_party = {}
@@ -505,7 +510,7 @@ ideologies = {
 			"FACTION_NAME_ULTRA_REACTIONARY_1"
 		}
 		
-		color = { 130 76 26 }
+		color = { 30 30 30 }
 		
 		war_impact_on_world_tension = 1.5	
 		faction_impact_on_world_tension = 1.5

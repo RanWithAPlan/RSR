@@ -1,0 +1,162 @@
+music_station = "WNC_station"
+music = {
+	song = "Paschendale"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "The Trooper"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Aces High"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Fear of the Dark"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Senjutsu"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Alexander the Great"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "The Final Solution"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "The Red Baron"
+	chance = {
+		factor = 1
+	}
+}music = {
+	song = "Bismarck"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "The Attack of the Dead Men"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Aces in Exile"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "In The Army Now"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "The Price of a Mile"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Talvisota"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "White Death"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Winged Hussars"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Wehrmacht"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "One"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "No Surrender"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "On This Rock I Will Build My Church"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Stratego"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "The Partisan"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Butterflies"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Doctor, Doctor"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Fortunate Son"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Great War"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Warriors Of The World"
+	chance = {
+		factor = 1
+	}
+}

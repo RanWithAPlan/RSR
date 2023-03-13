@@ -16,6 +16,14 @@ leader_traits = {
 	#New Traits
 	
 	#General
+
+	incompetent_despot = {
+		random = no
+		stability_factor = -0.3
+		war_support_factor = -0.3
+		political_power_cost = 0.75
+
+	}
 	
 	#Demagogues
 	

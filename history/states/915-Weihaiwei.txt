@@ -2,25 +2,31 @@ state={
 	id=915
 	name="STATE_915"
 	provinces={
-		4205 
+		10068
 	}
-	manpower = 40000
+	manpower = 2143764
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category = rural
+	state_category = town
 	resources = {
 	}
 	history = {
 		owner = JAP
-		add_core_of = JAP
+		add_core_of = BEY
+		add_claim_by = PUF
+		add_claim_by = KMT
 
 		buildings = {
 			infrastructure = 2
-			4205 = {
-				naval_base = 2
+			industrial_complex = 1
+			10068 = {
+				naval_base = 5
 				coastal_bunker = 1
 				bunker = 1
 			}
+		}
+		victory_points = {
+			10068 20
 		}
 	}
 }

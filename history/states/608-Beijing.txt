@@ -9,23 +9,16 @@ state={
 	history={
 		owner = BEY
 		add_core_of = BEY
+		add_claim_by = KMT
+		add_claim_by = PUF
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 4
+			arms_factory = 3
 			air_base = 3
-			10068 = {
-				naval_base = 2
-			}
 		}
 		victory_points = {
-			9843 20
-		}
-		victory_points = {
-			10068 1 
-		}
-
-		1938.10.25 = {
-			controller = JAP
+			9843 40
 		}
 	}
 

@@ -5,11 +5,15 @@ state={
 	history={
 		owner = BEY
 		add_core_of = BEY
+		add_claim_by = KMT
+		add_claim_by = PUF
 		add_core_of = MON
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-
+		}
+		victory_points = {
+			10424 1
 		}
 	}
 

@@ -1,0 +1,15 @@
+characters = {
+	LIC_revolutionary_council = {
+		name = LIC_revolutionary_council
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1.1"
+			traits = {  }
+			ideology = council_communism_subtype
+		}
+	}
+}

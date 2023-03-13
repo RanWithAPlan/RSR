@@ -15,6 +15,19 @@ GER_executive_council_category = {
 	}
 	priority = 50
 }
+GER_military_factionalism = {
+	icon = army_reform
+}
+GER_unity = {
+	icon = usa_congress
+	allowed = {
+		original_tag = GER
+	}
+	visible_when_empty = yes
+	scripted_gui = GER_unity_decision_ui	
+
+	priority = 85
+}
 GER_regional_planning_category = {
 	icon = generic_industry
 	visible = {

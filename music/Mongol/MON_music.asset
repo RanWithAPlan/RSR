@@ -1,0 +1,116 @@
+music = {
+	name = "againstrome"
+	file = "againstrome.ogg"
+}
+music = {
+	name = "archers"
+	file = "archers.ogg"
+}
+music = {
+	name = "army"
+	file = "army.ogg"
+}
+music = {
+	name = "beloved"
+	file = "beloved.ogg"
+}
+music = {
+	name = "gobi"
+	file = "gobi.ogg"
+}
+music = {
+	name = "hunnu"
+	file = "hunnu.ogg"
+}
+music = {
+	name = "huns"
+	file = "huns.ogg"
+}
+music = {
+	name = "khan"
+	file = "khan.ogg"
+}
+music = {
+	name = "lake"
+	file = "lake.ogg"
+}
+music = {
+	name = "mongol"
+	file = "mongol.ogg"
+}
+music = {
+	name = "praise"
+	file = "praise.ogg"
+}
+music = {
+	name = "red"
+	file = "red.ogg"
+}
+music = {
+	name = "shoog"
+	file = "shoog.ogg"
+}
+music = {
+	name = "soldier"
+	file = "soldier.ogg"
+}
+music = {
+	name = "temujin"
+	file = "temujin.ogg"
+}
+music = {
+	name = "tibet"
+	file = "tibet.ogg"
+}
+music = {
+	name = "turkic"
+	file = "turkic.ogg"
+}
+music = {
+	name = "tx"
+	file = "tx.ogg"
+}
+music = {
+	name = "wolf"
+	file = "wolf.ogg"
+}
+music = {
+	name = "yuveyuveyu"
+	file = "yuveyuveyu.ogg"
+}
+music = {
+	name = "Sad But True"
+	file = "Sad But True.ogg"
+}
+music = {
+	name = "Shireg Shireg"
+	file = "Shireg Shireg.ogg"
+}
+music = {
+	name = "Song of Women"
+	file = "Song of Women.ogg"
+}
+music = {
+	name = "Sugaan Essena"
+	file = "Sugaan Essena.ogg"
+}
+music = {
+	name = "The Gereg"
+	file = "The Gereg.ogg"
+}
+music = {
+	name = "The Legend of Mother Swan"
+	file = "The Legend of Mother Swan.ogg"
+}
+music = {
+	name = "The Same"
+	file = "The Same.ogg"
+}
+music = {
+	name = "Through The Never"
+	file = "Through The Never.ogg"
+}
+music = {
+	name = "Wolf Totem 2"
+	file = "Wolf Totem 2.ogg"
+}

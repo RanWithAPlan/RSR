@@ -5,19 +5,24 @@ state={
 	history={
 		owner = SHA
 		add_core_of = SHA
-
+		add_claim_by = KMT
+		add_claim_by = PUF
+		victory_points = {
+			1200 1
+		}
+		victory_points = {
+			13276 5
+		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 3
 		}
 	}
 
 	provinces={
-		1104 1200 4186 7105 10018
+		1104 1184 1200 4071 4157 4186 4205 7105 7089 10018 12074 13276
 	}
-	manpower=19166600
+	manpower=15456700
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=4.000
 }

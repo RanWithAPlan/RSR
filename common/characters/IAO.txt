@@ -6,34 +6,97 @@ characters={
 		name = IAO_paul_von_lettow_vorbeck
 		portraits={
 			civilian={
-				large="GFX_portrait_ger_von_lettow_vorbeck"
+				large="GFX_portrait_IAO_paul_von_lettow_vorbeck"
+				small="GFX_advisor_IAO_paul_von_lettow_vorbeck"
 			}
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={ great_war_hero	}
+			traits={ great_war_hero	unbeatable_leader }
 			expire="1965.1.1.1"
 		}
 		portraits={
 			army={
-				large="GFX_portrait_ger_von_lettow_vorbeck"
+				large="GFX_portrait_IAO_paul_von_lettow_vorbeck"
+				small="GFX_advisor_IAO_paul_von_lettow_vorbeck"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits = { trickster war_hero media_personality jungle_rat }
-				skill = 4
-				id = 499
+				skill = 5
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 2
 				logistics_skill = 5
 		}
 	}
+	
+	IAO_victoria_louise={
+		name = IAO_victoria_louise
+		gender = female
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_victoria_louise"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={ princess_of_prussia patron_of_tanzania }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	IAO_heinrich_himmler={
+		name = IAO_heinrich_himmler
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_heinrich_himmler"
+			}
+		}
+		country_leader={
+			ideology=national_mysticism
+			traits={ reichsfuhrer_SS }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	IAO_joseph_goebbels={
+		name = IAO_joseph_goebbels
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_joseph_goebbels"
+			}
+		}
+		country_leader={
+			ideology=national_socialism
+			traits={ father_of_modern_propaganda careerist_master }
+			expire="1965.1.1.1"
+		}
+	}
 
 
 ###################################################################################################Advisors
 
+###################################################################################################Officers
 
+	IAO_imani_shahkulu={
+		name = IAO_imani_shahkulu
+		gender = female
+		portraits={
+			army={
+				large="GFX_portrait_IAO_imani_shahkulu"
+				small="GFX_advisor_IAO_imani_shahkulu"
+			}
+		}
+		corps_commander={
+			traits = { harsh_leader organizer career_officer }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 3
+		}
+	}
 
 
 

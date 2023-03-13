@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_ZHI_Cao_Kun"
+        texturefile = "gfx/leaders/ZHI/portrait_ZHI_Cao_Kun.png"
+    }
+}

@@ -2,19 +2,26 @@ characters = {
 	#Romans Army
 	ACD_roman_von_ungern_sternberg = {
 		name = ACD_roman_von_ungern_sternberg
-		portraits = {
-			army = {
-				large = "GFX_roman_von_ungern_sternberg_large"
+		portraits={
+			civilian={
+				large="GFX_roman_von_ungern_sternberg_large"
 			}
 		}
 		country_leader = {
 			ideology= ultra_reactionary_subtype
 			traits = {
+				the_mad_baron
 				spirit_of_kangchenjunga
 			}
+			desc = ACD_roman_von_ungern_sternberg_civil_war_desc
 			expire="1965.1.1.1"
 		}
-
+		portraits = {
+			army = {
+				large = "GFX_roman_von_ungern_sternberg_large"
+				small = "GFX_roman_von_ungern_sternberg_small"
+			}
+		}
 		field_marshal = {
     		traits = { }
     		skill = 3
@@ -379,7 +386,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = autoctarcy_subtype
+			ideology = autoctracy_subtype
 			traits = {
 				holy_warrior
 			}

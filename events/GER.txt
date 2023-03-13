@@ -59,10 +59,6 @@ country_event = {
 	        ideology = anarchism
 	        popularity = 0.05
         }
-        add_popularity = {
-	        ideology = council_communism
-	        popularity = -0.05
-        }
         set_country_flag = GER_anarchisten_election 
         country_event = {
             id = socgermany_council.1
@@ -88,10 +84,6 @@ country_event = {
         add_popularity = {
 	        ideology = radical_socialism
 	        popularity = 0.05
-        }
-        add_popularity = {
-	        ideology = council_communism
-	        popularity = -0.05
         }
         set_country_flag = GER_USPD_election 
         country_event = {
@@ -165,7 +157,6 @@ country_event = {
 		}
     }
 }
-
 country_event = {
     id = socgermany.8
     title = socgermany.8.t
@@ -177,95 +168,50 @@ country_event = {
         ai_chance = {
             base = 20
         }
-        if = {
-            OR = {
-                has_idea = disarmed_nation
-                has_idea = volunteer_only
-            }
-            add_ideas = { limited_conscription }
-        }
+        unlock_national_focus = GER_the_faud_direction
     }
     option = {
         name = socgermany.8.b
         ai_chance = {
             base = 20
         }
-        set_country_flag = conscription_unable
-        custom_effect_tooltip = GER_conscription_unable_tt
-        add_ideas = {
-            GER_motivated_army
+        unlock_national_focus = GER_the_kpd_direction
+    }
+    option = {
+        name = socgermany.8.c
+        ai_chance = {
+            base = 20
         }
-        if = {
-            OR = {
-                has_idea = limited_conscription
-                has_idea = extensive_conscription
-                has_idea = service_by_requirement
-                has_idea = all_adults_serve
-                has_idea = scraping_the_barrel
-            }
-            add_ideas = { volunteer_only }
-        }
+        unlock_national_focus = GER_the_kpd_direction
     }
 }
 
-add_namespace = socgermany_council
+add_namespace = unity_event
 country_event = {
-    id = socgermany_council.1
-    hidden = yes
-    
+    id = unity_event.1
+    title = unity_event.1.t
+    desc = unity_event.1.d
     is_triggered_only = yes
     
     option = {
-        name = socgermany_council.1.a
-        set_variable = { var = GER_anarchisten_seats value = party_popularity@anarchism }
-        set_variable = { var = GER_KPD_seats value = party_popularity@council_communism }
-        set_variable = { var = GER_USPD_seats value = party_popularity@radical_socialism }
-        multiply_variable = { var = GER_anarchisten_seats value = 100 }
-        multiply_variable = { var = GER_KPD_seats value = 100 }
-        multiply_variable = { var = GER_USPD_seats value = 100 }
-        round_variable = GER_anarchisten_seats
-        round_variable = GER_KPD_seats
-        round_variable = GER_USPD_seats
-        set_variable = { var = GER_total_seats_100 value = 100 }
-        set_variable = { var = GER_total_seats value = GER_anarchisten_seats }
-        add_to_variable = { var = GER_total_seats value = GER_KPD_seats }
-        add_to_variable = { var = GER_total_seats value = GER_USPD_seats }
-        subtract_from_variable = { var = GER_total_seats_100 value = GER_total_seats }
-        if = {
-            limit = {
-                has_country_flag = GER_anarchisten_election
-            }   
-            add_to_variable = {
-                var = GER_anarchisten_seats value = GER_total_seats_100
-            }
-            set_variable = { var = GER_anarchisten_seats_change value = -6 }
-            set_variable = { var = GER_KPD_seats_change value = 3 }
-            set_variable = { var = GER_USPD_seats_change value = 3 }
+        name = unity_event.1.a
+        ai_chance = {
+            base = 20
         }
-        else_if = {
-            limit = {
-                has_country_flag = GER_KPD_election
-            }   
-            add_to_variable = {
-                var = GER_KPD_seats value = GER_total_seats_100
-            }
-            set_variable = { var = GER_KPD_seats_change value = -6 }
-            set_variable = { var = GER_anarchisten_seats_change value = 3 }
-            set_variable = { var = GER_USPD_seats_change value = 3 }
+        set_politics = { ruling_party = anarchism}
+    }
+    option = {
+        name = unity_event.1.b
+        ai_chance = {
+            base = 20
         }
-        else_if = {
-            limit = {
-                has_country_flag = GER_USPD_election
-            }   
-            add_to_variable = {
-                var = GER_USPD_seats value = GER_total_seats_100
-            }
-            set_variable = { var = GER_USPD_seats_change value = -6 }
-            set_variable = { var = GER_anarchisten_seats_change value = 3 }
-            set_variable = { var = GER_KPD_seats_change value = 3 }
+        set_politics = { ruling_party = council_communism }
+    }
+    option = {
+        name = unity_event.1.c
+        ai_chance = {
+            base = 20
         }
-        clear_variable = GER_total_seats_100
-        clear_variable = GER_total_seats
-        set_country_flag = GER_executive_council_on
+        set_politics = { ruling_party = radical_socialism }
     }
 }

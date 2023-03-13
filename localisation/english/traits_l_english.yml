@@ -29,11 +29,11 @@
  rfb_officer_desc:0 "This general supports the RFB, and will remain loyal to them in the event of a conflict."
  nva_officer:0 "NVA Officer"
  nva_officer_desc:0 "This general supports the NVA, and will remain loyal to them in the event of a conflict."
- 
  #Mongolia
  beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
  battlemistress:0 "Battlemistress"
-
+ #china
+ incompetent_despot:0 "Incompetent Despot"
 
 
 

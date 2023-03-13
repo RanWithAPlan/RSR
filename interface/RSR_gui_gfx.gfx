@@ -1,0 +1,13 @@
+spriteTypes = {
+	#Germany
+	progressbartype = {
+		name = "GFX_unity_strength_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/GER_unity/unity_strength.dds"
+		textureFile2 = "gfx/interface/GER_unity/unity_bg.dds"
+		size = { x = 250 y = 15}
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100 #the amount of tiles
+	}
+}

@@ -121,6 +121,58 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_empower_sergeant.png"
 	}
 	SpriteType = {
+		name = "GFX_GER_faud_direction"
+		texturefile = "gfx/interface/goals/GER_faud_direction.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_dealing_with_the_autocrats"
+		texturefile = "gfx/interface/goals/GER_dealing_with_the_autocrats.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_emulating_the_italian_model"
+		texturefile = "gfx/interface/goals/GER_emulating_the_italian_model.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_curb_the_excess"
+		texturefile = "gfx/interface/goals/GER_curb_the_excess.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_denationalise_military_industry"
+		texturefile = "gfx/interface/goals/GER_denationalise_military_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_cut_the_bureaucracy"
+		texturefile = "gfx/interface/goals/GER_cut_the_bureaucracy.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_kpd_direction"
+		texturefile = "gfx/interface/goals/GER_kpd_direction.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_refugee_recruitment_drive"
+		texturefile = "gfx/interface/goals/GER_refugee_recruitment_drive.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_solidify_chain_of_command"
+		texturefile = "gfx/interface/goals/GER_solidify_chain_of_command.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_maintain_federalism"
+		texturefile = "gfx/interface/goals/GER_maintain_federalism.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_reorganise_the_production_front"
+		texturefile = "gfx/interface/goals/GER_reorganise_the_production_front.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_peoples_production_for_a_peoples_army"
+		texturefile = "gfx/interface/goals/GER_peoples_production_for_a_peoples_army.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_ending_the_despotism"
+		texturefile = "gfx/interface/goals/GER_ending_the_despotism.png"
+	}
+	SpriteType = {
 		name = "GFX_"
 		texturefile = "gfx/interface/goals/.png"
 	}

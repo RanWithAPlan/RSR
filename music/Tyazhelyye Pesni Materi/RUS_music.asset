@@ -1,0 +1,72 @@
+music = {
+	name = "Hell March 2"
+	file = "Hell March 2.ogg"
+}
+music = {
+	name = "Hell March 3"
+	file = "Hell March 3.ogg"
+}
+music = {
+	name = "Hell March Remix"
+	file = "Hell March Remix.ogg"
+}
+music = {
+	name = "Grinder"
+	file = "Grinder.ogg"
+}
+music = {
+	name = "Drok"
+	file = "Drok.ogg"
+}
+music = {
+	name = "Moscow"
+	file = "Moscow.ogg"
+}
+music = {
+	name = "Moskau"
+	file = "Moskau.ogg"
+}
+music = {
+	name = "Bielyje Rozy"
+	file = "Bielyje Rozy.ogg"
+}
+music = {
+	name = "Kasatschok Loy Loy"
+	file = "Kasatschok Loy Loy.ogg"
+}
+music = {
+	name = "Polyushka Polye"
+	file = "Polyushka Polye.ogg"
+}
+music = {
+	name = "Katusha"
+	file = "Katusha.ogg"
+}
+music = {
+	name = "Smuglianka"
+	file = "Smuglianka.ogg"
+}
+music = {
+	name = "Sgori"
+	file = "Sgori.ogg"
+}
+music = {
+	name = "Tajik"
+	file = "Tajik.ogg"
+}
+music = {
+	name = "Stalin Subway"
+	file = "Stalin Subway.ogg"
+}
+music = {
+	name = "Rasputin"
+	file = "Rasputin.ogg"
+}
+music = {
+	name = "Soviet March"
+	file = "Soviet March.ogg"
+}
+music = {
+	name = "March of the Communist Brigades"
+	file = "March of the Communist Brigades.ogg"
+}
