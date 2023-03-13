@@ -1,6 +1,6 @@
 state=
 {
-	id=933
+	id=939
 	name="STATE_939" # Asyut
 	manpower = 2224516
 	

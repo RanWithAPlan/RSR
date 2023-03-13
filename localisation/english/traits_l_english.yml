@@ -1,16 +1,31 @@
 ﻿l_english:
- #advisors
+ #generic advisors
  voice_of_anarchy:0 "Voice of Anarchy"
+ voice_of_anarchy_desc:0 "A politician who will work increase the support for §AAnarchism§!."
  party_newspaper_editor:0 "Party Newspaper Editor"
+ party_newspaper_editor_desc:0 "A politician who will work to increase the support for Council Communism."
  devoted_communist:0 "Devoted Communist"
+ devoted_communist_desc:0 "A politician who will work to increase the support for Radical Socialism."
+ soul_of_red:0 "Soul of Red"
+ soul_of_red_desc:0 "A politician who will work to increase the support for Vanguard Socialism."
  prominent_reformer:0 "Prominent Reformer"
+ prominent_reformer_desc:0 "A politician who will work to increase the support for Social Democracy."
  gospeler_of_progress:0 "Gospeler of Progress"
+ gospeler_of_progress_desc:0 "A politician who will work to increase the support for Progressive Liberalism."
  competitive_capitalist:0 "Competitive Capitalist"
+ competitive_capitalist_desc:0 "A politician who will work to increase the support for Freemarket Liberalism."
  stedfast_traditionalist:0 "Stedfast Traditionalist"
+ stedfast_traditionalist_desc:0 "A politician who will work to increase the support for Conservative Democracy."
+ will_of_iron:0 "Will of Iron"
+ will_of_iron_desc:0 "A politician who will work to increase the support for Authoritarian Democracy."
  direct_power_supporter:0 "Direct-Power Supporter"
+ direct_power_supporter_desc:0 "A politician who will work to increase the support for Autocracy."
  propaganda_master:0 "Propaganda Master"
+ propaganda_master_desc:0 "A politician who will work to increase the support for National Syndicalism."
  fanatic_extremist:0 "Fanatic Extremist"
- #Germany
+ fanatic_extremist_desc:0 "A politician who will work to increase the support for National Hegemonism."
+ 
+ ###Germany
  council_of_peers:0 "Council of Peers"
  anarchisten_majority:0 "Anarchisten Majority"
  dezentralisten_majority:0 "Dezentralisten Majority"
@@ -28,13 +43,33 @@
  rfb_officer_desc:0 "This general supports the RFB, and will remain loyal to them in the event of a conflict."
  nva_officer:0 "NVA Officer"
  nva_officer_desc:0 "This general supports the NVA, and will remain loyal to them in the event of a conflict."
- #Mongolia
+ 
+ ###Soviet Union
+ father_of_revolution:0 "§VFather of Revolution§!"
+
+ ### Uriankhai Marxist Union ###
+ anti_monarchist:0 "Anti-Monarchist"
+ anti_monarchist_desc:0 ""
+
+ ### Royal Gov. of Mongolia ###
+ battlemistress:0 "§tBattlemistress§!"
+ battlemistress_desc:0 ""
  beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
- battlemistress:0 "Battlemistress"
- #china
- incompetent_despot:0 "Incompetent Despot"
+ beloved_queen_of_mongolia_desc:0 ""
 
-
+ ### Asiatic Cavalry Division ###
+ spirit_of_kangchenjunga:0 "Spirit of Kangchenjunga"
+ spirit_of_kangchenjunga_desc:0 ""
+ ACD_friendly_rivalry:0 "Friendly Rivalry"
+ ACD_friendly_rivalry_desc:0 ""
+ prince_of_yakutia:0 "Prince of Yakutia"
+ prince_of_yakutia_desc:0 ""
+ prince_of_buyratia:0 "Prince of Buyratia"
+ prince_of_buyratia_desc:0 ""
+ mercenary_leader:0 "Mercenary Leader"
+ mercenary_leader_desc:0 ""
+ holy_warrior:0 "Holy Warrior"
+ holy_warrior_desc:0 ""
 
 
  #Vanilla 
