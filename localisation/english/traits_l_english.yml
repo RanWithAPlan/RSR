@@ -86,7 +86,6 @@
  fascist_demagogue_desc:0 "§LDriven by a will to unite the people under a strong state, this politician emphasizes nationalist and militarist rhetoric.§!"
  staunch_monarchist:0 "Staunch Monarchist"
  staunch_monarchist_desc:0 "§LThis politician believes that a hereditary ruler serves as a powerful icon to unite the country.§!"
-
  ideological_crusader:0 "Ideological Crusader"
  shadow_of_calles:0 "Shadow of Calles"
  social_reformer:0 "Social Reformer"
@@ -1172,7 +1171,7 @@
  political_reformer_1:0 "Political Reformer"
  political_reformer_2_no_lar:0 "$political_reformer_1$"
  political_reformer_2:0 "$political_reformer_1$"
- ITA_political_reformer_tt:0 "  - All Advisors Cost: §G-25%§!"
+ ITA_political_reformer_tt:1 "All Advisors Cost: §G-25%§!"
  hierarch_minister_of_foreign_affairs:0 "Hierarch - Minister of Foreign Affairs"
  hierarch_minister_of_justice:0 "Hierarch - Minister of Justice"
  hierarch_minister_of_education:0 "Hierarch - Minister of Education"
@@ -1241,7 +1240,7 @@
  SWI_humanitarian:0 "Humanitarian"
  SWI_small_arms_designer:0 "Weapons Designer"
  SWI_guisan_leader_trait:0 "Popular Dictator"
- SWI_weapons_designer:1 "Weapons designer"
+ SWI_weapons_designer:1 "Weapons Designer"
  SWI_soviet_spy:0 "Soviet Spy"
  
  constitutional_philosopher:0 "Constitutional Philosopher"
@@ -1249,3 +1248,6 @@
  communist_orator:0 "Resistance Orator"
  harsh_propagandist:0 "Harsh Propagandist"
  SWI_brandy_the_st_bernard_trait:0 "Incompetent councilor"
+ 
+ evans_deakin_trait:0 "Pacific Venture"
+ cockatoo_trait:0 "Light Ship Specialist"
