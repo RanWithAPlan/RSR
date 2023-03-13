@@ -1,6 +1,12 @@
 spriteTypes = {	
 
 	#Germany
+	
+	spriteType = {
+		name = "GER_thule_society"
+		texturefile = "gfx/interface/ideas/GER/thule_society.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_GER_tension_on_the_rhine_3"
 		texturefile = "gfx/interface/ideas/GER/GER_tension_on_the_rhine_3.dds"

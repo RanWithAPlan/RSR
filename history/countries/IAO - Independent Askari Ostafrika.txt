@@ -7,9 +7,21 @@ oob = "IAO_1936"
 #Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	motorised_infantry = 1
+	tech_logistics_company = 1
 }
 
 #Characters
+#leaders
+recruit_character = IAO_paul_von_lettow_vorbeck
+recruit_character = IAO_heinrich_himmler
+#advisors
+#army
+recruit_character = IAO_imani_shahkulu
 
 #Ideas
 add_ideas = {
@@ -19,7 +31,21 @@ add_ideas = {
 set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 20
-set_research_slots = 2
+set_research_slots = 3
+add_manpower = 160000
+
+#Diplomacy, put puppets, wars, factions, and other such things here
+give_military_access = ENG
+diplomatic_relation = {
+    country = ENG
+    relation = docking_rights
+    active = yes
+}
+diplomatic_relation = {
+    country = ENG
+    relation = non_aggression_pact
+    active = yes
+}
 
 #Politics
 set_politics = {
@@ -31,16 +57,16 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 5
+	anarchism = 0
 	council_communism = 0
 	authoritarian_socialism = 0
-	radical_socialism = 4
+	radical_socialism = 0
 	social_democracy = 0
 	progressive_liberalism = 0
-	freemarket_liberalism = 1
-	conservative_democracy = 0
-	authoritarian_democracy = 0
-	autocracy = 65
-	national_syndicalism = 5
+	freemarket_liberalism = 0
+	conservative_democracy = 5
+	authoritarian_democracy = 5
+	autocracy = 70
+	national_syndicalism = 0
 	ultra_reactionary = 20
 }
