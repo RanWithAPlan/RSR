@@ -1,10 +1,10 @@
 characters = {
 
-	EGY_MTNP = {
+	EGP_MTNP = {
 	name = "Mohamed Tawfik Naseem Pasha"
 	portraits = {
 			civilian = {
-				large = GFX_portrait_Muhammad_Naguib
+				large="GFX_portrait_EGP_MTNP"
 			}
 		}
 	country_leader = {

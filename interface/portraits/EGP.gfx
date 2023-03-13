@@ -1,0 +1,6 @@
+spriteTypes = {
+#Mohamed Tawfik Naseem Pasha
+	spriteType = {
+		name = "GFX_portrait_EGP_MTNP"
+		texturefile = "gfx/leaders/EGP/portrait_EGP_MTNP.png"
+	}

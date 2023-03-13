@@ -7,7 +7,7 @@ state=
 	state_category = rural
 	
 	history = {
-		owner = EGY
+		owner = EGP
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -16,7 +16,7 @@ state=
 			11974 1
 		}
 
-		add_core_of = EGY
+		add_core_of = EGP
 
 	}
 	provinces={

@@ -120,7 +120,7 @@ ECU = {
 	color_ui = rgb { 255 190 127 }
 }
 
-EGY = {
+EGP = {
 	color = rgb { 255  255  0 }
 	color_ui = rgb { 255  255  0 }
 }
