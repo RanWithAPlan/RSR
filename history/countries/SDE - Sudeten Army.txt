@@ -66,6 +66,7 @@ set_popularities = {
 	autocracy = 20
   	national_syndicalism = 0
   	ultra_reactionary = 50
+	}
 }
 
 #Variants

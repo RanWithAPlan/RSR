@@ -7,7 +7,6 @@ state={
 	history={
 		owner = IAO
 		buildings = {
-			arms_factory = 1
 			infrastructure = 2
 			5210 = {
 				naval_base = 2

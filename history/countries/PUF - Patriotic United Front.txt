@@ -7,7 +7,9 @@ oob = "PUF_1936"
 set_technology = {
 	infantry_weapons = 1
 }
-
+add_ideas = {
+	japanese_economic_dominance1
+}
 set_politics = {
 	ruling_party = anarchism
 	last_election = "1936.1.1"

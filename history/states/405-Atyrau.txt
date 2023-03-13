@@ -5,8 +5,7 @@ state = {
 
 	history = {
 	
-		owner = TAJ
-		add_core_of = TAJ
+		owner = SOV
 		
 		victory_points = {
 			1459 3 

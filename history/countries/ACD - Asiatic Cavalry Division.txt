@@ -1,18 +1,12 @@
-﻿capital = 563
+﻿capital = 819
 
 #Order of Battle
-
-oob = "ACD_1936"
-
 #Army
-#Air
-#Navy
+oob = "ACD_1936"
 
 #Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
 }
 
 #Characters
@@ -43,35 +37,32 @@ recruit_character = ACD_nikolai_skoblin
 
 #Ideas
 add_ideas = {
-	all_adults_serve
-	war_economy
+
 }
 
-#Miscellaneous, put country_flags, upcoming events, and such here
-set_stability = 0.5
-set_war_support = 0.5
-set_convoys = 0
+#Miscellaneous 
+set_stability = 0.35
+set_war_support = 0.70
 set_research_slots = 2
 
-#Diplomacy, put puppets, wars, factions, and other such things here
-declare_war_on = {
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
 		target = MON
 		type = annex_everything
 	}
-declare_war_on = {
-		target = TAN
-		type = annex_everything
-	}
+}
 
 #Politics
 set_politics = {
-	ruling_party = ultra_reactionary
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-#Popularities
 set_popularities = {
 	anarchism = 0
 	council_communism = 0
@@ -82,9 +73,7 @@ set_popularities = {
 	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
-	autocracy = 30
-	national_syndicalism = 0
-	ultra_reactionary = 70
+    autocracy = 40
+    national_syndicalism = 0
+    ultra_reactionary = 60
 }
-
-#Variants

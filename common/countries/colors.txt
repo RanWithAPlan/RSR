@@ -75,11 +75,6 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 
-CCE = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
-}
-
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -245,6 +240,11 @@ LAT = {
 	color_ui = rgb { 50 50 194 }
 }
 
+LBA = {
+	color = rgb { 56 56 56 }
+	color_ui = rgb { 76 76 76 }
+}
+
 LIB = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
@@ -376,8 +376,8 @@ SAR = {
 }
 
 SHA = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 186 153 37  }
+	color_ui = rgb { 251 222 10 }
 }
 
 SHX = {
@@ -401,7 +401,10 @@ SOV = {
 	color = rgb { 183 13 0 }
 	color_ui = rgb { 233 73 60 }
 }
-
+SOM = {
+	color = rgb { 175 0 0}
+	color_ui = rgb { 200 0 0 }	
+}
 SDE = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -480,4 +483,9 @@ YUG = {
 YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
+}
+
+GXC = {
+	color = rgb { 72 49 112 }
+	color_ui = rgb { 72 49 112 }
 }

@@ -1,0 +1,17 @@
+characters = {
+	SHA_zhang_zongchang = {
+		name = SHA_zhang_zongchang_name
+		desc = SHA_zhang_zongchang_desc
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SHA_Zhang_Zongchang"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { incompetent_despot }
+			ideology = autocracy_subtype
+		}
+	}
+}

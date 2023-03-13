@@ -1,0 +1,21 @@
+state={
+	id=938
+	name="STATE_938"
+	provinces={
+		1139 1180 4058 4114 4144 4538 4606 7074 10421 12062 12078
+	}
+	history={
+		owner = ZHI
+		add_core_of = ZHI
+		add_claim_by = KMT
+		add_claim_by = PUF
+		add_claim_by = BEY
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1600000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

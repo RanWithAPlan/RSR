@@ -1,0 +1,16 @@
+characters = {
+	SHX_yan_xishan = {
+		name = SHX_yan_xishan_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SHX_RSR_Yan_Xishan"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { }
+			ideology = autocracy_subtype
+		}
+	}
+}

@@ -4,8 +4,13 @@ state={
 	name="STATE_717"
 
 	history={
-		owner = CCE
-		add_core_of = CCE
+		owner = BEY
+		add_core_of = BEY
+		add_claim_by = KMT
+		add_claim_by = PUF
+		victory_points = {
+			9623 1
+		}
 		buildings = {
 			infrastructure = 2
 

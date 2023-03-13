@@ -1,4 +1,4 @@
-﻿capital = 608
+﻿capital = 914
 
 #Order of Battle
 #Army
@@ -10,9 +10,12 @@ set_technology = {
 }
 
 #Characters
+recruit_character = SHA_zhang_zongchang
 
 #Ideas
 add_ideas = {
+	japanese_economic_dominance1
+	red_spear_society
 }
 
 #Miscellaneous
@@ -23,7 +26,7 @@ set_research_slots = 2
 
 #Politics
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,16 +34,12 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 100
-	council_communism = 0
-	authoritarian_socialism = 0
-	radical_socialism = 0
-	social_democracy = 0
-	progressive_liberalism = 0
-	freemarket_liberalism = 0
-	conservative_democracy = 0
-	authoritarian_democracy = 0
-	autocracy = 0
+	autocracy = 45
+	council_communism = 5
+	authoritarian_socialism = 5
+	radical_socialism = 5
+	social_democracy = 5
+	authoritarian_democracy = 15
   	national_syndicalism = 0
-  	ultra_reactionary = 0
+  	ultra_reactionary = 20
 }

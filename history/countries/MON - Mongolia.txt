@@ -28,7 +28,6 @@ recruit_character = MON_songgotu_kangan
 recruit_character = MON_fu_shangzhi
 #advisors
 recruit_character = MON_yekiegurin
-#generals
 
 #Ideas
 add_ideas = {
@@ -38,13 +37,10 @@ add_ideas = {
 
 
 #Miscellaneous, put country_flags, upcoming events, and such here
-set_stability = 0.3
+set_stability = 0.2
 set_war_support = 0.7
 set_convoys = 0
 set_research_slots = 3
-add_manpower = 100000
-set_major = yes
-set_cosmetic_tag = MON_WAR_autocracy
 
 #Diplomacy, put puppets, wars, factions, and other such things here
 
@@ -58,18 +54,18 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 5
+	anarchism = 3
 	council_communism = 20
 	authoritarian_socialism = 12
-	radical_socialism = 8
+	radical_socialism = 7
 	social_democracy = 0
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
-	conservative_democracy = 0
-	authoritarian_democracy = 0
+	conservative_democracy = 4
+	authoritarian_democracy = 1
 	autocracy = 50
 	national_syndicalism = 0
-	ultra_reactionary = 5
+	ultra_reactionary = 3
 }
 
 #Variants

@@ -1,116 +1,72 @@
 ﻿l_english:
 
- #Anarchism
- anarchism:0 "§AAnarchism§!"
- anarchism_noun:0 "§AAnarchism§!"
- anarchism_desc:0 "Stateless"
- anarchism_drift:0 "§AAnarchism§! drift"
- anarchism_acceptance:0 "§AAnarchism§! acceptance"
  
- anarchism_subtype:0 "§Anarchism§!"
+ anarchism:0 "Anarchism"
+ anarchism_desc:0 "Stateless"
+ 
+ anarchism_subtype:0 "Anarchism"
  anarchism_subtype_desc:0 "United under a desire destroy coercive hierarchy, Anarchism is an extremely broad ideology. Often called terrorists due to acts of propaganda by the deed, Anarchists have found their home in many different places."
 
- #Vanguard Socialism
- authoritarian_socialism:0 "§VVanguard Socialism§!"
- authoritarian_socialism_noun:0 "§VVanguard Socialism§!"
+ authoritarian_socialism:0 "Authoritarian Socialism"
  authoritarian_socialism_desc:0 "Socialist"
- authoritarian_socialism_drift:0 "§VVanguard Socialism§! drift"
- authoritarian_socialism_acceptance:0 "§VVanguard Socialism§! acceptance"
 
- authoritarian_socialism_subtype:0 "§VVanguard Socialism§!"
- leninism:0 "§VLeninism§!"
+ authoritarian_socialism_subtype:0 "Authoritarian Socialism"
  
- #Radical Socialism
- radical_socialism:0 "§rRadical Socialism§!"
- radical_socialism_noun:0 "§rRadical Socialism§!"
+ radical_socialism:0 "Radical Socialism"
  radical_socialism_desc:0 "Socialist"
- radical_socialism_drift:0 "§rRadical Socialism§! drift"
- radical_socialism_acceptance:0 "§rRadical Socialism§! acceptance"
  
- radical_socialism_subtype:0 "§rRadical Socialism§!"
- marxism_engelism:0 "§rMarxism-Engelism§!"
+ radical_socialism_subtype:0 "Radical Socialism"
 
- #Council Communism
- council_communism:0 "§cCouncil Communism§!"
- council_communism_noun:0 "§cCouncil Communism§!"
- council_communism_desc:0 "Communist"
- council_communism_drift:0 "§cCouncil Communism§! drift"
- council_communism_acceptance:0 "§cCouncil Communism§! acceptance"
+ council_communism:0 "Council Communism"
+ council_communism_desc:0 "Socialist"
  
- council_communism_subtype:0 "§cCouncil Communism§!"
+ council_communism_subtype:0 "Council Communism"
  
- #Social Democracy
- social_democracy:0 "§SSocial Democracy§!"
- social_democracy_noun:0 "§SSocial Democracy§!"
- social_democracy_desc:0 "Democratic"
- social_democracy_drift:0 "§SSocial Democracy§! drift"
- social_democracy_acceptance:0 "§SSocial Democracy§! acceptance"
+ social_democracy:0 "Social Democracy"
+ social_democracy_desc:0 "Social Democracy"
  
- social_democracy_subtype:0 "§SSocial Democracy§!"
+ social_democracy_subtype:0 "Social Democracy"
  
- #Progressive Liberalism
- progressive_liberalism:0 "§PProgressive Liberalism§!"
- progressive_liberalism_noun:0 "§PProgressive Liberalism§!"
- progressive_liberalism_desc:0 "Democratic"
- progressive_liberalism_drift:0 "§PProgressive Liberalism§! drift"
- progressive_liberalism_acceptance:0 "§PProgressive Liberalism§! acceptance"
+ progressive_liberalism:0 "Progressive Liberalism"
+ progressive_liberalism_desc:0 "Progressive Democracy"
  
- progressive_liberalism_subtype:0 "§PProgressive Liberalism§!"
+ progressive_liberalism_subtype:0 "Progressive Liberalism"
  
- #Freemarket Liberalism
- freemarket_liberalism:0 "§FFreemarket Liberalism§!"
- freemarket_liberalism_noun:0 "§FFreemarket Liberalism§!"
- freemarket_liberalism_desc:0 "Democratic"
- freemarket_liberalism_drift:0 "§FFreemarket Liberalism§! drift"
- freemarket_liberalism_acceptance:0 "§FFreemarket Liberalism§! acceptance"
+ freemarket_liberalism:0 "Freemarket Liberalism"
+ freemarket_liberalism_desc:0 "Democratic Capitalist"
  
- freemarket_liberalism_subtype:0 "§FFreemarket Liberalism§!"
+ freemarket_liberalism_subtype:0 "Freemarket Liberalism"
  
- #Conservative Democracy
- conservative_democracy:0 "§DConservative Democracy§!"
- conservative_democracy_noun:0 "§DConservative Democracy§!"
- conservative_democracy_desc:0 "Democratic"
- conservative_democracy_drift:0 "§DConservative Democracy§! drift"
- conservative_democracy_acceptance:0 "§DConservative Democracy§! acceptance"
+ conservative_democracy:0 "Conservative Democracy"
+ conservative_democracy_desc:0 "Conservative Democracy"
  
- conservative_democracy_subtype:0 "§DConservative Democracy§!"
+ conservative_democracy_subtype:0 "Conservative Democracy"
  
- #Authoritarian Democracy
- authoritarian_democracy:0 "§aAuthoritarian Democracy§!"
- authoritarian_democracy_noun:0 "§aAuthoritarian Democracy§!"
- authoritarian_democracy_desc:0 "Authoritarian"
- authoritarian_democracy_drift:0 "§aAuthoritarian Democracy§! drift"
- authoritarian_democracy_acceptance:0 "§aAuthoritarian Democracy§! acceptance"
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Democratic"
  
- authoritarian_democracy_subtype:0 "§aAuthoritarian Democracy§!"
+ authoritarian_democracy_subtype:0 "Authoritarian Democracy"
  
- #Autocracy
- autocracy:0 "§MAutocracy§!"
- autocracy_noun:0 "§MAutocracy§!"
+ autocracy:0 "Autocracy"
  autocracy_desc:0 "Authoritarian"
- autocracy_drift:0 "§MAutocracy§! drift"
- autocracy_acceptance:0 "§MAutocracy§! acceptance"
  
- autocracy_subtype:0 "§MAutocracy§!"
- 
- #National Hegemonism
- ultra_reactionary:0 "§hNational Hegemonism§!"
- ultra_reactionary_noun:0 "§hNational Hegemonism§!"
- ultra_reactionary_desc:0 "Reactionary"
- ultra_reactionary_drift:0 "§hNational Hegemonism§! drift"
- ultra_reactionary_acceptance:0 "§hNational Hegemonism§! acceptance"
- 
- ultra_reactionary_subtype:0 "§hNational Hegemonism§!"
- national_mysticism:0 "§hNational Mysticism§!"
- national_socialism:0 "§hNational Socialism§!"
+ autocracy_subtype:0 "Autocracy"
 
- #National Syndicalism
- national_syndicalism:0 "§sNational Syndicalism§!"
- national_syndicalism_noun:0 "§sNational Syndicalism§!"
- national_syndicalism_desc:0 "Reactionary"
- national_syndicalism_drift:0 "§sNational Syndicalism§! drift"
- national_syndicalism_acceptance:0 "§sNational Syndicalism§! acceptance"
+ national_syndicalism:0 "National Syndicalism"
+ national_syndicalism_desc:0 "Reactionairy"
 
- national_syndicalism_subtype:0 "§sNational Syndicalism§!"
+ national_syndicalism_subtype:0 "National Syndicalism"
+ 
+ ultra_reactionary:0 "Ultra-Reactionary"
+ ultra_reactionary_desc:0 "Ultra-Reactionary"
+ ultra_reactionary_noun:0 "Reactionary"
+ 
+ ultra_reactionary_subtype:0 ""Ultra-Reactionary""
+ subtype_national_federalism:0 "National Federalism"
+ subtype_ultranationalism:0 "Ultranationalism"
+ onr_falanga_party:0 "Ultra-Reactionary"
+ onr_falanga_party_desc:0 "§8The Ruch Narodowo Radykalny§!\nFormed in the wake of the failed May Coup the ONR or National Radical Camp quickly accended to power after Piłsudski failed coup. With promises of acting as a nationalist vanguard to both protect Poland from its socialist enemies, but also from its internal enemies public support for the ONR soared, and quickly became a part of the mainstream Polish nationalist movement. This quickly caught the eye of Polish leader and nationalist Roman Dmowkski who seeing the ONR's potential invited them to the first National Congress of Poland. At this congress which established the National Congress as a counter weight to Dmowkski the ONR joined the congress' so called 'National Coalition' which acted as a union of all nationalist parties in Poland. Although starting as simply another member of the coalition and sending delagates to the congress, their power quickly spread until in 1934 when the ONR member Bolesław Piasecki won the position of 'Speaker of The National Congress'. From there the ONR's power skyrocketed and by 1936 it has become the defacto politcal party of Poland.\n\n§8The Ruch Narodowo Radykalny-Falanga§!\nThe ONR-Falanaga is the Falangist branch of the ONR which although being led by Bolesław Piasecki acts as more of a bridge between the ever increasingly Falangist ideas of Dmowkski, and the ONR. The Falanaga is the largest subsection of the ONR, but just because of its size and connections with Dmowksi it still isn't immune to plotters and backstabers, some of whom might hold the highest positions of power."
+ 
+ ultra_reactionary_drift:0 "Reactionary Drift"
  
  

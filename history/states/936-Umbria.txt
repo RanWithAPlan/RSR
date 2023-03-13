@@ -1,0 +1,21 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		3885 6926 9794 13270 13271 13272 
+	}
+	history = {
+		add_core_of = ITA
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13272 1
+		}
+	}
+	manpower=696000	
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
