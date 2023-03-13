@@ -71,14 +71,6 @@ ideas = {
 				opinion_gain_monthly_factor = -0.1
 			}
 		}
-		GER_bloated_military = {
-			picture = GER_bloated_military
-			modifier = {
-				industrial_capacity_factory = 0.1
-				production_speed_buildings_factor = -0.1
-				consumer_goods_factor = 0.05
-			}
-		}
 		GER_female_soldiers = {
 			picture = idea_generic_women_in_the_army
 			modifier = {
@@ -94,11 +86,10 @@ ideas = {
 				planning_speed = -0.15
 			}
 		}
-		GER_bloated_military1 = {
-			picture = GER_bloated_military
+		GER_haven_for_refugees = {
+			picture = GER_haven_for_refugees
 			modifier = {
-				industrial_capacity_factory = 0.05
-				production_speed_buildings_factor = -0.05
+				monthly_population = 0.05
 			}
 		}
 		GER_industrial_drive = {
@@ -235,14 +226,6 @@ ideas = {
 				industry_air_damage_factor = -0.2
 			}
 		}
-		GER_motivated_army = {
-			picture = GER_
-			modifier = {
-				army_morale_factor = 0.05
-				army_core_attack_factor = 0.05
-				army_defence_factor = 0.05
-			}
-		}
 		idea_fourth_international1 = {
 			modifier = {
 				political_power_gain = 0.10
@@ -279,6 +262,122 @@ ideas = {
 				tag = POL
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
+			}
+		}
+		GER_campaign_against_military_authoritarianism = {
+			picture = GER_
+			modifier = {
+				resistance_target  = -0.10
+				compliance_growth  = 0.20 
+			}
+		}
+		GER_decentralised_military_democracy = {
+			picture = GER_
+			modifier = {
+				resistance_target  = -0.10
+				compliance_growth  = 0.20
+				conscription = 0.01
+				training_time_army_factor = -0.10
+			}
+		}
+		GER_decentralised_military_democracy1 = {
+			picture = GER_
+			modifier = {
+				resistance_target  = -0.10
+				compliance_growth  = 0.20
+				conscription = 0.01
+				training_time_army_factor = -0.10
+				planning_speed = 0.20
+				supply_consumption_factor = -0.05
+			}
+		}
+		GER_curb_the_excess = {
+			picture = GER
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.1
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		GER_denationalised_military_industry = {
+			picture = GER
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.1
+					build_cost_ic = -0.05
+				}
+			}			
+		}
+		GER_denationalised_military_industry1 = {
+			picture = GER
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				line_change_production_efficiency_factor = 0.10
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.1
+					build_cost_ic = -0.05
+				}
+			}
+		}
+		GER_haven_for_refugees1 = {
+			picture = GER_haven_for_refugees
+			modifier = {
+				monthly_population = 0.05
+				conscription = 0.01
+			}
+		}
+		GER_solidify_chain_of_command_idea = {
+			picture = GER_radio
+			modifier = {
+				army_org_regain = 0.10
+				army_org_factor = 0.05
+			}
+		}
+		GER_military_federalism = {
+			picture = GER_military_democracy
+			modifier = {
+				army_org_regain = 0.10
+				army_org_factor = 0.05
+				max_planning = 0.20
+			}
+		}
+		GER_military_federalism1 = {
+			picture = GER_military_democracy
+			modifier = {
+				army_org_regain = 0.10
+				army_org_factor = 0.05
+				army_morale_factor = 0.10
+				max_planning = 0.20
+			}
+		}
+		GER_reorganise_the_production_front_idea = {
+			picture = GER_proletarian_productivity
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		GER_peoples_production_for_a_peoples_army_idea = {
+			picture = GER_peoples_production
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_arms_factory_factor = 0.10
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+		GER_peoples_production_for_a_peoples_army_idea1 = {
+			picture = GER_peoples_production
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_arms_factory_factor = 0.10
+				production_factory_start_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 	}

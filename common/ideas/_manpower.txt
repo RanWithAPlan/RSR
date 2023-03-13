@@ -4,6 +4,28 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
+		GER_ideological_volunteers = {		
+			level = 8
+			cost = 100
+			picture = volunteer_only
+			modifier = {
+				army_morale_factor = 0.10
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				experience_loss_factor = -0.20
+				mobilization_speed = 0.020
+				conscription = 0.020
+			}
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+
 		GMA_colonial_army = {
 			level = 8
 			removal_cost = -1

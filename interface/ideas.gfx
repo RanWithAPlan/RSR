@@ -40,7 +40,22 @@ spriteTypes = {
 		name = "GFX_idea_GER_USPD_industry"
 		texturefile = "gfx/interface/ideas/GER/GER_USPD_industry.png"
 	}
-
+	spriteType = {
+		name = "GFX_idea_GER_haven_for_refugees"
+		texturefile = "gfx/interface/ideas/GER/GER_haven_for_refugees.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_radio"
+		texturefile = "gfx/interface/ideas/GER/GER_radio.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_military_democracy"
+		texturefile = "gfx/interface/ideas/GER/GER_military_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_peoples_production"
+		texturefile = "gfx/interface/ideas/GER/GER_peoples_production.png"
+	}
 	#Poland
 	spriteType = {
 		name = "GFX_idea_idea_POL_divided_government"

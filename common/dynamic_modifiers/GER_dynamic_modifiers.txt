@@ -47,3 +47,7 @@ GER_road_to_war_idea = {
 	war_support_factor = GER_road_to_war_war_support_factor
 	stability_factor = GER_road_to_war_stability_factor
 }
+GER_unity_idea = {
+	political_power_gain = GER_unity_pp_gain
+	stability_factor = GER_unity_stability_factor
+}

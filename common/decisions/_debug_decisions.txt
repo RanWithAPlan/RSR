@@ -21,6 +21,7 @@ debug_decisions = {
 			recruit_character = GER_heinz_hoffmann
 			recruit_character = GER_margit_zinke
 			recruit_character = GER_georg_boeselager
+			recruit_character = GER_hans_luck
 		}
 	}
 	activate_council_mechanic_ger_debug = {

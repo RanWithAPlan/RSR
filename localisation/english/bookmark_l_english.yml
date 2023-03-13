@@ -1,0 +1,19 @@
+﻿l_english:
+l_english:
+ BM_HISTORY_TITLE:0 "Brief History"
+ GATHERING_STORM_NAME:0 "Gathering Storm"
+ GATHERING_STORM_DESC:0 "Dark times are coming. In Europe, Hitler has consolidated his power and his attention is now increasingly drawn beyond Germany's borders. Mussolini's Italy continues to embark on daring military adventures, while the Empire of Japan stands poised to attack China in Asia. Almost twenty years have passed since the end of the Great War, and the world has yet again been doused in gasoline. A single spark may be all it takes."
+ ### Majors ###
+ FRA_GATHERING_STORM_DESC:0 ""
+ USA_GATHERING_STORM_DESC:0 ""
+ ENG_GATHERING_STORM_DESC:0 ""
+ GER_GATHERING_STORM_DESC:0 ""
+ ITA_GATHERING_STORM_DESC:0 ""
+ JAP_GATHERING_STORM_DESC:0 ""
+ EAU_GATHERING_STORM_DESC:0 ""
+
+ ### MINORS ###
+ #Mongolian Civil War
+ MON_GATHERING_STORM_DESC:0 "The Mongolian State existed under the rule of Bogd Khan until 1919 when Anhui Clique decided to yet again deprive Mongolian nation of their freedom. In 1920, Khan was assassinated by a group of Tuvan-Mongol collaborators, same day as Anhui fell under the assault of the Mad Baron. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continues until today. Even if Mongols achieve victory, torn apart after years of devastating conflict, Mongolia and its people will have to not only rebuild their nation, but also again find their place in the world."
+ ACD_GATHERING_STORM_DESC:0 "Test"
+ TAN_GATHERING_STORM_DESC:0 "Test"

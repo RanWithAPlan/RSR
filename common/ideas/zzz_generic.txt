@@ -2,7 +2,7 @@ ideas = {
 
 	hidden_ideas = {
 	
-	limit = {NOT = { original_tag = MON original_tag = EGY} }
+	limit = {NOT = { original_tag = MON} }
 		
 		league_of_nations_member_idea = { 
 			allowed = {

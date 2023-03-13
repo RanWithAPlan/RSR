@@ -1,38 +1,94 @@
 GER_unity = {
-    GER_debug_unity_add_5 + {
-		icon = generic_research
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-		visible = {
-			always = yes
-			tag = GER
-		}
+    GER_next_election = {
+        available = {
+            always = no
+        }
 		fire_only_once = no
-		cost = 0
-		complete_effect = {
+        days_mission_timeout = 120
+        priority = 80
+        timeout_effect = {
+            country_event = unity_event.1
+            activate_mission = GER_next_election
+        }
+    }
+    GER_unity_drum_up_support = {
+		icon = generic_speech
+		fire_only_once = no
+        days_remove = 40
+        days_re_enable = 140
+		cost = 30
+        priority = 70
+        modifier = {
+            political_power_gain = -0.30
+        }
+		remove_effect = {
 			add_to_variable = {
                 var = unity_number value = 5
             }
 		}
     }
-    GER_debug_unity_subtract_5 + {
-		icon = generic_research
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-		visible = {
-			tag = GER
-		}
+    GER_unity_concessions = {
+		icon = eng_trade_unions_support
 		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			subtract_from_variable = {
-                var = unity_number value = 5
+        days_remove = 20
+        days_re_enable = 120
+		cost = 20
+        priority = 60
+        modifier = {
+            political_power_gain = -0.10
+        }
+		remove_effect = {
+			add_to_variable = {
+                var = unity_number value = 3
             }
 		}
+    }
+    GER_lessen_state_intervention = {
+        icon = gre_paying_ifc_debt
+		visible = {
+            has_government  = anarchism
+		}
+		fire_only_once = no
+        days_remove = 100
+        days_re_enable = 100
+		cost = 50
+        priority = 60
+        modifier = {
+            consumer_goods_factor = -0.05
+            production_factory_efficiency_gain_factor = 0.10
+        }
+    }
+    GER_empower_the_councils = {
+        icon = generic_civil_support
+		visible = {
+            has_government  = council_communism
+		}
+		fire_only_once = no
+        days_remove = 100
+        days_re_enable = 100
+		cost = 30
+        priority = 60
+        modifier = {
+            political_power_factor = 0.15
+        }
+    }
+    GER_strengthen_the_executive_council = {
+        icon = SOV_place_hq
+		visible = {
+            has_government  = radical_socialism
+		}
+		fire_only_once = no
+        days_remove = 100
+        days_re_enable = 100
+		cost = 50
+        priority = 60
+        modifier = {
+            stability_weekly = 0.001
+            political_advisor_cost_factor = -0.3
+            mobilization_laws_cost_factor = -0.3
+            trade_laws_cost_factor = -0.3
+            economy_cost_factor = -0.3
+        }
     }
 }
 GER_executive_council_category = {

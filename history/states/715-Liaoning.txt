@@ -6,14 +6,21 @@ state={
 	state_category = town
 
 	history={
-		owner = CCE
-		add_core_of = CCE
+		owner = BEY
+		add_core_of = BEY
+		add_claim_by = KMT
+		add_claim_by = PUF
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
+			victory_points = {
+				11836 5 
+			}
 		}
-
+		victory_points = {
+			4561 1 
+		}
 	}
 
 	provinces={

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_TAN_donduk_kuular"
+		texturefile = "gfx/leaders/TAN/portrait_TAN_donduk_kuular.png"
+	}
+}

@@ -1,0 +1,36 @@
+music = {
+	name = "Bij bolszewika"
+	file = "Bij bolszewika.ogg"
+}
+music = {
+	name = "Czerwone maki na Monte Cassino"
+	file = "Czerwone maki na Monte Cassino.ogg"
+}
+music = {
+	name = "Marsz Pierwszej Dywizji Pancernej"
+	file = "Marsz Pierwszej Dywizji Pancernej.ogg"
+}
+music = {
+	name = "My Pierwsza Brygada"
+	file = "My Pierwsza Brygada.ogg"
+}
+music = {
+	name = "Przybyli ułani pod okienko"
+	file = "Przybyli ułani pod okienko.ogg"
+}
+music = {
+	name = "Rota"
+	file = "Rota.ogg"
+}
+music = {
+	name = "Szara Piechota"
+	file = "Szara Piechota.ogg"
+}
+music = {
+	name = "Żurawiejki"
+	file = "Żurawiejki.ogg"
+}
+music = {
+	name = "Ławeczka"
+	file = "Ławeczka.ogg"
+}

@@ -1,9 +1,9 @@
 characters={
 	LIT_antanas_smetona = {
-		name = LIT_antanas_smetona
+		name = "Antanas Smetona"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_LIT_antanas_smetona_large
+				large = ""
 			}
 		}
 		country_leader = {

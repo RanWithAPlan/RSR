@@ -1,0 +1,6 @@
+spriteTypes = {
+#Lenin
+	spriteType = {
+		name = "GFX_portrait_SOV_vladimir_lenin"
+		texturefile = "gfx/leaders/SOV/portrait_SOV_vladimir_lenin.png"
+	}

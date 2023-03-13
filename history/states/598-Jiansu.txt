@@ -3,25 +3,36 @@ state={
 	id=598
 	name="STATE_598"
 	
-	state_category = town
+	state_category = city
 
 	history={
-		owner = PUF
-		add_core_of = PUF
+		owner = SHA
+		add_core_of = SHA
+		add_claim_by = KMT
+		add_claim_by = PUF
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
+			dockyard = 1
 		}
-
-		1938.10.25 = {
-			controller = JAP
+		victory_points = {
+			4148 10
+		}
+		victory_points = {
+			12067 5
+		}
+		victory_points = {
+			12055 1
+		}
+		victory_points = {
+			4091 3
 		}
 	}
 
 	provinces={
-		1001 1029 1076 1121 1161 4001 4005 4031 4082 4123 4148 7025 7142 7181 7200 9953 9956 10095 11973 12055 12067 13144 
+		1001 1029 1076 1089 1121 1161 4001 4005 4031 4082 4091 4123 4148 7025 7142 7181 7200 9953 9956 10095 11928 11973 12055 12067 13144 
 	}
-	manpower=23669300
+	manpower=27799300
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

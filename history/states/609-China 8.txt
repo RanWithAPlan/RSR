@@ -7,8 +7,10 @@ state={
 	state_category = town
 
 	history={
-		owner = CCE
-		add_core_of = CCE
+		owner = BEY
+		add_core_of = BEY
+		add_claim_by = KMT
+		add_claim_by = PUF
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -16,6 +18,9 @@ state={
 			3900 = {
 				naval_base = 2
 			}
+		}
+		victory_points = {
+			3900 3
 		}
 
 	}

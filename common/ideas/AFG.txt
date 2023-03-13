@@ -1,0 +1,76 @@
+ideas = {
+	country = {
+		
+		the_graveyard_of_empires = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_core_attack_factor = 0.8
+				army_core_defence_factor = 0.8
+				supply_combat_penalties_on_core_factor = -0.8
+				surrender_limit = 0.9
+				resistance_activity = 0.5
+			}
+		}
+		mass_illiteracy = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				research_speed_factor = -0.35
+			}
+		}
+		clan_conservatism = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				master_ideology_drift = -0.05
+				research_speed_factor = -0.15
+			}
+		}
+		local_conflicts = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+			}
+		}
+	}
+}

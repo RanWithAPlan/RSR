@@ -75,11 +75,6 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 
-CCE = {
-	color = rgb { 233  59  59 }
-	color_ui = rgb { 155 62 51 }
-}
-
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -381,8 +376,8 @@ SAR = {
 }
 
 SHA = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 186 153 37  }
+	color_ui = rgb { 251 222 10 }
 }
 
 SHX = {
@@ -488,4 +483,9 @@ YUG = {
 YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
+}
+
+GXC = {
+	color = rgb { 72 49 112 }
+	color_ui = rgb { 72 49 112 }
 }

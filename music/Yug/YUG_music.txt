@@ -1,0 +1,222 @@
+music_station = "YUG_station"
+music = {
+	song = "Igra rokenrol cela Jugoslavija"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Panteri Mauzer"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Crni Bombarder"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Teslićka Brigada"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Marshi | UÇK"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Karadžiću, vodi Srbe svoje"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Bosanska Artiljerija"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Bojna Čavoglave"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Garda e Kosovës"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Uz Maršala Tita"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "My Dad is a War Criminal"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Albulena"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}
+music = {
+	song = "Marshi UÇK"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = YUG
+			tag = BOS
+			tag = CRO
+			tag = SER
+			tag = SLV
+			tag = MNT
+			tag = MAC
+			tag = ALB
+		}
+	}
+}

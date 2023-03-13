@@ -90,8 +90,8 @@ division_template = {
 	support = 	{
 		military_police = { x = 0 y = 0 }
 	}
+	is_locked = yes
 	priority = 0
-	is_locked = yes 
 }
 division_template = {
 	name = "Mekhanizirovaniy Korpus" 				# Represents regular mechanized corps (4 existed in 1935-38); 
@@ -110,6 +110,7 @@ division_template = {
 		motorized = { x = 2 y = 3 }		
 	}
 }
+
 division_template = {
 	name = "Vozdushno-Desantnaya Brigada"			# Airborne Brigade
 	division_names_group = SOV_PAR_01
@@ -119,6 +120,7 @@ division_template = {
 		paratrooper = { x = 0 y = 1 }
 	}
 }
+
 
 ### Note: OOB abstracts away the following:
 #	Marine Brigade (3x marine bn), 2 Brigades: Leningrad, Sevastopol
@@ -219,7 +221,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 150 }
+		}
 	}
 
 	### Leningraskaya Gruppa Armiya (Leningrad Army Group) -- Leningrad ###
@@ -253,6 +257,7 @@ units = {
 		location = 6174
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 200 } }
 	}
 	# Subordinate to AG
 	division= {			
@@ -260,6 +265,9 @@ units = {
 		location = 149
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 150 }
+		}
 	}
 	
 		
@@ -304,7 +312,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 250 }
+		}
 	}
 
 	# 5ya Strelkoviy Korpus
@@ -347,6 +357,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+		}
 
 	}
 
@@ -511,7 +524,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 150 }
+		}
 	}
 
 	# 3ya Strelkoviy Korpus		
@@ -582,6 +597,9 @@ units = {
 		location = 6380
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+		}
 	}
 
 
@@ -942,7 +960,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 150 }
+		}
 	}
 
 	# 6ya Strelkoviy Korpus		
@@ -985,7 +1005,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 1x H Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+		}
 	}
 
 	# 17ya Strelkoviy Korpus		
@@ -1053,6 +1075,9 @@ units = {
 		location = 11437
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 250 }
+		}
 	}
 
 
@@ -1649,7 +1674,9 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = {
+			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+		}
 	}
 
 	# Subordinate to VO
@@ -1674,7 +1701,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 36
 		}
-		location = 4719
+		location = 7854
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -1686,7 +1713,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 57
 		}
-		location = 12622
+		location = 12565
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -1698,7 +1725,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 93
 		}
-		location = 10559
+		location = 12543
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -1712,7 +1739,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 12641
+		location = 10658
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -1784,6 +1811,156 @@ units = {
 	}			
 }					
 
+air_wings = {
+	# LVO Aviatsya Komandovaniya -- Leningrad
+	195 = { 
+		# 15ya Istrebitel'nye Aviabrigada
+		small_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-15"
+		}
+		# 18ya Bombardirovochnye Aviabrigada
+		medium_plane_airframe_0 =  {
+			owner = "SOV" 
+			amount = 60
+			version_name = "DB-3"
+		}
+	}
+
+	# MVO Aviatsya Komandovaniya
+	219 = {
+		# 2ya Istrebitel'nye Aviabrigada
+		small_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-15"
+		}
+		# 3ya Dal'nyaya Bombardirovochnye Aviabrigada
+		# 13ya Dal'nyaya Bombardirovochnye Aviabrigada
+		large_plane_airframe_0 =  {
+			owner = "SOV" 
+			amount = 48
+			version_name = "TB-3"
+		}
+		# TODO -- 46ya Transporta Aviabrigada -- transport planes
+	}
+
+	# BOVO Aviatsya Komandovaniya -- Minsk
+	206 = {
+		# 8ya Istrebitel'nye Aviabrigada
+		small_plane_airframe_1 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-16"
+		}
+		# 14ya Istrebitel'nye Aviabrigada
+		small_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-15"
+		}
+		# 16ya Bombardirovochnye Aviabrigada
+		medium_plane_airframe_0 =  {
+			owner = "SOV" 
+			amount = 60
+			version_name = "DB-3"
+		}
+	}
+
+	# KOVO Aviatsya Komandovaniya -- Kiev
+	202 = {
+		# 17ya Istrebitel'nye Aviabrigada
+		small_plane_airframe_1 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-16"
+		}
+		# 1ya Bombardirovochnye Aviabrigada
+		# 10ya Bombardirovochnye Aviabrigada
+		medium_plane_airframe_0 =  {
+			owner = "SOV" 
+			amount = 60
+			version_name = "DB-3"
+		}
+		medium_plane_airframe_0 =  {
+			owner = "SOV" 
+			amount = 60
+			version_name = "DB-3"
+		}
+	}
+
+	# Dal'nevostochniy Aviatsya Komandovaniya -- Vladivostock	
+	408 = {
+		# 12ya Istrebitel'nye Aviabrigada
+		# 20ya Istrebitel'nye Aviabrigada
+		small_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-15"
+		}
+		small_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 94
+			version_name = "I-15"
+		}
+		# 5ya Dal'nyaya Bombardirovochnye Aviabrigada
+		large_plane_airframe_0 =  {
+			owner = "SOV" 
+			amount = 24
+			version_name = "TB-3"
+		}
+	}
+
+	# VVS - KBF Aviatsya Komandovaniya -- Leningrad
+	195 = {
+		# 8ya VMF Aviabrigada
+		medium_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 54
+			version_name = "DB-3"
+		}
+	}
+	# VVS - BSF Aviatsya Komandovaniya -- Sevastopol
+	137 = {
+		# 4ya VMF Aviabrigada
+		medium_plane_airframe_0 = {
+			owner = "SOV" 
+			amount = 54
+			version_name = "DB-3"
+		}
+	}
+}
+
+
+		
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "SOV" 
+			version_name = "I-16"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_1
+			creator = "SOV" 
+			version_name = "ANT-40"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+}
 
 		
 	#########################
@@ -1824,8 +2001,9 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_equipment_1
+			type = light_tank_chassis_2
 			creator = "SOV" 
+			version_name = "BT-7"
 		}
 		requested_factories = 3
 		progress = 0.4
@@ -1842,4 +2020,5 @@ instant_effect = {
 		efficiency = 50
 	}
 }
+
 	#####################

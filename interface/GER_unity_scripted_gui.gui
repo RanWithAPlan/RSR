@@ -24,5 +24,21 @@ guiTypes = {
 			position = { x= -120 y = 5 }
 			Orientation = "CENTER"
 		}
+
+		instantTextBoxType = {
+			name ="unity_text_box"
+			position = { x = 160 y = 5 }
+			font = "hoi_18mbs"
+			text = "GER_unity_text_box"
+			format = center
+		}
+
+		instantTextBoxType = {
+			name ="paranoia_tooltip"
+			position = { x = 160 y = 5 }
+			maxwidth = 230
+			maxHeight = 185
+			pdx_tooltip = GER_unity_gui_tooltip
+		}
 	}
 }

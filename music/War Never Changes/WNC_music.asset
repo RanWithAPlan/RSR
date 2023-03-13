@@ -1,0 +1,108 @@
+music = {
+	name = "Paschendale"
+	file = "Paschendale.ogg"
+}
+music = {
+	name = "The Trooper"
+	file = "The Trooper.ogg"
+}
+music = {
+	name = "Aces High"
+	file = "Aces High.ogg"
+}
+music = {
+	name = "Fear of the Dark"
+	file = "Fear of the Dark.ogg"
+}
+music = {
+	name = "Senjutsu"
+	file = "Senjutsu.ogg"
+}
+music = {
+	name = "Alexander the Great"
+	file = "Alexander the Great.ogg"
+}
+music = {
+	name = "The Final Solution"
+	file = "The Final Solution.ogg"
+}
+music = {
+	name = "The Red Baron"
+	file = "The Red Baron.ogg"
+}
+music = {
+	name = "Bismarck"
+	file = "Bismarck.ogg"
+}
+music = {
+	name = "The Attack of the Dead Men"
+	file = "The Attack of the Dead Men.ogg"
+}
+music = {
+	name = "Aces in Exile"
+	file = "Aces in Exile.ogg"
+}
+music = {
+	name = "In The Army Now"
+	file = "In The Army Now.ogg"
+}
+music = {
+	name = "The Price of a Mile"
+	file = "The Price of a Mile.ogg"
+}
+music = {
+	name = "Talvisota"
+	file = "Talvisota.ogg"
+}
+music = {
+	name = "White Death"
+	file = "White Death.ogg"
+}
+music = {
+	name = "Winged Hussars"
+	file = "Winged Hussars.ogg"
+}
+music = {
+	name = "Wehrmacht"
+	file = "Wehrmacht.ogg"
+}
+music = {
+	name = "One"
+	file = "One.ogg"
+}
+music = {
+	name = "No Surrender"
+	file = "No Surrender.ogg"
+}
+music = {
+	name = "On This Rock I Will Build My Church"
+	file = "On This Rock I Will Build My Church.ogg"
+}
+music = {
+	name = "Stratego"
+	file = "Stratego.ogg"
+}
+music = {
+	name = "The Partisan"
+	file = "The Partisan.ogg"
+}
+music = {
+	name = "Butterflies"
+	file = "Butterflies.ogg"
+}
+music = {
+	name = "Doctor, Doctor"
+	file = "Doctor Doctor.ogg"
+}
+music = {
+	name = "Fortunate Son"
+	file = "Fortunate Son.ogg"
+}
+music = {
+	name = "Great War"
+	file = "Great War.ogg"
+}
+music = {
+	name = "Warriors Of The World"
+	file = "Warriors Of The World.ogg"
+}

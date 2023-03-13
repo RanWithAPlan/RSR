@@ -141,21 +141,15 @@ bookmarks = {
 				ITA_a_colonial_empire
 			}		
 		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+		"MON"={
+			history = "MON_GATHERING_STORM_DESC"
+			ideology = autocracy
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
-			}	
+			}
 			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}			
+			}
 		}
-		"EAU"={
+		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
@@ -170,7 +164,7 @@ bookmarks = {
 				SOV_reconvene_the_zemsky_sobor
 			}	
 		}
-		"EAU"={
+		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
@@ -206,60 +200,7 @@ bookmarks = {
 				CAN_join_comintern
 			}
 		}
-		"AST"={
-			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				AST_great_depression_1
-			}
-			focuses = {
-				AST_never_another_gallipoli
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
-			}
-		}
-		"NZL"={
-			minor = yes
-			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				
-			}
-			focuses = {
-				NZL_bob_semple_tank
-				NZL_independent_new_zealand
-				NZL_maori_volunteers
-			}
-		}
-		"SAF"={
-			minor = yes
-			history = "SAF_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				SAF_ossewabrandwag
-				SAF_history_of_segregation
-			}
-			focuses = {
-				SAF_secure_interests_in_africa
-				SAF_support_the_german_coup
-				SAF_anti_colonialist_crusade
-			}
-		}
-		"RAJ"={
-			minor = yes
-			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				RAJ_agrarian_society
-				RAJ_princely_states
-			}
-			focuses = {
-				RAJ_all_india_forward_bloc
-				RAJ_indian_gurkhas
-				RAJ_the_smiling_buddha
-			}
-		}
+
 		"CZE"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
@@ -334,170 +275,6 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		"PRC"={
-			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}
-		"MAN"={
-			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
-		
-		"GXC"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SHX"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"XSM"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
-		
-		"MEX"={
-			minor = yes
-			history = "MEXICO_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				MEX_church_power_2
-				MEX_politicised_army
-				MEX_oil_concessions
-			}
-			focuses = {
-				MEX_focus_aztec_eagles
-				MEX_focus_hispanic_alliance
-				MEX_focus_smash_the_bureaucrats
-			}
-		}
-
-		"HOL"={
-			minor = yes
-			history = "NETHERLANDS_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				HOL_wilhelmina
-				HOL_shell_shocked_spectator_5
-				HOL_de_crisisjaren_5
-			}
-			focuses = {
-				HOL_continue_the_war_in_batavia
-				HOL_liberation
-				HOL_prepare_the_inundation_lines
-			}
-		}
-
-		"SPR"={
-			minor = yes
-			history = "SPAIN_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				SPR_military_disloyalty
-				SPA_carlism_1
-				SPR_political_violence
-			}
-			focuses = {
-				SPA_caudillo_of_spain
-				SPA_no_compromise_on_carlist_ideals
-				SPR_anarchism_knows_no_borders
-			}
-		}
-
-		"POR"={
-			minor = yes
-			history = "PORTUGAL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				POR_unstable_republic
-				POR_unreliable_army
-			}
-			focuses = {
-				POR_estado_novo
-				POR_workers_of_iberia_unite
-				POR_luso_tropicalism
-			}
-		}
 
 		"BUL"={
 			minor = yes
@@ -546,52 +323,6 @@ bookmarks = {
 				TUR_pivot_to_the_past
 			}
 		}
-		
-		
-		"LIT"={
-			minor = yes
-			history = "LIT_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				LIT_agrarian_society
-				LIT_iron_wolf_idea_bad_1
-			}
-			focuses = {
-				LIT_free_voldemares
-				LIT_a_king_for_our_people
-				LIT_reminder_of_true_enemy
-			}
-		}
-		
-		"LAT"={
-			minor = yes
-			history = "LAT_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				LAT_perkonkrust_idea
-				democratic_opposition
-			}
-			focuses = {
-				LAT_military_dictatorship
-				LAT_womens_aizsargi
-				LAT_the_old_ways
-			}
-		}
-		
-		"EST"={
-			minor = yes
-			history = "EST_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				EST_vaps_idea_1
-				democratic_opposition
-			}
-			focuses = {
-				EST_era_of_silence
-				EST_fight_the_vaps
-				EST_unite_our_nations
-			}
-		}
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
@@ -607,44 +338,33 @@ bookmarks = {
 				POL_the_between_the_seas_concept
 			}
 		}
-		"ETH"={
-			minor = yes
-			history = "ETH_GATHERING_STORM_DESC"
-			ideology = neutrality
+		
+		"JAP"={
+		minor = yes
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
-				ETH_conservative_high_command_idea
-				ETH_the_heroes_of_adwa_idea
-				ETH_on_our_own_idea
-			}
+				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
+			}	
 			focuses = {
-				ETH_rally_around_the_emperor
-				ETH_reach_out_to_the_italians
-				ETH_military_communism
-			}
+				JAP_the_zero
+				JAP_warrior_spirit
+				JAP_strike_on_the_southern_resource_area
+			}			
 		}
-		"SWI"={
+		
+		"IAO"={
 			minor = yes
-			history = "SWI_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				SWI_swiss_neutrality
-				SWI_foreign_fascist_propaganda
-			}
-			focuses = {
-				SWI_national_redoubt
-				SWI_take_a_stance
-				SWI_the_new_eidgenossenschaft
-			}
-		}
-		"MON"={
-			minor = yes
-			history = "MON_GATHERING_STORM_DESC"
+			history = "IAO_GATHERING_STORM_DESC"
 			ideology = autocracy
 			ideas = {
 			}
 			focuses = {
 			}
 		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
