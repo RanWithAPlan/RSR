@@ -114,3 +114,39 @@ music = {
 	name = "Wolf Totem 2"
 	file = "Wolf Totem 2.ogg"
 }
+music = {
+	name = "Altain Chimeg"
+	file = "Altain Chimeg.ogg"
+}
+music = {
+	name = "Arvan Khoyor Jil"
+	file = "Arvan Khoyor Jil.ogg"
+}
+music = {
+	name = "I am a Tuvan"
+	file = "I am a Tuvan.ogg"
+}
+music = {
+	name = "Jangar"
+	file = "Jangar.ogg"
+}
+music = {
+	name = "Arvan Khoyor Jil"
+	file = "Arvan Khoyor Jil.ogg"
+}
+music = {
+	name = "Mongol Ulsyn Töriin Duulal"
+	file = "Mongol Ulsyn Töriin Duulal.ogg"
+}
+music = {
+	name = "Naadmyn Magtaal"
+	file = "Naadmyn Magtaal.ogg"
+}
+music = {
+	name = "National Anthem of Mongolia"
+	file = "National Anthem Mongolia.ogg"
+}
+music = {
+	name = "State Anthem of the Mongolian People's Republic"
+	file = "State Anthem of the Mongolian Peoples Republic.ogg"
+}

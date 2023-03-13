@@ -299,3 +299,83 @@ music = {
 		}
 	}
 }
+music = {
+	song = "Altain Chimeg"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "Arvan Khoyor Jil"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "I am a Tuvan"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "Jangar"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "Mongol Ulsyn Töriin Duulal"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "Naadmyn Magtaal"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "National Anthem of Mongolia"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
+music = {
+	song = "State Anthem of the Mongolian People's Republic"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			tag = MON
+		}
+	}
+}
