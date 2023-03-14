@@ -1,0 +1,19 @@
+characters={
+
+###################################################################################################Leaders
+
+	ALB_ermi_mehmeti={
+		name = ALB_ermir_mehmeti
+		portraits={
+			civilian={
+				large="GFX_portrait_ALB_ermir_mehmeti"
+			}
+		}
+		country_leader={
+			ideology=emancipimism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	
+	}
+}

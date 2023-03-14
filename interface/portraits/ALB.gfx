@@ -1,0 +1,6 @@
+spriteTypes = {
+#Ermir Mehmeti
+	spriteType = {
+		name = "GFX_portrait_ALB_ermir_mehmeti"
+		texturefile = "gfx/leaders/ALB/portrait_ALB_ermir_mehmeti.dds"
+	}
