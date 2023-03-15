@@ -315,7 +315,7 @@ ideologies = {
 			parliamentary_monarchy = {}
 			moderatism = {}
 			traditionalism = {}
-			mild_nationalism = {}
+			british_colonial_government = {}
 		}
 		
 		dynamic_faction_names = {
@@ -361,7 +361,7 @@ ideologies = {
 	
 		types = { 
 			authoritarian_democracy_subtype = {}
-			british_colonial_government = {}
+			mild_nationalism = {}
 		}
 		
 		dynamic_faction_names = {

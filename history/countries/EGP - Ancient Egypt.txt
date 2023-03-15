@@ -1,7 +1,7 @@
 ﻿capital = 907
 
 #Order of Battle
-set_oob = "EGY_1936"
+set_oob = "EGP_1936"
 
 
 #Non-Designer Starting Technology
@@ -31,7 +31,7 @@ set_cosmetic_tag = EGP_UK
 
 #Politics
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = conservative_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -47,8 +47,8 @@ set_popularities = {
 	social_democracy = 0
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
-	conservative_democracy = 10
-	authoritarian_democracy = 5
+	conservative_democracy = 5
+	authoritarian_democracy = 10
 	autocracy = 40
 	national_syndicalism = 0
 	ultra_reactionary = 20
