@@ -15,6 +15,11 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 
+ALA = {
+	color = rgb { 238  247  255 }
+	color_ui = rgb { 238  247  255 }
+}
+
 ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }

@@ -4,3 +4,4 @@ spriteTypes = {
 		name = "GFX_portrait_FIN_carl_gustaf_emil_mannerheim"
 		texturefile = "gfx/leaders/FIN/portrait_FIN_carl_gustaf_emil_mannerheim.png"
 	}
+}

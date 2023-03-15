@@ -5,6 +5,7 @@
 ACD = "countries/Asiatic Cavalry Division.txt"
 AFA = "countries/Afar.txt"
 AFG = "countries/Afghanistan.txt"
+ALA = "countries/Aland.txt"
 ALB = "countries/Albania.txt"
 ARG = "countries/Argentina.txt"
 AST = "countries/Australia.txt"

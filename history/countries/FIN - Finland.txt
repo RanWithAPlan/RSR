@@ -45,8 +45,6 @@ set_technology = {
 #leaders
 recruit_character = FIN_carl_gustaf_emil_mannerheim
 
-set_convoys = 5
-
 #Ideas
 add_ideas = {
 	limited_conscription
@@ -61,6 +59,7 @@ set_research_slots = 3
 add_manpower = 50000
 
 #Diplomacy, put puppets, wars, factions, and other such things here
+
 
 #Politics
 set_politics = {

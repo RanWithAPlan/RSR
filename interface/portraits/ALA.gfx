@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ALA_regional_council"
+		texturefile = "gfx/leaders/ALA/portrait_ALA_regional_council.dds"
+	}
+}
