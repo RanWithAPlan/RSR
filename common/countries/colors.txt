@@ -151,8 +151,8 @@ FRA = {
 }
 
 FIN = {
-	color = rgb { 171 186 222 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 238  247  255 }
+	color_ui = rgb { 238  247  255 }
 }
 
 GER = {

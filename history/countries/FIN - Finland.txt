@@ -1,5 +1,6 @@
 ﻿capital = 111
 
+#Order of Battle
 oob = "FIN_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -7,47 +8,6 @@ if = {
 	else = {
 		set_naval_oob = "FIN_1936_naval_legacy"
 	}
-}
-
-set_research_slots = 3
-
-recruit_character = FIN_risto_heikki_ryti
-recruit_character = FIN_aimo_aaltonen
-recruit_character = FIN_vilho_annala
-recruit_character = FIN_kyosti_kallio
-recruit_character = FIN_carl_mannerheim
-recruit_character = FIN_erik_heinrichs
-recruit_character = FIN_vilho_petter_nenonen
-recruit_character = FIN_olavi_arho
-recruit_character = FIN_valio_porvari
-recruit_character = FIN_jarl_lundqvist
-recruit_character = FIN_hugo_osterman
-recruit_character = FIN_lauri_malmberg
-recruit_character = FIN_olavi_sarko
-recruit_character = FIN_vaino_valve
-recruit_character = FIN_akseli_anttila
-recruit_character = FIN_harald_ohquist
-recruit_character = FIN_eero_rahola
-recruit_character = FIN_karl_oesch
-recruit_character = FIN_lauri_tiainen
-recruit_character = FIN_ralf_torngren
-recruit_character = FIN_antti_hackzell
-recruit_character = FIN_ake_henrik_gartz
-
-
-add_ideas = {
-	limited_conscription
-}
-
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1			
-	interwar_antiair = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	basic_train = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -69,116 +29,65 @@ if = {
 	}
 }
 
+#Non-Designer Starting Technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	basic_train = 1
+}
+
+#Characters
+#leaders
+recruit_character = FIN_carl_gustaf_emil_mannerheim
+
 set_convoys = 5
 
+#Ideas
 add_ideas = {
 	limited_conscription
+	partial_economic_mobilisation
 }
 
-1939.1.1 = {
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "FIN_1939"
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "FIN_1939_air_bba"
-		else = {
-			set_air_oob = "FIN_1939_air_legacy"
-			set_technology = {
-				early_fighter = 1
-				early_bomber = 1
-				CAS1 = 1		
-			}
-		}
-	}
-	set_technology = {
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
+#Miscellaneous, put country_flags, upcoming events, and such here
+set_stability = 0.6
+set_war_support = 0.7
+set_convoys = 80
+set_research_slots = 3
+add_manpower = 50000
 
-		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
+#Diplomacy, put puppets, wars, factions, and other such things here
 
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-}
-
+#Politics
 set_politics = {
-	ruling_party = freemarket_liberalism
-	last_election = "1933.7.1"
-	election_frequency = 36
+	ruling_party = authoritarian_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
+
+#Popularities
 set_popularities = {
-	council_communism = 2
 	anarchism = 0
-	radical_socialism = 2
-	social_democracy = 39
-	progressive_liberalism = 11
-	freemarket_liberalism = 6
-	conservative_democracy = 10
-	authoritarian_democracy = 22
-	autocracy = 0
-	ultra_reactionary = 8
+	council_communism = 0
+	authoritarian_socialism = 15
+	radical_socialism = 0
+	social_democracy = 10
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 40
+	autocracy = 30
+	national_syndicalism = 0
+	ultra_reactionary = 5
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
+#Variants
 
-
-add_ideas = {
-	sisu
-}
-
-### VARIANTS ###
 # 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

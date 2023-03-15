@@ -7,8 +7,20 @@
  anarchism_drift:0 "§AAnarchism§! drift"
  anarchism_acceptance:0 "§AAnarchism§! acceptance"
  
- anarchism_subtype:0 "§Anarchism§!"
+ anarchism_subtype:0 "§AAnarchism§!"
  anarchism_subtype_desc:0 "United under a desire destroy coercive hierarchy, Anarchism is an extremely broad ideology. Often called terrorists due to acts of propaganda by the deed, Anarchists have found their home in many different places."
+ 
+ anarcho_syndicalism:0 "§AAnarcho-Syndicalism§!"
+ anarcho_syndicalism_desc:0 "Anarcho-Syndicalism views revolutionary industrial unionism or syndicalism as a method for workers in capitalist society to gain control of an economy and thus control influence in broader society. The end goal of syndicalism is to abolish the wage system, regarding it as wage slavery. It is centred on the idea that power corrupts and that any hierarchy that cannot be ethically justified must be dismantled."
+ 
+ anarcho_communism:0 "§AAnarcho-Communism§!"
+ anarcho_communism_desc:0 "An anarchist school of thought that calls for the abolition of private property but retains personal property and collectively-owned items, goods, and services. It supports social ownership of property and direct democracy among other horizontal networks for the allocation of production and consumption based on the guiding principle "From each according to his ability, to each according to his needs"."
+ 
+ social_anarchism:0 "§ASocial Anarchism§!"
+ social_anarchism_desc:0 "As an ideology that sees liberty and social equality as interrelated, tt advocates for a social revolution to remove oppressive forms of hierarchy, such as capitalism and the state. In their place, social anarchists encourage social collaboration through mutual aid and envision non-hierarchical forms of social organization, such as voluntary associations."
+ 
+ anarcho_pacifism:0 "§AAnarcho-Pacifism§!"
+ anarcho_pacifism_desc:0 "Anarcho-Pacifism calls for the use of peaceful, non-violent forms of resistance in the struggle for social change. It rejects the principle of violence which is seen as a form of power and therefore as contradictory to key anarchist ideals such as the rejection of hierarchy and dominance. Anarcho-Pacifists do not reject the use of non-violent revolutionary action against capitalism and the state with the purpose of establishing a peaceful voluntarist society."
 
  #Vanguard Socialism
  authoritarian_socialism:0 "§VVanguard Socialism§!"

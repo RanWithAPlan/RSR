@@ -1,0 +1,32 @@
+characters={
+
+###################################################################################################Leaders
+
+	FIN_carl_gustaf_emil_mannerheim={
+		name = FIN_carl_gustaf_emil_mannerheim
+		portraits={
+			civilian={
+				large="GFX_portrait_FIN_carl_gustaf_emil_mannerheim"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+		portraits={
+			army={
+				large="GFX_portrait_FIN_carl_gustaf_emil_mannerheim"
+				small="GFX_advisor_FIN_carl_gustaf_emil_mannerheim"
+			}
+		}
+		field_marshal={
+			traits = { logistics_wizard organizer winter_specialist winter_expert }
+				skill = 5
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 3
+				logistics_skill = 5
+		}
+	}
+}
