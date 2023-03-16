@@ -1,5 +1,6 @@
 on_actions = {
 
+#Finland
 	on_startup = {
 			effect = {
 				FIN = {
@@ -32,6 +33,7 @@ on_actions = {
 		}
 	}
 	
+#Britain
 	on_startup = {
 			effect = {
 				ENG = {
@@ -89,6 +91,79 @@ on_actions = {
 					autocracy = 40
 					national_syndicalism = 0
 					ultra_reactionary = 20
+				}		
+			}
+		}
+	}
+	
+#Denmark
+	on_startup = {
+			effect = {
+				DEN = {
+				set_autonomy = {
+				target = FAR
+				autonomous_state = autonomy_integrated_puppet
+				}
+				set_autonomy = {
+				target = ICE
+				autonomous_state = autonomy_puppet
+				}
+				set_autonomy = {
+				target = GNL
+				autonomous_state = autonomy_integrated_puppet
+				}
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			FAR = {
+				set_popularities = {
+					anarchism = 0
+					council_communism = 0
+					authoritarian_socialism = 0
+					radical_socialism = 0
+					social_democracy = 100
+					progressive_liberalism = 0
+					freemarket_liberalism = 0
+					conservative_democracy = 0
+					authoritarian_democracy = 0
+					autocracy = 0
+					national_syndicalism = 0
+					ultra_reactionary = 0
+				}		
+			}
+			ICE = {
+				set_popularities = {
+					anarchism = 0
+					council_communism = 0
+					authoritarian_socialism = 0
+					radical_socialism = 0
+					social_democracy = 100
+					progressive_liberalism = 0
+					freemarket_liberalism = 0
+					conservative_democracy = 0
+					authoritarian_democracy = 0
+					autocracy = 0
+					national_syndicalism = 0
+					ultra_reactionary = 0
+				}		
+			}
+			GNL = {
+				set_popularities = {
+					anarchism = 0
+					council_communism = 0
+					authoritarian_socialism = 0
+					radical_socialism = 0
+					social_democracy = 100
+					progressive_liberalism = 0
+					freemarket_liberalism = 0
+					conservative_democracy = 0
+					authoritarian_democracy = 0
+					autocracy = 0
+					national_syndicalism = 0
+					ultra_reactionary = 0
 				}		
 			}
 		}

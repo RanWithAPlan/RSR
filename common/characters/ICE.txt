@@ -1,0 +1,18 @@
+characters={
+
+###################################################################################################Leaders
+
+	ICE_bjorn={
+		name = ICE_bjorn
+		portraits={
+			civilian={
+				large="GFX_portrait_ICE_bjorn"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

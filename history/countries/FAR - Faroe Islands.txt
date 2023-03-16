@@ -1,0 +1,57 @@
+﻿capital = 337
+
+#Order of Battle
+oob = "FAR_1936"
+
+#Non-Designer Starting Technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+}
+
+#Characters
+#leaders
+recruit_character = FAR_regional_council
+
+#Ideas
+add_ideas = {
+}
+
+#Miscellaneous, put country_flags, upcoming events, and such here
+set_stability = 0.9
+set_war_support = 0.1
+set_convoys = 8
+set_research_slots = 2
+
+#Diplomacy, put puppets, wars, factions, and other such things here
+
+#Politics
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+#Popularities
+set_popularities = {
+	anarchism = 0
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 100
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+	national_syndicalism = 0
+	ultra_reactionary = 0
+}
+
+#Variants

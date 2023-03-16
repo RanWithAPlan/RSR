@@ -1,0 +1,18 @@
+characters={
+
+###################################################################################################Leaders
+
+	GNL_regional_council={
+		name = GNL_regional_council
+		portraits={
+			civilian={
+				large="GFX_portrait_GNL_regional_council"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

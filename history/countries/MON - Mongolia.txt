@@ -1,12 +1,7 @@
 ﻿capital = 330
 
 #Order of Battle
-
 oob = "MON_1936"
-
-#Army
-#Air
-#Navy
 
 #Non-Designer Starting Technology
 set_technology = {
