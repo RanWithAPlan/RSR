@@ -33,14 +33,14 @@
  #Parties
  TAJ_anarchism_party:0 "Anarchism"
  TAJ_anarchism_party_long:0 "Anarchism"
- TAJ_radical_socialism_party:0 "Radical Socialism"
- TAJ_radical_socialism_party_long:0 "Radical Socialism"
+ TAJ_radical_socialism_party:0 "HKT"
+ TAJ_radical_socialism_party_long:0 "Hizbi Kommunistiyi Tojikiston"
  TAJ_council_communism_party:0 "Council Communism"
  TAJ_council_communism_party_long:0 "Council Communism"
- TAJ_authoritarian_socialism_party:0 "SDPT (socialist majority)"
- TAJ_authoritarian_socialism_party_long:0 "Socialist-Democratic Party of Tajikistan (socialist majority)"
- TAJ_social_democracy_party:0 "SDPT (democratic majority)"
- TAJ_social_democracy_party_long:0 "Socialist-Democratic Party of Tajikistan (democratic majority)"
+ TAJ_authoritarian_socialism_party:0 "PSDT (socialist majority)"
+ TAJ_authoritarian_socialism_party_long:0 "Partijai Socialistii Demokratii Tocikiston (socialist majority)"
+ TAJ_social_democracy_party:0 "PSDT (democratic majority)"
+ TAJ_social_democracy_party_long:0 "Partijai Socialistii Demokratii Tocikiston (democratic majority)"
  TAJ_freemarket_liberalism_party:0 "Freemarket Liberalism"
  TAJ_freemarket_liberalism_party_long:0 "Freemarket Liberalism"
  TAJ_progressive_liberalism_party:0 "Progressive Liberalism"
@@ -56,3 +56,5 @@
  TAJ_national_syndicalism_party:0 "National Syndicalism"
  TAJ_national_syndicalism_party_long:0 "National Syndicalism"
  
+ #Characters
+ TAJ_suren_shadunts:0 "Suren Shadunts"
