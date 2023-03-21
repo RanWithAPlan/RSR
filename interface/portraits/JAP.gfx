@@ -1,0 +1,7 @@
+spriteTypes = {
+#Konoe
+	spriteType = {
+		name = "GFX_portrait_JAP_Prince_Fumiaro_Konoe"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_Prince_Fumiaro_Konoe.png"
+	}
+}
