@@ -1,0 +1,27 @@
+characters={
+
+###################################################################################################Leaders
+
+	FRA_Francois_de_La_Rocque={
+		name = FRA_Francois_de_La_Rocque
+		portraits={
+			civilian={
+				large="GFX_portrait_FRA_Francois_de_La_Rocque"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
+
+
+
+
+
+
+
+
+}
