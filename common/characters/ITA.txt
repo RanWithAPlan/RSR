@@ -1,0 +1,20 @@
+characters={
+
+###################################################################################################Leaders
+
+	ITA_Antonio_Gramsci={
+		name = ITA_Antonio_Gramsci
+		portraits={
+			civilian={
+				large="GFX_portrait_ITA_Antonio_Gramsci"
+			}
+		}
+		country_leader={
+			ideology=council_communism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+		
+
+}
