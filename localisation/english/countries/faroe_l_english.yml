@@ -29,6 +29,10 @@
  FAR:0 "Faroe"
  FAR_DEF:0 "Faroe"
  FAR_ADJ:0 "Faroese"
+ FAR_autonomy_puppet:0 "$OVERLORDADJ$ Faroe Islands"
+ FAR_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Faroe Islands"
+ FAR_autonomy_integrated_puppet:0 "$OVERLORDADJ$ Faroe Islands"
+ FAR_autonomy_integrated_puppet_DEF:0 "$OVERLORDADJ$ Faroe Islands"
  
  #Parties
  FAR_anarchism_party:0 "Anarchism"
@@ -59,3 +63,7 @@
  #Characters
  
  FAR_regional_council:0 "Regional Council"
+ 
+ #Cosmetic Tags
+ FAR_SUB:0 "Dutch Faroe Islands"
+ FAR_SUB_DEF:0 "the Dutch Faroe Islands"

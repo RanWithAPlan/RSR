@@ -24,6 +24,7 @@ set_stability = 1
 set_war_support = 0
 set_convoys = 10
 set_research_slots = 1
+set_cosmetic_tag = GNL_SUB
 
 #Diplomacy, put puppets, wars, factions, and other such things here
 

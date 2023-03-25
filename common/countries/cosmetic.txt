@@ -1,3 +1,18 @@
+ALA_SUB = {
+	color = rgb { 238  247  255 }
+	color_ui = rgb { 238  247  255 }
+}
+
+FAR_SUB = {
+	color = rgb { 153  116  93 }
+	color_ui = rgb { 153  116  93 }
+}
+
+GNL_SUB = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+
 EGP_UK = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }

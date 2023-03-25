@@ -29,6 +29,10 @@
  ALA:0 "Åland"
  ALA_DEF:0 "Åland"
  ALA_ADJ:0 "Ålandic"
+ ALA_autonomy_puppet:0 "$OVERLORDADJ$ Åland Islands"
+ ALA_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Åland Islands"
+ ALA_autonomy_integrated_puppet:0 "$OVERLORDADJ$ Åland Islands"
+ ALA_autonomy_integrated_puppet_DEF:0 "$OVERLORDADJ$ Åland Islands"
  
  #Parties
  ALA_anarchism_party:0 "Anarchism"
@@ -58,3 +62,7 @@
  
  #Characters:
  ALA_regional_council:0 "Regional Council"
+ 
+ #Cosmetic Tags
+ ALA_SUB:0 "Finnish Åland Islands"
+ ALA_SUB_DEF:0 "the Finnish Åland Islands"

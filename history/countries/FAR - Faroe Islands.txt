@@ -27,6 +27,7 @@ set_stability = 0.9
 set_war_support = 0.1
 set_convoys = 8
 set_research_slots = 2
+set_cosmetic_tag = FAR_SUB
 
 #Diplomacy, put puppets, wars, factions, and other such things here
 

@@ -29,6 +29,10 @@
  GNL:0 "Greenland"
  GNL_DEF:0 "Greenland"
  GNL_ADJ:0 "Greenlandic"
+ GNL_autonomy_puppet:0 "$OVERLORDADJ$ Greenland"
+ GNL_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Greenland"
+ GNL_autonomy_integrated_puppet:0 "$OVERLORDADJ$ Greenland"
+ GNL_autonomy_integrated_puppet_DEF:0 "$OVERLORDADJ$ Greenland"
  
  #Parties
  GNL_anarchism_party:0 "Anarchism"
@@ -58,3 +62,7 @@
  
  #Characters
  GNL_regional_council:0 "Regional Council"
+ 
+ #Cosmetic Tags
+ GNL_SUB:0 "Dutch Greenland"
+ GNL_SUB_DEF:0 "the Dutch Greenland"
