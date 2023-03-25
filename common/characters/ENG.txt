@@ -1,0 +1,19 @@
+characters={
+
+###################################################################################################Leaders
+
+	ENG_Neville_Chamberlain={
+		name = ENG_Neville_Chamberlain
+		portraits={
+			civilian={
+				large="GFX_portrait_ENG_Neville_Chamberlain"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
+}

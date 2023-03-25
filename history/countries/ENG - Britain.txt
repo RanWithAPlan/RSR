@@ -131,6 +131,8 @@ if = {
 }
 
 #Characters
+#leaders
+recruit_character = ENG_Neville_Chamberlain
 
 #Ideas
 add_ideas = {
