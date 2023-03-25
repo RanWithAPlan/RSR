@@ -1,3 +1,8 @@
+TAJ_SOV = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
+}
+
 ALA_SUB = {
 	color = rgb { 238  247  255 }
 	color_ui = rgb { 238  247  255 }

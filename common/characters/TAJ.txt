@@ -2,7 +2,7 @@ characters={
 
 ###################################################################################################Leaders
 
-	TAJ_suren_shadunts={
+	TAJ_suren_shadunts_dem={
 		name = TAJ_suren_shadunts
 		portraits={
 			civilian={
@@ -11,6 +11,20 @@ characters={
 		}
 		country_leader={
 			ideology=socialist_democracy
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	TAJ_suren_shadunts_com={
+		name = TAJ_suren_shadunts
+		portraits={
+			civilian={
+				large="GFX_portrait_TAJ_suren_shadunts"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_socialism_subtype
 			traits={}
 			expire="1965.1.1.1"
 		}

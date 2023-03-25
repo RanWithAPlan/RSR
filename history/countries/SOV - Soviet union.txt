@@ -193,6 +193,7 @@ starting_train_buffer = 3.0
 #Diplomacy, put puppets, wars, factions, and other such things here
 create_faction = Comintern
 add_to_faction = SOV
+add_to_faction = TAJ
 
 
 #Politics

@@ -12,7 +12,8 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = TAJ_suren_shadunts
+recruit_character = TAJ_suren_shadunts_com
+recruit_character = TAJ_suren_shadunts_dem
 
 #Ideas
 
@@ -22,15 +23,16 @@ set_war_support = 0.6
 set_convoys = 0
 set_research_slots = 3
 add_manpower = 30000
+set_cosmetic_tag = TAJ_SOV
 
 #Diplomacy, put puppets, wars, factions, and other such things here
 
 #Politics
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = authoritarian_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 #Popularities
@@ -38,8 +40,8 @@ set_popularities = {
 	anarchism = 0
 	council_communism = 0
 	authoritarian_socialism = 45
-	radical_socialism = 10
-	social_democracy = 45
+	radical_socialism = 0
+	social_democracy = 55
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
 	conservative_democracy = 0
