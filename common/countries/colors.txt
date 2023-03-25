@@ -115,11 +115,6 @@ DOM = {
 	color_ui = rgb { 198 169 248 }
 }
 
-EAU = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-
 ECU = {
 	color = rgb { 249 146 98 }
 	color_ui = rgb { 255 190 127 }
