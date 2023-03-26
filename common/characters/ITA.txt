@@ -2,11 +2,11 @@ characters={
 
 ###################################################################################################Leaders
 
-	ITA_Antonio_Gramsci={
-		name = ITA_Antonio_Gramsci
+	ITA_Gramsci={
+		name = ITA_Gramsci
 		portraits={
 			civilian={
-				large="GFX_portrait_ITA_Antonio_Gramsci"
+				large="GFX_portrait_ITA_Gramsci"
 			}
 		}
 		country_leader={

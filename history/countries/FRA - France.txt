@@ -161,7 +161,7 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = FRA_Francois_de_La_Rocque
+recruit_character = FRA_La_Rocque
 #operatives
 if = {
 	limit = { has_dlc = "La Resistance" }

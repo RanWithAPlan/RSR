@@ -1,0 +1,17 @@
+﻿focus_tree = {
+	id = mongolia_focus
+	
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = MON
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 50 y = 1600 }
+	
+
+#####################################################################################START

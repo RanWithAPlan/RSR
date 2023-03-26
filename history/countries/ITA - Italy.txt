@@ -141,7 +141,7 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = ITA_Antonio_Gramsci
+recruit_character = ITA_Gramsci
 
 #Ideas
 add_ideas = {

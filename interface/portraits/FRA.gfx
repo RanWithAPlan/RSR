@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_FRA_Francois_de_La_Rocque"
-		texturefile = "gfx/leaders/FRA/portrait_FRA_Francois_de_La_Rocque.png"
+		name = "GFX_portrait_FRA_La_Rocque"
+		texturefile = "gfx/leaders/FRA/portrait_FRA_La_Rocque.png"
 	}
 }

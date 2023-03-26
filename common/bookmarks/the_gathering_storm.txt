@@ -95,14 +95,6 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		"MON"={
-			history = "MON_GATHERING_STORM_DESC"
-			ideology = autocracy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
@@ -139,22 +131,44 @@ bookmarks = {
 		}
 
 
-		# minors from DLC ####
-		"CAN"={
+		# minors #
+		
+		"POL"={
 			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				CAN_great_depression_1
-				CAN_conscription_crisis
+				uncontrolled_exports
+				POL_april_constitution_1
+				POL_looming_peasants_strike
 			}
 			focuses = {
-				CAN_skewer_the_eagle
-				CAN_north_american_alliance
-				CAN_join_comintern
+				POL_complete_april_constitution
+				POL_clamp_down_on_danzig
+				POL_the_between_the_seas_concept
 			}
 		}
-
+		
+		"RHE"={
+			minor = yes
+			history = "RHE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"AUS"={
+			minor = yes
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		"CZE"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
@@ -167,6 +181,36 @@ bookmarks = {
 				CZE_sudeten_1
 				CZE_industrial_legacy
 				CZE_military_research_institute
+			}
+		}
+		
+		"MON"={
+			minor = yes
+			history = "MON_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"IAO"={
+			minor = yes
+			history = "IAO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"FIN"={
+			minor = yes
+			history = "FIN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 
@@ -214,21 +258,6 @@ bookmarks = {
 				YUG_dissolve_serbia
 			}
 		}
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_united_front
-				CHI_army_reform
-				CHI_invite_the_flying_tigers
-			}
-		}
 
 		"BUL"={
 			minor = yes
@@ -243,6 +272,16 @@ bookmarks = {
 				BUL_the_fatherland_front
 				BUL_restore_the_bulgarian_patriarchate
 				BUL_prussia_of_the_balkans
+			}
+		}
+		
+		"ALB"={
+			minor = yes
+			history = "ALB_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 
@@ -275,47 +314,6 @@ bookmarks = {
 				TUR_ratify_the_six_arrows
 				TUR_reaffirm_the_balkan_pact
 				TUR_pivot_to_the_past
-			}
-		}
-		"POL"={
-			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				uncontrolled_exports
-				POL_april_constitution_1
-				POL_looming_peasants_strike
-			}
-			focuses = {
-				POL_complete_april_constitution
-				POL_clamp_down_on_danzig
-				POL_the_between_the_seas_concept
-			}
-		}
-		
-		"JAP"={
-		minor = yes
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
-			}	
-			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}			
-		}
-		
-		"IAO"={
-			minor = yes
-			history = "IAO_GATHERING_STORM_DESC"
-			ideology = autocracy
-			ideas = {
-			}
-			focuses = {
 			}
 		}
 		

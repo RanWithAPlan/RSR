@@ -2,11 +2,11 @@ characters={
 
 ###################################################################################################Leaders
 
-	FRA_Francois_de_La_Rocque={
-		name = FRA_Francois_de_La_Rocque
+	FRA_La_Rocque={
+		name = FRA_La_Rocque
 		portraits={
 			civilian={
-				large="GFX_portrait_FRA_Francois_de_La_Rocque"
+				large="GFX_portrait_FRA_La_Rocque"
 			}
 		}
 		country_leader={
