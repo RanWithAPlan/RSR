@@ -326,7 +326,7 @@ PAN = {
 }
 
 PAR = {
-	color = rgb { 57 113 228 }
+	color = rgb {  120 26 34 }
 	color_ui = rgb { 74 147 255 }
 }
 
