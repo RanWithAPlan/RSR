@@ -25,6 +25,7 @@ set_technology = {
 }
 
 #Characters
+recruit_character = LUX_Pierre_Dupong
 
 #Ideas
 add_ideas = {

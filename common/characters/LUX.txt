@@ -1,0 +1,19 @@
+characters={
+
+###################################################################################################Leaders
+
+	LUX_Pierre_Dupong={
+		name = LUX_Pierre_Dupong
+		portraits={
+			civilian={
+				large="GFX_portrait_LUX_Pierre_Dupong"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={ }
+			expire="1965.1.1.1"
+		}
+	}
+
+}
