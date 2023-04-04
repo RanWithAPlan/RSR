@@ -1,0 +1,23 @@
+characters={
+
+###################################################################################################Leaders
+
+	AUS_Engelbert_Dollfuss={
+		name = AUS_Engelbert_Dollfuss
+		portraits={
+			civilian={
+				large="GFX_portrait_AUS_Engelbert_Dollfuss"
+			}
+		}
+		country_leader={
+			ideology=mild_nationalism
+			traits={ }
+			expire="1965.1.1.1"
+		}
+
+
+	
+	
+
+
+}
