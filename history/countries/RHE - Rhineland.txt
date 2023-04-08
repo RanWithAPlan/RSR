@@ -71,6 +71,7 @@ if = {
 }
 
 #Characters
+recruit_character = RHE_Franz_Ritter_von_Epp
 
 #Ideas
 add_ideas = {
@@ -91,12 +92,16 @@ set_politics = {
 set_popularities = {
 	anarchism = 22
 	council_communism = 8
+	authoritarian_socialism = 0
+	radical_socialism = 0
 	social_democracy = 8
+	progressive_liberalism = 0
 	freemarket_liberalism = 5
 	conservative_democracy = 10
 	authoritarian_democracy = 14
-	ultra_reactionary = 20
+	autocracy = 0
 	national_syndicalism = 13
+	ultra_reactionary = 20
 }
 
 #Variants

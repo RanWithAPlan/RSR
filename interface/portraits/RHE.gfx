@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_RHE_Franz_Ritter_von_Epp"
+		texturefile = "gfx/leaders/RHE/portrait_RHE_Franz_Ritter_von_Epp.png"
+	}
+}

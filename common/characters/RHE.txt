@@ -1,0 +1,27 @@
+characters={
+
+###################################################################################################Leaders
+
+	RHE_Franz_Ritter_von_Epp={
+		name = RHE_Franz_Ritter_von_Epp
+		portraits={
+			civilian={
+				large="GFX_portrait_RHE_Franz_Ritter_von_Epp"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
+
+
+
+
+
+
+
+
+}
