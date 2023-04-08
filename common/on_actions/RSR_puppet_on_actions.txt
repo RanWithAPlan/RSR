@@ -202,4 +202,38 @@ on_actions = {
 			}
 		}
 	}
+	
+#Holland
+	on_startup = {
+			effect = {
+				HOL = {
+				set_autonomy = {
+				target = INS
+				autonomous_state = autonomy_integrated_puppet
+				}
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			INS = {
+				set_popularities = {
+					anarchism = 0
+					council_communism = 0
+					authoritarian_socialism = 0
+					radical_socialism = 0
+					social_democracy = 0
+					progressive_liberalism = 0
+					freemarket_liberalism = 0
+					conservative_democracy = 100
+					authoritarian_democracy =
+					autocracy = 0
+					national_syndicalism = 0
+					ultra_reactionary = 0
+				}		
+			}
+		}
+	}
+	
 }

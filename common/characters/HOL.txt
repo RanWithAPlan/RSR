@@ -1,0 +1,27 @@
+characters={
+
+###################################################################################################Leaders
+
+	HOL_HC={
+		name = HOL_HC
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_HC"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
+
+
+
+
+
+
+
+
+}

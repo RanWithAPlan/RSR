@@ -81,33 +81,19 @@ if = {
 }
 
 #Characters
+recruit_character = HOL_HC
 
 #Ideas
 add_ideas = {
 }
 
-#Miscellaneous
+#Miscellaneous, put country_flags, upcoming events, and such here
 set_stability = 0.75
 set_war_support = 0.25
 set_convoys = 150
 set_research_slots = 3
 
-#Diplomacy
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = INS
-	}
-}
+#Diplomacy, wars, factions, and other such things here
 
 #Politics
 set_politics = {
