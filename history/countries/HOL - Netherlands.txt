@@ -82,6 +82,7 @@ if = {
 
 #Characters
 recruit_character = HOL_HC
+recruit_character = HOL_prinz_bernhard
 
 #Ideas
 add_ideas = {
@@ -97,7 +98,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = autocracy
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -105,18 +106,18 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 1
-	council_communism = 3
+	anarchism = 0
+	council_communism = 0
 	authoritarian_socialism = 0
-	radical_socialism = 2
-	social_democracy = 22
-	progressive_liberalism = 7
-	freemarket_liberalism = 5
-	conservative_democracy = 53
-	authoritarian_democracy = 0
-	autocracy = 3
-  	national_syndicalism = 0
-  	ultra_reactionary = 4
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 10
+	autocracy = 50
+  	national_syndicalism = 20
+  	ultra_reactionary = 20
 }
 
 #Variants

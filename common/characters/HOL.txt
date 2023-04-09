@@ -2,15 +2,15 @@ characters={
 
 ###################################################################################################Leaders
 
-	HOL_HC={
-		name = HOL_HC
+	HOL_prinz_bernhard={
+		name = HOL_prinz_bernhard
 		portraits={
 			civilian={
-				large="GFX_portrait_HOL_HC"
+				large="gfx/leaders/HOL/"
 			}
 		}
 		country_leader={
-			ideology=conservative_democracy_subtype
+			ideology=stratocracy_subtype
 			traits={}
 			expire="1965.1.1.1"
 		}
