@@ -6,7 +6,7 @@ characters={
 		name = HOL_prinz_bernhard
 		portraits={
 			civilian={
-				large="gfx/leaders/HOL/"
+				large="gfx/leaders/HOL/portrait_HOL_Prinz_Bernhard.png"
 			}
 		}
 		country_leader={
