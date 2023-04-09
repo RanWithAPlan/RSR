@@ -2,15 +2,19 @@ characters={
 
 ###################################################################################################Leaders
 
-	HOL_prinz_bernhard={
-		name = HOL_prinz_bernhard
+	HOL_HC={
+		name = HOL_HC
 		portraits={
 			civilian={
+<<<<<<< HEAD
 				large="GFX_portrait_Prince_Bernhard"
+=======
+				large="GFX_portrait_HOL_HC"
+>>>>>>> parent of 3574780 (Changed HOL to fit the current lore)
 			}
 		}
 		country_leader={
-			ideology=stratocracy_subtype
+			ideology=conservative_democracy_subtype
 			traits={}
 			expire="1965.1.1.1"
 		}
