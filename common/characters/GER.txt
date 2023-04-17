@@ -102,12 +102,12 @@ characters={
 				large = "gfx/leaders/GER/RFB/portrait_GER_Ernst_Thallmann_gen.png"
 			}
         }
-    	corps_commander = {
-            traits = { organizer politically_connected infantry_leader rfb_officer}
-	        skill = 3
-	        attack_skill = 3
+    	field_marshal = {
+            traits = { organizer politically_connected rfb_officer}
+	        skill = 2
+	        attack_skill = 1
 	        defense_skill = 2
-	        planning_skill = 2
+	        planning_skill = 1
 	        logistics_skill = 2
         }
     }
@@ -118,8 +118,8 @@ characters={
             	large = "gfx/leaders/GER/RFB/portrait_GER_Albert_Schreiner.png"
             }
         }
-    	field_marshal = {
-            traits = { hill_fighter panzer_leader organizer rfb_officer}
+    	corps_commander = {
+            traits = { armor_officer organizer rfb_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
@@ -150,7 +150,7 @@ characters={
         name = "Hans Beimler"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD/Portrait_GER_Hans_Beimler.png"
+            	large = "gfx/leaders/GER/KPD-USPD/Portrait_GER_Hans_Beimler.png"
             }
         }
     	corps_commander = {
@@ -166,11 +166,11 @@ characters={
         name = "Ludwig Renn"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD/portrait_GER_Ludwig_Renn.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Ludwig_Renn.png"
             }
         }
     	corps_commander = {
-            traits = {organizer armor_officer kpd_officer}
+            traits = {organizer brilliant_strategist kpd_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
@@ -182,7 +182,7 @@ characters={
         name = "Max Hoelz"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD/portrait_GER_Max_Hoelz.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Max_Hoelz.png"
             }
         }
     	corps_commander = {
@@ -198,7 +198,7 @@ characters={
         name = "Otto Braun"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD/portrait_GER_Otto_Braun.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Otto_Braun.png"
             }
         }
     	corps_commander = {
@@ -214,7 +214,7 @@ characters={
         name = "Wilhelm Pieck"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD/portrait_GER_Wilhelm_Pieck_gen.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Wilhelm_Pieck_gen.png"
             }
         }
     	corps_commander = {
@@ -230,11 +230,11 @@ characters={
         name = "Wilhelm Zaisser"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD/portrait_GER_Wilhelm_Zaisser.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Wilhelm_Zaisser.png"
             }
         }
     	field_marshal = {
-            traits = { war_hero infantry_leader kpd_officer}
+            traits = { war_hero infantry_officer kpd_officer}
 	        skill = 4
 	        attack_skill = 4
 	        defense_skill = 3
@@ -343,22 +343,6 @@ characters={
     }
 
 	#nationalists 
-	GER_walther_seydlitz = {
-        name = "Walther Seydlitz-Kurzbach"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/NVA/portrait_GER_Walther_Seydlitz.png"
-            }
-        }
-    	corps_commander = {
-            traits = { nva_officer bearer_of_artillery winter_specialist}
-	        skill = 3
-	        attack_skill = 1
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 3
-        }
-    }
 	GER_vincenz_muller = {
         name = "Vincenz Müller"
 		portraits = {
@@ -368,27 +352,11 @@ characters={
         }
     	field_marshal = {
             traits = { nva_officer career_officer }
-	        skill = 4
+	        skill = 3
 	        attack_skill = 2
 	        defense_skill = 3
 	        planning_skill = 4
 	        logistics_skill = 3
-        }
-    }
-	GER_ewald_kliest = {
-        name = "Ewald von Kliest"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/Portrait_GER_Ewald_Kleist.png"
-            }
-        }
-    	corps_commander = {
-            traits = { armor_officer }
-	        skill = 2
-	        attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 2
-	        logistics_skill = 2
         }
     }
 	GER_gotthard_heinrici = {
@@ -399,12 +367,12 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { nva_officer infantry_leader }
-	        skill = 2
-	        attack_skill = 3
-	        defense_skill = 1
-	        planning_skill = 2
-	        logistics_skill = 2
+            traits = { nva_officer infantry_officer inflexible_strategist}
+	        skill = 3
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 3
         }
     }
 	GER_albrecht_quirnheim = {
@@ -415,7 +383,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { nva_officer career_officer inflexible_strategist }
+            traits = { nva_officer career_officer}
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
@@ -423,13 +391,45 @@ characters={
 	        logistics_skill = 2
         }
     }
+	GER_erwin_rommel = {
+		name = "Erwin Rommel"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/NVA/portrait_GER_Erwin_Rommel.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless armor_officer trickster nva_officer}
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	GER_johannes_blaskowitz = {
+		name = "Johannes Blaskowitz"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/NVA/portrait_GER_johannes_blaskowitz.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer nva_officer}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
 
 	#uspd 
 	GER_hans_marchwitza = {
         name = "Hans Marchwitza"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/USPD/portrait_GER_Hans_Marchwitza.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Hans_Marchwitza.png"
             }
         }
     	corps_commander = {
@@ -445,7 +445,7 @@ characters={
         name = "Theodor Neubauer"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/USPD/portrait_GER_Theodor_Neubauer.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Theodor_Neubauer.png"
             }
         }
     	field_marshal = {
@@ -461,7 +461,7 @@ characters={
         name = "Artur Becker"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/USPD/portrait_GER_Artur_Becker.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Artur_Becker.png"
             }
         }
     	corps_commander = {
@@ -477,7 +477,7 @@ characters={
         name = "Peter Blachstein"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/USPD/portrait_GER_Peter_Blachstein.png"
+            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Peter_Blachstein.png"
             }
         }
     	corps_commander = {
@@ -499,7 +499,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected armor_officer trickster career_officer }
+            traits = { politically_connected armor_officer trickster career_officer nva_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
@@ -515,7 +515,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { trait_engineer politically_connected harsh_leader }
+            traits = { trait_engineer politically_connected harsh_leader nva_officer }
 	        skill = 3
 	        attack_skill = 2
 	        defense_skill = 2
@@ -531,7 +531,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected infantry_officer }
+            traits = { politically_connected infantry_officer kpd_officer}
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
@@ -547,7 +547,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected bearer_of_artillery}
+            traits = { politically_connected kpd_officer}
 	        skill = 2
 	        attack_skill = 1
 	        defense_skill = 2
@@ -563,28 +563,12 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected organizer }
+            traits = { politically_connected kpd_officer}
 	        skill = 1
 	        attack_skill = 1
 	        defense_skill = 2
 	        planning_skill = 1
-	        logistics_skill = 1
-        }
-    }
-    GER_margit_zinke = {
-        name = "Margit Zinke"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/neutral/portrait_GER_Zinke_Margit.png"
-            }
-        }
-    	corps_commander = {
-            traits = { politically_connected trait_reckless }
-	        skill = 1
-	        attack_skill = 2
-	        defense_skill = 1
-	        planning_skill = 2
-	        logistics_skill = 1
+	        logistics_skill = 3
         }
     }
 }

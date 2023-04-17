@@ -427,3 +427,293 @@ GER_regional_planning_category = {
         }
     }
 }
+GER_roter_frontkampferbund_plot = {
+    GER_coup_mission = {
+        available = {
+            has_completed_focus = GER_fill_the_ranks
+            OR = {
+                has_completed_focus = GER_ending_the_despotism
+            }
+        }
+        icon = GFX_decision_generic_nationalism
+        selectable_mission = yes
+		fire_only_once = yes
+        days_mission_timeout = 670
+        priority = 80
+        is_good = no
+        complete_effect = {
+            remove_ideas = GER_third_internationalist_plot
+            retire_character = GER_ernst_thalmann
+            if = {
+                limit = {
+                    GER_hans_kahle = {
+                        has_trait = rfb_officer
+                    }
+                }
+                retire_character = GER_hans_kahle
+            }
+            if = {
+                limit = {
+                    GER_albert_schreiner = {
+                        has_trait = rfb_officer
+                    }
+                }
+                retire_character = GER_albert_schreiner
+            }
+			add_to_variable = {
+                var = unity_number value = 15
+            }
+            add_manpower = -5000
+            add_threat = 5
+        }
+        timeout_effect = {
+            country_event = socgermany.9
+        }
+    }
+    GER_reaffirm_mullers_commitment = {
+        icon = GFX_decision_generic_political_discourse
+        allowed = { original_tag = GER }
+        visible = {
+            has_completed_focus = GER_ensure_loyalty
+        }
+        priority = 15
+        fire_only_once = yes
+        days_remove = 7
+        cost = 15
+		remove_effect = { 
+			GER_vincenz_muller = {
+                remove_trait = {
+                    trait = nva_officer
+                }
+                add_trait = {
+                    trait = kpd_officer
+                }
+			}
+		}
+    }
+    GER_words_with_schreiner = {
+        icon = GFX_decision_generic_political_discourse
+        allowed = { original_tag = GER }
+        visible = {
+            has_completed_focus = GER_ensure_loyalty
+        }
+        priority = 15
+        fire_only_once = yes
+        days_remove = 7
+        cost = 15
+		remove_effect = { 
+			GER_albert_schreiner = {
+                remove_trait = {
+                    trait = rfb_officer
+                }
+                add_trait = {
+                    trait = kpd_officer
+                }
+			}
+		}
+    }
+    GER_words_with_kahle = {
+        icon = GFX_decision_generic_political_discourse
+        allowed = { original_tag = GER }
+        visible = {
+            has_completed_focus = GER_ensure_loyalty
+        }
+        priority = 15
+        fire_only_once = yes
+        days_remove = 7
+        cost = 15
+		remove_effect = { 
+			GER_hans_kahle = {
+                remove_trait = {
+                    trait = rfb_officer
+                }
+                add_trait = {
+                    trait = kpd_officer
+                }
+			}
+		}
+    }
+    GER_improve_attack_skill = {
+        icon = GFX_decision_generic_military
+        allowed = { original_tag = GER }
+        visible = {
+            has_completed_focus = GER_foster_talent
+            check_variable = { GER_improve_attack_skill_var > 0 }
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_improve_attack_skill_var = -1} 
+			random_army_leader  = {
+                add_attack = 1
+			}
+		}
+    }
+    GER_improve_defense_skill = {
+        icon = GFX_decision_generic_military
+        allowed = { original_tag = GER }
+        visible = {
+            has_completed_focus = GER_foster_talent
+            check_variable = { GER_improve_defense_skill_var > 0 }
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_improve_defense_skill_var = -1 } 
+			random_army_leader  = {
+                add_defense = 1
+			}
+		}
+    }
+    GER_improve_planning_skill = {
+        icon = GFX_decision_generic_military
+        allowed = { original_tag = GER }
+        visible = {
+            check_variable = { GER_improve_planning_skill_var > 0 }
+            has_completed_focus = GER_foster_talent
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_improve_planning_skill_var = -1 } 
+			random_army_leader  = {
+                add_planning = 1
+			}
+		}
+    }
+    GER_improve_logistics_skill = {
+        icon = GFX_decision_generic_military
+        allowed = { original_tag = GER }
+        visible = {
+            check_variable = { GER_improve_logistics_skill_var > 0 }
+            has_completed_focus = GER_foster_talent
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_improve_logistics_skill_var = -1 } 
+			random_army_leader  = {
+                add_logistics = 1
+			}
+		}
+    }
+    GER_add_armour_trait = {
+        icon = GFX_decision_generic_army_support
+        allowed = { original_tag = GER }
+        visible = {
+            check_variable = { GER_add_armour_trait_var > 0 }
+            has_completed_focus = GER_improved_tactics
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_add_armour_trait_var = -1 } 
+			random_army_leader  = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_trait = panzer_leader
+                            has_trait = armor_officer
+                        }
+                    }
+                }
+                add_unit_leader_trait = armor_officer
+			}
+		}
+    }
+    GER_add_infantry_trait = {
+        icon = GFX_decision_generic_army_support
+        allowed = { original_tag = GER }
+        visible = {
+            check_variable = { GER_add_infantry_trait_var > 0 }
+            has_completed_focus = GER_improved_tactics
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_add_infantry_trait_var = -1 } 
+			random_army_leader  = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_trait = infantry_leader
+                            has_trait = infantry_officer
+                        }
+                    }
+                }
+                add_unit_leader_trait = infantry_officer
+			}
+		}
+    }
+    GER_add_winter_trait = {
+        icon = GFX_decision_generic_army_support
+        allowed = { original_tag = GER }
+        visible = {
+            check_variable = { GER_add_winter_trait_var > 0 }
+            has_completed_focus = GER_improved_tactics
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_add_winter_trait_var = -1 } 
+			random_army_leader  = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_trait = winter_expert
+                            has_trait = winter_specialist
+                        }
+                    }
+                }
+                add_unit_leader_trait = winter_specialist
+			}
+		}
+    }
+    GER_add_mountaineer_trait = {
+        icon = GFX_decision_generic_army_support
+        allowed = { original_tag = GER }
+        visible = {
+            check_variable = { GER_add_mountaineer_trait_var > 0 }
+            has_completed_focus = GER_improved_tactics
+        }
+        priority = 10
+        fire_only_once = no
+        days_remove = 60
+        days_re_enable = 60
+        cost = 20
+		remove_effect = {
+			add_to_variable = { GER_add_mountaineer_trait_var = -1 } 
+			random_army_leader  = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_trait = trait_mountaineer
+                        }
+                    }
+                }
+                add_unit_leader_trait = trait_mountaineer
+			}
+		}
+    }
+}

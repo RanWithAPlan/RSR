@@ -1,0 +1,33 @@
+﻿l_english:
+ #Names
+ KMT:0 "Kuomintang National Government"
+ KMT_DEF:0 "the Kuomintang National Government"
+ 
+ #Parties
+ KMT_anarchism_party:0 ""
+ KMT_anarchism_party_long:0 ""
+ KMT_radical_socialism_party:0 "LKMT"
+ KMT_radical_socialism_party_long:0 "Left Kuomintang"
+ KMT_authoritarian_socialism_party:0 "CPC"
+ KMT_authoritarian_socialism_party_long:0 "Communist Party of China"
+ KMT_council_communism_party:0 "CSFI"
+ KMT_council_communism_party_long:0 "Chinese Section of the Fourth International"
+ KMT_social_democracy_party:0 "LKMT"
+ KMT_social_democracy_party_long:0 "Left Kuomintang"
+ KMT_freemarket_liberalism_party:0 ""
+ KMT_freemarket_liberalism_party_long:0 ""
+ KMT_conservative_democracy_party:0 "RKMT"
+ KMT_conservative_democracy_party_long:0 "Right Kuomintang"
+ KMT_autocracy_party:0 "RKMT"
+ KMT_autocracy_party_long:0 "Right Kuomintang"
+ KMT_authoritarian_democracy_party:0 "RKMT"
+ KMT_authoritarian_democracy_party_long:0 "Right Kuomintang"
+ KMT_ultra_reactionary_party:0 ""
+
+ #Ideas
+ KMT_weak_economy:0 "Weak Economy"
+ KMT_weak_economy_desc:0 ""
+ KMT_hunan_aid:0 "Hunan Aid"
+ KMT_hunan_aid_desc:0 ""
+ KMT_yunnan_aid:0 "Yunnan Aid"
+ KMT_yunnan_aid_desc:0 ""

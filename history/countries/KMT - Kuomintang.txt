@@ -1,0 +1,43 @@
+﻿capital = 592
+
+#Order of Battle
+#Army
+oob = "GXC_1936"
+
+#Non-Designer Starting Technology
+set_technology = {
+	infantry_weapons = 1
+}
+
+#Characters
+
+#Ideas
+add_ideas = {
+	japanese_economic_dominance2
+}
+
+#Miscellaneous
+set_stability = 0.6
+set_war_support = 0.6
+set_convoys = 15
+set_research_slots = 3
+
+#Politics
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#Popularties
+set_popularities = {
+	anarchism = 0
+	council_communism = 10
+	authoritarian_socialism = 15
+	radical_socialism = 0
+	social_democracy = 15
+	progressive_liberalism = 5
+	autocracy = 45
+  	ultra_reactionary = 10
+}

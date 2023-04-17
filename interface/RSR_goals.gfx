@@ -169,8 +169,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_peoples_production_for_a_peoples_army.png"
 	}
 	SpriteType = {
-		name = "GFX_GER_ending_the_despotism"
-		texturefile = "gfx/interface/goals/GER_ending_the_despotism.png"
+		name = "GFX_GER_your_duty_to_the_nation"
+		texturefile = "gfx/interface/goals/GER_your_duty_to_the_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_the_uspd_direction"
+		texturefile = "gfx/interface/goals/GER_the_uspd_direction.png"
 	}
 	SpriteType = {
 		name = "GFX_"

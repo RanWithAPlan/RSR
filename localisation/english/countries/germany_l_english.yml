@@ -105,6 +105,26 @@
  GER_ruhr_civilian_industry2:0 "Strengthen Industry In The Ruhr"
  GER_ruhr_heart:0 "The Industrial Heart Of Germany"
  
+#roter frontkampferbund plot
+ GER_roter_frontkampferbund_plot:0 "Roter Frontkämpferbund Plot?"
+ GER_coup_mission:0 "Third Internationalist Coup"
+ GER_improve_attack_skill:0 "Improve Offensive Skill"
+ GER_improve_attack_skill_desc:0 "This £decision_icon_small decision can only be taken 4 times.\n\nThere are currently §Y[?GER_improve_attack_skill_var]§! uses remaning."
+ GER_improve_defense_skill:0 "Improve Defensive Skill"
+ GER_improve_defense_skill_desc:0 "This £decision_icon_small decision can only be taken 4 times.\n\nThere are currently §Y[?GER_improve_defense_skill_var]§! uses remaning."
+ GER_improve_planning_skill:0 "Improve Planning Skill"
+ GER_improve_planning_skill_desc:0 "This £decision_icon_small decision can only be taken 4 times.\n\nThere are currently §Y[?GER_improve_planning_skill_var]§! uses remaning."
+ GER_improve_logistics_skill:0 "Improve Logistics Skill"
+ GER_improve_logistics_skill_desc:0 "This £decision_icon_small decision can only be taken 4 times.\n\nThere are currently §Y[?GER_improve_logistics_skill_var]§! uses remaning."
+ GER_add_armour_trait:0 "Train Generals In Armoured Warfare"
+ GER_add_armour_trait_desc:0 "This £decision_icon_small decision can only be taken 2 times.\n\nThere are currently §Y[?GER_add_armour_trait_var]§! uses remaning."
+ GER_add_infantry_trait:0 "Train Generals In Infantry Tactics"
+ GER_add_infantry_trait_desc:0 "This £decision_icon_small decision can only be taken 2 times.\n\nThere are currently §Y[?GER_add_infantry_trait_var]§! uses remaning."
+ GER_add_winter_trait:0 "Train Generals For Winter Conditions"
+ GER_add_winter_trait_desc:0 "This £decision_icon_small decision can only be taken 2 times.\n\nThere are currently §Y[?GER_add_winter_trait_var]§! uses remaning."
+ GER_add_mountaineer_trait:0 "Train Generals For Alpine Conditions"
+ GER_add_mountaineer_trait_desc:0 "This £decision_icon_small decision can only be taken 2 times.\n\nThere are currently §Y[?GER_add_mountaineer_trait_var]§! uses remaning."
+
 #focus#
  GER_council_elections:0 "January Executive Elections"
  GER_council_elections_desc:0 "The political system in Germany is made of federated councils, and there are three major parties, FAUD, KPD, and USPD. Elections take place every 3 months, and all the parties are hoping they'll win this January"
@@ -213,6 +233,10 @@
  GER_peoples_production_for_a_peoples_army_idea:0 "People's Production For A People's Army"
  GER_peoples_production_for_a_peoples_army_idea1:0 "People's Production For A People's Army"
 
+#designers#
+ gruppe_oberndorf_am_neckar:0 "Gruppe Oberndorf am Neckar"
+ gruppe_kassel:0 "Gruppe Kassel"
+
 #tooltips and flags#
  GER_FAUD_election:0 "The §RFAUD§! have a majority."
  GER_KPD_election:0 "The §tKPD§! have a majority."
@@ -224,6 +248,10 @@
  GER_ruhr_focus_tt: "Unlocks §YRuhr Industrial Development§! Decisions"
  GER_complete_industry_tt: "§CThe previously chosen ideas will be combined into a new, stronger idea.§!"
  GER_conscription_unable_tt: "§RYou will be unable to enact conscription laws§!"
+ GER_gruppe_oberndorf_available_tt: "The Design Company: §YGruppe Oberndorf am Neckar§! will become available"
+ GER_gruppe_kassel_available_tt: "The Design Company: §YGruppe Kassel§! will become available"
+ GER_foster_talent_decisions_available_tt: "£decision_icon_small Unlocks §YDecisions§! to improve the skills of your generals."
+ GER_improved_tactics_decisions_available_tt: "£decision_icon_small Unlocks §YDecisions§! to add traits to your generals."
 
 #dynamic modifiers#
  GER_ruhr_industrial_heart:0 "The Industrial Heart Of Germany"

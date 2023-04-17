@@ -175,9 +175,14 @@ GUI = {
 	color_ui = rgb { 127 63 118 }
 }
 
-GXC = {
-	color = rgb { 72 49 112 }
-	color_ui = rgb { 72 49 112 }
+SIC = {
+	color = rgb { 127 100 118 }
+	color_ui = rgb { 127 63 118 }
+}
+
+KMT = {
+	color = rgb { 20 20 170 }
+	color_ui = rgb { 10 10 200 }
 }
 
 HAI = {

@@ -7,26 +7,35 @@ oob = "PUF_1936"
 set_technology = {
 	infantry_weapons = 1
 }
+
+recruit_character = PUF_lu_xun
+
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.4
+set_convoys = 10
+set_research_slots = 3
+
 add_ideas = {
 	japanese_economic_dominance1
 }
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = radical_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 100
-	council_communism = 0
-	authoritarian_socialism = 0
-	radical_socialism = 0
-	social_democracy = 0
-	progressive_liberalism = 0
+	anarchism = 5
+	council_communism = 20
+	authoritarian_socialism = 30
+	radical_socialism = 15
+	social_democracy = 10
+	progressive_liberalism = 5
 	freemarket_liberalism = 0
 	conservative_democracy = 0
-	authoritarian_democracy = 0
-	autocracy = 0
+	authoritarian_democracy = 5
+	autocracy = 10
   	national_syndicalism = 0
   	ultra_reactionary = 0
 }

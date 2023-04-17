@@ -4,10 +4,9 @@ state={
 	name="STATE_607"
 
 	history={
-		owner = ZHI
-		add_core_of = ZHI
+		owner = PUF
+		add_core_of = PUF
 		add_claim_by = KMT
-		add_claim_by = PUF
 		add_claim_by = BEY
 		buildings = {
 			infrastructure = 3
@@ -21,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1004 1603 4010 4066 4158 4519 4547 6932 7085 7126 7129 7459 7508 7540 7568 7656 9958 9995 10098 10364 10434 10446 11931 12012 12426 
+		1004 1139 1603 4010 4066 4114 4144 4158 4519 4547 4606 6932 7074 7085 7126 7129 7459 7508 7540 7568 7656 9958 9995 10098 10364 10434 10446 11931 12012 12426 
 	}
 	manpower=34289800
 	buildings_max_level_factor=1.000

@@ -1,0 +1,16 @@
+characters = {
+	PUF_lu_xun = {
+		name = PUF_Lu_Xun_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_PUF_Lu_Xun"
+			}
+		}
+
+		country_leader = {
+			expire = "1936.7.11"
+			traits = { the_great_uniter poor_health }
+			ideology = radical_socialism_subtype
+		}
+	}
+}

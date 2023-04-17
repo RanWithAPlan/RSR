@@ -15,8 +15,12 @@ GER_executive_council_category = {
 	}
 	priority = 50
 }
-GER_military_factionalism = {
+GER_roter_frontkampferbund_plot = {
 	icon = army_reform
+	allowed = {
+		original_tag = GER
+	}
+	priority = 80
 }
 GER_unity = {
 	icon = usa_congress

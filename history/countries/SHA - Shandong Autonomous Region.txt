@@ -15,7 +15,8 @@ recruit_character = SHA_zhang_zongchang
 #Ideas
 add_ideas = {
 	japanese_economic_dominance1
-	red_spear_society
+	SHA_red_spear_society
+	SHA_white_russian_soldiers
 }
 
 #Miscellaneous

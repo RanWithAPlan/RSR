@@ -185,6 +185,31 @@ country_event = {
         unlock_national_focus = GER_the_kpd_direction
     }
 }
+country_event = {
+    id = socgermany.9
+    title = socgermany.9.t
+    desc = socgermany.9.d
+    is_triggered_only = yes
+    
+    option = {
+        name = socgermany.9.a
+        ai_chance = {
+            base = 50
+        }
+        remove_ideas = {
+            GER_haven_for_refugees
+            GER_third_internationalist_plot
+        }
+        retire_character = GER_hans_beimler
+        retire_character = GER_peter_blachstein
+        add_popularity = {
+            ideology = authoritarian_socialism
+            popularity = 20
+        }
+        set_politics = { ruling_party = authoritarian_socialism }
+        add_threat = 10
+    }
+}
 
 add_namespace = unity_event
 country_event = {
@@ -192,23 +217,15 @@ country_event = {
     title = unity_event.1.t
     desc = unity_event.1.d
     is_triggered_only = yes
-    
     option = {
         name = unity_event.1.a
-        ai_chance = {
-            base = 20
-        }
-        set_politics = { ruling_party = anarchism}
-    }
-    option = {
-        name = unity_event.1.b
         ai_chance = {
             base = 20
         }
         set_politics = { ruling_party = council_communism }
     }
     option = {
-        name = unity_event.1.c
+        name = unity_event.1.b
         ai_chance = {
             base = 20
         }

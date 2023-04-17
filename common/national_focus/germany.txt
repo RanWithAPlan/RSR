@@ -892,7 +892,7 @@ focus_tree = {
 	focus = {
 		id = GER_the_volksarmee
 		icon = g
-		cost = 5
+		cost = 2
 		x = 12
 		y = 8
 		completion_reward = {
@@ -914,115 +914,164 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_the_faud_direction
-		icon = GFX_GER_faud_direction
-		cost = 0
-		relative_position_id = GER_a_divided_force
-		prerequisite = { focus = GER_a_divided_force }
-		available = { always = no }
-		x = -4
-		y = 1
-	}
-	focus = {
-		id = GER_campaign_against_conscription
-		icon = GFX_GER_conscription_question
-		cost = 10
-		relative_position_id = GER_the_faud_direction
-		prerequisite = { focus = GER_the_faud_direction }
-		x = 0
-		y = 1
-		completion_reward = {
-			add_ideas = GER_ideological_volunteers
-			custom_effect_tooltip = GER_conscription_unable_tt
-		}
-	}
-	focus = {
-		id = GER_dealing_with_the_autocrats
-		icon = g
-		cost = 10
-		relative_position_id = GER_campaign_against_conscription
-		prerequisite = { focus = GER_campaign_against_conscription }
-		completion_reward = {
-			add_ideas = GER_campaign_against_military_authoritarianism
-		}
-		x = -1
-		y = 1
-	}
-	focus = {
-		id = GER_emulating_the_italian_model
-		icon = GFX_GER_emulating_the_italian_model
-		cost = 10
-		relative_position_id = GER_dealing_with_the_autocrats
-		prerequisite = { focus = GER_dealing_with_the_autocrats }
-		completion_reward = {
-			swap_ideas = {
-				add_idea = GER_decentralised_military_democracy
-				remove_idea = GER_campaign_against_military_authoritarianism
-			}
-		}
-		x = 0
-		y = 1
-	}
-	focus = {
-		id = GER_curb_the_excess
-		icon = GFX_GER_curb_the_excess
-		cost = 10
-		relative_position_id = GER_campaign_against_conscription
-		prerequisite = { focus = GER_campaign_against_conscription }
-		completion_reward = {
-			add_ideas = GER_curb_the_excess
-		}
-		x = 1
-		y = 1
-	}
-	focus = {
-		id = GER_denationalise_military_industry
-		icon = GFX_GER_denationalise_military_industry
-		cost = 10
-		relative_position_id = GER_curb_the_excess
-		prerequisite = { focus = GER_curb_the_excess }
-		completion_reward = {
-			add_ideas = GER_denationalised_military_industry
-		}
-		x = 0
-		y = 1
-	}
-	focus = {
-		id = GER_cut_the_bureaucracy 
-		icon = GFX_GER_cut_the_bureaucracy
-		cost = 10
-		relative_position_id = GER_emulating_the_italian_model
-		prerequisite = { focus = GER_emulating_the_italian_model }
-		prerequisite = { focus = GER_denationalise_military_industry }
-		completion_reward = {
-			swap_ideas = {
-				add_idea = GER_decentralised_military_democracy1
-				remove_idea = GER_decentralised_military_democracy
-			}
-			swap_ideas = {
-				add_idea = GER_denationalised_military_industry1
-				remove_idea = GER_denationalised_military_industry
-			}
-		}
-		x = 1
-		y = 1
-	}
-	focus = {
-		id = GER_the_kpd_direction
+		id = GER_side_with_the_blaue_liste_clique
 		icon = GFX_GER_kpd_direction
 		cost = 0
 		relative_position_id = GER_a_divided_force
 		prerequisite = { focus = GER_a_divided_force }
 		available = { always = no }
+		x = -3
+		y = 1
+	}
+	focus = {
+		id = GER_your_duty_to_the_nation
+		cost = 5
+		relative_position_id = GER_side_with_the_blaue_liste_clique
+		prerequisite = { focus = GER_side_with_the_blaue_liste_clique }
 		x = 0
+		y = 1
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = GER_encourage_officer_initiative
+		cost = 5
+		relative_position_id = GER_your_duty_to_the_nation
+		prerequisite = { focus = GER_your_duty_to_the_nation }
+		x = -1
+		y = 1
+		completion_reward = {
+			add_ideas = { GER_encourage_officer_initiative_idea }
+		}
+	}
+	focus = {
+		id = GER_entrench_high_command_authority
+		cost = 5
+		relative_position_id = GER_encourage_officer_initiative
+		prerequisite = { focus = GER_encourage_officer_initiative}
+		x = 0
+		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				add_idea = GER_entrench_high_command_authority_idea
+				remove_idea = GER_encourage_officer_initiative_idea 
+			}
+		}
+	}
+	focus = {
+		id = GER_form_the_zentrales_produktionskomitee
+		cost = 5
+		relative_position_id = GER_your_duty_to_the_nation
+		prerequisite = { focus = GER_your_duty_to_the_nation }
+		x = 1
+		y = 1
+		completion_reward = {
+			add_ideas = { GER_zentrales_produktionskomitee }
+		}
+	}
+	focus = {
+		id = GER_integrate_regional_war_ministries
+		cost = 5
+		relative_position_id = GER_form_the_zentrales_produktionskomitee
+		prerequisite = { focus = GER_form_the_zentrales_produktionskomitee }
+		x = 0
+		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = GER_zentrales_produktionskomitee 
+				add_idea = GER_zentrales_produktionskomitee1	
+			}
+		}
+	}
+	focus = {
+		id = GER_a_professional_traditional_fighting_force
+		cost = 5
+		relative_position_id = GER_entrench_high_command_authority
+		prerequisite = { focus = GER_entrench_high_command_authority }
+		prerequisite = { focus = GER_integrate_regional_war_ministries }
+		x = 1
+		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = GER_zentrales_produktionskomitee1
+				add_idea = GER_zentrales_produktionskomitee2	
+			}
+			swap_ideas = { 
+				remove_idea = GER_entrench_high_command_authority_idea
+				add_idea = GER_entrench_high_command_authority_idea1	
+			}
+		}
+	}
+	focus = {
+		id = GER_force_concentration
+		cost = 5
+		relative_position_id = GER_a_divided_force
+		prerequisite = {focus = GER_side_with_the_blaue_liste_clique focus = GER_the_loyalist_direction}
+		x = 0
+		y = 2
+		completion_reward = {
+			add_ideas = { GER_force_concentration_idea }
+		}
+	}
+	focus = {
+		id = GER_combined_arms
+		cost = 5
+		relative_position_id = GER_force_concentration
+		prerequisite = {focus = GER_force_concentration}
+		x = 0
+		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				add_idea = GER_combined_arms_idea
+				remove_idea = GER_force_concentration_idea
+			}
+		}
+	}
+	focus = {
+		id = GER_armoured_spearheads
+		cost = 5
+		relative_position_id = GER_combined_arms
+		prerequisite = {focus = GER_combined_arms}
+		x = 0
+		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				add_idea = GER_armoured_spearheads_idea 
+				remove_idea = GER_combined_arms_idea
+			}
+		}
+	}
+	focus = {
+		id = GER_encirclement_tactics
+		cost = 5
+		relative_position_id = GER_armoured_spearheads
+		prerequisite = {focus = GER_armoured_spearheads}
+		x = 0
+		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				add_idea = GER_encirclement_tactics_idea
+				remove_idea = GER_armoured_spearheads_idea
+			}
+		}
+	}
+	focus = {
+		id = GER_the_loyalist_direction
+		icon = GFX_GER_kpd_direction
+		cost = 0
+		relative_position_id = GER_a_divided_force
+		prerequisite = { focus = GER_a_divided_force }
+		available = { always = no }
+		x = 3
 		y = 1
 	}
 	focus = {
 		id = GER_refugee_recruitment_drive
 		icon = GFX_GER_refugee_recruitment_drive
-		cost = 10
-		relative_position_id = GER_the_kpd_direction
-		prerequisite = { focus = GER_the_kpd_direction }
+		cost  = 5
+		relative_position_id = GER_the_loyalist_direction
+		prerequisite = { focus = GER_the_loyalist_direction}
 		completion_reward = {
 			swap_ideas = {
 				add_idea = GER_haven_for_refugees1
@@ -1035,7 +1084,7 @@ focus_tree = {
 	focus = {
 		id = GER_solidify_chain_of_command
 		icon = GFX_GER_solidify_chain_of_command
-		cost = 10
+		cost  = 5
 		relative_position_id = GER_refugee_recruitment_drive
 		prerequisite = { focus = GER_refugee_recruitment_drive }
 		completion_reward = {
@@ -1049,7 +1098,7 @@ focus_tree = {
 	focus = {
 		id = GER_maintain_federalism
 		icon = GFX_GER_maintain_federalism
-		cost = 10
+		cost  = 5
 		relative_position_id = GER_solidify_chain_of_command
 		prerequisite = { focus = GER_solidify_chain_of_command }
 		x = 0
@@ -1064,7 +1113,7 @@ focus_tree = {
 	focus = {
 		id = GER_reorganise_the_production_front
 		icon = GFX_GER_reorganise_the_production_front
-		cost = 10
+		cost  = 5
 		relative_position_id = GER_refugee_recruitment_drive
 		prerequisite = { focus = GER_refugee_recruitment_drive }
 		x = 1
@@ -1078,7 +1127,7 @@ focus_tree = {
 	focus = {
 		id = GER_peoples_production_for_a_peoples_army
 		icon = GFX_GER_peoples_production_for_a_peoples_army
-		cost = 10
+		cost  = 5
 		relative_position_id = GER_reorganise_the_production_front
 		prerequisite = { focus = GER_reorganise_the_production_front }
 		x = 0
@@ -1093,7 +1142,7 @@ focus_tree = {
 	focus = {
 		id = GER_ending_the_despotism
 		icon = GFX_GER_ending_the_despotism
-		cost = 10
+		cost  = 5
 		relative_position_id = GER_maintain_federalism
 		prerequisite = { focus = GER_peoples_production_for_a_peoples_army }
 		prerequisite = { focus = GER_maintain_federalism}
@@ -1111,69 +1160,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_the_uspd_direction
+		id = GER_a_revitalised_volksarmee
 		icon = g
 		cost = 5
-		relative_position_id = GER_a_divided_force
-		prerequisite = { focus = GER_a_divided_force }
-		available = { always = no }
-		x = 4
-		y = 1
-	}
-	focus = {
-		id = GER_your_duty_to_the_nation
-		icon = g
-		cost = 5
-		relative_position_id = GER_the_uspd_direction
-		prerequisite = { focus = GER_the_uspd_direction }
+		relative_position_id = GER_encirclement_tactics
+		prerequisite = { focus = GER_encirclement_tactics}
+		prerequisite = { focus = GER_a_professional_traditional_fighting_force focus = GER_ending_the_despotism }
 		x = 0
 		y = 1
-	}
-	focus = {
-		id = GER_a_firm_hand
-		icon = g
-		cost = 5
-		relative_position_id = GER_your_duty_to_the_nation
-		prerequisite = { focus = GER_your_duty_to_the_nation }
-		x = -1
-		y = 1
-	}
-	focus = {
-		id = GER_strengthen_high_command_authority
-		icon = g
-		cost = 5
-		relative_position_id = GER_a_firm_hand
-		prerequisite = { focus = GER_a_firm_hand }
-		x = 0
-		y = 1
-	}
-	focus = {
-		id = GER_cut_the_inefficient_production_scheme
-		icon = g
-		cost = 5
-		relative_position_id = GER_your_duty_to_the_nation
-		prerequisite = { focus = GER_your_duty_to_the_nation }
-		x = 1
-		y = 1
-	}
-	focus = {
-		id = GER_a_well_oiled_machine
-		icon = g
-		cost = 5
-		relative_position_id = GER_cut_the_inefficient_production_scheme
-		prerequisite = { focus = GER_cut_the_inefficient_production_scheme }
-		x = 0
-		y = 1
-	}
-	focus = {
-		id = GER_a_professional_traditional_fighting_force
-		icon = g
-		cost = 5
-		relative_position_id = GER_strengthen_high_command_authority
-		prerequisite = { focus = GER_a_well_oiled_machine }
-		prerequisite = { focus = GER_strengthen_high_command_authority }
-		x = 1
-		y = 1
+		completion_reward = {
+			army_experience = 30
+		}
 	}
 	focus = {
 		id = GER_new_military_expansion
@@ -1183,6 +1180,16 @@ focus_tree = {
 		prerequisite = { focus = GER_the_volksarmee }
 		x = 5
 		y = 1
+		completion_reward = {
+			65 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_fund_technological_progress
@@ -1192,6 +1199,9 @@ focus_tree = {
 		prerequisite = { focus = GER_new_military_expansion }
 		x = -3
 		y = 1
+		completion_reward = {
+			custom_effect_tooltip = GER_gruppe_oberndorf_available_tt
+		}
 	}
 	focus = {
 		id = GER_making_the_ground_quake
@@ -1201,6 +1211,14 @@ focus_tree = {
 		prerequisite = { focus = GER_fund_technological_progress }
 		x = -1
 		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery
+				name = GER_making_the_ground_quake
+			}
+		}
 	}
 	focus = {
 		id = GER_firearm_research
@@ -1210,6 +1228,14 @@ focus_tree = {
 		prerequisite = { focus = GER_making_the_ground_quake }
 		x = 0
 		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_tech
+				name = GER_firearm_research
+			}
+		}
 	}
 	focus = {
 		id = GER_crossing_the_alps
@@ -1219,6 +1245,14 @@ focus_tree = {
 		prerequisite = { focus = GER_firearm_research }
 		x = 0
 		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = mountaineers_tech
+				name = GER_crossing_the_alps
+			}
+		}
 	}
 	focus = {
 		id = GER_new_electronics
@@ -1228,6 +1262,14 @@ focus_tree = {
 		prerequisite = { focus = GER_crossing_the_alps }
 		x = 0
 		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = electronics
+				name = GER_new_electronics
+			}
+		}
 	}
 	focus = {
 		id = GER_the_age_of_the_tank
@@ -1237,6 +1279,9 @@ focus_tree = {
 		prerequisite = { focus = GER_fund_technological_progress }
 		x = 2
 		y = 1
+		completion_reward = {
+			custom_effect_tooltip = GER_gruppe_kassel_available_tt
+		}
 	}
 	focus = {
 		id = GER_the_oil_situation
@@ -1246,6 +1291,16 @@ focus_tree = {
 		prerequisite = { focus = GER_the_age_of_the_tank }
 		x = 0
 		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = fuel_silo 
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_pursue_autarky
@@ -1256,6 +1311,16 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_trade_with_the_state_capitalists }
 		x = -1
 		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_trade_with_the_state_capitalists
@@ -1266,6 +1331,8 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_pursue_autarky }
 		x = 1
 		y = 1
+		completion_reward = {
+		}
 	}
 	focus = {
 		id = GER_new_panzer_designs
@@ -1275,6 +1342,39 @@ focus_tree = {
 		prerequisite = { focus = GER_pursue_autarky focus = GER_trade_with_the_state_capitalists }
 		x = 0
 		y = 2
+		completion_reward = {
+			if = {
+				limit = { 
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					uses = 1
+					ahead_reduction = 2
+					technology = improved_heavy_tank_chassis
+					name = GER_the_age_of_the_tank
+				}
+				add_tech_bonus = {
+					uses = 1
+					ahead_reduction = 1
+					category = cat_medium_armor
+					name = GER_the_age_of_the_tank
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					uses = 1
+					ahead_reduction = 2
+					technology = improved_heavy_tank
+					name = GER_the_age_of_the_tank
+				}
+				add_tech_bonus = {
+					uses = 1
+					ahead_reduction = 1
+					category = cat_medium_armor
+					name = GER_the_age_of_the_tank
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_smarter_than_ever
@@ -1284,6 +1384,9 @@ focus_tree = {
 		prerequisite = { focus = GER_new_electronics focus = GER_new_panzer_designs }
 		x = 1
 		y = 1
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = GER_expand_the_berlin_academy
@@ -1293,6 +1396,9 @@ focus_tree = {
 		prerequisite = { focus = GER_new_military_expansion }
 		x = 2
 		y = 1
+		completion_reward = {
+			add_ideas = { GER_berlin_academy1 }
+		}
 	}
 	focus = {
 		id = GER_learn_from_battlefield_experience
@@ -1302,15 +1408,42 @@ focus_tree = {
 		prerequisite = { focus = GER_expand_the_berlin_academy }
 		x = -1
 		y = 1
+		completion_reward = {
+			swap_ideas = { 
+				add_idea = GER_berlin_academy2 
+				remove_idea = GER_berlin_academy1	
+			}
+		}
 	}
 	focus = {
-		id = GER_promote_talent
+		id = GER_foster_talent
 		icon = g
 		cost = 5
 		relative_position_id = GER_learn_from_battlefield_experience
 		prerequisite = { focus = GER_learn_from_battlefield_experience }
 		x = 0
 		y = 1
+		completion_reward = {
+			custom_effect_tooltip = GER_foster_talent_decisions_available_tt
+			hidden_effect = {
+				set_variable = {
+					var = GER_improve_attack_skill_var
+					value = 4
+				}
+				set_variable = {
+					var = GER_improve_defense_skill_var
+					value = 4
+				}
+				set_variable = {
+					var = GER_improve_planning_skill_var
+					value = 4
+				}
+				set_variable = {
+					var = GER_improve_logistics_skill_var
+					value = 4
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_develop_our_doctrine
@@ -1320,6 +1453,13 @@ focus_tree = {
 		prerequisite = { focus = GER_expand_the_berlin_academy }
 		x = 1
 		y = 1
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
 	}
 	focus = {
 		id = GER_improved_tactics
@@ -1329,6 +1469,27 @@ focus_tree = {
 		prerequisite = { focus = GER_develop_our_doctrine }
 		x = 0
 		y = 1
+		completion_reward = {
+			custom_effect_tooltip = GER_improved_tactics_decisions_available_tt
+			hidden_effect = {
+				set_variable = {
+					var = GER_add_armour_trait_var
+					value = 2
+				}
+				set_variable = {
+					var = GER_add_infantry_trait_var
+					value = 2
+				}
+				set_variable = {
+					var = GER_add_winter_trait_var
+					value = 2
+				}
+				set_variable = {
+					var = GER_add_mountaineer_trait_var
+					value = 2
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_fill_the_ranks
@@ -1336,9 +1497,16 @@ focus_tree = {
 		cost = 5
 		relative_position_id = GER_expand_the_berlin_academy
 		prerequisite = { focus = GER_improved_tactics }
-		prerequisite = { focus = GER_promote_talent }
+		prerequisite = { focus = GER_foster_talent }
 		x = 0
 		y = 3
+		completion_reward = {
+			recruit_character = GER_willy_riedel
+			recruit_character = GER_hermann_rentzsch
+			recruit_character = GER_heinz_hoffmann
+			recruit_character = GER_georg_boeselager
+			recruit_character = GER_hans_luck
+		}
 	}
 	focus = {
 		id = GER_ensure_loyalty
@@ -1348,15 +1516,5 @@ focus_tree = {
 		prerequisite = { focus = GER_fill_the_ranks }
 		x = 0
 		y = 1
-	}
-	focus = {
-		id = GER_a_revitalised_volksarmee
-		icon = g
-		cost = 5
-		relative_position_id = GER_the_volksarmee
-		prerequisite = { focus = GER_smarter_than_ever}
-		prerequisite = { focus = GER_a_professional_traditional_fighting_force focus = GER_ending_the_despotism focus = GER_cut_the_bureaucracy }
-		x = 0
-		y = 8
 	}
 }
