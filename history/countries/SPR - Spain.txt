@@ -102,7 +102,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = progressive_liberalism
+	ruling_party = social_liberalism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -110,18 +110,18 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 20
+	libertarian_socialism = 20
 	council_communism = 0
-	authoritarian_socialism = 0
-	radical_socialism = 0
+	vanguard_socialism = 0
+	independent_socialism = 0
 	social_democracy = 27
-	progressive_liberalism = 3
-	freemarket_liberalism = 3
+	social_liberalism = 3
+	market_liberalism = 3
 	conservative_democracy = 36
 	authoritarian_democracy = 1
 	autocracy = 0
   	national_syndicalism = 10
-  	ultra_reactionary = 0
+  	national_populism = 0
 }
 
 #Variants

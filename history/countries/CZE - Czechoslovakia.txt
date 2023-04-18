@@ -79,18 +79,18 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	anarchism = 1
+	libertarian_socialism = 1
 	council_communism = 24
-	authoritarian_socialism = 0
-	radical_socialism = 0
+	vanguard_socialism = 0
+	independent_socialism = 0
 	social_democracy = 10
-	progressive_liberalism = 8
-	freemarket_liberalism = 7
+	social_liberalism = 8
+	market_liberalism = 7
 	conservative_democracy = 5
 	authoritarian_democracy = 23
 	autocracy = 0
   	national_syndicalism = 0
-  	ultra_reactionary = 22
+  	national_populism = 22
 
 #Variants
 #Army

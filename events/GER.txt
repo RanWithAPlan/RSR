@@ -54,9 +54,9 @@ country_event = {
         ai_chance = {
             base = 20
         }
-        set_politics = { ruling_party = anarchism}
+        set_politics = { ruling_party = libertarian_socialism}
         add_popularity = {
-	        ideology = anarchism
+	        ideology = libertarian_socialism
 	        popularity = 0.05
         }
         set_country_flag = GER_anarchisten_election 
@@ -80,9 +80,9 @@ country_event = {
         ai_chance = {
             base = 15
         }
-        set_politics = { ruling_party = radical_socialism }
+        set_politics = { ruling_party = independent_socialism }
         add_popularity = {
-	        ideology = radical_socialism
+	        ideology = independent_socialism
 	        popularity = 0.05
         }
         set_country_flag = GER_USPD_election 
@@ -203,10 +203,10 @@ country_event = {
         retire_character = GER_hans_beimler
         retire_character = GER_peter_blachstein
         add_popularity = {
-            ideology = authoritarian_socialism
+            ideology = vanguard_socialism
             popularity = 20
         }
-        set_politics = { ruling_party = authoritarian_socialism }
+        set_politics = { ruling_party = vanguard_socialism }
         add_threat = 10
     }
 }
@@ -229,6 +229,6 @@ country_event = {
         ai_chance = {
             base = 20
         }
-        set_politics = { ruling_party = radical_socialism }
+        set_politics = { ruling_party = independent_socialism }
     }
 }

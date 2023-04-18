@@ -765,7 +765,7 @@ bitmapfonts = {
 		#RSR
 		d = {65 255 250}	#Celadon
 		#Ideology colors
-		A = { 105 0 5 }		#Anarchism
+		A = { 105 0 5 }		#libertarian_socialism
 		c = { 170 0 14 }	#Council Communism
 		V = { 215 25 28 }	#Vanguard Socialism
 		r = { 196 56 56 }	#Radical Socialism

@@ -98,12 +98,12 @@ set_politics = {
 set_popularities = {
 	autocracy = 30
 	authoritarian_democracy = 10
-	ultra_reactionary = 10
+	national_populism = 10
 	conservative_democracy = 10
-	freemarket_liberalism = 10
-	progressive_liberalism = 10
-	radical_socialism = 5
-	authoritarian_socialism = 10
+	market_liberalism = 10
+	social_liberalism = 10
+	independent_socialism = 5
+	vanguard_socialism = 10
 	council_communism = 5
 }
 

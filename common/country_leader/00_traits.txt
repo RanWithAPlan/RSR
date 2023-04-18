@@ -37,10 +37,10 @@ leader_traits = {
 	#Demagogues
 	
 	voice_of_anarchy = {
-		#Boosts anarchism
+		#Boosts libertarian_socialism
 		random = no
-		anarchism_drift = 0.1
-		anarchism_acceptance = 10
+		libertarian_socialism_drift = 0.1
+		libertarian_socialism_acceptance = 10
 	}
 	
 	party_newspaper_editor = {
@@ -51,10 +51,10 @@ leader_traits = {
 	}
 	
 	devoted_communist = {
-		#Boosts radical_socialism
+		#Boosts independent_socialism
 		random = no
-		radical_socialism_drift = 0.1
-		radical_socialism_acceptance = 10
+		independent_socialism_drift = 0.1
+		independent_socialism_acceptance = 10
 	}
 	
 	prominent_reformer = {
@@ -67,15 +67,15 @@ leader_traits = {
 	gospeler_of_progress = {
 		#Boosts social_democracy
 		random = no
-		progressive_liberalism_drift = 0.1
-		progressive_liberalism_acceptance = 10
+		social_liberalism_drift = 0.1
+		social_liberalism_acceptance = 10
 	}
 	
 	competitive_capitalist = {
-		#Boosts freemarket_liberalism
+		#Boosts market_liberalism
 		random = no
-		freemarket_liberalism_drift = 0.1
-		freemarket_liberalism_acceptance = 10
+		market_liberalism_drift = 0.1
+		market_liberalism_acceptance = 10
 	}
 	
 	stedfast_traditionalist = {
@@ -112,9 +112,9 @@ leader_traits = {
 		random = no
 		stability_factor = -0.1
 		political_power_factor = 0.05
-		anarchism_acceptance = 50
+		libertarian_socialism_acceptance = 50
 		council_communism_acceptance = 50
-		radical_socialism_acceptance = 50
+		independent_socialism_acceptance = 50
 	}
 
 	anarchisten_majority = {

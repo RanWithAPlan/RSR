@@ -61,22 +61,22 @@ set_convoys = 5
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = progressive_liberalism
+	ruling_party = social_liberalism
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	anarchism = 0
+	libertarian_socialism = 0
 	council_communism = 5
-	authoritarian_socialism = 10
-	radical_socialism = 0
+	vanguard_socialism = 10
+	independent_socialism = 0
 	social_democracy = 20
-	progressive_liberalism = 25
-	freemarket_liberalism = 10
+	social_liberalism = 25
+	market_liberalism = 10
 	conservative_democracy = 10
 	authoritarian_democracy = 10
 	autocracy = 0
   	national_syndicalism = 0
-  	ultra_reactionary = 10
+  	national_populism = 10
 }

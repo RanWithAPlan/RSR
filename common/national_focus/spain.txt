@@ -7761,7 +7761,7 @@ focus_tree = {
 						desc = "POLITICS_ANARCHIST_COMMUNE_DESC"
 						picture = "GFX_portrait_SPR_anarchist_commune"
 						expire = "1965.1.1"
-						ideology = anarchism
+						ideology = libertarian_socialism
 						traits = {
 							our_right_to_survive
 						}
@@ -7988,7 +7988,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPR_portuguese_anarchism
+		id = SPR_portuguese_libertarian_socialism
 		available = {
 			any_state = {
 				is_fully_controlled_by = ROOT
@@ -8051,12 +8051,12 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		prerequisite = { focus = SPR_portuguese_anarchism }
+		prerequisite = { focus = SPR_portuguese_libertarian_socialism }
 		
 		icon = GFX_goal_generic_alliance
 		x = 0
 		y = 1
-		relative_position_id = SPR_portuguese_anarchism
+		relative_position_id = SPR_portuguese_libertarian_socialism
 		cost = 10
 
 		available_if_capitulated = yes
@@ -8746,14 +8746,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPR_anarchism_knows_no_borders
+		id = SPR_libertarian_socialism_knows_no_borders
 		available = {
 		}
 		bypass = {
 		}
 		prerequisite = { focus = SPR_militarize_the_people }
 		
-		icon = GFX_focus_spr_anarchism_knows_no_borders
+		icon = GFX_focus_spr_libertarian_socialism_knows_no_borders
 		x = 0
 		y = 1
 		relative_position_id = SPR_militarize_the_people
@@ -8762,7 +8762,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
-			add_ideas = SPR_anarchism_knows_no_borders
+			add_ideas = SPR_libertarian_socialism_knows_no_borders
 		}
 	}
 
@@ -8772,12 +8772,12 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		prerequisite = { focus = SPR_anarchism_knows_no_borders }
+		prerequisite = { focus = SPR_libertarian_socialism_knows_no_borders }
 		
 		icon = GFX_focus_prc_infiltration
 		x = -1
 		y = 1
-		relative_position_id = SPR_anarchism_knows_no_borders
+		relative_position_id = SPR_libertarian_socialism_knows_no_borders
 		cost = 10
 
 		available_if_capitulated = yes
@@ -8804,12 +8804,12 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		prerequisite = { focus = SPR_anarchism_knows_no_borders }
+		prerequisite = { focus = SPR_libertarian_socialism_knows_no_borders }
 		
 		icon = GFX_goal_generic_alliance
 		x = 1
 		y = 1
-		relative_position_id = SPR_anarchism_knows_no_borders
+		relative_position_id = SPR_libertarian_socialism_knows_no_borders
 		cost = 10
 
 		available_if_capitulated = yes

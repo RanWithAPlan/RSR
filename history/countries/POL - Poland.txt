@@ -102,7 +102,7 @@ country_event = {
 
 #Politics
 set_politics = {
-	ruling_party = ultra_reactionary
+	ruling_party = national_populism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -110,18 +110,18 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 2
+	libertarian_socialism = 2
 	council_communism = 11
-	authoritarian_socialism = 1
-	radical_socialism = 6
+	vanguard_socialism = 1
+	independent_socialism = 6
 	social_democracy = 18
-	progressive_liberalism = 0
-	freemarket_liberalism = 6
+	social_liberalism = 0
+	market_liberalism = 6
 	conservative_democracy = 4
 	authoritarian_democracy = 14
 	autocracy = 0
   	national_syndicalism = 0
-  	ultra_reactionary = 18
+  	national_populism = 18
 }
 
 #Variants

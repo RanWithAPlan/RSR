@@ -1,21 +1,21 @@
 ﻿l_english:
 
  
- anarchism:0 "Anarchism"
- anarchism_desc:0 "Stateless"
+ libertarian_socialism:0 "Libertarian Socialism"
+ libertarian_socialism_desc:0 "Socialist"
  
  anarchism_subtype:0 "Anarchism"
  anarchism_subtype_desc:0 "United under a desire destroy coercive hierarchy, Anarchism is an extremely broad ideology. Often called terrorists due to acts of propaganda by the deed, Anarchists have found their home in many different places."
 
- authoritarian_socialism:0 "Authoritarian Socialism"
- authoritarian_socialism_desc:0 "Socialist"
+ vanguard_socialism:0 "Vanguard Socialism"
+ vanguard_socialism_desc:0 "Socialist"
 
- authoritarian_socialism_subtype:0 "Authoritarian Socialism"
+ vanguard_socialism_subtype:0 "Vanguard Socialism"
  
- radical_socialism:0 "Radical Socialism"
- radical_socialism_desc:0 "Socialist"
+ independent_socialism:0 "Independent Socialism"
+ independent_socialism_desc:0 "Socialist"
  
- radical_socialism_subtype:0 "Radical Socialism"
+ independent_socialism_subtype:0 "Independent Socialism"
 
  council_communism:0 "Council Communism"
  council_communism_desc:0 "Socialist"
@@ -23,22 +23,22 @@
  council_communism_subtype:0 "Council Communism"
  
  social_democracy:0 "Social Democracy"
- social_democracy_desc:0 "Social Democracy"
+ social_democracy_desc:0 "Democratic Capitalist"
  
  social_democracy_subtype:0 "Social Democracy"
  
- progressive_liberalism:0 "Progressive Liberalism"
- progressive_liberalism_desc:0 "Progressive Democracy"
+ social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "Democratic Capitalist"
  
- progressive_liberalism_subtype:0 "Progressive Liberalism"
+ social_liberalism_subtype:0 "Social Liberalism"
  
- freemarket_liberalism:0 "Freemarket Liberalism"
- freemarket_liberalism_desc:0 "Democratic Capitalist"
+ market_liberalism:0 "Market Liberalism"
+ market_liberalism_desc:0 "Democratic Capitalist"
  
- freemarket_liberalism_subtype:0 "Freemarket Liberalism"
+ market_liberalism_subtype:0 "Market Liberalism"
  
  conservative_democracy:0 "Conservative Democracy"
- conservative_democracy_desc:0 "Conservative Democracy"
+ conservative_democracy_desc:0 "Democratic Capitalist"
  
  conservative_democracy_subtype:0 "Conservative Democracy"
  
@@ -57,16 +57,16 @@
 
  national_syndicalism_subtype:0 "National Syndicalism"
  
- ultra_reactionary:0 "Ultra-Reactionary"
- ultra_reactionary_desc:0 "Ultra-Reactionary"
- ultra_reactionary_noun:0 "Reactionary"
+ national_populism:0 "National Populism"
+ national_populism_desc:0 "National Populism"
+ national_populism_noun:0 "Reactionary"
  
- ultra_reactionary_subtype:0 ""Ultra-Reactionary""
+ national_populism_subtype:0 "National Populism"
  subtype_national_federalism:0 "National Federalism"
  subtype_ultranationalism:0 "Ultranationalism"
  onr_falanga_party:0 "Ultra-Reactionary"
  onr_falanga_party_desc:0 "§8The Ruch Narodowo Radykalny§!\nFormed in the wake of the failed May Coup the ONR or National Radical Camp quickly accended to power after Piłsudski failed coup. With promises of acting as a nationalist vanguard to both protect Poland from its socialist enemies, but also from its internal enemies public support for the ONR soared, and quickly became a part of the mainstream Polish nationalist movement. This quickly caught the eye of Polish leader and nationalist Roman Dmowkski who seeing the ONR's potential invited them to the first National Congress of Poland. At this congress which established the National Congress as a counter weight to Dmowkski the ONR joined the congress' so called 'National Coalition' which acted as a union of all nationalist parties in Poland. Although starting as simply another member of the coalition and sending delagates to the congress, their power quickly spread until in 1934 when the ONR member Bolesław Piasecki won the position of 'Speaker of The National Congress'. From there the ONR's power skyrocketed and by 1936 it has become the defacto politcal party of Poland.\n\n§8The Ruch Narodowo Radykalny-Falanga§!\nThe ONR-Falanaga is the Falangist branch of the ONR which although being led by Bolesław Piasecki acts as more of a bridge between the ever increasingly Falangist ideas of Dmowkski, and the ONR. The Falanaga is the largest subsection of the ONR, but just because of its size and connections with Dmowksi it still isn't immune to plotters and backstabers, some of whom might hold the highest positions of power."
  
- ultra_reactionary_drift:0 "Reactionary Drift"
+ national_populism_drift:0 "Reactionary Drift"
  
  

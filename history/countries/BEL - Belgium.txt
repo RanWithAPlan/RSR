@@ -53,17 +53,17 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	anarchism = 1
+	libertarian_socialism = 1
 	council_communism = 6
-	authoritarian_socialism = 0
-	radical_socialism = 0
+	vanguard_socialism = 0
+	independent_socialism = 0
 	social_democracy = 33
-	progressive_liberalism = 0
-	freemarket_liberalism = 13
+	social_liberalism = 0
+	market_liberalism = 13
 	conservative_democracy = 29
 	authoritarian_democracy = 0
 	autocracy = 7
 	national_syndicalism = 0
-	ultra_reactionary = 11
+	national_populism = 11
 	}
 }

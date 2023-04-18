@@ -91,24 +91,24 @@ set_research_slots = 3
 
 
 set_politics = {
-	ruling_party = ultra_reactionary
+	ruling_party = national_populism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 0
+	libertarian_socialism = 0
 	council_communism = 2
-	authoritarian_socialism = 0
-	radical_socialism = 1
+	vanguard_socialism = 0
+	independent_socialism = 1
 	social_democracy = 1
-	progressive_liberalism = 0
-	freemarket_liberalism = 13
+	social_liberalism = 0
+	market_liberalism = 13
 	conservative_democracy = 1
 	authoritarian_democracy = 11
 	autocracy = 9
   	national_syndicalism = 10
-  	ultra_reactionary = 52
+  	national_populism = 52
 }
 
 #Variants

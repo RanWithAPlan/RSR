@@ -4,24 +4,24 @@
  PUF_DEF:0 "the Patriotic United Front"
  
  #Parties
- PUF_anarchism_party:0 ""
- PUF_anarchism_party_long:0 ""
- PUF_radical_socialism_party:0 "Independent Members"
- PUF_authoritarian_socialism_party:0 "CPC"
- PUF_authoritarian_socialism_party_long:0 "Communist Party of China"
+ PUF_libertarian_socialism_party:0 ""
+ PUF_libertarian_socialism_party_long:0 ""
+ PUF_independent_socialism_party:0 "Independent Members"
+ PUF_vanguard_socialism_party:0 "CPC"
+ PUF_vanguard_socialism_party_long:0 "Communist Party of China"
  PUF_council_communism_party:0 "CSFI"
  PUF_council_communism_party_long:0 "Chinese Section of the Fourth International"
  PUF_social_democracy_party:0 "LKMT"
  PUF_social_democracy_party_long:0 "Left Kuomintang"
- PUF_freemarket_liberalism_party:0 ""
- PUF_freemarket_liberalism_party_long:0 ""
+ PUF_market_liberalism_party:0 ""
+ PUF_market_liberalism_party_long:0 ""
  PUF_conservative_democracy_party:0 "RKMT"
  PUF_conservative_democracy_party_long:0 "Right Kuomintang"
  PUF_autocracy_party:0 "RKMT"
  PUF_autocracy_party_long:0 "Right Kuomintang"
  PUF_authoritarian_democracy_party:0 "RKMT"
  PUF_authoritarian_democracy_party_long:0 "Right Kuomintang"
- PUF_ultra_reactionary_party:0 ""
+ PUF_national_populism_party:0 ""
 
  #characters 
 

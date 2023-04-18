@@ -54,9 +54,9 @@ country_event = {
         ai_chance = {
             base = 20
         }
-        set_politics = { ruling_party = anarchism}
+        set_politics = { ruling_party = libertarian_socialism}
         add_popularity = {
-	        ideology = anarchism
+	        ideology = libertarian_socialism
 	        popularity = 0.20
         }
         set_country_flag = GER_anarchisten_election 
@@ -80,9 +80,9 @@ country_event = {
         ai_chance = {
             base = 15
         }
-        set_politics = { ruling_party = radical_socialism }
+        set_politics = { ruling_party = independent_socialism }
         add_popularity = {
-	        ideology = radical_socialism
+	        ideology = independent_socialism
 	        popularity = 0.20
         }
         set_country_flag = GER_zentralisten_election 
@@ -271,9 +271,9 @@ country_event = {
     
     option = {
         name = socgermany_council.1.a
-        set_variable = { var = GER_anarchisten_seats value = party_popularity@anarchism }
+        set_variable = { var = GER_anarchisten_seats value = party_popularity@libertarian_socialism }
         set_variable = { var = GER_dezentralisten_seats value = party_popularity@council_communism }
-        set_variable = { var = GER_zentralisten_seats value = party_popularity@radical_socialism }
+        set_variable = { var = GER_zentralisten_seats value = party_popularity@independent_socialism }
         multiply_variable = { var = GER_anarchisten_seats value = 100 }
         multiply_variable = { var = GER_dezentralisten_seats value = 100 }
         multiply_variable = { var = GER_zentralisten_seats value = 100 }

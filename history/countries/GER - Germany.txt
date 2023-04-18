@@ -169,14 +169,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 8
+	libertarian_socialism = 8
 	council_communism = 41
-	authoritarian_socialism = 7
+	vanguard_socialism = 7
 	national_syndicalism = 3
-	radical_socialism = 38
+	independent_socialism = 38
 	social_democracy = 2
-	progressive_liberalism = 1
-	freemarket_liberalism = 0
+	social_liberalism = 1
+	market_liberalism = 0
 	conservative_democracy = 0
 	autocracy = 0
 	despotism = 0
@@ -206,9 +206,9 @@ add_dynamic_modifier = {
 	modifier = GER_unity_idea
 }
 
-recruit_character = GER_executive_council_anarchism
+recruit_character = GER_executive_council_libertarian_socialism
 recruit_character = GER_executive_council_council_communism
-recruit_character = GER_executive_council_radical_socialism
+recruit_character = GER_executive_council_independent_socialism
 recruit_character = GER_rudolf_rocker
 recruit_character = GER_erich_muhsam
 recruit_character = GER_hienrich_brandler

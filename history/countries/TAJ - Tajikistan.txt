@@ -16,7 +16,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	authoritarian_socialism = 50
+	vanguard_socialism = 50
 	social_democracy = 50
 }
 

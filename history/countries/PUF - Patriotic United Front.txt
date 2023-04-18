@@ -20,22 +20,22 @@ add_ideas = {
 	japanese_economic_dominance1
 }
 set_politics = {
-	ruling_party = radical_socialism
+	ruling_party = independent_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 5
+	libertarian_socialism = 5
 	council_communism = 20
-	authoritarian_socialism = 30
-	radical_socialism = 15
+	vanguard_socialism = 30
+	independent_socialism = 15
 	social_democracy = 10
-	progressive_liberalism = 5
-	freemarket_liberalism = 0
+	social_liberalism = 5
+	market_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 5
 	autocracy = 10
   	national_syndicalism = 0
-  	ultra_reactionary = 0
+  	national_populism = 0
 }

@@ -10,7 +10,7 @@ characters = {
 		country_leader = {
 			expire = "1936.7.11"
 			traits = { the_great_uniter poor_health }
-			ideology = radical_socialism_subtype
+			ideology = independent_socialism_subtype
 		}
 	}
 }

@@ -6548,7 +6548,7 @@ focus_tree = {
 	focus = {
 		id = ETH_refuge_for_the_spanish_exiles
 		prerequisite = { focus = ETH_support_spain}
-		icon = GFX_focus_spr_anarchism_knows_no_borders		
+		icon = GFX_focus_spr_libertarian_socialism_knows_no_borders		
 		mutually_exclusive = {focus = ETH_the_rif}
 		relative_position_id = ETH_support_spain
 		x = 1

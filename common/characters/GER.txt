@@ -1,6 +1,6 @@
 characters={
-	GER_executive_council_anarchism = {
-		name = GER_executive_council_anarchism
+	GER_executive_council_libertarian_socialism = {
+		name = GER_executive_council_libertarian_socialism
 		portraits = {
 			civilian = {
 				large = "GFX_reichstag_portrait_animated_large"
@@ -9,7 +9,7 @@ characters={
 		country_leader = {
 			expire = "1965.1.1"
 			traits={ council_of_peers anarchisten_majority }
-			ideology = anarchism_subtype
+			ideology = libertarian_socialism_subtype
 		}
 	}
 	GER_executive_council_council_communism = {
@@ -25,8 +25,8 @@ characters={
 			ideology = council_communism_subtype
 		}
 	}
-	GER_executive_council_radical_socialism = {
-		name = GER_executive_council_radical_socialism
+	GER_executive_council_independent_socialism = {
+		name = GER_executive_council_independent_socialism
 		portraits = {
 			civilian = {
 				large = "GFX_reichstag_portrait_animated_large"
@@ -35,7 +35,7 @@ characters={
 		country_leader = {
 			expire = "1965.1.1"
 			traits={ council_of_peers zentralisten_majority }
-			ideology = radical_socialism_subtype
+			ideology = independent_socialism_subtype
 		}
 	}
 	#political advisors#

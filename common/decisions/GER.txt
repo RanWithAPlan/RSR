@@ -43,21 +43,6 @@ GER_unity = {
             }
 		}
     }
-    GER_lessen_state_intervention = {
-        icon = gre_paying_ifc_debt
-		visible = {
-            has_government  = anarchism
-		}
-		fire_only_once = no
-        days_remove = 100
-        days_re_enable = 100
-		cost = 50
-        priority = 60
-        modifier = {
-            consumer_goods_factor = -0.05
-            production_factory_efficiency_gain_factor = 0.10
-        }
-    }
     GER_empower_the_councils = {
         icon = generic_civil_support
 		visible = {
@@ -75,7 +60,7 @@ GER_unity = {
     GER_strengthen_the_executive_council = {
         icon = SOV_place_hq
 		visible = {
-            has_government  = radical_socialism
+            has_government  = independent_socialism
 		}
 		fire_only_once = no
         days_remove = 100
@@ -142,7 +127,7 @@ GER_executive_council_category = {
                         compare = greater_than_or_equals
                     }
                 }
-                set_politics = { ruling_party = anarchism }
+                set_politics = { ruling_party = libertarian_socialism }
                 set_country_flag = GER_anarchisten_election
                 clr_country_flag = GER_USPD_election
                 clr_country_flag = GER_KPD_election
@@ -160,7 +145,7 @@ GER_executive_council_category = {
                         compare = greater_than_or_equals
                     }
                 }
-                set_politics = { ruling_party = radical_socialism }
+                set_politics = { ruling_party = independent_socialism }
                 set_country_flag = GER_USPD_election
                 clr_country_flag = GER_anarchisten_election
                 clr_country_flag = GER_KPD_election
