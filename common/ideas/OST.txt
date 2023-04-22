@@ -1,0 +1,98 @@
+ideas = {
+	country = { 
+		#Starting Ideas
+		OST_the_baltic_chimera = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_gain_factor = -0.5
+				stability_factor = -0.1
+				war_support = 0.15
+			}
+		}
+
+		OST_friekorps_and_white_army_remnants = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				conscription = 0.02
+				army_attack_factor = 0.05
+				army_attack_against_major_factor = 0.05
+				army_defence_factor = 0.05
+				army_defence_against_major_factor = 0.05
+			}
+		}
+
+		OST_forest_guerillas = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain_factor = -0.05
+				army_speed_factor = -0.05
+			}
+		}
+
+		#Non-Starting Ideas
+		OST_eliminate_the_northern_bands = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				
+			}
+		}
+
+		OST_prioritize_the_southern_front = { 
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				
+			}
+		}
+	}
+}

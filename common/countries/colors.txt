@@ -70,6 +70,11 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 
+BSR = {
+	color = rgb { 227 26 28 }
+	color_ui = rgb { 227 26 28 }
+}
+
 BUL = {
 	color = rgb { 51 155 0 }
 	color_ui = rgb { 210 147 217 }
@@ -270,15 +275,15 @@ LIB = {
 	color_ui = rgb { 198 169 248 }
 }
 
-LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
-}
-
 LIC = {
 	color = rgb { 163 20 32 }
 	color_ui = rgb { 163 20 32 }
 }
+
+LIT = {
+	color = rgb { 219 219 119 }
+	color_ui = rgb { 255 255 155 }
+} 
 
 LUX = {
 	color = rgb { 65 175 179 }
@@ -323,6 +328,11 @@ NZL = {
 OMA = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
+}
+
+OST = {
+	color = rgb { 50 100 200 }
+	color_ui = rgb { 50 100 200 }
 }
 
 PAN = {

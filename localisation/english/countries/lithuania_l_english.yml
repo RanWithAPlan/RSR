@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Names
  LIT:0 "Lithuania"
  LIT_DEF:0 "Lithuania"
  LIT_ADJ:0 "Lithuanian"
@@ -36,6 +37,12 @@
  LIT_council_communism_ADJ:0 "Lithuanian"
  LIT_radical_socialism_ADJ:0 "Lithuanian"
  
+ #Cosmetic
+ LIT_forest_brotherhood:0 "Forest Brotherhood of Lithuania"
+ LIT_forest_brotherhood_DEF:0 "the Lithuanian Brotherhood"
+ LIT_forest_brotherhood_ADJ:0 "Lithuanian"
+
+
  ###Events###
  lithuania.1.title:0 "Socialist Revolution in Lithuania"
  lithuania.1.desc:0 "Shocking news has come out of Lithuania today of an uprising against the dictatorship under Smetona. This rebbelion began early in the morning when members of the Lithuanian Communist Party a once Leninist party now a Germany backed Council Communist organization delared the Lithuanian Condederation. This declaration was quickly followed by various militias and paramilitaries seizing key cities in the West and South and after a several hour stuggle the capital of Vilnius. Although the revolution hoped to claim the whole nation this didn't happen and Smetona and loyal members of the military have retreated north to prepare to take the country back. It seems now that civil war is inevitable and the once peaceful nation of Lithuania will be just another European nation embroiled in the fight between nationalism and socialism."

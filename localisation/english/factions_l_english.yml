@@ -5,6 +5,8 @@
 
  fourth_international:0 "Fourth International"
 
+ baltic_liberation_front:0 "Baltic Liberation Front"
+
  #vanilla
  FACTION_CREATED_UNDER_MASTER_TITLE:0 "Joined Master's Faction"
  FACTION_CREATED_UNDER_MASTER_MESSAGE:0 "We have joined $FACTION|H$ faction together under our master"

@@ -23,12 +23,18 @@ set_technology = {
 	tech_support = 1
 }
 
-news_event = { 
-	id = lithuania.1 
-	days = 21
+LIT = { set_cosmetic_tag = LIT_forest_brotherhood }
+add_ideas = {
+	extensive_conscription
+	BROTHERHOOD_anti_communist_veterans
+	BROTHERHOOD_forest_guerillas
 }
 
 set_convoys = 10
+
+create_faction = baltic_liberation_front
+add_to_faction = LAT
+
 
 set_politics = {
 	ruling_party = autocracy
