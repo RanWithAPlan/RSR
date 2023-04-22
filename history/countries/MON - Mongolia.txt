@@ -40,7 +40,7 @@ set_research_slots = 3
 add_manpower = 100000
 set_cosmetic_tag = MON_WAR_autocracy
 
-#Diplomacy, put puppets, wars, factions, and other such things here
+#Diplomacy, wars, factions, and other such things here
 
 #Politics
 set_politics = {
