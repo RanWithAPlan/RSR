@@ -1,0 +1,18 @@
+characters={
+
+###################################################################################################Leaders
+
+	BEL_pvz={
+		name = BEL_pvz
+		portraits={
+			civilian={
+				large="GFX_portrait_BEL_pvz"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

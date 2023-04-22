@@ -85,6 +85,11 @@ CHL = {
 	color_ui = rgb { 202 131 139 }
 }
 
+COG = { 
+	color = rgb { 152 159 209 }
+	color_ui = rgb { 152 159 209 }
+}
+
 COL = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 255 243 118 }

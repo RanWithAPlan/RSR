@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_BEL_pvz"
+		texturefile = "gfx/leaders/BEL/portrait_BEL_pvz.png"
+	}
+}

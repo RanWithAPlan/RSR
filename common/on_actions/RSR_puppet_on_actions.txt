@@ -236,4 +236,37 @@ on_actions = {
 		}
 	}
 	
+#Belgium
+	on_startup = {
+			effect = {
+				BEL = {
+				set_autonomy = {
+				target = COG
+				autonomous_state = autonomy_integrated_puppet
+				}
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			COG = {
+				set_popularities = {
+					anarchism = 20
+					council_communism = 0
+					authoritarian_socialism = 0
+					radical_socialism = 40
+					social_democracy = 5
+					progressive_liberalism = 0
+					freemarket_liberalism = 0
+					conservative_democracy = 5
+					authoritarian_democracy = 0
+					autocracy = 0
+					national_syndicalism = 0
+					ultra_reactionary = 30
+				}		
+			}
+		}
+	}
+	
 }

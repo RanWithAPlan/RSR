@@ -1,3 +1,8 @@
+COG_BEL = { 
+	color = rgb { 186 153 37 }
+	color_ui = rgb { 251 222 10 }
+}
+
 TAJ_SOV = {
 	color = rgb { 183 13 0 }
 	color_ui = rgb { 233 73 60 }

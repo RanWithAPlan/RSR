@@ -1,0 +1,18 @@
+characters={
+
+###################################################################################################Leaders
+
+	COG_BCC={
+		name = COG_Belgian_Colonial_Council
+		portraits={
+			civilian={
+				large="GFX_portrait_COG_BCC"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
