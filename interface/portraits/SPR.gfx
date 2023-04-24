@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_portrait_SPR_Manuel"
 		texturefile = "gfx/leaders/SPR/portrait_SPR_Manuel.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_SPR_Alphonso_XIV"
+		texturefile = "gfx/leaders/SPR/portrait_SPR_Alphonso_XIV.png"
+	}
 }

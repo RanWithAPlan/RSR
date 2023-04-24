@@ -83,6 +83,7 @@ set_technology = {
 #Characters
 #leaders
 recruit_character = SPR_Manuel
+recruit_character = SPR_Alphonso_XIV
 
 #Ideas
 
@@ -95,7 +96,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = authoritarian_democracy
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -110,8 +111,8 @@ set_popularities = {
 	social_democracy = 27
 	progressive_liberalism = 3
 	freemarket_liberalism = 3
-	conservative_democracy = 36
-	authoritarian_democracy = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 36
 	autocracy = 1
 	national_syndicalism = 0
 	ultra_reactionary = 10

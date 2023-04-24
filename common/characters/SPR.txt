@@ -2,6 +2,20 @@ characters={
 
 ###################################################################################################Leaders
 
+	SPR_Alphonso_XIV={
+		name = SPR_Alphonso_XIV
+		portraits={
+			civilian={
+				large="GFX_portrait_SPR_Alphonso_XIV"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
 	SPR_Manuel={
 		name = SPR_Manuel
 		portraits={
