@@ -1,0 +1,20 @@
+characters={
+
+###################################################################################################Leaders
+
+	GRE_King_George_II={
+		name = GRE_King_George_II
+		portraits={
+			civilian={
+				large="GFX_portrait_GRE_King_George_II"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
+
+}

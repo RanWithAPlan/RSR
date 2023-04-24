@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_GRE_King_George_II"
+		texturefile = "gfx/leaders/GRE/portrait_GRE_King_George_II.png"
+	}
+}
