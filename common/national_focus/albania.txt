@@ -2,10 +2,10 @@
 	id = albania_focus
 	
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
 			add = 10
-			tag = AUS
+			tag = ALB
 		}
 	}
 	
@@ -15,3 +15,5 @@
 	
 
 #####################################################################################START
+
+}
