@@ -35,6 +35,7 @@ if = {
 }
 
 #Characters
+recruit_character = IRQ_Sheikh_Khazal
 
 #Ideas
 add_ideas = {
@@ -47,22 +48,19 @@ set_convoys = 5
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = libertarian_socialism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	libertarian_socialism = 100
-	council_communism = 0
-	vanguard_socialism = 0
-	independent_socialism = 0
-	social_democracy = 0
-	social_liberalism = 0
-	market_liberalism = 0
-	conservative_democracy = 0
-	authoritarian_democracy = 0
-	autocracy = 0
-  	national_syndicalism = 0
-  	national_populism = 0
+	libertarian_socialism = 1
+	vanguard_socialism = 6
+	independent_socialism = 5
+	social_democracy = 8
+	social_liberalism = 15
+	market_liberalism = 8
+	conservative_democracy = 10
+	autocracy = 35
+  	national_populism = 12
 }

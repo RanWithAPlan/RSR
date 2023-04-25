@@ -25,6 +25,11 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 
+ASR = {
+	color = rgb { 255 80 80 }
+	color_ui = rgb { 255 152 152 }
+}
+
 AST = {
 	color = rgb { 57 143 97 }
 	color_ui = rgb { 74 186 126 }

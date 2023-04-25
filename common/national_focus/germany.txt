@@ -915,7 +915,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_side_with_the_blaue_liste_clique
-		icon = GFX_GER_kpd_direction
+		icon = g
 		cost = 0
 		relative_position_id = GER_a_divided_force
 		prerequisite = { focus = GER_a_divided_force }

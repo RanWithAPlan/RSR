@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_IRQ_Sheikh_Khazal"
+        texturefile = "gfx/leaders/IRQ/portrait_IRQ_Sheikh_Khazal.png"
+    }
+}

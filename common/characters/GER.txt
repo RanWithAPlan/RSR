@@ -154,7 +154,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected urban_assault_specialist kpd_officer}
+            traits = { politically_connected urban_assault_specialist loyalist_officer}
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 3
@@ -170,7 +170,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = {organizer brilliant_strategist kpd_officer}
+            traits = {organizer brilliant_strategist loyalist_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
@@ -186,7 +186,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { commando trickster trait_reckless kpd_officer}
+            traits = { commando trickster trait_reckless loyalist_officer}
 	        skill = 2
 	        attack_skill = 3
 	        defense_skill = 1
@@ -202,7 +202,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { trait_reckless commando kpd_officer}
+            traits = { trait_reckless commando loyalist_officer}
 	        skill = 1
 	        attack_skill = 3
 	        defense_skill = 1
@@ -218,7 +218,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected old_guard media_personality kpd_officer}
+            traits = { politically_connected old_guard media_personality loyalist_officer}
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
@@ -234,7 +234,7 @@ characters={
             }
         }
     	field_marshal = {
-            traits = { war_hero infantry_officer kpd_officer}
+            traits = { war_hero infantry_officer loyalist_officer}
 	        skill = 4
 	        attack_skill = 4
 	        defense_skill = 3
@@ -351,7 +351,7 @@ characters={
             }
         }
     	field_marshal = {
-            traits = { nva_officer career_officer }
+            traits = { blaue_liste_officer career_officer }
 	        skill = 3
 	        attack_skill = 2
 	        defense_skill = 3
@@ -367,7 +367,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { nva_officer infantry_officer inflexible_strategist}
+            traits = { blaue_liste_officer infantry_officer inflexible_strategist}
 	        skill = 3
 	        attack_skill = 2
 	        defense_skill = 3
@@ -383,7 +383,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { nva_officer career_officer}
+            traits = { blaue_liste_officer career_officer}
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
@@ -399,7 +399,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trait_reckless armor_officer trickster nva_officer}
+			traits={ trait_reckless armor_officer trickster blaue_liste_officer}
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -415,7 +415,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_officer nva_officer}
+			traits={ infantry_officer blaue_liste_officer}
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -433,7 +433,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected uspd_officer }
+            traits = { politically_connected loyalist_officer }
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 3
@@ -449,7 +449,7 @@ characters={
             }
         }
     	field_marshal = {
-            traits = { old_guard winter_specialist uspd_officer}
+            traits = { old_guard winter_specialist loyalist_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
@@ -465,7 +465,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected uspd_officer }
+            traits = { politically_connected loyalist_officer }
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 3
@@ -481,7 +481,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { uspd_officer trait_cautious media_personality }
+            traits = { loyalist_officer trait_cautious media_personality }
 	        skill = 1
 	        attack_skill = 1
 	        defense_skill = 2
@@ -499,7 +499,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected armor_officer trickster career_officer nva_officer}
+            traits = { politically_connected armor_officer trickster career_officer blaue_liste_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
@@ -515,7 +515,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { trait_engineer politically_connected harsh_leader nva_officer }
+            traits = { trait_engineer politically_connected harsh_leader blaue_liste_officer }
 	        skill = 3
 	        attack_skill = 2
 	        defense_skill = 2
@@ -531,7 +531,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected infantry_officer kpd_officer}
+            traits = { politically_connected infantry_officer loyalist_officer}
 	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
@@ -547,7 +547,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected kpd_officer}
+            traits = { politically_connected loyalist_officer}
 	        skill = 2
 	        attack_skill = 1
 	        defense_skill = 2
@@ -563,7 +563,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { politically_connected kpd_officer}
+            traits = { politically_connected loyalist_officer}
 	        skill = 1
 	        attack_skill = 1
 	        defense_skill = 2

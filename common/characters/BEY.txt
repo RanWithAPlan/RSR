@@ -10,7 +10,7 @@ characters = {
 		country_leader = {
 			expire = "1965.1.1"
 			traits = { generallissimo }
-			ideology = authoritarian_democracy
+			ideology = autocracy_subtype
 		}
 	}
 }

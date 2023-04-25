@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  STATE_1:0 "Corsica"
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
@@ -939,3 +939,4 @@
  STATE_936:0 "Umbria"
  STATE_937:0 "Marche"
  STATE_938:0 "Eastern Shanxi"
+ STATE_940:0 "Mosul"
