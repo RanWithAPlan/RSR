@@ -200,20 +200,20 @@ if = {
 
 set_convoys = 50
 set_politics = {
-	ruling_party = ultra_reactionary
+	ruling_party = national_syndicalism
 	last_election = "1938.10.30"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ultra_reactionary = 35
+	national_syndicalism = 35
 	autocracy= 25
-	conservative_democracy = 10
+	ultra_reactionary = 10
 	freemarket_liberalism = 5
 	social_democracy = 5
 	anarchism = 5
-	council_communism = 10
-	authoritarian_socialism = 5
+	council_communism = 5
+	authoritarian_democracy = 10
 }
 
 1939.1.1 = {
