@@ -1,0 +1,20 @@
+characters={
+
+###################################################################################################Leaders
+
+	POR_Fernando_Pessoa={
+		name = POR_Fernando_Pessoa
+		portraits={
+			civilian={
+				large="GFX_portrait_POR_Fernando_Pessoa"
+			}
+		}
+		country_leader={
+			ideology=national_syndicalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+
+
+}

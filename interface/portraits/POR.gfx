@@ -1,0 +1,6 @@
+spriteTypes = {
+#Vorbeck
+	spriteType = {
+		name = "GFX_portrait_POR_Fernando_Pessoa"
+		texturefile = "gfx/leaders/POR/portrait_POR_Fernando_Pessoa.png"
+	}
