@@ -454,6 +454,8 @@ ideologies = {
 		types = { 
 			national_syndicalism_subtype = {}
 			emancipimism = {}
+			national_bolshevikism = {}
+			futurism = {}
 		}
 		
 		dynamic_faction_names = {
