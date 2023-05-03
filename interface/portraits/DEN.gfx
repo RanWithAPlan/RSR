@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_DEN_Stauning"
+		texturefile = "gfx/leaders/DEN/Portrait_Denmark_Stauning.png"
+	}
+}
