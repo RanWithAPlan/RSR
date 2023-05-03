@@ -53,8 +53,8 @@
  FAR_conservative_democracy_party_long:0 "Conservative Democracy"
  FAR_authoritarian_democracy_party:0 "Authoritarian Democracy"
  FAR_authoritarian_democracy_party_long:0 "Authoritarian Democracy"
- FAR_autocracy_party:0 "Autocracy"
- FAR_autocracy_party_long:0 "Autocracy"
+ FAR_autocracy_party:0 "Rasmussen's Expedition"
+ FAR_autocracy_party_long:0 "Rasmussen's Expedition"
  FAR_ultra_reactionary_party:0 "National Hegemonism"
  FAR_ultra_reactionary_party_long:0 "National Hegemonism"
  FAR_national_syndicalism_party:0 "National Syndicalism"
@@ -65,5 +65,5 @@
  FAR_regional_council:0 "Regional Council"
  
  #Cosmetic Tags
- FAR_SUB:0 "Dutch Faroe Islands"
- FAR_SUB_DEF:0 "the Dutch Faroe Islands"
+ FAR_SUB:0 "Fifth Thule Expedition"
+ FAR_SUB_DEF:0 "the Danish Fifth Thule Expedition"
