@@ -2,11 +2,11 @@ characters={
 
 ###################################################################################################Leaders
 
-	GNL_regional_council={
-		name = GNL_regional_council
+	GNL_Ejnar_Mikkelsen={
+		name = GNL_Ejnar_Mikkelsen
 		portraits={
 			civilian={
-				large="GFX_portrait_GNL_regional_council"
+				large="GFX_portrait_GNL_Ejnar_Mikkelsen"
 			}
 		}
 		country_leader={

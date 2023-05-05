@@ -10,7 +10,7 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = GNL_regional_council
+recruit_character = GNL_Ejnar_Mikkelsen
 
 #Ideas
 add_ideas = {

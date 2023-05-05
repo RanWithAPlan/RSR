@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_GNL_regional_council"
-		texturefile = "gfx/leaders/GNL/portrait_GNL_regional_council.dds"
+		name = "GFX_portrait_GNL_Ejnar_Mikkelsen"
+		texturefile = "gfx/leaders/GNL/portrait_GNL_Ejnar_Mikkelsen.png"
 	}
 }

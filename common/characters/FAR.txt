@@ -2,11 +2,11 @@ characters={
 
 ###################################################################################################Leaders
 
-	FAR_regional_council={
-		name = FAR_regional_council
+	FAR_Knud_Rasmussen={
+		name = FAR_Knud_Rasmussen
 		portraits={
 			civilian={
-				large="GFX_portrait_FAR_regional_council"
+				large="GFX_portrait_FAR_Knud_Rasmussen"
 			}
 		}
 		country_leader={

@@ -16,7 +16,7 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = FAR_regional_council
+recruit_character = FAR_Knud_Rasmussen
 
 #Ideas
 add_ideas = {

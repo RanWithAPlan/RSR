@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_FAR_regional_council"
-		texturefile = "gfx/leaders/FAR/portrait_FAR_regional_council.dds"
+		name = "GFX_portrait_FAR_Knud_Rasmussen"
+		texturefile = "gfx/leaders/FAR/portrait_FAR_Knud_Rasmussen.png"
 	}
 }
