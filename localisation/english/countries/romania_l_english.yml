@@ -1,9 +1,4 @@
 ﻿ l_english:
- ROM:0 "Romania"
- ROM_DEF:0 "Romania"
- ROM_ADJ:0 "Romanian"
- ROM_subject:0 "$OVERLORDADJ$ $ROM$"
- ROM_subject_DEF:0 "$OVERLORDADJ$ $ROM$"
  
  #Country Names
  ROM_anarchism:0 "Free Romanian Territory"
@@ -30,6 +25,11 @@
  ROM_ultra_reactionary_DEF:0 "the Holy Legionary State of Romania"
  ROM_national_syndicalism:0 "Romanian Worker's Crusader State"
  ROM_national_syndicalism_DEF:0 "the Romanian Worker's Crusader State"
+ ROM:0 "Romania"
+ ROM_DEF:0 "Romania"
+ ROM_ADJ:0 "Romanian"
+ ROM_subject:0 "$OVERLORDADJ$ $ROM$"
+ ROM_subject_DEF:0 "$OVERLORDADJ$ $ROM$"
  
  #Party Names
  ROM_anarchism_party:0 "MU"
@@ -58,4 +58,4 @@
  ROM_national_syndicalism_party_long:0 "Cruciada Românismulu"
  
  #Characters
- ROM_Corneliu_Zela_Codreanu:0 "Corneliu Zela Codreanu"
+ ROM_Corneliu_Zelea_Codreanu:0 "Corneliu Zelea Codreanu"
