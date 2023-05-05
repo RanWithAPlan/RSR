@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	BUL_Tsar_Boris_III={
+		name = BUL_Tsar_Boris_III
+		portraits={
+			civilian={
+				large="GFX_portrait_BUL_Tsar_Boris_III"
+			}
+		}
+		country_leader={
+			ideology=tyrannical_monarchy
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
