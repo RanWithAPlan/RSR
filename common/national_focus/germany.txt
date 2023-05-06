@@ -17,14 +17,14 @@ focus_tree = {
 			tag = GER
 		}
 	}
-	continuous_focus_position = { x = 1200 y = 600 }
+	continuous_focus_position = { x = 100 y = 2100 }
 	
 	default = no
 	focus = {
 		id = GER_industrial_retooling
 		icon = GFX_GER_industrial_retooling
 		cost = 2
-		x = 4
+		x = 5
 		y = 0
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
@@ -129,123 +129,28 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_syndicate_vote
-		icon = GFX_GER_syndicate_vote
+		id = GER_begin_the_third_five_year_plan
+		icon = GFX_GER_nationwide_coordination
 		cost = 5
 		prerequisite = { focus = GER_industrial_retooling }
 		relative_position_id = GER_industrial_retooling
-		x = 3
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			country_event = {
-				id = socgermany.6
-			}
-		}
-	}
-	focus = {
-		id = GER_repurposing_military_industry
-		icon = GFX_factory_conversion
-		cost = 5
-		prerequisite = { focus = GER_syndicate_vote }
-		mutually_exclusive = { focus = GER_empower_local_producers }
-		mutually_exclusive = { focus = GER_concentrate_industry }
-		relative_position_id = GER_syndicate_vote
-		x = -2
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		available = {
-			has_country_flag = GER_anarchisten_plan
-		}
-		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = -2 tooltip = GER_anarchisten_seat_loss_tt }
-			add_to_variable = { var = GER_KPD_seats value = 1 }
-			add_to_variable = { var = GER_USPD_seats value = 1 }
-			swap_ideas = {
-				remove_idea = GER_anarchisten_industry
-				add_idea = GER_anarchisten_industry1
-			}
-			64 = {
-				remove_building = {
-					type = arms_factory
-					level = 2
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			50 = {
-				remove_building = {
-					type = arms_factory
-					level = 2
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_denationalise_railway
-		icon = GFX_generic_trains
-		cost = 5
-		prerequisite = { focus = GER_repurposing_military_industry }
-		relative_position_id = GER_repurposing_military_industry
-		x = 0
+		x = 4
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = -2 tooltip = GER_anarchisten_seat_loss_tt }
-			add_to_variable = { var = GER_KPD_seats value = 1 }
-			add_to_variable = { var = GER_USPD_seats value = 1 }
-			swap_ideas = {
-				remove_idea = GER_anarchisten_industry1
-				add_idea = GER_anarchisten_industry2
-			}
-		}
-	}
-	focus = {
-		id = GER_siphon_military_resources
-		icon = GFX_GER_sieze_military
-		cost = 5
-		prerequisite = { focus = GER_denationalise_railway }
-		relative_position_id = GER_denationalise_railway
-		x = 0
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = -2 tooltip = GER_anarchisten_seat_loss_tt }
-			add_to_variable = { var = GER_KPD_seats value = 1 }
-			add_to_variable = { var = GER_USPD_seats value = 1 }
-			remove_ideas = GER_bloated_military
 		}
 	}
 	focus = {
 		id = GER_empower_local_producers
 		icon = GFX_GER_empower_producers
 		cost = 5
-		prerequisite = { focus = GER_syndicate_vote }
-		mutually_exclusive = { focus = GER_repurposing_military_industry }
+		prerequisite = { focus = GER_begin_the_third_five_year_plan }
 		mutually_exclusive = { focus = GER_concentrate_industry }
-		relative_position_id = GER_syndicate_vote
-		x = 0
+		relative_position_id = GER_begin_the_third_five_year_plan
+		x = -2
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		available = {
-			has_country_flag = GER_KPD_plan
-		}
 		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = 1 }
-			add_to_variable = { var = GER_KPD_seats value = -2 tooltip = GER_KPD_seat_loss_tt }
-			add_to_variable = { var = GER_USPD_seats value = 1 }
-			swap_ideas = {
-				remove_idea = GER_KPD_industry
-				add_idea = GER_KPD_industry1
-			}
 		}
 	}
 	focus = {
@@ -254,16 +159,69 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = GER_empower_local_producers }
 		relative_position_id = GER_empower_local_producers
-		x = 0
+		x = 1
+		y = 1
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_denationalise_railway
+		icon = GFX_generic_trains
+		cost = 5
+		prerequisite = { focus = GER_empower_local_producers }
+		relative_position_id = GER_empower_local_producers
+		x = -1
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = 1 }
-			add_to_variable = { var = GER_KPD_seats value = -2 tooltip = GER_KPD_seat_loss_tt }
-			add_to_variable = { var = GER_USPD_seats value = 1 }
-			swap_ideas = {
-				remove_idea = GER_KPD_industry1
-				add_idea = GER_KPD_industry2
+
+		}
+	}
+	focus = {
+		id = GER_concentrate_industry
+		icon = GFX_GER_concentrating_industry
+		cost = 5
+		prerequisite = { focus = GER_begin_the_third_five_year_plan }
+		mutually_exclusive = { focus = GER_empower_local_producers }
+		relative_position_id = GER_begin_the_third_five_year_plan
+		x = 2
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_absorb_smaller_practitioners
+		icon = G
+		cost = 5
+		prerequisite = { focus = GER_concentrate_industry }
+		relative_position_id = GER_concentrate_industry
+		x = -1
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_develop_the_south
+		icon = GFX_GER_develop_bavaria
+		cost = 5
+		prerequisite = { focus = GER_concentrate_industry }
+		relative_position_id = GER_concentrate_industry
+		x = 1
+		y = 1
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			52 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
 			}
 		}
 	}
@@ -271,15 +229,13 @@ focus_tree = {
 		id = GER_recalibrate_economy
 		icon = GFX_GER_recalibrate_economy
 		cost = 5
-		prerequisite = { focus = GER_mechanise_agriculture }
-		relative_position_id = GER_mechanise_agriculture
+		prerequisite = { focus = GER_mechanise_agriculture focus = GER_absorb_smaller_practitioners}
+		prerequisite = { focus = GER_develop_the_south focus = GER_denationalise_railway }
+		relative_position_id = GER_begin_the_third_five_year_plan
 		x = 0
-		y = 1
+		y = 3
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = 1 }
-			add_to_variable = { var = GER_KPD_seats value = -2 tooltip = GER_KPD_seat_loss_tt }
-			add_to_variable = { var = GER_USPD_seats value = 1 }
 			swap_ideas = {
 				remove_idea = GER_bloated_military
 				add_idea = GER_bloated_military1
@@ -287,79 +243,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_concentrate_industry
-		icon = GFX_GER_concentrating_industry
-		cost = 5
-		prerequisite = { focus = GER_syndicate_vote }
-		mutually_exclusive = { focus = GER_repurposing_military_industry }
-		mutually_exclusive = { focus = GER_empower_local_producers }
-		relative_position_id = GER_syndicate_vote
-		x = 2
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		available = {
-			has_country_flag = GER_USPD_plan
-		}
-		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = 1 }
-			add_to_variable = { var = GER_KPD_seats value = 1 }
-			add_to_variable = { var = GER_USPD_seats value = -2 tooltip = GER_USPD_seat_loss_tt }
-			swap_ideas = {
-				remove_idea = GER_USPD_industry
-				add_idea = GER_USPD_industry1
-			}
-		}
-	}
-	focus = {
-		id = GER_concentrate_industry_brandenburg 
-		icon = GFX_GER_concentrate_industry_brandenburg
-		cost = 5
-		prerequisite = { focus = GER_concentrate_industry }
-		relative_position_id = GER_concentrate_industry
-		x = 0
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = 1 }
-			add_to_variable = { var = GER_KPD_seats value = 1 }
-			add_to_variable = { var = GER_USPD_seats value = -2 tooltip = GER_USPD_seat_loss_tt }
-			64 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_concentrate_industry_ruhr
-		icon = GFX_GER_concentrate_industry_ruhr
-		cost = 5
-		prerequisite = { focus = GER_concentrate_industry_brandenburg }
-		relative_position_id = GER_concentrate_industry_brandenburg
-		x = 0
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_to_variable = { var = GER_anarchisten_seats value = 1 }
-			add_to_variable = { var = GER_KPD_seats value = 1 }
-			add_to_variable = { var = GER_USPD_seats value = -2 tooltip = GER_USPD_seat_loss_tt }
-			57 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
 		id = GER_complete_industry
 		icon = GFX_GER_renewed_economic_drive
 		cost = 5
-		prerequisite = { focus = GER_proletarian_productivity focus = GER_feeding_the_revolution}
-		prerequisite = { focus = GER_siphon_military_resources focus = GER_recalibrate_economy focus = GER_concentrate_industry_ruhr }
+		prerequisite = { focus = GER_proletarian_productivity focus = GER_feeding_the_revolution }
+		prerequisite = { focus = GER_recalibrate_economy }
 		relative_position_id = GER_industrial_retooling
 		x = 0
 		y = 5
@@ -436,465 +324,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_road_to_war
-		icon = GFX_GER_road_to_war
-		cost = 5
-		x = 15
-		y = 0
-		available = {
-			has_completed_focus = GER_complete_industry
-		}
-		bypass = {
-			NOT = {
-				has_idea = civilian_economy
-			}
-		}
-		completion_reward = {
-			add_ideas = low_economic_mobilisation
-		}
-	}
-	focus = {
-		id = GER_the_international
-		icon = g
-		cost = 5
-		x = -2
-		y = 1
-		relative_position_id = GER_road_to_war
-		prerequisite = { focus = GER_road_to_war }
-		completion_reward = {
-			every_country = {
-				limit = {
-					is_in_faction_with = GER
-				}
-				add_ideas = idea_fourth_international1
-			}
-		}
-	}
-	focus = {
-		id = GER_economic_intergration
-		icon = g
-		cost = 5
-		x = -1
-		y = 1
-		relative_position_id = GER_the_international
-		prerequisite = { focus = GER_the_international }
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = idea_fourth_international3
-				}
-				every_country = {
-					limit = {
-						is_in_faction_with = GER
-					}
-					swap_ideas = {
-						add_idea = idea_fourth_international4
-						remove_idea = idea_fourth_international3
-					}
-				}
-			}
-			else = {
-				every_country = {
-					limit = {
-						is_in_faction_with = GER
-					}
-					swap_ideas = {
-						add_idea = idea_fourth_international2
-						remove_idea = idea_fourth_international1
-					}
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_joint_military_excercises
-		icon = g
-		cost = 5
-		x = 1
-		y = 1
-		relative_position_id = GER_the_international
-		prerequisite = { focus = GER_the_international }
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = idea_fourth_international2
-				}
-				every_country = {
-					limit = {
-						is_in_faction_with = GER
-					}
-					swap_ideas = {
-						add_idea = idea_fourth_international4
-						remove_idea = idea_fourth_international2
-					}
-				}
-			}
-			else = {
-				every_country = {
-					limit = {
-						is_in_faction_with = GER
-					}
-					swap_ideas = {
-						add_idea = idea_fourth_international3
-						remove_idea = idea_fourth_international1
-					}
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_anti_colonial_resistance
-		icon = g
-		cost = 5
-		x = -1
-		y = 1
-		relative_position_id = GER_joint_military_excercises
-		prerequisite = { focus = GER_joint_military_excercises }
-		prerequisite = { focus = GER_economic_intergration }
-	}
-	focus = {
-		id = GER_war_planning
-		icon = g
-		cost = 1
-		x = 2
-		y = 1
-		relative_position_id = GER_road_to_war
-		prerequisite = { focus = GER_road_to_war }
-	}
-	focus = {
-		id = GER_liberals_to_the_west
-		icon = g
-		cost = 5
-		x = -1
-		y = 1
-		relative_position_id = GER_war_planning
-		mutually_exclusive = { focus = GER_reactionairies_to_the_east }
-		prerequisite = { focus = GER_war_planning }
-	}
-	focus = {
-		id = GER_fortify_the_alps
-		icon = g
-		cost = 5
-		x = 0
-		y = 1
-		relative_position_id = GER_reactionairies_to_the_east
-		prerequisite = { focus = GER_reactionairies_to_the_east }
-		completion_reward = {
-				if = {
-					limit = { SRC = { AND = { owns_state = 69 owns_state = 75 } } }
-					53 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 6725
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 9681
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 532
-						}
-					}
-					52 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					50 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 9655
-						}
-					}
-					69 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 7857
-						}
-					}
-					9 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 6592
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 9421
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 9569
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 11556
-						}
-					}
-					75 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 569
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 3569
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 11511
-						}
-					}
-				}
-				else = {
-					52 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					50 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 9655
-						}
-					}
-					53 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					54 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					65 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					66 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					67 = {
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 6512
-						}
-						add_building_construction = {
-							type = bunker
-							level = 1
-							instant_build = yes
-							province = 9457
-						}
-					}
-				}
-		}
-		
-	}
-	focus = {
-		id = GER_reactionairies_to_the_east
-		icon = g
-		cost = 5
-		x = 1
-		y = 1
-		relative_position_id = GER_war_planning
-		mutually_exclusive = { focus = GER_liberals_to_the_west }
-		prerequisite = { focus = GER_war_planning }
-	}
-	focus = {
-		id = GER_fortify_the_rhine
-		icon = g
-		cost = 5
-		x = 0
-		y = 1
-		relative_position_id = GER_liberals_to_the_west
-		prerequisite = { focus = GER_liberals_to_the_west }
-		completion_reward = {
-			custom_effect_tooltip = GER_fortify_the_rhine_tt
-			hidden_effect = {
-				if = {
-					limit = { owns_state = 42 }
-					42 = {
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					913 = {
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					50 = {
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 11640
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 6712
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 6542
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 3530
-						}
-					}
-				}
-				else = {
-					52 = {
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					53 = {
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-							}
-						}
-					}
-					50 = {
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 11640
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 6712
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 6542
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 3530
-						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							instant_build = yes
-							province = 6568
-						}
-					}
-				}
-			}
-		}
-	}
-	focus = {
 		id = GER_the_volksarmee
 		icon = g
 		cost = 2
 		x = 12
-		y = 8
+		y = 7
 		completion_reward = {
 			army_experience = 10
 		}
@@ -1141,7 +575,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_ending_the_despotism
-		icon = GFX_GER_ending_the_despotism
+		icon = GFX_GER_end_the_despotism
 		cost  = 5
 		relative_position_id = GER_maintain_federalism
 		prerequisite = { focus = GER_peoples_production_for_a_peoples_army }
@@ -1284,30 +718,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_the_oil_situation
+		id = GER_pursue_autarky
 		icon = g
 		cost = 5
 		relative_position_id = GER_the_age_of_the_tank
 		prerequisite = { focus = GER_the_age_of_the_tank }
-		x = 0
-		y = 1
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = fuel_silo 
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_pursue_autarky
-		icon = g
-		cost = 5
-		relative_position_id = GER_the_oil_situation
-		prerequisite = { focus = GER_the_oil_situation }
 		mutually_exclusive = { focus = GER_trade_with_the_state_capitalists }
 		x = -1
 		y = 1
@@ -1323,25 +738,63 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GER_increase_fuel_reserves
+		icon = g
+		cost = 5
+		relative_position_id = GER_pursue_autarky
+		prerequisite = { focus = GER_pursue_autarky }
+		x = 0
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = fuel_silo 
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
 		id = GER_trade_with_the_state_capitalists
 		icon = g
 		cost = 5
-		relative_position_id = GER_the_oil_situation
-		prerequisite = { focus = GER_the_oil_situation }
+		relative_position_id = GER_the_age_of_the_tank
+		prerequisite = { focus = GER_the_age_of_the_tank }
 		mutually_exclusive = { focus = GER_pursue_autarky }
 		x = 1
 		y = 1
 		completion_reward = {
+			add_days_mission_timeout = {
+				mission = GER_coup_mission
+				days = -50
+			}
+		}
+	}
+	focus = {
+		id = GER_german_soviet_economic_agreement
+		icon = g
+		cost = 5
+		relative_position_id = GER_trade_with_the_state_capitalists
+		prerequisite = { focus = GER_trade_with_the_state_capitalists }
+		x = 0
+		y = 1
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = GER_coup_mission
+				days = -50
+			}
 		}
 	}
 	focus = {
 		id = GER_new_panzer_designs
 		icon = g
 		cost = 5
-		relative_position_id = GER_the_oil_situation
-		prerequisite = { focus = GER_pursue_autarky focus = GER_trade_with_the_state_capitalists }
+		relative_position_id = GER_the_age_of_the_tank
+		prerequisite = { focus = GER_increase_fuel_reserves focus = GER_german_soviet_economic_agreement }
 		x = 0
-		y = 2
+		y = 3
 		completion_reward = {
 			if = {
 				limit = { 
@@ -1394,7 +847,7 @@ focus_tree = {
 		cost = 5
 		relative_position_id = GER_new_military_expansion
 		prerequisite = { focus = GER_new_military_expansion }
-		x = 2
+		x = 3
 		y = 1
 		completion_reward = {
 			add_ideas = { GER_berlin_academy1 }
@@ -1418,7 +871,7 @@ focus_tree = {
 	focus = {
 		id = GER_foster_talent
 		icon = g
-		cost = 5
+		cost = 2
 		relative_position_id = GER_learn_from_battlefield_experience
 		prerequisite = { focus = GER_learn_from_battlefield_experience }
 		x = 0
@@ -1464,7 +917,7 @@ focus_tree = {
 	focus = {
 		id = GER_improved_tactics
 		icon = g
-		cost = 5
+		cost = 2
 		relative_position_id = GER_develop_our_doctrine
 		prerequisite = { focus = GER_develop_our_doctrine }
 		x = 0
@@ -1516,5 +969,219 @@ focus_tree = {
 		prerequisite = { focus = GER_fill_the_ranks }
 		x = 0
 		y = 1
+	}
+	focus = {
+		id = GER_road_to_war
+		icon = GFX_GER_road_to_war
+		cost = 5
+		x = 19
+		y = 0
+		available = {
+			has_completed_focus = GER_complete_industry
+			not = {
+				has_idea = GER_third_internationalist_plot
+			}
+		}
+		bypass = {
+			NOT = {
+				has_idea = civilian_economy
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = partial_economic_mobilisation
+				}
+				swap_ideas = {
+					remove_idea = partial_economic_mobilisation
+					add_idea = war_economy
+				}
+			}
+			if = {
+				limit = {
+					has_idea = low_economic_mobilisation
+				}
+				swap_ideas = {
+					remove_idea = low_economic_mobilisation
+					add_idea = partial_economic_mobilisation
+				}
+			}
+			if = {
+				limit = {
+					has_idea = civilian_economy
+				}
+				swap_ideas = {
+					remove_idea = civilian_economy
+					add_idea = low_economic_mobilisation
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_increase_interventionism
+		icon = g
+		cost = 5
+		relative_position_id = GER_road_to_war
+		prerequisite = { focus = GER_road_to_war }
+		x = 0
+		y = 1
+		completion_reward = {
+			add_ideas = { GER_interventionism }
+		}
+	}
+	focus = {
+		id = GER_funnel_arms_across_the_rhine
+		icon = g
+		cost = 3
+		relative_position_id = GER_increase_interventionism
+		prerequisite = { focus = GER_increase_interventionism }
+		x = 2
+		y = 1
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_war_propaganda
+		icon = g
+		cost = 5
+		relative_position_id = GER_increase_interventionism
+		prerequisite = { focus = GER_increase_interventionism }
+		x = 0
+		y = 1
+		completion_reward = {
+			add_war_support = 0.10
+		}
+	}
+	focus = {
+		id = GER_enforce_territorial_claims
+		icon = g
+		cost = 10
+		relative_position_id = GER_war_propaganda
+		prerequisite = { focus = GER_war_propaganda }
+		x = 0
+		y = 1
+		available = {
+			date > 1939.01.01
+		}
+		bypass = {
+			OR = {
+				has_war_with = FRA
+				custom_trigger_tooltip = { 
+					tooltip = FRA_defeated_tt 
+				}
+				hidden_trigger = {
+					has_global_flag = FRA_defeated
+				}
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = FRA
+				type = take_state_focus
+				generator = { 28 }
+			}
+		}
+		will_lead_to_war_with = FRA
+	}
+	focus = {
+		id = GER_integrate_new_territories
+		icon = g
+		cost = 5
+		relative_position_id = GER_enforce_territorial_claims
+		prerequisite = { focus = GER_enforce_territorial_claims }
+		x = 2
+		y = 1
+		available = {
+			controls_state = 28
+			controls_state = 8
+			controls_state = 918
+		}
+		completion_reward = {
+			add_state_core = 28
+			add_state_core = 8
+			add_state_core = 918
+		}
+	}
+	focus = {
+		id = GER_demand_schleswig
+		icon = g
+		cost = 10
+		relative_position_id = GER_enforce_territorial_claims
+		prerequisite = { focus = GER_enforce_territorial_claims }
+		x = 0
+		y = 1
+		bypass = {
+			controls_state = 910
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = DEN
+				type = take_state_focus
+				generator = { 910 }
+			}
+		}
+		will_lead_to_war_with = DEN
+	}
+	focus = {
+		id = GER_non_agression_pact_with_the_soviets
+		icon = g
+		cost = 10
+		relative_position_id = GER_war_propaganda
+		prerequisite = { focus = GER_war_propaganda }
+		x = -2
+		y = 1
+		available = {
+			not = {
+				OR = {
+					has_war_with = SOV
+					SOV = {
+						has_government = national_syndicalism
+					}
+				}
+			}
+		}
+		bypass = {
+			OR = {
+				has_war_with = SOV
+				custom_trigger_tooltip = { 
+					tooltip = SOV_defeated_tt 
+				}
+				hidden_trigger = {
+					has_global_flag = SOV_defeated
+				}
+			}
+		}
+		completion_reward = {
+			diplomatic_relation = {
+				country = SOV
+				relation = non_aggression_pact
+				active = yes
+			}
+			add_ideas = { GER_defensive_stance }
+		}
+	}
+	focus = {
+		id = GER_aggressive_foreign_policy
+		icon = g
+		cost = 10
+		relative_position_id = GER_war_propaganda
+		prerequisite = { focus = GER_war_propaganda }
+		x = -4
+		y = 1
+		bypass = {
+			OR = {
+				has_war_with = SOV
+				custom_trigger_tooltip = { 
+					tooltip = SOV_defeated_tt 
+				}
+				hidden_trigger = {
+					has_global_flag = SOV_defeated
+				}
+			}
+		}
+		completion_reward = {
+			add_ideas = { GER_offensive_stance }
+		}	
 	}
 }

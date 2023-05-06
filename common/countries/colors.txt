@@ -419,7 +419,10 @@ SDE = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
-
+STA = {
+	color = rgb { 42 44 113 }
+	color_ui = rgb { 62 64 151 }
+}
 SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }

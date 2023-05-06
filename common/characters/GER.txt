@@ -150,7 +150,7 @@ characters={
         name = "Hans Beimler"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/Portrait_GER_Hans_Beimler.png"
+            	large = "gfx/leaders/GER/Loyalists/Portrait_GER_Hans_Beimler.png"
             }
         }
     	corps_commander = {
@@ -166,7 +166,7 @@ characters={
         name = "Ludwig Renn"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Ludwig_Renn.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Ludwig_Renn.png"
             }
         }
     	corps_commander = {
@@ -182,7 +182,7 @@ characters={
         name = "Max Hoelz"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Max_Hoelz.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Max_Hoelz.png"
             }
         }
     	corps_commander = {
@@ -198,7 +198,7 @@ characters={
         name = "Otto Braun"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Otto_Braun.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Otto_Braun.png"
             }
         }
     	corps_commander = {
@@ -214,7 +214,7 @@ characters={
         name = "Wilhelm Pieck"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Wilhelm_Pieck_gen.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Wilhelm_Pieck_gen.png"
             }
         }
     	corps_commander = {
@@ -230,7 +230,7 @@ characters={
         name = "Wilhelm Zaisser"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Wilhelm_Zaisser.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Wilhelm_Zaisser.png"
             }
         }
     	field_marshal = {
@@ -285,7 +285,7 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { naval_invader naval_liason faud_officer }
+            traits = { naval_iLoyalistsder naval_liason faud_officer }
 	        skill = 2
 	        attack_skill = 3
 	        defense_skill = 2
@@ -347,7 +347,7 @@ characters={
         name = "Vincenz Müller"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/NVA/portrait_GER_Vincenz_Muller.png"
+            	large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Vincenz_Muller.png"
             }
         }
     	field_marshal = {
@@ -363,7 +363,7 @@ characters={
         name = "Gotthard Heinrici"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/NVA/portrait_GER_Gotthard_Heinrici.png"
+            	large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Gotthard_Heinrici.png"
             }
         }
     	corps_commander = {
@@ -379,7 +379,7 @@ characters={
         name = "Albrechn Quirnheim"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/NVA/portrait_GER_Albrecht_Quirnheim.png"
+            	large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Albrecht_Quirnheim.png"
             }
         }
     	corps_commander = {
@@ -395,7 +395,7 @@ characters={
 		name = "Erwin Rommel"
 		portraits = {
 			army = {
-				large = "gfx/leaders/GER/NVA/portrait_GER_Erwin_Rommel.png"
+				large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Erwin_Rommel.png"
 			}
 		}
 		corps_commander={
@@ -411,7 +411,7 @@ characters={
 		name = "Johannes Blaskowitz"
 		portraits = {
 			army = {
-				large = "gfx/leaders/GER/NVA/portrait_GER_johannes_blaskowitz.png"
+				large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_johannes_blaskowitz.png"
 			}
 		}
 		corps_commander={
@@ -429,7 +429,7 @@ characters={
         name = "Hans Marchwitza"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Hans_Marchwitza.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Hans_Marchwitza.png"
             }
         }
     	corps_commander = {
@@ -445,7 +445,7 @@ characters={
         name = "Theodor Neubauer"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Theodor_Neubauer.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Theodor_Neubauer.png"
             }
         }
     	field_marshal = {
@@ -461,7 +461,7 @@ characters={
         name = "Artur Becker"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Artur_Becker.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Artur_Becker.png"
             }
         }
     	corps_commander = {
@@ -477,7 +477,7 @@ characters={
         name = "Peter Blachstein"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/KPD-USPD/portrait_GER_Peter_Blachstein.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Peter_Blachstein.png"
             }
         }
     	corps_commander = {

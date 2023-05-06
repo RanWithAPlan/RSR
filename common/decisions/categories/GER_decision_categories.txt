@@ -9,6 +9,7 @@ GER_executive_council_category = {
 	visible_when_empty = yes
 	visible = {
         has_country_flag = GER_executive_council_on
+		always = no
     }
 	allowed = {
 		original_tag = GER

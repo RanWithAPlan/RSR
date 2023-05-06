@@ -269,6 +269,8 @@
  GER_gruppe_kassel_available_tt: "The Design Company: §YGruppe Kassel§! will become available"
  GER_foster_talent_decisions_available_tt: "£decision_icon_small Unlocks §YDecisions§! to improve the skills of your generals."
  GER_improved_tactics_decisions_available_tt: "£decision_icon_small Unlocks §YDecisions§! to add traits to your generals."
+ FRA_defeated_tt: "France has been defeated"
+ SOV_defeated_tt: "The Soviet Union has been defeated"
 
 #dynamic modifiers#
  GER_ruhr_industrial_heart:0 "The Industrial Heart Of Germany"

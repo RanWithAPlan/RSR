@@ -106,165 +106,6 @@ ideas = {
 				industry_air_damage_factor = -0.2
 			}
 		}
-		GER_FAUD_industry = {
-			picture = GER_FAUD_industry
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor =0.05
-			}
-		}
-		GER_FAUD_industry1 = {
-			picture = GER_FAUD_industry
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor =0.05
-				conversion_cost_mil_to_civ_factor = -0.20
-				conversion_cost_civ_to_mil_factor = -0.20
-			}
-		}
-		GER_FAUD_industry2 = {
-			picture = GER_FAUD_industry
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor =0.05
-				conversion_cost_mil_to_civ_factor = -0.20
-				conversion_cost_civ_to_mil_factor = -0.20
-				production_speed_supply_node_factor = 0.15
-			}
-		}
-		GER_FAUD_industry_industrial_drive = {
-			picture = GER_FAUD_industry
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor =0.05
-				conversion_cost_mil_to_civ_factor = -0.20
-				conversion_cost_civ_to_mil_factor = -0.20
-				production_speed_supply_node_factor = 0.15
-				production_speed_buildings_factor = 0.1
-			}
-		}
-		GER_FAUD_industry_feeding_revolution = {
-			picture = GER_FAUD_industry
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor =0.05
-				conversion_cost_mil_to_civ_factor = -0.20
-				conversion_cost_civ_to_mil_factor = -0.20
-				production_speed_supply_node_factor = 0.10
-				local_resources_factor = 0.1
-				industry_air_damage_factor = -0.2
-			}
-		}
-		GER_KPD_industry = {
-			picture = GER_KPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.05
-				line_change_production_efficiency_factor = 0.05
-			}
-		}
-		GER_KPD_industry1 = {
-			picture = GER_KPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				line_change_production_efficiency_factor = 0.10
-			}
-		}
-		GER_KPD_industry2 = {
-			picture = GER_KPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				line_change_production_efficiency_factor = 0.10
-				conscription= 0.01
-			}
-		}
-		GER_KPD_industry_industrial_drive = {
-			picture = GER_KPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				line_change_production_efficiency_factor = 0.10
-				conscription= 0.01
-				production_speed_buildings_factor = 0.1
-			}
-		}
-		GER_KPD_industry_feeding_revolution = {
-			picture = GER_KPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				line_change_production_efficiency_factor = 0.10
-				conscription= 0.01
-				local_resources_factor = 0.1
-				industry_air_damage_factor = -0.2
-			}
-		}
-		GER_USPD_industry = {
-			picture = GER_USPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.05
-				production_speed_arms_factory_factor =0.05
-			}
-		}
-		GER_USPD_industry1 = {
-			picture = GER_USPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				production_speed_arms_factory_factor =0.05
-			}
-		}
-		GER_USPD_industry_industrial_drive = {
-			picture = GER_USPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				production_speed_arms_factory_factor =0.05
-				production_speed_buildings_factor = 0.1
-			}
-		}
-		GER_USPD_industry_feeding_revolution = {
-			picture = GER_USPD_industry
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.10
-				production_speed_arms_factory_factor =0.05
-				local_resources_factor = 0.1
-				industry_air_damage_factor = -0.2
-			}
-		}
-		idea_fourth_international1 = {
-			modifier = {
-				political_power_gain = 0.10
-			}
-		}
-		idea_fourth_international2 = { #economic integration only
-			modifier = {
-				political_power_gain = 0.10
-				production_factory_efficiency_gain_factor = 0.05
-			}
-		}
-		idea_fourth_international3 = { #military integration only
-			modifier = {
-				political_power_gain = 0.10
-				experience_gain_army = 0.01
-			}
-		}
-		idea_fourth_international4 = { #military and economic integration
-			modifier = {
-				political_power_gain = 0.10
-				production_factory_efficiency_gain_factor = 0.05
-				experience_gain_army = 0.01
-			}
-		}
-		GER_attack_france = {
-			targeted_modifier = {
-				tag = FRA
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
-		GER_attack_poland = {
-			targeted_modifier = {
-				tag = POL
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
 		GER_campaign_against_military_authoritarianism = {
 			picture = GER_
 			modifier = {
@@ -464,7 +305,30 @@ ideas = {
 		GER_berlin_academy2 = {
 			modifier = {
 				experience_gain_army = 0.02
-				experience_gain_army_factor = 0.1
+				experience_gain_army_factor = 0.05
+			}
+		}
+		GER_interventionism = {
+			modifier = {
+				send_volunteer_size = 2
+			}
+		}
+		GER_defensive_stance = {
+			modifier = {
+				stability_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = SOV
+				defense_bonus_against = 0.1
+			}
+		}
+		GER_offensive_stance = {
+			modifier = {
+				war_support_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.1
 			}
 		}
 	}
