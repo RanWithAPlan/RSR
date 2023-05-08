@@ -20,10 +20,12 @@
  GER_conservative_democracy:0 "the German Republic"
  GER_autocracy:0 "Volksarmee Militärregierung"
  GER_autocracy_long:0 "der Volksarmee Militärregierung"
- GER_authoritarian_democracy:0 "Volksarmee Militärregierung"
- GER_authoritarian_democracy_DEF:0 "der Volksarmee Militärregierung"
+ GER_authoritarian_democracy:0 "German Republic"
+ GER_authoritarian_democracy_DEF:0 "the German Republic"
  GER_ultra_reactionary:0 "Deutscher Volksstaat"
  GER_ultra_reactionary_DEF:0 "der Deutscher Volksstaat"
+ GER_national_syndicalism:0 "German National Worker's State"
+ GER_national_extremism_DEF:0 "the German National Worker's State"
  
  #Parties
  GER_anarchism_party:0 "FAUD"
@@ -44,10 +46,12 @@
  GER_freemarket_liberalism_party_long:0 "Deutsche Demokratische Partei"
  GER_conservative_democracy_party:0 "Zentrum"
  GER_conservative_democracy_party_long:0 "Deutsche Zentrumspartei"
- GER_autocracy_party:0 "DVP"
- GER_autocracy_party_long:0 "Deutsche Volkspartei"
- GER_despotism_party:0 "Nationale Volksarmee"
- GER_national_extremism_party:0 "Volkssturm"
+ GER_authoritarian_democracy_party:0 "DVP"
+ GER_authoritarian_democracy_party_long:0 "Deutsche Volkspartei"
+ GER_autocracy_party:0 "NVA"
+ GER_autocracy_party_long:0 "Nationale Volksarmee"
+ GER_ultra_reactionary_party:0 "DNVP"
+ GER_ultra_reactionary_party_long:0 "Deutschnationale Volkspartei"
  
 #events
  socgermany.1.t:0 "The January Elections Approach"
