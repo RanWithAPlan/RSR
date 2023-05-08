@@ -77,6 +77,8 @@ set_technology = {
 }
 
 #Characters
+#leaders
+recruit_character = YUG_King_George
 
 #Ideas
 add_ideas = {
@@ -88,23 +90,28 @@ set_war_support = 0.5
 set_convoys = 10
 set_research_slots = 3
 
-
+#Politics
 set_politics = {
 	ruling_party = autocracy
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
+
+#Popularities
 set_popularities = {
-	autocracy = 30
-	authoritarian_democracy = 10
-	ultra_reactionary = 10
-	conservative_democracy = 10
-	freemarket_liberalism = 10
-	progressive_liberalism = 10
-	radical_socialism = 5
-	authoritarian_socialism = 10
+	anarchism = 0
 	council_communism = 5
+	authoritarian_socialism = 10
+	radical_socialism = 5
+	social_democracy = 0
+	progressive_liberalism = 10
+	freemarket_liberalism = 10
+	conservative_democracy = 10
+	authoritarian_democracy = 10
+	autocracy = 30
+	national_syndicalism = 0
+	ultra_reactionary = 10
 }
 
 #Variants

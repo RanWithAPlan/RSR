@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	YUG_King_George={
+		name = YUG_King_George
+		portraits={
+			civilian={
+				large="GFX_portrait_YUG_George_of_Serbia"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
