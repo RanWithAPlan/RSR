@@ -1,9 +1,4 @@
 ﻿ l_english:
- HUN:0 "Hungary"
- HUN_DEF:0 "Hungary"
- HUN_ADJ:0 "Hungarian"
- HUN_subject:0 "$OVERLORDADJ$ $HUN$"
- HUN_subject_DEF:0 "$OVERLORDADJ$ $HUN$"
  
  #Country Names
  HUN_anarchism:0 "Free Hungarian Territory"
@@ -30,6 +25,11 @@
  HUN_ultra_reactionary_DEF:0 "the Kingdom of Hungary"
  HUN_national_syndicalism:0 "Kingdom of Hungary"
  HUN_national_syndicalism_DEF:0 "the Kingdom of Hungary"
+ HUN:0 "Hungary"
+ HUN_DEF:0 "Hungary"
+ HUN_ADJ:0 "Hungarian"
+ HUN_subject:0 "$OVERLORDADJ$ $HUN$"
+ HUN_subject_DEF:0 "$OVERLORDADJ$ $HUN$"
  
  #Party Names
  HUN_anarchism_party:0 "MM"
@@ -58,4 +58,4 @@
  HUN_national_syndicalism_party_long:0 "Nyilaskeresztes Párt"
  
  #Characters
- 
+ HUN_Pal_Pronay:0 "Pál Prónay de Tótpróna et Blatnicza"

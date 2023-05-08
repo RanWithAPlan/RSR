@@ -1,5 +1,6 @@
 ﻿capital = 43
 
+#Order of Battle
 oob = "HUN_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -17,22 +18,6 @@ if = {
 		}
 	}
 }
-
-set_research_slots = 3
-set_stability = 0.7
-set_war_support = 0.6
-
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	gw_artillery = 1
-
-	fuel_silos = 1
-	basic_train = 1
-}
-
 if = {
 	limit = {
 		NOT = {
@@ -86,74 +71,57 @@ if = {
 	}
 }
 
-#Rome Pact
-add_ideas = rome_pact_member
-give_guarantee = AUS
-give_guarantee = ITA
-add_to_tech_sharing_group = rome_research_group
+#Non-Designer Starting Technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
 
+	fuel_silos = 1
+	basic_train = 1
+}
+
+#Characters
+#leaders
+recruit_character = HUN_Pal_Pronay
+
+
+#Ideas
+add_ideas = {
+
+}
+
+#Miscellaneous, put country_flags, upcoming events, and such here
+set_stability = 0.7
+set_war_support = 0.6
+set_research_slots = 3
+
+#Diplomacy, wars, factions, and other such things here
+
+#Politics
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = ultra_reactionary
 	last_election = "1935.3.31"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
+#Popularities
 set_popularities = {
-	conservative_democracy = 10
-	freemarket_liberalism = 5
-	progressive_liberalism = 5
-	social_democracy = 5
-	ultra_reactionary = 21
-	authoritarian_socialism = 10
+	anarchism = 0
 	council_communism = 10
+	authoritarian_socialism = 10
+	radical_socialism = 0
+	social_democracy = 5
+	progressive_liberalism = 5
+	freemarket_liberalism = 5
+	conservative_democracy = 10
 	authoritarian_democracy = 34
+	autocracy = 0
+	national_syndicalism = 0
+	ultra_reactionary = 21
 }
 
-#Start Horty as neutral if DOD
-recruit_character = HUN_miklos_horthy
-recruit_character = HUN_matyas_rakosi
-recruit_character = HUN_arpad_szakasits
-recruit_character = HUN_geza_lakatos
-recruit_character = HUN_ivan_hindy
-recruit_character = HUN_karoly_beregfy
-recruit_character = HUN_lajos_veress
-recruit_character = HUN_ferenc_feketehalmyczeydner
-recruit_character = HUN_istvan_szechenyi
-recruit_character = HUN_francois_deak
-recruit_character = HUN_gyorgy_jendrassik
-recruit_character = HUN_jeno_ratz
-recruit_character = HUN_henrik_werth
-recruit_character = HUN_hugo_sonyi
-recruit_character = HUN_ferenc_szombathelyi
-recruit_character = HUN_gusztav_jany
-recruit_character = HUN_dezso_laszlo
-recruit_character = HUN_reszo_kastner
-recruit_character = HUN_shvoy_kalman
-recruit_character = HUN_sandor_magyarossy
-recruit_character = HUN_bela_rakosi
-recruit_character = HUN_kalman_kanya
-recruit_character = HUN_jozsef_szell
-recruit_character = HUN_vilmos_roder
-recruit_character = HUN_zoltan_tildy
-recruit_character = HUN_laszlo_rajk
-recruit_character = HUN_kalman_daranyi
-recruit_character = HUN_lajos_remenyi_schneller
-recruit_character = HUN_gusztav_gratz
-recruit_character = HUN_gyula_gombos_de_jakfa
-recruit_character = HUN_otto_von_habsburg
-recruit_character = HUN_franz_friedrich
-
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 27
-		fascism = 70
-		communism = 3
-	}
-}
+#Variants

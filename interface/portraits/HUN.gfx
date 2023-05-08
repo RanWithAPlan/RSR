@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_HUN_Pal_Pronay"
+		texturefile = "gfx/leaders/HUN/portait_HUN_Pal_Pronay.png"
+	}
+}

@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	HUN_Pal_Pronay={
+		name = HUN_Pal_Pronay
+		portraits={
+			civilian={
+				large="GFX_portrait_HUN_Pal_Pronay"
+			}
+		}
+		country_leader={
+			ideology=populistic_nationalism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
