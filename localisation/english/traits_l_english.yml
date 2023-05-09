@@ -70,6 +70,9 @@
  mercenary_leader_desc:0 ""
  holy_warrior:0 "Holy Warrior"
  holy_warrior_desc:0 ""
+ 
+ ### Greenland ###
+ royal_commissioner:0 "Royal Commissioner"
 
 
  #Vanilla 

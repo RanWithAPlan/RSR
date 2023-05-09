@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy_subtype
-			traits={}
+			traits={royal_commissioner}
 			expire="1965.1.1.1"
 		}
 	}
