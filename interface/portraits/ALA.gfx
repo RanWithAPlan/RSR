@@ -1,6 +1,14 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_ALA_regional_council"
-		texturefile = "gfx/leaders/ALA/portrait_ALA_regional_council.dds"
+		name = "GFX_portrait_ALA_Carl_Enckell"
+		texturefile = "gfx/leaders/ALA/portrait_ALA_Carl_Enckell.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ALA_Carl_Bjorkman"
+		texturefile = "gfx/leaders/ALA/portrait_ALA_Carl_Bjorkman.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ALA_August_Julius_Sundblom"
+		texturefile = "gfx/leaders/ALA/portrait_ALA_August_Julius_Sundblom.png"
 	}
 }

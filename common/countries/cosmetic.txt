@@ -13,6 +13,11 @@ ALA_SUB = {
 	color_ui = rgb { 238  247  255 }
 }
 
+ALA_SWE = {
+	color = rgb { 36 132 247 }
+	color_ui = rgb { 47 172 255 }
+}
+
 FAR_SUB = {
 	color = rgb { 153  116  93 }
 	color_ui = rgb { 153  116  93 }

@@ -2,15 +2,43 @@ characters={
 
 ###################################################################################################Leaders
 
-	ALA_regional_council={
-		name = ALA_regional_council
+	ALA_Carl_Enckell={
+		name = ALA_Carl_Enckell
 		portraits={
 			civilian={
-				large="GFX_portrait_ALA_regional_council"
+				large="GFX_portrait_ALA_Carl_Enckell"
 			}
 		}
 		country_leader={
 			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	ALA_Carl_Bjorkman={
+		name = ALA_Carl_Bjorkman
+		portraits={
+			civilian={
+				large="GFX_portrait_ALA_Carl_Bjorkman"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	ALA_August_Julius_Sundblom={
+		name = ALA_August_Julius_Sundblom
+		portraits={
+			civilian={
+				large="GFX_portrait_ALA_August_Julius_Sundblom"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
 			traits={}
 			expire="1965.1.1.1"
 		}

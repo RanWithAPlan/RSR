@@ -17,7 +17,9 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = ALA_regional_council
+recruit_character = ALA_Carl_Enckell
+recruit_character = ALA_Carl_Bjorkman
+recruit_character = ALA_August_Julius_Sundblom
 
 #Ideas
 add_ideas = {
@@ -26,8 +28,8 @@ add_ideas = {
 }
 
 #Miscellaneous, put country_flags, upcoming events, and such here
-set_stability = 0.8
-set_war_support = 0.4
+set_stability = 0.4
+set_war_support = 0.5
 set_convoys = 5
 set_research_slots = 2
 set_cosmetic_tag = ALA_SUB
@@ -48,11 +50,11 @@ set_popularities = {
 	council_communism = 0
 	authoritarian_socialism = 0
 	radical_socialism = 0
-	social_democracy = 0
+	social_democracy = 30
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
-	conservative_democracy = 0
-	authoritarian_democracy = 100
+	conservative_democracy = 30
+	authoritarian_democracy = 40
 	autocracy = 0
 	national_syndicalism = 0
 	ultra_reactionary = 0
