@@ -121,7 +121,7 @@ set_popularities = {
 	authoritarian_democracy = 14
 	autocracy = 0
   	national_syndicalism = 0
-  	ultra_reactionary = 18
+  	ultra_reactionary = 38
 }
 
 #Variants
