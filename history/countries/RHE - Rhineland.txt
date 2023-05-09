@@ -22,28 +22,6 @@ if = {
 	}
 }
 
-
-#Air
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "RHE_1936_air_bba"
-		set_technology = {
-			BBA Air Techs
-		}
-	else = {
-		set_air_oob = "RHE_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			fighter1 = 1
-			early_bomber = 1
-			tactical_bomber1 = 1
-			strategic_bomber1 = 1
-			CAS1 = 1
-			naval_bomber1 = 1
-		}
-	}
-}
-
 #Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
