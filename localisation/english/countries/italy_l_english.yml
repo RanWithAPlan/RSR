@@ -39,8 +39,8 @@
  ITA_radical_socialism_party_long:0 "Unione Sindacale Italiana"
  ITA_council_communism_party:0 "PSI"
  ITA_council_communism_party_long:0 "Partito Socialista Italiano"
- ITA_authoritarian_socialism_party:0 "USI"
- ITA_authoritarian_socialism_party_long:0 "Unione Sindacale Italiana"
+ ITA_authoritarian_socialism_party:0 "PCI"
+ ITA_authoritarian_socialism_party_long:0 "Partito Comunista Italiano"
  ITA_social_democracy_party:0 "PSU"
  ITA_social_democracy_party_long:0 "Partito Socialista Unitario"
  ITA_freemarket_liberalism_party:0 "PLI"
@@ -56,7 +56,7 @@
  ITA_ultra_reactionary_party:0 "SMI"
  ITA_ultra_reactionary_party_long:0 "Società Metafisica Italiana"
  ITA_national_syndicalism_party:0 "FIdC"
- ITA_national_syndicalism_party_long:0 "Fasci Italiani di Combattimento "
+ ITA_national_syndicalism_party_long:0 "Fasci Italiani di Combattimento"
  
  #Characters
  ITA_Gramsci:0 "Antonio Gramsci"
