@@ -2,8 +2,8 @@
  
  
  #Country Names
- ACD_anarchism:0 "State of Chita"
- ACD_anarchism_DEF:0 "the State of Chita"
+ ACD_anarchism:0 "Nechaev's Banditry Unit"
+ ACD_anarchism_DEF:0 "Nechaev's Banditry Unit"
  ACD_council_communism:0 "State of Chita"
  ACD_council_communism_DEF:0 "the State of Chita"
  ACD_radical_socialism:0 "State of Chita"
@@ -18,19 +18,21 @@
  ACD_progressive_liberalism_DEF:0 "the State of Chita"
  ACD_conservative_democracy:0 "State of Chita"
  ACD_conservative_democracy_DEF:0 "the State of Chita"
- ACD_authoritarian_democracy:0 "Asiatic Cavalry Division"
- ACD_authoritarian_democracy_DEF:0 "the Asiatic Cavalry Division"
- ACD_autocracy:0 "Asiatic Cavalry Division"
- ACD_autocracy_DEF:0 "the Asiatic Cavalry Division"
+ ACD_authoritarian_democracy:0 "Transbaikal Cossack Host"
+ ACD_authoritarian_democracy_DEF:0 "the Transbaikal Cossack Host"
+ ACD_autocracy:0 "Siberian Army"
+ ACD_autocracy_DEF:0 "the Siberian Army"
  ACD_ultra_reactionary:0 "Asiatic Cavalry Division"
  ACD_ultra_reactionary_DEF:0 "the Asiatic Cavalry Division"
- ACD_national_syndicalism:0 "the Asiatic Cavalry Division"
- ACD_national_syndicalism_DEF:0 "the Asiatic Cavalry Division"
+ ACD_national_syndicalism:0 "Matkovsky's Brigade"
+ ACD_national_syndicalism_DEF:0 "the Matkovsky Brigade"
  ACD:0 "White Russia"
  ACD_DEF:0 "White Russia"
  ACD_ADJ:0 "White Russian"
  
  #Unification of Mongolia Names
+ ACD_MON_anarchism:0 "Nechaev's Banditry Unit"
+ ACD_MON_anarchism_DEF:0 "The Free Army of Konstantin Nechaev"
  ACD_MON_ultra_reactionary:0 "Imperial Reclamationary Army"
  ACD_MON_ultra_reactionary_DEF:0 "the Government for the Restoration of the Tsar of All Russians"
  ACD_MON_ultra_reactionary_crazy:0 "Realm of the Living Buddah in Shamballah"
@@ -58,11 +60,9 @@
  ACD_RUS_national_syndicalism:0 "Russian National Worker's State"
  ACD_RUS_national_syndicalism_DEF:0 "the Russian National Worker's State"
  
- 
- 
  #Parties
- ACD_anarchism_party:0 "Anarchism"
- ACD_anarchism_party_long:0 "Anarchism"
+ ACD_anarchism_party:0 "Nechaev's Clique"
+ ACD_anarchism_party_long:0 "Nechaev's Clique"
  ACD_radical_socialism_party:0 "Radical Socialism"
  ACD_radical_socialism_party_long:0 "Radical Socialism"
  ACD_council_communism_party:0 "Council Communism"
