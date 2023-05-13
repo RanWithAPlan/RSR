@@ -41,26 +41,26 @@
 
  #Ideas
  OST_the_baltic_chimera:0 "The Baltic Chimera"
- OST_the_baltic_chimera_desc:0 ""
+ OST_the_baltic_chimera_desc:0 "Our forces are the remains of both the Imperial German and Russian Armies"
  OST_friekorps_and_white_army_remnants:0 "The Friekorps and White Army Remnants"
- OST_friekorps_and_white_army_remnants_desc:0 ""
+ OST_friekorps_and_white_army_remnants_desc:0 "Natural enemies of rebles big and small"
  OST_forest_guerillas:0 "Forest Guerillas"
- OST_forest_guerillas_desc:0 ""
+ OST_forest_guerillas_desc:0 "The ingreats of the Baltics who have not learned their place"
  OST_eliminate_the_northern_bands:0 "Eliminate the Northern Bands"
- OST_eliminate_the_northern_bands_desc:0 ""
+ OST_eliminate_the_northern_bands_desc:0 "The Latvians traitors wont stand a chance"
  OST_prioritize_the_southern_front:0 "Prioritize the Southern Front"
- OST_prioritize_the_southern_front_desc:0 ""
+ OST_prioritize_the_southern_front_desc:0 "The Lithuanian-Polak dogs wont stand a chance"
 
  #Events
  #Country Events
  #The Baltic Chimera
  ober_ost.1.title:0 "The Baltic Chimera"
- ober_ost.1.desc:0 ""
+ ober_ost.1.desc:0 "Our forces are like a Chimera, we are made of multiple men of multiple nationalities, all to re-stoke the flames of Empire"
  ober_ost.1.a:0 "The northern bands are the weak link"
  tt_OST_prepare_latvian_plan:0 "We will get a bonus against the Latvian Brotherhood when war comes."
  ober_ost.1.b:0 "The southern brotherhood is the primary threat"
  tt_OST_prepare_lithuanian_plan:0 tt_OST_prepare_latvian_plan:0 "We will get a bonus against the Lithuanian Brotherhood when war comes."
  ober_ost.2.title:0 "The Moment to Strike"
- ober_ost.2.desc:0 ""
+ ober_ost.2.desc:0 "The ungreatful natives stand no chance against the combined arms of a professional army, now is the time to cleanse our borders"
  ober_ost.2.a:0 "It is time to put our plan into action"
  ober_ost.2.b:0 "It is time to put our plan into action"
