@@ -104,7 +104,7 @@ country_event = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = autocracy
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
@@ -116,8 +116,8 @@ set_popularities = {
 	progressive_liberalism = 8
 	freemarket_liberalism = 7
 	conservative_democracy = 5
-	authoritarian_democracy = 23
-	autocracy = 0
+	authoritarian_democracy = 0
+	autocracy = 23
 	ultra_reactionary = 22
 	}
 	
