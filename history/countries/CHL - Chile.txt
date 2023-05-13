@@ -70,16 +70,26 @@ set_country_flag = monroe_doctrine
 
 #Politics
 set_politics = {
-	ruling_party = democratic
+	ruling_party = national_syndicalism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 #Popularities
 set_popularities = {
-	democratic = 98
-	communism = 2
+	anarchism = 0
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 30
+	national_syndicalism = 40
+	ultra_reactionary = 30
 }
 
 #Variants
