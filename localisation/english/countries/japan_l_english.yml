@@ -26,6 +26,8 @@
  JAP_ultra_reactionary_DEF:0 "the Empire of Japan"
  JAP_national_syndicalism:0 "Japanese National Workers State"
  JAP_national_syndicalism_DEF:0 "the Japanese National Workers State"
+ JAP_shogunate:0 "Tokugawa Shogunate"
+ JAP_shogunate_DEF:0 "the Tokugawa Shogunate"
  JAP:0 "Japan"
  JAP_DEF:0 "Japan"
  JAP_ADJ:0 "Japanese"
@@ -54,7 +56,23 @@
  JAP_ultra_reactionary_party:0 "Tōhōkai"
  JAP_ultra_reactionary_party_long:0 "Tōhōkai (Society of the East)"
  JAP_national_syndicalism_party:0 "Yūzonsha"
- JAP_national_syndicalism_party_long:0 "Yūzonsha"
+ JAP_national_syndicalism_party_long:0 "Yūzonsha (Society of Those Who Yet Remain)"
+ 
+ #Special Parties
+ JAP_kodoha_party:0 "Kōdōha"
+ JAP_kodoha_party_long:0 "Kōdōha (Imperial Way Faction)"
+ JAP_toseiha_party:0 "Tōseiha"
+ JAP_toseiha_party_long:0 "Tōseiha (Control Faction)"
+ JAP_fleet_faction_party:0 "Kantai-ha"
+ JAP_fleet_faction_party_long:0 "Kantai-ha (Fleet Faction)"
+ JAP_treaty_faction_party:0 "Jōyaku-ha"
+ JAP_treaty_faction_party_long:0 "Jōyaku-ha (Treaty Faction)"
+ JAP_imperial_rule_party:0 "Taisei Yokusankai"
+ JAP_imperial_rule_party_long:0 "Taisei Yokusankai (Imperial Rule Assistance Association)
+ JAP_absolute_monarchy_party:0 "Kōshitsu"
+ JAP_absolute_monarchy_party_long:0 "Kōshitsu (Imperial House)"
+ JAP_shogunate_party:0 "Tokugawa Bakufu"
+ JAP_shogunate_party_long:0 "Tokugawa Bakufu (Tokugawa Tent Government)"
  
  #Characters
  JAP_Prince_Fumiaro_Konoe:0 "Prince Fumiaro Konoe"
