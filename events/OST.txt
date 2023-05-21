@@ -1,5 +1,5 @@
 add_namespace = ober_ost
-#The Baltic Chimera
+#The Baltic Chimera (triggered 1 week after game start)
 country_event = {
 	id = ober_ost.1
 	title = ober_ost.1.title
@@ -29,7 +29,7 @@ country_event = {
 	}
 }
 
-#The Moment to Strike
+#The Moment to Strike (Triggered after Belarus breaks off of the USSR)
 country_event = {
 	id = ober_ost.2
 	title = ober_ost.2.title

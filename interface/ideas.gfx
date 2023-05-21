@@ -62,6 +62,7 @@ spriteTypes = {
 		name = "GFX_idea_GER_peoples_production"
 		texturefile = "gfx/interface/ideas/GER/GER_peoples_production.png"
 	}
+	
 	#Poland
 	spriteType = {
 		name = "GFX_idea_idea_POL_divided_government"
@@ -82,7 +83,36 @@ spriteTypes = {
 		name = "GFX_idea_POL_nationalism"
 		texturefile = "gfx/interface/ideas/POL/POL_nationalism.dds"
 	}
+
+	#Shared Baltic
+
+	spriteType = {
+		name = "BALTIC_the_forest_war"
+		texturefile = "gfx/interface/ideas/Baltic_shared/BALTIC_the_forest_war.png"
+	}
+
+	spriteType = {
+		name = "BALTIC_forest_guerillas"
+		texturefile = "gfx/interface/ideas/Baltic_shared/BALTIC_forest_guerillas.png"
+	}
+
+	#Ober Ost
+	spriteType = {
+		name = "OST_eliminate_the_northern_bands"
+		texturefile = "gfx/interface/ideas/OST/OST_eliminate_the_northern_bands.png"
+	}
+
+	spriteType = {
+		name = "OST_prioritize_the_southern_front"
+		texturefile = "gfx/interface/ideas/OST/OST_prioritize_the_southern_front.png"
+	}
 	
+	spriteType = {
+		name = "OST_the_baltic_chimera"
+		texturefile = "gfx/interface/ideas/OST/OST_the_baltic_chimera.png"
+	}
+
+
 	#Vanilla content#
 
 	SpriteType = {

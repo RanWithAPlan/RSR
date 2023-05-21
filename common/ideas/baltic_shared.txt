@@ -2,7 +2,8 @@ ideas = {
 	country = { 
 		#Brotherhood Starting Ideas
 		BROTHERHOOD_anti_communist_veterans = { 
-			
+			picture = BROTHERHOOD_anti_communist_veterans
+
 			removal_cost = -1
 			
 			allowed = {
@@ -21,7 +22,8 @@ ideas = {
 		}
 
 		BROTHERHOOD_forest_guerillas = { 
-			
+			picture = BALTIC_forest_guerillas
+
 			removal_cost = -1
 			
 			allowed = {
@@ -42,7 +44,8 @@ ideas = {
 
 		#The Forest War
 		BROTHERHOOD_last_stand_of_the_brothers = { 
-			
+			picture = BALTIC_the_forest_war
+
 			removal_cost = -1
 			
 			allowed = {
