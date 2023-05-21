@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_BOL_German_Busch"
+		texturefile = "gfx/leaders/BOL/portrait_BOL_German_Busch.png"
+	}
+}
