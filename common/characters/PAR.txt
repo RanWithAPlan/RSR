@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	PAR_Rafael={
+		name = PAR_Rafael
+		portraits={
+			civilian={
+				large="GFX_portrait_PAR_Rafael"
+			}
+		}
+		country_leader={
+			ideology=radical_socialism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
