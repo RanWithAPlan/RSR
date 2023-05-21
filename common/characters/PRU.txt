@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	PRU_Luis_Miguel_Sanchez_Cerro={
+		name = PRU_Luis_Miguel_Sanchez_Cerro
+		portraits={
+			civilian={
+				large="GFX_portrait_PRU_Luis_Miguel_Sanchez_Cerro"
+			}
+		}
+		country_leader={
+			ideology=general_fascism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

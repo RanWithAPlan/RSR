@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_PRU_Luis_Miguel_Sanchez_Cerro"
+		texturefile = "gfx/leaders/PRU/portrait_PRU_Luis_Miguel_Sanchez_Cerro.png"
+	}
+}
