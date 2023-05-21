@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	ECU_Luis_Larrea_Alba={
+		name = ECU_Luis_Larrea_Alba
+		portraits={
+			civilian={
+				large="GFX_portrait_ECU_Luis_Larrea_Alba"
+			}
+		}
+		country_leader={
+			ideology=freemarket_liberalism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

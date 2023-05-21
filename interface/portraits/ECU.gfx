@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ECU_Luis_Larrea_Alba"
+		texturefile = "gfx/leaders/ECU/portrait_ECU_Luis_Larrea_Alba.png"
+	}
+}
