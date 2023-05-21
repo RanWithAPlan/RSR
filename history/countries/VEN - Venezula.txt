@@ -23,6 +23,10 @@ set_technology = {
 }
 
 #Characters
+recruit_character = VEN_Juan_Vicente_Gomez
+recruit_character = VEN_Nestor_Luis_Perez
+recruit_character = VEN_Eleazar_Lopez_Contreras
+recruit_character = VEN_Juan_Bautista_Fuenmayor
 
 #Ideas
 add_ideas = {
@@ -33,27 +37,29 @@ set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 10
 set_research_slots = 2
-set_country_flag = monroe_doctrine
 
-
+#Politics
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+#Popularities
 set_popularities = {
-	anarchism = 100
+	anarchism = 0
 	council_communism = 0
 	authoritarian_socialism = 0
-	radical_socialism = 0
+	radical_socialism = 1
 	social_democracy = 0
 	progressive_liberalism = 0
 	freemarket_liberalism = 0
-	conservative_democracy = 0
-	authoritarian_democracy = 0
-	autocracy = 0
+	conservative_democracy = 2
+	authoritarian_democracy = 4
+	autocracy = 93
   	national_syndicalism = 0
   	ultra_reactionary = 0
-
 }
+
+#Variants

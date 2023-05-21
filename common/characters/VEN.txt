@@ -1,0 +1,59 @@
+characters={
+
+###########################################################################Leaders
+
+	VEN_Juan_Vicente_Gomez={
+		name = VEN_Juan_Vicente_Gomez
+		portraits={
+			civilian={
+				large="GFX_portrait_VEN_Juan_Vicente_Gomez"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	VEN_Eleazar_Lopez_Contreras={
+		name = VEN_Eleazar_Lopez_Contreras
+		portraits={
+			civilian={
+				large="GFX_portrait_VEN_Eleazar_Lopez_Contreras"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	
+	VEN_Nestor_Luis_Perez={
+		name = VEN_Nestor_Luis_Perez
+		portraits={
+			civilian={
+				large="GFX_portrait_VEN_Nestor_Luis_Perez"
+			}
+		}
+		country_leader={
+			ideology=conservative_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+	VEN_Juan_Bautista_Fuenmayor={
+		name = VEN_Juan_Bautista_Fuenmayor
+		portraits={
+			civilian={
+				large="GFX_portrait_VEN_Juan_Bautista_Fuenmayor"
+			}
+		}
+		country_leader={
+			ideology=radical_socialism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
