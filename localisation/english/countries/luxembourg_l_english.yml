@@ -4,8 +4,8 @@
  #Country Names
  LUX_anarchism:0 "Rose Anarchy"
  LUX_anarchism_DEF:0 "the Rose Anarchy"
- LUX_council_communism:0 "Rous Luxembourg"
- LUX_council_communism_DEF:0 "the Rous Luxembourg"
+ LUX_council_communism:0 "Rous Luxembourg Socialist Republic"
+ LUX_council_communism_DEF:0 "the Rous Luxembourg Socialist Republic"
  LUX_radical_socialism:0 "Socialist State of Luxembourg"
  LUX_radical_socialism_DEF:0 "the Socialist State of Luxembourg"
  LUX_authoritarian_socialism:0 "Commune of Luxembourg"
@@ -39,9 +39,9 @@
  LUX_radical_socialism_party_long:0 "Parti des Indépendants de l'Est"
  LUX_council_communism_party:0 "KPL (council communism)"
  LUX_council_communism_party_long:0 "Kommunistesch Partei vu Lëtzebuerg (council communism)"
- LUX_authoritarian_socialism_party:0 "Vanguard Socialism"
- LUX_authoritarian_socialism_party_long:0 "Vanguard Socialism"
- LUX_social_democracy_party:0 "LSA"
+ LUX_authoritarian_socialism_party:0 "KPL (vanguard socialism)"
+ LUX_authoritarian_socialism_party_long:0 "Kommunistesch Partei vu Lëtzebuerg (vanguard socialism)"
+ LUX_social_democracy_party:0 "LSAP"
  LUX_social_democracy_party_long:0 "Lëtzebuerger Sozialistesch Aarbechterpartei"
  LUX_freemarket_liberalism_party:0 "DL"
  LUX_freemarket_liberalism_party_long:0 "Demokratesch Lëscht"
@@ -60,3 +60,5 @@
 
  #Cheracters
  LUX_Pierre_Dupong:0 "Pierre Dupong"
+ LUX_Dominique_Urbany:0 "Dominique Urbany"
+ LUX_Louis_Charles_Marx:0 "Louis Charles Marx"

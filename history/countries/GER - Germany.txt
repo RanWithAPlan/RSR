@@ -186,6 +186,7 @@ set_popularities = {
 create_faction = fourth_international
 add_to_faction = GER	
 add_to_faction = ITA
+add_to_faction = LUX
 
 set_variable = { 
 	var = unity_number value = 40

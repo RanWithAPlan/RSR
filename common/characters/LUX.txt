@@ -15,5 +15,33 @@ characters={
 			expire="1965.1.1.1"
 		}
 	}
+	
+	LUX_Louis_Charles_Marx={
+		name = LUX_Louis_Charles_Marx
+		portraits={
+			civilian={
+				large="GFX_portrait_LUX_Louis_Charles_Marx"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_socialism_subtype
+			traits={ }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	LUX_Dominique_Urbany={
+		name = LUX_Dominique_Urbany
+		portraits={
+			civilian={
+				large="GFX_portrait_LUX_Dominique_Urbany"
+			}
+		}
+		country_leader={
+			ideology=council_communism_subtype
+			traits={ }
+			expire="1965.1.1.1"
+		}
+	}
 
 }
