@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CUB_Antonio_Guiteras"
+		texturefile = "gfx/leaders/CUB/portrait_CUB_Antonio_Guiteras.png"
+	}
+}

@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	CUB_Antonio_Guiteras={
+		name = CUB_Antonio_Guiteras
+		portraits={
+			civilian={
+				large="GFX_portrait_CUB_Antonio_Guiteras"
+			}
+		}
+		country_leader={
+			ideology=anarchism_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
