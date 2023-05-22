@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	ETH_Halie_Sellasie={
+		name = ETH_Halie_Sellasie
+		portraits={
+			civilian={
+				large="GFX_portrait_ETH_Halie_Sellasie"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

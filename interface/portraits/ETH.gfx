@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ETH_Halie_Sellasie"
+		texturefile = "gfx/leaders/ETH/portrait_ETH_Halie_Sellasie.png"
+	}
+}
