@@ -153,7 +153,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-create_faction = Allies
+create_faction = ENG_commonwealth_of_nations
 add_to_faction = ENG
 #add_to_faction = FRA
 add_to_faction = CAN

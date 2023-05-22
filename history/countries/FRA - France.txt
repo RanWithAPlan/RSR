@@ -224,6 +224,11 @@ set_convoys = 300
 set_research_slots = 3
 
 #Diplomacy, put puppets, wars, factions, and other such things here
+create_faction = Continental_Entente
+add_to_faction = FRA
+add_to_faction = SPR
+add_to_faction = HOL
+
 
 #Politics
 set_politics = {

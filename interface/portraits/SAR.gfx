@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_SAR_Paolo_Emilio_Thaon_di_Revel"
+		texturefile = "gfx/leaders/SAR/portrait_SAR_Paolo_Emilio_Thaon_di_Revel.png"
+	}
+}
