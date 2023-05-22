@@ -442,7 +442,8 @@ leader_traits = {
 ###POR
 	#Pessoa
 	man_of_many_heteronyms = {
-
+		stability_factor = -0.2
+		custom_modifier_tooltip = POR_pesoa_insane_tt
 	}
 
 ###SOV
