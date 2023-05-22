@@ -57,4 +57,8 @@
  BOL_national_syndicalism_party_long:0 "National Syndicalism"
  
  #Characters
- BOL_German_Busch:0 "German Busch"
+ BOL_German_Busch:0 "Germán Busch"
+
+ #Ideas
+ BOL_legacy_of_the_chaco_war:0 "Legacy of the Chaco War"
+ BOL_legacy_of_the_chaco_war_desc:0 ""

@@ -25,12 +25,58 @@
  fanatic_extremist:0 "Fanatic Extremist"
  fanatic_extremist_desc:0 "A politician who will work to increase the support for National Hegemonism."
  
- ###Germany
+ ### ACD ###
+ spirit_of_kangchenjunga:0 "Spirit of Kangchenjunga"
+ spirit_of_kangchenjunga_desc:0 ""
+ ACD_friendly_rivalry:0 "Friendly Rivalry"
+ ACD_friendly_rivalry_desc:0 ""
+ prince_of_yakutia:0 "Prince of Yakutia"
+ prince_of_yakutia_desc:0 ""
+ prince_of_buyratia:0 "Prince of Buyratia"
+ prince_of_buyratia_desc:0 ""
+ mercenary_leader:0 "Mercenary Leader"
+ mercenary_leader_desc:0 ""
+ holy_warrior:0 "Holy Warrior"
+ holy_warrior_desc:0 ""
+
+ ### AUS ###
+ foremost_austrofascist:0 "Foremost Austrofascist"
+ foremost_austrofascist_desc:0 ""
+
+ ### BOL ###
+ veteran_of_the_chaco_war:0 "Veteran of the Chaco War"
+ veteran_of_the_chaco_war_desc:0 ""
+
+ ### COG ###
+ brutal_exploitation_policies:0 "Brutal Exploitation Policies"
+ brutal_exploitation_policies_desc:0 ""
+
+ ### CUB ###
+ studied_many_revolutions:0 "Studied Many Revolutions"
+ studied_many_revolutions_desc:0 ""
+
+ ### DEN ###
+ ties_to_the_labor_unions:0 "Ties to the Labor Unions"
+ ties_to_the_labor_unions_desc:0 ""
+
+ ### FAR ###
+ polar_explorer:0 "Polar Explorer"
+ polar_explorer_desc:0 ""
+
+ ### FIN ###
+ commander_and_regent:0 "Commander and Regent"
+ commander_and_regent_desc:0 ""
+
+ ### FRA ###
+ the_nationalist_colonel:0 "The Nationalist Colonel"
+ the_nationalist_colonel_desc:0 ""
+
+ ### GER ###
  council_of_peers:0 "Council of Peers"
  anarchisten_majority:0 "Anarchisten Majority"
  dezentralisten_majority:0 "Dezentralisten Majority"
  zentralisten_majority:0 "Zentralisten Majority"
- committed_anarcho_syndicalist:0 "Committed Anarcho- Syndicalist"
+ committed_anarcho_syndicalist:0 "Committed Anarcho-Syndicalist"
  ambitious_union_leader:0 "Ambitious Union Leader"
  socialist_poet:0 "Socialist Poet"
  faud_officer:0 "FAUD Officer"
@@ -44,35 +90,90 @@
  nva_officer:0 "NVA Officer"
  nva_officer_desc:0 "This general supports the NVA, and will remain loyal to them in the event of a conflict."
  
- ###Soviet Union
- father_of_revolution:0 "§VFather of Revolution§!"
+ ### GRN ###
+ royal_commissioner:0 "Royal Commissioner"
+ royal_commissioner_desc:0 ""
 
- ### Uriankhai Marxist Union ###
- anti_monarchist:0 "Anti-Monarchist"
- anti_monarchist_desc:0 ""
+ ### GRE ###
+ wildly_unpopular_monarch:0 "Wildly Unpopular Monarch"
+ wildly_unpopular_monarch_desc:0 ""
 
- ### Royal Gov. of Mongolia ###
- battlemistress:0 "§tBattlemistress§!"
+ ### HAI ###
+ papa_doc:0 "Papa Doc"
+ papa_doc_desc:0 ""
+
+ ### HOL ###
+ charismatic_adventur_seeker:0 "Charismatic Adventure Seeker"
+ charismatic_adventur_seeker_desc:0 ""
+ head_in_the_clouds:0 "Head in the Clouds"
+ head_in_the_clouds_desc:0 ""
+
+ ### HUN ###
+ brutal_paramilitarist:0 "Brutal Paramilitarist"
+ brutal_paramilitarist_desc:0 ""
+
+ ### IAO ###
+ lion_of_africa:0 "Lion of Africa"
+ lion_of_africa_desc:0 ""
+
+ princess_of_prussia:0 "Princess of Prussia"
+ princess_of_prussia_desc:0 ""
+ 
+ patron_of_tanzania:0 "Patron of Tanzania"
+ patron_of_tanzania_desc:0 ""
+ 
+ reichsfuhrer_SS:0 "SS Reichsfuhrer"
+ reichsfuhrer_SS_desc:0 ""
+ 
+ father_of_modern_propaganda:0 "Father of Modern Propaganda"
+ father_of_modern_propaganda_desc:0 ""
+ 
+ careerist_master:0 "Careerist Master"
+ careerist_master_desc:0 ""
+
+ ###ICE###
+ coca_cola_rule:0 "Coca-Cola Rule"
+ coca_cola_rule_desc:0 "Björn Þórðarson owns Vífilfell, the company that distributes Cocal-Cola in Iceland. His cabinet contains several buisnessmen who have introduced Iceland to big American companies."
+
+ ###ITA###
+ leftist_political_theorist:0 "Political Theorist"
+ leftist_political_theorist_desc:0 ""
+
+ ill_equipped_for_statesmanship:0 "Ill-Equipped for Statesmanship"
+ ill_equipped_for_statesmanship_desc:0 ""
+
+ ###JAP###
+ imperial_toadie:0 "Imperial Toadie"
+ imperial_toadie_desc:0 ""
+
+ ### MON ###
+ battlemistress:0 "Battlemistress"
  battlemistress_desc:0 ""
  beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
  beloved_queen_of_mongolia_desc:0 ""
 
- ### Asiatic Cavalry Division ###
- spirit_of_kangchenjunga:0 "Spirit of Kangchenjunga"
- spirit_of_kangchenjunga_desc:0 ""
- ACD_friendly_rivalry:0 "Friendly Rivalry"
- ACD_friendly_rivalry_desc:0 ""
- prince_of_yakutia:0 "Prince of Yakutia"
- prince_of_yakutia_desc:0 ""
- prince_of_buyratia:0 "Prince of Buyratia"
- prince_of_buyratia_desc:0 ""
- mercenary_leader:0 "Mercenary Leader"
- mercenary_leader_desc:0 ""
- holy_warrior:0 "Holy Warrior"
- holy_warrior_desc:0 ""
- 
- ### Greenland ###
- royal_commissioner:0 "Royal Commissioner"
+ ###PAR###
+ provisional_president_of_paraguay:0 "Provisional President of Paraguay"
+ provisional_president_of_paraguay_desc:0 ""
+
+ ###POL###
+ national_democracy_advocate:0 "National Democracy Advocate"
+ national_democracy_advocate_desc:0 ""
+
+ ###POR###
+ man_of_many_heteronyms:0 "Man of Many Heteronyms"
+ man_of_many_heteronyms_desc:0 ""
+
+ ### SOV ###
+ father_of_the_revolution:0 "§VFather of the Revolution§!"
+ father_of_the_revolution_desc:0 ""
+
+ ### TAN ###
+ anti_monarchist:0 "Anti-Monarchist"
+ anti_monarchist_desc:0 ""
+
+
+
 
 
  #Vanilla 

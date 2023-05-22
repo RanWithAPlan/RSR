@@ -30,6 +30,7 @@ recruit_character = BOL_German_Busch
 
 #Ideas
 add_ideas = {
+	BOL_legacy_of_the_chaco_war
 }
 
 #Miscellaneous

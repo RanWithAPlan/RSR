@@ -1,8 +1,8 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
-	ITA_Gramsci={
+	ITA_Gramsci = {
 		name = ITA_Gramsci
 		portraits={
 			civilian={
@@ -11,10 +11,8 @@ characters={
 		}
 		country_leader={
 			ideology=council_communism_subtype
-			traits={}
+			traits={ leftist_political_theorist ill_equipped_for_statesmanship }
 			expire="1965.1.1.1"
 		}
 	}
-		
-
 }

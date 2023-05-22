@@ -1,0 +1,26 @@
+ideas = {
+	country = { 
+		
+		BOL_legacy_of_the_chaco_war = { 
+			
+			picture = BOL_legacy_of_the_chaco_war
+
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				war_support_factor = -0.25
+				defensive_war_stability_factor = -0.1
+				offensvie_war_stability_factor = -0.25
+				experience_gain_army = 0.03
+			}
+		}
+	}
+}

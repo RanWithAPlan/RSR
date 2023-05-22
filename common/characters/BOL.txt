@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=authoritarian_socialism_subtype
-			traits={}
+			traits={ veteran_of_the_chaco_war }
 			expire="1965.1.1.1"
 		}
 	}

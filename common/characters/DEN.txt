@@ -1,7 +1,6 @@
 characters={
 
-###################################################################################################Leaders
-
+###Leaders
 	DEN_Stauning={
 		name = DEN_Stauning
 		portraits={
@@ -11,7 +10,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy_subtype
-			traits={}
+			traits={ ties_to_the_labor_unions }
 			expire="1965.1.1.1"
 		}
 	}

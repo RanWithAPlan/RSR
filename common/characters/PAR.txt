@@ -1,6 +1,6 @@
 characters={
 
-###########################################################################Leaders
+#Leaders
 
 	PAR_Rafael={
 		name = PAR_Rafael
@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=radical_socialism_subtype
-			traits={}
+			traits={ provisional_president_of_paraguay }
 			expire="1965.1.1.1"
 		}
 	}

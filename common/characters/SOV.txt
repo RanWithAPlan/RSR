@@ -11,7 +11,7 @@ SOV_vladimir_lenin={
 		}
 		country_leader={
 			ideology=leninism
-			traits={ father_of_revolution }
+			traits={ father_of_the_revolution }
 			expire="1965.1.1.1"
 		}
 	} 

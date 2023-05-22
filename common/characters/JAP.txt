@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	JAP_Prince_Fumiaro_Konoe={
 		name = JAP_Prince_Fumiaro_Konoe
@@ -11,10 +11,8 @@ characters={
 		}
 		country_leader={
 			ideology=authoritarian_democracy_subtype
-			traits={}
+			traits={ imperial_toadie }
 			expire="1965.1.1.1"
 		}
-
-
-
+	}
 }

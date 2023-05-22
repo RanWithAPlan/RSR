@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	POR_Fernando_Pessoa={
 		name = POR_Fernando_Pessoa
@@ -11,10 +11,8 @@ characters={
 		}
 		country_leader={
 			ideology=national_syndicalism_subtype
-			traits={}
+			traits={ man_of_many_heteronyms }
 			expire="1965.1.1.1"
 		}
 	}
-
-
 }

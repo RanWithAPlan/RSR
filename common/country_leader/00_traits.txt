@@ -13,12 +13,10 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
-	#New Traits
 	
-	#General
+###General
 	
-###########################################################################Demagogues
-	
+###Demagogues
 	voice_of_anarchy = {
 		#Boosts anarchism
 		random = no
@@ -103,116 +101,7 @@ leader_traits = {
 		ultra_reactionary_acceptance = 10
 	}
 	
-	
-###Soviet Union
-
-	father_of_revolution = {
-		authoritarian_socialism_drift = 0.02
-		authoritarian_acceptance = 50
-		drift_defence_factor = 0.2
-		political_power_factor = 0.2
-		stability_factor = -0.1
-	}
-	
-###########################################################################Tuva
-
-	anti_monarchist = {
-		autocracy_drift = -0.01
-		autocracy_acceptance = -30
-		drift_defence_factor = 0.1
-	}
-	
-###########################################################################Askari Ostafrika
-
-	unbeatable_leader = {
-		modifier_army_sub_unit_irregular_infantry_attack_factor = 0.3
-		modifier_army_sub_unit_irregular_infantry_defence_factor = 0.3
-		modifier_army_sub_unit_irregular_infantry_speed_factor = 0.1
-		army_morale_factor = 0.1
-		max_dig_in_factor = 0.1
-		dig_in_speed_factor = 0.2
-	}
-	
-	princess_of_prussia = {
-		targeted_modifier = {
-			tag = GER
-			attack_bonus_against = 0.15
-			defense_bonus_against = 0.15
-		}
-	}
-	
-	patron_of_tanzania = {
-		stability_factor = 0.1
-		war_support_factor = 0.1
-		army_core_attack_factor = 0.1
-		army_core_defence_factor = 0.1
-		recruitable_population_factor = 0.05
-		drift_defence_factor = 0.1
-	}
-	
-	reichsfuhrer_SS = {
-		war_support_factor = 0.1
-		drift_defence_factor = 0.0666
-		army_attack_factor = 0.05
-		army_defence_factor = 0.05
-		army_org = 10
-		training_time_factor = 0.1
-		resistance_damage_to_garrison = -0.2
-	}
-	
-	father_of_modern_propaganda = {
-		war_support_factor = 0.15
-		war_support_weekly = 0.01
-		political_power_factor = 0.1
-		drift_defence_factor = 0.4
-	}
-	
-	careerist_master = {
-		trade_opinion_factor = 0.2
-		stability_factor = 0.1
-		weekly_casualties_war_support = 0.008
-		party_popularity_stability_factor = 0.2
-		starting_compliance = 0.1
-	}
-
-###########################################################################Germany
-	council_of_peers = {
-		random = no
-		stability_factor = -0.1
-		political_power_factor = 0.05
-		anarchism_acceptance = 50
-		council_communism_acceptance = 50
-		radical_socialism_acceptance = 50
-	}
-
-	anarchisten_majority = {
-		stability_factor = -0.1
-		industrial_capacity_factory = 0.1
-		political_power_factor = 0.15
-	}
-
-	dezentralisten_majority = {
-	}
-
-	zentralisten_majority = {
-	}
-
-###########################################################################Mongolia
-	beloved_queen_of_mongolia = {
-		random = no
-		political_power_factor = 0.05
-		stability_factor = 0.1
-		cavalry_attack_factor = 0.05
-	}
-	
-	battlemistress = {
-		random = no
-		war_support_factor = 0.1
-		army_speed_factor = 0.02
-		army_morale_factor = 0.15
-	}
-
-###########################################################################Asiatic Cavalry Division
+#ACD
 	#Sternberg
 	the_mad_baron = { 
 		ai_focus_aggressive_factor = 0.5
@@ -271,15 +160,309 @@ leader_traits = {
 		army_attack_factor = 0.05
 		army_defence_factor = 0.05
 	}
-	
-###########################################################################Greenland
 
+###AUS
+	#Dolfuss
+	foremost_austrofascist = {
+		stability_factor = 0.05
+		army_core_defence_factor = 0.03
+		production_speed_industrial_complex_factor = 0.1 
+		ultra_reactionary_acceptance = 25
+	}
+
+###BOL
+	#Busch
+	veteran_of_the_chaco_war = {
+    	war_support_factor = 0.1
+    	army_core_defence_factor = 0.05
+    	production_speed_land_fort_factor = 0.25 
+ 	}
+
+###COG
+	#BCC
+	brutal_exploitation_policies = {
+		local_resources_factor = 0.35
+		stability_factor = -0.2
+		conscription = -0.01
+	}
+
+###CUB
+	#Guiteras
+	studied_many_revolutions = {
+		anarchism_drift = 0.01
+		council_communism_acceptance = 25
+		radical_socialism_acceptance = 25	
+	}
+
+###DEN
+	#Stauning
+	ties_to_the_labor_unions = {
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
+		stability_factor = 0.1
+		council_communism_acceptance = 10
+	}
+
+###FAR
+	#Rasmussen
+	polar_explorer = {
+		acclimatization_cold_climate_gain_factor = 0.25
+		political_power_factor = 0.05
+	}
+
+###FIN
+	#Mannerheim
+	commander_and_regent = {
+		command_power_gain_mult = 0.15
+		training_time_army_factor = -0.1
+		army_core_defence_factor = 0.1
+		army_core_attack_factor = 0.1
+		political_power_gain = 0.05
+	}
+
+###FRA
+	#Rocque
+	the_nationalist_colonel = {
+		stability_factor = 0.1
+		political_power_factor = 0.05
+		land_doctrine_cost_factor = -0.05
+	}
+
+###GER
+	#Executive Council
+	council_of_peers = {
+		random = no
+		stability_factor = -0.1
+		political_power_factor = 0.05
+		anarchism_acceptance = 50
+		council_communism_acceptance = 50
+		radical_socialism_acceptance = 50
+	}
+
+	anarchisten_majority = {
+		stability_factor = -0.1
+		industrial_capacity_factory = 0.1
+		political_power_factor = 0.15
+	}
+
+	dezentralisten_majority = {
+	}
+
+	zentralisten_majority = {
+	}
+
+###GNE
+	#Mikkelsen	
 	royal_commissioner = {
 		stability_factor = 0.2
 		army_defence_factor = 0.1
 	}
 
-###########################################################################Vanilla Traits
+###GRE
+	#George II
+	wildly_unpopular_monarch = {
+		stability_factor = -0.25
+		war_support_factor = 0.1
+		political_power_gain_factor = -0.15
+		industrial_capacity_factory = -0.2
+		industrial_capacity_dockyard = -0.2
+	}
+
+###HAI
+	#Duvalier
+	papa_doc = {
+		research_speed_factor = 0.03
+		equipment_bonus = {
+			support = {
+				build_cost_ic = -0.1
+			}
+		}
+	}
+
+###HOL
+	#Bernhard
+	charismatic_adventur_seeker = {
+		opinion_gain_monthly_factor = 0.25
+		political_power_gain = 0.1
+		war_support_factor = 0.1
+	}
+
+	head_in_the_clouds = {
+		experience_gain_air_factor = 0.25
+		extra_paratrooper_supply_grace = 12
+
+		equipment_bonus = {
+			cas = {
+				build_cost_ic = -0.05
+				ground_attack_factor = 0.05
+			}
+
+			fighter = {
+				build_cost_ic = -0.1
+				air_agility_factor = 0.1
+			}
+
+			air_transport = {
+				build_cost_ic = -0.15
+			}
+		}
+	}
+
+###HUN
+	#Totpron
+	brutal_paramilitarist = {
+		resistance_damage_to_garrison = -0.25
+		root_out_resistance_effectiveness_factor = 0.05
+		resistance_decay_on_our_occupied_states = -0.25
+		conscription_factor = -0.1
+		modifier_army_sub_unit_militia_attack_factor = 0.1
+		modifier_army_sub_unit_militia_speed_factor = 0.05
+	}
+
+###IAO
+	#Lettow-Vorbeck
+	lion_of_africa = {
+		modifier_army_sub_unit_irregular_infantry_attack_factor = 0.2
+		modifier_army_sub_unit_irregular_infantry_defence_factor = 0.3
+		modifier_army_sub_unit_irregular_infantry_speed_factor = 0.1
+		army_morale_factor = 0.1
+		max_dig_in_factor = 0.1
+		dig_in_speed_factor = 0.2
+	}
+	
+	#Princess Victoria
+	princess_of_prussia = {
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+	}
+	
+	patron_of_tanzania = {
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		recruitable_population_factor = 0.05
+		drift_defence_factor = 0.1
+	}
+	
+	#Himmler
+	reichsfuhrer_SS = {
+		war_support_factor = 0.1
+		drift_defence_factor = 0.0666
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		army_org = 10
+		training_time_factor = 0.1
+		resistance_damage_to_garrison = -0.2
+	}
+	
+	#Goering
+	father_of_modern_propaganda = {
+		war_support_factor = 0.15
+		war_support_weekly = 0.01
+		political_power_factor = 0.1
+		drift_defence_factor = 0.4
+	}
+	
+	careerist_master = {
+		trade_opinion_factor = 0.2
+		stability_factor = 0.1
+		weekly_casualties_war_support = 0.008
+		party_popularity_stability_factor = 0.2
+		starting_compliance = 0.1
+	}
+
+###ICE
+	#Þórðarson
+	coca_cola_rule = {
+		trade_opinion_factor = 0.15
+		stability_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		min_export = 0.3
+	}
+
+###ITA
+	#Gramsci
+	leftist_political_theorist = {
+		political_power_gain_factor = 0.1
+		stability_factor = 0.1
+		surrender_limit = 0.1
+	}
+
+	ill_equipped_for_statesmanship = {
+		political_power_gain_factor = -0.15
+		stability_factor = -0.15
+		surrender_limit = -0.15
+	}
+
+###JAP
+	#Prince Konoe
+	imperial_toadie = {
+		war_support_factor = 0.15
+		stability_modifier = 0.25
+		political_power_gain = -0.1
+		drift_defence_factor = 0.5
+	}
+
+###MON
+	#Genepil
+	beloved_queen_of_mongolia = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.1
+		cavalry_attack_factor = 0.05
+	}
+	
+	battlemistress = {
+		random = no
+		war_support_factor = 0.1
+		army_speed_factor = 0.02
+		army_morale_factor = 0.15
+	}
+
+###PAR
+	#Franco
+	provisional_president_of_paraguay = {
+		stability_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		army_core_defence_factor = 0.1
+	}
+
+###POL
+	#Dmowksi
+	national_democracy_advocate = {
+		war_support = 0.15
+		political_power_gain = 0.15
+		authoritarian_democracy_acceptance = 25
+	}
+
+###POR
+	#Pessoa
+	man_of_many_heteronyms = {
+
+	}
+
+###SOV
+	#Lenin
+	father_of_the_revolution = {
+		authoritarian_socialism_drift = 0.02
+		authoritarian_acceptance = 50
+		drift_defence_factor = 0.2
+		political_power_factor = 0.2
+		stability_factor = -0.1
+	}
+
+#TAN
+	anti_monarchist = {
+		autocracy_drift = -0.01
+		autocracy_acceptance = -30
+		drift_defence_factor = 0.1
+	}
+
+###Vanilla Traits
 	dictator = {
 		random = no
 		political_power_factor = 0.25

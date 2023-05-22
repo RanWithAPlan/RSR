@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=tyrannical_monarchy
-			traits={}
+			traits={ popular_figurehead }
 			expire="1965.1.1.1"
 		}
 	}

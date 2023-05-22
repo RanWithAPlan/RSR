@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	GRE_King_George_II={
 		name = GRE_King_George_II
@@ -11,10 +11,8 @@ characters={
 		}
 		country_leader={
 			ideology=authoritarian_democracy_subtype
-			traits={}
+			traits={ wildly_unpopular_monarch }
 			expire="1965.1.1.1"
 		}
 	}
-
-
 }

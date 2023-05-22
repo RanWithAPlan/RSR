@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	IAO_paul_von_lettow_vorbeck={
 		name = IAO_paul_von_lettow_vorbeck
@@ -12,7 +12,7 @@ characters={
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={ great_war_hero	unbeatable_leader }
+			traits={ great_war_hero	lion_of_africa }
 			expire="1965.1.1.1"
 		}
 		portraits={
@@ -75,9 +75,9 @@ characters={
 	}
 
 
-###################################################################################################Advisors
+#Advisors
 
-###################################################################################################Officers
+#Officers
 
 	IAO_imani_shahkulu={
 		name = IAO_imani_shahkulu
@@ -97,13 +97,4 @@ characters={
 				logistics_skill = 3
 		}
 	}
-
-
-
-
-
-
-
-
-
 }

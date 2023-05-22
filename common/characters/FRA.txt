@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=authoritarian_democracy_subtype
-			traits={}
+			traits={ the_nationalist_colonel }
 			expire="1965.1.1.1"
 		}
 	}

@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	ICE_bjorn={
 		name = ICE_bjorn
@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy_subtype
-			traits={}
+			traits={ coca_cola_rule }
 			expire="1965.1.1.1"
 		}
 	}

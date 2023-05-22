@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	ENG_Neville_Chamberlain={
 		name = ENG_Neville_Chamberlain
@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=conservative_democracy_subtype
-			traits={}
+			traits = { conservative_grandee }
 			expire="1965.1.1.1"
 		}
 	}

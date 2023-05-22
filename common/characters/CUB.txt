@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=anarchism_subtype
-			traits={}
+			traits={ studied_many_revolutions }
 			expire="1965.1.1.1"
 		}
 	}

@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=absolute_monarchy
-			traits={}
+			traits={ emperor_of_ethiopia }
 			expire="1965.1.1.1"
 		}
 	}

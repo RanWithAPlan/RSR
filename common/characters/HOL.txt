@@ -1,20 +1,18 @@
-characters={
+characters = {
 
-###################################################################################################Leaders
+###Leaders
 
-	HOL_Prince_Bernhard={
+	HOL_Prince_Bernhard = {
 		name = HOL_Prince_Bernhard
-		portraits={
-			civilian={
-				large="GFX_portrait_Prince_Bernhard"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_Prince_Bernhard"
 			}
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={}
+			traits = { charismatic_adventur_seeker head_in_the_clouds }
 			expire="1965.1.1.1"
 		}
-
-
-
+	}
 }

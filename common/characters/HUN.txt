@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=populistic_nationalism
-			traits={}
+			traits={ brutal_paramilitarist }
 			expire="1965.1.1.1"
 		}
 	}

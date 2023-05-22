@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=ultra_reactionary_subtype
-			traits={}
+			traits={ papa_doc }
 			expire="1965.1.1.1"
 		}
 	}

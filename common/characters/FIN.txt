@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+#Leaders
 
 	FIN_carl_gustaf_emil_mannerheim={
 		name = FIN_carl_gustaf_emil_mannerheim
@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=authoritarian_democracy_subtype
-			traits={}
+			traits={ commander_and_regent }
 			expire="1965.1.1.1"
 		}
 		portraits={
@@ -22,11 +22,11 @@ characters={
 		}
 		field_marshal={
 			traits = { logistics_wizard organizer winter_specialist winter_expert }
-				skill = 5
-				attack_skill = 3
-				defense_skill = 5
-				planning_skill = 3
-				logistics_skill = 5
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 5
 		}
 	}
 }

@@ -1,6 +1,6 @@
 characters={
 
-###################################################################################################Leaders
+###Leaders
 
 	BEL_pvz={
 		name = BEL_pvz
@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			ideology=conservative_democracy_subtype
-			traits={}
+			traits={ economist }
 			expire="1965.1.1.1"
 		}
 	}
