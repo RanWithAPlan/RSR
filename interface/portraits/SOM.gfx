@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_SOM_Omar_Mahamuud"
+		texturefile = "gfx/leaders/SOM/portrait_SOM_Omar_Mahamuud.png"
+	}
+}

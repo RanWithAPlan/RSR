@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	SOM_Omar_Mahamuud={
+		name = SOM_Omar_Mahamuud
+		portraits={
+			civilian={
+				large="GFX_portrait_SOM_Omar_Mahamuud"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
