@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	CHL_Vicente_Huidobro={
+		name = CHL_Vicente_Huidobro
+		portraits={
+			civilian={
+				large="GFX_portrait_CHL_Vicente_Huidobro"
+			}
+		}
+		country_leader={
+			ideology=futurism
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CHL_Vicente_Huidobro"
+		texturefile = "gfx/leaders/CHL/portrait_CHL_Vicente_Huidobro.png"
+	}
+}

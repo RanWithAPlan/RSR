@@ -56,6 +56,7 @@ set_technology = {
 }
 
 #Characters
+recruit_character = CHL_Vicente_Huidobro
 
 #Ideas
 add_ideas = {
@@ -66,7 +67,6 @@ set_stability = 0.5
 set_war_support = 0.5
 set_convoys = 20
 set_research_slots = 2
-set_country_flag = monroe_doctrine
 
 #Politics
 set_politics = {
