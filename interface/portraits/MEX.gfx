@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_MEX_Enrique_Gorostieta"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_Enrique_Gorostieta.png"
+	}
+}
