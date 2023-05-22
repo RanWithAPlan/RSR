@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_HAI_Francois_Duvalier"
+		texturefile = "gfx/leaders/HAI/Portrait_HAI_Francois_Duvalier.png"
+	}
+}

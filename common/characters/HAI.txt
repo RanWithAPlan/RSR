@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	HAI_Francois_Duvalier={
+		name = HAI_Francois_Duvalier
+		portraits={
+			civilian={
+				large="GFX_portrait_HAI_Francois_Duvalier"
+			}
+		}
+		country_leader={
+			ideology=ultra_reactionary_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

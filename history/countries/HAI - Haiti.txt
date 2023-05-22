@@ -10,6 +10,7 @@ set_technology = {
 }
 
 #Characters
+recruit_character = HAI_Francois_Duvalier
 
 #Ideas
 add_ideas = {
@@ -17,10 +18,9 @@ add_ideas = {
 
 #Miscellaneous
 set_stability = 0.5
-set_war_support = 0.1
+set_war_support = 0.5
 set_convoys = 5
 set_research_slots = 2
-set_country_flag = monroe_doctrine
 
 #Politics
 set_politics = {
