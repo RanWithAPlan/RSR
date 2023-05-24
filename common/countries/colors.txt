@@ -5,11 +5,6 @@ ACD = {
 	color_ui = rgb { 77 0 25 }
 }
 
-AFA = {
-	color = rgb { 153 0 51 }
-	color_ui = rgb { 77 0 25 }
-}
-
 AFG = {
 	color = rgb { 64 160 167 }
 	color_ui = rgb { 83 208 217 }
@@ -68,11 +63,6 @@ BOL = {
 BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
-}
-
-BSR = {
-	color = rgb { 227 26 28 }
-	color_ui = rgb { 227 26 28 }
 }
 
 BUL = {
@@ -273,11 +263,6 @@ LBA = {
 LIB = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
-}
-
-LIC = {
-	color = rgb { 163 20 32 }
-	color_ui = rgb { 163 20 32 }
 }
 
 LIT = {
