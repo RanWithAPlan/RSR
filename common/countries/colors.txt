@@ -331,8 +331,8 @@ OMA = {
 }
 
 OST = {
-	color = rgb { 50 100 200 }
-	color_ui = rgb { 50 100 200 }
+	color = rgb { 0 49 83 }
+	color_ui = rgb { 0 49 83 }
 }
 
 PAN = {
