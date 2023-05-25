@@ -16,12 +16,23 @@ set_technology = {
 }
 
 #Characters
-#leaders
+#Vorbeck Gang
 recruit_character = IAO_paul_von_lettow_vorbeck
+recruit_character = IAO_carl_heinrich_zimmermann
+recruit_character = IAO_george_kraut
+recruit_character = IAO_victoria_louise
+
+#Himmler Gang
 recruit_character = IAO_heinrich_himmler
-#advisors
-#army
-recruit_character = IAO_imani_shahkulu
+recruit_character = IAO_hans_albert_vorbeck
+
+#Schnee Gang
+recruit_character = IAO_heinrich_schnee
+recruit_character = IAO_erich_von_gilsa
+
+#Neutral Gang
+recruit_character = IAO_berthold_von_deimling
+recruit_character = IAO_hans_hollander
 
 #Ideas
 add_ideas = {

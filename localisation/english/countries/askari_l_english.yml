@@ -57,17 +57,36 @@
  IAO_national_syndicalism_party_long:0 "National Syndicalism"
  
  #Characters
- #leaders
  IAO_paul_von_lettow_vorbeck:0 "Paul von Lettow-Vorbeck"
+ IAO_paul_von_lettow_vorbeck_desc:0 ""
+ IAO_carl_heinrich_zimmermann:0 "Carl Heinrich Zimmermann"
+ IAO_carl_heinrich_zimmermann_desc:0 ""
+ IAO_george_kraut:0 "George Kraut"
+ IAO_george_kraut_desc:0 ""
+ IAO_victoria_louise:0 "Victoria III"
  IAO_heinrich_himmler:0 "Heinrich Himmler"
- #advisors
- #army
- IAO_imani_shahkulu:0 "Imani Shahkulu"
- 
+ IAO_heinrich_himmler_desc:0 ""
+ IAO_hans_albert_vorbeck:0 "Hans Albert Vorbeck"
+ IAO_hans_albert_vorbeck_desc:0 ""
+ IAO_hans_huttig:0 "Hans Hüttig"
+ IAO_hans_huttig_desc:0 ""
+ IAO_erich_von_gilsa:0 "Erich von Gilsa"
+ IAO_erich_von_gilsa_desc:0 ""
+ IAO_berthold_von_deimling:0 "Berthold von Deimling"
+ IAO_berthold_von_deimling_desc:0 ""
+ IAO_hans_hollander:0 "Hans Hollander"
+ IAO_hans_hollander_desc:0 ""
+
  #Traits
- unbeatable_leader:0 "§OBy the will of the Almighty Kaiser - the Invincible Leader, General of Schutztruppe and God-Sent True Chief of all Askari§!"
+ lion_of_africa:0 "Lion of Africa"
  princess_of_prussia:0 "Princess of Prussia"
  patron_of_tanzania:0 "Patron of Tanzania"
  reichsfuhrer_SS:0 "Reichsführer-SS"
- father_of_modern_propaganda:0 "Father of Modern Propaganda"
- careerist_master:0 "Careerist Master"
+ the_french_connection:0 "The French Connection"
+ german_separatist:0 "German Separatist"
+ colonial_governor:0 "Colonial Governor"
+ staunch_pacifist:0 "Staunch Pacifist"
+ british_appeaser:0 "British Appeaser"
+
+ #Tooltips
+ IAO_the_french_connection_tt:0 "The French will be more inclined to aid us."

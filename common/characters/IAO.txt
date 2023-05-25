@@ -1,56 +1,119 @@
-characters={
+characters = {
 
-#Leaders
+#divided by allegiance, leader of group at the top, then alphabatized
 
-	IAO_paul_von_lettow_vorbeck={
+	#Vorbeck Gang Vorbeck Gang
+		IAO_paul_von_lettow_vorbeck={
 		name = IAO_paul_von_lettow_vorbeck
 		portraits={
 			civilian={
-				large="GFX_portrait_IAO_paul_von_lettow_vorbeck"
-				small="GFX_advisor_IAO_paul_von_lettow_vorbeck"
+				large="GFX_portrait_IAO_paul_von_lettow_vorbeck_large"
+				small="GFX_advisor_IAO_paul_von_lettow_vorbeck_small"
 			}
 		}
+
 		country_leader={
 			ideology=stratocracy
 			traits={ great_war_hero	lion_of_africa }
 			expire="1965.1.1.1"
 		}
-		portraits={
-			army={
-				large="GFX_portrait_IAO_paul_von_lettow_vorbeck"
-				small="GFX_advisor_IAO_paul_von_lettow_vorbeck"
-			}
-		}
+
 		field_marshal={
-			traits = { trickster war_hero media_personality jungle_rat }
-				skill = 5
-				attack_skill = 3
-				defense_skill = 3
-				planning_skill = 2
-				logistics_skill = 5
+			traits = { war_hero unyielding_defender logistics_wizard jungle_rat }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+		}
+
+		advisor = {
+			slot = army_chief
+    		idea_token = IAO_paul_von_lettow_vorbeck
+  			traits = { army_chief_defensive_3 }
 		}
 	}
-	
+
+	IAO_carl_heinrich_zimmermann = {
+		name = IAO_carl_heinrich_zimmermann
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_carl_heinrich_zimmermann_large"
+				small = "GFX_portrait_IAO_carl_heinrich_zimmermann_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { war_hero infantry_leader desert_fox }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+		}
+
+		advisor = {
+			slot = high_command
+    		idea_token = IAO_carl_heinrich_zimmermann
+   			ledger = army
+  			traits = { army_infantry_2 }
+		}
+	}
+
+	IAO_george_kraut = {
+		name = IAO_george_kraut
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_george_kraut_large"
+				small = "GFX_portrait_IAO_george_kraut_small"
+			}
+		}
+
+		field_marshal = {
+			traits = { war_hero fast_planner}
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+		}
+
+		advisor = {
+			slot = army_chief
+    		idea_token = IAO_george_kraut
+  			traits = { army_chief_offensive_2 }
+		}
+	}
+
 	IAO_victoria_louise={
 		name = IAO_victoria_louise
 		gender = female
 		portraits={
 			civilian={
-				large="GFX_portrait_IAO_victoria_louise"
+				large = "GFX_portrait_IAO_victoria_louise_large"
+				small = "GFX_portrait_IAO_victoria_louise_small"
 			}
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={ princess_of_prussia patron_of_tanzania }
+			traits={ patron_of_tanzania }
 			expire="1965.1.1.1"
 		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_victoria_louise
+  			traits = { princess_of_prussia }
+		}
 	}
-	
-	IAO_heinrich_himmler={
+
+	#Himmler doesn't get a funny title, fuck that guy
+	IAO_heinrich_himmler = {
 		name = IAO_heinrich_himmler
-		portraits={
-			civilian={
-				large="GFX_portrait_IAO_heinrich_himmler"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_IAO_heinrich_himmler_large"
+				small = "GFX_portrait_IAO_heinrich_himmler_small"
 			}
 		}
 		country_leader={
@@ -59,42 +122,137 @@ characters={
 			expire="1965.1.1.1"
 		}
 	}
-	
-	IAO_joseph_goebbels={
-		name = IAO_joseph_goebbels
+
+	IAO_hans_albert_vorbeck = {
+		name = IAO_hans_albert_vorbeck
 		portraits={
 			civilian={
-				large="GFX_portrait_IAO_joseph_goebbels"
+				large = "GFX_portrait_IAO_hans_albert_vorbeck_large"
+				small = "GFX_portrait_IAO_hans_albert_vorbeck_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { cavarly_officer cavalry_leader }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+		}
+
+		advisor = {
+			slot = high_command
+    		idea_token = IAO_carl_heinrich_zimmermann
+   			ledger = army
+  			traits = { army_cavalry_2 }
+		}
+	}
+
+	IAO_hans_huttig = {
+		name = IAO_hans_huttig
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_heinrich_schnee_large"
+				small = "GFX_portrait_IAO_heinrich_schnee_small"
+			}
+		}
+
+		advisor = {
+			advisor = {
+				slot = political_advisor
+    			idea_token = IAO_hans_huttig
+  				traits = { the_french_connection }
+			}
+		}
+	}
+
+	#Schnee sounds like a Dr. Seuss character. Very close to thneed.
+	IAO_heinrich_schnee = {
+		name = IAO_heinrich_schnee
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_heinrich_schnee_large"
+				small = "GFX_portrait_IAO_heinrich_schnee_small"
 			}
 		}
 		country_leader={
-			ideology=national_socialism
-			traits={ father_of_modern_propaganda careerist_master }
+			ideology = mild_nationalism
+			traits={ german_separatist colonial_governor }
 			expire="1965.1.1.1"
+		}
+
+		advisor = {
+			advisor = {
+				slot = political_advisor
+    			idea_token = IAO_heinrich_schnee
+  				traits = { colonial_governor }
+			}
+		}
+	}
+
+	IAO_erich_von_gilsa = {
+		name = IAO_erich_von_gilsa
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_erich_von_gilsa_large"
+				small = "GFX_portrait_IAO_erich_von_gilsa_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { old_guard politically_connected infantry_officer }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_erich_von_gilsa
+  			traits = { captain_of_industry }
 		}
 	}
 
 
-#Advisors
 
-#Officers
-
-	IAO_imani_shahkulu={
-		name = IAO_imani_shahkulu
-		gender = female
-		portraits={
-			army={
-				large="GFX_portrait_IAO_imani_shahkulu"
-				small="GFX_advisor_IAO_imani_shahkulu"
+	#Unaligned (aka the grillers)
+	IAO_berthold_von_deimling = {
+		name = IAO_berthold_von_deimling
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_IAO_berthold_von_deimling_large"
+				small = "GFX_portrait_IAO_berthold_von_Deimling_small"
 			}
 		}
-		corps_commander={
-			traits = { harsh_leader organizer career_officer }
-				skill = 3
-				attack_skill = 2
-				defense_skill = 3
-				planning_skill = 1
-				logistics_skill = 3
+
+		country_leader = {
+			ideology = conservative_democracy_subtype
+			traits= { staunch_pacifist british_appeaser }
+			expire = "1965.1.1.1"
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_berthold_von_deimling
+  			traits = { british_appeaser }
+		}
+	}
+
+	IAO_hans_hollander = {
+		name = IAO_hans_hollander
+		portraits={
+			civilian={
+				small = "GFX_portrait_IAO_hans_hollander_small"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_hans_hollander
+  			traits = { stedfast_traditionalist }
 		}
 	}
 }

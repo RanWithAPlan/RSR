@@ -14,7 +14,7 @@
 
 leader_traits = {
 	
-###General
+###RSR General
 	
 ###Demagogues
 	voice_of_anarchy = {
@@ -332,18 +332,17 @@ leader_traits = {
 	
 	#Princess Victoria
 	princess_of_prussia = {
+		stability_factor = 0.15
 		targeted_modifier = {
 			tag = GER
-			attack_bonus_against = 0.15
-			defense_bonus_against = 0.15
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
 		}
 	}
 	
 	patron_of_tanzania = {
-		stability_factor = 0.1
-		war_support_factor = 0.1
-		army_core_attack_factor = 0.1
-		army_core_defence_factor = 0.1
+		political_power_gain_factor = 0.15
+		production_speed_buildings_factor = 0.1
 		recruitable_population_factor = 0.05
 		drift_defence_factor = 0.1
 	}
@@ -351,28 +350,17 @@ leader_traits = {
 	#Himmler
 	reichsfuhrer_SS = {
 		war_support_factor = 0.1
-		drift_defence_factor = 0.0666
-		army_attack_factor = 0.05
-		army_defence_factor = 0.05
+		drift_defense = 0.5
+		modifier_army_sub_unit_militia_attack_factor = 0.15
+		modifier_army_sub_unit_militia_defense_factor = 0.1
 		army_org = 10
-		training_time_factor = 0.1
 		resistance_damage_to_garrison = -0.2
 	}
-	
-	#Goering
-	father_of_modern_propaganda = {
-		war_support_factor = 0.15
-		war_support_weekly = 0.01
-		political_power_factor = 0.1
-		drift_defence_factor = 0.4
-	}
-	
-	careerist_master = {
-		trade_opinion_factor = 0.2
-		stability_factor = 0.1
-		weekly_casualties_war_support = 0.008
-		party_popularity_stability_factor = 0.2
-		starting_compliance = 0.1
+
+	#Hüttig
+	the_french_connection = {
+		consumer_goods_factor = -0.03
+		custom_modifier_tooltip = IAO_the_french_connection_tt
 	}
 
 ###ICE

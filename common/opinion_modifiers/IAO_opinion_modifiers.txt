@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	
+	huttig_french_modifier = {
+		value = 50
+	}
+}
