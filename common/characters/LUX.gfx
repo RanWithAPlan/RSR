@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_LUX_Pierre_Dupong"
+		texturefile = "gfx/leaders/LUX/portrait_LUX_Pierre_Dupong.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_LUX_Dominique_Urbany"
+		texturefile = "gfx/leaders/LUX/portrait_LUX_Dominique_Urbany.png"
+	}
+}

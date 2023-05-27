@@ -8,7 +8,7 @@ characters = {
 		portraits={
 			civilian={
 				large="GFX_portrait_IAO_paul_von_lettow_vorbeck_large"
-				small="GFX_advisor_IAO_paul_von_lettow_vorbeck_small"
+				small="GFX_portrait_IAO_paul_von_lettow_vorbeck_small"
 			}
 		}
 
