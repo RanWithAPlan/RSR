@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	LBA_Idris_I={
+		name = LBA_Idris_I
+		portraits={
+			civilian={
+				large="GFX_portrait_LBA_Idris_I"
+			}
+		}
+		country_leader={
+			ideology=autocracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}
