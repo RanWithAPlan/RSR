@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CZE_Radola_Gajda"
+		texturefile = "gfx/leaders/CZE/portrait_CZE_Radola_Gajda.png"
+	}
+}

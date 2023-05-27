@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	CZE_Radola_Gajda={
+		name = CZE_Radola_Gajda
+		portraits={
+			civilian={
+				large="GFX_portrait_CZE_Radola_Gajda"
+			}
+		}
+		country_leader={
+			ideology= autocracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+characters={
+
+###########################################################################Leaders
+
+	INS_Bontifacius_Cornelis_de_Jong={
+		name = INS_Bontifacius_Cornelis_de_Jong
+		portraits={
+			civilian={
+				large="GFX_portrait_INS_Bontifacius_Cornelis_de_Jong"
+			}
+		}
+		country_leader={
+			ideology= autocracy_subtype
+			traits={}
+			expire="1965.1.1.1"
+		}
+	}
+}

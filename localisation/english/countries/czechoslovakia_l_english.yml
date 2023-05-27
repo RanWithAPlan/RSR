@@ -68,3 +68,5 @@
  SLO_subject:0 "$OVERLORDADJ$ $SLOC$"
  SLO_subject_DEF:0 "$OVERLORDADJ$ $SLO$"
  
+ #Characters
+ CZE_Radola_Gajda:0 "Radola Gajda"

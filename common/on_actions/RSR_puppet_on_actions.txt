@@ -226,9 +226,9 @@ on_actions = {
 					social_democracy = 0
 					progressive_liberalism = 0
 					freemarket_liberalism = 0
-					conservative_democracy = 100
+					conservative_democracy = 0
 					authoritarian_democracy =
-					autocracy = 0
+					autocracy = 100
 					national_syndicalism = 0
 					ultra_reactionary = 0
 				}		

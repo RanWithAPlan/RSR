@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_SWI_Georges_Oltramare"
+		texturefile = "gfx/leaders/SWI/portrait_SWI_Georges_Oltramare.png"
+	}
+}

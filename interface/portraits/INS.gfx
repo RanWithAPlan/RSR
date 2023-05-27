@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_INS_Bontifacius_Cornelis_de_Jong"
+		texturefile = "gfx/leaders/INS/portrait_INS_Bontifacius_Cornelis_de_Jong.png"
+	}
+}
