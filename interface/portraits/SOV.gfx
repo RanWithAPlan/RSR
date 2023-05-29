@@ -1,6 +1,329 @@
 spriteTypes = {
+#Leaders
 #Lenin
 	spriteType = {
-		name = "GFX_portrait_SOV_vladimir_lenin"
+		name = "GFX_portrait_SOV_vladimir_lenin_RSR"
 		texturefile = "gfx/leaders/SOV/portrait_SOV_vladimir_lenin.png"
 	}
+
+#Army
+	spriteType = {
+		name = "GFX_portrait_SOV_Aleksandr_Cherepanov_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Aleksandr_Cherepanov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Aleksandr_Rodimtsev_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Aleksandr_Rodimtsev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Aleksandr_Vasilevsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Aleksandr_Vasilevsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Aleksey_Zhadov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Aleksey_Zhadov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Alexander_Gorbatov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Alexander_Gorbatov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Alexander_Yegorov_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Alexander_Yegorov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Andrei_Antonovich_Grechko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Andrei_Antonovich_Grechko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Andrei_Grechko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Andrei_Grechko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Andrey_Vlasov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Andrey_Vlasov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Andrey_Yeryomenko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Andrey_Yeryomenko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Boris_Shaposhnikov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Boris_Shaposhnikov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Dmitry_Lelyushenko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Dmitry_Lelyushenko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Evgeniya_Rudneva_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Evgeniya_Rudneva.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Feliksas_Baltusis_Zemaitis_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Feliksas_Baltusis_Zemaitis.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Feofan_Parkhomenko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Feofan_Parkhomenko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Filipp_Golikov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Filipp_Golikov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Georgy_Zakharov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Georgy_Zakharov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Georgy_Zhukov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Gregory_Zhukov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Grigory_Kulik_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Grigory_Kulik.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Grigory_Shtern_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Grigory_Shtern.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Hazi_Aslanov_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Hazi_Aslanov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Issa_Pliyev_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Issa_Pliyev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Chernyakhovsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Ivan_Chernyakhovsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Fedyuninsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Ivan_Fedyuninsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Konev_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Ivan_Konev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Lyudnikov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Ivan_Lyudnikov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Tyulenev_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Ivan_Tyulenev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Yakubovsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Ivan_Yakubovsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Joseph_Stalin_gen_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Joseph_Stalin_gen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Kirill_Meretskov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Kirill_Meretskov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Kliment_Voroshilov_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Kliment_Voroshilov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Konstantin_Rokossovsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Konstantin_Rokossovsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Kuzma_Galitsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Kuzma_Galitsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Lazar_Kaganovich_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Lazar_Kaganovich.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Leonid_Govorov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Leonid_Govorov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Maksim_Purkayev_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Maksim_Purkayev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Markian_Popov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Matkian_Popov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Max_Andreyevich_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Max_Andreyevich.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Mikhail_Frunze_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Mikhail_Frunze.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Mikhail_Shumilov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Mikhail_Shumilov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Mikhail_Tukhachevsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Mikhail_Tukhachevsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikandr_Chibisov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Nikandr_Chibisov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikita_Khrushchev_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Nikita_Khrushchev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikolay_Berzarin_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Nikolai_Berzarin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikolai_Bulganin_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Nikolai_Bulganin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikolai_Fyodorovich_Vatutin_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Nikolai_Fyodorovich_Vatutin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikolay_Voronov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Nikolay_Voronov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Pavel_Lagutin_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Pavel_Lagutin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Porfiry_Chanchibadze_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Porfiry_Chanchibadze.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Rikhard_Tomberg_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Rikhard_Tomberg.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Rodion_Malinovsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Rodion_Malinovsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Semyon_Budyonny_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Semyon_Budyonny.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Semyon_Timoshenko_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Semyon_Timoshenko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Sergei_Kruglov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Sergei_Kruglov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Sergey_Shtemenko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Sergey_Shtemenko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Sergey_Varentsov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Sergey_Varentsov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Valerian_Frolov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Valerian_Frolov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vasily_Blyukher_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Vasily_Blyukher.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vasily_Chapayev_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Vasily_Chapayev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vasily_Chuikov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Vasily_Chuikov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vasily_Kazakov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Vasily_Kazakov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vasily_Kuznetsov_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Vasily_Kuznetsov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vasily_Sokolovsky_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Vasily_Sokolovsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vladimir_Kolpakchi_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Vladimir_Kolpakchi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Yakov_Cherevichenko_RSR"
+		texturefile = "gfx/leaders/SOV/army/Portrait_SOV_Yakov_Cherevichenko_ssw.png"
+	}
+		spriteType = {
+		name = "GFX_portrait_SOV_Viktor_Denaturov_Zolotov_RSR"
+		texturefile = "gfx/leaders/SOV/army/portrait_SOV_Viktor_Denaturov_Zolotov.dds"
+	}
+#Navy
+	spriteType = {
+		name = "GFX_portrait_SOV_Sergey_Gorshkov_RSR"
+		texturefile = "gfx/leaders/SOV/navy/Portrait_SOV_General_Sergey_Gorshkov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Arseniy_Golovko_RSR"
+		texturefile = "gfx/leaders/SOV/navy/Portrait_Soviet_Arseniy_Golovko.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Filipp_Oktyabrsky_RSR"
+		texturefile = "gfx/leaders/SOV/navy/Portrait_Soviet_Filipp_Oktyabrsky.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Gordey_Levchenko_RSR"
+		texturefile = "gfx/leaders/SOV/navy/Portrait_Soviet_Gordey_Levchenko.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Sergey_Gorshkov_RSR"
+		texturefile = "gfx/leaders/SOV/navy/Portrait_Soviet_Sergey_Gorshkov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Vladimir_Kasatonov_RSR"
+		texturefile = "gfx/leaders/SOV/navy/Portrait_Soviet_Vladimir_Kasatonov.dds"
+	}
+#NKVD
+	spriteType = {
+		name = "GFX_portrait_SOV_Felix_Dzerzhinsky_gen_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/Portrait_SOV_Felix_Dzerzhinsky_gen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Genrikh_Yagoda_gen_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/portrait_SOV_Genrikh_Yagoda_gen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Gleb_Bokii_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/Portrait_SOV_Gleb_Bokii.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Ivan_Serov_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/Portrait_SOV_Ivan_Serov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Lavrentiy_Beria_gen_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/portrait_SOV_Lavrentiy_Beria_gen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Nikolai_Yezhov_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/portrait_SOV_Nikolai_Yezhov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_Pavel_Sudoplatov_RSR"
+		texturefile = "gfx/leaders/SOV/nkvd/Portrait_SOV_Pavel_Sudoplatov.png"
+	}
+}
+

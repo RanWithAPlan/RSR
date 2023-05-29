@@ -143,42 +143,99 @@ if = {
 }
 
 #Characters
-#leaders
-recruit_character = SOV_vladimir_lenin
+###Leaders
+recruit_character = SOV_vladimir_lenin_RSR
 
-#advisors
-#generals
-#operatives
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_operative_leader = {
-		name = "Alexander Radó"
-		GFX = GFX_portrait_alexander_rado
-		traits = { operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SOV HUN }
-	}
+###Advisors
 
-	create_operative_leader = {
-		name = "Kim Philby"
-		GFX = GFX_portrait_kim_philby
-		traits = { operative_double_agent operative_infiltrator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SOV ENG }
-	}
-	create_operative_leader = {
-		name = "Richard Sorge"
-		GFX = GFX_portrait_richard_sorge
-		traits = { operative_well_groomed }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SOV GER }
-	}
-}
+###Officers
+
+##Army
+#Field Marshals
+recruit_character = SOV_Alexander_Yegorov_RSR
+recruit_character = SOV_Kliment_Voroshilov_RSR
+recruit_character = SOV_Mikhail_Tukhachevsky_RSR
+recruit_character = SOV_Vasily_Blyukher_RSR
+#Generals
+recruit_character = SOV_Aleksandr_Cherepanov_RSR
+recruit_character = SOV_Aleksandr_Rodimtsev_RSR
+recruit_character = SOV_Aleksandr_Vasilevsky_RSR
+recruit_character = SOV_Aleksey_Zhadov_RSR
+recruit_character = SOV_Alexander_Gorbatov_RSR
+recruit_character = SOV_Andrei_Antonovich_Grechko_RSR
+recruit_character = SOV_Andrei_Grechko_RSR
+recruit_character = SOV_Andrey_Vlasov_RSR
+recruit_character = SOV_Andrey_Yeryomenko_RSR
+recruit_character = SOV_Boris_Shaposhnikov_RSR
+recruit_character = SOV_Dmitry_Lelyushenko_RSR
+recruit_character = SOV_Evgeniya_Rudneva_RSR
+recruit_character = SOV_Feliksas_Baltusis_Zemaitis_RSR
+recruit_character = SOV_Feofan_Parkhomenko_RSR
+recruit_character = SOV_Filipp_Golikov_RSR
+recruit_character = SOV_Georgy_Zakharov_RSR
+recruit_character = SOV_Georgy_Zhukov_RSR
+recruit_character = SOV_Grigory_Kulik_RSR
+recruit_character = SOV_Grigory_Shtern_RSR
+recruit_character = SOV_Hazi_Aslanov_RSR
+recruit_character = SOV_Issa_Pliyev_RSR
+recruit_character = SOV_Ivan_Chernyakhovsky_RSR
+recruit_character = SOV_Ivan_Fedyuninsky_RSR
+recruit_character = SOV_Ivan_Konev_RSR
+recruit_character = SOV_Ivan_Lyudnikov_RSR
+recruit_character = SOV_Ivan_Tyulenev_RSR
+recruit_character = SOV_Ivan_Yakubovsky_RSR
+recruit_character = SOV_Joseph_Stalin_gen_RSR
+recruit_character = SOV_Kirill_Meretskov_RSR
+recruit_character = SOV_Konstantin_Rokossovsky_RSR
+recruit_character = SOV_Kuzma_Galitsky_RSR
+recruit_character = SOV_Lazar_Kaganovich_RSR
+recruit_character = SOV_Leonid_Govorov_RSR
+recruit_character = SOV_Maksim_Purkayev_RSR
+recruit_character = SOV_Markian_Popov_RSR
+recruit_character = SOV_Max_Andreyevich_RSR
+recruit_character = SOV_Mikhail_Frunze_RSR
+recruit_character = SOV_Mikhail_Shumilov_RSR
+recruit_character = SOV_Nikandr_Chibisov_RSR
+recruit_character = SOV_Nikita_Khrushchev_RSR
+recruit_character = SOV_Nikolay_Berzarin_RSR
+recruit_character = SOV_Nikolai_Bulganin_RSR
+recruit_character = SOV_Nikolai_Fyodorovich_Vatutin_RSR
+recruit_character = SOV_Nikolay_Voronov_RSR
+recruit_character = SOV_Pavel_Lagutin_RSR
+recruit_character = SOV_Porfiry_Chanchibadze_RSR
+recruit_character = SOV_Rikhard_Tomberg_RSR
+recruit_character = SOV_Rodion_Malinovsky_RSR
+recruit_character = SOV_Semyon_Budyonny_RSR
+recruit_character = SOV_Semyon_Timoshenko_RSR
+recruit_character = SOV_Sergei_Kruglov_RSR
+recruit_character = SOV_Sergey_Shtemenko_RSR
+recruit_character = SOV_Sergey_Varentsov_RSR
+recruit_character = SOV_Valerian_Frolov_RSR
+recruit_character = SOV_Vasily_Chapayev_RSR
+recruit_character = SOV_Vasily_Chuikov_RSR
+recruit_character = SOV_Vasily_Kazakov_RSR
+recruit_character = SOV_Vasily_Kuznetsov_RSR
+recruit_character = SOV_Vasily_Sokolovsky_RSR
+recruit_character = SOV_Vladimir_Kolpakchi_RSR
+recruit_character = SOV_Yakov_Cherevichenko_RSR
+recruit_character = SOV_Viktor_Denaturov_Zolotov_RSR
+
+##Navy
+recruit_character = SOV_Sergey_Gorshkov_RSR
+recruit_character = SOV_Arseniy_Golovko_RSR
+recruit_character = SOV_Filipp_Oktyabrsky_RSR
+recruit_character = SOV_Gordey_Levchenko_RSR
+recruit_character = SOV_Sergey_Gorshkov_RSR
+recruit_character = SOV_Vladimir_Kasatonov_RSR
+
+##NKVD
+recruit_character = SOV_Felix_Dzerzhinsky_gen_RSR
+recruit_character = SOV_Genrikh_Yagoda_gen_RSR
+recruit_character = SOV_Gleb_Bokii_RSR
+recruit_character = SOV_Ivan_Serov_RSR
+recruit_character = SOV_Lavrentiy_Beria_gen_RSR
+recruit_character = SOV_Nikolai_Yezhov_RSR
+recruit_character = SOV_Pavel_Sudoplatov_RSR
 
 add_ideas = {
 }
