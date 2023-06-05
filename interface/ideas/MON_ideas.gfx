@@ -1,0 +1,23 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MON_shattered_but_united_RSR"
+		texturefile = "gfx/interface/ideas/MON/MON_shattered_but_united_RSR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MON_raging_independence_war_RSR"
+		texturefile = "gfx/interface/ideas/MON/MON_raging_independence_war_RSR.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_MON_nomad_traditions_RSR"
+		texturefile = "gfx/interface/ideas/MON/MON_nomad_traditions_RSR.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_MON_sluggish_economy_RSR"
+		texturefile = "gfx/interface/ideas/MON/MON_sluggish_economy_RSR.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_MON_the_khan_is_dead_RSR"
+		texturefile = "gfx/interface/ideas/MON/MON_the_khan_is_dead_RSR.dds"
+	}
+
+}

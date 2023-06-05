@@ -1,0 +1,103 @@
+ideas = {
+	country = {
+		
+		MON_shattered_but_united_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				surrender_limit = 0.3
+				stability_weekly = -0.02
+			}
+		}
+		
+		MON_raging_independence_war_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				defensive_war_stability_factor = 0.2
+				political_power_cost = 0.2
+				production_speed_buildings_factor = -0.3
+				local_resources_factor = -0.3
+			}
+		}
+		
+		MON_nomad_traditions_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription_factor = -0.2
+				mobilization_speed = -0.2
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+			}
+		}
+		
+		MON_sluggish_economy_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+
+		MON_the_khan_is_dead_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				drift_defence_factor = -0.25
+				stability_factor = -0.1
+			}
+		}
+	}
+}

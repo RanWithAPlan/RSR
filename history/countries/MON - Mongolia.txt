@@ -29,6 +29,11 @@ recruit_character = MON_yekiegurin
 add_ideas = {
 	all_adults_serve
 	war_economy
+	MON_shattered_but_united_RSR
+	MON_raging_independence_war_RSR
+	MON_nomad_traditions_RSR
+	MON_sluggish_economy_RSR
+	MON_the_khan_is_dead_RSR
 }
 
 
