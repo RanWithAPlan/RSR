@@ -3,7 +3,7 @@ spriteTypes = { #Organized by allegiance, first leader, then alphabetically
 #Paul Vorbeck
 	spriteType = {
 		name = "GFX_portrait_IAO_paul_von_lettow_vorbeck_large"
-		texturefile = "gfx/leaders/IAO/portrait_IAO_Paul_von_Lettow_Vorbeck_large.png"
+		texturefile = "gfx/leaders/IAO/portrait_IAO_Paul_von_Lettow_Vorbeck.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_IAO_paul_von_lettow_vorbeck_small"

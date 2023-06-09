@@ -29,6 +29,7 @@ set_war_support = 0.5
 set_convoys = 0
 set_research_slots = 2
 add_manpower = 15000
+set_cosmetic_tag = TAN_MON
 
 #Diplomacy, put puppets, wars, factions, and other such things here
 declare_war_on = {

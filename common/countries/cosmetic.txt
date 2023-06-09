@@ -1,3 +1,13 @@
+TAN_TAN = {
+	color = rgb { 171  48  48 }
+	color_ui = rgb { 171  48  48 }
+}
+
+TAN_MON = {
+	color = rgb { 171  48  48 }
+	color_ui = rgb { 171  48  48 }
+}
+
 COG_BEL = { 
 	color = rgb { 186 153 37 }
 	color_ui = rgb { 251 222 10 }
