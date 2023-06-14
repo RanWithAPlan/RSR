@@ -32,7 +32,9 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = ALB_ermi_mehmeti
+recruit_character = ALB_enver_hoxha_RSR
+#army
+recruit_character = ALB_ermir_mehmeti_RSR
 
 #Ideas
 add_ideas = {

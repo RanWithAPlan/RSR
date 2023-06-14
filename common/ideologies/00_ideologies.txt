@@ -453,7 +453,7 @@ ideologies = {
 	
 		types = { 
 			national_syndicalism_subtype = {}
-			emancipimism = {}
+			pan_albanianism = {}
 			national_bolshevikism = {}
 			futurism = {}
 		}

@@ -3,9 +3,9 @@
  #Country Names
  ALB_anarchism:0 "Anarchist Assembly of Albania"
  ALB_anarchism_DEF:0 "the Anarchist Assembly of Albania"
- ALB_council_communism:0 "Republic of Albania"
+ ALB_council_communism:0 "Socialist Republic of Albania"
  ALB_council_communism_DEF:0 "the Socialist Republic of Albania"
- ALB_radical_socialism:0 "Republic of Albania"
+ ALB_radical_socialism:0 "Socialist Republic of Albania"
  ALB_radical_socialism_DEF:0 "the Socialist Republic of Albania"
  ALB_authoritarian_socialism:0 "Socialist Republic of Albania"
  ALB_authoritarian_socialism_DEF:0 "the Socialist Republic of Albania"
@@ -52,10 +52,13 @@
  ALB_authoritarian_democracy_party_long:0 "Uniteti Kombëtar Ushtarak"
  ALB_autocracy_party:0 "Zogu Dictatorship"
  ALB_autocracy_party_long:0 "Zogu Dictatorship"
- ALB_ultra_reactionary_party:0 "Partia Fashiste Shqiptare"
+ ALB_ultra_reactionary_party:0 "PFS"
  ALB_ultra_reactionary_party_long:0 "Partia Fashiste Shqiptare"
  ALB_national_syndicalism_party:0 "KKSBK"
  ALB_national_syndicalism_party_long:0 "Kongresi Kombëtar Sindikalist Beretat e Kuqe"
  
  #Characters
- ALB_ermir_mehmeti:0 "Ermir Mehmeti"
+ #Leaders
+ ALB_enver_hoxha_RSR:0 "Enver Hoxha"
+ #Army
+ ALB_ermir_mehmeti_RSR:0 "Ermir Mehmeti"

@@ -101,7 +101,7 @@ leader_traits = {
 		ultra_reactionary_acceptance = 10
 	}
 	
-#ACD
+###ACD
 	#Sternberg
 	the_mad_baron = { 
 		ai_focus_aggressive_factor = 0.5
@@ -159,6 +159,18 @@ leader_traits = {
 		war_support_factor = 0.15
 		army_attack_factor = 0.05
 		army_defence_factor = 0.05
+	}
+	
+###ALB
+
+	#Hoxha
+	syndical_integralist = {
+		ultra_reactionary_acceptance = 20
+		radical_socialism_acceptance = 20
+		national_syndicalism_acceptance = 40
+		national_syndicalism_drift = 0.01
+		war_support_factor = 0.1
+		political_power_gain = 0.06
 	}
 
 ###AUS

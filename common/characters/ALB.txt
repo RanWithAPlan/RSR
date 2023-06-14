@@ -2,18 +2,53 @@ characters={
 
 ###################################################################################################Leaders
 
-	ALB_ermi_mehmeti={
-		name = ALB_ermir_mehmeti
+	ALB_enver_hoxha_RSR={
+		name = ALB_enver_hoxha_RSR
 		portraits={
 			civilian={
-				large="GFX_portrait_ALB_ermir_mehmeti"
+				large="GFX_portrait_ALB_Enver_Hoxha_RSR"
+				small="GFX_portrait_ALB_Enver_Hoxha_RSR_small"
+			}
+			army={
+				large="GFX_portrait_ALB_Enver_Hoxha_army_RSR"
+				small="GFX_portrait_ALB_Enver_Hoxha_army_RSR_small"
 			}
 		}
+		
 		country_leader={
-			ideology=emancipimism
-			traits={  }
+			ideology=pan_albanianism
+			traits={ syndical_integralist }
 			expire="1965.1.1.1"
 		}
-	
+		
+		field_marshal={
+			traits = { politically_connected media_personality harsh_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
 	}
+
+###################################################################################################Generals
+
+	ALB_ermir_mehmeti_RSR={
+		name = ALB_ermir_mehmeti_RSR
+		portraits={
+			civilian={
+				large="GFX_portrait_ALB_ermir_mehmeti_RSR"
+				small="GFX_portrait_ALB_ermir_mehmeti_RSR_small"
+			}
+		}
+		corps_commander={
+			traits = { urban_assault_specialist organizer career_officer brilliant_strategist }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+	
 }

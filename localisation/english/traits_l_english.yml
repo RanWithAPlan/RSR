@@ -38,6 +38,10 @@
  mercenary_leader_desc:0 ""
  holy_warrior:0 "Holy Warrior"
  holy_warrior_desc:0 ""
+ 
+ ###ALB
+ syndical_integralist:0 "Syndical Integralist"
+ syndical_integralist_desc:0 "To unite two heterodox stances is not an easy task, but necessary one for the sake of our Syndicate."
 
  ### AUS ###
  foremost_austrofascist:0 "Foremost Austrofascist"

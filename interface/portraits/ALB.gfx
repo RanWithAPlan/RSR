@@ -1,6 +1,18 @@
 spriteTypes = {
-#Ermir Mehmeti
+
+#Leaders
+spriteType = {
+		name = "GFX_portrait_ALB_Enver_Hoxha_RSR"
+		texturefile = "gfx/leaders/ALB/Portrait_ALB_Enver_Hoxha.png"
+	}
+#Army
 	spriteType = {
-		name = "GFX_portrait_ALB_ermir_mehmeti"
+		name = "GFX_portrait_ALB_Enver_Hoxha_army_RSR"
+		texturefile = "gfx/leaders/ALB/portrait_ALB_Enver_Hoxha_army.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ALB_ermir_mehmeti_RSR"
 		texturefile = "gfx/leaders/ALB/portrait_ALB_ermir_mehmeti.dds"
 	}
+	
+}
