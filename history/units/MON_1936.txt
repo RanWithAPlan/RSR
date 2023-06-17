@@ -104,17 +104,6 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 10554
-		division_template = "Khaany Morit Diviziin"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 10560
@@ -214,7 +203,7 @@ units = {
 }
 
 
-##### No notable air force (only about 6 aircraft in 1936) #####
+#No notable air force
 
 instant_effect = {
 	add_equipment_production = {
