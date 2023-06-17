@@ -1,0 +1,7 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/goals/"
+	}
+	
+}

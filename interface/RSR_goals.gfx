@@ -1,9 +1,4 @@
 spriteTypes = {
-	#Generic
-	SpriteType = {
-		name = "GFX_generic_i_am_become_death_the_destroyer_of_worlds"
-		texturefile = "gfx/interface/goals/generic/generic_i_am_become_death_the_destroyer_of_worlds.dds"
-	}
 	#Germany
 	SpriteType = {
 		name = "GFX_GER_council_elections"
