@@ -7,9 +7,6 @@ state=
 	state_category = rural
 	
 	history = {
-		victory_points = {
-			11999 1
-		}
 		owner = EGP
 		buildings = {
 			infrastructure = 2
@@ -18,12 +15,15 @@ state=
 		victory_points = {
 			12071 3
 		}
+		victory_points = {
+			11999 1
+		}
 
 		add_core_of = EGP
 
 	}
 	provinces={
-		1064 1206 7073 10097 10844 11999 12071 12771 1028
+		1028 1064 1206 7073 10097 10844 11999 12071 12771
 	}
 
 	local_supplies=0.0 
