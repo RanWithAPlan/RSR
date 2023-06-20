@@ -1,19 +1,14 @@
-add_namespace = mon
+add_namespace = mongolia
 
 country_event = {
-    id = mon.endofwar
-    title = mon.endofwar.t
-    desc = mon.endofwar.d
-	picture = GFX_MON_endofwar
+    id = mongolia.1
+    title = mongolia.1.t
+    desc = mongolia.1.d
+	picture = GFX_MON_endofwar_RSR
     
     trigger = {
-	original_tag = MON
-	owns_state = 329
-	owns_state = 819
-	owns_state = 612
-	owns_state = 611
-	owns_state = 621
-	owns_state = 746
+		has_government = autocracy
+		has_war = no
 	}
 	
 	mean_time_to_happen = { days = 1 }
@@ -21,7 +16,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = mon.endofwar.1
+		name = mongolia.1.a
 		ai_chance = { factor = 100 }
 		swap_ideas = {
 			remove_idea = all_adults_serve
@@ -32,8 +27,8 @@ country_event = {
 			add_idea = partial_economic_mobilisation
 		}
 		add_trait = {
-			character = MON_genepil_khan
-			ideology = autocracy_subtype
+			character = MON_genepil_khan_RSR
+			ideology = absolute_monarchy
 			trait = beloved_queen_of_mongolia
 		}
 		set_country_leader_name = {
@@ -42,5 +37,21 @@ country_event = {
 		}
 		custom_effect_tooltip = genepil_tt
 		add_stability = 0.2
+	}
+}
+
+country_event = {
+    id = mongolia.2
+    title = mongolia.2.t
+    desc = mongolia.2.d
+	picture = GFX_MON_militaryunited_RSR
+	
+    is_triggered_only = yes
+	
+	option = {
+		name = mongolia.2.a
+		ai_chance = { factor = 100 }
+		army_experience = 30
+		add_command_power = 30
 	}
 }

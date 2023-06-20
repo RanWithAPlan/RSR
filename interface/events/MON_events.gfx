@@ -4,4 +4,8 @@ spriteTypes = {
 		name = "GFX_MON_endofwar_RSR"
 		texturefile = "gfx/events/MON/MON_endofwar_RSR.dds"
 	}
+	spriteType = {
+		name = "GFX_MON_militaryunited_RSR"
+		texturefile = "gfx/events/MON/MON_militaryunited_RSR.dds"
+	}
 }

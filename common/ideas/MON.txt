@@ -1,6 +1,8 @@
 ideas = {
 	country = {
 		
+#############################################################################Starting ideas
+
 		MON_shattered_but_united_RSR = {
 			
 			removal_cost = -1
@@ -99,5 +101,169 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		
+#############################################################################Independence War
+
+		MON_mongolian_wrath_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				attrition = -0.15
+				supply_factor = 0.1
+			}
+		}
+		
+		MON_united_by_war_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				training_time_factor = -0.1
+				army_org = 5
+				army_org_regain = 0.1
+			}
+		}
+		
+		MON_incoming_charge_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				max_planning_factor = 0.2
+				planning_speed = -0.3
+			}
+		}
+		
+		MON_uriankhai_offensive_plan_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = {
+				tag = TAN
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		
+		MON_khentii_offensive_plan_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = {
+				tag = ACD
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		
+		MON_worthy_rivals_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = {
+				tag = MON
+				cavalry_attack_factor = 0.05
+				breakthrough_factor = 0.05
+			}
+			targeted_modifier = {
+				tag = ACD
+				cavalry_attack_factor = 0.05
+				breakthrough_factor = 0.05
+			}
+		}
+		
+		MON_the_great_push_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				max_planning_factor = 0.3
+				planning_speed = 0.5
+				army_org = 10
+			}
+		}
+		
+		MON_now_or_never_RSR = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = {
+				tag = ACD
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = MON
+				breakthrough_factor = 0.1
+				army_morale_factor = 0.3
+				initiative_factor = 0.3
+			}
+		}
+		
 	}
 }

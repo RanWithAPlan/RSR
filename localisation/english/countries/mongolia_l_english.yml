@@ -59,25 +59,22 @@
  MON_national_syndicalism_party_long:0 "Ündesnii Dakhin Töröltiin Baiguullaga"
 
  #Events
- mon.endofwar.t:0 "End of the Independence War!"
- mon.endofwar.d:0 "The years of never-ending conflict were devouring entrails of Mongolia with infernal fire. Until just now, when our brave soldiers and warriors seized the last fortress of the enemy, definitely highlighting the existence of free and autonomous Mongolian nation.\nThousands of soldiers, men and women, walk to the capital, celebrating the definitive victory with Queen Genepil going along with them, side by side. For her undeniable bravery and sacrifice, the nation wants no other leader to guide them towards the brigther and better future.\nToday is the day all Mongolians will remembers for ages. The time has come to rebuild our homeland and restore its greatness in the name of our ancestors and the Great Genghis Khan!"
- mon.endofwar.1:0 "All hail Mongolia! All hail Genepil Khan!"
+ mongolia.1.t:0 "End of the Independence War!"
+ mongolia.1.d:0 "The years of never-ending conflict were devouring entrails of Mongolia with infernal fire. Until just now, when our brave soldiers and warriors seized the last fortress of the enemy, definitely highlighting the existence of free and autonomous Mongolian nation.\nThousands of soldiers, men and women, walk to the capital, celebrating the definitive victory with Queen Genepil going along with them, side by side. For her undeniable bravery and sacrifice, the nation wants no other leader to guide them towards the brigther and better future.\nToday is the day all Mongolians will remembers for ages. The time has come to rebuild our homeland and restore its greatness in the name of our ancestors and the Great Genghis Khan!"
+ mongolia.1.a:0 "All hail Mongolia! All hail Genepil Khan!"
+ 
+ mongolia.2.t:0 "The Military Consolidates"
+ mongolia.2.d:0 "In the whirlwind of war, our army has struggled to maintain proper organisation as death of the Khan caused widespread chaos and disorder. Nevertheless, our commanders managed to regroup our troopers and successfully guide partisans and volunteers into regular army structures. \nAt this point, we are finally capable of launching meticulous military operations and begin to plan our counter-offensive."
+ mongolia.2.a:0 "At last, we are finally ready to perform properly."
+ 
  mon.startofwar.t:0 "Second Mongolian Independence War!"
  mon.startofwar.d:0 "The fight on Mongolian soil rages on."
  mon.startofwar.1:0 "Bothers and sisters, forward for our country!"
 
  #Characters
- MON_genepil_khan:0 "Genepil"
- MON_anandyn_amar:0 "Anandyn Amar"
- MON_demchugdongrub:0 "Demchugdongrub"
- MON_anarchist_council:0 "Anarchist Council"
- MON_khorloogiin_choibalsan:0 "Khorloogiin Choibalsan"
- MON_mingzhu_zhanshan:0 "Mingzhu Zhanshan"
- MON_songgotu_kangan:0 "Songgotu Kang'an"
- MON_fu_shangzhi:0 "Fu Shangzhi"
+ MON_genepil_khan_RSR:0 "Genepil"
  
  #Cosmetics
- 
  MON_FREE_autocracy:0 "Great Mongolian Khanate"
  MON_FREE_autocracy_DEF:0 "the Great Mongolian Khanate"
  
@@ -88,10 +85,10 @@
  MON_GATHERING_STORM_DESC:0 "The Mongolian State existed under the rule of Bogd Khan until 1919 when Anhui Clique decided to yet again deprive Mongolian nation of their freedom. In 1920, Khan was assassinated by a group of Tuvan-Mongol collaborators, same day as Anhui fell under the assault of the Mad Baron. Genepil, ex queen consort, led the nation in this time of trial. The “Second Mongol Independence War” continues until today. Even if Mongols achieve victory, torn apart after years of devastating conflict, Mongolia and its people will have to not only rebuild their nation, but also again find their place in the world."
 
  #Tooltips
- genepil_tt:0 "§1Genepil§! receives the title of §2Khan§!"
+ genepil_tt:0 "§YGenepil§! receives the title of §2Khan§!"
 
  #Descriptions
- MON_genepil_khan_civil_war_desc:0 ""§YTseyenpil§! - as this was her born name - is a widow after brutally murdered Mongolian leader §YBogd Khan§!. She appeared in Mongolian politics after the death of Khan's beloved wife §YTsendiin Dondogdulam§!. By the decision of Khan's counsellors, already engaged Tseyenpil was taken from her home and once again married as the wife of Khan. Proclaimed as reincarnation of Queen Dondogdulam, she was given the name "§1Genepil§!". When the Independece War raged on, resulting in assassination of Bogd Khan and battles on two fronts against Uriankhai Tuva and - soon-to-be defeated by alike hostile Asiatic Cavalry Division - Anhui Clique, Genepil stepped forward and led the Mongolian nation against all these odds. The ascended queen, called §tBattlemistress§! by many due to her undeniable bravery, commands her subjects side-by-side, never hiding behind. Despite many assassination attempts on her life, Genepil is still seen around ordinary people and soldiers, building up morale and appreciation towards herself. Rumors say that the spirit of §OChingis Khaan§! himself advices the Queen to help achieve the ultimate victory of Mongol Nation.""
+ MON_genepil_khan_RSR_civil_war_desc:0 ""§YTseyenpil§! - as this was her born name - is a widow after brutally murdered Mongolian leader §YBogd Khan§!. She appeared in Mongolian politics after the death of Khan's beloved wife §YTsendiin Dondogdulam§!. By the decision of Khan's counsellors, already engaged Tseyenpil was taken from her home and once again married as the wife of Khan. Proclaimed as reincarnation of Queen Dondogdulam, she was given the name "§1Genepil§!". When the Independece War raged on, resulting in assassination of Bogd Khan and battles on two fronts against Uriankhai Tuva and - soon-to-be defeated by alike hostile Asiatic Cavalry Division - Anhui Clique, Genepil stepped forward and led the Mongolian nation against all these odds. The ascended queen, called §tBattlemistress§! by many due to her undeniable bravery, commands her subjects side-by-side, never hiding behind. Despite many assassination attempts on her life, Genepil is still seen around ordinary people and soldiers, building up morale and appreciation towards herself. Rumors say that the spirit of §OChingis Khaan§! himself advices the Queen to help achieve the ultimate victory of Mongol Nation.""
  
  #Ideas
  MON_shattered_but_united_RSR:0 "Shattered but United"

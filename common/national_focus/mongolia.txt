@@ -16,4 +16,508 @@
 
 #####################################################################################START
 
+#####################################################################################CIVIL WAR
+
+focus = {
+		id = MON_the_nation_awakens
+		icon = GFX_goal_generic_demand_territory
+		x = 8
+		y = 0
+		cost = 3
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		available_if_capitulated = no 
+		cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+			army_experience = 10
+			add_command_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+focus = {
+		id = MON_our_final_roar
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_the_nation_awakens }
+		relative_position_id = MON_the_nation_awakens
+		x = -2
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_timed_idea = {
+			idea = MON_mongolian_wrath_RSR
+			days = 180
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_rushing_the_stockpiles
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_the_nation_awakens }
+		relative_position_id = MON_the_nation_awakens
+		x = 2
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+					amount = 1000
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_army_consolidation
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_rushing_the_stockpiles } prerequisite = { focus = MON_our_final_roar }
+		relative_position_id = MON_our_final_roar
+		x = 2
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = {MON_united_by_war_RSR}
+			country_event = {
+					id = mongolia.2
+					hours = 1
+				}
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_counter_offensive_preparations
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_army_consolidation }
+		relative_position_id = MON_army_consolidation
+		x = 0
+		y = 1
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = {MON_incoming_charge_RSR}
+			country_event = {
+					id = mongolia.3
+					hours = 1
+				}
+			random_owned_controlled_state = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#####################################################################################CIVIL WAR/TUVA
+	
+focus = {
+		id = MON_the_tuvans_and_the_traitors
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_counter_offensive_preparations }
+		relative_position_id = MON_counter_offensive_preparations
+		x = -3
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = {MON_uriankhai_offensive_plan_RSR}
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_hard_terrain_combat
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_the_tuvans_and_the_traitors }
+		relative_position_id = MON_the_tuvans_and_the_traitors
+		x = 0
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_the_plan_to_break_uriankhai
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_hard_terrain_combat }
+		relative_position_id = MON_hard_terrain_combat
+		x = 0
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_the_plan_to_break_uriankhai
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_hard_terrain_combat }
+		relative_position_id = MON_hard_terrain_combat
+		x = 0
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_reclaiming_the_south_west_lands
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_the_plan_to_break_uriankhai }
+		relative_position_id = MON_the_plan_to_break_uriankhai
+		x = -1
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_restoring_the_order
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_reclaiming_the_south_west_lands }
+		relative_position_id = MON_reclaiming_the_south_west_lands
+		x = 0
+		y = 2
+		cost = 6
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 200
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 30
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_striking_at_the_heart
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_reclaiming_the_south_west_lands }
+		relative_position_id = MON_reclaiming_the_south_west_lands
+		x = 2
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_western_enemy_down
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_striking_at_the_heart }
+		relative_position_id = MON_striking_at_the_heart
+		x = 0
+		y = 2
+		cost = 6
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 300
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 70
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_western_enemy_down
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_striking_at_the_heart }
+		relative_position_id = MON_striking_at_the_heart
+		x = 0
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 300
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 70
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#####################################################################################CIVIL WAR/ACD
+
+focus = {
+		id = MON_no_russians_on_mongolian_soil
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_counter_offensive_preparations }
+		relative_position_id = MON_counter_offensive_preparations
+		x = 3
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = { MON_khentii_offensive_plan_RSR }
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_masters_of_the_cavalry
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_no_russians_on_mongolian_soil }
+		relative_position_id = MON_no_russians_on_mongolian_soil
+		x = 0
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = { MON_worthy_rivals_RSR }
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_diversion_and_artifice
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_masters_of_the_cavalry }
+		relative_position_id = MON_masters_of_the_cavalry
+		x = -1
+		y = 3
+		cost = 4
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_the_huns_and_the_cossacks
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_masters_of_the_cavalry }
+		relative_position_id = MON_masters_of_the_cavalry
+		x = 2
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = { MON_the_great_push_RSR }
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_the_great_assault
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_the_huns_and_the_cossacks }
+		relative_position_id = MON_the_huns_and_the_cossacks
+		x = 0
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = { MON_now_or_never_RSR }
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+focus = {
+		id = MON_the_stallion_beats_the_eagle
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MON_the_great_assault }
+		relative_position_id = MON_the_great_assault
+		x = 0
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no cancel_if_invalid = yes
+
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 }

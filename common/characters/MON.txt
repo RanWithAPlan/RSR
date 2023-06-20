@@ -1,8 +1,8 @@
 characters={
 
 ### Leaders ###
-	MON_genepil_khan={
-		name = MON_genepil_khan
+	MON_genepil_khan_RSR={
+		name = MON_genepil_khan_RSR
 		gender = female 
 		portraits={
 			civilian={
@@ -12,7 +12,7 @@ characters={
 		country_leader={
 			ideology=absolute_monarchy
 			traits={ battlemistress }
-			desc = MON_genepil_khan_civil_war_desc
+			desc = MON_genepil_khan_RSR_civil_war_desc
 			expire="1965.1.1.1"
 		}
 	}
@@ -67,7 +67,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritatian_socialism
+			ideology=authoritarian_socialism
 			traits={}
 			expire="1965.1.1.1"
 		}

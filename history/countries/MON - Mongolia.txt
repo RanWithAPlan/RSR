@@ -14,15 +14,8 @@ set_technology = {
 
 #Characters
 #leaders
-recruit_character = MON_genepil_khan
-recruit_character = MON_anandyn_amar
-recruit_character = MON_anarchist_council
-recruit_character = MON_khorloogiin_choibalsan
-recruit_character = MON_mingzhu_zhanshan
-recruit_character = MON_songgotu_kangan
-recruit_character = MON_fu_shangzhi
+recruit_character = MON_genepil_khan_RSR
 #advisors
-recruit_character = MON_yekiegurin
 #generals
 
 #Ideas
