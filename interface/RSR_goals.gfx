@@ -176,6 +176,27 @@ spriteTypes = {
 		name = "GFX_GER_the_uspd_direction"
 		texturefile = "gfx/interface/goals/GER_the_uspd_direction.png"
 	}
+	SpriteType = { # Temporary
+		name = "GFX_GER_war_planning" # Temporary
+		texturefile = "gfx/interface/goals/GER_war_planning.png" # Temporary
+	}
+	SpriteType = {
+		name = "GFX_GER_liberals_to_the_west"
+		texturefile = "gfx/interface/goals/GER_liberals_to_the_west.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_reactionairies_to_the_east"
+		texturefile = "gfx/interface/goals/GER_reactionairies_to_the_east.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_fortify_the_rhine"
+		texturefile = "gfx/interface/goals/GER_fortify_the_rhine.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_fortify_the_alps"
+		texturefile = "gfx/interface/goals/GER_fortify_the_alps.png"
+	}
+	GER_fortify_the_rhine
 	SpriteType = {
 		name = "GFX_"
 		texturefile = "gfx/interface/goals/.png"
