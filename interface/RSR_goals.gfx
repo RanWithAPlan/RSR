@@ -196,7 +196,6 @@ spriteTypes = {
 		name = "GFX_GER_fortify_the_alps"
 		texturefile = "gfx/interface/goals/GER_fortify_the_alps.png"
 	}
-	GER_fortify_the_rhine
 	SpriteType = {
 		name = "GFX_"
 		texturefile = "gfx/interface/goals/.png"
