@@ -39,13 +39,5 @@ ideas = {
 				political_power_gain = -0.05
 			}
 		}
-		red_spear_society = {
-			modifier = {
-				political_power_gain = -0.10
-				stability_factor = -0.10
-				conscription_factor = -0.05
-				consumer_goods_factor = 0.05
-			}
-		}
 	}
 }

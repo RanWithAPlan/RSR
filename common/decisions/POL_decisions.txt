@@ -21,7 +21,7 @@ POL_weaken_party_decisions = {
 			custom_effect_tooltip = POL_discredit_non_loyal_party_officals_tt
 			hidden_effect = { 
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.02
 				}
 			}
@@ -86,7 +86,7 @@ POL_weaken_party_decisions = {
 			custom_effect_tooltip = POL_frame_a_scandal_tt
 			hidden_effect = { 
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.02
 				}
 			}
@@ -188,7 +188,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.01
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.03
 					}
 				}
@@ -223,7 +223,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.02
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.02
 					}
 				}
@@ -258,7 +258,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.03
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.02
 					}
 				}
@@ -293,7 +293,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.01
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.04
 					}
 				}
@@ -328,7 +328,7 @@ POL_jewish_conversion = {
 			hidden_effect = { 
 			add_stability = 0.01
 			add_popularity = {
-			ideology = ultra_reactionary
+			ideology = national_populism
 			popularity = 0.02
 					}
 				}
@@ -464,7 +464,7 @@ POL_purge_preperation_caregory = {
 			set_country_flag = POL_organizer_names_gathered
 			hidden_effect = { 
 			add_popularity = {
-				ideology = radical_socialism
+				ideology = independent_socialism
 				popularity = -0.05
 					}
 				}
@@ -538,7 +538,7 @@ POL_purge_preperation_caregory = {
 				popularity = 0.06
 					}
 			add_popularity = {
-				ideology = ultra_reactionary
+				ideology = national_populism
 				popularity = 0.06
 					}
 				}
@@ -619,7 +619,7 @@ POL_purge_preperation_caregory = {
 				popularity = 0.05
 					}
 			add_popularity = {
-				ideology = ultra_reactionary
+				ideology = national_populism
 				popularity = 0.05
 					}
 				}

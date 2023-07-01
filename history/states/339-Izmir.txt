@@ -2,7 +2,7 @@
 state={
 	id=339
 	name="STATE_339"
-	manpower = 1401889
+	manpower = 1411889
 	resources={
 		chromium=50 # was: 86
 	}
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		928 3927 4112 6992 7130 9921 9929 10038 11848 11898 
+		928 4112 6992 7130 9929 10038 11848
 	}
 
 	local_supplies=8.0 

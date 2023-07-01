@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology= ultra_reactionary_subtype
+			ideology= national_populism_subtype
 			traits = {
 				the_mad_baron
 				spirit_of_kangchenjunga

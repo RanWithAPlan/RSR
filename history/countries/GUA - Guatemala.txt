@@ -35,22 +35,22 @@ set_country_flag = monroe_doctrine
 
 #Politics
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = libertarian_socialism
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 100
+	libertarian_socialism = 100
 	council_communism = 0
-	authoritarian_socialism = 0
-	radical_socialism = 0
+	vanguard_socialism = 0
+	independent_socialism = 0
 	social_democracy = 0
-	progressive_liberalism = 0
-	freemarket_liberalism = 0
+	social_liberalism = 0
+	market_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
   	national_syndicalism = 0
-  	ultra_reactionary = 0
+  	national_populism = 0
 }

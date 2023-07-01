@@ -4,9 +4,6 @@ state = {
 	name = "STATE_405" #Tashkent
 
 	history = {
-	
-		owner = TAJ
-		add_core_of = TAJ
 		
 		victory_points = {
 			1459 3 
@@ -20,7 +17,8 @@ state = {
 			air_base = 1
 		}
 		
-		add_core_of = SOV
+		owner = UZB
+		add_claim_by = SOV
 		add_core_of = UZB
 		
 		1939.1.1 = {

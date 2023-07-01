@@ -1,0 +1,127 @@
+add_namespace = soviet_collapse
+country_event = {
+    id = soviet_collapse.1
+    title = soviet_collapse.1.t
+    desc = soviet_collapse.1.d
+    fire_only_once = yes
+    trigger = {
+        has_global_flag = RFB_fail
+        tag = SOV
+    }
+    mean_time_to_happen = {
+        days = 10
+    }
+    picture = GFX_report_event_lenin_wheelchair
+    option = {
+        name = soviet_collapse.1.a
+        add_stability = -0.05
+        add_political_power = -50
+        hidden_effect = {
+            SOV = { country_event = { id = soviet_collapse.2 days = 10 }} #default is 50
+        }
+    }
+}
+country_event = {
+    id = soviet_collapse.2
+    title = soviet_collapse.2.t
+    desc = soviet_collapse.2.d
+    picture = GFX_report_event_lenin_wheelchair #replace with coffin
+    is_triggered_only = yes
+    option = {
+        name = soviet_collapse.2.a
+        retire_character = SOV_vladimir_lenin
+        promote_character = SOV_alexei_rykov
+        swap_ideas = {
+            remove_idea = SOV_factionalism_minor
+            add_idea = SOV_factionalism_major
+        }
+        add_political_power = -100
+        hidden_effect = {
+            SOV_collapse_effect = yes
+        }
+        #add a news event
+    }
+}
+country_event = {
+    id = soviet_collapse.3
+    title = soviet_collapse.3.t
+    desc = soviet_collapse.3.d
+    is_triggered_only = yes
+    option = {
+        name = soviet_collapse.3.a
+        remove_ideas = {
+            SOV_autonomous_republics
+        }
+        diplomatic_relation = {
+            country = UKR
+            relation = puppet
+            active = no
+        }
+        diplomatic_relation = {
+            country = BLR
+            relation = puppet
+            active = no
+        }
+        diplomatic_relation = {
+            country = TCA
+            relation = puppet
+            active = no
+        }
+        diplomatic_relation = {
+            country = TMS
+            relation = puppet
+            active = no
+        }
+        diplomatic_relation = {
+            country = UZB
+            relation = puppet
+            active = no
+        }
+    }
+}
+country_event = {
+    id = soviet_collapse.4
+    title = soviet_collapse.4.t
+    desc = soviet_collapse.4.d
+    is_triggered_only = yes
+    option = {
+        name = soviet_collapse.4.a
+        742 = {
+            transfer_state_to = BAS
+        }
+        405 = {
+            transfer_state_to = BAS
+        }
+        830 = {
+            transfer_state_to = BAS
+        }
+        BAS = {
+            declare_war_on = {
+                target = UZB
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = SOV
+                type = puppet_wargoal_focus
+            }
+        }
+    }
+}
+country_event = {
+    id = soviet_collapse.5
+    title = soviet_collapse.5.t
+    desc = soviet_collapse.5.d
+    is_triggered_only = yes
+    option = {
+        name = soviet_collapse.5.a
+        562 = {
+            transfer_state_to = TUN
+        }
+        TUN = {
+            declare_war_on = {
+                target = SOV
+                type = puppet_wargoal_focus
+            }
+        }
+    }
+}

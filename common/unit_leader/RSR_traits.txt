@@ -51,28 +51,7 @@
 #	enable_ability = ability_key
 #}
 leader_traits = {
-    faud_officer = {
-        type = all
-        trait_type = personality_trait
-		new_commander_weight = {
-			factor = 0
-		}
-    }
-    kpd_officer = {
-        type = all
-        trait_type = personality_trait
-		new_commander_weight = {
-			factor = 0
-		}
-    }
-    uspd_officer = {
-        type = all
-        trait_type = personality_trait
-		new_commander_weight = {
-			factor = 0
-		}
-    }
-    grsn_officer = {
+    loyalist_officer = {
         type = all
         trait_type = personality_trait
 		new_commander_weight = {
@@ -86,7 +65,14 @@ leader_traits = {
 			factor = 0
 		}
     }
-    nva_officer = {
+    blaue_liste_officer = {
+        type = all
+        trait_type = personality_trait
+		new_commander_weight = {
+			factor = 0
+		}
+    }
+    faud_officer = {
         type = all
         trait_type = personality_trait
 		new_commander_weight = {

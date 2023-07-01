@@ -705,18 +705,18 @@ on_actions = {
 	#ROOT is winner #FROM gets annexed - This will also fire on_annex
 	on_civil_war_end = {
 		effect = {
-			# Portuguese Anarchism
+			# Portuguese libertarian_socialism
 			if = {
 				limit = {
 					original_tag = POR
 					has_government = neutrality
-					has_country_flag = SPR_portuguese_anarchism_flag
+					has_country_flag = SPR_portuguese_libertarian_socialism_flag
 					FROM = {
 						original_tag = POR
 					}
 					SPC = {
 						exists = yes
-						has_completed_focus = SPR_portuguese_anarchism
+						has_completed_focus = SPR_portuguese_libertarian_socialism
 					}
 				}
 				SPC = { country_event = lar_spain.50 }
@@ -724,13 +724,13 @@ on_actions = {
 			if = {
 				limit = {
 					original_tag = POR
-					has_global_flag = SPR_portuguese_anarchism_flag
+					has_global_flag = SPR_portuguese_libertarian_socialism_flag
 					FROM = {
 						original_tag = POR
-						has_country_flag = SPR_portuguese_anarchism_flag
+						has_country_flag = SPR_portuguese_libertarian_socialism_flag
 					}
 				}
-				clr_global_flag = SPR_portuguese_anarchism_flag
+				clr_global_flag = SPR_portuguese_libertarian_socialism_flag
 				set_rule = { can_join_factions = yes }
 			}
 			# give French focus tree to French communists if they win one of their civil wars (we have several now)

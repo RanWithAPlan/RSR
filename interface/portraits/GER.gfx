@@ -1,2 +1,6 @@
 spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_GER_Ernst_Thallmann"
+        texturefile = "gfx/leaders/GER/RFB/portrait_GER_Ernst_Thallmann.png"
+    }
 }

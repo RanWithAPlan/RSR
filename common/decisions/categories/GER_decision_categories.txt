@@ -9,14 +9,19 @@ GER_executive_council_category = {
 	visible_when_empty = yes
 	visible = {
         has_country_flag = GER_executive_council_on
+		always = no
     }
 	allowed = {
 		original_tag = GER
 	}
 	priority = 50
 }
-GER_military_factionalism = {
+GER_roter_frontkampferbund_plot = {
 	icon = army_reform
+	allowed = {
+		original_tag = GER
+	}
+	priority = 80
 }
 GER_unity = {
 	icon = usa_congress

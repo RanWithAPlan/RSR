@@ -1,0 +1,16 @@
+characters = {
+	TUR_george_milne = {
+		name = TUR_george_milne_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TUR_george_milne_RSR"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { }
+			ideology = autocracy_subtype
+		}
+	}
+}

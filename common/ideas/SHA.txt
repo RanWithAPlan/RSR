@@ -1,0 +1,19 @@
+ideas = {
+	country = { 
+		SHA_white_russian_soldiers = {
+			modifier = {
+				army_org_factor = 0.05
+				experience_gain_army_unit_factor = 0.10
+				experience_loss_factor  = -0.20
+			}
+		}
+		SHA_red_spear_society = {
+			modifier = {
+				political_power_gain = -0.10
+				stability_factor = -0.10
+				conscription_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

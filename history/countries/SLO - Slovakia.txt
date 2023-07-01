@@ -27,15 +27,15 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = ultra_reactionary
+	ruling_party = national_populism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	radical_socialism = 10
-	ultra_reactionary = 40
+	independent_socialism = 10
+	national_populism = 40
 	autocracy = 30
 	council_communism = 10
-	progressive_liberalism = 10
+	social_liberalism = 10
 }

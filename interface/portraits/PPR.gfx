@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_PPR_ehsanollah_dustdar_RSR"
+        texturefile = "gfx/leaders/PPR/portrait_PPR_ehsanollah_dustdar_RSR.png"
+    }
+}

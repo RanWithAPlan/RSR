@@ -15,6 +15,12 @@ state={
 		victory_points = {
 			11544 10 
 		}
+		victory_points = {
+			9557 3 
+		}
+		victory_points = {
+			3474 1
+		}
 		add_core_of = GER
 
 		1939.1.1 = {

@@ -13,11 +13,10 @@ state={
 			arms_factory = 1
 			6626 = {
 				naval_base = 5
-
 			}
-			victory_points = {
-				6626 5
-			}
+		}
+		victory_points = {
+			6626 5
 		}
 	}
 	manpower=248307

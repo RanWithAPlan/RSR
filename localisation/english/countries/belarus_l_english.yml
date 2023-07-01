@@ -1,49 +1,46 @@
 ﻿ l_english:
- BLR:0 "Belarus"
- BLR_DEF:0 "Belarus"
- BLR_ADJ:0 "Belarussian"
+ BLR:0 "Byelorussia"
+ BLR_DEF:0 "Byelorussia"
+ BLR_ADJ:0 "Byelorussian"
  BLR_subject:0 "$OVERLORDADJ$ $BLR"
  BLR_subject_DEF:0 "$OVERLORDADJ$ $BLR$"
+ BLR_SOV_subject:0 "Byelorussian Soviet Socialist Republic"
+ BLR_SOV_subject_DEF:0 "the Byelorussian Soviet Socialist Republic"
  
- BLR_national_extremism:2 "Byelorussian National Union"
- BLR_national_extremism_DEF:2 "Byelorussian National Union"
- BLR_social_democracy:0 "Belarusian People's Republic"
- BLR_progressive_liberalism:0 "Belarusian People's Republic"
- BLR_freemarket_liberalism:0 "Belarusian People's Republic"
- BLR_conservative_democracy:0 "Belarusian People's Republic"
- BLR_social_democracy_DEF:0 "Belarusian People's Republic"
- BLR_progressive_liberalism_DEF:0 "Belarusian People's Republic"
- BLR_freemarket_liberalisn_DEF:0 " Belarusian People's Republic"
- BLR_conservative_democracy_DEF:0 " Belarusian People's Republic"
- BLR_autocracy:0 "White Ruthenia"
- BLR_despotism:0 "White Ruthenia"
- BLR_autocracy_DEF:0 "White Ruthenia"
- BLR_despotism_DEF:0 "White Ruthenia"
- BLR_anarchism:0 "Peasant-Workers Union of Belarus"
- BLR_council_communism:0 "Socialist Soviet Republic of Byelorussia"
- BLR_radical_socialism:0 "Socialist Soviet Republic of Byelorussia"
- BLR_anarchism_DEF:0 "Peasant-Workers Union of Belarus"
- BLR_council_communism_DEF:0 "Socialist Soviet Republic of Byelorussia
- BLR_radical_socialism_DEF:0 "Socialist Soviet Republic of Byelorussia
- BLR_national_extremism_ADJ:2 "Belarussian"
- BLR_social_democracy_ADJ:0 "Belarussian"
- BLR_progressive_liberalism_ADJ:0 "Belarussian"
- BLR_freemarket_liberalism_ADJ:0 "Belarussian"
- BLR_conservative_democracy_ADJ:0 "Belarussian"
- BLR_autocracy_ADJ:0 "Belarussian"
- BLR_despotism_ADJ:0 "Belarussian"
- BLR_anarchism_ADJ:0 "Belarussian"
- BLR_council_communism_ADJ:0 "Belarussian"
- BLR_radical_socialism_ADJ:0 "Belarussian"
+ BLR_libertarian_socialism:0 "Free Territory of Byelorussia"
+ BLR_council_communism:0 "Byelorussian Socialist Federal Republic"
+ BLR_vanguard_socialism:0 "Byelorussian Soviet Socialist Republic"
+ BLR_independent_socialism:0 "Byelorussian Soviet Socialist Republic"
+ BLR_libertarian_socialism_DEF:0 "the Free Territory of Byelorussia"
+ BLR_council_communism_DEF:0 "the Byelorussian Socialist Federal Republic"
+ BLR_vanguard_socialism_DEF:0 "the Byelorussian Soviet Socialist Republic"
+ BLR_independent_socialism_DEF:0 "the Byelorussian Soviet Socialist Republic"
+ BLR_social_democracy:0 "Republic of Byelorussia"
+ BLR_social_liberalism:0 "Republic of Byelorussia"
+ BLR_market_liberalism:0 "Republic of Byelorussia"
+ BLR_conservative_democracy:0 "Republic of Byelorussia"
+ BLR_authoritarian_democracy:0 "Republic of Byelorussia"
+ BLR_social_democracy_DEF:0 "the Republic of Byelorussia"
+ BLR_social_liberalism_DEF:0 "the Republic of Byelorussia"
+ BLR_market_liberalism_DEF:0 "the Republic of Byelorussia"
+ BLR_authoritarian_democracy_DEF:0 "the Republic of Byelorussia"
+ BLR_conservative_democracy_DEF:0 "the Republic of Byelorussia""
+ BLR_autocracy:0 "National State of Belarus"
+ BLR_autocracy_DEF:0 "the National State of Belarus"
+ BLR_national_populism:0 "National State of Belarus"
+ BLR_national_populism_DEF:0 "the National State of Belarus"
+ BLR_national_syndicalism:0 "National State of Belarus"
+ BLR_national_syndicalism_DEF:0 "the National State of Belarus"
 
- BLR_anarchism_party:0 "Belarusian Peasants' and Workers' Union" #Branislaw Tarashkyevich
+ BLR_libertarian_socialism_party:0 "Belarusian Peasants' and Workers' Union" #Branislaw Tarashkyevich
  BLR_council_communism_party:0 "Belarusian Socialist Assembly" #Anton Luckievich
- BLR_radical_socialism_party:0 "Belarusian Party of Socialist Revolutionaries" #Paluta Badunova
+ BLR_independent_socialism_party:0 "Belarusian Party of Socialist Revolutionaries" #Paluta Badunova
+ BLR_vanguard_socialism_party:0 "Communist Party of Byelorussia"
  BLR_social_democracy_party:0 "Belarussian People's Party" #Jazep Losik
- BLR_progressive_liberalism_party:0 "Belarussian Free Alliance" #Stanisław Bułak-Bałachowicz
- BLR_freemarket_liberalism_party:0 "Belarus Civic Party" #Paval Zhauryd
+ BLR_social_liberalism_party:0 "Belarussian Free Alliance" #Stanisław Bułak-Bałachowicz
+ BLR_market_liberalism_party:0 "Belarus Civic Party" #Paval Zhauryd
  BLR_conservative_democracy_party:0 "Belarusian Christian Democracy" #Vincent Hadleŭski
  BLR_despotism_party:0 "Belarusian Independence Party" #Frantsishak Alyakhnovich
- BLR_autocracy_party:0 "Belarusian Independence Party" #Frantsishak Alyakhnovich
+ BLR_authoritarian_democracy_party:0 "Belarusian Independence Party" #Frantsishak Alyakhnovich
  BLR_national_extremism_party:0 "Belarussian National Socialist Party" #Radasłaŭ Astroŭski
   

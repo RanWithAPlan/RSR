@@ -25,6 +25,11 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 
+ASR = {
+	color = rgb { 255 80 80 }
+	color_ui = rgb { 255 152 152 }
+}
+
 AST = {
 	color = rgb { 57 143 97 }
 	color_ui = rgb { 74 186 126 }
@@ -33,6 +38,11 @@ AST = {
 AUS = {
 	color = rgb { 156 159 173 }
 	color_ui = rgb { 255 255 255 }
+}
+
+BAS = {
+	color = rgb { 243 144 5 }
+	color_ui = rgb { 243 144 5 }
 }
 
 BEL = { 
@@ -51,8 +61,8 @@ BHU = {
 }
 
 BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
 }
 
 BOL = {
@@ -185,9 +195,19 @@ GUI = {
 	color_ui = rgb { 127 63 118 }
 }
 
-GXC = {
-	color = rgb { 72 49 112 }
-	color_ui = rgb { 72 49 112 }
+SIC = {
+	color = rgb { 127 100 118 }
+	color_ui = rgb { 127 63 118 }
+}
+
+TCA = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
+}
+
+KMT = {
+	color = rgb { 20 20 170 }
+	color_ui = rgb { 10 10 200 }
 }
 
 HAI = {
@@ -350,6 +370,11 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 
+PPR = {
+	color = rgb { 35 135 16}
+	color_ui = rgb { 67 168 20}
+}
+
 PRU = {
 	color = rgb { 196 189 204 }
 	color_ui = rgb { 255 246 255 }
@@ -424,7 +449,10 @@ SDE = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
-
+STA = {
+	color = rgb { 42 44 113 }
+	color_ui = rgb { 62 64 151 }
+}
 SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
@@ -460,9 +488,19 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 
+TMS = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
+}
+
+UZB = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
+}
+
 UKR = {
-	color = rgb { 83  74  74 }
-	color_ui = rgb { 63  54  54 }	
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }	
 }
 
 URG = {

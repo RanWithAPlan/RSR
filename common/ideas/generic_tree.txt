@@ -229,7 +229,7 @@ ideas = {
 			}
 			
 			modifier = {
-			anarchism_drift = 0.03
+			libertarian_socialism_drift = 0.03
 			}
 		}
 		
@@ -263,7 +263,7 @@ ideas = {
 			}
 			
 			modifier = {
-			authoritarian_socialism_drift = 0.03
+			vanguard_socialism_drift = 0.03
 			}
 		}
 	
@@ -280,7 +280,7 @@ ideas = {
 			}
 			
 			modifier = {
-			radical_socialism_drift = 0.03
+			independent_socialism_drift = 0.03
 			}
 		}
 	
@@ -314,7 +314,7 @@ ideas = {
 			}
 			
 			modifier = {
-			progressive_liberalism_drift = 0.03
+			social_liberalism_drift = 0.03
 			}
 		}
 	
@@ -331,7 +331,7 @@ ideas = {
 			}
 			
 			modifier = {
-			freemarket_liberalism_drift = 0.03
+			market_liberalism_drift = 0.03
 			}
 		}
 	
@@ -399,7 +399,7 @@ ideas = {
 			}
 			
 			modifier = {
-			ultra_reactionary_drift = 0.03
+			national_populism_drift = 0.03
 			}
 		}
 	
@@ -420,7 +420,7 @@ ideas = {
 			}
 		}
 	
-	anarchism_victorious = {
+	libertarian_socialism_victorious = {
 		
 		removal_cost = -1
 			
@@ -480,7 +480,7 @@ ideas = {
 			}
 		}
 	
-	radical_socialism_victorious = {
+	independent_socialism_victorious = {
 		
 		removal_cost = -1
 			
@@ -518,7 +518,7 @@ ideas = {
 			}
 		}
 	
-	progressive_liberalism_victorious = {
+	social_liberalism_victorious = {
 		
 		removal_cost = -1
 			
@@ -536,7 +536,7 @@ ideas = {
 			}
 		}
 	
-	freemarket_liberalism_victorious = {
+	market_liberalism_victorious = {
 		
 		removal_cost = -1
 			

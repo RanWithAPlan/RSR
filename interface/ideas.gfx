@@ -62,7 +62,10 @@ spriteTypes = {
 		name = "GFX_idea_GER_peoples_production"
 		texturefile = "gfx/interface/ideas/GER/GER_peoples_production.png"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_GER_rfb_plot"
+		texturefile = "gfx/interface/ideas/GER/GER_rfb_plot.png"
+	}
 	#Poland
 	spriteType = {
 		name = "GFX_idea_idea_POL_divided_government"

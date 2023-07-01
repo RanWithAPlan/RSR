@@ -6,10 +6,6 @@ state={
 		victory_points = {
 			11411 1
 		}
-		#victory_points = {
-		#	6483 1
-		#}
-		owner = POL
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -17,13 +13,15 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = UKR
+		add_claim_by = SOV
+		owner = UKR
 
 	}
 
 	provinces={
-		3743 6431 6460 6483 9425 11411 11550 
+		3743 6460 9425 11411 11550 13280
 	}
-	manpower=2180300
+	manpower=1480300
 	buildings_max_level_factor=1.000
 	state_category=town
 

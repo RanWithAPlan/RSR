@@ -1,0 +1,15 @@
+characters={
+	KUR_Nuri_Dersimi = {
+		name = KUR_Nuri_Dersimi_name
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KUR_Nuri_Dersimi_RSR
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = conservative_democracy_subtype
+		}
+	}
+}

@@ -2,26 +2,22 @@ state={
 	id=799
 	name="STATE_799"
 	provinces={
-		12029 
+		806 12029 
 	}
-	manpower = 234379
+	manpower = 334379
 	
-	state_category = enclave
+	state_category = rural
 
 	history= {
 		owner = FRA
 		add_core_of = TUR
 		add_core_of = SYR
+		add_core_of = ARM
 		victory_points = {
 			12029 1
 		}
 		buildings = {
 			infrastructure = 1
-		}
-
-		1938.9.30 = {
-			owner = TUR
-			controller = TUR
 		}
 	}
 

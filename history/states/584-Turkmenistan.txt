@@ -3,9 +3,6 @@ state = {
 	name = "STATE_584"
 
 	history = {
-	
-		owner = SOV
-		
 		victory_points = {
 			12333 2
 		}
@@ -15,8 +12,8 @@ state = {
 			industrial_complex = 1
 
 		}
-		
-		add_core_of = SOV
+		owner = TMS
+		add_claim_by = SOV
 		add_core_of = TMS
 
 	}

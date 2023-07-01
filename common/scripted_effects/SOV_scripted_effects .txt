@@ -1,0 +1,10 @@
+SOV_collapse_effect = {			
+	SOV = {
+		country_event = { id = soviet_collapse.3 days = 20 #the republics break away}
+		country_event = { id = soviet_collapse.4 days = 30 # basmachi }
+		country_event = { id = soviet_collapse.5 days = 40 # buryat and tungus }
+		country_event = { id = soviet_collapse.6 days = 55 # transcaucasia }
+		country_event = { id = soviet_collapse.7 days = 60 # ukraine }
+		country_event = { id = soviet_collapse.8 days = 70 # stalin takes power }
+	}
+}

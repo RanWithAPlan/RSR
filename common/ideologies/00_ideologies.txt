@@ -1,17 +1,18 @@
 ideologies = {
 
-	anarchism = {
+	libertarian_socialism = {
 		
 		types = {
+			libertarian_socialism_subtype = {}
+			syndicalism_subtype = {}
 			anarchism_subtype = {}
 			anarcho_syndicalism = {}
 			anarcho_communism = {}
-			social_anarchism = {}
 			anarcho_pacifism = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_LIBSOC_1"
 		}
 		
 		color = { 105 0 5 }
@@ -47,7 +48,7 @@ ideologies = {
 	
 		types = {
 			council_communism_subtype = {}
-			marxism_SOVemburgism = {}
+			marxism_luxemburgism = {}
 			orthodox_marxism = {}
 		}
 		
@@ -85,15 +86,15 @@ ideologies = {
 		ai_communist = yes
 	}
 
-	authoritarian_socialism = {
+	vanguard_socialism = {
 	
 		types = {
-			authoritarian_socialism_subtype = {}
+			vanguard_socialism_subtype = {}
 			leninism = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHSOC_1"
+			"FACTION_NAME_VANSOC_1"
 		}
 		
 		color = { 215 25 28 }
@@ -124,15 +125,15 @@ ideologies = {
 		ai_communist = yes
 	}
 
-	radical_socialism = {
+	independent_socialism = {
 	
 		types = {
-			radical_socialism_subtype = {}
+			independent_socialism_subtype = {}
 			marxism_engelism = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_RADSOC_1"
+			"FACTION_NAME_INDSOC_1"
 		}
 		
 		color = { 196 56 56 }
@@ -212,17 +213,17 @@ ideologies = {
 		ai_democratic = yes
 	}
 
-	progressive_liberalism = {
+	social_liberalism = {
 	
 		types = {
-			progressive_liberalism_subtype = {}
+			social_liberalism_subtype = {}
 			cultural_progressivism = {}
 			fiscal_economy = {}
 			techno_progressivism = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_PROGRESSIVE_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
 		}
 		
 		color = { 248 136 70 }
@@ -260,10 +261,10 @@ ideologies = {
 		ai_democratic = yes
 	}
 	
-	freemarket_liberalism = {
+	market_liberalism = {
 	
 		types = {
-			freemarket_liberalism_subtype = {}
+			market_liberalism_subtype = {}
 			modernism = {}
 			liberal_democracy = {}
 		}
@@ -322,7 +323,7 @@ ideologies = {
 			"FACTION_NAME_CONSERVATIVE_1"
 		}
 		
-		color = { 61 104 223 }
+		color = { 10 30 125 }
 		
 		war_impact_on_world_tension = 0.2
 		faction_impact_on_world_tension = 0.2
@@ -462,7 +463,7 @@ ideologies = {
 			"FACTION_NAME_NATIONAL_SYNDICALISM_1"
 		}
 		
-		color = { 130 76 26 }
+		color = { 30 30 30 }
 		
 		war_impact_on_world_tension = 1.5	
 		faction_impact_on_world_tension = 1.5
@@ -491,10 +492,10 @@ ideologies = {
 		ai_fascist = yes
 	}
 
-	ultra_reactionary = {
+	national_populism = {
 	
 		types = { 
-			ultra_reactionary_subtype = {}
+			national_populism_subtype = {}
 			populistic_nationalism = {}
 			general_fascism = {}
 			falangism = {}
@@ -510,10 +511,10 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_ULTRA_REACTIONARY_1"
+			"FACTION_NAME_national_populism_1"
 		}
 		
-		color = { 30 30 30 }
+		color = { 130 76 26 }
 		
 		war_impact_on_world_tension = 1.5	
 		faction_impact_on_world_tension = 1.5

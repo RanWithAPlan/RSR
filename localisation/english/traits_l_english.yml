@@ -84,11 +84,9 @@
  ambitious_union_leader:0 "Ambitious Union Leader"
  socialist_poet:0 "Socialist Poet"
  faud_officer:0 "FAUD Officer"
- faud_officer_desc:0 "This general supports the FAUD, and will remain loyal to them in the event of a conflict."
- kpd_officer:0 "KPD Officer"
- kpd_officer_desc:0 "This general supports the KPD, and will remain loyal to them in the event of a conflict."
- uspd_officer:0 "USPD Officer"
- uspd_officer_desc:0 "This general supports the USPD, and will remain loyal to them in the event of a conflict."
+ faud_officer_desc:0 "This general supports the FAUD."
+ loyalist_officer:0 "Loyalist Officer"
+ loyalist_officer_desc:0 "The loyalists are often commisars and younger generals who have no hidden loyalties and can be completely trusted by the establishment."
  rfb_officer:0 "RFB Officer"
  rfb_officer_desc:0 "This general supports the RFB, and will remain loyal to them in the event of a conflict."
  nva_officer:0 "NVA Officer"
@@ -179,6 +177,16 @@
 
 
 
+ rfb_officer_desc:0 "As the germans began developing their army from the ground up, the Soviets helped by training many german officers in their military academies, and these generals would form the backbone of the new german military. After the German-Soviet Split of May 1923, the German government could not afford to lose these soviet trained officers, man of whom were loyal to the Bolsheviks and the Third International. Paradoxically, the very people the German state relied on for security were its biggest security risk."
+ blaue_liste_officer:0 "Blaue Liste Officer"
+ blaue_liste_officer_desc:0 "Named after the Blue List of potential collaborators made after the revolution, these generals previously served the social democrat and imperial regimes, but were chosen to help build the new Volksarmee. This clique is kept as apoltical as possible, and excludes almost all nobles in order to neuter any attempt at restoring the reactionary regime of Wilhelm."
+ #Mongolia
+ beloved_queen_of_mongolia:0 "Beloved Queen of Mongolia"
+ battlemistress:0 "Battlemistress"
+ #china
+ incompetent_despot:0 "Incompetent Despot"
+ poor_health:0 "Poor Health"
+ the_great_uniter:0 "The Great Uniter"
 
  #Vanilla 
  cc_leader:0 "General"
