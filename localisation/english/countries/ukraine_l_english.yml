@@ -1,5 +1,12 @@
 ﻿l_english:
- 
+ UKR:0 "Ukraine"
+ UKR_DEF:0 "Ukrainian"
+ UKR_ADJ:0 "Ukrainian"
+ UKR_subject:0 "$OVERLORDADJ$ $UKR"
+ UKR_subject_DEF:0 "$OVERLORDADJ$ $UKR$"
+ UKR_SOV_subject:0 "Ukrainian Soviet Socialist Republic"
+ UKR_SOV_subject_DEF:0 "the Ukrainian Soviet Socialist Republic"
+
  UKR_national_extremism:0 "Ukraine"
  UKR_national_extremism_DEF:0 "Ukraine"
  UKR_social_democracy:0 "People's Republic of Ukraine"
@@ -34,9 +41,11 @@
  UKR_DEF:0 "Ukraine"
  UKR_ADJ:0 "Ukrainian"
  
- UKR_libertarian_socialism_party:0 "Makhnovtsi"
+ UKR_libertarian_socialism_party:0 "Nabat"
  UKR_independent_socialism_party:0 "Borotbists"
- UKR_council_communism_party:0 "Makhnovtsi"
+ UKR_vanguard_socialism_party:0 "Communist Party of Ukraine"
+ UKR_council_communism_party:0 "UCWP"
+ UKR_council_communism_party_long:0 "Ukrainian Communist Worker's Party"
  UKR_social_democracy_party:0 "UNDA"
  UKR_social_democracy_party_long:0 "Ukrainian National Democratic Alliance"
  UKR_social_liberalism_party:0 "UNDA"

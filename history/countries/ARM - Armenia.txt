@@ -9,7 +9,7 @@ set_technology = {
 }
 
 #Characters
-
+recruit_character=ARM_Rouben_Minassian
 #Ideas
 add_ideas = {
 }

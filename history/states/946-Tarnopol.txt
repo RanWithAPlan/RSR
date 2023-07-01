@@ -1,0 +1,24 @@
+state={
+	id=946
+	name="STATE_946"
+	provinces={
+		438 491 3483 3562 9454 9558 11427 
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		add_claim_by = SOV
+		add_claim_by = POL
+		victory_points = {
+			3483 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=1700406
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

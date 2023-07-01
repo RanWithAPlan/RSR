@@ -1,38 +1,5 @@
 ﻿capital = 202 #Kiev
 #Order of Battle
-#Because they don't start on the map, they do not need an oob
-
-#Army
-if = {
-	limit = { has_dlc = "No Step Back" }
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-	else = {
-		set_technology = {
-			gwtank = 1
-			basic_light_tank = 1
-		}
-	}
-}
-
-#Air
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_technology = {
-			BBA Air Techs
-		}
-	else = {
-		set_technology = {
-			early_fighter = 1
-			fighter1 = 1
-			early_bomber = 1
-			strategic_bomber1 = 1
-			naval_bomber1 = 1
-		}
-	}
-}
 
 #Non-Designer Starting Technology
 set_technology = {
@@ -52,7 +19,7 @@ set_technology = {
 
 
 #Characters
-recruit_character = UKR_nestor_mahkno
+
 
 #Ideas
 add_ideas = {
@@ -61,29 +28,29 @@ add_ideas = {
 #Miscellaneous
 set_stability = 0.5
 set_war_support = 0.5
-set_convoys = 0
+set_convoys = 15
 set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = libertarian_socialism
-	last_election = "1933.3.5"
+	ruling_party = vanguard_socialism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 #Popularities
 set_popularities = {
-	libertarian_socialism = 70
-	council_communism = 10
-	vanguard_socialism = 0
-	independent_socialism = 10
-	social_democracy = 10
+	libertarian_socialism = 13
+	council_communism = 13
+	vanguard_socialism = 38
+	independent_socialism = 28
+	social_democracy = 2
 	social_liberalism = 0
 	market_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
   	national_syndicalism = 0
-  	national_populism = 0
+  	national_populism = 6
 }

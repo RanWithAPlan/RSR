@@ -1,0 +1,16 @@
+characters = {
+	GRE_George_II = {
+		name = GRE_George_II_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_GRE_George_II_RSR"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { }
+			ideology = market_liberalism_subtype
+		}
+	}
+}

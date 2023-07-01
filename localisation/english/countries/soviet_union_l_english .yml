@@ -5,10 +5,10 @@
  SOV_libertarian_socialism_DEF:0 "Russian Soviet Socialist Republic"
  SOV_council_communism:0 "Russian Soviet Socialist Republic"
  SOV_council_communism_DEF:0 "Russian Soviet Socialist Republic"
- SOV_independent_socialism:0 "Russian Soviet Federative Socialist Republic"
- SOV_independent_socialism_DEF:0 "Russian Soviet Federative Socialist Republic"
- SOV_vanguard_socialism:0 "Russian Soviet Socialist Republic"
- SOV_vanguard_socialism_DEF:0 "Russian Soviet Socialist Republic"
+ SOV_independent_socialism:0 "Union of Soviet Socialist Republics"
+ SOV_independent_socialism_DEF:0 "Union of Soviet Socialist Republics"
+ SOV_vanguard_socialism:0 "Union of Soviet Socialist Republics"
+ SOV_vanguard_socialism_DEF:0 "Union of Soviet Socialist Republics"
  SOV_social_democracy:0 "Russia"
  SOV_social_democracy_DEF:0 "Russia"
  SOV_market_liberalism:0 "Russia"
@@ -59,3 +59,13 @@
  
  #Characters
  SOV_vladimir_lenin:0 "Vladimir Lenin"
+ SOV_alexei_rykov:0 "Alexei Rykov"
+
+ #Events
+  #collapse
+ soviet_collapse.1.t:0 "Lenin Suffers A Stroke"
+ soviet_collapse.1.d:0 "This morning Chairman Vladimir Lenin suffered a major stroke and is currently unable to speak, this is but the latest in health complications for our beloved leader. His doctors claim this decline in his health could be due to the extra stress brought on by the situation in Germany. Meanwhile, bitter factionalism continues to plague the party, the lack of clear leadership continues to chip away at the motheaten Union and constituent republics become more and more autonomous. With Lenin's further inability to lead the nation, it only continues to fall apart, it's clear to everyone that Lenin needs to retire, but if he did, the factionalism that has been brewing for the last decade could explode, and god know's what would happen then."
+ soviet_collapse.1.a:0 "Get well soon comrade, we need you..."
+ soviet_collapse.2.t:0 "Lenin Is Dead"
+ soviet_collapse.2.d:0 "It seemed as if Lenin was recovering, and yesterday he was visited in Gorki by his close friend Armand, a controversial figure on Soviet politics due to her left communist beliefs. It was evening when Armand left. The next day, Lenin's wife Nadezhda Krupskaya found him dead, the doctors recorded the cause of death was as an incurable disease of the blood vessels. An official announcement will be made tommorrow, and a sombre funeral is in the works.\n\nThe death has had massive political repercussions already, they are whispers that Armand murdered Lenin, rumours which are especially volatile considering the recent diplomatic crisis in Germany. In addition to this, the factionalism which has plagued us for so long has already become worse, and the constituent republics become more and more autonomous."
+ soviet_collapse.2.a:0 "Rest in peace Lenin, hero of the international proletariat."

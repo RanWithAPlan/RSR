@@ -63,7 +63,7 @@ set_technology = {
 }
 
 #Characters
-
+recruit_character=GRE_George_II
 #Ideas
 add_ideas = {
 	GRE_megali_partially_realized
@@ -77,7 +77,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = market_liberalism
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1

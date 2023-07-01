@@ -3,7 +3,6 @@ state = {
 	name = "STATE_826"
 
 	history = {
-		owner = SOV
 		victory_points = {
 			11617 1 
 		}
@@ -13,7 +12,9 @@ state = {
 			
 
 		}
-		add_core_of = SOV
+		owner = TCA
+		add_core_of = TCA
+		add_claim_by = SOV
 		add_core_of = GEO
 		add_core_of = ABK
 		1939.1.1 = {

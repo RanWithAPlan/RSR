@@ -22,6 +22,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			air_base = 3
 			5005 = {
 				naval_base = 1
 			}
@@ -33,6 +34,7 @@ state={
 			}
 		}
 		add_core_of = PER
+		add_claim_by = PPR
 	}
 
 	provinces={

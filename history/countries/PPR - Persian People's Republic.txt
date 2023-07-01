@@ -1,0 +1,62 @@
+﻿capital = 266
+
+#Order of Battle
+#Army
+oob = "PER_1936"
+
+#Air
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PER_1936_air_bba"
+	else = {
+		set_air_oob = "PER_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+
+		}
+	}
+}
+
+#Non-Designer Starting Technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+}
+
+#Characters
+recruit_character=PPR_ehsanollah_dustdar
+#Ideas
+add_ideas = {
+}
+
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 10
+set_research_slots = 3
+
+#Politics
+set_politics = {
+	ruling_party = vanguard_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#Popularities
+set_popularities = {
+	vanguard_socialism=60
+	council_communism = 0
+	vanguard_socialism = 0
+	independent_socialism = 0
+	social_democracy = 10
+	social_liberalism = 0
+	market_liberalism = 0
+	conservative_democracy = 10
+	authoritarian_democracy = 0
+	autocracy = 20
+  	national_syndicalism = 0
+  	national_populism = 0
+}

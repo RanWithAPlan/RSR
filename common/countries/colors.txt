@@ -40,6 +40,11 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 
+BAS = {
+	color = rgb { 243 144 5 }
+	color_ui = rgb { 243 144 5 }
+}
+
 BEL = { 
 	color = rgb { 186 153 37  }
 	color_ui = rgb { 251 222 10 }
@@ -56,8 +61,8 @@ BHU = {
 }
 
 BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
 }
 
 BOL = {
@@ -183,6 +188,11 @@ GUI = {
 SIC = {
 	color = rgb { 127 100 118 }
 	color_ui = rgb { 127 63 118 }
+}
+
+TCA = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
 }
 
 KMT = {
@@ -345,6 +355,11 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 
+PPR = {
+	color = rgb { 35 135 16}
+	color_ui = rgb { 67 168 20}
+}
+
 PRU = {
 	color = rgb { 196 189 204 }
 	color_ui = rgb { 255 246 255 }
@@ -453,9 +468,19 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 
+TMS = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
+}
+
+UZB = {
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }
+}
+
 UKR = {
-	color = rgb { 83  74  74 }
-	color_ui = rgb { 63  54  54 }	
+	color = rgb { 183 13 0 }
+	color_ui = rgb { 233 73 60 }	
 }
 
 URG = {
