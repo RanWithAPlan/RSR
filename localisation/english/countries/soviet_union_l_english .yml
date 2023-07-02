@@ -5,7 +5,6 @@
  SOV_anarchism_DEF:0 "Russian Soviet Socialist Republic"
  SOV_council_communism:0 "Russian Soviet Socialist Republic"
  SOV_council_communism_DEF:0 "Russian Soviet Socialist Republic"
-<<<<<<< HEAD
  SOV_radical_socialism:0 "Russian Soviet Federative Socialist Republic"
  SOV_radical_socialism_DEF:0 "Russian Soviet Federative Socialist Republic"
  SOV_authoritarian_socialism:0 "Russian Soviet Socialist Republic"
@@ -16,18 +15,6 @@
  SOV_freemarket_liberalism_DEF:0 "the Russian Republic"
  SOV_progressive_liberalism:0 "Russian Republic"
  SOV_progressive_liberalism_DEF:0 "the Russian Republic"
-=======
- SOV_independent_socialism:0 "Russian Soviet Federative Socialist Republic"
- SOV_independent_socialism_DEF:0 "Russian Soviet Federative Socialist Republic"
- SOV_vanguard_socialism:0 "Russian Soviet Socialist Republic"
- SOV_vanguard_socialism_DEF:0 "Russian Soviet Socialist Republic"
- SOV_social_democracy:0 "Russia"
- SOV_social_democracy_DEF:0 "Russia"
- SOV_market_liberalism:0 "Russia"
- SOV_market_liberalism_DEF:0 "Russia"
- SOV_social_liberalism:0 "Russia"
- SOV_social_liberalism_DEF:0 "Russia"
->>>>>>> parent of 2fac0c1 (new changes)
  SOV_conservative_democracy:0 "Russia"
  SOV_conservative_democracy_DEF:0 "the Russian Republic"
  SOV_authoritarian_democracy:0 "Russia"
@@ -70,7 +57,6 @@
  SOV_national_syndicalism_party:0 "RKP(S)"
  SOV_national_syndicalism_party_long:0 "Rossiyskaya kommunisticheskaya partiya (Smenovekhovtsy)"
  
-<<<<<<< HEAD
 #Characters
 ###Leaders
 SOV_vladimir_lenin_RSR:0 "Vladimir Lenin"
@@ -165,7 +151,3 @@ SOV_Ivan_Serov_RSR:0 "Ivan Serov"
 SOV_Lavrentiy_Beria_gen_RSR:0 "Lavrentiy Beria"
 SOV_Nikolai_Yezhov_RSR:0 "Nikolai Yezhov"
 SOV_Pavel_Sudoplatov_RSR:0 "Pavel Sudoplatov"
-=======
- #Characters
- SOV_vladimir_lenin:0 "Vladimir Lenin"
->>>>>>> parent of 2fac0c1 (new changes)
