@@ -3,7 +3,7 @@ state={
 	name="STATE_230"
 
 	history={
-		owner = TCA
+		owner = SOV
 		victory_points = {
 			12320 3
 		}
@@ -16,9 +16,7 @@ state={
 			air_base = 2
 
 		}
-		owner = TCA
-		add_core_of = TCA
-		add_claim_by = SOV
+		add_core_of = SOV
 		add_core_of = ARM
 		1939.1.1 = {
 			buildings = {

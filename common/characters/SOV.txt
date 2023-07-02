@@ -3,31 +3,18 @@ characters={
 ###Leaders
 
 SOV_vladimir_lenin={
-	name = SOV_vladimir_lenin
-	portraits={
-		civilian={
-			large="GFX_portrait_SOV_vladimir_lenin"
+		name = SOV_vladimir_lenin
+		portraits={
+			civilian={
+				large="GFX_portrait_SOV_vladimir_lenin"
+			}
 		}
-	}
-	country_leader={
-		ideology=leninism
-		traits={ sickly }
-		expire="1965.1.1.1"
-	}
-}
-SOV_alexei_rykov={
-	name = SOV_alexei_rykov
-	portraits={
-		civilian={
-			large="GFX_portrait_SOV_alexei_rykov"
+		country_leader={
+			ideology=leninism
+			traits={ father_of_revolution }
+			expire="1965.1.1.1"
 		}
-	}
-	country_leader={
-		ideology=vanguard_socialism_subtype
-		traits={ }
-		expire="1965.1.1.1"
-	}
-} 
+	} 
 	
 
 ###Advisors

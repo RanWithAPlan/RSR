@@ -1,19 +1,3 @@
-add_namespace = flavour_germany
-country_event = {
-    id = flavour_germany.1
-    title = flavour_germany.1.t
-    desc = flavour_germany.1.d
-    fire_only_once = yes
-    trigger = {
-        date > 1937.6.22
-        tag = GER
-    }
-    picture = GFX_report_event_european_bison
-    option = {
-        name = flavour_germany.1.a
-        add_political_power = 10
-    }
-}
 add_namespace = socgermany
 country_event = {
     id = socgermany.1
@@ -205,7 +189,6 @@ country_event = {
     id = socgermany.9
     title = socgermany.9.t
     desc = socgermany.9.d
-    picture = GFX_report_event_roter_frontkämpferbund
     is_triggered_only = yes
     
     option = {
@@ -221,56 +204,10 @@ country_event = {
         retire_character = GER_peter_blachstein
         add_popularity = {
             ideology = vanguard_socialism
-            popularity = 0.20
+            popularity = 20
         }
         set_politics = { ruling_party = vanguard_socialism }
         add_threat = 10
-        hidden_effect = {
-            news_event = news_event.1
-        }
-    }
-}
-country_event = {
-    id = socgermany.10
-    title = socgermany.10.t
-    desc = socgermany.10.d
-    picture = GFX_report_event_arrested_communists
-    is_triggered_only = yes
-    
-    option = {
-        name = socgermany.10.a
-        ai_chance = {
-            base = 50
-        }
-        remove_ideas = {
-            GER_third_internationalist_plot
-        }
-        retire_character = GER_ernst_thalmann
-        if = {
-            limit = {
-                GER_hans_kahle = {
-                    has_trait = rfb_officer
-                }
-            }
-            retire_character = GER_hans_kahle
-        }
-        if = {
-            limit = {
-                GER_albert_schreiner = {
-                    has_trait = rfb_officer
-                }
-            }
-            retire_character = GER_albert_schreiner
-        }
-        add_popularity = {
-            ideology = vanguard_socialism
-            popularity = -0.07
-        }
-        add_threat = 5
-        set_global_flag = RFB_fail
-        hidden_effect = {
-            news_event = { id = news_event.2 hours = 6 }
-        }
     }
 }
 

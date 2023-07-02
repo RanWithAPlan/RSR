@@ -105,6 +105,14 @@ focus_tree = {
 				}
 				set_state_category = large_town
 			}
+			every_owned_state = {
+				limit = { infrastructure < 5 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -123,23 +131,19 @@ focus_tree = {
 	focus = {
 		id = GER_begin_the_third_five_year_plan
 		icon = GFX_GER_nationwide_coordination
-		cost = 8
+		cost = 5
 		prerequisite = { focus = GER_industrial_retooling }
 		relative_position_id = GER_industrial_retooling
 		x = 4
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_timed_idea = {
-				idea = GER_begin_third_five_year_plan
-				days = 180
-			}
 		}
 	}
 	focus = {
 		id = GER_empower_local_producers
 		icon = GFX_GER_empower_producers
-		cost = 10
+		cost = 5
 		prerequisite = { focus = GER_begin_the_third_five_year_plan }
 		mutually_exclusive = { focus = GER_concentrate_industry }
 		relative_position_id = GER_begin_the_third_five_year_plan
@@ -147,61 +151,31 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_ideas = { GER_empower_local_producers_idea }
+		}
+	}
+	focus = {
+		id = GER_mechanise_agriculture
+		icon = GFX_GER_mechanise_agriculture
+		cost = 5
+		prerequisite = { focus = GER_empower_local_producers }
+		relative_position_id = GER_empower_local_producers
+		x = 1
+		y = 1
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
 		}
 	}
 	focus = {
 		id = GER_denationalise_railway
 		icon = GFX_generic_trains
-		cost = 8
+		cost = 5
 		prerequisite = { focus = GER_empower_local_producers }
 		relative_position_id = GER_empower_local_producers
 		x = -1
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			if = {
-				limit = {
-					has_idea = GER_empower_local_producers_idea2
-				}
-				swap_ideas = {
-					add_idea = GER_empower_local_producers_idea3
-					remove_idea = GER_empower_local_producers_idea2
-				}
-			}
-			else = {
-				swap_ideas = {
-					add_idea = GER_empower_local_producers_idea1
-					remove_idea = GER_empower_local_producers_idea
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_mechanise_agriculture
-		icon = GFX_GER_mechanise_agriculture
-		cost = 8
-		prerequisite = { focus = GER_empower_local_producers }
-		relative_position_id = GER_empower_local_producers
-		x = 1
-		y = 1
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = {
-				limit = {
-					has_idea = GER_empower_local_producers_idea1
-				}
-				swap_ideas = {
-					add_idea = GER_empower_local_producers_idea3
-					remove_idea = GER_empower_local_producers_idea1
-				}
-			}
-			else = {
-				swap_ideas = {
-					add_idea = GER_empower_local_producers_idea2
-					remove_idea = GER_empower_local_producers_idea
-				}
-			}
+
 		}
 	}
 	focus = {
@@ -215,7 +189,7 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_ideas = { GER_concentrate_industry_idea }
+
 		}
 	}
 	focus = {
@@ -228,10 +202,7 @@ focus_tree = {
 		y = 1
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = GER_concentrate_industry_idea
-				add_idea = GER_concentrate_industry_idea1
-			}
+
 		}
 	}
 	focus = {
@@ -266,7 +237,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			swap_ideas = {
-
+				remove_idea = GER_bloated_military
+				add_idea = GER_bloated_military1
 			}
 		}
 	}

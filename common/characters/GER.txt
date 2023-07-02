@@ -101,9 +101,6 @@ characters={
 			army = {
 				large = "gfx/leaders/GER/RFB/portrait_GER_Ernst_Thallmann_gen.png"
 			}
-			civilian = {
-				large = "GFX_portrait_GER_Ernst_Thallmann"
-			}
         }
     	field_marshal = {
             traits = { organizer politically_connected rfb_officer}
@@ -113,10 +110,6 @@ characters={
 	        planning_skill = 1
 	        logistics_skill = 2
         }
-		country_leader = {
-			expire = "1965.1.1"
-			ideology = "vanguard_socialism_subtype"
-		}
     }
     GER_albert_schreiner = {
         name = "Albert Schreiner"

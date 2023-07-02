@@ -3,6 +3,8 @@ state = {
 	name = "STATE_742"
 
 	history = {
+
+		owner = SOV
 		victory_points = {
 			1384 1
 		}
@@ -10,12 +12,9 @@ state = {
 			infrastructure = 1
 
 		}
-		owner = UZB
-		add_claim_by = SOV
-		add_core_of = UZB
+		add_core_of = SOV
 		add_core_of = TAJ
 		add_core_of = BUK
-		set_demilitarized_zone = yes
 
 	}
 

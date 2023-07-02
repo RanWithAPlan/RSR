@@ -9,7 +9,6 @@ set_technology = {
 }
 
 #Characters
-recruit_character=ASR_Mar_Eshai_Shimun
 
 #Ideas
 add_ideas = {

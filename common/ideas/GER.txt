@@ -71,8 +71,14 @@ ideas = {
 				opinion_gain_monthly_factor = -0.1
 			}
 		}
+		GER_female_soldiers = {
+			picture = idea_generic_women_in_the_army
+			modifier = {
+				conscription_factor = 0.5
+			}
+		}
 		GER_third_internationalist_plot = {
-			picture = GER_rfb_plot
+			picture = GER_military_factionalism_picture
 			modifier = {
 				army_org_regain = -0.15
 				training_time_army_factor = 0.15
@@ -87,13 +93,6 @@ ideas = {
 				monthly_population = 0.05
 			}
 		}
-		GER_haven_for_refugees1 = {
-			picture = GER_haven_for_refugees
-			modifier = {
-				monthly_population = 0.05
-				conscription = 0.001
-			}
-		}
 		GER_industrial_drive = {
 			picture = GER_proletarian_productivity
 			modifier = {
@@ -104,54 +103,9 @@ ideas = {
 			picture = GER_feeding_revolution
 			modifier = {
 				local_resources_factor = 0.1
+				industry_air_damage_factor = -0.2
 			}
 		}
-		GER_begin_third_five_year_plan = {
-			modifier = {
-				production_speed_buildings_factor = 0.10
-			}
-		}
-		GER_empower_local_producers_idea = {
-			modifier = {
-				industry_repair_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-			}
-		}
-		GER_empower_local_producers_idea1 = {
-			modifier = {
-				industry_repair_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-				production_speed_supply_node_factor = 0.20
-			}
-		}
-		GER_empower_local_producers_idea2 = {
-			modifier = {
-				industry_repair_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-				production_speed_arms_factory_factor = 0.10
-			}
-		}
-		GER_empower_local_producers_idea3 = {
-			modifier = {
-				industry_repair_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-				production_speed_supply_node_factor = 0.20
-				production_speed_arms_factory_factor = 0.10
-			}
-		}
-		GER_concentrate_industry_idea = {
-			modifier = {
-				production_speed_infrastructure_factor = 0.10
-				consumer_goods_factor = -0.05
-			}
-		}
-		GER_concentrate_industry_idea1 = {
-			modifier = {
-				production_speed_infrastructure_factor = 0.10
-				consumer_goods_factor = -0.075
-				monthly_population = 0.25
-			}
-		}	
 		GER_campaign_against_military_authoritarianism = {
 			picture = GER_
 			modifier = {
@@ -211,6 +165,13 @@ ideas = {
 					reliability = 0.1
 					build_cost_ic = -0.05
 				}
+			}
+		}
+		GER_haven_for_refugees1 = {
+			picture = GER_haven_for_refugees
+			modifier = {
+				monthly_population = 0.05
+				conscription = 0.01
 			}
 		}
 		GER_solidify_chain_of_command_idea = {

@@ -1,6 +1,0 @@
-spriteTypes = {
-    spriteType = {
-        name = "GFX_portrait_PER_Reza_Khan_Pahlavi_RSR"
-        texturefile = "gfx/leaders/PER/portrait_PER_Reza_Khan_Pahlavi_RSR.png"
-    }
-}

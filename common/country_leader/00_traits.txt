@@ -34,11 +34,6 @@ leader_traits = {
 	poor_health = {
 		political_power_cost = 0.15
 	}
-
-	sickly = {
-		political_power_cost = 0.25
-		stability_factor = -0.10
-	}
 	#Demagogues
 	
 	voice_of_anarchy = {

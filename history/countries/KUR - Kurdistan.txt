@@ -9,7 +9,7 @@ set_technology = {
 }
 
 #Characters
-recruit_character=KUR_Nuri_Dersimi
+
 #Ideas
 add_ideas = {
 }

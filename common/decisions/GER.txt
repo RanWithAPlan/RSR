@@ -427,11 +427,32 @@ GER_roter_frontkampferbund_plot = {
         priority = 80
         is_good = no
         complete_effect = {
-            country_event = socgermany.10
+            remove_ideas = GER_third_internationalist_plot
+            retire_character = GER_ernst_thalmann
+            if = {
+                limit = {
+                    GER_hans_kahle = {
+                        has_trait = rfb_officer
+                    }
+                }
+                retire_character = GER_hans_kahle
+            }
+            if = {
+                limit = {
+                    GER_albert_schreiner = {
+                        has_trait = rfb_officer
+                    }
+                }
+                retire_character = GER_albert_schreiner
+            }
+			add_to_variable = {
+                var = unity_number value = 15
+            }
+            add_manpower = -5000
+            add_threat = 5
         }
         timeout_effect = {
             country_event = socgermany.9
-            custom_effect_tooltip = GER_rfb_coup_tt
         }
     }
     GER_reaffirm_mullers_commitment = {
@@ -447,10 +468,10 @@ GER_roter_frontkampferbund_plot = {
 		remove_effect = { 
 			GER_vincenz_muller = {
                 remove_trait = {
-                    trait = blaue_liste_officer
+                    trait = nva_officer
                 }
                 add_trait = {
-                    trait = loyalist_officer
+                    trait = kpd_officer
                 }
 			}
 		}
@@ -471,7 +492,7 @@ GER_roter_frontkampferbund_plot = {
                     trait = rfb_officer
                 }
                 add_trait = {
-                    trait = loyalist_officer
+                    trait = kpd_officer
                 }
 			}
 		}
@@ -492,7 +513,7 @@ GER_roter_frontkampferbund_plot = {
                     trait = rfb_officer
                 }
                 add_trait = {
-                    trait = loyalist_officer
+                    trait = kpd_officer
                 }
 			}
 		}

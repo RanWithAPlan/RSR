@@ -4,32 +4,4 @@ spriteTypes = {
 		name = "GFX_MON_endofwar"
 		texturefile = "gfx/events/MON/MON_endofwar.dds"
 	}
-	spriteType = {
-		name = "GFX_report_event_european_bison"
-		texturefile = "gfx/events/report_event_european_bison.png"
-	}
-	spriteType = {
-		name = "GFX_report_event_roter_frontkämpferbund"
-		texturefile = "gfx/events/report_event_roter_frontkämpferbund.png"
-	}
-	spriteType = {
-		name = "GFX_report_event_arrested_communists"
-		texturefile = "gfx/events/report_event_arrested_communists.png"
-	}
-	spriteType = {
-		name = "GFX_report_event_lenin_wheelchair"
-		texturefile = "gfx/events/report_event_lenin_wheelchair.png"
-	}
-	spriteType = {
-		name = "GFX_news_event_olympics_1936"
-		texturefile = "gfx/events/news_event_olympics_1936.png"
-	}
-	spriteType = {
-		name = "GFX_news_event_roter_frontkämpferbund_coup"
-		texturefile = "gfx/events/news_event_roter_frontkämpferbund_coup.png"
-	}
-	spriteType = {
-		name = "GFX_news_event_roter_frontkämpferbund_arrested"
-		texturefile = "gfx/events/news_event_roter_frontkämpferbund_arrested.png"
-	}
 }
