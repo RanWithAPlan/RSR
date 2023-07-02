@@ -4,18 +4,21 @@ state=
 	name="STATE_337"
 	manpower = 25900
 	
-	state_category = small_island
+	state_category = rural
 	
 	history=
 	{
-		owner = DEN
+		owner = FAR
 		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
 			infrastructure = 2
 			13003 = {
 				naval_base = 1
 			}
 		}
 		add_core_of = DEN
+		add_core_of = FAR
 	}
 	provinces= { 13003 }
 
