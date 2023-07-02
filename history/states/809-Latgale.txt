@@ -4,12 +4,12 @@ state={
 	name="STATE_809"
 
 	history={
-		owner = OST
+		owner = LAT
 		victory_points = {
-			6222 3 #Jelgava
+			310 3 #Daugavpils
 		}
 		victory_points = {
-			3255 1 #Jekabpils
+			222 1 #Rezekne
 		}
 		buildings = {
 			infrastructure = 2
@@ -17,7 +17,7 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = LAT
-		add_core_of = OST
+
 	}
 
 	provinces={

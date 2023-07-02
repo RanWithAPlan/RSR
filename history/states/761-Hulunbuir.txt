@@ -8,9 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = ACD
+		owner = BEY
 		add_core_of = BEY
-		add_core_of = ACD
 		add_claim_by = KMT
 		add_claim_by = PUF
 		buildings = {
@@ -18,9 +17,6 @@ state={
 		}
 		victory_points = {
 			4745 1
-		}
-		victory_points = {
-			12537 10
 		}
 
 	}
