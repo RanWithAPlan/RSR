@@ -50,6 +50,7 @@
  GRE_progressive_liberalism_party:0 "EEK"
  GRE_progressive_liberalism_party_long:0 "Ethnikón Enotikón Kómma"
  GRE_conservative_democracy_party:0 "Laïkon Kómma" 
+<<<<<<< HEAD
  GRE_conservative_democracy_party_long:0 "Laïkon Kómma" 
  GRE_authoritarian_democracy_party:0 "KtE"
  GRE_authoritarian_democracy_party_long:0 "Kómma ton Eleftherophrónon"
@@ -62,3 +63,9 @@
 
  #Characters
  GRE_King_George_II:0 "George II"
+=======
+ GRE_despotism_party:0 "Kómma ton Eleftherophrónon"
+ GRE_autocracy_party:0 "Yenikí Laïkí Rizospastikí Énosis"
+ GRE_national_extremism_party:0 "Ethnikí Énosis Elládos" 
+ 
+>>>>>>> parent of 2fac0c1 (new changes)

@@ -66,8 +66,16 @@ set_technology = {
 }
 
 #Characters
+<<<<<<< HEAD
 #leaders
 recruit_character = GRE_King_George_II
+=======
+
+#Ideas
+add_ideas = {
+	GRE_megali_partially_realized
+}
+>>>>>>> parent of 2fac0c1 (new changes)
 
 #Ideas
 

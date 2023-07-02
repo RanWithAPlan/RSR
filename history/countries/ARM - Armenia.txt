@@ -18,6 +18,7 @@ set_technology = {
 }
 
 #Characters
+<<<<<<< HEAD
 <<<<<<<< HEAD:history/countries/!template.txt
 #leaders
 recruit_character = 
@@ -26,6 +27,9 @@ recruit_character =
 ========
 recruit_character=ARM_Rouben_Minassian
 >>>>>>>> Germany:history/countries/ARM - Armenia.txt
+=======
+
+>>>>>>> parent of 2fac0c1 (new changes)
 #Ideas
 add_ideas = {
 

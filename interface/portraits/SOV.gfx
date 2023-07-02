@@ -5,6 +5,7 @@ spriteTypes = {
 		name = "GFX_portrait_SOV_vladimir_lenin_RSR"
 		texturefile = "gfx/leaders/SOV/portrait_SOV_vladimir_lenin.png"
 	}
+<<<<<<< HEAD
 
 #Army
 	spriteType = {
@@ -333,3 +334,5 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/portrait_SOV_alexei_rykov_RSR.png"
 	}
 }
+=======
+>>>>>>> parent of 2fac0c1 (new changes)
