@@ -4,15 +4,23 @@ spriteTypes = {
     	texturefile = gfx/interface/RSR_traits/GER_FAUD.png
 	}
 	spriteType = {
-   		name = GFX_trait_loyalist_officer
-    	texturefile = gfx/interface/RSR_traits/GER_loyalist.png
+   		name = GFX_trait_kpd_officer
+    	texturefile = gfx/interface/RSR_traits/GER_KPD.png
+	}
+	spriteType = {
+   		name = GFX_trait_uspd_officer
+    	texturefile = gfx/interface/RSR_traits/GER_USPD.png
+	}
+	spriteType = {
+   		name = GFX_trait_grsn_officer
+    	texturefile = gfx/interface/RSR_traits/GER_GRSN.png
 	}
 	spriteType = {
    		name = GFX_trait_rfb_officer
     	texturefile = gfx/interface/RSR_traits/GER_RKB.png
 	}
 	spriteType = {
-   		name = GFX_trait_blaue_liste_officer
-    	texturefile = gfx/interface/RSR_traits/GER_blaue_liste.png
+   		name = GFX_trait_nva_officer
+    	texturefile = gfx/interface/RSR_traits/GER_NVA.png
 	}
 }

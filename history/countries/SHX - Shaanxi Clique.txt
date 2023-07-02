@@ -35,11 +35,11 @@ set_politics = {
 set_popularities = {
 	autocracy = 40
 	council_communism = 5
-	vanguard_socialism = 5
-	independent_socialism = 5
+	authoritarian_socialism = 5
+	radical_socialism = 5
 	social_democracy = 30
-	social_liberalism = 0
-	market_liberalism = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 15
 }

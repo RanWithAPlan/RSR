@@ -145,7 +145,6 @@ if = {
 #Characters
 ###Leaders
 recruit_character = SOV_vladimir_lenin_RSR
-recruit_character = SOV_alexei_rykov
 
 ###Advisors
 
@@ -239,8 +238,6 @@ recruit_character = SOV_Nikolai_Yezhov_RSR
 recruit_character = SOV_Pavel_Sudoplatov_RSR
 
 add_ideas = {
-	SOV_factionalism_minor
-	SOV_autonomous_republics
 }
 
 #Miscellaneous, put country_flags, upcoming events, and such here
@@ -253,50 +250,12 @@ starting_train_buffer = 3.0
 #Diplomacy, put puppets, wars, factions, and other such things here
 create_faction = Comintern
 add_to_faction = SOV
-add_to_faction = PPR
-diplomatic_relation = {
-    country = UKR
-    relation = puppet
-    active = yes
-}
-diplomatic_relation = {
-    country = BLR
-    relation = puppet
-    active = yes
-}
-BLR = {
-	set_popularities = {
-		vanguard_socialism = 65
-		independent_socialism = 25
-		council_communism = 5
-		social_democracy = 5
-	}
-	set_politics = {
-		ruling_party = vanguard_socialism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-diplomatic_relation = {
-    country = TCA
-    relation = puppet
-    active = yes
-}
-diplomatic_relation = {
-    country = TMS
-    relation = puppet
-    active = yes
-}
-diplomatic_relation = {
-    country = UZB
-    relation = puppet
-    active = yes
-}
+add_to_faction = TAJ
+
 
 #Politics
 set_politics = {
-	ruling_party = vanguard_socialism
+	ruling_party = authoritarian_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -304,18 +263,18 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	libertarian_socialism = 0
-	council_communism = 10
-	vanguard_socialism = 70
-	independent_socialism = 15
+	anarchism = 5
+	council_communism = 5
+	authoritarian_socialism = 80
+	radical_socialism = 5
 	social_democracy = 0
-	social_liberalism = 0
-	market_liberalism = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
 	national_syndicalism = 5
-	national_populism = 0
+	ultra_reactionary = 0
 }
 
 ### VARIANTS ###

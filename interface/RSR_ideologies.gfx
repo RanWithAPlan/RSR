@@ -1,31 +1,31 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_ideology_libertarian_socialism_group"
-		texturefile = "gfx/interface/ideologies/libertarian_socialism_group.png"
+		name = "GFX_ideology_anarchism_group"
+		texturefile = "gfx/interface/ideologies/anarchism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_council_communism_group"
 		texturefile = "gfx/interface/ideologies/council_communism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_vanguard_socialism_group"
-		texturefile = "gfx/interface/ideologies/vanguard_socialism_group.png"
+		name = "GFX_ideology_authoritarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_independent_socialism_group"
-		texturefile = "gfx/interface/ideologies/independent_socialism_group.png"
+		name = "GFX_ideology_radical_socialism_group"
+		texturefile = "gfx/interface/ideologies/radical_socialism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_social_democracy_group"
 		texturefile = "gfx/interface/ideologies/social_democracy_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_social_liberalism_group"
-		texturefile = "gfx/interface/ideologies/social_liberalism_group.png"
+		name = "GFX_ideology_progressive_liberalism_group"
+		texturefile = "gfx/interface/ideologies/progressive_liberalism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_market_liberalism_group"
-		texturefile = "gfx/interface/ideologies/market_liberalism_group.png"
+		name = "GFX_ideology_freemarket_liberalism_group"
+		texturefile = "gfx/interface/ideologies/freemarket_liberalism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_conservative_democracy_group"
@@ -40,8 +40,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/autocracy_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_national_populism_group"
-		texturefile = "gfx/interface/ideologies/national_populism_group.png"
+		name = "GFX_ideology_ultra_reactionary_group"
+		texturefile = "gfx/interface/ideologies/ultra_reactionary_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_national_syndicalism_group"

@@ -5,7 +5,12 @@ state = {
 
 	history = {
 	
+<<<<<<< HEAD
 		owner = SOV
+=======
+		owner = TAJ
+		add_core_of = TAJ
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 		
 		victory_points = {
 			1459 3 

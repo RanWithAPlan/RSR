@@ -95,7 +95,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_liberalism_subtype
+			ideology=progressive_liberalism_subtype
 			traits={}
 			expire="1940.1.1.1"
 		}
@@ -105,11 +105,11 @@ characters={
 		name = MON_freemarketliberalismguy
 		portraits={
 			civilian={
-				large="GFX_market_liberalismguy"
+				large="GFX_freemarket_liberalismguy"
 			}
 		}
 		country_leader={
-			ideology=market_liberalism_subtype
+			ideology=freemarket_liberalism_subtype
 			traits={}
 			expire="1940.1.1.1"
 		}

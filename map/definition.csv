@@ -13274,6 +13274,10 @@
 13273;14;127;89;land;false;hills;1
 13274;196;42;74;land;false;mountain;1
 13275;240;169;90;land;true;hills;1
+<<<<<<< HEAD
 13276;14;200;233;land;false;plains;6
 13277;228;138;50;land;false;hills;6
 13278;145;103;81;land;false;desert;7
+=======
+13276;14;200;233;land;false;plains;6
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')

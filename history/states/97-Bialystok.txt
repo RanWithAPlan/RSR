@@ -8,9 +8,12 @@ state={
 			11301 3
 		}
 		victory_points = {
+<<<<<<< HEAD
 			3393 3
 		}
 		victory_points = {
+=======
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 			3254 1
 		}
 		buildings = {

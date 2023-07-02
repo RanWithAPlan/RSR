@@ -1,31 +1,18 @@
-<<<<<<<< HEAD:history/countries/!template.txt
 ﻿capital = 
 
 #Order of Battle
 oob = ""
 
 #Non-Designer Starting Technology
-========
-﻿capital = 940
-
->>>>>>>> Germany:history/countries/ARM - Armenia.txt
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	fuel_silos = 1
 }
 
 #Characters
-<<<<<<<< HEAD:history/countries/!template.txt
 #leaders
 recruit_character = 
 
 
-========
-recruit_character=ARM_Rouben_Minassian
->>>>>>>> Germany:history/countries/ARM - Armenia.txt
 #Ideas
 add_ideas = {
 
@@ -37,42 +24,30 @@ set_war_support = 0.5
 set_convoys = 0
 set_research_slots = 2
 
-<<<<<<<< HEAD:history/countries/!template.txt
 #Diplomacy, wars, factions, and other such things here
 
 #Politics
 set_politics = {
 	ruling_party = 
-========
-set_politics = {
-	ruling_party = social_democracy
->>>>>>>> Germany:history/countries/ARM - Armenia.txt
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
+#Popularities
 set_popularities = {
-<<<<<<<< HEAD:history/countries/!template.txt
 	anarchism = 0
-========
-	social_democracy = 35
->>>>>>>> Germany:history/countries/ARM - Armenia.txt
 	council_communism = 0
-	vanguard_socialism = 0
-	independent_socialism = 15
-	social_liberalism = 20
-	market_liberalism = 20
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
-<<<<<<<< HEAD:history/countries/!template.txt
 	national_syndicalism = 0
 	ultra_reactionary = 0
 }
 
 #Variants
-========
-  	national_syndicalism = 0
-  	national_populism = 10
-}
->>>>>>>> Germany:history/countries/ARM - Armenia.txt

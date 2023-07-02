@@ -1297,7 +1297,7 @@ focus = {
 	}
 	
 focus = {
-		id = generic_path_of_libertarian_socialism
+		id = generic_path_of_anarchism
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
 		mutually_exclusive = { focus = generic_path_of_council_communism }
@@ -1310,11 +1310,11 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {NOT = {has_government = libertarian_socialism} }
+		available = {NOT = {has_government = anarchism} }
 
 		completion_reward = {
 		add_popularity = {
-			ideology = libertarian_socialism
+			ideology = anarchism
 			popularity = 0.1
 			}
 		}
@@ -1327,8 +1327,8 @@ focus = {
 	focus = {
 		id = generic_anarchic_influence
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = generic_path_of_libertarian_socialism }
-		relative_position_id = generic_path_of_libertarian_socialism
+		prerequisite = { focus = generic_path_of_anarchism }
+		relative_position_id = generic_path_of_anarchism
 		x = 0
 		y = 2
 		cost = 7
@@ -1362,7 +1362,7 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {libertarian_socialism > 0.4}
+		available = {anarchism > 0.4}
 
 		completion_reward = {
 			add_political_power = 100
@@ -1371,9 +1371,9 @@ focus = {
 			remove_ideas = political_maelstrom 
 			remove_ideas = anarchic_influence
 			set_politics = {
-			ruling_party = libertarian_socialism
+			ruling_party = anarchism
 				}
-			add_ideas = { libertarian_socialism_victorious }
+			add_ideas = { anarchism_victorious }
 			}
 
 		ai_will_do = {
@@ -1385,7 +1385,7 @@ focus = {
 		id = generic_path_of_council_communism
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
-		mutually_exclusive = { focus = generic_path_of_libertarian_socialism focus = generic_path_of_vanguard_socialism }
+		mutually_exclusive = { focus = generic_path_of_anarchism focus = generic_path_of_vanguard_socialism }
 		relative_position_id = generic_a_need_for_change
 		x = -9
 		y = 1
@@ -1470,7 +1470,7 @@ focus = {
 		id = generic_path_of_vanguard_socialism
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
-		mutually_exclusive = { focus = generic_path_of_council_communism focus = generic_path_of_independent_socialism }
+		mutually_exclusive = { focus = generic_path_of_council_communism focus = generic_path_of_radical_socialism }
 		relative_position_id = generic_a_need_for_change
 		x = -7
 		y = 1
@@ -1480,11 +1480,11 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {NOT = {has_government = vanguard_socialism} }
+		available = {NOT = {has_government = authoritarian_socialism} }
 
 		completion_reward = {
 		add_popularity = {
-			ideology = vanguard_socialism
+			ideology = authoritarian_socialism
 			popularity = 0.1
 			}
 		}
@@ -1532,7 +1532,7 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {vanguard_socialism > 0.4}
+		available = {authoritarian_socialism > 0.4}
 
 		completion_reward = {
 			add_political_power = 100
@@ -1541,7 +1541,7 @@ focus = {
 			remove_ideas = political_maelstrom
 			remove_ideas = vanguard_influence
 			set_politics = {
-			ruling_party = vanguard_socialism
+			ruling_party = authoritarian_socialism
 				}
 			add_ideas = { vanguard_socialism_victorious }
 			}
@@ -1552,7 +1552,7 @@ focus = {
 	}
 
 	focus = {
-		id = generic_path_of_independent_socialism
+		id = generic_path_of_radical_socialism
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
 		mutually_exclusive = { focus = generic_path_of_vanguard_socialism focus = generic_path_of_social_democracy }
@@ -1565,11 +1565,11 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {NOT = {has_government = independent_socialism} }
+		available = {NOT = {has_government = radical_socialism} }
 
 		completion_reward = {
 		add_popularity = {
-			ideology = independent_socialism
+			ideology = radical_socialism
 			popularity = 0.1
 			}
 		}
@@ -1582,8 +1582,8 @@ focus = {
 	focus = {
 		id = generic_socialist_influence
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = generic_path_of_independent_socialism }
-		relative_position_id = generic_path_of_independent_socialism
+		prerequisite = { focus = generic_path_of_radical_socialism }
+		relative_position_id = generic_path_of_radical_socialism
 		x = 0
 		y = 2
 		cost = 7
@@ -1617,7 +1617,7 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {independent_socialism > 0.4}
+		available = {radical_socialism > 0.4}
 
 		completion_reward = {
 			add_political_power = 100
@@ -1626,9 +1626,9 @@ focus = {
 			remove_ideas = political_maelstrom
 			remove_ideas = socialist_influence
 			set_politics = {
-			ruling_party = independent_socialism
+			ruling_party = radical_socialism
 				}
-			add_ideas = { independent_socialism_victorious }
+			add_ideas = { radical_socialism_victorious }
 			}
 
 		ai_will_do = {
@@ -1640,7 +1640,7 @@ focus = {
 		id = generic_path_of_social_democracy
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
-		mutually_exclusive = { focus = generic_path_of_independent_socialism focus = generic_path_of_social_liberalism}
+		mutually_exclusive = { focus = generic_path_of_radical_socialism focus = generic_path_of_progressive_liberalism}
 		relative_position_id = generic_a_need_for_change
 		x = -3
 		y = 1
@@ -1722,10 +1722,10 @@ focus = {
 	}
 
 	focus = {
-		id = generic_path_of_social_liberalism
+		id = generic_path_of_progressive_liberalism
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
-		mutually_exclusive = { focus = generic_path_of_social_democracy focus = generic_path_of_market_liberalism}
+		mutually_exclusive = { focus = generic_path_of_social_democracy focus = generic_path_of_freemarket_liberalism}
 		relative_position_id = generic_a_need_for_change
 		x = -1
 		y = 1
@@ -1735,11 +1735,11 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {NOT = {has_government = social_liberalism} }
+		available = {NOT = {has_government = progressive_liberalism} }
 
 		completion_reward = {
 		add_popularity = {
-			ideology = social_liberalism
+			ideology = progressive_liberalism
 			popularity = 0.1
 			}
 		}
@@ -1752,8 +1752,8 @@ focus = {
 	focus = {
 		id = generic_progressive_influence
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = generic_path_of_social_liberalism }
-		relative_position_id = generic_path_of_social_liberalism
+		prerequisite = { focus = generic_path_of_progressive_liberalism }
+		relative_position_id = generic_path_of_progressive_liberalism
 		x = 0
 		y = 2
 		cost = 7
@@ -1787,7 +1787,7 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {social_liberalism > 0.4}
+		available = {progressive_liberalism > 0.4}
 
 		completion_reward = {
 			add_political_power = 100
@@ -1796,9 +1796,9 @@ focus = {
 			remove_ideas = political_maelstrom
 			remove_ideas = progressive_influence
 			set_politics = {
-			ruling_party = social_liberalism
+			ruling_party = progressive_liberalism
 				}
-			add_ideas = { social_liberalism_victorious }
+			add_ideas = { progressive_liberalism_victorious }
 			}
 
 		ai_will_do = {
@@ -1807,10 +1807,10 @@ focus = {
 	}
 
 	focus = {
-		id = generic_path_of_market_liberalism
+		id = generic_path_of_freemarket_liberalism
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
-		mutually_exclusive = { focus = generic_path_of_social_liberalism focus = generic_path_of_conservative_democracy}
+		mutually_exclusive = { focus = generic_path_of_progressive_liberalism focus = generic_path_of_conservative_democracy}
 		relative_position_id = generic_a_need_for_change
 		x = 1
 		y = 1
@@ -1820,11 +1820,11 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {NOT = {has_government = market_liberalism} }
+		available = {NOT = {has_government = freemarket_liberalism} }
 
 		completion_reward = {
 		add_popularity = {
-			ideology = market_liberalism
+			ideology = freemarket_liberalism
 			popularity = 0.1
 			}
 		}
@@ -1837,8 +1837,8 @@ focus = {
 		focus = {
 		id = generic_capitalistic_influence
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = generic_path_of_market_liberalism }
-		relative_position_id = generic_path_of_market_liberalism
+		prerequisite = { focus = generic_path_of_freemarket_liberalism }
+		relative_position_id = generic_path_of_freemarket_liberalism
 		x = 0
 		y = 2
 		cost = 7
@@ -1872,7 +1872,7 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {market_liberalism > 0.4}
+		available = {freemarket_liberalism > 0.4}
 
 		completion_reward = {
 			add_political_power = 100
@@ -1881,9 +1881,9 @@ focus = {
 			remove_ideas = political_maelstrom
 			remove_ideas = capitalistic_influence
 			set_politics = {
-			ruling_party = market_liberalism
+			ruling_party = freemarket_liberalism
 				}
-			add_ideas = { market_liberalism_victorious }
+			add_ideas = { freemarket_liberalism_victorious }
 			}
 
 		ai_will_do = {
@@ -1895,7 +1895,7 @@ focus = {
 		id = generic_path_of_conservative_democracy
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = generic_a_need_for_change }
-		mutually_exclusive = { focus = generic_path_of_market_liberalism focus = generic_path_of_authoritarian_democracy}
+		mutually_exclusive = { focus = generic_path_of_freemarket_liberalism focus = generic_path_of_authoritarian_democracy}
 		relative_position_id = generic_a_need_for_change
 		x = 3
 		y = 1
@@ -2160,11 +2160,11 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {NOT = {has_government = national_populism} }
+		available = {NOT = {has_government = ultra_reactionary} }
 
 		completion_reward = {
 		add_popularity = {
-			ideology = national_populism
+			ideology = ultra_reactionary
 			popularity = 0.1
 			}
 		}
@@ -2212,7 +2212,7 @@ focus = {
 		
 		available_if_capitulated = no cancel_if_invalid = yes
 		
-		available = {national_populism > 0.4}
+		available = {ultra_reactionary > 0.4}
 
 		completion_reward = {
 			add_political_power = 100
@@ -2221,7 +2221,7 @@ focus = {
 			remove_ideas = political_maelstrom
 			remove_ideas = hegemonic_influence
 			set_politics = {
-			ruling_party = national_populism
+			ruling_party = ultra_reactionary
 				}
 			add_ideas = { national_hegemonism_victorious }
 			}

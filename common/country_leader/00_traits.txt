@@ -13,8 +13,8 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
-	#New Traits
 	
+<<<<<<< HEAD
 	#General
 
 	incompetent_despot = {
@@ -35,12 +35,16 @@ leader_traits = {
 		political_power_cost = 0.15
 	}
 	#Demagogues
+=======
+###RSR General
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 	
+###Demagogues
 	voice_of_anarchy = {
-		#Boosts libertarian_socialism
+		#Boosts anarchism
 		random = no
-		libertarian_socialism_drift = 0.1
-		libertarian_socialism_acceptance = 10
+		anarchism_drift = 0.1
+		anarchism_acceptance = 10
 	}
 	
 	party_newspaper_editor = {
@@ -51,10 +55,17 @@ leader_traits = {
 	}
 	
 	devoted_communist = {
-		#Boosts independent_socialism
+		#Boosts radical_socialism
 		random = no
-		independent_socialism_drift = 0.1
-		independent_socialism_acceptance = 10
+		radical_socialism_drift = 0.1
+		radical_socialism_acceptance = 10
+	}
+	
+	soul_of_red = {
+		#Boosts vanguard_socialism
+		random = no
+		authoritarian_socialism_drift = 0.1
+		authoritarian_socialism_acceptance = 10
 	}
 	
 	prominent_reformer = {
@@ -65,17 +76,17 @@ leader_traits = {
 	}
 	
 	gospeler_of_progress = {
-		#Boosts social_democracy
+		#Boosts progressive_liberalism
 		random = no
-		social_liberalism_drift = 0.1
-		social_liberalism_acceptance = 10
+		progressive_liberalism_drift = 0.1
+		progressive_liberalism_acceptance = 10
 	}
 	
 	competitive_capitalist = {
-		#Boosts market_liberalism
+		#Boosts freemarket_liberalism
 		random = no
-		market_liberalism_drift = 0.1
-		market_liberalism_acceptance = 10
+		freemarket_liberalism_drift = 0.1
+		freemarket_liberalism_acceptance = 10
 	}
 	
 	stedfast_traditionalist = {
@@ -83,6 +94,13 @@ leader_traits = {
 		random = no
 		conservative_democracy_drift = 0.1
 		conservative_democracy_acceptance = 10
+	}
+	
+	will_of_iron = {
+		#Boosts authoritarian_democracy
+		random = no
+		authoritarian_democracy_drift = 0.1
+		authoritarian_democracy_acceptance = 10
 	}
 	
 	direct_power_supporter = {
@@ -93,59 +111,24 @@ leader_traits = {
 	}
 	
 	propaganda_master = {
-		#Boosts despotism
+		#Boosts national_syndicalism
 		random = no
-		despotism_drift = 0.1
-		despotism_acceptance = 10
+		national_syndicalism_drift = 0.1
+		national_syndicalism_acceptance = 10
 	}
 	
 	fanatic_extremist = {
-		#Boosts national_extremism
+		#Boosts national_hegemonism
 		random = no
-		national_extremism_drift = 0.1
-		national_extremism_acceptance = 10
+		ultra_reactionary_drift = 0.1
+		ultra_reactionary_acceptance = 10
 	}
 	
-	
-	#Germany
-	council_of_peers = {
-		random = no
-		stability_factor = -0.1
-		political_power_factor = 0.05
-		libertarian_socialism_acceptance = 50
-		council_communism_acceptance = 50
-		independent_socialism_acceptance = 50
-	}
-
-	anarchisten_majority = {
-		stability_factor = -0.1
-		industrial_capacity_factory = 0.1
-		political_power_factor = 0.15
-	}
-
-	dezentralisten_majority = {
-	}
-
-	zentralisten_majority = {
-	}
-
-	#Mongolia
-	beloved_queen_of_mongolia = {
-		random = no
-		political_power_factor = 0.05
-		stability_factor = 0.1
-		cavalry_attack_factor = 0.05
-	}
-	
-	battlemistress = {
-		random = no
-		war_support_factor = 0.1
-		army_speed_factor = 0.02
-		army_morale_factor = 0.05
-	}
-
-	#Asiatic Cavalry Division
+###ACD
 	#Sternberg
+	the_mad_baron = { 
+		ai_focus_aggressive_factor = 0.5
+	}
 	spirit_of_kangchenjunga = {
 		war_support_factor = 0.10
 		army_speed_factor = 0.05
@@ -200,8 +183,310 @@ leader_traits = {
 		army_attack_factor = 0.05
 		army_defence_factor = 0.05
 	}
+	
+###ALB
 
-	#Vanilla Traits
+	#Hoxha
+	syndical_integralist = {
+		ultra_reactionary_acceptance = 20
+		radical_socialism_acceptance = 20
+		national_syndicalism_acceptance = 40
+		national_syndicalism_drift = 0.01
+		war_support_factor = 0.1
+		political_power_gain = 0.06
+	}
+
+###AUS
+	#Dolfuss
+	foremost_austrofascist = {
+		stability_factor = 0.05
+		army_core_defence_factor = 0.03
+		production_speed_industrial_complex_factor = 0.1 
+		ultra_reactionary_acceptance = 25
+	}
+
+###BOL
+	#Busch
+	veteran_of_the_chaco_war = {
+    	war_support_factor = 0.1
+    	army_core_defence_factor = 0.05
+    	production_speed_land_fort_factor = 0.25 
+ 	}
+
+###COG
+	#BCC
+	brutal_exploitation_policies = {
+		local_resources_factor = 0.35
+		stability_factor = -0.2
+		conscription = -0.01
+	}
+
+###CUB
+	#Guiteras
+	studied_many_revolutions = {
+		anarchism_drift = 0.01
+		council_communism_acceptance = 25
+		radical_socialism_acceptance = 25	
+	}
+
+###DEN
+	#Stauning
+	ties_to_the_labor_unions = {
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
+		stability_factor = 0.1
+		council_communism_acceptance = 10
+	}
+
+###FAR
+	#Rasmussen
+	polar_explorer = {
+		acclimatization_cold_climate_gain_factor = 0.25
+		political_power_factor = 0.05
+	}
+
+###FIN
+	#Mannerheim
+	commander_and_regent = {
+		command_power_gain_mult = 0.15
+		training_time_army_factor = -0.1
+		army_core_defence_factor = 0.1
+		army_core_attack_factor = 0.1
+		political_power_gain = 0.05
+	}
+
+###FRA
+	#Rocque
+	the_nationalist_colonel = {
+		stability_factor = 0.1
+		political_power_factor = 0.05
+		land_doctrine_cost_factor = -0.05
+	}
+
+###GER
+	#Executive Council
+	council_of_peers = {
+		random = no
+		stability_factor = -0.1
+		political_power_factor = 0.05
+		anarchism_acceptance = 50
+		council_communism_acceptance = 50
+		radical_socialism_acceptance = 50
+	}
+
+	anarchisten_majority = {
+		stability_factor = -0.1
+		industrial_capacity_factory = 0.1
+		political_power_factor = 0.15
+	}
+
+	dezentralisten_majority = {
+	}
+
+	zentralisten_majority = {
+	}
+
+###GNE
+	#Mikkelsen	
+	royal_commissioner = {
+		stability_factor = 0.2
+		army_defence_factor = 0.1
+	}
+
+###GRE
+	#George II
+	wildly_unpopular_monarch = {
+		stability_factor = -0.25
+		war_support_factor = 0.1
+		political_power_gain_factor = -0.15
+		industrial_capacity_factory = -0.2
+		industrial_capacity_dockyard = -0.2
+	}
+
+###HAI
+	#Duvalier
+	papa_doc = {
+		research_speed_factor = 0.03
+		equipment_bonus = {
+			support = {
+				build_cost_ic = -0.1
+			}
+		}
+	}
+
+###HOL
+	#Bernhard
+	charismatic_adventur_seeker = {
+		opinion_gain_monthly_factor = 0.25
+		political_power_gain = 0.1
+		war_support_factor = 0.1
+	}
+
+	head_in_the_clouds = {
+		experience_gain_air_factor = 0.25
+		extra_paratrooper_supply_grace = 12
+
+		equipment_bonus = {
+			cas = {
+				build_cost_ic = -0.05
+				ground_attack_factor = 0.05
+			}
+
+			fighter = {
+				build_cost_ic = -0.1
+				air_agility_factor = 0.1
+			}
+
+			air_transport = {
+				build_cost_ic = -0.15
+			}
+		}
+	}
+
+###HUN
+	#Totpron
+	brutal_paramilitarist = {
+		resistance_damage_to_garrison = -0.25
+		root_out_resistance_effectiveness_factor = 0.05
+		resistance_decay_on_our_occupied_states = -0.25
+		conscription_factor = -0.1
+		modifier_army_sub_unit_militia_attack_factor = 0.1
+		modifier_army_sub_unit_militia_speed_factor = 0.05
+	}
+
+###IAO
+	#Lettow-Vorbeck
+	lion_of_africa = {
+		modifier_army_sub_unit_irregular_infantry_attack_factor = 0.2
+		modifier_army_sub_unit_irregular_infantry_defence_factor = 0.3
+		modifier_army_sub_unit_irregular_infantry_speed_factor = 0.1
+		army_morale_factor = 0.1
+		max_dig_in_factor = 0.1
+		dig_in_speed_factor = 0.2
+	}
+	
+	#Princess Victoria
+	princess_of_prussia = {
+		stability_factor = 0.15
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	
+	patron_of_tanzania = {
+		political_power_gain_factor = 0.15
+		production_speed_buildings_factor = 0.1
+		recruitable_population_factor = 0.05
+		drift_defence_factor = 0.1
+	}
+	
+	#Himmler
+	reichsfuhrer_SS = {
+		war_support_factor = 0.1
+		drift_defense = 0.5
+		modifier_army_sub_unit_militia_attack_factor = 0.15
+		modifier_army_sub_unit_militia_defense_factor = 0.1
+		army_org = 10
+		resistance_damage_to_garrison = -0.2
+	}
+
+	#Hüttig
+	the_french_connection = {
+		consumer_goods_factor = -0.03
+		custom_modifier_tooltip = IAO_the_french_connection_tt
+	}
+
+###ICE
+	#Þórðarson
+	coca_cola_rule = {
+		trade_opinion_factor = 0.15
+		stability_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		min_export = 0.3
+	}
+
+###ITA
+	#Gramsci
+	leftist_political_theorist = {
+		political_power_gain_factor = 0.1
+		stability_factor = 0.1
+		surrender_limit = 0.1
+	}
+
+	ill_equipped_for_statesmanship = {
+		political_power_gain_factor = -0.15
+		stability_factor = -0.15
+		surrender_limit = -0.15
+	}
+
+###JAP
+	#Prince Konoe
+	imperial_toadie = {
+		war_support_factor = 0.15
+		stability_modifier = 0.25
+		political_power_gain = -0.1
+		drift_defence_factor = 0.5
+	}
+
+###MON
+	#Genepil
+	beloved_queen_of_mongolia = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.1
+		cavalry_attack_factor = 0.05
+	}
+	
+	battlemistress = {
+		random = no
+		war_support_factor = 0.1
+		army_speed_factor = 0.02
+		army_morale_factor = 0.15
+	}
+
+###PAR
+	#Franco
+	provisional_president_of_paraguay = {
+		stability_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		army_core_defence_factor = 0.1
+	}
+
+###POL
+	#Dmowksi
+	national_democracy_advocate = {
+		war_support = 0.15
+		political_power_gain = 0.15
+		authoritarian_democracy_acceptance = 25
+	}
+
+###POR
+	#Pessoa
+	man_of_many_heteronyms = {
+		stability_factor = -0.2
+		custom_modifier_tooltip = POR_pesoa_insane_tt
+	}
+
+###SOV
+	#Lenin
+	father_of_the_revolution = {
+		authoritarian_socialism_drift = 0.02
+		authoritarian_acceptance = 50
+		drift_defence_factor = 0.2
+		political_power_factor = 0.2
+		stability_factor = -0.1
+	}
+
+#TAN
+	anti_monarchist = {
+		autocracy_drift = -0.01
+		autocracy_acceptance = -30
+		drift_defence_factor = 0.1
+	}
+
+###Vanilla Traits
 	dictator = {
 		random = no
 		political_power_factor = 0.25
@@ -560,8 +845,6 @@ leader_traits = {
 	generallissimo = {
 		random = no
 		defensive_war_stability_factor = 0.4
-		attack = 0.05
-		defense = 0.05
 	}
 
 	great_architect = {
@@ -5455,6 +5738,666 @@ leader_traits = {
 
 		ai_will_do = {
 			factor = 500
+		}
+	}
+
+	aircraft_manufacturer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_aircraft_manufacturer = {
+		random = no
+		equipment_bonus = {
+			small_plane_airframe = {
+				air_agility = 0.1 maximum_speed = 0.1
+			}
+			cv_small_plane_airframe = {
+				air_agility = 0.1 maximum_speed = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_aircraft_manufacturer_2 = {
+		random = no
+		equipment_bonus = {
+			small_plane_airframe = {
+				air_agility = 0.2 maximum_speed = 0.1
+			}
+			cv_small_plane_airframe = {
+				air_agility = 0.2 maximum_speed = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	CAS_manufacturer = {
+		random = no
+		equipment_bonus = {
+			small_plane_cas_airframe = {
+				air_ground_attack = 0.1 reliability = 0.1
+			}
+			cv_small_plane_cas_airframe = {
+				air_ground_attack = 0.1 reliability = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	medium_aircraft_manufacturer = {
+		random = no
+		equipment_bonus = {
+			medium_plane_fighter_airframe = {
+				reliability = 0.2
+			}
+			medium_plane_airframe = {
+				reliability = 0.2
+			}
+			medium_plane_scout_plane_airframe = {
+				reliability = 0.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fuel_efficient_aircraft_manufacturer = {
+		random = no
+		equipment_bonus = {
+			small_plane_airframe = {
+				air_range = 0.1
+			}
+			medium_plane_fighter_airframe = {
+				air_range = 0.1
+				reliability = 0.2
+			}
+			medium_plane_airframe = {
+				reliability = 0.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_aircraft_manufacturer = {
+		random = no
+		equipment_bonus = {
+
+			large_plane_airframe = {
+				air_bombing = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_aircraft_manufacturer = {
+		random = no
+		equipment_bonus = {
+			small_plane_naval_bomber_airframe = {
+				air_range = 0.1 naval_strike_attack = 0.1
+			}
+			cv_small_plane_naval_bomber_airframe = {
+				air_range = 0.1 naval_strike_attack = 0.1
+			}
+			cv_small_plane_airframe = {
+				air_range = 0.1 air_agility = 0.1
+			}
+			cv_small_plane_cas_airframe = {
+				air_range = 0.1 naval_strike_attack = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	multi_role_aircraft_manufacturer = {
+		random = no
+		equipment_bonus = {
+			small_plane_naval_bomber_airframe = {
+				reliability = 0.1
+			}
+			medium_plane_airframe = {
+				reliability = 0.1
+			}
+			small_plane_cas_airframe = {
+				reliability = 0.1
+			}
+			medium_plane_scout_plane_airframe = {
+				reliability = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tank_refurbishment_plant = { #NSB
+		random = no
+		#generic
+
+		equipment_bonus = {
+			armor = {
+				reliability = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fast_tank_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				maximum_speed = 0.05 reliability = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	armored_car_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armored_car_equipment = {
+				maximum_speed = 0.05
+				soft_attack = 0.05
+				hard_attack = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_tank_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				soft_attack = 0.05
+				armor_value = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	medium_tank_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				reliability = 0.05 soft_attack = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_tank_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				armor_value = 0.05 hard_attack = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tank_manufacturer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			armor = {
+				reliability = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	repair_and_refurbishment_plant = { #NSB - Repairs & Refit
+		random = no
+		equipment_bonus = {
+			screen_ship = {
+				build_cost_ic = -0.05
+			}
+			submarine = {
+				build_cost_ic = -0.05
+			}
+			capital_ship = {
+				build_cost_ic = -0.05
+			}
+			carrier = {
+				build_cost_ic = -0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	black_sea_naval_manufacturer = { #NSB - Screen Ships and Submarines
+		random = no
+
+		equipment_bonus = {
+			screen_ship = {
+				build_cost_ic = -0.15 sub_detection = 0.1 naval_range = -0.25
+			}
+			submarine = {
+				build_cost_ic = -0.15 sub_visibility = -0.1 naval_range = -0.25
+			}
+			carrier = {
+				build_cost_ic = 0.15 naval_range = -0.25
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	submarine_manufacturer = {
+		random = no
+		equipment_bonus = {
+			carrier = {
+				build_cost_ic = 0.1
+			}
+			capital_ship = {
+				build_cost_ic = 0.1
+			}
+			screen_ship = {
+				build_cost_ic = 0.1
+			}
+			submarine = {
+				build_cost_ic = -0.1 sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1 naval_range = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	submarine_manufacturer_2 = { #Improved version used for Italy (done in trait in order to keep a nice tooltip)
+		random = no
+		equipment_bonus = {
+			carrier = {
+				build_cost_ic = 0.1
+			}
+			capital_ship = {
+				build_cost_ic = 0.1
+			}
+			screen_ship = {
+				build_cost_ic = 0.1
+			}
+			submarine = {
+				build_cost_ic = -0.15 sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.15 naval_range = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pacific_fleet_naval_manufacturer = { #longer ranged, CVs favor larger hangers over armor
+		random = no
+		equipment_bonus = {
+			carrier = {
+				carrier_size = 1 armor_value = -0.15 naval_range = 0.25
+			}
+			capital_ship = {
+				naval_range = 0.25
+			}
+			screen_ship = {
+				naval_range = 0.25
+			}
+			submarine = {
+				naval_range = 0.25
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	atlantic_fleet_naval_manufacturer = { #armored carriers, slightly buffed cap ships
+		random = no
+		equipment_bonus = {
+			carrier = {
+				armor_value = 0.5
+				max_strength = 0.1
+			}
+			capital_ship = {
+				armor_value = 0.1
+				hg_attack = 0.1
+			}
+			#screen_ship = {
+			#
+			#}
+			#submarine = {
+			#
+			#}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battlefleet_designer = { #armored carriers, slightly buffed cap ships
+		random = no
+		equipment_bonus = {
+			capital_ship = {
+				armor_value = 0.15
+				hg_attack = 0.15
+			}
+			screen_ship = {
+				torpedo_attack = 0.25
+				sub_detection = -0.25
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	raiding_fleet_naval_manufacturer = {
+		random = no
+		equipment_bonus = {
+			carrier = {
+				surface_visibility = -0.1
+				naval_speed = 0.1
+				#carrier_size = -0.1
+			}
+			capital_ship = {
+				surface_visibility = -0.1 naval_speed = 0.1 hg_attack = -0.1
+			}
+			screen_ship = {
+				surface_visibility = -0.1 naval_speed = 0.1
+			}
+			submarine = {
+				sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	convoy_escort_naval_manufacturer = {
+		random = no
+		equipment_bonus = {
+			screen_ship = {
+				naval_range = 0.3 sub_detection = 0.1 naval_speed = 0.1 build_cost_ic = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mediterranean_naval_manufacturer = {
+		random = no
+		equipment_bonus = {
+			capital_ship = {
+				naval_range = -0.25 naval_speed = 0.1
+			}
+			screen_ship = {
+				naval_range = -0.25 naval_speed = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	coastal_defence_naval_manufacturer = {
+		random = no
+		equipment_bonus = {
+			carrier = {
+				build_cost_ic = -0.25
+				#carrier_size = -0.2
+				naval_range = -0.5
+			}
+			capital_ship = {
+				build_cost_ic = -0.25 armor_value = -0.2 hg_attack = -0.2 naval_range = -0.5
+			}
+			screen_ship = {
+				build_cost_ic = -0.25 naval_range = -0.5
+			}
+			submarine = {
+				build_cost_ic = -0.25 naval_range = -0.5
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_manufacturer = {
+		random = no
+		#generic
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	artillery_manufacturer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_equipment_manufacturer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	support_equipment_manufacturer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	motorized_equipment_manufacturer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	industrial_concern = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	railway_company = {
+		random = no
+		production_speed_rail_way_factor = 0.15
+		production_speed_supply_node_factor = 0.15
+		equipment_bonus = {
+			train_equipment = {
+				instant = yes
+				build_cost_ic = -0.25
+				reliability = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	construction_company = {
+		random = no
+
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	refinery_concern = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	electronics_concern = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	electronics_developer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	british_industrial_benefactor = {
+		random = no
+
+		production_speed_infrastructure_factor = 0.05
+		industrial_capacity_dockyard = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	german_technological_patron = {
+		random = no
+
+		industrial_capacity_factory = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_council_on_the_management_of_turkish_debt = {
+		random = no
+
+		min_export = 0.3
+		opinion_gain_monthly_factor = -0.05
+		consumer_goods_factor = 0.05
+		political_power_gain = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	turkish_public_debt_administration = {
+		random = no
+
+		min_export = 0.15
+		political_power_gain = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	linchpin_of_infrastructure = {
+		random = no
+
+		production_speed_infrastructure_factor = 0.15
+		production_speed_rail_way_factor = 0.15
+		industry_repair_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	industrial_monopoly = {
+		random = no
+
+		min_export = 0.15
+		political_power_gain = -0.05
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inventive_genius = {
+		random = no
+
+		political_power_gain = 0.05
+		opinion_gain_monthly_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 

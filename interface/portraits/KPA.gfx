@@ -1,6 +1,0 @@
-spriteTypes = {
-    spriteType = {
-        name = "GFX_portrait_KPA_Kim_Jwa-Jin"
-        texturefile = "gfx/leaders/KPA/portrait_KPA_Kim_Jwa-Jin.png"
-    }
-}

@@ -15,8 +15,7 @@ recruit_character = SHA_zhang_zongchang
 #Ideas
 add_ideas = {
 	japanese_economic_dominance1
-	SHA_red_spear_society
-	SHA_white_russian_soldiers
+	red_spear_society
 }
 
 #Miscellaneous
@@ -37,10 +36,10 @@ set_politics = {
 set_popularities = {
 	autocracy = 45
 	council_communism = 5
-	vanguard_socialism = 5
-	independent_socialism = 5
+	authoritarian_socialism = 5
+	radical_socialism = 5
 	social_democracy = 5
 	authoritarian_democracy = 15
   	national_syndicalism = 0
-  	national_populism = 20
+  	ultra_reactionary = 20
 }

@@ -62,6 +62,10 @@ spriteTypes = {
 		name = "GFX_idea_GER_peoples_production"
 		texturefile = "gfx/interface/ideas/GER/GER_peoples_production.png"
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 	#Poland
 	spriteType = {
 		name = "GFX_idea_idea_POL_divided_government"

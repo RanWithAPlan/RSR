@@ -8,9 +8,8 @@ state={
 	
 	
 	history={
-		owner = XSM
-		add_core_of = XSM
-		add_claim_by = BEY
+		owner = BEY
+		add_core_of = BEY
 		add_claim_by = KMT
 		add_claim_by = PUF
 		add_core_of = MON

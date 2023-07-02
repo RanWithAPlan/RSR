@@ -1,6 +1,0 @@
-spriteTypes = {
-    spriteType = {
-        name = "GFX_portrait_KMT_Li_Zongren"
-        texturefile = "gfx/leaders/KMT/portrait_KMT_Li_Zongren.png"
-    }
-}

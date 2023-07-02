@@ -90,13 +90,18 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
+<<<<<<< HEAD
 	ruling_party = libertarian_socialism
+=======
+	ruling_party = anarchism
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 
 #Popularities
 set_popularities = {
+<<<<<<< HEAD
 	libertarian_socialism = 100
 	council_communism = 0
 	vanguard_socialism = 0
@@ -104,11 +109,24 @@ set_popularities = {
 	social_democracy = 0
 	social_liberalism = 0
 	market_liberalism = 0
+=======
+	anarchism = 100
+	council_communism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
+	social_democracy = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
   	national_syndicalism = 0
+<<<<<<< HEAD
   	national_populism = 0
+=======
+  	ultra_reactionary = 0
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 }
 
 #Variants

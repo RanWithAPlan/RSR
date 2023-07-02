@@ -11,19 +11,21 @@ state={
 	
 
 	history={
-		owner = IRQ
+		owner = PER
 		buildings = {
 			infrastructure = 3 #was: 5
+			5005 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			7953 1 
 		}
 		add_core_of = PER
-		add_core_of = IRQ
 	}
 
 	provinces={
-		1922 5005 7953 13278 
+		1922 5005 5089 7953 
 	}
 
 	local_supplies=0.0 

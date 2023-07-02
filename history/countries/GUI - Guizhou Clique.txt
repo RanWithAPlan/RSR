@@ -25,7 +25,7 @@ set_research_slots = 2
 
 #Politics
 set_politics = {
-	ruling_party = libertarian_socialism
+	ruling_party = anarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,16 +33,16 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	libertarian_socialism = 100
+	anarchism = 100
 	council_communism = 0
-	vanguard_socialism = 0
-	independent_socialism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
 	social_democracy = 0
-	social_liberalism = 0
-	market_liberalism = 0
+	progressive_liberalism = 0
+	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
   	national_syndicalism = 0
-  	national_populism = 0
+  	ultra_reactionary = 0
 }

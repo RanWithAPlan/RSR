@@ -90,7 +90,7 @@ add_to_tech_sharing_group = commonwealth_research
 
 #Politics
 set_politics = {
-	ruling_party = market_liberalism
+	ruling_party = freemarket_liberalism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
@@ -99,18 +99,18 @@ set_politics = {
 #Popularities
 set_popularities = {
 	set_popularities = {
-	libertarian_socialism = 0
+	anarchism = 0
 	council_communism = 1
-	vanguard_socialism = 0
-	independent_socialism = 0
+	authoritarian_socialism = 0
+	radical_socialism = 0
 	social_democracy = 10
-	social_liberalism = 1
-	market_liberalism = 48
+	progressive_liberalism = 1
+	freemarket_liberalism = 48
 	conservative_democracy = 31
 	authoritarian_democracy = 0
 	autocracy = 9
   	national_syndicalism = 0
-  	national_populism = 0
+  	ultra_reactionary = 0
 }
 
 #Variants	

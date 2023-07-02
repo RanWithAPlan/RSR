@@ -54,9 +54,9 @@ country_event = {
         ai_chance = {
             base = 20
         }
-        set_politics = { ruling_party = libertarian_socialism}
+        set_politics = { ruling_party = anarchism}
         add_popularity = {
-	        ideology = libertarian_socialism
+	        ideology = anarchism
 	        popularity = 0.05
         }
         set_country_flag = GER_anarchisten_election 
@@ -80,9 +80,9 @@ country_event = {
         ai_chance = {
             base = 15
         }
-        set_politics = { ruling_party = independent_socialism }
+        set_politics = { ruling_party = radical_socialism }
         add_popularity = {
-	        ideology = independent_socialism
+	        ideology = radical_socialism
 	        popularity = 0.05
         }
         set_country_flag = GER_USPD_election 
@@ -185,6 +185,7 @@ country_event = {
         unlock_national_focus = GER_the_kpd_direction
     }
 }
+<<<<<<< HEAD
 country_event = {
     id = socgermany.9
     title = socgermany.9.t
@@ -210,6 +211,8 @@ country_event = {
         add_threat = 10
     }
 }
+=======
+>>>>>>> parent of 7ad84a7 (Merge branch 'Germany')
 
 add_namespace = unity_event
 country_event = {
@@ -217,18 +220,26 @@ country_event = {
     title = unity_event.1.t
     desc = unity_event.1.d
     is_triggered_only = yes
+    
     option = {
         name = unity_event.1.a
         ai_chance = {
             base = 20
         }
-        set_politics = { ruling_party = council_communism }
+        set_politics = { ruling_party = anarchism}
     }
     option = {
         name = unity_event.1.b
         ai_chance = {
             base = 20
         }
-        set_politics = { ruling_party = independent_socialism }
+        set_politics = { ruling_party = council_communism }
+    }
+    option = {
+        name = unity_event.1.c
+        ai_chance = {
+            base = 20
+        }
+        set_politics = { ruling_party = radical_socialism }
     }
 }

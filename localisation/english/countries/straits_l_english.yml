@@ -1,7 +1,0 @@
-﻿l_english:
- STA:0 "International Straits Zone"
- STA_DEF:0 "the International Straits Zone"
- STA_ADJ:0 "Strait"
- STA_subject:0 "$OVERLORDADJ$ $STA$"
- STA_subject_DEF:0 "$OVERLORDADJ$ $STA$"
- 
