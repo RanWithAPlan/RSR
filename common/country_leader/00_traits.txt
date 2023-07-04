@@ -12,6 +12,7 @@
 
 ###Todo remove commented advisor experience gains
 
+
 leader_traits = {
 	
 ###RSR General
