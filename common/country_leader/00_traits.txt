@@ -15,7 +15,26 @@
 leader_traits = {
 	
 ###RSR General
-	
+
+###New Generic
+agrarian_expert = {
+	monthly_population = 0.15
+	consumer_goods_factor = -0.03
+	production_speed_industrial_complex_factor = 0.05
+}
+
+staunch_pacifist = {
+	stability_factor = 0.2
+	war_support_factor = -0.3
+}
+
+champion_of_reform = {
+	conscription_factor = 0.05
+	stability_factor = 0.1
+	political_advisor_cost_factor = -0.15
+}
+
+
 ###Demagogues
 	voice_of_anarchy = {
 		#Boosts anarchism
@@ -162,7 +181,6 @@ leader_traits = {
 	}
 	
 ###ALB
-
 	#Hoxha
 	syndical_integralist = {
 		ultra_reactionary_acceptance = 20
@@ -342,6 +360,16 @@ leader_traits = {
 		dig_in_speed_factor = 0.2
 	}
 	
+	#Waldeck
+	hatred_for_boers = {
+		targeted_modifier = {
+			tag = SAF
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		custom_modifier_tooltip = IAO_hatred_for_boers_tt
+	}
+
 	#Princess Victoria
 	princess_of_prussia = {
 		stability_factor = 0.15
@@ -373,6 +401,18 @@ leader_traits = {
 	the_french_connection = {
 		consumer_goods_factor = -0.03
 		custom_modifier_tooltip = IAO_the_french_connection_tt
+	}
+
+	#Deimling
+	british_appeaser = {
+		stability_factor = 0.05
+		custom_modifier_tooltip = IAO_british_appeaser_tt
+	}
+
+	#Detzner
+	the_man_from_many_colonies = {
+		non_core_manpower = 0.05
+		acclimatization_hot_climate_gain_factor = 0.1
 	}
 
 ###ICE

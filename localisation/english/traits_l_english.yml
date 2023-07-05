@@ -1,5 +1,10 @@
 ﻿l_english:
  #generic advisors
+ agrarian_expert:0 "Agrarian Expert"
+ champion_of_reform:0 "Champion of Reform"
+ staunch_pacifist:0 "Staunch Pacifist"
+
+ #Demagouges
  voice_of_anarchy:0 "Voice of Anarchy"
  voice_of_anarchy_desc:0 "A politician who will work increase the support for §AAnarchism§!."
  party_newspaper_editor:0 "Party Newspaper Editor"
@@ -118,22 +123,16 @@
 
  ### IAO ###
  lion_of_africa:0 "Lion of Africa"
- lion_of_africa_desc:0 ""
-
+ hatred_for_boers:0 "Hatred for Boers"
  princess_of_prussia:0 "Princess of Prussia"
- princess_of_prussia_desc:0 ""
- 
  patron_of_tanzania:0 "Patron of Tanzania"
- patron_of_tanzania_desc:0 ""
- 
- reichsfuhrer_SS:0 "SS Reichsfuhrer"
- reichsfuhrer_SS_desc:0 ""
- 
- father_of_modern_propaganda:0 "Father of Modern Propaganda"
- father_of_modern_propaganda_desc:0 ""
- 
- careerist_master:0 "Careerist Master"
- careerist_master_desc:0 ""
+ reichsfuhrer_SS:0 "Reichsführer-SS"
+ the_french_connection:0 "The French Connection"
+ british_appeaser:0 "British Appeaser"
+ german_separatist:0 "German Separatist"
+ colonial_governor:0 "Colonial Governor"
+ british_appeaser:0 "British Appeaser"
+ the_man_from_many_colonies:0 "The Man from many Colonies"
 
  ###ICE###
  coca_cola_rule:0 "Coca-Cola Rule"

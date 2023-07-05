@@ -85,6 +85,31 @@ characters = {
 		}
 	}
 
+	IAO_karl_waldeck={
+		name = IAO_karl_waldeck
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_karl_waldeck_large"
+				small = "GFX_portrait_IAO_karl_waldeck_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { organizer infantry_officer schutztruppe_commander trickster }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_karl_waldeck
+  			traits = { hatred_for_boers }
+		}
+	}
+
 	IAO_victoria_louise={
 		name = IAO_victoria_louise
 		gender = female
@@ -96,7 +121,7 @@ characters = {
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={ patron_of_tanzania }
+			traits={ princess_of_prussia patron_of_tanzania }
 			expire="1965.1.1.1"
 		}
 
@@ -167,6 +192,75 @@ characters = {
 		}
 	}
 
+	IAO_herbert_gille = {
+		name = IAO_herbert_gille
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_herbert_gille_large"
+				small = "GFX_portrait_IAO_herbert_gille_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { armor_officer armor_leader engineer }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+		}
+
+		advisor = {
+			slot = high_command
+    		idea_token = IAO_herbert_gille
+   			ledger = army
+  			traits = { army_armored_2 }
+		}
+	}
+
+	IAO_herman_von_der_heyde = {
+		name = IAO_herman_von_der_heyde
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_herman_von_der_heyde_large"
+				small = "GFX_portrait_IAO_herman_von_der_heyde_small"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_herman_von_der_heyde
+   			ledger = army
+  			traits = { war_industrialist economist }
+		}
+	}
+
+	IAO_theodor_eicke = {
+		name = IAO_theodor_eicke
+		portraits={
+			civilian={
+				large = "GFX_portrait_IAO_theodor_eicke_large"
+				small = "GFX_portrait_IAO_theodor_eicke_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { war_hero cavalry_officer combined_arms_expert }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+		}
+
+		advisor = {
+			slot = high_command
+    		idea_token = IAO_herbert_gille
+   			ledger = army
+  			traits = { army_combined_arms_2 }
+		}
+	}
+
 	#Schnee sounds like a Dr. Seuss character. Very close to thneed.
 	IAO_heinrich_schnee = {
 		name = IAO_heinrich_schnee
@@ -216,7 +310,37 @@ characters = {
 		}
 	}
 
+	IAO_ludwig_von_estorff = {
+		name = IAO_ludwig_von_estorff
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_ludwig_von_estorff_large"
+				small = "GFX_portrait_IAO_ludwig_von_estorff_small"
+			}
+		}
 
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_erich_von_gilsa
+  			traits = { champion_of_reform }
+		}
+	}
+
+	IAO_theodor_von_hassel = {
+		name = IAO_theodor_von_hassel
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_theodor_von_hassel_large"
+				small = "GFX_portrait_IAO_theodor_von_hassel_small"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_erich_von_gilsa
+  			traits = { agrarian_expert }
+		}
+	}
 
 	#Unaligned (aka the grillers)
 	IAO_berthold_von_deimling = {
@@ -252,7 +376,63 @@ characters = {
 		advisor = {
 			slot = political_advisor
     		idea_token = IAO_hans_hollander
-  			traits = { stedfast_traditionalist }
+  			traits = { stedfast_traditionalist silent_workhorse }
+		}
+	}
+
+	IAO_hermann_detzner = {
+		name = IAO_hermann_detzner
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_hermann_detzner_large"
+				small = "GFX_portrait_IAO_hermann_detzner_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { media_personality engineer fortress_buster }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+		}
+
+		advisor = {
+			slot = political_advisor
+    		idea_token = IAO_hermann_detzner
+  			traits = { the_man_from_many_colonies }
+		}
+
+		advisor = {
+			slot = high_command
+    		idea_token = IAO_hermann_detzner
+  			traits = { army_artillery_1 }
+		}
+	}
+
+	IAO_martin_franz_chales_de_beaulieu = {
+		name = IAO_martin_franz_chales_de_beaulieu
+		portraits={
+			civilian={
+				large="GFX_portrait_IAO_martin_franz_chales_de_beaulieu_large"
+				small = "GFX_portrait_IAO_martin_franz_chales_de_beaulieu_small"
+			}
+		}
+
+		corps_commander = {
+			traits = { war_hero infantry_officer infantry_expert skilled_staffer }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 1
+		}
+
+		advisor = {
+			slot = high_command
+    		idea_token = IAO_martin_franz_chales_de_beaulieu
+  			traits = { army_regrouping_3 }
 		}
 	}
 }
