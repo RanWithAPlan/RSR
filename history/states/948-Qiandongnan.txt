@@ -1,0 +1,22 @@
+
+state={
+	id=948
+	name="STATE_948"
+	history={
+		owner = GUI
+		add_core_of = GUI
+		add_claim_by = PUF
+		add_claim_by = KMT
+		add_claim_by = BEY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1474 4532 7521 7549 7577 8095 10616 
+	}
+	manpower=4619744 
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}
