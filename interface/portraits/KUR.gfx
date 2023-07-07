@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_KUR_Nuri_Dersimi_RSR"
+        texturefile = "gfx/leaders/KUR/portrait_KUR_Nuri_Dersimi_RSR.png"
+    }
+}

@@ -1,0 +1,16 @@
+characters = {
+	PPR_ehsanollah_dustdar = {
+		name = PPR_ehsanollah_dustdar_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_PPR_ehsanollah_dustdar_RSR"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { }
+			ideology = vanguard_socialism_subtype
+		}
+	}
+}

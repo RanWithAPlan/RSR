@@ -1,0 +1,41 @@
+﻿capital = 940
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	fuel_silos = 1
+}
+
+#Characters
+recruit_character=ARM_Rouben_Minassian
+#Ideas
+add_ideas = {
+}
+
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	social_democracy = 35
+	council_communism = 0
+	vanguard_socialism = 0
+	independent_socialism = 15
+	social_liberalism = 20
+	market_liberalism = 20
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 0
+  	national_syndicalism = 0
+  	national_populism = 10
+}

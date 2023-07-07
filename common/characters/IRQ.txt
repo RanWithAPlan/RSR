@@ -1,0 +1,15 @@
+characters = {
+	IRQ_Sheikh_Khazal = {
+		name = IRQ_Sheikh_Khazal_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_IRQ_Sheikh_Khazal"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = autocracy_subtype
+		}
+	}
+}

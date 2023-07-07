@@ -1,0 +1,16 @@
+characters = {
+	BEY_Zhang_Zuolin = {
+		name = BEY_Zhang_Zuolin_name
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BEY_Zhang_Zuolin"
+			}
+		}
+
+		country_leader = {
+			expire = "1965.1.1"
+			traits = { generallissimo }
+			ideology = autocracy_subtype
+		}
+	}
+}
