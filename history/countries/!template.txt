@@ -24,7 +24,7 @@ set_war_support = 0.5
 set_convoys = 0
 set_research_slots = 2
 
-#Diplomacy, wars, factions, and other such things here
+#Diplomacy, wars, factions, and other such things go here
 
 #Politics
 set_politics = {
@@ -50,4 +50,4 @@ set_popularities = {
 	ultra_reactionary = 0
 }
 
-#Variants
+#Equipment Variants
