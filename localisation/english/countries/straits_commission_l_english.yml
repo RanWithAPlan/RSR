@@ -1,0 +1,38 @@
+﻿ l_english:
+ 
+ 
+ #Country Names
+ STA:0 "International Straits Commission"
+ STA_DEF:0 "the International Straits Commission"
+ STA_ADJ:0 "Straits Commission"
+ STA_subject:0 "$OVERLORDADJ$ $STA$"
+ STA_subject_DEF:0 "$OVERLORDADJ$ $STA$"
+ 
+ #Parties
+ STA_anarchism_party:0 "KYS"
+ STA_anarchism_party_long:0 "Kuva-yi Seyyare"
+ STA_radical_socialism_party:0 "KYS"
+ STA_radical_socialism_party_long:0 "Kuva-yi Seyyare"
+ STA_council_communism_party:0 "KYS"
+ STA_council_communism_party_long:0 "Kuva-yi Seyyare"
+ STA_authoritarian_socialism_party:0 "Soviet Russian Representative Office" #If the Entente Allows the Soviet Russians In as Apposed to the Whites
+ STA_authoritarian_socialism_party_long:0 "Commission Office of the Russian Socialist Soviet Republic"
+ STA_social_democracy_party:0 "Non-Partisan Commission Office"
+ STA_social_democracy_party_long:0 "Social Democracy"
+ STA_freemarket_liberalism_party:0 "United States Representative Commission"
+ STA_freemarket_liberalism_party_long:0 "Commission Office of the United States of America"
+ STA_progressive_liberalism_party:0 "Non-Partisan Commission Office"
+ STA_progressive_liberalism_party_long:0 "Non-Partisan Commission Office"
+ STA_conservative_democracy_party:0 "United Kingdom Representative Commission"
+ STA_conservative_democracy_party_long:0 "Commission Office of the United Kingdom"
+ STA_authoritarian_democracy_party:0 "French Representative Office"
+ STA_authoritarian_democracy_party_long:0 "Commission Office of the Republic of France"
+ STA_autocracy_party:0 "Russian Representative Office"
+ STA_autocracy_party_long:0 "Commission Office of the Russian State"
+ STA_ultra_reactionary_party:0 "Greek Representative Office"
+ STA_ultra_reactionary_party_long:0 "Commission Office of the Kingdom of Greece"
+ STA_national_syndicalism_party:0 "Zveno"
+ STA_national_syndicalism_party_long:0 "Zveno Irredentialists"
+ 
+ #Characters
+ STA_name:0 ""
