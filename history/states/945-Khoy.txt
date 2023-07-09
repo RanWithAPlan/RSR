@@ -2,7 +2,7 @@ state={
 	id=945
 	name="STATE_945"
 	provinces={
-		1636 13279 
+		1636 
 	}
 	history = {
 		owner = KUR
@@ -10,9 +10,6 @@ state={
 		addd_core_of = AZR
 		add_claim_by = PPR
 		add_claim_by = PER
-		victory_points = {
-			7604 1 
-		}
 		victory_points = {
 			1636 1 
 		}
