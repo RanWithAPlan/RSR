@@ -4,4 +4,15 @@ spriteTypes = {
 		name = "GFX_decision_cat_picture_GER_executive_council"
 		texturefile = "gfx/interface/decisions/decision_cat_picture_GER_executive_council.dds"
 	}
+
+	#Denmark
+	spriteType = {
+		name = "GFX_decision_category_struggle_for_denmark"
+		texturefile = "gfx/interface/decisions/decision_category_struggle_for_denmark.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_picture_struggle_for_denmark"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_struggle_for_denmark.dds"
+	}
+
 }

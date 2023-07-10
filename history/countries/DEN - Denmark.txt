@@ -60,6 +60,7 @@ if = {
 #Characters
 #leaders
 recruit_character = DEN_Stauning
+recruit_character = DEN_Christian_X
 
 #Ideas
 
@@ -69,27 +70,34 @@ set_stability = 0.9
 set_war_support = 0.1
 set_convoys = 40
 
+#Variables and flags
+set_country_flag = DEN_power_struggle_enabled
+set_variable = { DEN_king_power = 50 }
+set_variable = { DEN_opposition_power = 50 }
+set_variable = { DEN_colonial_power = 50 }
+
+
 #Diplomacy, wars, factions, and other such things here
 
 #Politics
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = authoritarian_democracy
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 #Popularities
 set_popularities = {
-	council_communism = 1
-	anarchism = 0
-	radical_socialism = 2
-	social_democracy = 46
-	progressive_liberalism = 10
-	freemarket_liberalism = 19
-	conservative_democracy = 18
-	authoritarian_democracy = 3
-	autocracy = 0
-	ultra_reactionary = 1
+	council_communism = 16
+	anarchism = 11
+	radical_socialism = 6
+	social_democracy = 10
+	progressive_liberalism = 5
+	freemarket_liberalism = 6
+	conservative_democracy = 8
+	authoritarian_democracy = 31
+	autocracy = 2
+	ultra_reactionary = 5
 }
 
 #Variants

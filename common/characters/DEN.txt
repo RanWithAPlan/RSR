@@ -14,9 +14,19 @@ characters={
 			expire="1965.1.1.1"
 		}
 	}
-
-
-
+	DEN_Christian_X={
+		name = DEN_Christian_X
+		portraits={
+			civilian={
+				large="GFX_portrait_DEN_Christian_X"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			traits={ }
+			expire="1965.1.1.1"
+		}
+	}
 
 
 

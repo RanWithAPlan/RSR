@@ -33,8 +33,8 @@
  DEN_subject_DEF:0 "$OVERLORDADJ$ $DEN$"
  
  #Parties
- DEN_anarchism_party:0 "DKP (A)"
- DEN_anarchism_party_long:0 "Danmarks Kommunistiske Parti (A)"
+ DEN_anarchism_party:0 "Arbejdets Parti"
+ DEN_anarchism_party_long:0 "Arbejdets Parti"
  DEN_radical_socialism_party:0 "DKP (S)"
  DEN_radical_socialism_party_long:0 "Danmarks Kommunistiske Parti (S)"
  DEN_council_communism_party:0 "Schleswigsche Partei"
@@ -49,8 +49,8 @@
  DEN_progressive_liberalism_party_long:0 "Radikale Venstre"
  DEN_conservative_democracy_party:0 "DKF"
  DEN_conservative_democracy_party_long:0 "Det Konservative Folkeparti"
- DEN_authoritarian_democracy_party:0 "Hæren"
- DEN_authoritarian_democracy_party_long:0 "Hæren"
+ DEN_authoritarian_democracy_party:0 "DS"
+ DEN_authoritarian_democracy_party_long:0 "Dansk Samling"
  DEN_autocracy_party:0 "Bondepartiet"
  DEN_autocracy_party_long:0 "Bondepartiet"
  DEN_ultra_reactionary_party:0 "DNSA"
@@ -60,4 +60,9 @@
  
  #Characters
  DEN_Stauning: "Thorvald Stauning"
+ DEN_Christian_X: "Christian X"
+
+#Decisions
+DEN_power_struggle:0 "The Struggle for Power"
+DEN_power_struggle_desc:0 "Ever since his ascension to power, King Christian has slowly entrenched his control of the political system and built up a political machine. The country is now divided along the lines of those who seek to tear down the institutions and those who seek to solidify them. Both sides have to walk a tightrope as one wrong move could spell open rebellion. Opportunists in the colonies seek to exploit the situation to their own benefit.\n\nRoyal Influence [?DEN.DEN_king_power]\nOpposition Influence [?DEN.DEN_opposition_power]\nColony Influence [?DEN.DEN_colonial_power]"
  
