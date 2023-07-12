@@ -1,0 +1,19 @@
+DEN_power_struggle = {
+	danish_civil_war = {
+		activation = { has_country_flag = DEN_power_struggle_enabled }
+		days_mission_timeout = 1461
+		is_good = no
+		available = { has_stability < 0.3 }
+		complete_effect = {
+			start_civil_war = {
+				ideology = council_communism
+				size = DEN_opposition_power / 100
+				states = 37
+				capital = 37
+			}
+		}
+		keep_political_leader = yes
+		keep_political_party_members = yes
+
+	}
+}

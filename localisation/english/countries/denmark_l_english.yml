@@ -64,5 +64,5 @@
 
 #Decisions
 DEN_power_struggle:0 "The Struggle for Power"
-DEN_power_struggle_desc:0 "Ever since his ascension to power, King Christian has slowly entrenched his control of the political system and built up a political machine. The country is now divided along the lines of those who seek to tear down the institutions and those who seek to solidify them. Both sides have to walk a tightrope as one wrong move could spell open rebellion. Opportunists in the colonies seek to exploit the situation to their own benefit.\n\nRoyal Influence [?DEN.DEN_king_power]\nOpposition Influence [?DEN.DEN_opposition_power]\nColony Influence [?DEN.DEN_colonial_power]"
+DEN_power_struggle_desc:0 "Ever since his ascension to power, King Christian has slowly entrenched his control of the political system and built up a political machine. The country is now divided along the lines of those who seek to tear down the institutions and those who seek to solidify them. Both sides have to walk a tightrope as one wrong move could spell open rebellion. Opportunists in the colonies seek to exploit the situation to their own benefit.\n\n§8Royal Influence§! [?DEN.DEN_king_power]£GFX_faction_tur_unaligned \n§ROpposition Influence§! [?DEN.DEN_opposition_power]£GFX_faction_tur_unaligned \n§GColony Influence§! [?DEN.DEN_colonial_power]£GFX_faction_tur_unaligned"
  
