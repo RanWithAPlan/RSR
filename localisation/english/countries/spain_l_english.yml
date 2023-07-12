@@ -61,4 +61,24 @@
  #Character
  SPR_Manuel:0 "Manuel Azaña"
  SPR_Alphonso_XIV:0 "Alphonso XIV"
+ SPR_Agustin_Munoz_Grandes:0 "Agustin Munoz Grandes" #Falangist General
+ SPR_Antonio_Cordon_Garcia:0 "Antonio Cordon Garcia" #Authoritarian Socialist Leader. Communist General
+ SPR_Emilio_Esteban_Infantes:0 "Emilio Esteban Infantes" #Falangist General
+ SPR_Emilio_Herrera:0 "Emilio Herrera" #Aviation General and Theorist, Anti-Falangist leader but loyal to King.
+ SPR_Enrique_Canovas_Lacruz:0 "Enrique Canovas Lacruz" #Leading Falangist in the Military
+ SPR_Ernesto_Gimenez_Caballero:0 "Ernesto Gimenez Caballero" #Futurist Leader
+ SPR_Francisco_Franco_Bahamonde:0 "Francisco Franco Bahamonde" #Politically Neutral General, Loyal to King. Can play a similar role to uniting the Nationalists under the King like OTL
+ SPR_Jose_Antonio_Primo_de_Rivera:0 "Jose Antonio Primo de Rivera" #Ultra-Reactionary Political Falangist Leader
+ SPR_Jose_Asensio_Torrado:0 "Jose Asensio Torrado" #Anti-Falangist General, Loyal to King
+ SPR_Juan_Modesto:0 "Juan Modesto" #Anti-Falangist General, sways Republican
+ SPR_Luis_Carrero_Blanco:0 "Luis Carrero Blanco" #Politically Neutral Admiral, Loyal to the King
+ SPR_Manuel_Fal_Conde:0 "Manuel Fal Conde" #Carlist Political Leader
+ SPR_Manuel_Hedilla:0 "Manuel Hedilla" #If Rivera dies, becomes leader of the Falange. Can become a general if FE comes to power
+ SPR_Miguel_Buiza_Fernandez-Palacios:0 "Miguel Buiza Fernandez-Palacios" #Anti-Falangist Admiral, Loyal to the King
+ SPR_Ramiro_Ledesma_Ramos:0 "Ramiro Ledesma Ramos" #Starting Nationalist Leader, political leader of JONS
+ SPR_Ricardo_De_Rada:0 "Ricardo De Rada" #Falangist and Carlist General
+ SPR_Salvador_Dali:0 "Salvador Dali" #Futurist Leader
+ SPR_Valentin_Gonzalez:0 "Valentin Gonzalez" #Communist/Republican General
+ SPR_Vicente_Rojo_Lluch:0 "Vicente Rojo Lluch" #Anti-Falangist General, Loyal to the King
+ 
  
