@@ -35,8 +35,8 @@
  TCA_radical_socialism_party_long:0 "Radical Socialism"
  TCA_council_communism_party:0 "Council Communism"
  TCA_council_communism_party_long:0 "Council Communism"
- TCA_authoritarian_socialism_party:0 "Vanguard Socialism"
- TCA_authoritarian_socialism_party_long:0 "Vanguard Socialism"
+ TCA_authoritarian_socialism_party:0 "VSS(b)"
+ TCA_authoritarian_socialism_party_long:0 "Vsekavkazskiy s"yezd Sovetov (bol'shevikov)"
  TCA_social_democracy_party:0 "Social Democracy"
  TCA_social_democracy_party_long:0 "Social Democracy"
  TCA_freemarket_liberalism_party:0 "Freemarket Liberalism"
@@ -55,3 +55,4 @@
  TCA_national_syndicalism_party_long:0 "National Syndicalism"
  
  #Characters
+ TCA_Khalil_Mammadov:0 "Khalil Mammadov"
