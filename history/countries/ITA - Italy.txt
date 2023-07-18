@@ -126,6 +126,7 @@ if = {
 }
 
 #Characters
+recruit_character=ITA_angelica_balabanoff
 
 #Ideas
 add_ideas = {
@@ -150,17 +151,17 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	libertarian_socialism = 23
-	council_communism = 27
-	vanguard_socialism = 10
-	independent_socialism = 15
-	social_democracy = 3
+	libertarian_socialism = 15
+	council_communism = 30
+	vanguard_socialism = 20
+	independent_socialism = 20
+	social_democracy = 0
 	social_liberalism = 0
 	market_liberalism = 0
-	conservative_democracy = 2
+	conservative_democracy = 0
 	authoritarian_democracy = 0
 	autocracy = 0
-  	national_syndicalism = 20
+  	national_syndicalism = 15
   	national_populism = 0
 }
 

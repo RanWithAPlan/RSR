@@ -206,9 +206,7 @@ add_dynamic_modifier = {
 	modifier = GER_unity_idea
 }
 
-recruit_character = GER_executive_council_libertarian_socialism
-recruit_character = GER_executive_council_council_communism
-recruit_character = GER_executive_council_independent_socialism
+recruit_character = GER_rosa_luxemburg
 recruit_character = GER_rudolf_rocker
 recruit_character = GER_erich_muhsam
 recruit_character = GER_hienrich_brandler

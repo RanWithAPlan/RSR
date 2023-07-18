@@ -67,30 +67,26 @@ set_war_support = 0.5
 set_convoys = 0
 set_research_slots = 3
 
-country_event = {
-	id = czechoslovakia.1
-	days = 1
-}
-
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = conservative_democracy
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
 	libertarian_socialism = 1
-	council_communism = 24
-	vanguard_socialism = 0
-	independent_socialism = 0
-	social_democracy = 10
-	social_liberalism = 8
-	market_liberalism = 7
-	conservative_democracy = 5
-	authoritarian_democracy = 23
+	council_communism = 5
+	vanguard_socialism = 10
+	independent_socialism = 3
+	social_democracy = 15
+	social_liberalism = 9
+	market_liberalism = 3
+	conservative_democracy = 31
+	authoritarian_democracy = 5
 	autocracy = 0
   	national_syndicalism = 0
-  	national_populism = 22
+  	national_populism = 13
+}
 
 #Variants
 #Army

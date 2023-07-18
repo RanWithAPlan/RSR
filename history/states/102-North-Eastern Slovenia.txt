@@ -8,7 +8,7 @@ state=
 	
 	history =
 	{
-		owner = AUS
+		owner = YUG
 		buildings = {
 			infrastructure = 3
 		}

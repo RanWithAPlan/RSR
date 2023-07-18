@@ -146,6 +146,7 @@ if = {
 #leaders
 recruit_character = SOV_vladimir_lenin
 recruit_character = SOV_alexei_rykov
+recruit_character = SOV_joseph_stalin
 
 #advisors
 #generals

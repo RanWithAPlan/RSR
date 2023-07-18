@@ -129,7 +129,8 @@ ideologies = {
 	
 		types = {
 			independent_socialism_subtype = {}
-			marxism_engelism = {}
+			centrist_marxism = {}
+			austro_marxism = {}
 		}
 		
 		dynamic_faction_names = {

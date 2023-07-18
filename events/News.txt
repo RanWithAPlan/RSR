@@ -28,6 +28,226 @@ news_event = {
 		name = news_event.2.a
 	}
 }
+news_event = {
+	id = news_event.3
+	title = news_event.3.t
+	desc = news_event.3.d
+	picture = GFX_news_event_lenin_dead
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.3.a
+		trigger = {
+			has_government = vanguard_socialism
+		}
+	}
+	option = {
+		name = news_event.3.b
+		trigger = {
+			OR = {
+				has_government = independent_socialism
+				has_government = council_communism
+			}
+		}
+	}
+	option = {
+		name = news_event.3.c
+		trigger = {
+			NOT = {
+				has_government = independent_socialism
+				has_government = council_communism
+				has_government = vanguard_socialism
+			}
+		}
+	}
+}
+news_event = {
+	id = news_event.4
+	title = news_event.4.t
+	desc = news_event.4.d
+	picture = GFX_news_event_stalin_power
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.4.a
+		trigger = {
+			has_government = vanguard_socialism
+		}
+	}
+	option = {
+		name = news_event.4.b
+		trigger = {
+			NOT = {
+				has_government = vanguard_socialism
+			}
+		}
+	}
+}
+news_event = {
+	id = news_event.4
+	title = news_event.4.t
+	desc = news_event.4.d
+	picture = GFX_news_event_stalin_power
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.4.a
+		trigger = {
+			has_government = vanguard_socialism
+		}
+	}
+	option = {
+		name = news_event.4.b
+		trigger = {
+			NOT = {
+				has_government = vanguard_socialism
+			}
+		}
+	}
+}
+news_event = {
+	id = news_event.5 #coup austrian civil war
+	title = news_event.5.t
+	desc = news_event.5.d
+	picture = GFX_news_event_austrian_civil_war
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.5.a
+		trigger = {
+			OR = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+			}
+		}
+	}
+	option = {
+		name = news_event.5.b
+		trigger = {
+			has_government = social_democracy
+			has_government = social_liberalism
+			has_government = market_liberalism
+		}
+	}
+	option = {
+		name = news_event.5.c 
+		trigger = {
+			has_government = conservative_democracy
+			has_government = authoritarian_democracy
+			has_government = autocracy
+			has_government = national_populism
+			has_government = national_syndicalism
+		}
+	}
+}
+news_event = {
+	id = news_event.6 #conservative victory in the austrian election
+	title = news_event.6.t
+	desc = news_event.6.d
+	picture = GFX_news_event_austrian_elections
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.6.a
+		trigger = {
+			OR = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+			}
+		}
+	}
+	option = {
+		name = news_event.6.b
+		trigger = {
+			NOT = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+			}
+		}
+	}
+}
+news_event = {
+	id = news_event.7 #socialist parties banned austrian civil war
+	title = news_event.7.t
+	desc = news_event.7.d
+	picture = GFX_news_event_austrian_civil_war
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.7.a
+		trigger = {
+			OR = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+				has_government = social_democracy
+			}
+		}
+	}
+	option = {
+		name = news_event.7.b
+		trigger = {
+			NOT = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+				has_government = social_democracy
+			}
+		}
+	}
+}
+news_event = {
+	id = news_event.8 #german invasion of austria
+	title = news_event.8.t
+	desc = news_event.8.d
+	picture = GFX_news_event_invasion_of_austria
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.8.a
+		trigger = {
+			OR = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+			}
+		}
+	}
+	option = {
+		name = news_event.8.b
+		trigger = {
+			NOT = {
+				has_government = vanguard_socialism
+				has_government = council_communism
+				has_government = independent_socialism
+			}
+		}
+	}
+}
+news_event = {
+	id = news_event.9 #german+austrian union
+	title = news_event.9.t
+	desc = news_event.9.d
+	picture = GFX_news_event_austrian_socialists
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = news_event.9.a
+	}
+}
+
+
 
 
 

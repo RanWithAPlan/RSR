@@ -1,4 +1,15 @@
-spriteTypes = {	
+spriteTypes = {
+	#generic 
+	spriteType = {
+		name = "GFX_idea_fire"
+		texturefile = "gfx/interface/ideas/Generic/Fire.png"
+	}
+
+	#Austria 
+	spriteType = {
+		name = "GFX_idea_fiume_corridor"
+		texturefile = "gfx/interface/ideas/AUS/fiume_corridor.png"
+	}
 
 	#Germany
 	spriteType = {

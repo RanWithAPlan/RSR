@@ -1,0 +1,20 @@
+state={
+	id=948
+	name="STATE_948"
+	provinces={
+		1467 4660 6642 6997 9715
+	}
+	history = {
+		owner = TCA
+		add_core_of = TCA
+		add_core_of = ARM
+		add_claim_by = AZR
+		buildings = {
+			infrastructure = 2
+		} 
+	}
+	manpower=473112
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

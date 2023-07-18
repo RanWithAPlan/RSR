@@ -978,3 +978,8 @@ SWI_helvetic_republic = {
 	color_ui = rgb { 140 140 140 }
 }
 
+AUS_socialist = {
+	color = rgb { 227 66 52 }
+	color_ui = rgb { 127 33 26 }
+}
+

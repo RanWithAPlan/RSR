@@ -1,15 +1,41 @@
 characters={
 	AUS_englebert_dollfuss = {
-		name = AUS_englebert_dollfus
+		name = "Englebert Dollfuss"
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_IAO_paul_von_lettow_vorbeck_large"
+				large = "GFX/leaders/AUS/portrait_AUS_Engelbert_Dollfuss.png"
 			}
 		}
 		country_leader = {
 			expire = "1965.1.1"
 			traits={ }
-			ideology = authoritarian_democracy_subtype
+			ideology = national_populism_subtype
+		}
+	}
+	AUS_Wilhelm_Miklas = {
+		name = "Wilhelm Miklas"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/AUS/portrait_AUS_Wilhelm_Miklas.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = conservative_democracy_subtype
+		}
+	}
+	AUS_karl_renner = {
+		name = "Karl Renner"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/AUS/portrait_AUS_Karl_Renner.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = austro_marxism
 		}
 	}
 }

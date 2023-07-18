@@ -1,7 +1,2 @@
 on_actions = {
-	on_daily = {
-		effect = {
-			GER_calculate_unity_effects = yes
-		}
-	}
 }

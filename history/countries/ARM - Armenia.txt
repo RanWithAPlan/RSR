@@ -1,4 +1,4 @@
-﻿capital = 940
+﻿capital = 230
 
 set_technology = {
 	infantry_weapons = 1
@@ -7,11 +7,16 @@ set_technology = {
 	gw_artillery = 1
 	fuel_silos = 1
 }
+load_oob = Arm_1936
 
 #Characters
 recruit_character=ARM_Rouben_Minassian
 #Ideas
 add_ideas = {
+}
+swap_ideas = {
+	remove_idea = volunteer_only
+    add_idea = limited_conscription
 }
 
 #Miscellaneous

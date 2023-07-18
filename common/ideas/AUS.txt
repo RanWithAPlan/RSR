@@ -1,0 +1,20 @@
+ideas = {
+	country = { 
+		AUS_political_violence = {
+			picture = fire
+			modifier = {
+				stability_factor = -0.30
+				political_power_cost = 1.00
+				national_populism_drift = 0.01
+				independent_socialism_drift = 0.01
+			}
+		}
+		AUS_fiume_corridor = { 
+			picture = fiume_corridor
+			modifier = {
+				min_export = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

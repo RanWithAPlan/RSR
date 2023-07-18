@@ -1,28 +1,180 @@
 add_namespace = austria
 country_event = {
-    id = austria.2
-    title = austria.2.t
-    desc = austria.2.d
-    
-    is_triggered_only = yes
+    id = austria.1
+    title = austria.1.t
+    desc = austria.1.d
+    fire_only_once = yes
 
     trigger = {
-        tag = SDE
-        owns_state = 9
-        owns_state = 75
+        date > 1936.2.23
+        tag = AUS
     }
     
     option = {
-        name = austria.2.a
-        AUS = {
-            annex_country = {
-                target = SDE
-                transfer_troops = yes
-            }
-            delete_unit_template_and_units = {
-                division_template = "Freikorp-Brigade"
-                disband = yes
-            } 
+        name = austria.1.a
+		set_politics = {
+			ruling_party = independent_socialism
+	    	last_election = "[CURRENT_DATE]"
+		}
+        add_popularity = {
+            ideology = independent_socialism
+            popularity = 0.15
         }
+        country_event = {
+            id = austria.2
+            days = 2
+        }
+    }
+    option = {
+        name = austria.1.b
+		set_politics = {
+			ruling_party = conservative_democracy
+	    	last_election = "[CURRENT_DATE]"
+		}
+        add_popularity = {
+            ideology = national_populism
+            popularity = 0.05
+        }
+        country_event = {
+            id = austria.3
+            days = 67
+        }
+        news_event = news_event.6
+    }
+}
+add_namespace = austria
+country_event = {
+    id = austria.2
+    title = austria.2.t
+    desc = austria.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = {
+        name = austria.2.a
+		set_politics = {
+			ruling_party = national_populism
+		}
+        hidden_effect = {
+            set_popularities = {
+                libertarian_socialism = 0
+                council_communism = 1
+                vanguard_socialism = 1
+                independent_socialism = 31
+                social_democracy = 4
+                social_liberalism = 0
+                market_liberalism = 13
+                conservative_democracy = 20
+                authoritarian_democracy = 5
+                national_populism = 25
+            }
+        }
+        add_threat = 5
+        news_event = news_event.5
+        set_global_flag = austria_unstable
+    }
+}
+country_event = {
+    id = austria.3
+    title = austria.3.t
+    desc = austria.3.d
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = {
+        name = austria.3.a
+		set_politics = {
+			ruling_party = national_populism
+		}
+        add_popularity = {
+            ideology = national_populism
+            popularity = 0.10
+        }
+        add_popularity = {
+            ideology = independent_socialism
+            popularity = -0.05
+        }
+        add_threat = 2
+        news_event = news_event.7
+        set_global_flag = austria_unstable
+    }
+}
+country_event = {
+    id = austria.4 #austria peace deal
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = yes
+    option = {
+        name = austria.4.a
+        GER = {
+            add_war_support = 0.1
+            army_experience = 40
+            puppet = {
+                target = AUS
+                end_wars = yes
+            }
+        }
+        AUS = {
+            set_cosmetic_tag = AUS_socialism
+            set_politics = {
+                ruling_party = independent_socialism
+            }
+            set_popularities = {
+                libertarian_socialism = 0
+                council_communism = 1
+                vanguard_socialism = 1
+                independent_socialism = 46
+                social_democracy = 4
+                social_liberalism = 0
+                market_liberalism = 3
+                conservative_democracy = 10
+                authoritarian_democracy = 5
+                national_populism = 30
+            }
+            remove_ideas = {
+                AUS_political_violence
+                AUS_fiume_corridor
+            }
+            transfer_state = 4
+            transfer_state = 152
+            transfer_state = 153
+            transfer_state = 848
+        }
+        ITA = {
+            add_war_support = 0.1
+            if = {
+                limit = {
+                    has_global_flag = joint_italo_german_invasion
+                }
+                army_experience = 25
+            }
+            transfer_state = 736
+            transfer_state = 39
+        }
+    }
+}
+country_event = {
+    id = austria.5 #the transfer of south tyrol
+    title = austria.5.t
+    desc = austria.5.d
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = {
+        name = austria.5.a
+        add_popularity = {
+            ideology = independent_socialism
+            popularity = 0.02
+        }
+        AUS = {
+            transfer_state = 39
+        }
+    }
+    option = {
+        name = austria.5.b
+        add_popularity = {
+            ideology = council_communism
+            popularity = 0.02
+        }
+        add_political_power = 50
     }
 }

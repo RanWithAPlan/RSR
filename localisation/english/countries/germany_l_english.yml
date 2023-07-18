@@ -91,7 +91,23 @@
  flavour_germany.1.a:0 "We'll gladly support this endeavour!"
  
 #decisions#
- 
+
+#austrian intervention
+ GER_austrian_intervention_category:0 "The Austria Crisis"
+ GER_the_window_of_opportunity:0 "The Window of Opportunity"
+ GER_the_window_of_opportunity_desc:0 "After the reactionary Dollfuss government assumed almost complete control, brave socialist miltias have risen up to defy them. This provides a perfect pretext to invade Austria and install a socialist government there. Not only will this secure our borders from threats to the South, it will spread the revolution and give us a direct land border with our ally, Italy.\n\n§RWe must act soon or the opportunity will pass us by§!"
+ GER_intervene_in_austria:0 "Intervene In Austria"
+ GER_capture_vienna:0 "Capture Vienna"
+ GER_capture_vienna_desc:0 "Our military intervention in Austria is intended to be swift and strike hard before the Austrian government and army can reorganise, capitalising on their political instability and aided by the numerous socialist uprisings throughout the nation.\n\n§RSecuring Vienna in time will give us an easy victory, but if we fail in our initial attack the war will be more costly and take longer§!"
+ GER_finish_the_war:0 "Finish The War"
+ GER_finish_the_war_desc:0 "We have made slower progress than expected, the longer the war goes on the higher public opposition will be, we could eventually be forced to withdraw from Austria."
+ GER_annex_austria:0 "Union With Austria"
+ GER_core_vienna:0 "Integrate The Vienna Soviet"
+ GER_core_upper_austria:0 "De-Corporatise Upper Austria"
+ GER_core_tyrol:0 "De-Corporatise Tyrol"
+ GER_core_voralberg:0 "De-Corporatise Vorarlberg"
+ GER_core_south_tyrol:0 "De-Corporatise South Tyrol"
+
 #unity mechanic
  GER_unity:0 "Unity"
  GER_unity_drum_up_support:0 "Drum Up Support"
@@ -293,6 +309,7 @@
  FRA_defeated_tt: "France has been defeated"
  SOV_defeated_tt: "The Soviet Union has been defeated"
  GER_rfb_coup_tt: "§RThe Roter Frontkämpferbund will seize power§!"
+ GER_finish_the_war_tt:0 "§RWe will be forced to withdraw from Austria§!"
 
 #dynamic modifiers#
  GER_ruhr_industrial_heart:0 "The Industrial Heart Of Germany"

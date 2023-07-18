@@ -35,10 +35,14 @@ set_technology = {
 }
 
 #Characters
+recruit_character=AUS_englebert_dollfuss
+recruit_character=AUS_karl_renner
+recruit_character=AUS_Wilhelm_Miklas
 
 #Ideas
 add_ideas = {
-
+	AUS_political_violence
+	AUS_fiume_corridor
 }
 
 #Miscellaneous 
@@ -47,7 +51,7 @@ set_stability = 0.5
 set_war_support = 0.5
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = conservative_democracy
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -56,15 +60,13 @@ set_politics = {
 #Popularities
 set_popularities = {
 	libertarian_socialism = 0
-	council_communism = 0
-	vanguard_socialism = 0
-	independent_socialism = 10
-	social_democracy = 0
+	council_communism = 1
+	vanguard_socialism = 1
+	independent_socialism = 31
+	social_democracy = 4
 	social_liberalism = 0
-	market_liberalism = 0
-	conservative_democracy = 0
-	authoritarian_democracy = 40
-	autocracy = 25
-	national_syndicalism = 0
-	national_populism = 25
+	market_liberalism = 13
+	conservative_democracy = 30
+	authoritarian_democracy = 10
+	national_populism = 10
 }

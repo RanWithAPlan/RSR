@@ -25,7 +25,7 @@ country_event = {
     id = soviet_collapse.2
     title = soviet_collapse.2.t
     desc = soviet_collapse.2.d
-    picture = GFX_report_event_lenin_wheelchair #replace with coffin
+    picture = GFX_report_event_lenin_dead #replace with coffin
     is_triggered_only = yes
     option = {
         name = soviet_collapse.2.a
@@ -39,7 +39,7 @@ country_event = {
         hidden_effect = {
             SOV_collapse_effect = yes
         }
-        #add a news event
+        news_event = news_event.3
     }
 }
 country_event = {
@@ -80,7 +80,7 @@ country_event = {
     }
 }
 country_event = {
-    id = soviet_collapse.4
+    id = soviet_collapse.4 #basmachi
     title = soviet_collapse.4.t
     desc = soviet_collapse.4.d
     is_triggered_only = yes
@@ -90,9 +90,15 @@ country_event = {
             transfer_state_to = BAS
         }
         405 = {
+            teleport_armies = {
+                to_state = 732
+            }
             transfer_state_to = BAS
         }
         830 = {
+            teleport_armies = {
+                to_state = 585
+            }
             transfer_state_to = BAS
         }
         BAS = {
@@ -104,24 +110,41 @@ country_event = {
                 target = SOV
                 type = puppet_wargoal_focus
             }
+            load_oob = "BAS_1936"
         }
     }
 }
 country_event = {
-    id = soviet_collapse.5
+    id = soviet_collapse.5 #yakut revolt
     title = soviet_collapse.5.t
     desc = soviet_collapse.5.d
     is_triggered_only = yes
     option = {
         name = soviet_collapse.5.a
-        562 = {
-            transfer_state_to = TUN
+        574 = {
+            transfer_state_to = YAK
+            teleport_armies = {
+                to_state = 561
+            }
         }
-        TUN = {
+        YAK = {
             declare_war_on = {
                 target = SOV
                 type = puppet_wargoal_focus
             }
+            load_oob = "YAK_1936"
         }
+    }
+}
+country_event = { #transcaucasia
+    id = soviet_collapse.6
+    title = soviet_collapse.6.t
+    desc = soviet_collapse.6.d
+    is_triggered_only = yes
+    option = {
+        name = soviet_collapse.6.a
+        retire_character = SOV_alexei_rykov
+        promote_character = SOV_joseph_stalin
+        news_event = news_event.4
     }
 }

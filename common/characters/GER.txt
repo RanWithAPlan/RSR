@@ -38,6 +38,19 @@ characters={
 			ideology = independent_socialism_subtype
 		}
 	}
+	GER_rosa_luxemburg = {
+		name = "Rosa Luxemburg"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/GER/KPD/portrait_GER_rosa_luxemburg.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={}
+			ideology = council_communism_subtype
+		}
+	}
 	#political advisors#
 	GER_rudolf_rocker = {
 		name = "Rudolf Rocker"

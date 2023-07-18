@@ -20,5 +20,5 @@ set_politics = {
 set_popularities = {
 	national_populism = 60
 	vanguard_socialism = 20
-	despotism = 20
+	autocracy = 20
 }

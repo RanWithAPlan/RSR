@@ -43,3 +43,10 @@ GER_regional_planning_category = {
 	}
 	priority = 30
 }
+GER_austrian_intervention_category = {
+	icon = infiltration
+	allowed = {
+		original_tag = GER
+	}
+	priority = 90
+}

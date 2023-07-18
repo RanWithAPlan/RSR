@@ -2,18 +2,17 @@ state={
 	id=917
 	name="STATE_917"
 	provinces={
-		543 557 5283 9541 11525 13265
+		543 557 5283 11525
 	}
 	history = {
-		owner = AUS
-		add_core_of = AUS
+		owner = CZE
 		add_core_of = CZE
-		victory_points = {
-			13265 5
+		buildings = {
+			infrastructure = 4
 		}
 	}
-	manpower=130020
+	manpower=836137
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category = large_city
+	state_category = town
 }

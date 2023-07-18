@@ -1,0 +1,15 @@
+characters={
+	ITA_angelica_balabanoff = {
+		name = "Angelica Balabanoff"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/ITA/portrait_ITA_angelica_balabanoff.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={}
+			ideology = council_communism_subtype
+		}
+	}
+}

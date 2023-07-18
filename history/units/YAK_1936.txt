@@ -1,0 +1,18 @@
+﻿division_template = {
+	name = "Militia"
+
+	division_names_group = YAK_INF_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Confederal Liberation Army"
+		location = 10641
+		division_template = "Militia"
+		start_experience_factor = 0.2
+	}
+}

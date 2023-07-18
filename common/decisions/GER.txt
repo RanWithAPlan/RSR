@@ -681,3 +681,281 @@ GER_roter_frontkampferbund_plot = {
 		}
     }
 }
+GER_austrian_intervention_category = {
+    GER_the_window_of_opportunity = {
+        icon = GFX_decision_generic_ignite_civil_war
+        activation = {
+            has_global_flag = austria_unstable
+        }
+        available = {
+            has_war_with = AUS
+        }
+        priority = 10
+        fire_only_once = yes
+        days_mission_timeout = 20
+        is_good = no
+        timeout_effect = {
+            clr_global_flag = austria_unstable
+        }
+        complete_effect = {
+            clr_country_flag = austria_unstable
+        }
+    }
+    GER_intervene_in_austria = {
+        icon = GFX_decision_generic_tank
+        visible = {
+            has_global_flag = austria_unstable
+        }
+        priority = 9
+        fire_only_once = yes
+        days_remove = 5
+        cost = 5
+        war_with_on_remove = AUS
+		remove_effect = {
+            declare_war_on = {
+                target = AUS
+                type = annex_everything
+            }
+            ITA = {
+                declare_war_on = {
+                    target = AUS
+                    type = annex_everything
+                }
+            }
+            hidden_effect = {
+                activate_mission = GER_capture_vienna
+                news_event = news_event.8
+            }
+            add_threat = 10
+		}
+        modifier = {
+            army_speed_factor = 1.0
+            planning_speed = 1.0
+        }
+    }
+    GER_capture_vienna = {
+        icon = GFX_decision_generic_ignite_civil_war
+        available = {
+            OR = {
+                any_allied_country = {
+                    controls_province = 11666
+                }
+                ROOT = {
+                    controls_province = 11666
+                }
+            }
+        }
+        activation = {
+            always = no
+        }
+        priority = 10
+        is_good = no
+        fire_only_once = yes
+        days_mission_timeout = 15
+        timeout_effect = {
+            hidden_effect = {
+                activate_mission = GER_finish_the_war
+            }
+        }
+        complete_effect = {
+            hidden_effect = {
+                country_event = austria.4
+                country_event = {
+                    id = austria.5
+                    days = 10
+                }
+            }
+        }
+    }
+    GER_finish_the_war = {
+        icon = GFX_decision_generic_civil_support
+        priority = 10
+        is_good = no
+        fire_only_once = yes
+        days_mission_timeout = 365
+        activation = {
+            always = no
+        }
+        available = {
+            Not = {
+                has_war_with = AUS
+            }
+        }
+        complete_effect = {
+            hidden_effect = {
+                country_event = austria.4
+                country_event = {
+                    id = austria.5
+                    days = 10
+                }
+            }
+        }
+        timeout_effect = {
+            custom_effect_tooltip = GER_finish_the_war_tt
+        }
+    }
+    GER_annex_austria = {
+        priority = 10
+        fire_only_once = yes
+        days_remove = 24
+        cost = 30
+        visible = {
+            AUS = {
+                is_puppet_of = GER
+            }
+        }
+        remove_effect = {
+            annex_country = {
+                target = AUS
+                transfer_troops = yes
+            }
+            hidden_effect = {
+                ITA = {
+                    add_state_core = 736
+                    add_state_core = 852
+                }
+                if = {
+                    limit = {
+                        39 = {
+                            is_owned_by = ITA
+                        }
+                    }
+                    ITA = {
+                        add_state_core = 39
+                    }
+                }
+                news_event = news_event.9
+            }
+        }
+    }
+    GER_core_vienna = {
+        icon = GFX_decision_eng_trade_unions_support
+        priority = 10
+        fire_only_once = yes
+        days_remove = 10
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 4
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        visible = {
+            4 = {
+                is_owned_and_controlled_by = GER
+            }
+        }
+        remove_effect = {
+            GER = {
+                add_state_core = 4
+            }
+        }
+        modifier = {
+            political_power_cost = 0.10
+        }
+    }
+    GER_core_upper_austria = {
+        icon = GFX_decision_generic_police_action
+        priority = 10
+        fire_only_once = yes
+        days_remove = 30
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 152
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        visible = {
+            152 = {
+                is_owned_and_controlled_by = GER
+            }
+        }
+        remove_effect = {
+            GER = {
+                add_state_core = 152
+            }
+        }
+        modifier = {
+            political_power_cost = 0.10
+        }
+    }
+    GER_core_tyrol = {
+        icon = GFX_decision_generic_police_action
+        priority = 10
+        fire_only_once = yes
+        days_remove = 30
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 153
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        visible = {
+            153 = {
+                is_owned_and_controlled_by = GER
+            }
+        }
+        remove_effect = {
+            GER = {
+                add_state_core = 153
+            }
+        }
+        modifier = {
+            political_power_cost = 0.10
+        }
+    }
+    GER_core_voralberg = {
+       icon = GFX_decision_generic_police_action
+        priority = 10
+        fire_only_once = yes
+        days_remove = 30
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 848
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        visible = {
+            848 = {
+                is_owned_and_controlled_by = GER
+            }
+        }
+        remove_effect = {
+            GER = {
+                add_state_core = 848
+            }
+        }
+        modifier = {
+            political_power_cost = 0.10
+        }
+    }
+    GER_core_south_tyrol = {
+       icon = GFX_decision_generic_police_action
+        priority = 10
+        fire_only_once = yes
+        days_remove = 30
+		highlight_states = {
+   			highlight_state_targets = {
+                state = 39
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
+        visible = {
+            39 = {
+                is_owned_and_controlled_by = GER
+            }
+        }
+        remove_effect = {
+            GER = {
+                add_state_core = 39
+            }
+        }   
+        modifier = {
+            political_power_cost = 0.10
+        }
+    }
+}
