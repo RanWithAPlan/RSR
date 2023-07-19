@@ -206,6 +206,10 @@ add_dynamic_modifier = {
 	modifier = GER_unity_idea
 }
 
+###temp for testing
+set_country_flag = City_war_active_on
+
+
 recruit_character = GER_rosa_luxemburg
 recruit_character = GER_rudolf_rocker
 recruit_character = GER_erich_muhsam

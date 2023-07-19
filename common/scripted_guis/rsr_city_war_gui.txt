@@ -1,0 +1,10 @@
+scripted_gui = {
+
+	RSR_city_war_gui = {
+		context_type = decision_category #will put it in the decisions section
+		window_name = "RSR_city_war_gui"
+
+	}
+	
+}
+

@@ -1,0 +1,28 @@
+guiTypes = {
+	containerWindowType = {
+		name = "RSR_city_war_gui"
+		position = {x=0 y=0}
+		size = { width=100% height=52 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable=no
+		fade_type = linear
+		clipping = no
+		click_to_front = no
+		
+		#background = {
+		#	name = "Background"
+		#	spriteType = "GFX_tiled_window"
+		#}
+		
+		iconType = {
+			name = "background_decisions_image_one"
+			spriteType = "GFX_background_decisions_image_one"
+			position = { x= -10 y = 0 }
+			Orientation = "CENTER"
+		}
+
+	
+	}
+}
