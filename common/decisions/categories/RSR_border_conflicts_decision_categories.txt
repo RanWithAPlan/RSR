@@ -1,12 +1,10 @@
 rsr_city_war = {
 
 	icon = generic_political_actions
-	picture = GFX_background_decisions_image_one
-
 
 	priority = 95
 	
-	##scripted_gui = RSR_city_war_gui
+	scripted_gui = RSR_city_war_gui
 	
 	visible_when_empty = yes
 	visible = {

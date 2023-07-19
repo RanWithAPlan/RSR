@@ -208,6 +208,8 @@ add_dynamic_modifier = {
 
 ###temp for testing
 set_country_flag = City_war_active_on
+set_variable = current_german_building_frame = 1
+set_variable = current_french_building_frame = 1
 
 
 recruit_character = GER_rosa_luxemburg

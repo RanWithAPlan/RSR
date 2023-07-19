@@ -3,7 +3,17 @@ scripted_gui = {
 	RSR_city_war_gui = {
 		context_type = decision_category #will put it in the decisions section
 		window_name = "RSR_city_war_gui"
+	}
 
+	city_war_building_ui = {
+		context_type = decision_category
+		window_name = "city_war_building_ui"
+
+		properties = {
+			french_building_icon = {
+				frame = current_french_building_frame
+			}
+		}
 	}
 	
 }

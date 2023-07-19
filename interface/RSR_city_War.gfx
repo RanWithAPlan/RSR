@@ -1,7 +1,11 @@
 spriteTypes = {
-	#Germany
 	spriteType = { 
 		name = "GFX_background_decisions_image_one"
 		texturefile = "gfx/interface/decisions/city_war_decision_gui/city_war_decision_gui_backgroundimage.dds"
+	}
+	spriteType = { 
+		name = "GFX_city_war_building_ui"
+		texturefile = "gfx/interface/decisions/city_war_decision_gui/city_war_building.dds"
+		noOfFrames = 10
 	}
 }
