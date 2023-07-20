@@ -5,16 +5,7 @@ guiTypes = {
 		size = { width=100% height=400 }
 		orientation = center
 		origo = center
-		fade_time = 100
-		moveable=no
-		fade_type = linear
-		clipping = no
-		click_to_front = no
-		
-		#background = {
-		#	name = "Background"
-		#	spriteType = "GFX_tiled_window"
-		#}
+		moveable= no
 		
 		iconType = {
 			name = "background_decisions_image_one"
@@ -22,11 +13,13 @@ guiTypes = {
 			position = { x = 6 y = -15 }
 			Orientation = "UPPER_LEFT"
 		}
+		
 		iconType = {
-			name ="french_building_icon"
+			name = "french_building_icon"
 			spriteType = "GFX_city_war_building_ui"
 			position = { x= 10 y = -40 }
 		}
+		
 		instantTextBoxType ={
 			name ="city_war_text"
 			position = { x = 3 y = 205 }

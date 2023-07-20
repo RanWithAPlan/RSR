@@ -8,7 +8,6 @@ rsr_city_war = {
         days_mission_timeout = 120
         priority = 80
         timeout_effect = {
-            country_event = unity_event.1
             activate_mission = gg
         }
     }
