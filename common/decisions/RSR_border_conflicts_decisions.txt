@@ -1,15 +1,15 @@
 rsr_city_war = {
 
- gg = {
-        available = {
-            always = no
-        }
-		fire_only_once = no
-        days_mission_timeout = 120
-        priority = 80
-        timeout_effect = {
-            activate_mission = gg
-        }
+     city_war_timer = {
+          available = {
+            always = yes
+          }
+		  fire_only_once = no
+          days_mission_timeout = 300
+          priority = 60
+          timeout_effect = {
+                activate_mission = city_war_timer_active
+          }
     }
 
 }
