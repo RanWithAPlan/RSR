@@ -6,3 +6,7 @@
  
  french_progess_tt:0 "Current Progress of Paris: [?french_building_progress]%"
  german_progess_tt:0 "Current Progress of Vienna: [?germany_building_progress]%"
+ 
+ culture_investment:0 "Invest in Culture"
+ art_investment:0 "Invest in Art"
+ flim_investment:0 "Invest in Film"

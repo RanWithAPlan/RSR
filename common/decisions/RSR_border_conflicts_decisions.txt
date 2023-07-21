@@ -11,5 +11,50 @@ rsr_city_war = {
                 activate_mission = city_war_timer
           }
     }
-
+	
+	flim_investment = {
+		icon = generic_speech
+		fire_only_once = no
+        days_remove = 20
+        days_re_enable = 70
+		cost = 30
+        priority = 70
+        modifier = {
+            
+        }
+		remove_effect = {
+			
+       }
+    }
+	
+	
+	art_investment = {
+		icon = generic_speech
+		fire_only_once = no
+        days_remove = 20
+        days_re_enable = 70
+		cost = 30
+        priority = 70
+        modifier = {
+            
+        }
+		remove_effect = {
+			
+       }
+    }
+	
+	culture_investment = {
+		icon = generic_speech
+		fire_only_once = no
+        days_remove = 20
+        days_re_enable = 70
+		cost = 30
+        priority = 70
+        modifier = {
+            
+        }
+		remove_effect = {
+			
+       }
+    }
 }
