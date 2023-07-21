@@ -24,7 +24,7 @@ rsr_city_war = {
         }
 		remove_effect = {
 			
-       }
+        }
     }
 	
 	
@@ -34,13 +34,13 @@ rsr_city_war = {
         days_remove = 20
         days_re_enable = 70
 		cost = 30
-        priority = 70
+        priority = 60
         modifier = {
             
         }
 		remove_effect = {
 			
-       }
+        }
     }
 	
 	culture_investment = {
@@ -49,12 +49,12 @@ rsr_city_war = {
         days_remove = 20
         days_re_enable = 70
 		cost = 30
-        priority = 70
+        priority = 50
         modifier = {
             
         }
 		remove_effect = {
 			
-       }
+        }
     }
 }
