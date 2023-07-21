@@ -3,3 +3,6 @@
  RSR_city_war_text:0 "Paris and Vienna, both ancient cities from the time of the Romans, or even before, and millenia onwards, the capitals of the two most poweful empires on the continent. The City of Music and The City of Art have been locked in an eternal struggle for the title of 'Centre of Europe' from the Reformation, to Napoleon, and the Great War. With the Treaty of Karl-Marx-Hof Vienna has become part of Germany, and this has only served to accentuate the already growing battle between the rival regimes of Germany and France, a battle taking place not with guns, but with art. The hope is that by outdoing one's opponent in the cultural arena, they can prove the supremacy of their ideology and achieve international prestige."
  
  city_war_timer:0 "Days Left..."
+ 
+ french_progess_tt:0 "Current Progress of Paris: [?french_building_progress]%"
+ german_progess_tt:0 "Current Progress of Vienna: [?germany_building_progress]%"

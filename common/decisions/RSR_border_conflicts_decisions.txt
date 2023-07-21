@@ -2,13 +2,13 @@ rsr_city_war = {
 
      city_war_timer = {
           available = {
-            always = yes
+            always = no
           }
 		  fire_only_once = no
           days_mission_timeout = 300
           priority = 60
           timeout_effect = {
-                activate_mission = city_war_timer_active
+                activate_mission = city_war_timer
           }
     }
 
