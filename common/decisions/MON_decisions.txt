@@ -1,0 +1,41 @@
+MON_war_with_tuva = {
+	MON_zavkhan_military_actions = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			NOT = { has_full_control_of_state = 921 }
+		}
+		
+		highlight_states = {
+ 			highlight_state_targets = { state = 921 } 
+ 			highlight_color_before_active = 3
+			highlight_color_while_active = 2
+		}
+
+		on_map_mode = map_only
+		
+		fire_only_once = yes
+		days_remove = 14
+
+		visible = {}	
+
+		cost = 50
+		
+		remove_trigger = { 
+			has_full_control_of_state = 921
+		}
+
+		complete_effect = {
+			921 = {
+				attrition = 0.5
+				supply_consumption_factor = 0.5
+				army_defence_factor = -0.5
+			}
+		}
+
+		ai_will_do = {
+			factor = 100			
+			}
+		}
+	}

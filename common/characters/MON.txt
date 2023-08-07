@@ -1,6 +1,6 @@
 characters={
 
-### Leaders ###
+#################################################################Leaders
 	MON_genepil_khan_RSR={
 		name = MON_genepil_khan_RSR
 		gender = female 
@@ -156,9 +156,28 @@ characters={
 			expire="1965.1.1.1"
 		}
 	}
+	
+#################################################################Generals
+
+	MON_mountain_general = {
+			name = "Mountain General"
+			portraits={
+				civilian={
+					large=GFX_portrait_Fu_Shangzhi
+				}
+			}
+			corps_commander = {
+				traits = { mountaineer hill_fighter }
+				skill = 4
+				attack_skill = 5
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+		}
+	}
 
 
-#Advisors
+#################################################################Advisors
 
 	MON_yekiegurin={
 		name=MON_yekiegurin

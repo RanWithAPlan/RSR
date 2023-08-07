@@ -55,3 +55,25 @@ country_event = {
 		add_command_power = 30
 	}
 }
+
+country_event = {
+    id = mongolia.3
+    title = mongolia.3.t
+    desc = mongolia.3.d
+	picture = GFX_MON_militaryunited_RSR
+	
+    is_triggered_only = yes
+	
+	option = {
+		name = mongolia.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = { set_country_flag = tuva_offensive_flag }
+		custom_effect_tooltip = tuva_attack_tt
+	}
+	option = {
+		name = mongolia.3.b
+		ai_chance = { factor = 100 }
+		hidden_effect = { set_country_flag = acd_offensive_flag }
+		custom_effect_tooltip = acd_attack_tt
+	}
+}
