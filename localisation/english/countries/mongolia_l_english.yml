@@ -57,6 +57,9 @@
  MON_ultra_reactionary_party_long:0 "Ündesnii Üzeltnüüdiin Sindikat"
  MON_national_syndicalism_party:0 "ÜDTB"
  MON_national_syndicalism_party_long:0 "Ündesnii Dakhin Töröltiin Baiguullaga"
+ 
+ #Focus
+ 
 
  #Events
  mongolia.1.t:0 "End of the Independence War!"
@@ -65,11 +68,23 @@
  
  mongolia.2.t:0 "The Military Consolidates"
  mongolia.2.d:0 "In the whirlwind of war, our army has struggled to maintain proper organisation as death of the Khan caused widespread chaos and disorder. Nevertheless, our commanders managed to regroup our troopers and successfully guide partisans and volunteers into regular army structures. \nAt this point, we are finally capable of launching meticulous military operations and begin to plan our counter-offensive."
- mongolia.2.a:0 "At last, we are finally ready to perform properly."
+ mongolia.2.a:0 "At last, we are finally ready to perform properly..."
+ 
+ mongolia.3.t:0 "One assault at time"
+ mongolia.3.d:0 "As the military officers gathered in the building along with queen Genepil herself, the debate about future actions of Mongolian army has begun swiftly. After discussing our current position in the conflict and highlighting all the odds, the final decision was to be made at this juncture. \n\n\n-"Our military is ready to operate with it's full strength my queen, it's up to you now to decide about our next step". \n\n-"So be it." - the ruler sighted as she lean over the map on the table."
+ mongolia.3.a:0 "Tuvans should be dealt with first."
+ mongolia.3.b:0 "Russians are greater threat at this point."
  
  mon.startofwar.t:0 "Second Mongolian Independence War!"
  mon.startofwar.d:0 "The fight on Mongolian soil rages on."
  mon.startofwar.1:0 "Bothers and sisters, forward for our country!"
+ 
+ #Ideas
+ MON_shattered_but_united_RSR:0 "Shattered but United"
+ MON_raging_independence_war_RSR:0 "Raging Independence War"
+ MON_nomad_traditions_RSR:0 "Nomad Traditions"
+ MON_sluggish_economy_RSR:0 "Sluggish Economy"
+ MON_the_khan_is_dead_RSR:0 "The Khan is dead!"
 
  #Characters
  MON_genepil_khan_RSR:0 "Genepil"
@@ -86,13 +101,10 @@
 
  #Tooltips
  genepil_tt:0 "§YGenepil§! receives the title of §2Khan§!"
+ tuva_offensive_flag:0 "Has selected Tannu Tuva as the priority target."
+ acd_offensive_flag:0 "Has selected Asiatic Cavalry Division as the priority target."
+ tuva_attack_tt:0 "§YTannu Tuva§! is selected as the priority target."
+ acd_attack_tt:0 "§YAsiatic Cavalry Division§! is selected as the priority target."
 
  #Descriptions
- MON_genepil_khan_RSR_civil_war_desc:0 ""§YTseyenpil§! - as this was her born name - is a widow after brutally murdered Mongolian leader §YBogd Khan§!. She appeared in Mongolian politics after the death of Khan's beloved wife §YTsendiin Dondogdulam§!. By the decision of Khan's counsellors, already engaged Tseyenpil was taken from her home and once again married as the wife of Khan. Proclaimed as reincarnation of Queen Dondogdulam, she was given the name "§1Genepil§!". When the Independece War raged on, resulting in assassination of Bogd Khan and battles on two fronts against Uriankhai Tuva and - soon-to-be defeated by alike hostile Asiatic Cavalry Division - Anhui Clique, Genepil stepped forward and led the Mongolian nation against all these odds. The ascended queen, called §tBattlemistress§! by many due to her undeniable bravery, commands her subjects side-by-side, never hiding behind. Despite many assassination attempts on her life, Genepil is still seen around ordinary people and soldiers, building up morale and appreciation towards herself. Rumors say that the spirit of §OChingis Khaan§! himself advices the Queen to help achieve the ultimate victory of Mongol Nation.""
- 
- #Ideas
- MON_shattered_but_united_RSR:0 "Shattered but United"
- MON_raging_independence_war_RSR:0 "Raging Independence War"
- MON_nomad_traditions_RSR:0 "Nomad Traditions"
- MON_sluggish_economy_RSR:0 "Sluggish Economy"
- MON_the_khan_is_dead_RSR:0 "The Khan is dead!"
+ MON_genepil_khan_RSR_civil_war_desc:0 ""§YTseyenpil§! - as this was her birth name - is a widow after brutally murdered Mongolian leader §YBogd Khan§!. She appeared in Mongolian politics after the death of Khan's beloved wife §YTsendiin Dondogdulam§!. By the decision of Khan's counsellors, already engaged Tseyenpil was taken from her home and once again married as the wife of Khan. Proclaimed as reincarnation of Queen Dondogdulam, she was given the name "§1Genepil§!". When the Independece War raged on, resulting in assassination of Bogd Khan and battles on two fronts against Uriankhai Tuva and - soon-to-be defeated by alike hostile Asiatic Cavalry Division - Anhui Clique, Genepil stepped forward and led the Mongolian nation against all these odds. The ascended queen, called §tBattlemistress§! by many due to her undeniable bravery, commands her subjects side-by-side, never hiding behind. Despite many assassination attempts on her life, Genepil is still seen around ordinary people and soldiers, building up morale and appreciation towards herself. Rumors say that the spirit of §OChingis Khaan§! himself advices the Queen to help achieve the ultimate victory of Mongol Nation.""

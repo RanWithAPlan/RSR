@@ -164,6 +164,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = no cancel_if_invalid = yes
+		
+		available = { has_country_flag = tuva_offensive_flag }
 
 		completion_reward = {
 			add_ideas = {MON_uriankhai_offensive_plan_RSR}
@@ -188,9 +190,37 @@ focus = {
 		available_if_capitulated = no cancel_if_invalid = yes
 
 		completion_reward = {
-			add_political_power = 100
-		}
-
+			division_template = {
+				name = "Uulyn Dairaltyn Diviz"
+				division_names_group = MON_MTN_01
+				is_locked = no
+				regiments = {
+					mountaineers = { x = 0 y = 0 }
+					mountaineers = { x = 0 y = 1 }
+					mountaineers = { x = 0 y = 2 }
+					mountaineers = { x = 0 y = 3 }
+					mountaineers = { x = 0 y = 4 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+		930 = {
+			create_unit = {
+						division = "name = \"1. Uulyn Dairaltyn Diviz\" division_template = \"Uulyn Dairaltyn Diviz\" start_experience_factor = 0.4" 
+						owner = MON
+					}
+			create_unit = {
+						division = "name = \"2. Uulyn Dairaltyn Diviz\" division_template = \"Uulyn Dairaltyn Diviz\" start_experience_factor = 0.4" 
+						owner = MON
+					}
+			create_unit = {
+						division = "name = \"3. Uulyn Dairaltyn Diviz\" division_template = \"Uulyn Dairaltyn Diviz\" start_experience_factor = 0.4" 
+						owner = MON
+					}
+				}
+		recruit_character = MON_mountain_general
+	}
 		ai_will_do = {
 			factor = 1
 		}
@@ -322,37 +352,6 @@ focus = {
 		relative_position_id = MON_striking_at_the_heart
 		x = 0
 		y = 2
-		cost = 6
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = no cancel_if_invalid = yes
-
-		completion_reward = {
-			add_stability = 0.05
-			add_political_power = 50
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 300
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 70
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-focus = {
-		id = MON_western_enemy_down
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = MON_striking_at_the_heart }
-		relative_position_id = MON_striking_at_the_heart
-		x = 0
-		y = 2
 		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
@@ -391,6 +390,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = no cancel_if_invalid = yes
+		
+		available = { has_country_flag = acd_offensive_flag }
 
 		completion_reward = {
 			add_ideas = { MON_khentii_offensive_plan_RSR }
