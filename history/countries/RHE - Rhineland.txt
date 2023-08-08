@@ -3,47 +3,7 @@
 #Order of Battle
 #Army
 set_oob = "RHE_1936"
-if = {
-	limit = { has_dlc = "No Step Back" }
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
-		basic_heavy_tank_chassis = 1
-		engine_tech_1 = 1
-	}
-	else = {
-		set_technology = {
-			gwtank = 1
-			basic_light_tank = 1
-			improved_light_tank = 1
-			basic_heavy_tank = 1
-		}
-	}
-}
-
-
-#Air
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "RHE_1936_air_bba"
-		set_technology = {
-			BBA Air Techs
-		}
-	else = {
-		set_air_oob = "RHE_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			fighter1 = 1
-			early_bomber = 1
-			tactical_bomber1 = 1
-			strategic_bomber1 = 1
-			CAS1 = 1
-			naval_bomber1 = 1
-		}
-	}
-}
-
+country_lock_all_division_template = yes
 #Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
@@ -71,9 +31,12 @@ if = {
 }
 
 #Characters
+recruit_character = RHE_Konrad_Adenauer
 
 #Ideas
 add_ideas = {
+	RHE_political_radicalisation
+	RHE_treaty_restrictions
 }
 
 #Miscellaneous
@@ -83,20 +46,20 @@ set_convoys = 0
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = conservative_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	libertarian_socialism = 22
-	council_communism = 8
-	social_democracy = 8
+	libertarian_socialism = 10
+	council_communism = 20
+	social_democracy = 15
 	market_liberalism = 5
-	conservative_democracy = 10
-	authoritarian_democracy = 14
-	national_populism = 20
-	national_syndicalism = 13
+	conservative_democracy = 25
+	authoritarian_democracy = 10
+	national_populism = 15
+	national_syndicalism = 0
 }
 
 #Variants

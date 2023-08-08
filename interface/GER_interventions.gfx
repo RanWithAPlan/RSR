@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = { 
+		name = "GFX_austria_button"
+		texturefile = "gfx/interface/decisions/interventions_decisions/austria_button.png"
+	}
+	spriteType = { 
+		name = "GFX_rhineland_button"
+		texturefile = "gfx/interface/decisions/interventions_decisions/rhineland_button.png"
+	}
+}

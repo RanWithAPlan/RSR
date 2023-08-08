@@ -22,3 +22,36 @@ defined_text = {
 		localization_key = GER_USPD_majority
 	}
 }
+defined_text = {
+	name = GetInterventionsDesc
+	text = {
+		trigger = {
+			has_country_flag = rhineland_struggle_intervention
+		}
+		localization_key = GER_rhineland_struggle_intervention_desc
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = rhineland_struggle_intervention
+				has_global_flag = rhineland_resolved
+			}
+		}
+		localization_key = GER_rhineland_struggle_intervention_desc_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = austria_crisis_intervention
+		}
+		localization_key = GER_austria_crisis_intervention_desc
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = austria_crisis_intervention
+				has_global_flag = austria_resolved
+			}
+		}
+		localization_key = GER_austria_crisis_intervention_desc_2
+	}
+}

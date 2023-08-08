@@ -196,10 +196,11 @@ set_variable = {
 set_variable = { 
 	var = GER_unity_stability_factor value = -0.025
 }
-	
+
 add_ideas = {
 	GER_haven_for_refugees
 	GER_third_internationalist_plot
+	GER_growing_synthetics_industry
 }
 
 add_dynamic_modifier = {

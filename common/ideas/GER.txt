@@ -1,74 +1,12 @@
 ideas = {
 	country = { 
-		
-		GER_tension_on_the_rhine_3 = { #Most Severe
-			
-			picture = GER_tension_on_the_rhine_3
-			
-			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}
-			
-			allowed_civil_war = {
-				always = no
-			}
-			
+		GER_growing_synthetics_industry = {
+			picture = generic_stockpile_fuel
 			modifier = {
-				stability_factor = -0.1
-				war_support_factor = 0.05
-				opinion_gain_monthly_factor = -0.2
+				production_speed_synthetic_refinery_factor = 0.15
 			}
-			targeted_modifier = {
-    			tag = RHE
-   				attack_bonus_against = 0.1
-    			defense_bonus_against = 0.05
-			}
-		}
-
-		GER_tension_on_the_rhine_2 = {
-			
-			picture = GER_tension_on_the_rhine_2
-			
-			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}
-			
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				stability_factor = -0.05
-				war_support_factor = 0.05
-				opinion_gain_monthly_factor = -0.15
-			}
-			targeted_modifier = {
-    			tag = RHE
-   				attack_bonus_against = 0.05
-			}
-		}
-
-		GER_tension_on_the_rhine_1 = { #Least Severe
-			
-			picture = GER_tension_on_the_rhine_1
-			
-			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}
-			
-			allowed_civil_war = {
-				always = no
-			}
-			
-			modifier = {
-				stability_factor = -0.05
-				opinion_gain_monthly_factor = -0.1
+			research_bonus = {
+				synth_resources = 0.15
 			}
 		}
 		GER_third_internationalist_plot = {

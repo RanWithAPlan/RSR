@@ -25,6 +25,18 @@ spriteTypes = {
 		texturefile = "gfx/events/report_event_lenin_dead.png"
 	}
 	spriteType = {
+		name = "GFX_report_event_austro_marxism"
+		texturefile = "gfx/events/report_event_austro_marxism.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_austro_marxism"
+		texturefile = "gfx/events/report_event_austro_marxism.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_rhenish_afro_germans"
+		texturefile = "gfx/events/report_event_rhenish_afro_germans.png"
+	}
+	spriteType = {
 		name = "GFX_news_event_olympics_1936"
 		texturefile = "gfx/events/news_event_olympics_1936.png"
 	}
@@ -59,5 +71,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_austrian_socialists"
 		texturefile = "gfx/events/news_event_austrian_socialists.png"
+	}
+	spriteType = {
+		name = "GFX_news_event_rhenish_nationalists"
+		texturefile = "gfx/events/news_event_rhenish_nationalists.png"		
+	}
+	spriteType = {
+		name = "GFX_news_event_rhenish_strike"
+		texturefile = "gfx/events/news_event_rhenish_strike.png"		
+	}
+	spriteType = {
+		name = "GFX_news_event_french_occupation"
+		texturefile = "gfx/events/news_event_french_occupation.png"		
 	}
 }

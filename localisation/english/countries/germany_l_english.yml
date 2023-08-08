@@ -89,11 +89,26 @@
  flavour_germany.1.t:0 "The Wisent Breeding Program"
  flavour_germany.1.d:0 "In the Great War, occupying German troops hunted the last European bison (or Wisent) herd in the Białowieża Forest, killing over 98% of the herd (600 bison). In 1923 The International Society for the Preservation of the Wisent was formed, the last wild bison in Poland had been killed 2 years earlier and in 1927 the last Caucasian Wisent was killed and the animal became extinct in the wild. Acquirring animals from many different zoos, The International Society for the Preservation of the Wisent has made steady progress in bringing the species back from the brink, following the model of the American Bison Society. The society is hoping for planning permission and extra-resources to expand their project and facilities, as well as creating a reserve for them in Germany, as Białowieża Forest was considered too politically unsafe."
  flavour_germany.1.a:0 "We'll gladly support this endeavour!"
- 
+ flavour_germany.2.t:0 "The Austro-Marxist Divide"
+ flavour_germany.2.d:0 "After the union of Germany and Austria, many socialist parties in Austria merged with their German counterparts. The KPÖ merged with the DKP, the KAPÖ merged with the KPD, but it seems many in the SDAPÖ were not willing to merge with the USPD. Although most in the party supported Austria's integration into Germany, a faction in the party led by Otto Bauer has opposed the integration into German political parties, seeking to maintain the SDAPÖ and its unique Austro-Marxist thought; there is also an element of regionalism in the party. On the other hand, a pro-integration faction has emerged, led by Karl Renner, one of the most vocal advocates for union with Germany. This severe disconnect in the party has led to a schism, with one half breaking away and merging with the USPD, while the other faction has stayed in the SDAPÖ, cementing its unique Austro-Marxist position."
+ flavour_germany.2.a:0 "Splitter!"
+
+
 #decisions#
 
+###interventions###
+
+ GER_interventions_category:0 "Spreading The Revolution"
+ GER_austria_crisis_button_tt:0 "§YThe Austria Crisis§!"
+ GER_rhineland_struggle_button_tt:0 "§YThe Rhineland Struggle§!"
+ GER_interventions_header_text:0 "§RSelect A Poster To Switch Between Decisions§!"
+ GER_interventions_desc:0 "[GetInterventionsDesc]"
+ GER_rhineland_struggle_intervention_desc:0 "§YThe Rhineland Struggle§!\n\nAfter socialist revolution swept away the short-lived republican government, the Rhineland occupation zone was reformed into the Rhenish Republic, often seen as a buffer state between the resurgent [GER.GetFlag][GER.GetName] and the former Entente powers, as the nation is under strict treaties which bind it economically and militarily to the [FRA.GetFlag][FRA.GetName].\n\nCaught between two increasingly aggressive and ideologically opposed powers, the republic is anything but stable. A steady stream of funds, weapons, and propaganda has been making it's way across the Rhine, bolstering the already huge communist movement. In reaction, nationalist militias and parties have formed, the heirs of the Freikorps, backed by the French and conveniently ignored by the dominant Zentrum party, the scene is set for a battle that could decide the fate of Western Europe.\n\n[GER.GetFlag]§R[GER.GetAdjective] Influence: §Y[?GER_rhineland_conflict_value]§!\n[FRA.GetFlag]§2[FRA.GetAdjective] Influence: §Y[?FRA_rhineland_conflict_value]§!\n\n§tThe first nation to reach §Y100 Influence§! §twill take control of the Rhineland§!"
+ GER_rhineland_struggle_intervention_desc2:0 "§YThe Rhineland Struggle§!\n\n§YOver§!"
+ GER_austria_crisis_intervention_desc:0 "§YThe Austria Crisis§!\n\nFor over a decade now tensions have been rising within Austria, tensions that have now exploded into the international limelight with the so called 'Austria Crisis'. The reactionaries have stopped at nothing to try and destroy the socialist movement in Austria and as such, brave heroes have resisted throughout the nation.\n\nIn its weakened state, a short military intervention should be sufficient to topple the reactionary government and relieve the Vienna Soviet, among other uprisings. Victory in Austria will provide us with a land route to our allies in Italy, while also securing our southern borders from a potential threat."
+ GER_austria_crisis_intervention_desc2:0 "YThe Austria Crisis§!\n\n§YOver§!"
+
 #austrian intervention
- GER_austrian_intervention_category:0 "The Austria Crisis"
  GER_the_window_of_opportunity:0 "The Window of Opportunity"
  GER_the_window_of_opportunity_desc:0 "After the reactionary Dollfuss government assumed almost complete control, brave socialist miltias have risen up to defy them. This provides a perfect pretext to invade Austria and install a socialist government there. Not only will this secure our borders from threats to the South, it will spread the revolution and give us a direct land border with our ally, Italy.\n\n§RWe must act soon or the opportunity will pass us by§!"
  GER_intervene_in_austria:0 "Intervene In Austria"
@@ -107,6 +122,15 @@
  GER_core_tyrol:0 "De-Corporatise Tyrol"
  GER_core_voralberg:0 "De-Corporatise Vorarlberg"
  GER_core_south_tyrol:0 "De-Corporatise South Tyrol"
+
+#rhineland intervention
+ GER_show_of_force:0 "Show of Force"
+ GER_fund_communist_agitators:0 "Fund Communist Agitators"
+ GER_GER_train_militants:0 "Train Militants"
+ GER_work_with_the_faud:0 "Work With The FAUD"
+ GER_organise_strikes:0 "Organise Strikes"
+ GER_rhine_flotilla:0 "Bolster The Rhine Flotilla"
+
 
 #unity mechanic
  GER_unity:0 "Unity"
@@ -286,6 +310,7 @@
  GER_peoples_production_for_a_peoples_army_idea:0 "People's Production For A People's Army"
  GER_peoples_production_for_a_peoples_army_idea1:0 "People's Production For A People's Army"
  GER_third_internationalist_plot:0 "Roter Frontkämpferbund Conspiracy?"
+ GER_growing_synthetics_industry:0 "Growing Synthetics Industry"
 
 #designers#
  gruppe_oberndorf_am_neckar:0 "Gruppe Oberndorf am Neckar"

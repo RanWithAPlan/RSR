@@ -1,2 +1,18 @@
 on_actions = {
+    on_startup = {
+        effect = {
+            GER = {
+                #rhineland mechanic
+                set_country_flag = rhineland_struggle_intervention
+                set_variable = {
+                    var = FRA_rhineland_conflict_value
+                    value = 15
+                }
+                set_variable = {
+                    var = GER_rhineland_conflict_value
+                    value = 5
+                }
+            }
+        }
+    }
 }

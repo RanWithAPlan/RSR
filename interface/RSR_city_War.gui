@@ -10,7 +10,7 @@ guiTypes = {
 		iconType = {
 			name = "background_decisions_image_one"
 			spriteType = "GFX_background_decisions_image_one"
-			position = { x = 6 y = -15 }
+			position = { x = 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -22,7 +22,7 @@ guiTypes = {
 		
 		instantTextBoxType ={
 			name ="city_war_text"
-			position = { x = 3 y = 205 }
+			position = { x = 0 y = 215 }
 			Orientation = "UPPER_LEFT"
 			font = "hoi_18mbs"
 			text = "RSR_city_war_text"

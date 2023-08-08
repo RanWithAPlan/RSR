@@ -1,0 +1,26 @@
+ideas = {
+	country = { 
+		RHE_political_radicalisation = {
+			picture = fire
+			modifier = {
+				stability_factor = -0.30
+				political_power_cost = 0.50
+				national_populism_drift = 0.01
+				council_communism_drift = 0.01
+			}
+		}
+		RHE_treaty_restrictions = {
+			picture = EST_democratic_opposition
+			targeted_modifier = {
+				tag = FRA
+				extra_trade_to_target_factor = 0.5
+				trade_cost_for_target_factor = -0.5
+				cic_to_target_factor = 0.5
+			}
+			modifier = {
+				political_power_cost = 0.25
+				custom_modifier_tooltip = no_training_tt
+			}
+		}
+	}
+}

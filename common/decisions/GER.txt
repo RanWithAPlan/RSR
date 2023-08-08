@@ -681,7 +681,205 @@ GER_roter_frontkampferbund_plot = {
 		}
     }
 }
-GER_austrian_intervention_category = {
+GER_interventions_category = {
+    #rhineland 
+    GER_show_of_force = {
+        icon = GFX_decision_generic_tank
+        available = {
+            OR = {
+                divisions_in_state = {
+                    size > 4
+                    state = 51
+                }
+                divisions_in_state = {
+                    size > 4
+                    state = 55
+                }
+            }
+        }
+        visible = {
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        custom_cost_trigger = {
+            has_equipment = {
+                infantry_equipment > 99
+            }
+        }
+        custom_cost_text = decision_cost_100_infantry_eqp
+        days_remove = 10
+        days_re_enable = 140
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 5
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            army_experience = 10
+            RHE_influence_switch = yes
+        }
+    }
+    GER_fund_communist_agitators = {
+        icon = GFX_decision_eng_propaganda_campaigns
+        cost = 30
+        days_remove = 60
+        days_re_enable = 70
+        visible = {
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        targeted_modifier = {
+            tag = RHE
+            council_communism_drift = 0.03
+        }
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 5
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            RHE_influence_switch = yes
+        }
+    }
+    GER_train_militants = {
+        icon = GFX_decision_generic_civil_support
+        days_remove = 60
+        days_re_enable = 70
+        visible = {
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        custom_cost_trigger = {
+            has_equipment = {
+                infantry_equipment > 99
+            }
+        }
+        custom_cost_text = decision_cost_100_infantry_eqp
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_equipment = { infantry_equipment < 1000 }
+			}
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+        complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = -100
+                    producer = GER
+                }
+            }
+        }
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 5
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            RHE_influence_switch = yes
+        }
+    }
+    GER_work_with_the_faud = {
+        icon = GFX_decision_eng_trade_unions_support
+        days_remove = 60
+        fire_only_once = yes
+        cost = 75
+        visible = {
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 10
+            }
+            custom_effect_tooltip = rhineland_value_10_tt
+            set_country_flag = working_with_faud
+            RHE_influence_switch = yes
+        }
+    }
+    GER_organise_strikes = {
+        icon = GFX_decision_generic_political_rally
+        days_remove = 60
+        days_re_enable = 70
+        cost = 30
+        visible = {
+            has_country_flag = working_with_faud
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        targeted_modifier = {
+            tag = RHE
+            production_speed_buildings_factor = -0.3
+            industrial_capacity_factory = -0.3
+            consumer_goods_factor = 0.3
+            production_factory_efficiency_gain_factor = -0.3
+        }
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 5
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            RHE_influence_switch = yes
+        }  
+    }
+    GER_rhine_flotilla = {
+        icon = GFX_decision_generic_construction
+        days_remove = 100
+        fire_only_once = yes
+        cost = 30
+        modifier = {
+            dockyard_donations = -1
+        }
+        visible = {
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 10
+            }
+            custom_effect_tooltip = rhineland_value_10_tt
+            add_equipment_to_stockpile = {
+                type = convoy
+                amount = 20
+                producer = GER
+            }
+            RHE_influence_switch = yes
+        }
+    }
+    GER_rhine_ger_wins = {
+        icon = GFX_decision_generic_construction
+        fire_only_once = yes
+        cost = 0
+        visible = {
+            has_country_flag = rhineland_struggle_intervention
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+            is_debug = yes
+        }
+        remove_effect = {
+            add_to_variable = {
+                var = GER_rhineland_conflict_value value = 100
+            }
+            RHE_influence_switch = yes
+        }
+    }
+    #austria
     GER_the_window_of_opportunity = {
         icon = GFX_decision_generic_ignite_civil_war
         activation = {
@@ -697,14 +895,12 @@ GER_austrian_intervention_category = {
         timeout_effect = {
             clr_global_flag = austria_unstable
         }
-        complete_effect = {
-            clr_country_flag = austria_unstable
-        }
     }
     GER_intervene_in_austria = {
         icon = GFX_decision_generic_tank
         visible = {
             has_global_flag = austria_unstable
+            has_country_flag = austria_crisis_intervention
         }
         priority = 9
         fire_only_once = yes
@@ -803,6 +999,7 @@ GER_austrian_intervention_category = {
             AUS = {
                 is_puppet_of = GER
             }
+            has_country_flag = austria_crisis_intervention
         }
         remove_effect = {
             annex_country = {
@@ -825,135 +1022,32 @@ GER_austrian_intervention_category = {
                     }
                 }
                 news_event = news_event.9
+                country_event = {
+                    id = flavour_germany.2
+                    days = 12
+                }
             }
         }
     }
-    GER_core_vienna = {
+    GER_integrate_austria = {
         icon = GFX_decision_eng_trade_unions_support
         priority = 10
         fire_only_once = yes
-        days_remove = 10
-		highlight_states = {
-   			highlight_state_targets = {
-                state = 4
-    		}
-    		highlight_color_while_active = 3
-    		highlight_color_before_active = 2
-		}
-        visible = {
-            4 = {
-                is_owned_and_controlled_by = GER
-            }
-        }
-        remove_effect = {
-            GER = {
-                add_state_core = 4
-            }
-        }
-        modifier = {
-            political_power_cost = 0.10
-        }
-    }
-    GER_core_upper_austria = {
-        icon = GFX_decision_generic_police_action
-        priority = 10
-        fire_only_once = yes
+        cost = 50
         days_remove = 30
-		highlight_states = {
-   			highlight_state_targets = {
-                state = 152
-    		}
-    		highlight_color_while_active = 3
-    		highlight_color_before_active = 2
-		}
         visible = {
-            152 = {
-                is_owned_and_controlled_by = GER
-            }
+            has_country_flag = austria_crisis_intervention
         }
         remove_effect = {
-            GER = {
-                add_state_core = 152
+            all_owned_state = {
+                limit = {
+                    is_core_of = AUS
+                }
+                add_core_of = GER
             }
+            clr_global_flag = austria_unstable
+            set_global_flag = austria_resolved
         }
-        modifier = {
-            political_power_cost = 0.10
-        }
-    }
-    GER_core_tyrol = {
-        icon = GFX_decision_generic_police_action
-        priority = 10
-        fire_only_once = yes
-        days_remove = 30
-		highlight_states = {
-   			highlight_state_targets = {
-                state = 153
-    		}
-    		highlight_color_while_active = 3
-    		highlight_color_before_active = 2
-		}
-        visible = {
-            153 = {
-                is_owned_and_controlled_by = GER
-            }
-        }
-        remove_effect = {
-            GER = {
-                add_state_core = 153
-            }
-        }
-        modifier = {
-            political_power_cost = 0.10
-        }
-    }
-    GER_core_voralberg = {
-       icon = GFX_decision_generic_police_action
-        priority = 10
-        fire_only_once = yes
-        days_remove = 30
-		highlight_states = {
-   			highlight_state_targets = {
-                state = 848
-    		}
-    		highlight_color_while_active = 3
-    		highlight_color_before_active = 2
-		}
-        visible = {
-            848 = {
-                is_owned_and_controlled_by = GER
-            }
-        }
-        remove_effect = {
-            GER = {
-                add_state_core = 848
-            }
-        }
-        modifier = {
-            political_power_cost = 0.10
-        }
-    }
-    GER_core_south_tyrol = {
-       icon = GFX_decision_generic_police_action
-        priority = 10
-        fire_only_once = yes
-        days_remove = 30
-		highlight_states = {
-   			highlight_state_targets = {
-                state = 39
-    		}
-    		highlight_color_while_active = 3
-    		highlight_color_before_active = 2
-		}
-        visible = {
-            39 = {
-                is_owned_and_controlled_by = GER
-            }
-        }
-        remove_effect = {
-            GER = {
-                add_state_core = 39
-            }
-        }   
         modifier = {
             political_power_cost = 0.10
         }

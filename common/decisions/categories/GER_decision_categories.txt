@@ -43,10 +43,24 @@ GER_regional_planning_category = {
 	}
 	priority = 30
 }
-GER_austrian_intervention_category = {
+GER_interventions_category = {
 	icon = infiltration
 	allowed = {
 		original_tag = GER
 	}
 	priority = 90
+	scripted_gui = GER_interventions_gui
+	visible_when_empty = yes
+}
+FRA_rhineland_conflict_category = {
+	icon = power_struggle
+	allowed = {
+		original_tag = FRA
+	}
+	visible = {
+		not = {
+			has_global_flag = rhineland_resolved
+		}
+	}
+	priority = 30
 }

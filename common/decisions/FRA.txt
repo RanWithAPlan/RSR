@@ -1,0 +1,228 @@
+FRA_rhineland_conflict_category = {
+    FRA_fund_communist_agitators = {
+        icon = GFX_decision_eng_propaganda_campaigns
+        cost = 30
+        days_remove = 60
+        days_re_enable = 70
+        visible = {
+            
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        targeted_modifier = {
+            tag = RHE
+            council_communism_drift = 0.03
+        }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 20
+                check_variable = {
+                    var = GER_rhineland_conflict_value
+                    value = FRA_rhineland_conflict_value
+                    compare = greater_than_or_equals
+                }
+			}
+		}
+        remove_effect = {
+            GER = {
+                add_to_variable = {
+                    var = FRA_rhineland_conflict_value value = 5
+                }
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            RHE_influence_switch = yes
+        }
+    }
+    FRA_train_militants = {
+        icon = GFX_decision_generic_civil_support
+        days_remove = 60
+        days_re_enable = 70
+        visible = {
+            
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+        custom_cost_trigger = {
+            has_equipment = {
+                infantry_equipment > 99
+            }
+        }
+        custom_cost_text = decision_cost_100_infantry_eqp
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				factor = 1
+				has_equipment = { infantry_equipment < 1000 }
+			}
+			modifier = {
+				factor = 1
+				has_war = yes
+			}
+		}
+        complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = -100
+                    producer = FRA
+                }
+            }
+        }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 20
+                check_variable = {
+                    var = GER_rhineland_conflict_value
+                    value = FRA_rhineland_conflict_value
+                    compare = greater_than_or_equals
+                }
+			}
+		}
+        remove_effect = {
+            GER = {
+                add_to_variable = {
+                    var = FRA_rhineland_conflict_value value = 5
+                }
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            RHE_influence_switch = yes
+        }
+    }
+    FRA_work_with_the_faud = {
+        icon = GFX_decision_eng_trade_unions_support
+        days_remove = 60
+        fire_only_once = yes
+        cost = 75
+        visible = {
+            
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 20
+                check_variable = {
+                    var = GER_rhineland_conflict_value
+                    value = FRA_rhineland_conflict_value
+                    compare = greater_than_or_equals
+                }
+			}
+		}
+        remove_effect = {
+            GER = {
+                add_to_variable = {
+                    var = FRA_rhineland_conflict_value value = 10
+                }
+            }
+            custom_effect_tooltip = rhineland_value_10_tt
+            set_country_flag = working_with_faud
+            RHE_influence_switch = yes
+        }
+    }
+    FRA_organise_strikes = {
+        icon = GFX_decision_generic_political_rally
+        days_remove = 60
+        days_re_enable = 70
+        cost = 30
+        visible = {
+            has_country_flag = working_with_faud
+            
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 20
+                check_variable = {
+                    var = GER_rhineland_conflict_value
+                    value = FRA_rhineland_conflict_value
+                    compare = greater_than_or_equals
+                }
+			}
+		}
+        targeted_modifier = {
+            tag = RHE
+            production_speed_buildings_factor = -0.3
+            industrial_capacity_factory = -0.3
+            consumer_goods_factor = 1.3
+            production_factory_efficiency_gain_factor = -0.3
+        }
+        remove_effect = {
+            GER = {
+                add_to_variable = {
+                    var = FRA_rhineland_conflict_value value = 5
+                }
+            }
+            custom_effect_tooltip = rhineland_value_5_tt
+            RHE_influence_switch = yes
+        }  
+    }
+    FRA_rhine_flotilla = {
+        icon = GFX_decision_generic_construction
+        days_remove = 100
+        fire_only_once = yes
+        cost = 30
+        modifier = {
+            dockyard_donations = -1
+        }
+        visible = {
+            
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+        }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 20
+                check_variable = {
+                    var = GER_rhineland_conflict_value
+                    value = FRA_rhineland_conflict_value
+                    compare = greater_than_or_equals
+                }
+			}
+		}
+        remove_effect = {
+            GER = {
+                add_to_variable = {
+                    var = FRA_rhineland_conflict_value value = 10
+                }
+            }
+            custom_effect_tooltip = rhineland_value_10_tt
+            add_equipment_to_stockpile = {
+                type = convoy
+                amount = 20
+                producer = FRA
+            }
+            RHE_influence_switch = yes
+        }
+    }
+    FRA_rhine_fra_wins = {
+        icon = GFX_decision_generic_construction
+        fire_only_once = yes
+        cost = 0
+        visible = {
+            
+            not = {
+                has_global_flag = rhineland_resolved
+            }
+            is_debug = yes
+        }
+        remove_effect = {
+            GER = {
+                add_to_variable = {
+                    var = FRA_rhineland_conflict_value value = 100
+                }
+            }
+            RHE_influence_switch = yes
+        }
+    }
+}

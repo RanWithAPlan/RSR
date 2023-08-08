@@ -1,0 +1,60 @@
+add_namespace = rhineland
+country_event = {
+    id = rhineland.1
+    title = rhineland.1.t
+    desc = rhineland.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = rhineland.1.a
+        add_popularity = {
+            ideology = national_populism
+            popularity = 0.15
+        }
+        add_popularity = {
+            ideology = conservative_democracy
+            popularity = -0.05
+        }
+        add_popularity = {
+            ideology = council_communism
+            popularity = -0.10
+        }
+        country_event = {
+            id = rhineland.3
+            days = 60
+        }
+        news_event = news_event.10
+    }
+}
+country_event = {
+    id = rhineland.2
+    title = rhineland.2.t
+    desc = rhineland.2.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = rhineland.2.a
+        GER = {
+            annex_country = {
+                target = RHE
+            }
+        }
+        news_event = news_event.11
+    }
+}
+country_event = {
+    id = rhineland.3
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = rhineland.3.a
+        FRA = {
+            puppet = RHE
+        }
+		set_politics = {
+			ruling_party = national_populism
+	    	last_election = "[CURRENT_DATE]"
+		}
+        news_event = news_event.12
+    }
+}

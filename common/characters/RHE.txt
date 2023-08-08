@@ -1,0 +1,15 @@
+characters={
+	RHE_Konrad_Adenauer = {
+		name = "Konrad Adenauer"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/RHE/Portrait_RHE_Konrad_Adenauer.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = conservative_democracy_subtype
+		}
+	}
+}

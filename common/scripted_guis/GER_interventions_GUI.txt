@@ -1,0 +1,31 @@
+scripted_gui = {
+
+	GER_interventions_gui = {
+		context_type = decision_category #will put it in the decisions section
+		window_name = "GER_interventions_gui"
+		
+        effects = {
+           	austria_crisis_button_click = {
+				set_country_flag = austria_crisis_intervention
+				clr_country_flag = rhineland_struggle_intervention
+            }
+           	rhineland_struggle_button_click = {
+				set_country_flag = rhineland_struggle_intervention
+				clr_country_flag = austria_crisis_intervention
+            }
+        }
+		triggers = {
+			austria_crisis_button_visible ={
+				has_global_flag = austria_unstable
+			}
+			rhineland_struggle_button_visible ={
+				NOT = {
+					has_global_flag = rhineland_resolved
+				}
+			}
+		}
+
+	}
+
+}
+

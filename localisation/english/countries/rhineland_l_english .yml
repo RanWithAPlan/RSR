@@ -39,17 +39,30 @@
 
  RHE_libertarian_socialism_party:0 "FAUD"
  RHE_libertarian_socialism_party_long:0 "Freie Arbeiter Union Deutschlands"
- RHE_council_communism_party:0 "KPD"
- RHE_independent_socialism_party_long:0 "Kommunistische Partei Deutschlands"
+ RHE_council_communism_party:0 "KPR"
+ RHE_council_communism_party_long:0 "Kommunistische Partei Rheinland"
  RHE_social_democracy_party:1 "SPD"
  RHE_social_democracy_party_long:2 "Sozialdemokratische Partei Deutschlands"
  RHE_social_liberalism_party:0 "SPD"
  RHE_social_liberalism_party_long:0 "Sozialdemokratische Partei Deutschlands"
  RHE_market_liberalism_party:0 "Deutsche Volkspartei"
  RHE_conservative_democracy_party:0 "Zentrum"
- RHE_autocracy_party:0 "Military Government"
- RHE_despotism:0 "Deutschnationale Volkspartei"
- RHE_national_extremism_party:0 "Deutschnationale Volkspartei"
+ RHE_authoritarian_democracy_party:0 "Deutschnationale Volskpartei"
+ RHE_autocracy:0 "Deutschnationale Volkspartei"
+ RHE_national_populism_party:0 "Deutschvölkische Freiheitspartei"
+ RHE_national_syndicalism_party:0 "Deutschvölkische Freiheitspartei"
+
+ no_training_tt:0 "§RCannot Train, Edit, or Disband Units§!"
+
+ #Rhineland conflict
+ GER_rhineland_conflict_category:0 "Struggle On The Rhine"
+ GER_rhineland_conflict_category_desc:0 "After socialist revolution swept away the short-lived republican government, the Rhineland occupation zone was reformed into the Rhenish Republic, often seen as a buffer state between the resurgent [GER.GetFlag][GER.GetName] and the former Entente powers. The French stationed troops in the Republic throughout the 20's and it is under severe military restrictions as well as economic ties with and, even today, significant amounts of debt to the [FRA.GetFlag][FRA.GetName].\n\nThe precarious geopolitical situation, caught between two increasingly aggressive and ideologically opposed powers, has translated into internal politics. A steady stream of funds, weapons, and propaganda has been making it's way across the Rhine, bolstering the already huge communist movement. In reaction, nationalist militias and parties have formed, the heirs of the Freikorps, backed by the French and conveniently ignored by the dominant Zentrum party, the scene is set for a political and geopolitical battle that could decide the fate of Western Europe.\n\n[GER.GetFlag]§R[GER.GetAdjective] Influence: §Y[?GER_rhineland_conflict_value]§!\n[FRA.GetFlag]§2[FRA.GetAdjective] Influence: §Y[?FRA_rhineland_conflict_value]§!\n\n§tThe first nation to reach §Y100 Influence§! §twill take control of the Rhineland§!"
  
+ decision_cost_100_infantry_eqp:0 "£infantry_equipment_text_icon  §Y100§!"
+ decision_cost_100_infantry_eqp_blocked:0 "£infantry_equipment_text_icon  §R100§!"
+ decision_cost_100_infantry_eqp_tooltip:0 "It costs £infantry_equipment_text_icon  §Y100§! to take the decision"
+
+ rhineland_value_5_tt:0 "Increases our §YInfluence§! by §Y5§!"
+ rhineland_value_10_tt:0 "Increases our §YInfluence§! by §Y10§!"
  
  

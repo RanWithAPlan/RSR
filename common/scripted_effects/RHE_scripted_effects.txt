@@ -1,0 +1,30 @@
+RHE_influence_switch = {
+	if = {
+		limit = {
+			not = {
+				has_global_flag = rhineland_resolved
+			}
+			check_variable = {
+				var = GER_rhineland_conflict_value
+				value = 100
+				compare = greater_than_or_equals
+			}
+		}
+		RHE = { country_event = rhineland.2 }
+		set_global_flag = rhineland_resolved
+	}
+	else_if = {
+		limit = {
+			not = {
+				has_global_flag = rhineland_resolved
+			}
+			check_variable = {
+				var = FRA_rhineland_conflict_value
+				value = 100
+				compare = greater_than_or_equals
+			}
+		}
+		RHE = { country_event = rhineland.1 } #france wins
+		set_global_flag = rhineland_resolved
+	}
+}

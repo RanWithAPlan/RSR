@@ -54,7 +54,6 @@ if = {
 	else = {
 		set_naval_oob = "TAG_1936_naval_legacy"
 		set_technology = {
-			set_technology = {
 			early_submarine = 1
 			basic_submarine = 1
 			early_destroyer = 1
@@ -151,7 +150,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = national_populism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -159,18 +158,18 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	libertarian_socialism = 6
-	council_communism = 6
-	vanguard_socialism = 3
+	libertarian_socialism = 0
+	council_communism = 7
+	vanguard_socialism = 7
 	independent_socialism = 5
-	social_democracy = 10
+	social_democracy = 12
 	social_liberalism = 9
-	market_liberalism = 9
-	conservative_democracy = 9
-	authoritarian_democracy = 33
-	autocracy = 0
-  	national_syndicalism = 5
-  	national_populism = 5
+	market_liberalism = 5
+	conservative_democracy = 6
+	authoritarian_democracy = 0
+	autocracy = 5
+  	national_syndicalism = 14
+  	national_populism = 30
 }
 
 add_ideas = {
