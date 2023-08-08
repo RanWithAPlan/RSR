@@ -10,7 +10,7 @@ guiTypes = {
 		iconType = {
 			name = "background_decisions_image_one"
 			spriteType = "GFX_background_decisions_image_one"
-			position = { x = 0 y = 0 }
+			position = { x = -1 y = -15 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -18,11 +18,19 @@ guiTypes = {
 			name = "french_building_icon"
 			spriteType = "GFX_city_war_building_ui"
 			position = { x= 10 y = -40 }
+			pdx_tooltip = french_progess_tt
+		}
+		
+		iconType = {
+			name = "german_building_icon"
+			spriteType = "GFX_city_war_building_ui"
+			position = { x= 310 y = -40 }
+			pdx_tooltip = german_progess_tt
 		}
 		
 		instantTextBoxType ={
 			name ="city_war_text"
-			position = { x = 0 y = 215 }
+			position = { x = 0 y = 205 }
 			Orientation = "UPPER_LEFT"
 			font = "hoi_18mbs"
 			text = "RSR_city_war_text"

@@ -1,0 +1,129 @@
+#Variable Colours
+defined_text = {
+	name = GetRaceProgress
+	##germany
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 1 }
+		}
+		localization_key = "10"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 2 }
+		}
+		localization_key = "20"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 3 }
+		}
+		localization_key = "30"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 4 }
+		}
+		localization_key = "40"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 5 }
+		}
+		localization_key = "50"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 6 }
+		}
+		localization_key = "60"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 7 }
+		}
+		localization_key = "70"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 8 }
+		}
+		localization_key = "80"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 9 }
+		}
+		localization_key = "90"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_german_building_frame value = 10 }
+		}
+		localization_key = "100"
+	}
+	
+	
+	
+	##france
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 1 }
+		}
+		localization_key = "10"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 2 }
+		}
+		localization_key = "20"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 3 }
+		}
+		localization_key = "30"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 4 }
+		}
+		localization_key = "40"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 5 }
+		}
+		localization_key = "50"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 6 }
+		}
+		localization_key = "60"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 7 }
+		}
+		localization_key = "70"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 8 }
+		}
+		localization_key = "80"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 9 }
+		}
+		localization_key = "90"
+	}
+	text = {
+		trigger = {
+			check_variable = {var = current_french_building_frame value = 10 }
+		}
+		localization_key = "100"
+	}
+}
