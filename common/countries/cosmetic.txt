@@ -1,6 +1,21 @@
 EGY_UK = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
+}
+
+IAO_UK = {
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
+}
+
+TRS_UK = {
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
+}
+
+JOR_UK = {
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
 }
 
 MON_FREE = {

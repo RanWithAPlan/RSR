@@ -17,6 +17,171 @@ on_actions = {
 					white_peace = FROM
 				}
 			}
+			##kenya-somalia war##
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = KEN
+							is_in_faction_with = KEN
+						}
+					}
+					ROOT = {
+						original_tag = SOM
+					}
+				}
+				ROOT = {
+					white_peace = FROM
+				}
+				CAN = {
+					add_to_faction = KEN
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = SOM
+							is_in_faction_with = SOM
+						}
+					}
+					ROOT = {
+						original_tag = KEN
+					}
+				}
+				ROOT = {
+					white_peace = FROM
+					set_politics = {
+						ruling_party = conservative_democracy
+						last_election = "[CURRENT_DATE]"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						autocracy = 10
+						conservative_democracy = 40
+						authoritarian_democracy = 25
+						social_democracy = 15
+						vanguard_socialism = 10
+					}
+					create_country_leader = {
+						name = "Jomo Kenyatta"
+						picture = "GFX/leaders/ENG/portrait_Jomo_Kenyatta.png"
+						expire = "1965.1.1"
+						ideology = conservative_democracy_subtype
+						traits = {
+						}
+					}
+				}
+				FROM = {
+					transfer_state = 844
+					transfer_state = 903
+				}
+			}
+			#war in the desert
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = SAU
+							original_tag = HJZ
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = TRS
+							original_tag = JOR
+							original_tag = HJZ
+							original_tag = IRQ
+						}
+					}
+				}
+				ROOT = {
+					every_core_state = {
+						add_core_of = FROM
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+					}
+					if = {
+						limit = {
+							country_exists = IRQ
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = IRQ
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = TRS
+							original_tag = HJZ
+							original_tag = JOR
+						}
+					}
+					ROOT = {
+						original_tag = SAU
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							country_exists = JOR
+							country_exists = HJZ
+						}
+					}
+					HJZ = {
+						annex_country = {
+							target = SAU
+						}
+						annex_country = {
+							target = JOR
+							transfer_troops = yes
+						}
+						every_owned_state = {
+							add_core_of = HJZ
+						}
+						set_cosmetic_tag = HJZ_Arabia
+						declare_war_on = {
+							target = TRS
+							type = annex_everything
+						}
+					}
+				}
+				if = {
+					limit = {
+						country_exists = TRS
+					}
+					TRS = {
+						transfer_state = 859
+						add_state_core = 859
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = TRS
+							original_tag = IRQ
+						}
+					}
+					ROOT = {
+						original_tag = HEJ
+					}
+				}
+				FROM = {
+					transfer_state = 656
+					add_state_core = 656
+					white_peace = ROOT
+				}
+			}
 		}
 	}
 }

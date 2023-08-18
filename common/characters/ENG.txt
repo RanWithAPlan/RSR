@@ -1,0 +1,15 @@
+characters={
+	ENG_Stanley_Baldwin = {
+		name = "Stanley Baldwin"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/ENG/Portrait_ENG_Stanley_Baldwin.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = conservative_democracy_subtype
+		}
+	}
+}

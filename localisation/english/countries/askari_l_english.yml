@@ -29,6 +29,10 @@
  IAO:0 "Tanzania"
  IAO_DEF:0 "Tanzania"
  IAO_ADJ:0 "German"
+
+ IAO_UK:0 "Mandate of Ostafrika"
+ IAO_UK_DEF:0 "the Mandate of Ostafrika"
+ IAO_UK_ADJ:0 "Ostafrikan"
  
  #Parties
  IAO_libertarian_socialism_party:0 "libertarian_socialism"

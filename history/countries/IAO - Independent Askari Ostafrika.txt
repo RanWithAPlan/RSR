@@ -1,5 +1,5 @@
 ﻿capital = 546
-
+set_cosmetic_tag = IAO_UK
 #Order of Battle
 #Army
 oob = "IAO_1936"

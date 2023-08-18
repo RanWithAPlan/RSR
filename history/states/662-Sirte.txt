@@ -1,7 +1,7 @@
 state={
 	id=662
 	name="STATE_662"
-	manpower = 13213
+	manpower = 23213
 	
 	state_category = wasteland
 	
@@ -12,6 +12,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = LBA
+		add_core_of = TRP
 	}
 	
 	provinces={

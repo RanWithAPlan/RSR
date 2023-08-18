@@ -1,0 +1,63 @@
+﻿l_english:
+#trucial
+ TRS:0 "Trucial States"
+ TRS_DEF:0 "the Trucial States"
+ TRS_ADJ:0 "Trucial"
+ TRS_subject:0 "$OVERLORDADJ$ $TRS$"
+ TRS_subject_DEF:0 "$OVERLORDADJ$ $TRS$"
+
+ TRS_UK:0 "Trucial States"
+ TRS_UK_DEF:0 "the Trucial States"
+ TRS_UK_ADJ:0 "Trucial"
+#hejaz
+ HJZ:0 "Hejaz"
+ HJZ_DEF:0 "the Hejaz"
+ HJZ_ADJ:0 "Hejazi"
+ HJZ_subject:0 "$OVERLORDADJ$ $HJZ$"
+ HJZ_subject_DEF:0 "$OVERLORDADJ$ $HJZ$"
+
+ HJZ_Arabia:0 "Hashemite Arabia"
+ HJZ_Arabia_DEF:0 "Hashemite Arabia"
+ HJZ_Arabia_ADJ:0 "Arab"
+#jordan
+ JOR:0 "Hashemite Kingdom of Jordan"
+ JOR_DEF:0 "the Hashemite Kingdom of Jordan"
+ JOR_ADJ:0 "Jordanian"
+ JOR_subject:0 "$OVERLORDADJ$ $JOR$"
+ JOR_subject_DEF:0 "$OVERLORDADJ$ $JOR$"
+
+ JOR_UK:0 "Emirate of Transjordan"
+ JOR_UK_DEF:0 "the Emirate of Transjordan"
+ JOR_UK_ADJ:0 "Jordanian"
+#ikhwan
+ SAU_national_populism:0 "Ikhwan"
+ SAU_national_populism_DEF:0 "the Ikhwan"
+ SAU_national_populism_ADJ:0 "Ikhwan"
+ SAU_subject:0 "$OVERLORDADJ$ $SAU$"
+ SAU_subject_DEF:0 "$OVERLORDADJ$ $SAU$""
+#cyrenaica
+ LBA:0 "Emirate of Cyrenaica"
+ LBA:0 "the Emirate of Cyrenaica"
+ LBA_ADJ:0 "Cyrenaican"
+ LBA_subject:0 "$OVERLORDADJ$ $LBA$"
+ LBA_subject_DEF:0 "$OVERLORDADJ$ $LBA$""
+#tripolitania
+ TRP:0 "Tripolitanian Republic"
+ TRP:0 "the Tripolitanian Republic"
+ TRP_ADJ:0 "Tripolitanian"
+ TRP_subject:0 "$OVERLORDADJ$ $TRP$"
+ TRP_subject_DEF:0 "$OVERLORDADJ$ $TRP$""
+#rif
+ RIF:0 "Rif Republic"
+ RIF:0 "the Rif Republic"
+ RIF_ADJ:0 "Rifian"
+ RIF_subject:0 "$OVERLORDADJ$ $RIF$"
+ RIF_subject_DEF:0 "$OVERLORDADJ$ $RIF$""
+
+ legacy_of_the_rif_war:0 "Legacy of the Rif War"
+#tangiers
+ TNG:0 "Tangier International Zone"
+ TNG:0 "the Tangier International Zone"
+ TNG_ADJ:0 "Tangierian"
+ TNG_subject:0 "$OVERLORDADJ$ $TNG$"
+ TNG_subject_DEF:0 "$OVERLORDADJ$ $TNG$""

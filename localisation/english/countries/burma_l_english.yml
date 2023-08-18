@@ -1,0 +1,6 @@
+﻿l_english:
+ BRM:0 "Iran"
+ BRM_DEF:0 "Iran"
+ BRM_ADJ:0 "Iranian"
+ BRM_subject:0 "$OVERLORDADJ$ $BRM$"
+ BRM_subject_DEF:0 "$OVERLORDADJ$ $BRM$"

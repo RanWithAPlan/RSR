@@ -131,6 +131,7 @@ if = {
 }
 
 #Characters
+recruit_character = ENG_Stanley_Baldwin
 
 #Ideas
 add_ideas = {
@@ -161,6 +162,11 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
+		target = IAO
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
@@ -184,20 +190,54 @@ if = {
 		target = EGY
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = TRS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
 		puppet = EGY
+		puppet = IAO
+		puppet = TRS
+		puppet = JOR
 	}
 }
+EGY = {
+	set_politics = {
+		ruling_party = authoritarian_democracy
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
+	#Popularities
+	set_popularities = {
+		libertarian_socialism = 20
+		council_communism = 0
+		vanguard_socialism = 3
+		independent_socialism = 10
+		social_democracy = 0
+		social_liberalism = 0
+		market_liberalism = 0
+		conservative_democracy = 2
+		authoritarian_democracy = 5
+		autocracy = 40
+		national_populism = 20
+		national_syndicalism = 0
+	}
+}
 if = {
 	limit = { has_dlc = "Together for Victory" }
 
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-create_faction = Allies
+create_faction = commonwealth
 add_to_faction = ENG
 #add_to_faction = FRA
 add_to_faction = CAN
@@ -205,33 +245,35 @@ add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
 add_to_faction = EGY
+add_to_faction = TRS
+add_to_faction = JOR
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
+add_to_faction = IAO
 
 #Politics
 set_politics = {
 	ruling_party = conservative_democracy
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 #Popularities
 set_popularities = {
-
 	libertarian_socialism = 0
-	council_communism = 1
-	vanguard_socialism = 0
-	independent_socialism = 1
-	social_democracy = 39
+	council_communism = 3
+	vanguard_socialism = 1
+	independent_socialism = 5
+	social_democracy = 32
 	social_liberalism = 7
 	market_liberalism = 4
-	conservative_democracy = 48
-	authoritarian_democracy = 0
-	autocracy = 0
-  	national_syndicalism = 0
+	conservative_democracy = 42
+	authoritarian_democracy = 4
+	autocracy = 1
+  	national_syndicalism = 1
   	national_populism = 0
 }
 
@@ -893,7 +935,6 @@ if = {
 				fixed_ship_secondaries_slot = dp_ship_secondaries_2
 				front_1_custom_slot = ship_deck_space
 			}
-		}
 	}
 	if = {
 		limit = {

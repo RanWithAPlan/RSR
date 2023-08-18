@@ -5,6 +5,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Generic/Fire.png"
 	}
 
+	#Arabia
+	spriteType = {
+		name = "GFX_idea_legacy_of_the_rif_war"
+		texturefile = "gfx/interface/ideas/Arabia/legacy_of_the_rif_war.png"
+	}
+	
 	#Austria 
 	spriteType = {
 		name = "GFX_idea_fiume_corridor"

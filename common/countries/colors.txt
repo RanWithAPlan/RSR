@@ -131,7 +131,7 @@ ECU = {
 }
 
 EGY = {
-	color = rgb { 255  255  0 }
+	color = rgb { 195  195  30 }
 	color_ui = rgb { 255  255  0 }
 }
 
@@ -141,8 +141,8 @@ ELS = {
 }
 
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
 }
 
 EST = {
@@ -156,7 +156,7 @@ ETH = {
 }
 
 FRA = {
-	color = rgb { 72 98 186 }
+	color = rgb { 22 38 156 }
 	color_ui = rgb { 24 100 175 }
 }
 
@@ -205,6 +205,11 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 
+HJZ = {
+	color = rgb { 178 114 99 }
+	color_ui = rgb { 231 148 129 }
+}
+
 HOL = {	
 	color = rgb { 203 138 74 }
 	color_ui = rgb { 255 179 96 }
@@ -221,7 +226,7 @@ HUN = {
 }
 
 IAO = {
-	color = rgb { 25  43  25 }
+	color = rgb { 65  80  65 }
 	color_ui = rgb { 25  43  25 }
 }
 
@@ -236,8 +241,8 @@ IRE = {
 }
 
 IRQ = {
-	color = rgb { 178 114 99 }
-	color_ui = rgb { 231 148 129 }
+	color = rgb { 153 50 52 }
+	color_ui = rgb { 193 50 52 }
 }
 
 ITA = {
@@ -248,6 +253,11 @@ ITA = {
 JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+JOR = {
+	color = rgb { 178 114 99 }
+	color_ui = rgb { 231 148 129 }
 }
 
 KPA = {
@@ -375,6 +385,16 @@ RAJ = {
 	color_ui = rgb { 226  135  40 }
 }
 
+RIF = {
+	color = rgb { 15  122  66 }
+	color_ui = rgb { 15  122  66 }
+}
+
+RHE = {
+	color = rgb { 0 97 66 }
+	color_ui = rgb { 25 51 42 }
+}
+
 RHE = {
 	color = rgb { 0 97 66 }
 	color_ui = rgb { 25 51 42 }
@@ -391,8 +411,8 @@ SAF = {
 }
 
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 27 107 65 }
+	color_ui = rgb { 27 107 65 }
 }
 
 SAR = {
@@ -461,6 +481,16 @@ TAN = {
 TIB = {
 	color = rgb { 105 32 47 }
 	color_ui = rgb { 87 83 181 }
+}
+
+TRP = {
+	color = rgb { 96 161 204 }
+	color_ui = rgb { 96 161 204 }
+}
+
+TRS = {
+	color = rgb { 144 169 90 }
+	color_ui = rgb { 144 169 90 }
 }
 
 TUR = {

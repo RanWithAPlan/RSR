@@ -1,60 +1,688 @@
-add_namespace = rhineland
-country_event = {
-    id = rhineland.1
-    title = rhineland.1.t
-    desc = rhineland.1.d
+add_namespace = britain
+country_event = { #the king is dead, long live the king
+    id = britain.1
+    title = britain.1.t
+    desc = britain.1.d
     fire_only_once = yes
     is_triggered_only = yes
     option = {
-        name = rhineland.1.a
-        add_popularity = {
-            ideology = national_populism
-            popularity = 0.15
-        }
-        add_popularity = {
-            ideology = conservative_democracy
-            popularity = -0.05
-        }
-        add_popularity = {
-            ideology = council_communism
-            popularity = -0.10
+        name = britain.1.a
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 4
+            vanguard_socialism = 1
+            independent_socialism = 6
+            social_democracy = 31
+            social_liberalism = 7
+            market_liberalism = 4
+            conservative_democracy = 39
+            authoritarian_democracy = 5
+            autocracy = 1
+            national_syndicalism = 2
+            national_populism = 0
         }
         country_event = {
-            id = rhineland.3
-            days = 60
+            id = britain.2
+            days = 360
         }
-        news_event = news_event.10
     }
 }
 country_event = {
-    id = rhineland.2
-    title = rhineland.2.t
-    desc = rhineland.2.d
+    id = britain.2 #the king wants to marry someone he loves? unspeakable (i mean he was also a fascist but like...)
+    title = britain.2.t
+    desc = britain.2.d
     fire_only_once = yes
     is_triggered_only = yes
     option = {
-        name = rhineland.2.a
-        GER = {
-            annex_country = {
-                target = RHE
+        name = britain.2.a
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 5
+            vanguard_socialism = 1
+            independent_socialism = 7
+            social_democracy = 32
+            social_liberalism = 6
+            market_liberalism = 3
+            conservative_democracy = 29
+            authoritarian_democracy = 12
+            autocracy = 5
+            national_syndicalism = 2
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.3
+            days = 72
+        }
+    }
+}
+country_event = {
+    id = britain.3 #snap election
+    title = britain.3.t
+    desc = britain.3.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = britain.3.a #succdems win
+        set_politics = {
+            ruling_party = social_democracy
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        create_country_leader = {
+            name = "Clement Attlee"
+            picture = "GFX/leaders/ENG/Portrait_ENG_Clem_Attlee.png"
+            expire = "1965.1.1"
+            ideology = social_democracy_subtype
+            traits = {
             }
         }
-        news_event = news_event.11
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 6
+            vanguard_socialism = 2
+            independent_socialism = 11
+            social_democracy = 26
+            social_liberalism = 5
+            market_liberalism = 2
+            conservative_democracy = 24
+            authoritarian_democracy = 15
+            autocracy = 7
+            national_syndicalism = 2
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.4 #counter-revolution
+            days = 32
+        }
+    }
+    option = {
+        name = britain.3.b #libtards win
+        set_politics = {
+            ruling_party = social_liberalism
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        create_country_leader = {
+            name = "Archibald Sinclair"
+            picture = "GFX/leaders/ENG/portrait_ENG_Archibald_Sinclair.png"
+            expire = "1965.1.1"
+            ideology = social_liberalism_subtype
+            traits = {
+            }
+        }
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 3
+            vanguard_socialism = 0
+            independent_socialism = 6
+            social_democracy = 19
+            social_liberalism = 27
+            market_liberalism = 3
+            conservative_democracy = 26
+            authoritarian_democracy = 10
+            autocracy = 5
+            national_syndicalism = 1
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.5 #diplomacy
+            days = 360
+        }
+    }
+    option = {
+        name = britain.3.c #cuckservatives win
+        set_politics = {
+            ruling_party = conservative_democracy
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        create_country_leader = {
+            name = "Neville Chamberlain"
+            picture = "GFX/leaders/ENG/portrait_ENG_Neville_Chamberlain.png"
+            expire = "1965.1.1"
+            ideology = conservative_democracy_subtype
+            traits = {
+            }
+        }
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 5
+            vanguard_socialism = 1
+            independent_socialism = 6
+            social_democracy = 27
+            social_liberalism = 8
+            market_liberalism = 3
+            conservative_democracy = 37
+            authoritarian_democracy = 8
+            autocracy = 4
+            national_syndicalism = 1
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.5 #diplomacy
+            days = 360
+        }
+    }
+    option = {
+        name = britain.3.d #succial credit win
+        set_politics = {
+            ruling_party = authoritarian_democracy
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        create_country_leader = {
+            name = "John Hargrave"
+            picture = "GFX/leaders/ENG/portrait_ENG_John_Hargrave.png"
+            expire = "1965.1.1"
+            ideology = authoritarian_democracy_subtype
+            traits = {
+            }
+        }
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 4
+            vanguard_socialism = 0
+            independent_socialism = 6
+            social_democracy = 21
+            social_liberalism = 6
+            market_liberalism = 3
+            conservative_democracy = 23
+            authoritarian_democracy = 29
+            autocracy = 7
+            national_syndicalism = 1
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.5 #diplomacy
+            days = 360
+        }
     }
 }
 country_event = {
-    id = rhineland.3
+    id = britain.4 #counter-revolution
+    title = britain.4.t
+    desc = britain.4.d
     fire_only_once = yes
     is_triggered_only = yes
     option = {
-        name = rhineland.3.a
-        FRA = {
-            puppet = RHE
+        name = britain.4.a #reactionaries defeated brockway takes control
+        set_politics = {
+            ruling_party = independent_socialism
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
         }
-		set_politics = {
-			ruling_party = national_populism
-	    	last_election = "[CURRENT_DATE]"
-		}
-        news_event = news_event.12
+        create_country_leader = {
+            name = "Fenner Brockway"
+            picture = "GFX/leaders/ENG/portrait_fenner_brockway.png"
+            expire = "1965.1.1"
+            ideology = independent_socialism_subtype
+            traits = {
+            }
+        }
+        set_popularities = {
+            libertarian_socialism = 2
+            council_communism = 17
+            vanguard_socialism = 2
+            independent_socialism = 21
+            social_democracy = 14
+            social_liberalism = 2
+            market_liberalism = 1
+            conservative_democracy = 10
+            authoritarian_democracy = 14
+            autocracy = 10
+            national_syndicalism = 7
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.5 #diplomacy
+            days = 32
+        }
+    }
+    option = {
+        name = britain.4.b #blackshirts march 
+        set_politics = {
+            ruling_party = national_syndicalism
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        create_country_leader = {
+            name = "Oswald Mosley"
+            picture = "GFX/leaders/ENG/Portrait_ENG_Oswald_Mosley_dictator.png"
+            expire = "1965.1.1"
+            ideology = national_syndicalism_subtype
+            traits = {
+            }
+        }
+        set_popularities = {
+            libertarian_socialism = 2
+            council_communism = 07
+            vanguard_socialism = 2
+            independent_socialism = 11
+            social_democracy = 14
+            social_liberalism = 2
+            market_liberalism = 1
+            conservative_democracy = 10
+            authoritarian_democracy = 04
+            autocracy = 0
+            national_syndicalism = 47
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.5 #diplomacy
+            days = 360
+        }
+    }
+    option = {
+        name = britain.4.c #green shirts march
+        set_politics = {
+            ruling_party = autocracy
+            last_election = "[CURRENT_DATE]"
+            election_frequency = 48
+            elections_allowed = no
+        }
+        create_country_leader = {
+            name = "John Hargrave"
+            picture = "GFX/leaders/ENG/portrait_ENG_John_Hargrave.png"
+            expire = "1965.1.1"
+            ideology = autocracy_subtype
+            traits = {
+            }
+        }
+        set_popularities = {
+            libertarian_socialism = 0
+            council_communism = 9
+            vanguard_socialism = 0
+            independent_socialism = 11
+            social_democracy = 11
+            social_liberalism = 6
+            market_liberalism = 3
+            conservative_democracy = 13
+            authoritarian_democracy = 0
+            autocracy = 46
+            national_syndicalism = 1
+            national_populism = 0
+        }
+        country_event = {
+            id = britain.5 #diplomacy
+            days = 360
+        }
+    }
+}
+country_event = {
+    id = britain.5 #diplomatic alignment 
+    title = britain.5.t
+    desc = britain.5.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = britain.5.a
+        trigger = {
+            OR = {
+                has_government = social_liberalism
+                has_government = conservative_democracy
+            }
+        }
+        country_event = {
+            id = britain.6 #merica
+            days = 500
+        }
+    }
+    option = {
+        name = britain.5.b
+        trigger = {
+            OR = {
+                has_government = authoritarian_democracy
+                has_government = autocracy
+                has_government = national_syndicalism
+            }
+        }
+        FRA = {
+            add_to_faction = ENG
+        }
+        country_event = {
+            id = britain.6 #japan
+            days = 500
+        }
+    }
+    option = {
+        name = britain.5.c
+        trigger = {
+            OR = {
+                has_government = independent_socialism
+            }
+        }
+        GER = {
+            add_to_faction = ENG
+        }
+    }
+}
+country_event = {
+    id = britain.6 #intervention in the pacific
+    title = britain.6.t
+    desc = britain.6.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = britain.6.a
+        trigger = {
+            OR = {
+                has_government = social_liberalism
+                has_government = conservative_democracy
+            }
+        }
+        USA = {
+            create_faction = UKUSAFACTION
+            add_to_faction = ENG
+            add_to_faction = CAN
+            add_to_faction = AST
+            add_to_faction = NZL
+            add_to_faction = SAF
+            add_to_faction = EGY
+            add_to_faction = RAJ
+            add_to_faction = MAL
+        }
+    }
+    option = {
+        name = britain.6.b
+        trigger = {
+            OR = {
+                has_government = authoritarian_democracy
+                has_government = autocracy
+                has_government = national_syndicalism
+            }
+        }
+            if = {
+                limit = {
+                    JAP = {
+                        has_war_with = USA
+                    }
+                }
+                add_to_war = {
+                    targeted_alliance = JAP
+                    enemy = USA
+                    hostility_reason = asked_to_join
+                }
+            }
+    }
+}
+country_event = {
+    id = britain.7 #split in the empire
+    title = britain.6.t
+    desc = britain.6.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = britain.6.a
+        trigger = {
+            has_government = independent_socialism
+        }
+        leave_faction = yes
+        SAF = {
+            leave_faction = yes
+            set_politics = {
+                ruling_party = national_populism
+                last_election = "[CURRENT_DATE]"
+                election_frequency = 48
+                elections_allowed = no
+            }
+            set_popularities = {
+                social_democracy = 10
+                conservative_democracy = 20
+                market_liberalism = 10
+                vanguard_socialism = 10
+                council_communism = 10
+                national_populism = 40
+            }
+            create_country_leader = {
+                name = "Daniel Malan"
+                picture = "GFX/leaders/SAF/Portrait_SAF_Daniel_Malan.png"
+                expire = "1965.1.1"
+                ideology = national_populism_subtype
+                traits = {
+                }
+            }
+            transfer_state = 542
+            transfer_state = 545
+        }
+        CAN = {
+            transfer_state = 332
+            transfer_state = 331
+            transfer_state = 692
+            transfer_state = 691
+            transfer_state = 308
+            transfer_state = 693
+            transfer_state = 690
+            transfer_state = 689
+            transfer_state = 696
+            transfer_state = 703
+            transfer_state = 704
+        }
+        POR = {
+            transfer_state = 770
+            transfer_state = 771
+        }
+        GUA = {
+            transfer_state = 311
+        }
+        VEN = {
+            transfer_state = 687
+        }
+        FRA = {
+            transfer_state = 701
+            transfer_state = 700
+            transfer_state = 274
+            transfer_state = 558
+            transfer_state = 900
+            transfer_state = 901
+            transfer_state = 902
+            transfer_state = 707
+            transfer_state = 709
+            transfer_state = 710
+        }
+        ARG = {
+            transfer_state = 299
+            transfer_state = 720
+        }
+        AST = {
+            transfer_state = 711
+            transfer_state = 712
+            transfer_state = 725
+            transfer_state = 639
+            transfer_state = 643
+        }
+        NZL = {
+            transfer_state = 636
+            transfer_state = 270
+        }
+        RAJ = {
+            drop_cosmetic_tag = yes
+            set_politics = {
+                ruling_party = social_democracy
+                last_election = "[CURRENT_DATE]"
+                election_frequency = 48
+                elections_allowed = no
+            }
+            set_popularities = {
+                social_democracy = 40
+                conservative_democracy = 10
+                market_liberalism = 20
+                autocracy = 5
+                vanguard_socialism = 5
+                independent_socialism = 5
+                council_communism = 5
+                national_populism = 10
+            }
+            end_puppet = ENG
+            leave_faction = yes
+            transfer_state = 281
+            transfer_state = 422
+            transfer_state = 733
+            create_country_leader = {
+                name = "Jawaharlal Nehru"
+                picture = "GFX/leaders/India/portrait_Jawaharlal_Nehru.png"
+                expire = "1965.1.1"
+                ideology = social_democracy_subtype
+                traits = {
+                }
+            }
+        }
+        BRM = {
+            transfer_state = 288
+            transfer_state = 640
+            set_politics = {
+                ruling_party = independent_socialism
+                last_election = "[CURRENT_DATE]"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+            set_popularities = {
+                vanguard_socialism = 20
+                independent_socialism = 40
+                autocracy = 20
+                social_democracy = 20
+            }
+            create_country_leader = {
+                name = "Aung San"
+                picture = "GFX/leaders/India/portrait_Aung_San.png"
+                expire = "1965.1.1"
+                ideology = independent_socialism_subtype
+                traits = {
+                }
+            }
+        }
+        KMT = {
+            transfer_state = 326
+        }
+        ITA = {
+            transfer_state = 116
+        }
+        GRE = {
+            transfer_state = 183
+        }
+        KEN = {
+            transfer_state = 903
+            transfer_state = 844
+            transfer_state = 547
+            transfer_state = 905
+            transfer_state = 547
+            transfer_state = 904
+            transfer_state = 548
+            set_politics = {
+                ruling_party = autocracy
+                last_election = "[CURRENT_DATE]"
+                election_frequency = 48
+                elections_allowed = no
+            }
+            set_popularities = {
+                autocracy = 35
+                conservative_democracy = 30
+                authoritarian_democracy = 25
+                vanguard_socialism = 10
+            }
+            create_country_leader = {
+                name = "Thomas Cholmondeley"
+                picture = "GFX/leaders/ENG/portrait_Thomas_Cholmondeley.png"
+                expire = "1965.1.1"
+                ideology = autocracy_subtype
+                traits = {
+                }
+            }
+            load_oob = KEN
+        }
+        SOM = {
+            transfer_state = 269
+            declare_war_on = {
+                target = KEN 
+                type = annex_everything
+            }
+            set_state_controller = 844
+            load_oob = SOM
+        }
+        EGY = {
+            leave_faction = yes
+            end_puppet = ENG
+            drop_cosmetic_tag = yes
+            transfer_state = 883
+            transfer_state = 551
+            transfer_state = 767
+            transfer_state = 886
+            transfer_state = 549
+            transfer_state = 887
+            transfer_state = 884
+            transfer_state = 885
+        }
+        YEM = {
+            transfer_state = 659
+            transfer_state = 906
+        }
+        IAO = {
+            drop_cosmetic_tag = yes
+            leave_faction = yes
+            end_puppet = ENG
+        }
+        JOR = {
+            drop_cosmetic_tag = yes
+            leave_faction = yes
+            end_puppet = ENG
+            transfer_state = 454
+            declare_war_on = {
+                target = SAU
+                type = annex_everything
+            }
+        }
+        TRS = {
+            drop_cosmetic_tag = yes
+            leave_faction = yes
+            end_puppet = ENG
+            retire_country_leader = yes
+            create_country_leader = {
+                name = "Shakhbut bin Sultan Al Nahyan"
+                picture = "GFX/leaders/Arabia/portrait_Shakhbut_bin_Sultan_Al_Nahyan.png"
+                expire = "1965.1.1"
+                ideology = authoritarian_democracy_subtype
+                traits = {
+                }
+            }
+        }
+        SAU = {
+            declare_war_on = {
+                target = TRS
+                type = annex_everything
+            }
+        }
+        HJZ = {
+            declare_war_on = {
+                target = SAU
+                type = annex_everything
+            }
+        }
+    }
+    option = {
+        name = britain.6.b
+        trigger = {
+            OR = {
+                has_government = authoritarian_democracy
+                has_government = autocracy
+                has_government = national_syndicalism
+            }
+        }
+            if = {
+                limit = {
+                    JAP = {
+                        has_war_with = USA
+                    }
+                }
+                add_to_war = {
+                    targeted_alliance = JAP
+                    enemy = USA
+                    hostility_reason = asked_to_join
+                }
+            }
     }
 }

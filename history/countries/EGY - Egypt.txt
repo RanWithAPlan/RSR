@@ -55,5 +55,13 @@ set_popularities = {
 	national_populism = 20
 	national_syndicalism = 0
 }
+create_country_leader = {
+	name = "Faud I"
+    picture = "GFX/leaders/EGY/portrait_EGP_Faud_I.png"
+    expire = "1965.1.1"
+    ideology = authoritarian_democracy_subtype
+    traits = {
+    }
+}
 
 #Variants
