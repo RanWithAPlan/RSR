@@ -1,0 +1,31 @@
+characters={
+
+	#Leaders
+	ARM_mihran_damadian={
+		name = ARM_mihran_damadian
+		portraits={
+			civilian={
+				large="GFX_portrait_ARM_mihran_damadian"
+			}
+		}
+	}
+
+
+	ARM_george_vi={
+		name = ARM_george_vi
+		portraits={
+			civilian={
+				large="GFX_portrait_ARM_george_vi"
+			}
+		}
+	}
+
+	ARM_rouben_minassian={
+		name = ARM_rouben_minassian
+		portraits={
+			civilian={
+				large="GFX_portrait_ARM_rouben_minassian"
+			}
+		}
+	}
+}

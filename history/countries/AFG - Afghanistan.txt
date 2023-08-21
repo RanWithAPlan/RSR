@@ -13,6 +13,7 @@ set_technology = {
 }
 
 #Characters
+recruit_character = AFG_habibullah_kalakani
 
 #Ideas
 add_ideas = {
@@ -28,14 +29,6 @@ set_stability = 0.6
 set_war_support = 0.6
 set_convoys = 0
 set_research_slots = 1
-
-create_country_leader = {
-	name = "Habibullāh Kalakāni"
-	picture = "gfx/leaders/AFG/habi.dds"
-	expire = "1965.1.1"
-	ideology = constitutional_monarchy
-	traits = {}
-}
 
 #Politics
 set_politics = {

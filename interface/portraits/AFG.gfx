@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_AFG_habibullah_kalakani"
+		texturefile = "gfx/leaders/AFG/Habi.png"
+	}
+}

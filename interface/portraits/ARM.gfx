@@ -1,6 +1,16 @@
 spriteTypes = {
     spriteType = {
-        name = "GFX_portrait_ARM_Rouben_Minassian_RSR"
-        texturefile = "gfx/leaders/ARM/portrait_ARM_Rouben_Minassian_RSR.png"
+        name = "GFX_portrait_ARM_Rouben_Minassian"
+        texturefile = "gfx/leaders/ARM/portrait_ARM_Rouben_Minassian.png"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_ARM_george_vi"
+        texturefile = "gfx/leaders/ARM/Portrait_ARM_George_VI_of_Armenia.png"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_ARM_mihran_damadian"
+        texturefile = "gfx/leaders/ARM/portrait_ARM_Mihran_Damadian.png"
     }
 }

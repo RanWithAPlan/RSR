@@ -1,0 +1,18 @@
+characters={
+
+###################################################################################################Leaders
+
+	AFG_habibullah_kalakani={
+		name = AFG_habibullah_kalakani
+		portraits={
+			civilian={
+				large="GFX_portrait_AFG_habibullah_kalakani"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchy
+			traits={ son_of_the_water_carrier }
+			expire="1965.1.1.1"
+		}
+	}
+}

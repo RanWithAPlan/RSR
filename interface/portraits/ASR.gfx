@@ -1,6 +1,6 @@
 spriteTypes = {
     spriteType = {
-        name = "GFX_portrait_ASR_Mar_Eshai_Shimun_RSR"
+        name = "GFX_portrait_ASR_mar_eshai_shimun"
         texturefile = "gfx/leaders/ASR/portrait_ASR_Mar_Eshai_Shimun_RSR.png"
     }
 }

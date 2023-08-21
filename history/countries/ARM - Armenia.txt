@@ -10,6 +10,9 @@ set_technology = {
 
 #Characters
 recruit_character=ARM_Rouben_Minassian
+recruit_character=ARM_mihran_damadian
+recruit_character=ARM_george_vi
+
 #Ideas
 add_ideas = {
 }
