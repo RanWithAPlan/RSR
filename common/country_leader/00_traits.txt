@@ -14,7 +14,7 @@
 
 leader_traits = {
 	
-###RSR General
+###RSR Traits
 
 ###New Generic
 agrarian_expert = {
@@ -24,7 +24,7 @@ agrarian_expert = {
 }
 
 staunch_pacifist = {
-	stability_factor = 0.2
+	stability_factor = 0.3
 	war_support_factor = -0.3
 }
 
@@ -179,7 +179,40 @@ champion_of_reform = {
 		army_attack_factor = 0.05
 		army_defence_factor = 0.05
 	}
-	
+
+###AFG
+	#Habibullah Kalakani
+	son_of_the_water_carrier = {
+		stability_factor = -0.15
+		war_support_factor = 0.1
+		army_core_attack_factor = 0.05
+	}
+###ALA
+
+###ARM
+	#Damadian
+	armenian_freedom_fighter = {
+		war_support_factor = 0.15
+		army_core_defence_factor = 0.05
+		modifier_army_sub_unit_irregular_infantry_attack_factor = 0.05
+		modifier_army_sub_unit_irregular_infantry_defence_factor = 0.1
+		high_command_cost_factor = -0.15
+	}
+
+	#George VI
+	supreme_patriarch_and_catholicos_of_all_armenians = {
+		stability_factor = 0.1
+		army_morale_factor = 0.15
+		political_power_gain = 0.2
+	}
+
+	#Minassian
+	head_of_the_arf_bereau = {
+		sprite = 15
+		operative_slot = 2
+		encryption_factor = 0.1
+	}
+
 ###ALB
 	#Hoxha
 	syndical_integralist = {
@@ -189,6 +222,14 @@ champion_of_reform = {
 		national_syndicalism_drift = 0.01
 		war_support_factor = 0.1
 		political_power_gain = 0.06
+	}
+
+###ASR
+	#Mar Eshai Shimun
+	president_patriarch_and_catholicos_of_all_assyrians = {
+		stability_factor = 0.1
+		compliance_gain = 0.05
+		resistance_gain = 0.1
 	}
 
 ###AUS

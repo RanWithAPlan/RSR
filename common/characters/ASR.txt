@@ -12,7 +12,9 @@ characters={
 		
 		country_leader={
 			ideology=social_liberalism_subtype
-			traits={}
+			traits={
+				president_patriarch_and_catholicos_of_all_assyrians
+			}
 			expire="1965.1.1.1"
 		}
 	}

@@ -33,20 +33,47 @@
  ### ACD ###
  spirit_of_kangchenjunga:0 "Spirit of Kangchenjunga"
  spirit_of_kangchenjunga_desc:0 ""
+ 
  ACD_friendly_rivalry:0 "Friendly Rivalry"
  ACD_friendly_rivalry_desc:0 ""
+ 
  prince_of_yakutia:0 "Prince of Yakutia"
  prince_of_yakutia_desc:0 ""
+ 
  prince_of_buyratia:0 "Prince of Buyratia"
  prince_of_buyratia_desc:0 ""
+ 
  mercenary_leader:0 "Mercenary Leader"
  mercenary_leader_desc:0 ""
+ 
  holy_warrior:0 "Holy Warrior"
  holy_warrior_desc:0 ""
  
- ###ALB
+ ### AFG ###
+ son_of_the_water_carrier:0 "Son of the Water Carrier"
+ son_of_the_water_carrier_desc:0 ""
+
+ ### ALA ###
+
+ ### ARM ###
+ armenian_freedom_fighter:0 "Armenian Freedom Fighter"
+ armenian_freedom_fighter_desc:0 ""
+
+ supreme_patriarch_and_catholicos_of_all_armenians:0 "Supreme Patriarch and Catholicos of All Armenians"
+ supreme_patriarch_and_catholicos_of_all_armenians_desc:0 ""
+
+ head_of_the_arf_bereau:0 "Head of the ARF Bereau"
+ head_of_the_arf_bereau_desc:0 ""
+
+ ### ASR ###
+
+ ### ALB ###
  syndical_integralist:0 "Syndical Integralist"
  syndical_integralist_desc:0 "To unite two heterodox stances is not an easy task, but necessary one for the sake of our Syndicate."
+
+ ### ASR ###
+ president_patriarch_and_catholicos_of_all_assyrians:0 "President, Patriarch, and Catholicos of All Assyrians"
+ president_patriarch_and_catholicos_of_all_assyrians_desc:0 ""
 
  ### AUS ###
  foremost_austrofascist:0 "Foremost Austrofascist"

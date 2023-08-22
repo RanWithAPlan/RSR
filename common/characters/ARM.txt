@@ -8,14 +8,31 @@ characters={
 				large="GFX_portrait_ARM_mihran_damadian"
 			}
 		}
+
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={ armenian_freedom_fighter }
+			expire="1965.1.1.1"
+		}
 	}
 
-
+	#Political Advisors
 	ARM_george_vi={
 		name = ARM_george_vi
 		portraits={
 			civilian={
 				large="GFX_portrait_ARM_george_vi"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = ACD_alexander_kaigorondov
+			traits = {
+				supreme_patriarch_and_catholicos_of_all_armenians
+			}
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 	}
@@ -25,6 +42,17 @@ characters={
 		portraits={
 			civilian={
 				large="GFX_portrait_ARM_rouben_minassian"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = ACD_alexander_kaigorondov
+			traits = {
+				head_of_the_arf_bereau
+			}
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 	}
