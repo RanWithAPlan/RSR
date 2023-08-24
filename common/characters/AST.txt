@@ -1,0 +1,21 @@
+characters={
+
+###################################################################################################Leaders
+
+	ASR_mar_eshai_shimun={
+		name = ASR_mar_eshai_shimun
+		portraits={
+			civilian={
+				large="GFX_portrait_ASR_mar_eshai_shimun"
+			}
+		}
+		
+		country_leader={
+			ideology=social_liberalism_subtype
+			traits={
+				president_patriarch_and_catholicos_of_all_assyrians
+			}
+			expire="1965.1.1.1"
+		}
+	}
+}

@@ -224,6 +224,16 @@ champion_of_reform = {
 		political_power_gain = 0.06
 	}
 
+###ARG
+	#Peron
+	twenty_tenents_of_peronism = {
+		political_power_gain_factor = -0.1
+		stability_factor = -0.25
+		industrial_capacity_factory = 0.1
+		production_speed_rail_way_factor = 0.2
+		production_speed_infrastructure_factor = 0.1
+	}
+
 ###ASR
 	#Mar Eshai Shimun
 	president_patriarch_and_catholicos_of_all_assyrians = {
@@ -231,6 +241,9 @@ champion_of_reform = {
 		compliance_gain = 0.05
 		resistance_gain = 0.1
 	}
+
+###AST
+	
 
 ###AUS
 	#Dolfuss
@@ -240,6 +253,18 @@ champion_of_reform = {
 		production_speed_industrial_complex_factor = 0.1 
 		ultra_reactionary_acceptance = 25
 	}
+
+###BEL
+
+
+###BEY
+
+
+###BHU
+
+
+###BLR
+
 
 ###BOL
 	#Busch

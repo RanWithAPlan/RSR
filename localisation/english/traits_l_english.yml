@@ -55,6 +55,10 @@
 
  ### ALA ###
 
+ ### ARG ###
+ twenty_tenents_of_peronism:0 "Twenty Tenents of Perónism"
+ twenty_tenents_of_peronism_desc:0 ""
+
  ### ARM ###
  armenian_freedom_fighter:0 "Armenian Freedom Fighter"
  armenian_freedom_fighter_desc:0 ""
@@ -64,8 +68,6 @@
 
  head_of_the_arf_bereau:0 "Head of the ARF Bereau"
  head_of_the_arf_bereau_desc:0 ""
-
- ### ASR ###
 
  ### ALB ###
  syndical_integralist:0 "Syndical Integralist"

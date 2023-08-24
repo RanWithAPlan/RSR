@@ -1,9 +1,13 @@
 characters = {
-	BEY_Zhang_Zuolin = {
-		name = BEY_Zhang_Zuolin_name
+	#Leaders
+	BEY_zhang_zuolin = {
+		name = BEY_zhang_zuolin
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_BEY_Zhang_Zuolin"
+				large = "GFX_portrait_BEY_zhang_zuolin"
+			}
+			army = {
+				large = "GFX_portrait_BEY_zhang_zuolin_army"
 			}
 		}
 
@@ -11,6 +15,52 @@ characters = {
 			expire = "1965.1.1"
 			traits = { generallissimo }
 			ideology = autocracy_subtype
+		}
+
+		field_marshal = {
+			traits = {
+				politically_connected 
+				media_personality 
+				defensive_doctrine 
+				fast_planner
+			}
+
+			desc = BEY_zhang_zuolin_desc
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
+	BEY_shen_honglie = {
+		name = BEY_shen_honglie
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BEY_shen_honglie"
+			}
+		}
+	}
+
+	BEY_wellington_koo = {
+		name = BEY_wellington_koo
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BEY_wellington_koo"
+			}
+		}
+	}
+
+	BEY_zhang_xueliang = {
+		name = BEY_zhang_xueliang
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BEY_zhang_xueliang"
+			}
+			army = {
+				large = "GFX_portrait_BEY_zhang_xueliang_army"
+			}
 		}
 	}
 }

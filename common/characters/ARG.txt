@@ -1,0 +1,31 @@
+characters={
+
+	#Leaders
+	ARG_juan_peron={
+		name = ARG_juan_peron
+		portraits={
+			civilian={
+				large="GFX_portrait_ARG_juan_peron"
+			}
+			army = {
+				large = "GFX_portrait_ARG_juan_peron_army"
+			}
+		}
+
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={ twenty_tenents_of_peronism }
+			expire="1965.1.1.1"
+		}
+
+		corps_commander = {
+			traits = { infantry_officer infantry_leader brilliant_strategist }
+			desc = ARG_juan_peron_desc
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+}
