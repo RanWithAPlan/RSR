@@ -102,7 +102,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = social_liberalism
+	ruling_party = national_syndicalism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -110,18 +110,31 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	libertarian_socialism = 20
-	council_communism = 0
-	vanguard_socialism = 0
-	independent_socialism = 0
-	social_democracy = 27
-	social_liberalism = 3
-	market_liberalism = 3
-	conservative_democracy = 36
-	authoritarian_democracy = 1
-	autocracy = 0
-  	national_syndicalism = 10
-  	national_populism = 0
+	libertarian_socialism = 7
+	council_communism = 11
+	vanguard_socialism = 3
+	independent_socialism = 9
+	social_democracy = 6
+	social_liberalism = 0
+	market_liberalism = 0
+	conservative_democracy = 0
+	authoritarian_democracy = 0
+	autocracy = 7
+  	national_syndicalism = 39
+  	national_populism = 18
+}
+
+country_event = {
+	id = spain.1
+	days = 570
+}
+country_event = {
+	id = spain.1
+	days = 670
+}
+country_event = {
+	id = spain.2
+	days = 850
 }
 
 #Variants

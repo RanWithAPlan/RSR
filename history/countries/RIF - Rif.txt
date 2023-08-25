@@ -44,4 +44,14 @@ add_ideas = {
 	legacy_of_the_rif_war
 	fourth_internationale_cooperation
 }
+
+create_country_leader = {
+	name = "Abd el Krim"
+    picture = "GFX/leaders/Arabia/portrait_abd_el_krim.png"
+    expire = "1965.1.1"
+    ideology = conservative_democracy_subtype
+    traits = {
+    }
+}
+
 load_oob = RIF_1936

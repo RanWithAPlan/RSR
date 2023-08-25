@@ -148,6 +148,34 @@ set_war_support = 0.5
 set_convoys = 300
 set_research_slots = 3
 
+#DIPLOMACY
+puppet = MOR
+puppet = TUN
+puppet = FEA
+puppet = FWA
+TUN = {
+	set_politics = {
+		ruling_party = autocracy
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		autocracy = 100
+	}
+}
+FEA = {
+	set_politics = {
+		ruling_party = autocracy
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		autocracy = 100
+	}
+}
+
 #Politics
 set_politics = {
 	ruling_party = national_populism
@@ -174,6 +202,16 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+}
+
+create_country_leader = {
+	name = "François de La Rocque"
+	desc = ""
+	picture = GFX/leaders/FRA/portrait_francois_de_la_rocque.png
+	ideology = national_populism_subtype
+	traits = {
+		national_integralist
+	}
 }
 
 #Variants

@@ -28,6 +28,10 @@ set_popularities = {
 	authoritarian_democracy = 26
 	national_populism = 15
 }
+add_ideas = {
+	we_win_or_we_die
+	early_economic_mobilisation
+}
 
 create_country_leader = {
 	name = "Emir Idris as-Senussi"

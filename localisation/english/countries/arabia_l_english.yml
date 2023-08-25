@@ -41,12 +41,17 @@
  LBA_ADJ:0 "Cyrenaican"
  LBA_subject:0 "$OVERLORDADJ$ $LBA$"
  LBA_subject_DEF:0 "$OVERLORDADJ$ $LBA$""
+
+ we_win_or_we_die:0 "'We Win or We Die'"
 #tripolitania
  TRP:0 "Tripolitanian Republic"
  TRP:0 "the Tripolitanian Republic"
  TRP_ADJ:0 "Tripolitanian"
  TRP_subject:0 "$OVERLORDADJ$ $TRP$"
  TRP_subject_DEF:0 "$OVERLORDADJ$ $TRP$""
+
+ pan_arab_dream:0 "The Pan-Arab Dream"
+ berber_arab_conflict:0 "Berber/Arab Divide"
 #rif
  RIF:0 "Rif Republic"
  RIF:0 "the Rif Republic"
@@ -61,3 +66,7 @@
  TNG_ADJ:0 "Tangierian"
  TNG_subject:0 "$OVERLORDADJ$ $TNG$"
  TNG_subject_DEF:0 "$OVERLORDADJ$ $TNG$""
+#morocco
+ MOR_FRA:0 "French Protectorate in Morocco"
+#tunisia
+ TUN_FRA:0 "French Protectorate of Tunisia"

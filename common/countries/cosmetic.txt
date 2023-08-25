@@ -18,6 +18,16 @@ JOR_UK = {
 	color_ui = rgb { 201 19 33 }
 }
 
+MOR_FRA = {
+	color = rgb { 22 38 156 }
+	color_ui = rgb { 24 100 175 }
+}
+
+TUN_FRA = {
+	color = rgb { 22 38 156 }
+	color_ui = rgb { 24 100 175 }
+}
+
 MON_FREE = {
 	color = rgb { 197  139  222 }
 	color_ui = rgb { 197  139  222 }

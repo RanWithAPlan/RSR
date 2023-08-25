@@ -10,6 +10,22 @@ spriteTypes = {
 		name = "GFX_idea_legacy_of_the_rif_war"
 		texturefile = "gfx/interface/ideas/Arabia/legacy_of_the_rif_war.png"
 	}
+	spriteType = {
+		name = "GFX_idea_fourth_international_cooperation"
+		texturefile = "gfx/interface/ideas/Arabia/fourth_international_cooperation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Hawk_of_Quraish"
+		texturefile = "gfx/interface/ideas/Arabia/Hawk_of_Quraish.png"
+	}
+	spriteType = {
+		name = "GFX_idea_berber_man"
+		texturefile = "gfx/interface/ideas/Arabia/berber_man.png"
+	}
+	spriteType = {
+		name = "GFX_idea_LBA_Senussi_Order"
+		texturefile = "GFX/interface/ideas/Arabia/LBA_Senussi_Order.png"
+	}
 	
 	#Austria 
 	spriteType = {

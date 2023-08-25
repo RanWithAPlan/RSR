@@ -6,6 +6,13 @@
  FRA_national_populism:0 "French Third Republic"
  FRA_national_populism_DEF:0 "the French Third Republic"
  FRA_national_populism_ADJ:0 "French"
+
+ FEA:0 "French Equatorial Africa"
+ FEA_DEF:0 "French Equatorial Africa"
+ FEA_ADJ:0 "Equatorial African"
+ FWA:0 "French West Africa"
+ FWA_DEF:0 "French West Africa"
+ FWA_ADJ:0 "West African"
  
  #Starting Parties
  FRA_libertarian_socialism_party:0 "FA"

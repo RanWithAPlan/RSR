@@ -9,12 +9,12 @@ state={
 		add_core_of = TNG
 		add_core_of = RIF
 		add_core_of = MOR
-	}
-	buildings = {
-		infrastructure = 3
-		naval_base = 3
 		victory_points = {
 			11951 1
+		}
+		buildings = {
+			infrastructure = 3
+			naval_base = 3
 		}
 	}
 	manpower=57626

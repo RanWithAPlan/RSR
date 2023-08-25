@@ -182,6 +182,47 @@ on_actions = {
 					white_peace = ROOT
 				}
 			}
+			if = {
+				limit = { #rif war
+					FROM = {
+						OR = {
+							original_tag = SPR
+							is_in_faction_with = SPR
+						}
+					}
+					ROOT = {
+						original_tag = RIF
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { #spanish invasion of portugal
+					FROM = {
+						OR = {
+							original_tag = SPR
+							is_in_faction_with = SPR
+						}
+					}
+					ROOT = {
+						original_tag = POR
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+					}
+				}
+				POR = {
+					every_core_state = {
+						add_core_of = SPR
+					}
+				}
+			}
 		}
 	}
 }

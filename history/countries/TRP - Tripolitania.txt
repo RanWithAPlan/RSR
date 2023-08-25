@@ -25,8 +25,24 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 24
-	authoritarian_democracy = 56
+	conservative_democracy = 21
+	authoritarian_democracy = 46
+	social_liberalism = 13
 	social_democracy = 5
 	autocracy = 15
+}
+create_country_leader = {
+	name = "Bashir Saadawi"
+    picture = "GFX/leaders/Arabia/portrait_bashir_saadawi.png"
+    expire = "1965.1.1"
+    ideology = authoritarian_democracy_subtype
+    traits = {
+    }
+}
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation
+	pan_arab_dream
+	berber_arab_conflict
+	fourth_internationale_cooperation
 }
