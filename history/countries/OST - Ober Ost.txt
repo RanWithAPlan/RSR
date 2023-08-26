@@ -59,9 +59,9 @@ set_popularities = {
 	freemarket_liberalism = 0
 	conservative_democracy = 0
 	authoritarian_democracy = 0
-	autocracy = 30
+	autocracy = 40
 	national_syndicalism = 0
-	ultra_reactionary = 70
+	ultra_reactionary = 60
 }
 
 #Variants
