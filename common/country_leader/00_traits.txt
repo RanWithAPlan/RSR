@@ -243,7 +243,13 @@ champion_of_reform = {
 	}
 
 ###AST
-	
+	#Curtin
+	ties_to_the_victorian_socialists = {
+		stability_factor = 0.15
+		industrial_capacity_factory = 0.1
+		council_communism_acceptance = 30
+		radical_socialism_acceptance = 30
+	}
 
 ###AUS
 	#Dolfuss
@@ -298,6 +304,15 @@ champion_of_reform = {
 		stability_factor = 0.1
 		council_communism_acceptance = 10
 	}
+
+###ETH
+	#Halie Sellasie
+	king_of_kings = {
+		stability_factor = 0.15
+		war_suport_factor = 0.15
+		conscription_factor = 0.1
+	}
+
 
 ###FAR
 	#Rasmussen

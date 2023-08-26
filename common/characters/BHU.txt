@@ -2,16 +2,16 @@ characters={
 
 ###########################################################################Leaders
 
-	ETH_Halie_Sellasie={
-		name = ETH_Halie_Sellasie
+	BHU_jigme_wangchuck={
+		name = BHU_jigme_wangchuck
 		portraits={
 			civilian={
-				large="GFX_portrait_ETH_Halie_Sellasie"
+				large="GFX_portrait_name = BHU_jigme_wangchuck"
 			}
 		}
 		country_leader={
-			ideology=absolute_monarchy
-			traits={ king_of_kings }
+			ideology=authoritarian_socialism_subtype
+			traits={  }
 			expire="1965.1.1.1"
 		}
 	}
