@@ -1,0 +1,62 @@
+add_namespace = ober_ost
+#The Baltic Chimera (triggered 1 week after game start)
+country_event = {
+	id = ober_ost.1
+	title = ober_ost.1.title
+	desc = ober_ost.1.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	#The northern bands are the weak link
+	option = {
+		name = ober_ost.1.a
+		tooltip = tt_OST_prepare_latvian_plan
+		hidden_effect = {
+			set_country_flag = OST_latvian_plan
+		}
+	}
+
+	#The southern brotherhood is the primary threat
+	option = {
+		name = ober_ost.1.b
+		tooltip = tt_OST_prepare_lithuanian_plan
+		hidden_effect = {
+			set_country_flag = OST_lithuanian_plan
+		}
+	}
+}
+
+#The Moment to Strike (Triggered after Belarus breaks off of the USSR)
+country_event = {
+	id = ober_ost.2
+	title = ober_ost.2.title
+	desc = ober_ost.2.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	#It is time to put our plan into action
+	option = {
+		name = ober_ost.2.a
+		trigger = { has_country_flag = OST_latvian_plan }
+		swap_ideas = {
+			add_idea = OST_eliminate_the_northern_bands
+			remove_idea = OST_forest_guerillas
+		}
+	}
+
+	#It is time to put our plan into action
+	option = {
+		name = ober_ost.2.b
+		trigger = { has_country_flag = OST_lithuanian_plan }
+		swap_ideas = {
+			add_idea = OST_prioritize_the_southern_front
+			remove_idea = OST_forest_guerillas
+		}
+	}
+}
