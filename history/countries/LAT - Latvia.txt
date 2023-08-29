@@ -1,13 +1,27 @@
 ﻿capital = 808
 
+#Order of Battle
+#Army
 oob = "LAT_1936"
+
+#Navy
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "LAT_1936_naval_mtg"
+	set_naval_oob = "LAT_1936_naval_mtg"
+	set_technology = {
+		basic_torpedo = 1
+		submarine_mine_laying = 1
+		early_ship_hull_submarine = 1
+	}
 	else = {
 		set_naval_oob = "LAT_1936_naval_legacy"
+		set_technology = {
+			early_submarine = 1
+		}
 	}
 }
+
+#Air
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "LAT_1936_air_bba"
@@ -19,39 +33,7 @@ if = {
 	}
 }
 
-add_ideas = {
-	extensive_conscription
-	BROTHERHOOD_anti_communist_veterans
-	BROTHERHOOD_forest_guerillas
-}
-
-LAT = { set_cosmetic_tag = LAT_forest_brotherhood }
-
-recruit_character = LAT_gustavs_celminsh
-recruit_character = LAT_augusts_kirhensteins
-recruit_character = LAT_martinsh_penikis
-recruit_character = LAT_hermanis_buks
-recruit_character = LAT_janis_berzins
-recruit_character = LAT_ludvigs_bolsteins
-recruit_character = LAT_teodors_zvejnieks
-recruit_character = LAT_kornelijs_veidnieks
-recruit_character = LAT_rudolfs_kandis
-recruit_character = LAT_konstantins_cakste
-recruit_character = LAT_arturs_silgailis
-recruit_character = LAT_fricis_celmins
-recruit_character = LAT_otto_hellmich
-recruit_character = LAT_rudolfs_kocins
-recruit_character = LAT_arturs_sprogis
-recruit_character = LAT_tomas_spade
-recruit_character = LAT_vilis_lacis
-recruit_character = LAT_vilhelms_munters
-recruit_character = LAT_janis_kaminskis
-recruit_character = LAT_fricis_menders
-recruit_character = LAT_alberts_kvesis
-recruit_character = LAT_karlis_ulmanis
-
-
-
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -60,30 +42,41 @@ set_technology = {
 	basic_train = 1
 }
 
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_torpedo = 1
-		submarine_mine_laying = 1
-		early_ship_hull_submarine = 1
-	}
+#Characters
+
+#Ideas
+add_ideas = {
+	limited_conscription
 }
 
+#Miscellaneous
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 10
 set_research_slots = 3
 
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1931.10.3"
+	election_frequency = 10
+	elections_allowed = no
 }
+set_popularities = {
+	libertarian_socialism = 0
+	council_communism = 0
+	vanguard_socialism = 10
+	independent_socialism = 0
+	social_democracy = 10
+	social_liberalism = 0
+	market_liberalism = 10
+	conservative_democracy = 10
+	authoritarian_democracy = 0
+	autocracy = 30
+  	national_syndicalism = 0
+  	national_populism = 15
+}
+
+#Variants
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #

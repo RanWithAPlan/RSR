@@ -1,6 +1,10 @@
 ﻿capital = 784
 
+#Order of Battle
+#Army
 oob = "LIT_1936"
+
+#Air
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "LIT_1936_air_bba"
@@ -12,10 +16,7 @@ if = {
 	}
 }
 
-recruit_character = LIT_antanas_smetona
-
-set_research_slots = 3
-
+#Non-Designer Starting Technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -23,34 +24,43 @@ set_technology = {
 	tech_support = 1
 }
 
-LIT = { set_cosmetic_tag = LIT_forest_brotherhood }
+#Characters
+recruit_character = LIT_antanas_smetona
+
+#Ideas
 add_ideas = {
-	extensive_conscription
-	BROTHERHOOD_anti_communist_veterans
-	BROTHERHOOD_forest_guerillas
 }
 
+#Miscellaneous
+set_stability = 0.3
+set_war_support = 0.5
 set_convoys = 10
+set_research_slots = 3
+news_event = { 
+	id = lithuania.1 
+	days = 21
+}
 
-create_faction = baltic_liberation_front
-add_to_faction = LAT
-
-
+#Politics
 set_politics = {
 	ruling_party = autocracy
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
+
+#Popularities
 set_popularities = {
-	autocracy = 14
-	ultra_reactionary = 16
-	authoritarian_democracy = 12
-	conservative_democracy = 6
-	freemarket_liberalism = 3
-	progressive_liberalism = 12
-	social_democracy = 8
+	libertarian_socialism = 4
 	council_communism = 17
-	radical_socialism = 8
-	anarchism = 4
+	vanguard_socialism = 0
+	independent_socialism = 8
+	social_democracy = 8
+	social_liberalism = 12
+	market_liberalism = 4
+	conservative_democracy = 6
+	authoritarian_democracy = 12
+	autocracy = 14
+  	national_syndicalism = 
+  	national_populism = 16
 }

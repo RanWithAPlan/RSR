@@ -4,12 +4,12 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = SOV
+		owner = LAT
 		victory_points = {
-			310 3 #Daugavpils
+			6222 3 #Jelgava
 		}
 		victory_points = {
-			222 1 #Rezekne
+			3255 1 #Jekabpils
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,7 +22,6 @@ state={
 			}
 
 		}
-		add_core_of = SOV
 		add_core_of = LAT
 
 	}
