@@ -12,9 +12,10 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = RIF
 		add_core_of = MOR
 		add_core_of = RIF
+		add_claim_by = SPR
 		victory_points = {
 			9945 3
 		}
@@ -24,14 +25,42 @@ state={
 		victory_points = {
 			12087 1
 		}
+		victory_points = {
+			7215 2
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 3
-			12100 = {
-				naval_base = 3
+			12087 = {
+				bunker = 3
+
+			}
+			7215 = {
+				bunker = 3
+			}
+			4199 = {
+				bunker = 4
+
 			}
 			9945 = {
-				naval_base = 3
+				coastal_bunker  = 2
+
+			}
+			10113 = {
+				coastal_bunker  = 2
+
+			}
+			12100 = {
+				coastal_bunker  = 2
+
+			}
+			12100 = {
+				naval_base = 1
+
+			}
+			9945 = {
+				naval_base = 2
+				
 			}
 		}
 	}

@@ -1,0 +1,64 @@
+ideas = {
+	country = { 
+		legacy_of_the_rif_war = {
+			picture = legacy_of_the_rif_war
+			modifier = {
+				conscription = 0.01
+				experience_gain_army_factor = 0.05
+				weekly_manpower = 100
+				dig_in_speed_factor = 0.2
+				max_dig_in_factor = 0.2
+				terrain_penalty_reduction = 0.50
+				war_support_factor = 0.30
+				political_power_gain = 0.10
+			}
+		}
+		pan_arab_dream = {
+			picture = Hawk_of_Quraish
+			modifier = {
+				conscription = 0.01
+				army_core_attack_factor = 0.20
+				army_core_defence_factor = 0.20
+				war_support_factor = 0.30
+				political_power_gain = 0.10
+			}
+		}
+		berber_arab_conflict = {
+			picture = berber_man
+			modifier = {
+				conscription_factor = -0.05
+				stability_factor = -0.10
+				political_power_gain = -0.10
+			}
+		}
+		fourth_internationale_cooperation = {
+			picture = fourth_international_cooperation
+			modifier = {
+				army_org_factor = 0.05
+				experience_gain_army = 0.01
+				land_doctrine_cost_factor = -0.10
+				industrial_factory_donations = 1
+				military_factory_donations = 1
+			}
+			targeted_modifier = {
+				tag = ITA
+				trade_cost_for_target_factor = -0.5
+			}
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.5
+			}
+		}
+		we_win_or_we_die = {
+			picture = LBA_Senussi_Order
+			modifier = {
+				army_core_defence_factor = 0.20
+				war_support_factor = 0.20
+				army_morale_factor = 0.20
+				supply_combat_penalties_on_core_factor = -0.20
+				equipment_capture_factor = 0.3
+				surrender_limit = 0.50
+			}
+		}
+	}
+}
