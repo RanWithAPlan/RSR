@@ -239,35 +239,41 @@ recruit_character = GER_hienrich_brandler
 
 #rfb
 
-recruit_character = GER_albert_schreiner
 recruit_character = GER_hans_kahle
 recruit_character = GER_ernst_thalmann
+recruit_character = GER_hans_oster
+recruit_character = GER_Karl_Radek
+recruit_character = GER_Bodo_Ushe
 
-#kpd
+#loyalists
 
 recruit_character = GER_hans_beimler
+recruit_character = GER_erich_wollenberg
 recruit_character = GER_ludwig_renn
 recruit_character = GER_max_hoelz
 recruit_character = GER_otto_braun
-recruit_character = GER_wilhelm_zaisser
+recruit_character = GER_josef_romer
+recruit_character = GER_theodor_neubauer
+recruit_character = GER_albert_schreiner
+recruit_character = GER_erich_weinert
+recruit_character = GER_ernst_schneller
 
-#nva
+#blaue-liste
 
 recruit_character = GER_vincenz_muller
-recruit_character = GER_gotthard_heinrici
 recruit_character = GER_albrecht_quirnheim
 recruit_character = GER_erwin_rommel
 recruit_character = GER_johannes_blaskowitz
-
-#uspd
-
-recruit_character = GER_hans_marchwitza
-recruit_character = GER_theodor_neubauer
-recruit_character = GER_artur_becker
-recruit_character = GER_peter_blachstein
+recruit_character = GER_Henning_Tresckow
 
 #NAVY#
 recruit_character = GER_karl_artelt
+recruit_character = GER_walter_steffens
+recruit_character = GER_Gunter_Lutjens
+
+#AIR#
+recruit_character = GER_Harro_Schulze_Boysen
+recruit_character = GER_Erhard_Milch
 
 if = {
 	limit = {

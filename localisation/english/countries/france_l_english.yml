@@ -13,6 +13,10 @@
  FWA:0 "French West Africa"
  FWA_DEF:0 "French West Africa"
  FWA_ADJ:0 "West African"
+
+ FRA_natpop:0 "French Social State"
+ FRA_natpop_DEF:0 "the French Social State"
+ FRA_natpop_ADJ:0 "French"
  
  #Starting Parties
  FRA_libertarian_socialism_party:0 "FA"

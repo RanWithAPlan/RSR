@@ -42,6 +42,14 @@ state={
 				bunker = 4
 
 			}
+			4097 = {
+				bunker = 3
+
+			}
+			10113 = {
+				bunker = 2
+
+			}
 			9945 = {
 				coastal_bunker  = 2
 

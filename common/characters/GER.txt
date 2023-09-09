@@ -106,24 +106,24 @@ characters={
 	}
 	#generals#
 
-	#rfb
+	#radek group
 
     GER_ernst_thalmann = {
         name = "Ernst Thälmann"
 		portraits = {
 			army = {
-				large = "gfx/leaders/GER/RFB/portrait_GER_Ernst_Thallmann_gen.png"
+				large = "gfx/leaders/GER/Radek Group/portrait_GER_Ernst_Thalmann_gen.png"
 			}
 			civilian = {
 				large = "GFX_portrait_GER_Ernst_Thallmann"
 			}
         }
-    	field_marshal = {
+    	corps_commander = {
             traits = { organizer politically_connected rfb_officer}
 	        skill = 2
-	        attack_skill = 1
+	        attack_skill = 3
 	        defense_skill = 2
-	        planning_skill = 1
+	        planning_skill = 2
 	        logistics_skill = 2
         }
 		country_leader = {
@@ -131,40 +131,126 @@ characters={
 			ideology = "vanguard_socialism_subtype"
 		}
     }
-    GER_albert_schreiner = {
-        name = "Albert Schreiner"
+    GER_hans_kahle = {
+        name = "Hans Kahle"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/RFB/portrait_GER_Albert_Schreiner.png"
+            	large = "gfx/leaders/GER/Radek Group/portrait_GER_Hans_Kahle.png"
             }
         }
     	corps_commander = {
-            traits = { armor_officer organizer rfb_officer}
+            traits = { armor_officer harsh_leader rfb_officer}
+	        skill = 4
+	        attack_skill = 4
+	        defense_skill = 4
+	        planning_skill = 3
+	        logistics_skill = 3
+        }
+		advisor = {
+			slot = high_command
+			idea_token = GER_hans_kahle_high_command
+			ledger = military
+			traits = { army_regrouping_3 }
+			cost = 150
+		}
+    }
+    GER_hans_oster = {
+        name = "Hans Oster"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Radek Group/portrait_GER_Hans_Oster.png"
+            }
+        }
+    	corps_commander = {
+            traits = { trait_cautious rfb_officer}
+	        skill = 2
+	        attack_skill = 1
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+    }
+    GER_Bodo_Ushe = {
+        name = "Bodo Ushe"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Radek Group/portrait_GER_Bodo_Ushe.png"
+            }
+        }
+    	corps_commander = {
+            traits = { career_officer rfb_officer}
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 3
+        }
+    }
+    GER_Karl_Radek = {
+        name = "Karl Radek"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Radek Group/portrait_GER_Karl_Radek.png"
+            }
+        }
+    	field_marshal = {
+            traits = { politically_connected media_personality rfb_officer}
 	        skill = 3
 	        attack_skill = 3
 	        defense_skill = 2
 	        planning_skill = 3
 	        logistics_skill = 2
         }
+		advisor = {
+			slot = army_chief
+			idea_token = GER_karl_radek_army_chief
+			ledger = army
+			traits = { army_infantry_2 }
+			cost = 150
+		}
     }
-    GER_hans_kahle = {
-        name = "Hans Kahle"
+	GER_wilhelm_pieck = { #not ingame
+        name = "Wilhelm Pieck"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/RFB/portrait_GER_Hans_Kahle.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Wilhelm_Pieck_gen.png"
             }
         }
     	corps_commander = {
-            traits = { trickster commando rfb_officer}
-	        skill = 3
+            traits = { politically_connected old_guard media_personality loyalist_officer}
+	        skill = 2
 	        attack_skill = 2
 	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
         }
     }
 
-	#kpd
+	#loyalists 
+
+    GER_albert_schreiner = {
+        name = "Albert Schreiner"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Albert_Schreiner.png"
+            }
+        }
+    	corps_commander = {
+            traits = { armor_officer organizer loyalist_officer}
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_albert_schreiner_political_advisor
+			ledger = civilian
+			traits = { armaments_organizer }
+			cost = 150
+		}
+    }
 
     GER_hans_beimler = {
         name = "Hans Beimler"
@@ -190,13 +276,20 @@ characters={
             }
         }
     	corps_commander = {
-            traits = {organizer brilliant_strategist loyalist_officer}
-	        skill = 3
+            traits = { brilliant_strategist armor_officer loyalist_officer}
+	        skill = 4
 	        attack_skill = 3
 	        defense_skill = 2
 	        planning_skill = 3
-	        logistics_skill = 2
+	        logistics_skill = 3
         }
+		advisor = {
+			slot = theorist
+			idea_token = GER_ludwig_renn_theorist
+			ledger = army
+			traits = { military_theorist }
+			cost = 150
+		}
     } 
 	GER_max_hoelz = {
         name = "Max Hoelz"
@@ -206,12 +299,35 @@ characters={
             }
         }
     	corps_commander = {
-            traits = { commando trickster trait_reckless loyalist_officer}
+            traits = { commando trickster cavalry_leader trait_reckless loyalist_officer}
 	        skill = 2
 	        attack_skill = 3
 	        defense_skill = 1
 	        planning_skill = 2
 	        logistics_skill = 2
+        }
+		advisor = {
+			slot = high_command 
+			idea_token = GER_max_hoelz_high_command
+			ledger = military
+			traits = { army_commando_2 }
+			cost = 100
+		}
+    }
+	GER_ernst_schneller = {
+        name = "Ernst Schneller"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_ernst_schneller.png"
+            }
+        }
+    	corps_commander = {
+            traits = { organiser loyalist_officer}
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 3
         }
     }
 	GER_otto_braun = {
@@ -229,24 +345,141 @@ characters={
 	        planning_skill = 1
 	        logistics_skill = 1
         }
+		advisor = {
+			slot = high_command 
+			idea_token = GER_otto_braun_high_command
+			ledger = military
+			traits = { army_infantry_1 }
+			cost = 100
+		}
     }
-	GER_wilhelm_pieck = {
-        name = "Wilhelm Pieck"
+	GER_hans_marchwitza = { #not ingame
+        name = "Hans Marchwitza"
 		portraits = {
         	army = {
-            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Wilhelm_Pieck_gen.png"
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Hans_Marchwitza.png"
             }
         }
     	corps_commander = {
-            traits = { politically_connected old_guard media_personality loyalist_officer}
+            traits = { politically_connected loyalist_officer }
 	        skill = 2
 	        attack_skill = 2
-	        defense_skill = 2
+	        defense_skill = 3
 	        planning_skill = 2
 	        logistics_skill = 2
         }
     }
-	GER_wilhelm_zaisser = {
+	GER_theodor_neubauer = {
+        name = "Theodor Neubauer"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Theodor_Neubauer.png"
+            }
+        }
+    	field_marshal = {
+            traits = { winter_specialist loyalist_officer}
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+		advisor = {
+			slot = high_command
+			idea_token = GER_theodor_neubauer_high_command
+			ledger = army
+			traits = { army_logistics_3 }
+			cost = 150
+		}
+    }
+	GER_artur_becker = { #not ingame
+        name = "Artur Becker"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Artur_Becker.png"
+            }
+        }
+    	corps_commander = {
+            traits = { politically_connected loyalist_officer }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_peter_blachstein = { #not ingame
+        name = "Peter Blachstein"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Peter_Blachstein.png"
+            }
+        }
+    	corps_commander = {
+            traits = { loyalist_officer trait_cautious media_personality }
+	        skill = 1
+	        attack_skill = 1
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+    }
+	GER_josef_romer = {
+        name = "Josef Römer"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Beppo_Romer.png"
+            }
+        }
+    	corps_commander = {
+            traits = { loyalist_officer media_personality }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_erich_weinert = {
+        name = "Erich Weinert"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_erich_weinert.png"
+            }
+        }
+    	corps_commander = {
+            traits = { media_personality loyalist_officer}
+	        skill = 3
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 2
+        }
+    }
+	GER_erich_wollenberg = {
+        name = "Erich_Wollenberg"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_erich_wollenberg.png"
+            }
+        }
+    	field_marshal = {
+            traits = { infantry_leader brilliant_strategist aggressive_assaulter loyalist_officer}
+	        skill = 4
+	        attack_skill = 4
+	        defense_skill = 2
+	        planning_skill = 4
+	        logistics_skill = 4
+        }
+		advisor = {
+			slot = army_chief
+			idea_token = GER_erich_wollenberg_army_chief
+			ledger = army
+			traits = { army_chief_reform_3 }
+			cost = 200
+		}
+    }
+	GER_wilhelm_zaisser = { #notingame
         name = "Wilhelm Zaisser"
 		portraits = {
         	army = {
@@ -263,106 +496,7 @@ characters={
         }
     }
 
-	#anarchists 
-
-	GER_helmut_kirschey = {
-        name = "Helmut Kirschey"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/FAUD/portrait_GER_Helmut_Kirschey.png"
-            }
-        }
-    	field_marshal = {
-            traits = { commando hill_fighter faud_officer }
-	        skill = 3
-	        attack_skill = 3
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
-        }
-    }
-	GER_ernst_friedrich = {
-        name = "Ernst Friedrich"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/FAUD/portrait_GER_Ernst_Friedrich.png"
-            }
-        }
-    	corps_commander = {
-            traits = { politically_connected faud_officer }
-	        skill = 2
-	        attack_skill = 1
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
-        }
-    }
-	GER_ernst_schneider = {
-        name = "Ernst Schneider"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/FAUD/portrait_GER_Ernst_Schneider.png"
-            }
-        }
-    	corps_commander = {
-            traits = { naval_iLoyalistsder naval_liason faud_officer }
-	        skill = 2
-	        attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 2
-	        logistics_skill = 1
-        }
-    }
-	GER_carl_einstein = {
-        name = "Carl Einstein"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/FAUD/portrait_GER_Carl_Einstein.png"
-            }
-        }
-    	corps_commander = {
-            traits = { faud_officer politically_connected }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 2
-	        planning_skill = 2
-	        logistics_skill = 2
-        }
-    }
-    GER_adolf_anschutz = {
-        name = "Adold Anschutz"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/FAUD/portrait_GER_Adolf_Anschutz.png"
-            }
-        }
-    	corps_commander = {
-            traits = { politically_connected commando faud_officer}
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 1
-	        logistics_skill = 1
-        }
-    }
-    GER_ret_marut = {
-        name = "Ret Marut"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/FAUD/portrait_GER_Ret_Marut.png"
-            }
-        }
-    	corps_commander = {
-            traits = { politically_connected commando faud_officer }
-	        skill = 2
-	        attack_skill = 1
-	        defense_skill = 1
-	        planning_skill = 1
-	        logistics_skill = 1
-        }
-    }
-
-	#nationalists 
+	#blaue liste
 	GER_vincenz_muller = {
         name = "Vincenz Müller"
 		portraits = {
@@ -378,22 +512,13 @@ characters={
 	        planning_skill = 4
 	        logistics_skill = 3
         }
-    }
-	GER_gotthard_heinrici = {
-        name = "Gotthard Heinrici"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Gotthard_Heinrici.png"
-            }
-        }
-    	corps_commander = {
-            traits = { blaue_liste_officer infantry_officer inflexible_strategist}
-	        skill = 3
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 3
-	        logistics_skill = 3
-        }
+		advisor = {
+			slot = army_chief
+			idea_token = GER_vincenz_muller_army_chief
+			ledger = army
+			traits = { army_chief_drill_2 }
+			cost = 150
+		}
     }
 	GER_albrecht_quirnheim = {
         name = "Albrechn Quirnheim"
@@ -426,6 +551,29 @@ characters={
 			planning_skill=2
 			logistics_skill=3
 		}
+		advisor = {
+			slot = high_command
+			idea_token = GER_erwin_rommel_high_command
+			ledger = military 
+			traits = { army_armored_3 }
+			cost = 150
+		}
+	}
+	GER_Henning_Tresckow = {
+		name = "Henning Tresckow"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Henning_Tresckow.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer blaue_liste_officer}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
 	}
 	GER_johannes_blaskowitz = {
 		name = "Johannes Blaskowitz"
@@ -443,75 +591,7 @@ characters={
 			logistics_skill=2
 		}
 	}
-
-	#uspd 
-	GER_hans_marchwitza = {
-        name = "Hans Marchwitza"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Hans_Marchwitza.png"
-            }
-        }
-    	corps_commander = {
-            traits = { politically_connected loyalist_officer }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
-        }
-    }
-	GER_theodor_neubauer = {
-        name = "Theodor Neubauer"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Theodor_Neubauer.png"
-            }
-        }
-    	field_marshal = {
-            traits = { old_guard winter_specialist loyalist_officer}
-	        skill = 3
-	        attack_skill = 3
-	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 2
-        }
-    }
-	GER_artur_becker = {
-        name = "Artur Becker"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Artur_Becker.png"
-            }
-        }
-    	corps_commander = {
-            traits = { politically_connected loyalist_officer }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
-        }
-    }
-	GER_peter_blachstein = {
-        name = "Peter Blachstein"
-		portraits = {
-        	army = {
-            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Peter_Blachstein.png"
-            }
-        }
-    	corps_commander = {
-            traits = { loyalist_officer trait_cautious media_personality }
-	        skill = 1
-	        attack_skill = 1
-	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 2
-        }
-    }
-
-	#neutral
-    GER_hans_luck = {
+    GER_hans_luck = { #not at game start
         name = "Hans Luck"
 		portraits = {
         	army = {
@@ -527,6 +607,8 @@ characters={
 	        logistics_skill = 3
         }
     }
+
+	#neutral
 	GER_georg_boeselager = {
         name = "Georg Boeselager"
 		portraits = {
@@ -590,5 +672,201 @@ characters={
 	        planning_skill = 1
 	        logistics_skill = 3
         }
+    }
+	#anarchists #notingame
+
+	GER_helmut_kirschey = {
+        name = "Helmut Kirschey"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/FAUD/portrait_GER_Helmut_Kirschey.png"
+            }
+        }
+    	field_marshal = {
+            traits = { commando hill_fighter faud_officer }
+	        skill = 3
+	        attack_skill = 3
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_ernst_friedrich = {
+        name = "Ernst Friedrich"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/FAUD/portrait_GER_Ernst_Friedrich.png"
+            }
+        }
+    	corps_commander = {
+            traits = { politically_connected faud_officer }
+	        skill = 2
+	        attack_skill = 1
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+	GER_ernst_schneider = {
+        name = "Ernst Schneider"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/FAUD/portrait_GER_Ernst_Schneider.png"
+            }
+        }
+    	corps_commander = {
+            traits = { naval_invader naval_liason faud_officer }
+	        skill = 2
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 1
+        }
+    }
+	GER_carl_einstein = {
+        name = "Carl Einstein"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/FAUD/portrait_GER_Carl_Einstein.png"
+            }
+        }
+    	corps_commander = {
+            traits = { faud_officer politically_connected }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 2
+        }
+    }
+    GER_adolf_anschutz = {
+        name = "Adold Anschutz"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/FAUD/portrait_GER_Adolf_Anschutz.png"
+            }
+        }
+    	corps_commander = {
+            traits = { politically_connected commando faud_officer}
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 1
+	        logistics_skill = 1
+        }
+    }
+    GER_ret_marut = {
+        name = "Ret Marut"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/FAUD/portrait_GER_Ret_Marut.png"
+            }
+        }
+    	corps_commander = {
+            traits = { politically_connected commando faud_officer }
+	        skill = 2
+	        attack_skill = 1
+	        defense_skill = 1
+	        planning_skill = 1
+	        logistics_skill = 1
+        }
+    }
+
+	#air#
+	
+    GER_Harro_Schulze_Boysen = {
+        name = "Harro Schulze-Boysen"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Harro_Schulze_Boysen.png"
+            }
+        }
+		advisor = {
+			slot = air_chief
+			idea_token = GER_Harro_Schulze_Boysen_high_command
+			ledger = Air
+			traits = { air_chief_reform_2 }
+			cost = 150
+		}
+    }
+    GER_Erhard_Milch = {
+        name = "Erhard Milch"
+		portraits = {
+        	army = {
+            	large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Erhard_Milch.png"
+            }
+        }
+		advisor = {
+			slot = high_command
+			idea_token = GER_Erhard_Milch_high_command
+			ledger = military
+			traits = { air_strategic_bombing_3 }
+			cost = 150
+		}
+    }
+
+	#navy
+
+    GER_karl_artelt = {
+        name = "Karl Artelt"
+		portraits = {
+        	navy = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Karl_Artelt.png"
+            }
+        }
+		navy_leader = {
+			traits = { politically_connected war_hero seawolf loyalist_officer}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = GER_karl_artelt_navy_chief
+			ledger = Navy
+			traits = { navy_chief_commerce_raiding_1 }
+			cost = 100
+		}
+    }
+	GER_walter_steffens = {
+		name = "Walter Steffens"
+		portraits = {
+        	navy = {
+            	large = "gfx/leaders/GER/Loyalists/portrait_GER_Walter_Steffens.png"
+            }
+        }
+		navy_leader = {
+			traits = { loyalist_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+    GER_Gunter_Lutjens = {
+        name = "Gunter Lutjens"
+		portraits = {
+        	navy = {
+            	large = "gfx/leaders/GER/Blaue-Liste/portrait_GER_Gunter_Lutjens.png"
+            }
+        }
+		navy_leader = {
+			traits = { politically_connected war_hero seawolf blaue_liste_officer}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GER_Gunter_Lutjens_high_command
+			ledger = military
+			traits = { navy_fleet_logistics_3 }
+			cost = 150
+		}
     }
 }

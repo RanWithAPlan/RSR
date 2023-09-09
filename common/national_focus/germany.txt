@@ -207,7 +207,7 @@ focus_tree = {
 	focus = {
 		id = GER_concentrate_industry
 		icon = GFX_GER_concentrating_industry
-		cost = 5
+		cost = 10
 		prerequisite = { focus = GER_begin_the_third_five_year_plan }
 		mutually_exclusive = { focus = GER_empower_local_producers }
 		relative_position_id = GER_begin_the_third_five_year_plan
@@ -221,7 +221,7 @@ focus_tree = {
 	focus = {
 		id = GER_absorb_smaller_practitioners
 		icon = G
-		cost = 5
+		cost = 8
 		prerequisite = { focus = GER_concentrate_industry }
 		relative_position_id = GER_concentrate_industry
 		x = -1
@@ -237,7 +237,7 @@ focus_tree = {
 	focus = {
 		id = GER_develop_the_south
 		icon = GFX_GER_develop_bavaria
-		cost = 5
+		cost = 8
 		prerequisite = { focus = GER_concentrate_industry }
 		relative_position_id = GER_concentrate_industry
 		x = 1
@@ -382,7 +382,7 @@ focus_tree = {
 		relative_position_id = GER_a_divided_force
 		prerequisite = { focus = GER_a_divided_force }
 		available = { always = no }
-		x = -3
+		x = -2
 		y = 1
 	}
 	focus = {
@@ -466,66 +466,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_force_concentration
-		cost = 5
-		relative_position_id = GER_a_divided_force
-		prerequisite = {focus = GER_side_with_the_blaue_liste_clique focus = GER_the_loyalist_direction}
-		x = 0
-		y = 2
-		completion_reward = {
-			add_ideas = { GER_force_concentration_idea }
-		}
-	}
-	focus = {
-		id = GER_combined_arms
-		cost = 5
-		relative_position_id = GER_force_concentration
-		prerequisite = {focus = GER_force_concentration}
-		x = 0
-		y = 1
-		completion_reward = {
-			swap_ideas = { 
-				add_idea = GER_combined_arms_idea
-				remove_idea = GER_force_concentration_idea
-			}
-		}
-	}
-	focus = {
-		id = GER_armoured_spearheads
-		cost = 5
-		relative_position_id = GER_combined_arms
-		prerequisite = {focus = GER_combined_arms}
-		x = 0
-		y = 1
-		completion_reward = {
-			swap_ideas = { 
-				add_idea = GER_armoured_spearheads_idea 
-				remove_idea = GER_combined_arms_idea
-			}
-		}
-	}
-	focus = {
-		id = GER_encirclement_tactics
-		cost = 5
-		relative_position_id = GER_armoured_spearheads
-		prerequisite = {focus = GER_armoured_spearheads}
-		x = 0
-		y = 1
-		completion_reward = {
-			swap_ideas = { 
-				add_idea = GER_encirclement_tactics_idea
-				remove_idea = GER_armoured_spearheads_idea
-			}
-		}
-	}
-	focus = {
 		id = GER_the_loyalist_direction
 		icon = GFX_GER_kpd_direction
 		cost = 0
 		relative_position_id = GER_a_divided_force
 		prerequisite = { focus = GER_a_divided_force }
 		available = { always = no }
-		x = 3
+		x = 2
 		y = 1
 	}
 	focus = {
@@ -625,11 +572,10 @@ focus_tree = {
 		id = GER_a_revitalised_volksarmee
 		icon = g
 		cost = 5
-		relative_position_id = GER_encirclement_tactics
-		prerequisite = { focus = GER_encirclement_tactics}
+		relative_position_id = GER_a_divided_force
 		prerequisite = { focus = GER_a_professional_traditional_fighting_force focus = GER_ending_the_despotism }
 		x = 0
-		y = 1
+		y = 6
 		completion_reward = {
 			army_experience = 30
 		}

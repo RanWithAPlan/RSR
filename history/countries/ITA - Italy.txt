@@ -2,17 +2,15 @@
 
 #Order of Battle
 #Army
-oob = "TAG_1936" #Only use if there are no tanks at start and none in production
+oob = "ITA_1936" #Only use if there are no tanks at start and none in production
 
 if = {
 	limit = { has_dlc = "No Step Back" }
-	set_oob = “ITA_1936_nsb”
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
 	else = {
-		Set_oob = “ITA_1936”
 		set_technology = {
 			gwtank = 1
 			basic_light_tank = 1
