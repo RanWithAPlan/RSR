@@ -1,7 +1,9 @@
 ﻿l_english:
- 
- 
  #Country Names
+ IAO_UK:0 "Mandate of Ostafrika"
+ IAO_UK_DEF:0 "the Mandate of Ostafrika"
+ IAO_UK_ADJ:0 "Ostafrikan"
+
  IAO_anarchism:0 "Tanzania"
  IAO_anarchism_DEF:0 "Tanzania"
  IAO_council_communism:0 "Tanzania"

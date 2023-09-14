@@ -33,7 +33,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = vanguard_socialism
+	ruling_party = authoritarian_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,7 +41,7 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	vanguard_socialism = 47
+	authoritarian_socialism = 47
 	independent_socialism = 23
 	social_democracy = 0
 	social_liberalism = 0

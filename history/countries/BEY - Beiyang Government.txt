@@ -2,7 +2,7 @@
 
 #Order of Battle
 #Army
-oob = "ZHI_1936"
+oob = "BEY_1936"
 
 #Non-Designer Starting Technology
 set_technology = {

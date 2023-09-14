@@ -2,6 +2,11 @@
  
  
  #Country Names
+ UKR_subject:0 "$OVERLORDADJ$ $UKR"
+ UKR_subject_DEF:0 "$OVERLORDADJ$ $UKR$"
+ UKR_SOV_subject:0 "Ukrainian Soviet Socialist Republic"
+ UKR_SOV_subject_DEF:0 "the Ukrainian Soviet Socialist Republic"
+
  UKR_anarchism:0 "Ukrainian Free Territory"
  UKR_anarchism_DEF:0 "the Ukrainian Free Territory"
  UKR_council_communism:0 "Ukrainian Free Territory"

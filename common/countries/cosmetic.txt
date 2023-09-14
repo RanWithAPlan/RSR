@@ -1,3 +1,29 @@
+IAO_UK = {
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
+}
+
+TRS_UK = {
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
+}
+
+JOR_UK = {
+	color = rgb { 201 19 33 }
+	color_ui = rgb { 201 19 33 }
+}
+
+MOR_FRA = {
+	color = rgb { 22 38 156 }
+	color_ui = rgb { 24 100 175 }
+}
+
+TUN_FRA = {
+	color = rgb { 22 38 156 }
+	color_ui = rgb { 24 100 175 }
+}
+
+
 TAN_TAN = {
 	color = rgb { 171  48  48 }
 	color_ui = rgb { 171  48  48 }

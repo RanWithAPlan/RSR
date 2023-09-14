@@ -1,7 +1,12 @@
 ﻿ l_english:
  
- 
  #Country Names
+ BLR_subject:0 "$OVERLORDADJ$ $BLR"
+ BLR_subject_DEF:0 "$OVERLORDADJ$ $BLR$"
+ BLR_SOV_subject:0 "Byelorussian Soviet Socialist Republic"
+ BLR_SOV_subject_DEF:0 "the Byelorussian Soviet Socialist Republic"
+
+
  BLR_anarchism:0 "Belarusian Free Workers Republic"
  BLR_anarchism_DEF:0 "the Belarusian Free Workers Republic"
  BLR_council_communism:0 "Belarusian Free Workers Republic"
