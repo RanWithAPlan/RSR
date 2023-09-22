@@ -28,6 +28,8 @@
  GER_national_populism_DEF:0 "der Deutscher Volksstaat"
  GER_national_syndicalism:0 "Deutscher Volksstaat"
  GER_national_populism_DEF:0 "der Deutscher Volksstaat"
+ GER_national_syndicalism:0 "German National Worker's State"
+ GER_national_syndicalism_DEF:0 "the German National Worker's State"
  
  #Parties
  GER_libertarian_socialism_party:0 "FAUD"
