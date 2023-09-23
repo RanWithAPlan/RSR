@@ -1,0 +1,15 @@
+characters={
+	POR_Sidonio_Pais = {
+		name = "Sidonio Pais"
+		portraits = {
+			civilian = {
+				large = "GFX/leaders/POR/portrait_POR_Sidonio_Pais.png"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			traits={ }
+			ideology = authoritarian_democracy_subtype
+		}
+	}
+}

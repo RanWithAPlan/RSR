@@ -27,7 +27,7 @@
  POR_national_populism:0 "Kingdom of Portugal"
  POR_national_populism_DEF:0 "the Kingdom of Portugal"
  POR_national_syndicalism:0 "National Workers Syndicate of Portugal"
- POR_national_populism_DEF:0 "the National Workers Syndicate of Portugal"
+ POR_national_syndicalism_DEF:0 "the National Workers Syndicate of Portugal"
  
  #Starting Parties
  POR_libertarian_socialism_party:0 "FMP"
@@ -54,3 +54,6 @@
  POR_authoritarian_democracy_party_long:0 "Partido Republicano Nacionalista"
  POR_national_populism_party:0 "IL"
  POR_national_populism_party_long:0 "Integralismo Lusitano"
+ 
+ #Characters
+ POR_Sidonio_Pais:0 "Sidónio Bernardino Cardoso da Silva Pais"

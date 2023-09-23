@@ -57,7 +57,7 @@ set_technology = {
 }
 
 #Characters
-
+recruit_character = POR_Sidonio_Pais
 #Ideas
 add_ideas = {
 	POR_a_pillar_of_salt

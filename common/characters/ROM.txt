@@ -3,7 +3,7 @@ characters = {
 		name = ROM_corneliu_zela_codreanu
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ROM_corneliu_zela_codreanu_large
+				large = "GFX/leaders/ROM/portrait_ROM_Corneliu_Zela_Codreanu.png"
 			}
 
 		country_leader = {

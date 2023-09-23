@@ -455,6 +455,9 @@ ideologies = {
 	
 		types = { 
 			national_syndicalism_subtype = {}
+			national_bolshevism_subtype = {}
+			futurism_subtype = {}
+			fascism_subtype = {}
 		}
 		
 		dynamic_faction_names = {
@@ -495,7 +498,6 @@ ideologies = {
 		types = { 
 			national_populism_subtype = {}
 			populistic_nationalism = {}
-			general_fascism = {}
 			falangism = {}
 			rexism = {}
 			statism = {}

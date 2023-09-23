@@ -77,7 +77,7 @@ set_technology = {
 }
 
 #Characters
-
+recruit_character = ROM_corneliu_zela_codreanu
 #Ideas
 add_ideas = {
 	ROM_all_for_the_captain
