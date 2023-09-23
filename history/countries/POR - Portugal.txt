@@ -71,7 +71,7 @@ set_research_slots = 3
 
 #Politics
 set_politics = {
-	ruling_party = national_populism
+	ruling_party = authoritarian_democracy
 	last_election = "1938.10.30"
 	election_frequency = 48
 	elections_allowed = no
@@ -79,14 +79,17 @@ set_politics = {
 
 #Popularities
 set_popularities = {
-	national_populism = 35
-	autocracy= 25
-	conservative_democracy = 10
-	market_liberalism = 5
 	social_democracy = 5
-	libertarian_socialism = 5
-	council_communism = 10
-	vanguard_socialism = 5
+	council_communism = 0
+	vanguard_socialism = 0
+	independent_socialism = 0
+	social_liberalism = 5
+	market_liberalism = 10
+	conservative_democracy = 5
+	authoritarian_democracy = 40
+	autocracy = 20
+  	national_syndicalism = 5
+  	national_populism = 10
 }
 
 #Variants
